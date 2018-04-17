@@ -7,11 +7,11 @@ This repository contains translations of Wing version 7 for all Wing Python IDE
 products (including Wing Pro, Wing Personal, and Wing 101).  The following 
 translations exist:
 
-PO/en -- Empty translation with all strings; use this to start a new translation
-PO/de -- German
-PO/fr -- French
-PO/ru -- Russian
-PO/es -- Spanish (partial; not currently active)
+  PO/en -- Empty translation with all strings; use this to start a new translation
+  PO/de -- German
+  PO/fr -- French
+  PO/ru -- Russian
+  PO/es -- Spanish (partial; not currently active)
 
 These can be edited with any number of tools available for working with 
 gettext PO files.
@@ -21,9 +21,6 @@ Overview of Files
 
 Wing's translatable strings are split into a number of different files, and some 
 are more important than others.  Here is an overview.
-
-Core Files
-..........
 
 These contain strings users will see in the UI:
 
@@ -54,6 +51,7 @@ These contain strings users will see in the UI:
 	src_wingide.po
 	src_wingutils.po
 
+
 Some of Wing's functionality is implemented in scripts that work via the scripting
 API.  These are in source code form in the 'scripts' directory in your Wing installation.
 Users won't typically know the difference from the above, and these strings do show
@@ -66,6 +64,7 @@ up in the UI:
 	scripts_experimental.po
 	scripts_pylintpanel.po
   scripts_brief.po
+
 
 These contain strings that are mostly the docstrings for commands.  They are currently
 only used in the documentation, which is only in English, so most of these strings can
@@ -85,6 +84,7 @@ they are not needed now:
 	src_versioncontrol_commands.po
 	src_wingide_topcommands.po
 
+
 These are currently unused or only contain error strings and can be entirely skipped:
 	
 	scripts_testapi.po
@@ -92,6 +92,7 @@ These are currently unused or only contain error strings and can be entirely ski
   src_docutils_*.po
   src_external_*.po
   src_parsetools.po
+
 
 Starting a New Translation
 --------------------------
@@ -115,9 +116,10 @@ as follows.
 
 First, copy the Makefile and msgfmt.py files from the top level into the PO/* 
 directory you'll be working in.  Then install Wing, matching the version of Wing 
-for which the .po's have been generated.  You'll need to change 'fr' and other 
-aspects of the examples below to match the language you're working on and the location 
-of files on your system.
+for which the .po's have been generated.  
+
+**Important:** You'll need to change 'fr' and other aspects of the examples below to match\
+the language you're working on and the location of files on your system.
 
 ##Linux##
 
@@ -152,7 +154,7 @@ recent Python version:
 
 	msgfmt.py --homedir <your repository>\wing7-po-all\PO\fr\ --mask-file  *.po --targetdir c:\REPO\wing7-po-all\PO\fr\LC_MESSAGES
 
-All files from the folder `homedir` will be compiled by the mask` * .po`, which will be saved in the folder `targetdir`
+All files from the folder `homedir` will be compiled by the mask `*.po`, which will be saved in the folder `targetdir`
   
 	*<your repository>\wing7-po-all\LC_MESSAGES*
 
