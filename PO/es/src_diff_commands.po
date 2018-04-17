@@ -1,0 +1,169 @@
+# Module src_diff_commands translation file for language=es
+# Copyright (C) 2016 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 6.0.0\n"
+"POT-Creation-Date: 2016-12-19 09:57+EST\n"
+"PO-Revision-Date: 2016-11-28 20:57 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: src/diff/commands.py:35
+msgid ""
+"These commands act on the diff/merge manager or on the current project,\n"
+"  regardless of keyboard focus."
+msgstr ""
+
+#: src/diff/commands.py:68
+msgid ""
+"Start a diff/merge session with the given two files.  Orientation should be "
+"'h' or 'v'\n"
+"    for horizontal or vertical side by side comparison, or None to use the "
+"Editor / Diff/Merge /\n"
+"    Orientation preference"
+msgstr ""
+
+#: src/diff/commands.py:84
+msgid "File A"
+msgstr ""
+
+#: src/diff/commands.py:90
+msgid "File A:"
+msgstr ""
+
+#: src/diff/commands.py:91
+msgid "File B"
+msgstr ""
+
+#: src/diff/commands.py:97
+msgid "File B:"
+msgstr ""
+
+#: src/diff/commands.py:104
+msgid "Compare Files"
+msgstr ""
+
+#: src/diff/commands.py:108
+msgid ""
+"Start a diff/merge session with the given two directories.  Orientation "
+"should be 'h' or 'v'\n"
+"    for horizontal or vertical side by side comparison, or None to use the "
+"Editor / Diff/Merge /\n"
+"    Orientation preference"
+msgstr ""
+
+#: src/diff/commands.py:113
+msgid "Cannot compare remote directories"
+msgstr ""
+
+#: src/diff/commands.py:114
+msgid ""
+"Comparing remote directories is not yet supported.  Please email "
+"support@wingware.com if you need this feature."
+msgstr ""
+
+#: src/diff/commands.py:117
+msgid "OK"
+msgstr ""
+
+#: src/diff/commands.py:135
+msgid "Directory A"
+msgstr ""
+
+#: src/diff/commands.py:141
+msgid "Directory A:"
+msgstr ""
+
+#: src/diff/commands.py:142
+msgid "Directory B"
+msgstr ""
+
+#: src/diff/commands.py:148
+msgid "Directory B:"
+msgstr ""
+
+#: src/diff/commands.py:154
+msgid "Compare Directories"
+msgstr ""
+
+#: src/diff/commands.py:158
+msgid ""
+"Start a diff/merge session between the current editor's unsaved\n"
+"    contents and the contents of its file on disk. Orientation should be "
+"'h'\n"
+"    or 'v' for horizontal or vertical side by side comparison, or None to "
+"use\n"
+"    the Editor / Diff/Merge / Orientation preference"
+msgstr ""
+
+#: src/diff/commands.py:178
+msgid "Compare Buffer to Disk"
+msgstr ""
+
+#: src/diff/commands.py:182
+msgid "Start a diff/merge session with the first/top-most two visible files."
+msgstr ""
+
+#: src/diff/commands.py:191
+msgid ""
+"Start a diff/merge session between the file or directory currently\n"
+"    selected in the GUI and the corresponding revision in version control.\n"
+"    Orientation should be 'h' or 'v' for horizontal or vertical side by "
+"side\n"
+"    comparison, or None to use the Editor / Diff/Merge / Orientation\n"
+"    preference"
+msgstr ""
+
+#: src/diff/commands.py:215
+msgid "Compare to Repository"
+msgstr ""
+
+#: src/diff/commands.py:219
+msgid "Move to next difference in current diff/merge session"
+msgstr ""
+
+#: src/diff/commands.py:227
+msgid "Move to previous difference in current diff/merge session"
+msgstr ""
+
+#: src/diff/commands.py:234
+msgid "Cancel the current diff/merge session"
+msgstr ""
+
+#: src/diff/commands.py:241
+msgid "Merge the current change from file A to file B"
+msgstr ""
+
+#: src/diff/commands.py:252
+msgid "Merge the current change from file B to file A"
+msgstr ""
+
+#: src/diff/commands.py:263
+msgid ""
+"Lock or unlock scrolling when diff/merge is active.  Toggles the\n"
+"    state by default or set lock=True or lock=False to set a particular\n"
+"    state."
+msgstr ""
+
+#: src/diff/commands.py:272
+msgid ""
+"Determine whether to ignore white space in differences.  Toggles the\n"
+"    state by default or set ignore=True or ignore=False to set a particular\n"
+"    state."
+msgstr ""
+
+#: src/diff/commands.py:283
+msgid " Returns list of menu items for selecting recent diff/merge sessions "
+msgstr ""
+
+#: src/diff/commands.py:315
+msgid ""
+" Returns list of menu items for selecting among active diff/merge sessions "
+msgstr ""

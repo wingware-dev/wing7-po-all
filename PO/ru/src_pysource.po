@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_pysource\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"PO-Revision-Date: 2018-03-18 19:43+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 44369\n"
+"X-Loco-Api-Version: 1.0.19 20180317-1\n"
+
+#: src/pysource/attribs.py:23
+msgid "Analyze main file for sys.path changes"
+msgstr "Анализ основного файла для изменения sys.path"
+
+#: src/pysource/codewarn.py:60
+#, fuzzy
+msgid "Undefined attribute"
+msgstr "Неопределенное имя: %s"
+
+#: src/pysource/codewarn.py:61
+#, fuzzy
+msgid "Undefined name"
+msgstr "Неопределенное имя: %s"
+
+#: src/pysource/codewarn.py:62
+msgid "Import not found"
+msgstr ""
+
+#: src/pysource/codewarn.py:63
+msgid "Syntax error"
+msgstr ""
+
+#: src/pysource/codewarn.py:64
+msgid "Indent warning"
+msgstr ""
+
+#: src/pysource/codewarn.py:436
+msgid "Imported module not found: {}"
+msgstr ""
+
+#: src/pysource/codewarn.py:443
+msgid "Undefined name: %s"
+msgstr "Неопределенное имя: %s"
+
+#: src/pysource/codewarn.py:570
+msgid "Undefined attribute: %s, %s is probably %s"
+msgstr "Неопределенный атрибут: %s, %s возможно %s"
+
+#: src/pysource/codewarn.py:571
+msgid " or "
+msgstr "или"
+
+#: src/pysource/codewarn.py:1050 src/pysource/codewarn.py:1056
+msgid "builtin {}"
+msgstr ""
+
+#: src/pysource/codewarn.py:1051
+msgid "the {} class"
+msgstr ""
+
+#: src/pysource/codewarn.py:1058
+msgid "a {} instance"
+msgstr ""
+
+#: src/pysource/codewarn.py:1060
+msgid "{} instances"
+msgstr ""
+
+#: src/pysource/codewarn.py:1064
+msgid " in {} module"
+msgstr ""
+
+#: src/pysource/codewarn.py:1069
+msgid "the {} module"
+msgstr ""
+
+#: src/pysource/codewarn.py:1076
+msgid "a builtin {} instance"
+msgstr ""
+
+#: src/pysource/codewarn.py:1078
+msgid "builtin {} instances"
+msgstr ""
+
+#: src/pysource/codewarn.py:1080
+msgid "the builtin {} class"
+msgstr ""
+
+#: src/pysource/llinecache.py:74
+msgid "Inconsistent indentation (not in units of indent size)"
+msgstr "Несогласованный отступ (не в единицах отступов)"
+
+#: src/pysource/llinecache.py:76
+msgid "This code will never be reached"
+msgstr "Этот код никогда не будет связан"
+
+#: src/pysource/llinecache.py:78
+msgid "Expected indentation to decrease"
+msgstr "Ожидаемый отступ для уменьшения"
+
+#: src/pysource/llinecache.py:80
+msgid "Expected indentation to increase"
+msgstr "Ожидаемый отступ для увеличения"
+
+#: src/pysource/llinecache.py:82
+msgid "Unexpected indentation decrease"
+msgstr "Неожиданное уменьшение отступов"
+
+#: src/pysource/llinecache.py:84
+msgid "Unexpected indentation increase"
+msgstr "Неожиданное увеличение отступа"
+
+#: src/pysource/llinecache.py:86
+msgid "Bad indentation level"
+msgstr "Плохой уровень отступов"
+
+#: src/pysource/llinecache.py:88
+msgid "Indentation error (unspecified)"
+msgstr "Ошибка отступов (неуказанная)"
+
+#: src/pysource/manager.py:223
+msgid "(Analyzing Files: pass 1, Q=%i) "
+msgstr "(Анализ файлов: проход 1, Q=%i) "
+
+#: src/pysource/manager.py:225
+msgid "(Analyzing Files: pass 2, Q=%i) "
+msgstr "(Анализ файлов: проход 2, Q=%i) "
+
+#: src/pysource/manager.py:227
+msgid "(Analyzing Files: %i pending remote inspections) "
+msgstr "(Анализ файлов: %i в ожидании удаленных проверок) "
+
+#: src/pysource/manager.py:1615
+msgid ""
+"Scrape errors for %s:\n"
+"%s"
+msgstr ""
+"Очистка ошибок для %s:\n"
+"%s"
+
+#: src/pysource/manager.py:1643
+msgid "%s does not exist (scrape failed)"
+msgstr "%s не существует (ошибка очистки)"
+
+#: src/pysource/manager.py:1647
+msgid "%s is empty (scrape failed; removing file now)"
+msgstr "%s пусто (ошибка очистки; удаление файла)"
+
+#: src/pysource/manager.py:1690
+msgid "Scraping %s"
+msgstr "Очистка %s"
+
+#: src/pysource/manager.py:1700
+msgid "Failed to scrape extension module %s: Python not found"
+msgstr "Не удалось очистить модуль расширения %s: Python не найден"
+
+#: src/pysource/manager.py:1718
+msgid ""
+"Failed to start process to scrape extension module %s: could not find "
+"suitable rundir"
+msgstr ""
+"Не удалось запустить процесс очистки модуля расширения %s: не удалось найти "
+"подходящий rundir"
+
+#: src/pysource/manager.py:1743
+msgid ""
+"Failed to start process to scrape extension module %s: cannot encode "
+"arguments"
+msgstr ""
+"Не удалось запустить процесс очистки модуля расширения %s: cannot encode "
+"arguments"
+
+#: src/pysource/manager.py:1750
+msgid "Cache file is %s"
+msgstr "Файл кэша %s"
+
+#: src/pysource/manager.py:1759
+msgid "Failed to start process to scrape extension module %s"
+msgstr "Не удалось запустить процесс очистки модуля расширения %s"
+
+#: src/pysource/manager.py:1764
+msgid "Failed scraping API for %s"
+msgstr "Ошибка очистки API для %s"
+
+#: src/pysource/manager.py:1766
+msgid "API scraping process for %s completed"
+msgstr "Процесс очистки API для %s завершен"
+
+#: src/pysource/prefs.py:28
+msgid ""
+"Path to search for interface files for extension modules.  If directory name "
+"is relative, it will be interpreted as relative to the  user settings "
+"directory (%s)"
+msgstr ""
+"Путь для поиска файлов интерфейса модулей расширений.  Если имя каталога "
+"относительное, оно будет интерпретироваться как относительное к каталогу "
+"пользовательских настроек (%s)"
+
+#: src/pysource/prefs.py:37
+msgid "Whether Wing should try to analyze python source in the background."
+msgstr ""
+"Должен ли Wing попытаться проанализировать источник python в фоновом режиме."
+
+#: src/pysource/prefs.py:46
+msgid "The maximum size of the disk cache in megabytes"
+msgstr "Максимальный размер дискового кэша в мегабайтах"
+
+#: src/pysource/prefs.py:47
+msgid "Clear cache"
+msgstr "Очистить кэш"
+
+#: src/pysource/prefs.py:48
+msgid "Clear cache files and re-analyse all source code"
+msgstr "Очистить кэш-файлы и повторно проанализировать весь исходный код"
+
+#: src/pysource/prefs.py:52
+msgid ""
+"The maximum # of analysis info buffers that can be in-memory at once for "
+"files that are not open."
+msgstr ""
+"Максимальное число буферов данных анализа, которые могут находиться в памяти "
+"одновременно для файлов, которые не открыты."
+
+#: src/pysource/prefs.py:60
+msgid ""
+"Enable to automatically load and introspect extension modules and other "
+"modules that cannot be statically analysed.  These modules are loaded in "
+"another process space and 'scraped' to obtain at least some analysis of the "
+"module's contents."
+msgstr ""
+"Позволяют автоматически загружать и интроспектировать модули расширения и "
+"другие модули, которые не могут быть статически проанализированы.  Эти "
+"модули загружаются в другое пространство процесса и \"выскабливаются\", "
+"чтобы получить хотя бы некоторый анализ содержимого модуля."
+
+#: src/pysource/prefs.py:91
+msgid ""
+"This is a dictionary from module name to Python code that should be executed "
+"before attempting to load extension modules for scraping.  This is needed in "
+"cases where the extension modules are designed to be loaded only after some "
+"configuration magic is performed.  For most extension modules, no extra "
+"configuration should be needed."
+msgstr ""
+"Это словарь из имени модуля в Код Python, который должен быть выполнен перед "
+"попыткой загрузки модулей расширения для scraping.  Это необходимо в тех "
+"случаях, когда модули расширения предназначены для загрузки только после "
+"выполнения некоторой магии конфигурации.  Для большинства модулей расширения "
+"Дополнительная настройка не требуется."
+
+#: src/pysource/prefs.py:126
+msgid "Configuration Code"
+msgstr "Код конфигурации"
+
+#: src/pysource/prefs.py:126
+msgid "Module Name"
+msgstr "Имя модуля"
+
+#: src/pysource/prefs.py:131
+msgid ""
+"Use slower, dotfile locking for sqllite databases to work around buggy "
+"remote file servers.  Only needed if the user cache directory is on a remote "
+"file system or can be accessed via a remote file system.  It is recommended "
+"that the user cache directory be on the local file system for performance "
+"reasons."
+msgstr ""
+"Используйте медленную блокировку dotfile для баз данных sqllite, чтобы "
+"обойти багги удаленных файловых серверов.  Требуется только в том случае, "
+"если каталог кэша пользователя находится в удаленной файловой системе или "
+"доступен через удаленную файловую систему.  По соображениям "
+"производительности рекомендуется, чтобы каталог кэша пользователя находился "
+"в локальной файловой системе."
+
+#: src/pysource/prefs.py:140
+msgid ""
+"Prefix for Python Standard Library Documentation.  This should be in the "
+"form https://docs.python.org/library/ and Wing will append module and symbol "
+"specific to the given URL.  To use locally stored documentation, you must "
+"run a local web server since # bookmarks do not work in file: URLs."
+msgstr ""
+"Префикс для документации стандартной библиотеки Python.  Это должно быть в "
+"форме https://docs.python.org/library / и Wing будет добавлять модуль и "
+"символ, специфичные для данного URL.  Чтобы использовать локально "
+"сохраненную документацию, необходимо запустить локальный веб-сервер, так как "
+"# закладки не работают в File: URLs."
+
+#: src/pysource/prefs.py:147
+msgid "Use docs.python.org"
+msgstr "Использовать docs.python.org"
+
+#: src/pysource/prefs.py:148
+msgid "Other:"
+msgstr "Другие:"

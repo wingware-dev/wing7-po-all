@@ -1,0 +1,842 @@
+# translation of src_guiutils.po to German
+# Module src_guiutils translation file for language=de
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+# Claudia Richter <cwalenzyk@yahoo.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: src_guiutils\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2016-12-19 21:30+0100\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/guiutils/dialogs.py:774
+msgid "<untitled item>"
+msgstr "<unbenanntes Objekt>"
+
+#: src/guiutils/dockview.py:567
+msgid "Failed to restore visual state for %s"
+msgstr "Das Wiederherstellen des visuellen Zustandes für %s ist gescheitert"
+
+#: src/guiutils/dockview.py:632
+msgid "General error getting panel view state"
+msgstr "Allgemeiner Fehler beim Abrufen des Feldansicht-Zustandes"
+
+#: src/guiutils/dockview.py:647
+msgid "General error setting panel view state"
+msgstr "Allgemeiner Fehler beim Setzen des Feldansicht-Zustandes"
+
+#: src/guiutils/dockview.py:1573
+msgid "Current tab for tool panel split %i"
+msgstr "Aktueller Reiter für Teilung des Werkzeugfeldes %i"
+
+#: src/guiutils/dockview.py:1592
+msgid "General error getting notebook doc visual state"
+msgstr ""
+"Allgemeiner Fehler beim Abrufen des visuellen Zustandes des Notizbuch-Docs"
+
+#: src/guiutils/dockview.py:1661
+msgid "Could not find panel type '%s'"
+msgstr "Konnte Feldsorte '%s' nicht finden"
+
+#: src/guiutils/dockview.py:1685
+msgid "General error setting notebook visual state"
+msgstr "Allgemeiner Fehler beim Setzen des visuellen Zustandes des Notizbuches"
+
+#: src/guiutils/dockview.py:2308
+msgid "General error getting side notebook state"
+msgstr "Allgemeiner Fehler beim Abrufen des Zustandes des Seitennotizbuches"
+
+#: src/guiutils/dockview.py:2342
+msgid "General error setting side notebook state"
+msgstr "Allgemeiner Fehler beim Setzen des Zustandes des Seitennotizbuches"
+
+#: src/guiutils/docviewer.py:380
+msgid "<< _Back"
+msgstr "<< _Zurück"
+
+#: src/guiutils/docviewer.py:381
+msgid "_Forward >>"
+msgstr "_Vorwärts >>"
+
+#: src/guiutils/docviewer.py:382
+msgid "<< _Previous"
+msgstr "<< _Vorherige"
+
+#: src/guiutils/docviewer.py:383
+msgid "_Next >>"
+msgstr "_Nächste >>"
+
+#: src/guiutils/docviewer.py:384
+msgid "_Contents"
+msgstr "_Inhalte"
+
+#: src/guiutils/filedialog_qt4.py:56
+msgid "All Files (*.*)"
+msgstr "Alle Dateien (*.*)"
+
+#: src/guiutils/filedialog_qt4.py:58
+msgid "All Files (*)"
+msgstr "Alle Dateien (*)"
+
+#: src/guiutils/filedialog_qt4.py:73
+msgid "Executable Files (*.exe)"
+msgstr "Ausführbare Dateien (*.exe)"
+
+#: src/guiutils/filedialog_qt4.py:75
+msgid "Executable Files (*)"
+msgstr "Ausführbare Dateien (*)"
+
+#: src/guiutils/filedialog_qt4.py:230
+msgid "Use Executable"
+msgstr "Programmdatei benutzen"
+
+#: src/guiutils/filedialog_qt4.py:234 src/guiutils/filedialog_qt4.py:241
+#: src/guiutils/filedialog_qt4.py:284
+msgid "Directory Name"
+msgstr "Verzeichnisname"
+
+#: src/guiutils/filedialog_qt4.py:235
+msgid "Create"
+msgstr "Erstellen"
+
+#: src/guiutils/filedialog_qt4.py:247
+msgid "Name"
+msgstr "Name"
+
+#: src/guiutils/filedialog_qt4.py:248 src/guiutils/filedialog_qt4.py:285
+#: src/guiutils/trash.py:152
+msgid "OK"
+msgstr "OK"
+
+#: src/guiutils/filedialog_qt4.py:537 src/guiutils/filedialog_qt4.py:648
+msgid "All Files"
+msgstr "Alle Dateien"
+
+#: src/guiutils/filedialog_qt4.py:648
+msgid "Python"
+msgstr "Python"
+
+#: src/guiutils/filedialog_qt4.py:796
+msgid "Name of new directory:"
+msgstr "Name des neuen Verzeichnisses:"
+
+#: src/guiutils/filedialog_qt4.py:804
+msgid "_Create"
+msgstr "_Erstellen"
+
+#: src/guiutils/filedialog_qt4.py:805
+msgid "Ca_ncel"
+msgstr "A_bbrechen"
+
+#: src/guiutils/filedialog_qt4.py:808
+msgid "Create New Directory"
+msgstr "Neues Verzeichnis erstellen"
+
+#: src/guiutils/filedialog_qt4.py:902
+msgid "Host:"
+msgstr "Host:"
+
+#: src/guiutils/filedialog_qt4.py:925
+msgid "_Open File"
+msgstr "Datei ö_ffnen"
+
+#: src/guiutils/filedialog_qt4.py:927
+msgid "_Save As"
+msgstr "Speichern _unter"
+
+#: src/guiutils/filedialog_qt4.py:928
+msgid "Filename:"
+msgstr "Dateiname:"
+
+#: src/guiutils/filedialog_qt4.py:930
+msgid "_Select File"
+msgstr "Datei _auswählen"
+
+#: src/guiutils/filedialog_qt4.py:932
+msgid "_Create Directory"
+msgstr "Verzeichnis _erstellen"
+
+#: src/guiutils/filedialog_qt4.py:933
+msgid "Directory name:"
+msgstr "Verzeichnisname:"
+
+#: src/guiutils/filedialog_qt4.py:935
+msgid "_Select Directory"
+msgstr "Verzeichnis _auswählen"
+
+#: src/guiutils/filedialog_qt4.py:947
+msgid "Show hidden files"
+msgstr "Versteckte Dateien anzeigen"
+
+#: src/guiutils/filedialog_qt4.py:953
+msgid "_New Directory"
+msgstr "_Neues Verzeichnis"
+
+#: src/guiutils/filedialog_qt4.py:959 src/guiutils/formbuilder.py:1467
+#: src/guiutils/formutils.py:501 src/guiutils/formutils.py:818
+msgid "_Cancel"
+msgstr "_Abbrechen"
+
+#: src/guiutils/filedialog_qt4.py:1094
+msgid "Waiting for remote agent"
+msgstr ""
+
+#: src/guiutils/filedialog_qt4.py:1135
+msgid "Could not reach remote agent"
+msgstr ""
+
+#: src/guiutils/filedialog_qt4.py:1268
+msgid "Waiting for Server"
+msgstr "Warte auf Server"
+
+#: src/guiutils/filedialog_qt4.py:1269
+msgid "Cannot create a directory -- the server is not responding."
+msgstr ""
+"Erstellen eines Verzeichnis fehlgeschlagen -- der Server reagiert nicht."
+
+#: src/guiutils/filedialog_qt4.py:1280
+msgid "Invalid Directory"
+msgstr "Ungültiges Verzeichnis"
+
+#: src/guiutils/filedialog_qt4.py:1281
+msgid "The directory name '%s' is invalid"
+msgstr "Der Verzeichnisname '%s' ist ungültig"
+
+#: src/guiutils/filedialog_qt4.py:1287
+msgid "Directory Create Failed"
+msgstr "Erstellen eineVerzeichnis fehlgeschlagen"
+
+#: src/guiutils/filedialog_qt4.py:1288
+msgid "Failed to create the directory %s: %s"
+msgstr "Erstellen des Verzeichnis %s fehlgeschlagen: %s"
+
+#: src/guiutils/filedialog_qt4.py:1308 src/guiutils/formbuilder.py:1466
+#: src/guiutils/formutils.py:494 src/guiutils/formutils.py:817
+msgid "_OK"
+msgstr "_OK"
+
+#: src/guiutils/filedialog_qt4.py:1407
+msgid "Invalid Selection"
+msgstr "Ungültige Auswahl"
+
+#: src/guiutils/filedialog_qt4.py:1408
+msgid "The selected item is not a file"
+msgstr "Der ausgewählte Eintrag ist keine Datei"
+
+#: src/guiutils/formbuilder.py:119
+msgid "True"
+msgstr "Wahr"
+
+#: src/guiutils/formbuilder.py:122
+msgid "False"
+msgstr "Falsch"
+
+#: src/guiutils/formbuilder.py:899 src/guiutils/formbuilder.py:1025
+#: src/guiutils/formbuilder.py:1075 src/guiutils/formbuilder.py:1132
+#: src/guiutils/formbuilder.py:1762
+msgid "Invalid"
+msgstr "Ungültig"
+
+#: src/guiutils/formbuilder.py:1183
+msgid "Font Spec"
+msgstr "Schriftspezifikation"
+
+#: src/guiutils/formbuilder.py:1216
+msgid "Color"
+msgstr "Farbe"
+
+#: src/guiutils/formbuilder.py:1252
+msgid "Icon"
+msgstr "Piktogramm"
+
+#: src/guiutils/formbuilder.py:1256 src/guiutils/formbuilder.py:1526
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/guiutils/formbuilder.py:1256 src/guiutils/formbuilder.py:1526
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/guiutils/formbuilder.py:1256 src/guiutils/formbuilder.py:1526
+#: src/guiutils/keyboard.py:470
+msgid "Insert"
+msgstr "Einfügen"
+
+#: src/guiutils/formbuilder.py:1416
+msgid "New Value"
+msgstr "Neuer Wert"
+
+#: src/guiutils/formbuilder.py:1458
+msgid "Edit Value"
+msgstr "Wert bearbeiten"
+
+#: src/guiutils/formbuilder.py:1526 src/guiutils/formbuilder.py:1627
+msgid "View as Text"
+msgstr "Als Text anzeigen"
+
+#: src/guiutils/formbuilder.py:1629
+msgid "View as List"
+msgstr "Als Liste anzeigen"
+
+#: src/guiutils/formbuilder.py:1830
+msgid "Filename"
+msgstr "Dateiname"
+
+#: src/guiutils/formutils.py:514 src/guiutils/formutils.py:819
+msgid "_Apply"
+msgstr "_Anwenden"
+
+#: src/guiutils/guidefn.py:59
+msgid "Select File"
+msgstr "Datei wählen"
+
+#: src/guiutils/guidefn.py:61
+msgid "Select Directory"
+msgstr "Verzeichnis wählen"
+
+#: src/guiutils/keyboard.py:384
+msgid "Release-"
+msgstr ""
+
+#: src/guiutils/keyboard.py:387
+msgid "Ctrl-"
+msgstr "Strg-"
+
+#: src/guiutils/keyboard.py:389
+msgid "Command-"
+msgstr "Apple-"
+
+#: src/guiutils/keyboard.py:391
+msgid "Alt-"
+msgstr "Alt-"
+
+#: src/guiutils/keyboard.py:393
+msgid "Shift-"
+msgstr "Umschalt-"
+
+#: src/guiutils/keyboard.py:396
+msgid "<unknown>"
+msgstr "<unbekannt>"
+
+#: src/guiutils/keyboard.py:410
+msgid "Shift-Tab"
+msgstr "Umschalt-Tab"
+
+#: src/guiutils/keyboard.py:442
+msgid "Left_Click"
+msgstr "Links_Klicken"
+
+#: src/guiutils/keyboard.py:443
+msgid "Middle_Click"
+msgstr "Mittel_Klicken"
+
+#: src/guiutils/keyboard.py:444
+msgid "Right_Click"
+msgstr "Rechts_Klicken"
+
+#: src/guiutils/keyboard.py:454
+msgid "Alt"
+msgstr "Alt"
+
+#: src/guiutils/keyboard.py:454
+msgid "Ctrl"
+msgstr "Strg"
+
+#: src/guiutils/keyboard.py:454
+msgid "Esc"
+msgstr "Esc"
+
+#: src/guiutils/keyboard.py:454
+msgid "Escape"
+msgstr "Esc"
+
+#: src/guiutils/keyboard.py:454
+msgid "Shift"
+msgstr "Umschalt"
+
+#: src/guiutils/keyboard.py:455
+msgid "ISO_Left_Tab"
+msgstr "Tab_Zurück"
+
+#: src/guiutils/keyboard.py:455
+msgid "Tab"
+msgstr "Tab"
+
+#: src/guiutils/keyboard.py:456
+msgid "Down"
+msgstr "Pfeil_Unten"
+
+#: src/guiutils/keyboard.py:456
+msgid "End"
+msgstr "Ende"
+
+#: src/guiutils/keyboard.py:456
+msgid "Home"
+msgstr "Home"
+
+#: src/guiutils/keyboard.py:456
+msgid "Left"
+msgstr "Pfeil_Links"
+
+#: src/guiutils/keyboard.py:456
+msgid "Right"
+msgstr "Pfeil_Rechts"
+
+#: src/guiutils/keyboard.py:456
+msgid "Up"
+msgstr "Pfeil_Oben"
+
+#: src/guiutils/keyboard.py:457
+msgid "Page_Down"
+msgstr "Seite_Unten"
+
+#: src/guiutils/keyboard.py:457
+msgid "Page_Up"
+msgstr "Seite_Oben"
+
+#: src/guiutils/keyboard.py:458
+msgid "KP_Down"
+msgstr "KP_Pfeil_Unten"
+
+#: src/guiutils/keyboard.py:458
+msgid "KP_End"
+msgstr "KP_Ende"
+
+#: src/guiutils/keyboard.py:458
+msgid "KP_Home"
+msgstr "KP_Home"
+
+#: src/guiutils/keyboard.py:458
+msgid "KP_Left"
+msgstr "KP_Pfeil_Links"
+
+#: src/guiutils/keyboard.py:458
+msgid "KP_Right"
+msgstr "KP_Pfeil_Rechts"
+
+#: src/guiutils/keyboard.py:458
+msgid "KP_Up"
+msgstr "KP_Pfeil_Oben"
+
+#: src/guiutils/keyboard.py:459
+msgid "KP_Page_Down"
+msgstr "KP_Seite_Unten"
+
+#: src/guiutils/keyboard.py:459
+msgid "KP_Page_Up"
+msgstr "KP_Seite_Oben"
+
+#: src/guiutils/keyboard.py:460
+msgid "KP_Add"
+msgstr "KP_Plus"
+
+#: src/guiutils/keyboard.py:460
+msgid "KP_Divide"
+msgstr "KP_/"
+
+#: src/guiutils/keyboard.py:460
+msgid "KP_Multiply"
+msgstr "KP_*"
+
+#: src/guiutils/keyboard.py:460
+msgid "KP_Subtract"
+msgstr "KP_Minus"
+
+#: src/guiutils/keyboard.py:461
+msgid "Pointer_Button1"
+msgstr "Maus_Taste_1"
+
+#: src/guiutils/keyboard.py:461
+msgid "Pointer_Button2"
+msgstr "Maus_Taste_2"
+
+#: src/guiutils/keyboard.py:461
+msgid "Pointer_Button3"
+msgstr "Maus_Taste_3"
+
+#: src/guiutils/keyboard.py:462
+msgid "Backspace"
+msgstr "Rücktaste"
+
+#: src/guiutils/keyboard.py:462
+msgid "Delete"
+msgstr "Löschtaste"
+
+#: src/guiutils/keyboard.py:462
+msgid "Enter"
+msgstr "Eingabetaste"
+
+#: src/guiutils/keyboard.py:462
+msgid "Return"
+msgstr "Eingabetaste"
+
+#: src/guiutils/keyboard.py:462
+msgid "Space"
+msgstr "Leertaste"
+
+#: src/guiutils/keyboard.py:463
+msgid "greater"
+msgstr ">"
+
+#: src/guiutils/keyboard.py:463
+msgid "less"
+msgstr "<"
+
+#: src/guiutils/keyboard.py:463
+msgid "parenleft"
+msgstr "("
+
+#: src/guiutils/keyboard.py:463
+msgid "parenright"
+msgstr ")"
+
+#: src/guiutils/keyboard.py:463
+msgid "percent"
+msgstr "%"
+
+#: src/guiutils/keyboard.py:464
+msgid "Period"
+msgstr "."
+
+#: src/guiutils/keyboard.py:464
+msgid "Question"
+msgstr "?"
+
+#: src/guiutils/keyboard.py:464
+msgid "Slash"
+msgstr "/"
+
+#: src/guiutils/keyboard.py:464
+msgid "numbersign"
+msgstr "#"
+
+#: src/guiutils/keyboard.py:464 src/guiutils/keyboard.py:467
+msgid "underscore"
+msgstr "Unterstreichungsstrich"
+
+#: src/guiutils/keyboard.py:465
+msgid "at"
+msgstr "At-Zeichen"
+
+#: src/guiutils/keyboard.py:465
+msgid "backquote"
+msgstr "backquote"
+
+#: src/guiutils/keyboard.py:465
+msgid "dollar"
+msgstr "$"
+
+#: src/guiutils/keyboard.py:465
+msgid "exclam"
+msgstr "!"
+
+#: src/guiutils/keyboard.py:465
+msgid "tilde"
+msgstr "~"
+
+#: src/guiutils/keyboard.py:466
+msgid "ampersand"
+msgstr "&"
+
+#: src/guiutils/keyboard.py:466
+msgid "asciicircum"
+msgstr "asciicircum"
+
+#: src/guiutils/keyboard.py:466
+msgid "asterisk"
+msgstr "*"
+
+#: src/guiutils/keyboard.py:466
+msgid "minus"
+msgstr "Minus"
+
+#: src/guiutils/keyboard.py:467
+msgid "braceleft"
+msgstr "{"
+
+#: src/guiutils/keyboard.py:467
+msgid "braceright"
+msgstr "}"
+
+#: src/guiutils/keyboard.py:467
+msgid "equal"
+msgstr "="
+
+#: src/guiutils/keyboard.py:467
+msgid "plus"
+msgstr "+"
+
+#: src/guiutils/keyboard.py:468
+msgid "bracketleft"
+msgstr "["
+
+#: src/guiutils/keyboard.py:468
+msgid "bracketright"
+msgstr "]"
+
+#: src/guiutils/keyboard.py:468
+msgid "colon"
+msgstr "Doppelpunkt"
+
+#: src/guiutils/keyboard.py:468
+msgid "semicolon"
+msgstr "Semikolon"
+
+#: src/guiutils/keyboard.py:469
+msgid "apostrophe"
+msgstr "Apostroph"
+
+#: src/guiutils/keyboard.py:469
+msgid "backslash"
+msgstr "\\"
+
+#: src/guiutils/keyboard.py:469
+msgid "bar"
+msgstr "|"
+
+#: src/guiutils/keyboard.py:469
+msgid "quotedbl"
+msgstr "\""
+
+#: src/guiutils/keyboard.py:470
+msgid "Browse"
+msgstr "Durchsuchen"
+
+#: src/guiutils/keyboard.py:470
+msgid "Replace"
+msgstr "Ersetzen"
+
+#: src/guiutils/keyboard.py:470
+msgid "Visual"
+msgstr "Sichtbar"
+
+#: src/guiutils/keyboard.py:471
+msgid "Release"
+msgstr ""
+
+#: src/guiutils/keyboard.py:508
+msgid "Could not read key map file"
+msgstr "Short-Cut-Datei konnte nicht gelesen werden"
+
+#: src/guiutils/keyboard.py:509
+msgid "The key map file '%s' could not be found or is not readable."
+msgstr ""
+"Die Short-Cut-Datei '%s' konnte nicht gefunden werden oder ist nicht lesbar."
+
+#: src/guiutils/trash.py:76
+msgid "No Trash Found"
+msgstr "Kein Papierkorb gefunden"
+
+#: src/guiutils/trash.py:77
+msgid ""
+"No trash implementation was found.  You may need to initialize your trash by "
+"using it once from a file browser application. Alternatively, you may enable "
+"the fall-back trash system.  This places trash files in ~/.Trash and may not "
+"integrate with your desktop trash."
+msgstr ""
+
+#: src/guiutils/trash.py:88
+msgid "Use Fallback"
+msgstr ""
+
+#: src/guiutils/trash.py:89 src/guiutils/widgets_qt4.py:2518
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/guiutils/trash.py:140
+msgid "%s: Failed; err=%i"
+msgstr "%s: fehlgeschlagen; err=%i"
+
+#: src/guiutils/trash.py:143
+msgid "Could not Move to Recycling Bin"
+msgstr ""
+
+#: src/guiutils/trash.py:144
+msgid ""
+"Some of the selected items could not be moved to the recycling bin.  Please "
+"check their permissions and try again:"
+msgstr ""
+
+#: src/guiutils/trash.py:147
+msgid "Could not Move to Trash"
+msgstr ""
+
+#: src/guiutils/trash.py:148
+msgid ""
+"Some of the selected items could not be moved to the trash.  Please check "
+"their permissions and try again:"
+msgstr ""
+
+#: src/guiutils/trash.py:166
+msgid "Moving to Recycling Bin"
+msgstr ""
+
+#: src/guiutils/trash.py:167
+msgid "Moving files to the recycling bin.  Please wait."
+msgstr ""
+
+#: src/guiutils/trash.py:169
+msgid "Moving to Trash"
+msgstr ""
+
+#: src/guiutils/trash.py:170
+msgid "Moving files to the trash.  Please wait."
+msgstr ""
+
+#: src/guiutils/trash.py:175
+msgid "Please wait"
+msgstr "Bitte warten"
+
+#: src/guiutils/trash.py:209
+msgid ""
+"Command Failed, err=%s, status=%s: %s\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: src/guiutils/trash.py:295
+msgid "Failed to move to trash"
+msgstr ""
+
+#: src/guiutils/trash.py:307
+msgid "Failed to write info file %s"
+msgstr ""
+
+#: src/guiutils/widgets_qt4.py:1026
+msgid "_Browse..."
+msgstr "_Durchsuchen..."
+
+#: src/guiutils/widgets_qt4.py:1263
+msgid "Select directory to use"
+msgstr "Zu verwendendes Verzeichnis wählen"
+
+#: src/guiutils/widgets_qt4.py:1266
+msgid "Select file to use"
+msgstr "Zu verwendende Datei wählen"
+
+#: src/guiutils/widgets_qt4.py:1798
+msgid "Op_tions"
+msgstr "Op_tionen"
+
+#: src/guiutils/widgets_qt4.py:2136 src/guiutils/widgets_qt4.py:2260
+#: src/guiutils/widgets_qt4.py:2355
+msgid "Change..."
+msgstr "Ändern..."
+
+#: src/guiutils/widgets_qt4.py:2466
+msgid "Wing Icons"
+msgstr "Wing Piktogramme"
+
+# HTK: Stock => Mitgeliefert?
+#: src/guiutils/widgets_qt4.py:2470
+msgid "Stock Icons"
+msgstr "Stock Piktogramm"
+
+#: src/guiutils/widgets_qt4.py:2477
+msgid "Select Icon File"
+msgstr "Piktogramm-Datei wählen"
+
+#: src/guiutils/widgets_qt4.py:2483
+msgid "Choose File"
+msgstr "Datei wählen"
+
+#: src/guiutils/widgets_qt4.py:2517
+msgid "Use Selected Icon"
+msgstr "Ausgewähltes Piktogramm benutzen"
+
+#: src/guiutils/widgets_qt4.py:2520
+msgid "Choose Icon"
+msgstr "Piktogramm wählen"
+
+#: src/guiutils/widgets_qt4.py:2683
+msgid "Default"
+msgstr "Voreinstellung"
+
+#: src/guiutils/widgets_qt4.py:2686
+msgid "Custom (%s)..."
+msgstr "Benutzerdefiniert (%s)..."
+
+#: src/guiutils/widgets_qt4.py:2688
+msgid "Custom..."
+msgstr "Benutzerdefiniert..."
+
+#: src/guiutils/widgets_qt4.py:3470
+msgid "_Options"
+msgstr "_Optionen"
+
+#: src/guiutils/widgets_qt4.py:3516
+msgid "<Unknown>"
+msgstr "<Unbekannt>"
+
+#~ msgid "The quick brown fox programs zippily in Python"
+#~ msgstr "The quick brown fox programs zippily in Python"
+
+#~ msgid "Select a file"
+#~ msgstr "Eine Datei wählen"
+
+#~ msgid "file name"
+#~ msgstr "Dateiname"
+
+#~ msgid "Bad %s"
+#~ msgstr "Fehlerhafte %s"
+
+#~ msgid "You must enter a valid %s"
+#~ msgstr "Sie müssen einen gültigen %s eingeben"
+
+#~ msgid "Confirm overwrite"
+#~ msgstr "Überschreiben bestätigen"
+
+#~ msgid "Overwrite existing file?"
+#~ msgstr "Bestehende Datei überschreiben?"
+
+#~ msgid "_No"
+#~ msgstr "_Nein"
+
+#~ msgid "_Yes"
+#~ msgstr "_Ja"
+
+#~ msgid "Message Box"
+#~ msgstr "Nachrichtenbox"
+
+#~ msgid "Select file"
+#~ msgstr "Datei wählen"
+
+#~ msgid "Select Font"
+#~ msgstr "Schrift wählen"
+
+#~ msgid "Select Color"
+#~ msgstr "Farbe wählen"
+
+#~ msgid "Black"
+#~ msgstr "Schwarz"
+
+#~ msgid "White"
+#~ msgstr "Weiß"
+
+#~ msgid "Red"
+#~ msgstr "Rot"
+
+#~ msgid "Blue"
+#~ msgstr "Blau"
+
+#~ msgid "Green"
+#~ msgstr "Grün"
+
+#~ msgid "Purple"
+#~ msgstr "Violett"
+
+#~ msgid "Yellow"
+#~ msgstr "Gelb"
+
+#~ msgid "&Options"
+#~ msgstr "&Optionen"

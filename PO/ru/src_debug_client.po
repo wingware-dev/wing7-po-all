@@ -1,0 +1,5089 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_debug_client\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"PO-Revision-Date: 2018-03-11 10:19+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 43511\n"
+"X-Loco-Api-Version: 1.0.18 20180307-1\n"
+
+#: src/debug/client/attribs.py:35
+msgid "Breakpoints for a file"
+msgstr "Точки останова для файла"
+
+#: src/debug/client/attribs.py:39
+msgid "Exceptions ignored for a file"
+msgstr "Исключения, игнорируемые для файла"
+
+#: src/debug/client/attribs.py:43
+msgid "History list of commands in Python Shell"
+msgstr "Журнал команд в оболочке Python"
+
+#: src/debug/client/attribs.py:47
+msgid "History list of commands in Debug Probe"
+msgstr "Журнал команд команд в Зонде Отладки"
+
+#: src/debug/client/attribs.py:51
+msgid "History list of expressions used in the evaluator"
+msgstr "Журнал выражений, использованных в вычислителе"
+
+#: src/debug/client/attribs.py:55
+msgid "History list of expressions"
+msgstr "Журнал выражений"
+
+#: src/debug/client/attribs.py:62
+msgid ""
+"Use $(ENV) to insert values from the environment or from the following "
+"special variables:  $(WING:FILENAME) for full path of current file, $(WING:"
+"LINENO) for current line number, $(WING:SCOPE) for x.y.z-formatted list of "
+"current Python scope, $(WING:PROJECT) for full path of current project, "
+"$(WING:PROJECT_DIR) for the directory that contains the current project, "
+"$(WING:SELECTION) for the text selected on the current editor, and $(WING:"
+"PYTHON) forthe full path to the Python being used by the current project.  "
+"%s can be used as a short hand for $(WING:FILENAME).  These values will be "
+"empty if undefined or there is no current file. "
+msgstr ""
+"Используйте $(ENV) для вставки переменных среды или из следующих специальных "
+"переменных: $(WING:FILENAME) для полного пути текущего файла, $(WING:LINENO) "
+"для текущего номера строки, $ (WING:SCOPE) для xyz -форматированного списка "
+"текущей области Python, $(WING:PROJECT) для полного пути текущего проекта, "
+"$(WING:PROJECT_DIR) для каталога, содержащего текущий проект, $(WING:"
+"SELECTION) для текста, выбранного в текущем редакторе , и $(WING:PYTHON) для "
+"полного пути к Python, используемого текущим проектом. %s можно использовать "
+"как short hand  для $(WING:FILENAME). Эти значения будут пустыми, если не "
+"определены или нет текущего файла."
+
+#: src/debug/client/attribs.py:72
+msgid ""
+"Command line arguments to use when executing or debugging.  Arguments can "
+"optionally be delimited by \"s or 's.  Use \\\" to add \" to an argument and "
+"\\\\\" to add \\\" to an argument.   Environment variable references may "
+"also be used.  A \\ that does not precede a \", ', or $ adds a \\ to an "
+"argument."
+msgstr ""
+"Аргументы командной строки для использования при выполнении или отладке. "
+"Аргументы могут быть необязательно разделены символом \"s или 's. "
+"Используйте \\\" to add \" к аргументу и \\\\\" to add \\\" к аргументу. "
+"Ссылки на переменные среды также могут быть использованы. A \\ который не "
+"предшествует \", ', или $ добавляет аргумент \\ to."
+
+#: src/debug/client/attribs.py:88
+msgid "Used internally to save recently used run arguments"
+msgstr ""
+"Используется внутренне для сохранения недавно использованных аргументов "
+"запуска"
+
+#: src/debug/client/attribs.py:96
+msgid ""
+"Whether to show dialog before running file.  This may be overridden with the "
+"Debugger > Advanced > Auto-show Run Args Dialog preference."
+msgstr ""
+"Показывать диалог перед запуском файла. Это может быть отменено с помощью "
+"параметра Отладчик> Дополнительно> Автозапуск Запустить Диалоговое Окно "
+"Аргументы ."
+
+#: src/debug/client/bpmanager.py:125
+msgid "Breakpoint Insert Failed"
+msgstr "Ошибка Вставки Точки Останова"
+
+#: src/debug/client/bpmanager.py:125
+msgid "Failed to insert breakpoint: "
+msgstr "Не удалось вставить точку останова: "
+
+#: src/debug/client/bpmanager.py:669
+msgid "No code at the selected line"
+msgstr "Нет кода в выбранной строке"
+
+#: src/debug/client/bpmanager.py:706
+msgid "Breakpoint Moved"
+msgstr "Точка Останова Перемещена"
+
+#: src/debug/client/bpmanager.py:707
+msgid ""
+"Wing moved your breakpoint to a line that will be reached by Python.  Not "
+"all physical lines of your code are executed by the interpreter, and "
+"statements like 'pass' are ignored in most contexts."
+msgstr ""
+"Wing сдвинул свою точку останова на строку, которая будет доступна "
+"интерпретатору Python.  Не все физические строки кода выполняются "
+"интерпретатором, и в большинстве случаев операторы типа 'pass' игнорируются."
+
+#: src/debug/client/bpmanager.py:712 src/debug/client/cap_advbreak.py:453
+#: src/debug/client/cap_remotegui.py:877 src/debug/client/cap_remotegui.py:950
+#: src/debug/client/cap_remotegui.py:959
+#: src/debug/client/cap_remotegui.py:1017
+#: src/debug/client/cap_remotegui.py:1251
+#: src/debug/client/cap_remotegui.py:1494 src/debug/client/manager.py:2041
+#: src/debug/client/runstate.py:1810 src/debug/client/varmanager.py:391
+msgid "OK"
+msgstr ""
+
+#: src/debug/client/bpmanager.py:718
+msgid "Don't show this again"
+msgstr "Не показывать это снова"
+
+#: src/debug/client/bpmanager.py:1327
+msgid ""
+"No response from TrackBreaks:  Setting server side ID opportunistically "
+"during UpdateChangedBPs"
+msgstr ""
+"Нет ответа от TrackBreaks:  Установленный ID на стороне сервера "
+"приспособился к обстоятельствам во время UpdateChangedBPs"
+
+#: src/debug/client/bpmanager.py:1327
+msgid "TrackBreaks Failed"
+msgstr "TrackBreaks Не Удались"
+
+#: src/debug/client/callstack.py:64
+msgid "Call Stack"
+msgstr "Стек вызовов"
+
+#: src/debug/client/callstack.py:69 src/debug/client/callstack.py:187
+msgid "Debug Process Call Stack"
+msgstr "Стек Вызовов Процесса Отладки"
+
+#: src/debug/client/callstack.py:242
+msgid "Stack Frames"
+msgstr "Кадры стека"
+
+#: src/debug/client/callstack.py:284 src/debug/client/stackpanel.py:915
+msgid "<thread is running>"
+msgstr "<поток запущен>"
+
+#: src/debug/client/callstack.py:300 src/debug/client/stackpanel.py:949
+#, fuzzy
+msgid "Chained Exception Cause:"
+msgstr "Игнорируемые исключения удалены"
+
+#: src/debug/client/callstack.py:302 src/debug/client/stackpanel.py:951
+#, fuzzy
+msgid "Chained Exception Context:"
+msgstr "Игнорируемые исключения удалены"
+
+#: src/debug/client/callstack.py:307 src/debug/client/stackpanel.py:957
+#, fuzzy
+msgid "Final Exception:"
+msgstr "Исключения"
+
+#: src/debug/client/callstack.py:321
+msgid " pos %s-%s"
+msgstr " поз %s-%s"
+
+#: src/debug/client/callstack.py:323
+msgid " line %s"
+msgstr " строка %s"
+
+#: src/debug/client/callstack.py:328 src/debug/client/stackpanel.py:980
+msgid "prompt %i"
+msgstr "prompt %i"
+
+#: src/debug/client/callstack.py:442 src/debug/client/excpanel.py:1022
+msgid "Failed to select stack frame"
+msgstr "Не удалось выбрать кадр стека"
+
+#: src/debug/client/callstack.py:443 src/debug/client/excpanel.py:1023
+msgid "Could not display selected stack frame"
+msgstr "Не удалось отобразить выбранный кадр стека"
+
+#: src/debug/client/callstack.py:518
+msgid "Copy Stack to Clipboard"
+msgstr "Копировать Стек в буфер обмена"
+
+#: src/debug/client/callstack.py:520
+msgid "Hide Code Line"
+msgstr "Скрыть Строку Кода"
+
+#: src/debug/client/callstack.py:522
+msgid "Show Code Line Appended"
+msgstr "Показать Код Присоединенной Строки"
+
+#: src/debug/client/callstack.py:524
+msgid "Show Code Line Below"
+msgstr "Показать Строку Кода Ниже"
+
+#: src/debug/client/callstack.py:527
+msgid "Indicate Project Files"
+msgstr "Указать Файлы Проекта"
+
+#: src/debug/client/callstack.py:530
+msgid "Show Call Stack Documentation"
+msgstr "Показать Документацию Стека Вызовов"
+
+#: src/debug/client/callstack.py:535 src/debug/client/cap_breakpanel.py:374
+msgid "Breakpoint Mgr"
+msgstr "Точка останова Mgr"
+
+#: src/debug/client/cap_advbreak.py:321
+msgid "Cannot ignore breakpoint '%s' times"
+msgstr "Невозможно игнорировать точкe останова '%s' время"
+
+#: src/debug/client/cap_advbreak.py:321
+msgid "Invalid Value"
+msgstr "Неверное значение"
+
+#: src/debug/client/cap_advbreak.py:358 src/debug/client/cap_launch.py:944
+#: src/debug/client/cap_launch.py:1049 src/debug/client/cap_launch.py:2098
+#: src/debug/client/cap_launch.py:2157 src/debug/client/cap_launch.py:2194
+#: src/debug/client/cap_launch.py:2552 src/debug/client/cap_remotegui.py:1027
+#: src/debug/client/cap_remotegui.py:2042
+#: src/debug/client/cap_remotegui.py:2236 src/debug/client/runstate.py:699
+#: src/debug/client/runstate.py:3710
+msgid "_OK"
+msgstr ""
+
+#: src/debug/client/cap_advbreak.py:359 src/debug/client/cap_launch.py:945
+#: src/debug/client/cap_launch.py:1050 src/debug/client/cap_launch.py:2099
+#: src/debug/client/cap_launch.py:2158 src/debug/client/cap_launch.py:2553
+#: src/debug/client/cap_remotegui.py:1028
+#: src/debug/client/cap_remotegui.py:2043
+#: src/debug/client/cap_remotegui.py:2237 src/debug/client/interactive.py:1603
+#: src/debug/client/runstate.py:2781 src/debug/client/shell.py:1860
+msgid "_Cancel"
+msgstr "Отмена"
+
+#: src/debug/client/cap_advbreak.py:363
+msgid "Conditional Breakpoint"
+msgstr "Условная Точка Останова"
+
+#: src/debug/client/cap_advbreak.py:389
+msgid "Enter new breakpoint condition:"
+msgstr "Введите новое условие точки останова:"
+
+#: src/debug/client/cap_advbreak.py:454 src/debug/client/cap_attach.py:424
+#: src/debug/client/cap_remotegui.py:139 src/debug/client/cap_remotegui.py:976
+#: src/debug/client/cap_remotegui.py:1256
+#: src/debug/client/cap_remotegui.py:1394
+#: src/debug/client/cap_remotegui.py:1562 src/debug/client/manager.py:2040
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/debug/client/cap_advbreak.py:458
+msgid "Ignore Breakpoint"
+msgstr "Игнорировать Точку Останова"
+
+#: src/debug/client/cap_advbreak.py:484
+msgid "Enter number of hits to ignore:"
+msgstr "Введите количество обращений для игнорирования:"
+
+#: src/debug/client/cap_attach.py:140
+msgid "Could not attach"
+msgstr "Не удалось подключить"
+
+#: src/debug/client/cap_attach.py:140
+msgid "Could not attach to host %s, port %s: "
+msgstr "Не удалось подключиться к узлу %s, порт %s: "
+
+#: src/debug/client/cap_attach.py:141
+msgid ""
+"The remote process is not accepting connections, or is not running.  This "
+"may be caused by a missing or incorrect wingdebugpw file.  The wingdebugpw "
+"file in the IDE's user settings directory (%s) must match the wingdebugpw "
+"file that is being read by the debug process (see kPWFilePath in wingdbstub."
+"py)."
+msgstr ""
+"Удаленный процесс не принимает подключения или не выполняется.  Это может "
+"быть вызвано отсутствующим или неправильным файлом wingdebugpw.  Файл "
+"wingdebugpw в каталоге пользовательских настроек интегрированной среды "
+"разработки (%s) должны соответствовать файлу wingdebugpw, который читается в "
+"процессе отладки (см. kPWFilePath в wingdbstub.py)."
+
+#: src/debug/client/cap_attach.py:287
+msgid "Both host and port must be filled in"
+msgstr "Как хост, так и порт должны быть заполнены"
+
+#: src/debug/client/cap_attach.py:287 src/debug/client/cap_attach.py:293
+msgid "Invalid Entry"
+msgstr "Неверный Ввод"
+
+#: src/debug/client/cap_attach.py:293
+msgid "Invalid (non-numeric) port number"
+msgstr "Недействительный (нечисловой) номер порта"
+
+#: src/debug/client/cap_attach.py:339
+msgid "Select a process to attach to:"
+msgstr "Выберите процесс для присоединения:"
+
+#: src/debug/client/cap_attach.py:352
+msgid "Description"
+msgstr "Описание"
+
+#: src/debug/client/cap_attach.py:352
+msgid "Host"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:352
+msgid "Origin"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:352
+msgid "PID"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:352 src/debug/client/prefs.py:149
+msgid "Port"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:369
+msgid "Prefs"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:371
+msgid "Wing"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:373
+msgid "External"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:384
+msgid "Host:"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:397
+msgid "Port:"
+msgstr ""
+
+#: src/debug/client/cap_attach.py:421
+msgid "Attach"
+msgstr "Присоединить"
+
+#: src/debug/client/cap_attach.py:435
+msgid "Attach to Debug Process"
+msgstr "Присоединение к процессу отладки"
+
+#: src/debug/client/cap_breakpanel.py:58
+msgid "Breakpoints"
+msgstr "Контрольные точки"
+
+#: src/debug/client/cap_breakpanel.py:63
+msgid "Debug Breakpoint Manager"
+msgstr "Отладка Диспетчера Точек Останова"
+
+#: src/debug/client/cap_breakpanel.py:148
+msgid "Breakpoint Manager"
+msgstr "Диспетчер Точек Останова"
+
+#: src/debug/client/cap_breakpanel.py:163
+#: src/debug/client/cap_breakpanel.py:174
+msgid "Breakpoint manager state"
+msgstr "Состояние диспетчера точек останова"
+
+#: src/debug/client/cap_breakpanel.py:227
+msgid "Condition"
+msgstr "Состояние"
+
+#: src/debug/client/cap_breakpanel.py:227
+msgid "Ignores"
+msgstr "Игнор-ть"
+
+#: src/debug/client/cap_breakpanel.py:227
+msgid "Location"
+msgstr "Положение"
+
+#: src/debug/client/cap_breakpanel.py:227
+msgid "Temporary"
+msgstr "Временно"
+
+#: src/debug/client/cap_breakpanel.py:227 src/debug/client/prefs.py:577
+msgid "Enabled"
+msgstr "Вкл"
+
+#: src/debug/client/cap_breakpanel.py:228
+msgid "Hits"
+msgstr "Hits"
+
+#: src/debug/client/cap_breakpanel.py:228
+msgid "Ignores Left"
+msgstr "Игнор-ть Слева"
+
+#: src/debug/client/cap_breakpanel.py:290 src/debug/client/vartree.py:497
+msgid "%s, line %i"
+msgstr "%s, строка %i"
+
+#: src/debug/client/cap_breakpanel.py:362
+msgid "Show Breakpoint"
+msgstr "Показать Точку Останова"
+
+#: src/debug/client/cap_breakpanel.py:363
+msgid "Remove Breakpoint"
+msgstr "Удалить Точку Останова"
+
+#: src/debug/client/cap_breakpanel.py:365
+msgid "Remove All Breakpoints"
+msgstr "Удалить Все Точки Останова"
+
+#: src/debug/client/cap_breakpanel.py:366
+msgid "Disable _All Breakpoints"
+msgstr "Отключить Все Точки Останова"
+
+#: src/debug/client/cap_breakpanel.py:367
+msgid "Enable _All Breakpoints"
+msgstr "Включить Все Точки Останова"
+
+#: src/debug/client/cap_breakpanel.py:369
+msgid "Show Breakpoints Documentation"
+msgstr "Показать Документацию По Точкам Останова"
+
+#: src/debug/client/cap_debugprobe.py:41
+#: src/debug/client/cap_debugprobe.py:210
+msgid "Debug Probe"
+msgstr "Зонд Отладки"
+
+#: src/debug/client/cap_debugprobe.py:127
+#: src/debug/client/cap_debugprobe.py:152
+msgid "Cannot execute: no debug process"
+msgstr "Не удается выполнить: нет процесса отладки"
+
+#: src/debug/client/cap_debugprobe.py:133
+msgid "Cannot execute: debug process is busy"
+msgstr "Не удается выполнить: процесс отладки занят"
+
+#: src/debug/client/cap_debugprobe.py:138
+#: src/debug/client/cap_ipythonshell.py:1036
+#: src/debug/client/interactive.py:1320 src/debug/client/interactive.py:1332
+msgid "Waiting for keyboard input"
+msgstr "Ожидается ввод с клавиатуры"
+
+#: src/debug/client/cap_debugprobe.py:140
+msgid "Executing command.  Please wait for result."
+msgstr "Выполнение команды. Пожалуйста дождитесь результата."
+
+#: src/debug/client/cap_debugprobe.py:144 src/debug/client/interactive.py:1326
+msgid "Debugging recursively (R=%i).  Use arrow keys for history."
+msgstr ""
+"Отладка рекурсивно (R=%i).  Используйте клавиши со стрелками для истории."
+
+#: src/debug/client/cap_debugprobe.py:146
+msgid ""
+"Commands run in current frame with debug enabled.  Use arrow keys for "
+"history."
+msgstr ""
+"Команды выполняются в текущем фрейме с включенной отладкой.  Используйте "
+"клавиши со стрелками для истории."
+
+#: src/debug/client/cap_debugprobe.py:148
+msgid ""
+"Commands run in current frame without debug.  Use arrow keys for history."
+msgstr ""
+"Команды выполняются в текущем фрейме без отладки.  Используйте клавиши со "
+"стрелками для истории."
+
+#: src/debug/client/cap_debugprobe.py:150
+msgid "Commands execute in current stack frame.  Use arrow keys for history."
+msgstr ""
+"Команды выполняются в текущем кадре стека.  Используйте клавиши со стрелками "
+"для истории."
+
+#: src/debug/client/cap_debugprobe.py:154
+msgid "Cannot execute: debug program is connecting"
+msgstr "Не удается выполнить: программа отладки подключается"
+
+#: src/debug/client/cap_debugprobe.py:156
+msgid "Cannot execute: debugger not ready or exiting"
+msgstr "Не удается выполнить: отладчик не готов или вышел"
+
+#: src/debug/client/cap_debugprobe.py:158
+msgid "Cannot execute: unknown or invalid debug mode"
+msgstr "Не удается выполнить: неизвестный или недопустимый режим отладки"
+
+#: src/debug/client/cap_debugprobe.py:215
+msgid "Command Line for Probing Paused Debug Process Data"
+msgstr ""
+"Командная строка для Обнаружения приостановленных данных процесса отладки"
+
+#: src/debug/client/cap_debugprobe.py:307
+#: src/debug/client/cap_ipythonshell.py:1404 src/debug/client/debugio.py:897
+#: src/debug/client/excpanel.py:562 src/debug/client/interactive.py:2699
+#: src/debug/client/shell.py:1245
+msgid "_Clear"
+msgstr "Очистить"
+
+#: src/debug/client/cap_debugprobe.py:308 src/debug/client/shell.py:1249
+msgid "_Save a Copy..."
+msgstr "Сохранить копию..."
+
+#: src/debug/client/cap_debugprobe.py:310
+#: src/debug/client/cap_ipythonshell.py:1415 src/debug/client/debugio.py:900
+#: src/debug/client/interactive.py:2716
+msgid "_Wrap Lines"
+msgstr "Перенос строки"
+
+#: src/debug/client/cap_debugprobe.py:311
+#: src/debug/client/cap_ipythonshell.py:1416
+#: src/debug/client/interactive.py:2717
+msgid "_Pretty Print"
+msgstr "Хорошая  Печать"
+
+#: src/debug/client/cap_debugprobe.py:313
+msgid "_Enable Auto-completion"
+msgstr "Включить автозавершение"
+
+#: src/debug/client/cap_debugprobe.py:314 src/debug/client/interactive.py:2723
+msgid "_Filter History by Entered Prefix"
+msgstr "История фильтров по введенному префиксу"
+
+#: src/debug/client/cap_debugprobe.py:316
+#: src/debug/client/cap_ipythonshell.py:1420
+#: src/debug/client/interactive.py:2725
+msgid "Evaluate Only W_hole Lines"
+msgstr "Анализировать Только Целые Линии"
+
+#: src/debug/client/cap_debugprobe.py:320 src/debug/client/interactive.py:2708
+msgid "Enable _Debugging"
+msgstr "Включить Отладку"
+
+#: src/debug/client/cap_debugprobe.py:323 src/debug/client/interactive.py:2711
+msgid "Enable Recursi_ve Prompt"
+msgstr "Включить Recursive Prompt"
+
+#: src/debug/client/cap_debugprobe.py:326
+msgid "Show Debug Probe Doc_umentation"
+msgstr "Показать документацию по Зонду Отладки"
+
+#: src/debug/client/cap_debugprobe.py:349
+msgid "Could not find definition of '%s'"
+msgstr "Не удалось найти определение '%s'"
+
+#: src/debug/client/cap_ipythonshell.py:999
+msgid "Kill current IPython session?"
+msgstr "Убить текущую сессию IPython?"
+
+#: src/debug/client/cap_ipythonshell.py:1001
+msgid "Disconnect from current IPython session?"
+msgstr "Отключиться от текущей сессии IPython?"
+
+#: src/debug/client/cap_ipythonshell.py:1023
+msgid "debugging is disabled, use Options menu to start debugging"
+msgstr "отладка отключена, используйте меню «Параметры», чтобы начать отладку"
+
+#: src/debug/client/cap_ipythonshell.py:1024
+msgid "debugger is active"
+msgstr "отладчик активен"
+
+#: src/debug/client/cap_ipythonshell.py:1025
+msgid "code is stopped in debugger, use the debug tools to work with it"
+msgstr ""
+"код остановлен в отладчике, используйте инструменты отладки для работы с ним"
+
+#: src/debug/client/cap_ipythonshell.py:1030
+msgid "Could not start IPython"
+msgstr "Не удалось запустить IPython"
+
+#: src/debug/client/cap_ipythonshell.py:1032
+#: src/debug/client/interactive.py:1343
+msgid "Cannot execute: use Options -> Restart Shell to launch shell"
+msgstr ""
+"Не удается выполнить: используйте «Параметры» -> «Перезапустить оболочку», "
+"чтобы запустить оболочку"
+
+#: src/debug/client/cap_ipythonshell.py:1034
+#: src/debug/client/interactive.py:1341
+msgid "Cannot execute: waiting for shell to restart"
+msgstr "Не удается выполнить: ожидание перезагрузки оболочки"
+
+#: src/debug/client/cap_ipythonshell.py:1038
+msgid "busy"
+msgstr "занят"
+
+#: src/debug/client/cap_ipythonshell.py:1038
+msgid "idle"
+msgstr ""
+
+#: src/debug/client/cap_ipythonshell.py:1046
+msgid "IPython: kernel is {}; {}"
+msgstr "IPython: ядро {}; {}"
+
+#: src/debug/client/cap_ipythonshell.py:1130
+msgid "Cannot interrupt because kernel is not connected"
+msgstr "Не удается прервать, так как ядро не подключено"
+
+#: src/debug/client/cap_ipythonshell.py:1132
+msgid "Cannot interrupt because kernel was not launched by this process"
+msgstr "Не удается прервать, так как ядро не было запущено этим процессом"
+
+#: src/debug/client/cap_ipythonshell.py:1249
+msgid "IPython"
+msgstr ""
+
+#: src/debug/client/cap_ipythonshell.py:1254
+msgid "IPython Shell"
+msgstr ""
+
+#: src/debug/client/cap_ipythonshell.py:1325
+#: src/debug/client/interactive.py:2612
+msgid "Evaluate _line %i from %s"
+msgstr "Анализ строки %i из %s"
+
+#: src/debug/client/cap_ipythonshell.py:1327
+#: src/debug/client/interactive.py:2614
+msgid "Evaluate _lines %i-%i from %s"
+msgstr "Анализ строк %i-%i из %s"
+
+#: src/debug/client/cap_ipythonshell.py:1330
+#: src/debug/client/interactive.py:2617
+msgid "Evaluate _selection on line %i in %s"
+msgstr "Анализ выбора в строке %i в %s"
+
+#: src/debug/client/cap_ipythonshell.py:1332
+#: src/debug/client/interactive.py:2619
+msgid "Evaluate _selection on lines %i-%i in %s"
+msgstr "Анализ выбора в строках %i-%i в %s"
+
+#: src/debug/client/cap_ipythonshell.py:1337
+#: src/debug/client/interactive.py:2624
+msgid "Evaluate _Selection"
+msgstr "Анализ Выбора"
+
+#: src/debug/client/cap_ipythonshell.py:1402
+#: src/debug/client/interactive.py:2698
+msgid "_Restart Shell"
+msgstr "Перезапуск Оболочки"
+
+#: src/debug/client/cap_ipythonshell.py:1403
+msgid "_Connect to Existing Kernel..."
+msgstr "Подключение к существующему ядру..."
+
+#: src/debug/client/cap_ipythonshell.py:1405
+#: src/debug/client/interactive.py:2700
+msgid "Sa_ve a Copy..."
+msgstr "Сохрани копию..."
+
+#: src/debug/client/cap_ipythonshell.py:1407
+msgid "Send _Interrupt"
+msgstr "Отправить прерывание"
+
+#: src/debug/client/cap_ipythonshell.py:1408
+#: src/debug/client/cap_launch.py:1973 src/debug/client/runstate.py:2760
+msgid "_Debug"
+msgstr "Отладка"
+
+#: src/debug/client/cap_ipythonshell.py:1410
+#: src/debug/client/interactive.py:2702
+msgid "_Evaluate %s"
+msgstr "Анализ %s"
+
+#: src/debug/client/cap_ipythonshell.py:1417
+#: src/debug/client/interactive.py:2714 src/debug/client/interactive.py:2722
+msgid "Enable Auto-_completion"
+msgstr "Включить автозавершение"
+
+#: src/debug/client/cap_ipythonshell.py:1418
+msgid "_Filter history by entered prefix"
+msgstr "История фильтров по введенному префиксу"
+
+#: src/debug/client/cap_ipythonshell.py:1422
+#: src/debug/client/interactive.py:2727
+msgid "_Auto-restart when Evaluate File"
+msgstr "Авто-перезапуск при анализе файла"
+
+#: src/debug/client/cap_ipythonshell.py:1427
+#: src/debug/client/interactive.py:2734
+msgid "_Launch Configuration"
+msgstr "Конфигурация запуска"
+
+#: src/debug/client/cap_ipythonshell.py:1428
+#: src/debug/client/interactive.py:2735
+msgid "_Prompt on Stale Environment"
+msgstr "Подсказка по устаревшей среде"
+
+#: src/debug/client/cap_ipythonshell.py:1431
+msgid "Show IPython _Documentation"
+msgstr "Показать документацию IPython"
+
+#: src/debug/client/cap_launch.py:49
+msgid "Untitled"
+msgstr "Без названия"
+
+#: src/debug/client/cap_launch.py:395
+msgid "Launch %s"
+msgstr "Запуск %s"
+
+#: src/debug/client/cap_launch.py:397
+msgid "Untitled Launch Config"
+msgstr "Неозаглавленная Конфигурация Запуска"
+
+#: src/debug/client/cap_launch.py:773
+msgid "Create Launch Configuration"
+msgstr "Создать Конфигурацию Запуска"
+
+#: src/debug/client/cap_launch.py:774
+msgid "Create a new launch configuration"
+msgstr "Создание новой конфигурации запуска"
+
+#: src/debug/client/cap_launch.py:777
+msgid "Duplicate Launch Configuration"
+msgstr "Дублировать Конфигурацию Запуска"
+
+#: src/debug/client/cap_launch.py:778
+msgid "Duplicate the selected launch configuration"
+msgstr "Дублировать выбранную конфигурацию запуска"
+
+#: src/debug/client/cap_launch.py:781
+msgid "Edit Launch Configuration"
+msgstr "Изменить конфигурацию запуска"
+
+#: src/debug/client/cap_launch.py:782
+msgid "Edit the selected launch configuration"
+msgstr "Править выбранную конфигурацию запуска"
+
+#: src/debug/client/cap_launch.py:785
+msgid "Delete Launch Configuration"
+msgstr "Удалить Конфигурацию Запуска"
+
+#: src/debug/client/cap_launch.py:786
+msgid "Delete the selected launch configuration"
+msgstr "Удалить выбранную конфигурацию запуска"
+
+#: src/debug/client/cap_launch.py:789 src/debug/client/cap_launch.py:1946
+#: src/debug/client/cap_remotegui.py:1891
+#: src/debug/client/cap_remotegui.py:2205
+msgid "New"
+msgstr "Новый"
+
+#: src/debug/client/cap_launch.py:790 src/debug/client/cap_launch.py:1947
+#: src/debug/client/cap_remotegui.py:1892
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: src/debug/client/cap_launch.py:791 src/debug/client/cap_launch.py:1948
+#: src/debug/client/cap_remotegui.py:1893
+msgid "Edit"
+msgstr "Правка"
+
+#: src/debug/client/cap_launch.py:792 src/debug/client/cap_launch.py:1949
+#: src/debug/client/cap_remotegui.py:1894
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/debug/client/cap_launch.py:813
+msgid "Show _Docs..."
+msgstr "Показать Документы..."
+
+#: src/debug/client/cap_launch.py:815 src/debug/client/cap_launch.py:1980
+#: src/debug/client/cap_remotegui.py:1920
+msgid "_Close"
+msgstr "Закрыть"
+
+#: src/debug/client/cap_launch.py:818 src/debug/client/cap_launch.py:1462
+#: src/debug/client/cap_launch.py:1983
+msgid "Name"
+msgstr "Название"
+
+#: src/debug/client/cap_launch.py:818 src/debug/client/cap_remotegui.py:1923
+msgid "ID"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:818 src/debug/client/cap_remotegui.py:1923
+msgid "Shared"
+msgstr "Общий"
+
+#: src/debug/client/cap_launch.py:866
+msgid "Manage Launch Configurations"
+msgstr "Управление Конфигурациями Запуска"
+
+#: src/debug/client/cap_launch.py:941
+msgid "Use Duplicate Launch Configuration Name?"
+msgstr "Использовать Дубликат Имени Конфигурации Запуска?"
+
+#: src/debug/client/cap_launch.py:942
+msgid ""
+"That launch configuration already exists.  Are you sure you want to create "
+"two launch configurations named '%s'?"
+msgstr ""
+"Эта конфигурация запуска уже существует.  Вы уверены, что хотите создать две "
+"конфигурации запуска с именем '%s'?"
+
+#: src/debug/client/cap_launch.py:1026
+msgid "Named Entry Point: "
+msgstr "Именованная Точка Входа: "
+
+#: src/debug/client/cap_launch.py:1034
+msgid "File: "
+msgstr "Файл: "
+
+#: src/debug/client/cap_launch.py:1036
+msgid ""
+"This launch configuration is used by the following, which will revert to "
+"using project-wide settings if the launch configuration is removed:"
+msgstr ""
+"Эта конфигурация запуска используется таким образом, что вернется к "
+"использованию параметров проекта в случае удаления конфигурации запуска:"
+
+#: src/debug/client/cap_launch.py:1045
+msgid "Delete Launch Configuration?"
+msgstr "Удалить конфигурацию запуска?"
+
+#: src/debug/client/cap_launch.py:1046
+msgid ""
+"Are you sure you want to delete launch configuration '%s'?  This cannot be "
+"undone."
+msgstr ""
+"Вы действительно хотите удалить конфигурацию запуска '%s'? Это не может быть "
+"отменено."
+
+#: src/debug/client/cap_launch.py:1081 src/debug/client/cap_launch.py:2235
+#: src/debug/client/cap_remotegui.py:2152
+msgid "_New..."
+msgstr "Новый..."
+
+#: src/debug/client/cap_launch.py:1082 src/debug/client/cap_launch.py:2236
+#: src/debug/client/cap_remotegui.py:2153
+msgid "D_uplicate..."
+msgstr "Дублировать..."
+
+#: src/debug/client/cap_launch.py:1083 src/debug/client/cap_launch.py:2237
+#: src/debug/client/cap_remotegui.py:2154
+msgid "_Edit..."
+msgstr "Правка..."
+
+#: src/debug/client/cap_launch.py:1084 src/debug/client/cap_launch.py:2238
+#: src/debug/client/cap_remotegui.py:2155
+msgid "_Delete..."
+msgstr "Удалить..."
+
+#: src/debug/client/cap_launch.py:1117
+msgid "Launch Configuration: %s"
+msgstr "Конфигурация запуска: %s"
+
+#: src/debug/client/cap_launch.py:1238
+msgid ""
+"Python Executable '%s' is a full path, which may not work if this launch "
+"configuration is shared to other machines or OSes.  You may want to use an "
+"environment variable reference such as ${ENV} as the first part of the path "
+"or use the project setting and configure the project on each machine or OS."
+msgstr ""
+"Исполняемый файл Python '%s' - это полный путь, который может не работать, "
+"если эта конфигурация запуска используется другими компьютерами или ОС.  "
+"Можно использовать ссылку на переменную среды, например ${ENV}, в качестве "
+"первой части пути или использовать параметр проекта и настроить проект на "
+"каждой машине или ОС."
+
+#: src/debug/client/cap_launch.py:1243
+msgid ""
+"Remote Host '%s' is missing a configuration in this project.  This launch "
+"configuration will not work until one is added."
+msgstr ""
+"В этом проекте отсутствует конфигурация удаленного узла '%s'.  Эта "
+"конфигурация запуска не будет работать, пока не будет добавлена."
+
+#: src/debug/client/cap_launch.py:1261
+msgid ""
+"Python Path entry '%s' is a partial path -- We recommend using full paths to "
+"avoid problems locating source files for analysis and debugging.  If this "
+"launch configuration will be shared to other machines or OSes, use an "
+"environment variable reference such as ${WING:PROJECT_DIR} as the first part "
+"of the entry.  "
+msgstr ""
+"Запись пути Python '%s' является частичным путем -- мы рекомендуем "
+"использовать полные пути, чтобы избежать проблем с поиском исходных файлов "
+"для анализа и отладки.  Если эта конфигурация запуска будет совместно "
+"использоваться другими компьютерами или ОС, используйте ссылку на переменную "
+"среды, такую как ${WING:PROJECT_DIR}, в качестве первой части записи.  "
+
+#: src/debug/client/cap_launch.py:1267
+msgid ""
+"If you must use a partial path, be sure to set Initial Directory under the "
+"Python tab."
+msgstr ""
+"Если необходимо использовать частичный путь, обязательно задайте начальный "
+"каталог на вкладке Python."
+
+#: src/debug/client/cap_launch.py:1271
+msgid "Python Path entry '%s' is also a partial path"
+msgstr "Запись пути Python '%s' также является частичным путем"
+
+#: src/debug/client/cap_launch.py:1275
+msgid ""
+"Python Path entry '%s' is a full path which may not work when this launch "
+"configuration is shared to another machine or OS.  Use an environment "
+"variable reference such as ${WING:PROJECT_DIR} as the first part of the path."
+msgstr ""
+"Запись пути Python '% s' - полный путь, который может не работать, поскольку "
+"эта конфигурация запуска ведет на другой компьютер или ОС. Используйте "
+"ссылку в переменной окружения, такую ​​как ${WING: PROJECT_DIR} в качестве "
+"первой часть пути."
+
+#: src/debug/client/cap_launch.py:1281
+msgid "Python Path entry '%s' is also a full path"
+msgstr "Запись пути Python '%s' также полный путь"
+
+#: src/debug/client/cap_launch.py:1285
+msgid "Python Path entry '%s' does not exist"
+msgstr "Запись пути Python '%s' не существует"
+
+#: src/debug/client/cap_launch.py:1287
+msgid "Python Path entry '%s' is not a directory"
+msgstr "Запись пути Python '%s' не является каталогом"
+
+#: src/debug/client/cap_launch.py:1305
+msgid "Build command '%s' could not be found by id or title"
+msgstr "Команда сборки '%s' не удалось найти по id или заголовку"
+
+#: src/debug/client/cap_launch.py:1353 src/debug/client/cap_remotegui.py:1923
+msgid "Python"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:1354 src/debug/client/cap_launch.py:2360
+msgid "Environment"
+msgstr "Окружение"
+
+#: src/debug/client/cap_launch.py:1383
+msgid ""
+"Command line arguments to use when executing or debugging with this launch "
+"configuration.  Arguments can optionally be delimited by \"s or 's.  Use \\"
+"\" to add \" to an argument and \\\\\" to add \\\" to an argument.   "
+"Environment variable references may also be used.  A \\ that does not "
+"precede a \", ', or $ adds a \\ to an argument."
+msgstr ""
+"Аргументы командной строки для использования при выполнении или отладке с "
+"этой конфигурацией запуска.  Аргументы могут быть дополнительно разделены "
+"\"s или 's'.  Используйте \\\"для добавления \" к аргументу и \\\\\" для "
+"добавления \\\" к аргументу.   Также могут использоваться ссылки на "
+"переменные среды.  A \\,  который не предшествует значению \", ' или $, "
+"добавляет a \\ в аргумент."
+
+#: src/debug/client/cap_launch.py:1392
+msgid ""
+"The starting directory for the sub-process.  If unspecified, the directory "
+"for commands will be the location of the project's main debug file or the "
+"project file.  For executing a file, the default directory is the location "
+"of the file. $(ENV) formatted variables may be used to insert values from "
+"the environment and special variables."
+msgstr ""
+"Начальный каталог для подпроцесса. Если не указано, каталог для команд будет "
+"местом основного файла отладки проекта или файла проекта. Для выполнения "
+"файла по умолчанию используется папка по умолчанию. Форматированные "
+"переменные $(ENV) могут использоваться для вставки значений из среды и "
+"специальных переменных."
+
+#: src/debug/client/cap_launch.py:1399
+msgid ""
+"Environment variables to set before running this command.  Entries are in "
+"\"name=value\" format, one per line.  Use \"name=\" (without a value) to "
+"unset and remove an inherited environment value.  If unspecified, the "
+"environment Wing inherits at startup is used."
+msgstr ""
+"Переменные среды, которые нужно задать перед выполнением этой команды.  "
+"Записи в формате \"name=value\", по одному на строку.  Используйте\" name= "
+"\" (без значения), чтобы отменить и удалить унаследованное значение среды. "
+"Если не указано, используется среда Wing, наследуемая при запуске."
+
+#: src/debug/client/cap_launch.py:1404
+msgid ""
+"The Python executable to use.  The default is to use the value selected in "
+"Project Properties, or the interpreter run by \"python\" on the command line "
+"or as found on the path (or registry on Windows)"
+msgstr ""
+"Исполняемый файл Python для использования. По умолчанию используется "
+"значение, выбранное в свойствах проекта, или интерпретатор, запускаемый "
+"«python» в командной строке или найденный на пути (или в реестре в Windows)"
+
+#: src/debug/client/cap_launch.py:1407
+msgid ""
+"The PYTHONPATH to set when using this launch configuration.  The path "
+"separator is \"%s\". The default uses the PYTHONPATH Wing inherited at "
+"startup.  Otherwise, the specified path is added to Python's sys.path.  "
+"$(ENV) formatted variables may be used to insert values from the environment "
+"or special variables such as $(WING:PROJECT_DIR) for the project directory."
+msgstr ""
+"PYTHONPATH требуется установить при использовании этой конфигурации запуска. "
+"Сегмент пути - '%s'. По умолчанию используется PYTHONPATH Wing, "
+"унаследованный при запуске. В противном случае указанный путь добавляется к "
+"sys.path Python. Форматированные переменные $(ENV) могут использоваться для "
+"вставки значений из среды или специальных переменных, таких как $(WING: "
+"PROJECT_DIR) для каталога проекта."
+
+#: src/debug/client/cap_launch.py:1414
+msgid ""
+"Arguments to pass to the Python interpreter when debugging.  The default is "
+"to use the value selected in Project Properties, or -u for unbuffered "
+"output.  Prompts for keyboard input may not appear without the -u option."
+msgstr ""
+"Аргументы для передачи интерпретатору Python при отладке. По умолчанию "
+"используется значение, выбранное в свойствах проекта, или -u для "
+"небуферизованного вывода. Запросы на ввод с клавиатуры могут не отображаться "
+"без опции -u."
+
+#: src/debug/client/cap_launch.py:1421
+msgid ""
+"Command to execute before launching.  If the launch configuration is shared "
+"to other projects, machines, or OSes the command must be given a title and a "
+"like-titled command must be created in each project or on each machine."
+msgstr ""
+"Команда для выполнения перед запуском.  Если конфигурация запуска "
+"используется совместно с другими проектами, машинами или операционными "
+"системами, команде необходимо присвоить заголовок и создать команду с таким "
+"же названием в каждом проекте или на каждом компьютере."
+
+#: src/debug/client/cap_launch.py:1455 src/debug/client/prefs.py:69
+msgid "Remote"
+msgstr "Удаленный"
+
+#: src/debug/client/cap_launch.py:1463
+msgid "The name of the launch configuration"
+msgstr "Имя конфигурации запуска"
+
+#: src/debug/client/cap_launch.py:1490
+msgid "Unbuffered (-u)"
+msgstr "Небуферизованный (-u)"
+
+#: src/debug/client/cap_launch.py:1497
+msgid "None"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:1934
+msgid "Create a new named entry point"
+msgstr "Создать новую именованную точку входа"
+
+#: src/debug/client/cap_launch.py:1937
+msgid "Duplicate the selected named entry point"
+msgstr "Дублировать выбранную именованную точку входа"
+
+#: src/debug/client/cap_launch.py:1940
+msgid "Edit the selected named entry point"
+msgstr "Править выбранную именованную точку входа"
+
+#: src/debug/client/cap_launch.py:1943
+msgid "Delete the selected named entry point"
+msgstr "Удалить выбранную именованную точку входа"
+
+#: src/debug/client/cap_launch.py:1971 src/debug/client/cap_remotegui.py:1916
+msgid "_Show Docs..."
+msgstr "Показать документы..."
+
+#: src/debug/client/cap_launch.py:1977
+msgid "_Execute"
+msgstr "Выполнять"
+
+#: src/debug/client/cap_launch.py:1983 src/debug/client/cap_launch.py:2542
+msgid "Debug Key Binding"
+msgstr "Привязка Ключа Отладки"
+
+#: src/debug/client/cap_launch.py:1983 src/debug/client/cap_launch.py:2545
+msgid "Execute Key Binding"
+msgstr "Выполнить привязку клавиш"
+
+#: src/debug/client/cap_launch.py:2017
+msgid "Right click on the list for additional operations"
+msgstr "Щелкните правой кнопкой мыши по списку дополнительных операций"
+
+#: src/debug/client/cap_launch.py:2030
+msgid "Manage Named Entry Points"
+msgstr "Управление именованными точками ввода"
+
+#: src/debug/client/cap_launch.py:2095
+msgid "Overwrite Existing Named Entry Point?"
+msgstr "Перезаписать существующую именованную точку входа?"
+
+#: src/debug/client/cap_launch.py:2096
+msgid ""
+"That named entry point already exists.  Are you sure you want to overwrite "
+"the existing named entry point '%s'?"
+msgstr ""
+"Эта именованная точка входа уже существует.  Вы уверены, что хотите "
+"перезаписать существующую именованную точку входа '%s'?"
+
+#: src/debug/client/cap_launch.py:2154
+msgid "Confirm Named Entry Point Deletion"
+msgstr "Подтверждение Удаления Именованной Точки Входа"
+
+#: src/debug/client/cap_launch.py:2155
+msgid "Are you sure you want to delete named entry point '%s'?"
+msgstr "Вы уверены, что хотите удалить именованную точку входа '%s'?"
+
+#: src/debug/client/cap_launch.py:2191
+msgid "Cannot Debug"
+msgstr "Не Удается Выполнить Отладку"
+
+#: src/debug/client/cap_launch.py:2192
+msgid ""
+"Cannot debug the named entry point.  The maximum number of debug processes "
+"is already running."
+msgstr ""
+"Не удается отладить именованную точку входа.  Максимальное число процессов "
+"отладки уже запущено."
+
+#: src/debug/client/cap_launch.py:2240
+msgid "_Set Debug Key Binding..."
+msgstr "Установить Привязку Ключа Отладки..."
+
+#: src/debug/client/cap_launch.py:2241
+msgid "Set E_xecute Key Binding..."
+msgstr "Установить Привязку Ключа Выполнения..."
+
+#: src/debug/client/cap_launch.py:2272
+msgid "Named Entry Point: %s"
+msgstr "Именованная Точка Входа: %s"
+
+#: src/debug/client/cap_launch.py:2296 src/debug/client/runstate.py:2760
+msgid "Debug"
+msgstr "Отладка"
+
+#: src/debug/client/cap_launch.py:2329
+msgid "Data"
+msgstr "Данные"
+
+#: src/debug/client/cap_launch.py:2348
+msgid "Python File"
+msgstr "Python File"
+
+#: src/debug/client/cap_launch.py:2349
+msgid "The Python file to launch"
+msgstr "Файл Python для запуска"
+
+#: src/debug/client/cap_launch.py:2361
+msgid ""
+"The launch environment to use.  Either the project environment with "
+"specified run arguments, or a selected launch configuration."
+msgstr ""
+"Используемая среда запуска. Либо среда проекта с указанными аргументами "
+"запуска, либо выбранная конфигурация запуска."
+
+#: src/debug/client/cap_launch.py:2368
+msgid "Whether to show this dialog before launching this entry point"
+msgstr "Нужно ли показывать это диалоговое окно перед запуском точки входа"
+
+#: src/debug/client/cap_launch.py:2447
+msgid "You must specify a file to launch."
+msgstr "Необходимо указать файл для запуска."
+
+#: src/debug/client/cap_launch.py:2454
+msgid "The selected file does not exist."
+msgstr "Выбранный файл не существует."
+
+#: src/debug/client/cap_launch.py:2459
+msgid ""
+"The selected file is not a Python file.  Use the OS Commands tool to launch "
+"non-Python files."
+msgstr ""
+"Выбранный файл не является файлом Python.  Используйте инструмент Команды ОС "
+"для запуска файлов, отличных от Python."
+
+#: src/debug/client/cap_launch.py:2468
+msgid "(from project properties)"
+msgstr "(из свойств проекта)"
+
+#: src/debug/client/cap_launch.py:2473
+msgid "The selected launch configuration no longer exists."
+msgstr "Выбранная конфигурация запуска больше не существует."
+
+#: src/debug/client/cap_launch.py:2497
+msgid ""
+"The selected file is stored on remote host '%s' but the selected launch "
+"configuration %s is for a host '%s'"
+msgstr ""
+"Выбранный файл будет храниться на удаленном хосте '%s', но выбранная "
+"конфигурации запуска %s предназначена для хоста '%s'"
+
+#: src/debug/client/cap_launch.py:2500
+msgid ""
+"The selected file is stored on remote host '%s' but the selected launch "
+"configuration %s is for localhost"
+msgstr ""
+"The selected file is stored on remote host  but the selected launch "
+"configuration  is for localhost\n"
+"\n"
+"Выбранный файл хранится на удаленном хосте '%s', но выбранная конфигурация "
+"запуска %s предназначена для localhost"
+
+#: src/debug/client/cap_launch.py:2504
+msgid ""
+"The selected file is stored on localhost but the selected launch "
+"configuration %s is for a remote host '%s'"
+msgstr ""
+"Выбранный файл хранится на localhost, но выбранная конфигурация запуска %s "
+"предназначена для удаленного узла '%s'"
+
+#: src/debug/client/cap_launch.py:2573
+msgid "The key binding assigned to initiate debug of the named entry point"
+msgstr ""
+"Привязка ключа, назначенная для инициирования отладки именованной точки входа"
+
+#: src/debug/client/cap_launch.py:2575
+msgid ""
+"The key binding assigned to initiate execution (without debugger) of the "
+"named entry point"
+msgstr ""
+"Привязка ключа, назначенная для запуска выполнения (без отладчика) "
+"именованной точки входа"
+
+#: src/debug/client/cap_launch.py:2577
+msgid "Key Binding"
+msgstr "Ключевое связывание"
+
+#: src/debug/client/cap_modview.py:57
+msgid "Modules"
+msgstr "Модули"
+
+#: src/debug/client/cap_modview.py:62
+msgid "Module-oriented Debug Data View (sys.modules)"
+msgstr "Модуль-ориентированный просмотр данных отладки (sys.modules)"
+
+#: src/debug/client/cap_modview.py:216 src/debug/client/cap_watch.py:474
+#: src/debug/client/debugio.py:616 src/debug/client/excpanel.py:495
+#: src/debug/client/interactive.py:2047 src/debug/client/stackpanel.py:1154
+msgid "_Options"
+msgstr "Опции"
+
+#: src/debug/client/cap_remotegui.py:117
+msgid "No Remote Hosts"
+msgstr "Нет Удаленных Хостов"
+
+#: src/debug/client/cap_remotegui.py:118
+msgid "No remote hosts have been configured.  Do you want to add one now?"
+msgstr "Не настроены удаленные хосты. Вы хотите добавить его сейчас?"
+
+#: src/debug/client/cap_remotegui.py:120
+msgid "Add Remote Host"
+msgstr "Добавить Удаленный Хост"
+
+#: src/debug/client/cap_remotegui.py:122
+msgid "No Shared Remote Hosts"
+msgstr "Нет Общих Удаленных Узлов"
+
+#: src/debug/client/cap_remotegui.py:123
+msgid ""
+"No shared remote hosts have been configured.  Do you want to add one now?"
+msgstr "Не настроены общие удаленные хосты. Вы хотите добавить его сейчас?"
+
+#: src/debug/client/cap_remotegui.py:125
+msgid "Add Shared Remote Host"
+msgstr "Добавить Общий Удаленный Хост"
+
+#: src/debug/client/cap_remotegui.py:137 src/debug/client/manager.py:2039
+#: src/debug/client/varmanager.py:390
+msgid "Show Documentation"
+msgstr "Показать документацию"
+
+#: src/debug/client/cap_remotegui.py:193
+msgid "Installing remote agent:"
+msgstr "Установка удаленного агента:"
+
+#: src/debug/client/cap_remotegui.py:202
+msgid "Timed out"
+msgstr "Время вышло"
+
+#: src/debug/client/cap_remotegui.py:237
+msgid "Installing Remote Agent: %s"
+msgstr "Установка удаленного агента: %s"
+
+#: src/debug/client/cap_remotegui.py:238
+#: src/debug/client/cap_remotegui.py:1198
+msgid "Please wait."
+msgstr "Пожалуйста, подождите."
+
+#: src/debug/client/cap_remotegui.py:310
+msgid "Failed to start command line: %s"
+msgstr "Не удалось запустить командную строку: %s"
+
+#: src/debug/client/cap_remotegui.py:311
+msgid "Check the Network > SSH Executable preference"
+msgstr "Проверьте Network> SSH Executable preference"
+
+#: src/debug/client/cap_remotegui.py:334
+#, fuzzy
+msgid "(truncated)"
+msgstr "усеченный"
+
+#: src/debug/client/cap_remotegui.py:334 src/debug/client/cap_remotegui.py:336
+msgid "Sub-process timed out"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:360
+msgid "Could not verify creation of {} (err={})"
+msgstr "Не удалось проверить создание {} (err={})"
+
+#: src/debug/client/cap_remotegui.py:364
+msgid "Failed to create {}"
+msgstr "Не удалось создать {}"
+
+#: src/debug/client/cap_remotegui.py:394
+#, fuzzy
+msgid "Detecting Remote OS Type"
+msgstr "Определение типа ОС"
+
+#: src/debug/client/cap_remotegui.py:410 src/debug/client/cap_remotegui.py:446
+msgid "Could not determine OS type (err={})"
+msgstr "Не удалось определить тип ОС (err={})"
+
+#: src/debug/client/cap_remotegui.py:459
+msgid "Detecting OS type"
+msgstr "Определение типа ОС"
+
+#: src/debug/client/cap_remotegui.py:466 src/debug/client/cap_remotegui.py:479
+#, fuzzy
+msgid "Creating Installation Directory"
+msgstr "Каталог установки:"
+
+#: src/debug/client/cap_remotegui.py:474
+#, fuzzy
+msgid "Could not create installation directory"
+msgstr "Не удалось создать каталог патчей"
+
+#: src/debug/client/cap_remotegui.py:485
+#, fuzzy
+msgid "Checking Installation Directory"
+msgstr "Каталог установки:"
+
+#: src/debug/client/cap_remotegui.py:491 src/debug/client/cap_remotegui.py:499
+#, fuzzy
+msgid "Preparing Installation"
+msgstr "Проверка установки"
+
+#: src/debug/client/cap_remotegui.py:516
+#, fuzzy
+msgid "Configuring Installation"
+msgstr "Проверка установки"
+
+#: src/debug/client/cap_remotegui.py:521
+msgid "Configuring wingdbstub.py"
+msgstr "Настройка wingdbstub.py"
+
+#: src/debug/client/cap_remotegui.py:546
+msgid "Converting EOLs for remote host"
+msgstr "Преобразование EOLs для удаленного хоста"
+
+#: src/debug/client/cap_remotegui.py:564
+msgid "Failed to transfer remote agent; could not determine cygpath (err={})"
+msgstr ""
+"Не удалось передать удаленного агента; не могу определить cygpath (err={})"
+
+#: src/debug/client/cap_remotegui.py:571 src/debug/client/cap_remotegui.py:587
+msgid "Transferring remote agent (part {} of {})"
+msgstr "Передача удаленного агента (часть {} из {})"
+
+#: src/debug/client/cap_remotegui.py:582
+msgid "Failed to transfer remote agent (err={})"
+msgstr "Не удалось передать удаленного агент (err={})"
+
+#: src/debug/client/cap_remotegui.py:593
+msgid "Checking installation"
+msgstr "Проверка установки"
+
+#: src/debug/client/cap_remotegui.py:600
+msgid "Could not set wingdb to executable"
+msgstr "Не удалось установить wingdb в исполняемый файл."
+
+#: src/debug/client/cap_remotegui.py:605
+msgid "Setting wingdb to executable"
+msgstr "Установка wingdb в исполняемый файл"
+
+#: src/debug/client/cap_remotegui.py:617
+msgid "Failed to transfer wingdebugpw (err={})"
+msgstr "Не удалось передать wingdebugpw (err={})"
+
+#: src/debug/client/cap_remotegui.py:622
+msgid "Transferring wingdebugpw"
+msgstr "Передача wingdebugpw"
+
+#: src/debug/client/cap_remotegui.py:868
+#, fuzzy
+msgid "Base Directory Changed"
+msgstr "Базовый каталог"
+
+#: src/debug/client/cap_remotegui.py:869
+msgid ""
+"IMPORTANT:  You changed the Base Directory for host '%s'.  Wing will now "
+"interpret URLs for that host relative to %s.  For example %s now refers to "
+"the remote file %s and previously referred to %s.  You will need to "
+"reconfigure projects that use this remote host if this does not reflect a "
+"change in the location of files on the remote host's disk."
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:947
+msgid "Save Files First"
+msgstr "Сначала Сохраните Файлы"
+
+#: src/debug/client/cap_remotegui.py:948
+msgid ""
+"There are unsaved files open on this remote host.  Please save or close them "
+"before editing the remote host configuration."
+msgstr ""
+"На этом удаленном узле открыты несохраненные файлы.  Сохраните или закройте "
+"их перед редактированием конфигурации удаленного узла."
+
+#: src/debug/client/cap_remotegui.py:956
+msgid "Cannot Edit Remote Host"
+msgstr "Не удается изменить удаленный хост"
+
+#: src/debug/client/cap_remotegui.py:957
+msgid ""
+"This remote host configuration is being used to access the currently open "
+"project.  To edit it, please close the project first."
+msgstr ""
+"Эта конфигурация удаленного хоста используется для доступа к текущему "
+"открытому проекту. Чтобы изменить его, сначала закройте проект."
+
+#: src/debug/client/cap_remotegui.py:967
+msgid "Remote Host Is Being Used"
+msgstr "Используется Удаленный Хост"
+
+#: src/debug/client/cap_remotegui.py:968
+msgid ""
+"This remote host is in use and editing its configuration will affect the "
+"following:"
+msgstr ""
+"Этот удаленный хост используется, и изменение его конфигурации повлияет на "
+"следующее:"
+
+#: src/debug/client/cap_remotegui.py:972
+msgid ""
+"Wing will try to update these for the new remote host configuration.  Do you "
+"want to continue?"
+msgstr ""
+"Wing попытается обновить их для новой конфигурации удаленного хоста. Вы "
+"хотите продолжить?"
+
+#: src/debug/client/cap_remotegui.py:975
+msgid "Edit Remote Host"
+msgstr "Изменить удаленный хост"
+
+#: src/debug/client/cap_remotegui.py:1010
+msgid "Cannot Remove Remote Host"
+msgstr "Не удается удалить удаленный хост"
+
+#: src/debug/client/cap_remotegui.py:1011
+msgid ""
+"This remote host configuration cannot be removed since it is used as follows:"
+msgstr ""
+"Эта конфигурация удаленного узла не может быть удалена, так как она "
+"используется следующим образом:"
+
+#: src/debug/client/cap_remotegui.py:1014
+msgid ""
+"You must close files and/or reconfigure your project to avoid using this "
+"remote host before you can remove it."
+msgstr ""
+"Перед удалением необходимо закрыть файлы и/или перенастроить проект, чтобы "
+"избежать использования этого удаленного узла."
+
+#: src/debug/client/cap_remotegui.py:1024
+msgid "Confirm Remote Host Deletion"
+msgstr "Подтвердить удаление удаленного хоста"
+
+#: src/debug/client/cap_remotegui.py:1025
+msgid "Are you sure you want to delete remote host configuration '%s'?"
+msgstr "Вы действительно хотите удалить конфигурацию удаленного хоста '%s'?"
+
+#: src/debug/client/cap_remotegui.py:1037
+msgid "The currently open project is stored on this remote host"
+msgstr "Текущий открытый проект хранится на этом удаленном хосте"
+
+#: src/debug/client/cap_remotegui.py:1039
+msgid "The project's Python Executable is on this remote host"
+msgstr "Исполняемый файл Python проекта находится на этом удаленном узле"
+
+#: src/debug/client/cap_remotegui.py:1041
+msgid "Files and directories in the project are on this remote host"
+msgstr "Файлы и каталоги в проекте находятся на этом удаленном хосте"
+
+#: src/debug/client/cap_remotegui.py:1043
+msgid "Files on the remote host are open in the editor"
+msgstr "Файлы на удаленном хосте открываются в редакторе"
+
+#: src/debug/client/cap_remotegui.py:1161
+#, fuzzy
+msgid "Probing remote agent:"
+msgstr "Исследование удаленного агента:"
+
+#: src/debug/client/cap_remotegui.py:1170
+msgid "Initializing..."
+msgstr "Инициализация ..."
+
+#: src/debug/client/cap_remotegui.py:1173
+#, fuzzy
+msgid "Waiting for connection..."
+msgstr "Прослушивание соединений"
+
+#: src/debug/client/cap_remotegui.py:1178
+msgid "Waiting ({} secs left)"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:1181
+msgid "Connected but not ready"
+msgstr "Подключено, но не готово"
+
+#: src/debug/client/cap_remotegui.py:1197
+msgid "Probing %s"
+msgstr "Зондирование %s"
+
+#: src/debug/client/cap_remotegui.py:1225
+msgid "Missing Remote Host Configuration"
+msgstr "Отсутствует Конфигурация Удаленного Узла"
+
+#: src/debug/client/cap_remotegui.py:1235
+msgid ""
+"Some autosave files for a remote host were found.  To save those on the "
+"remote host, switch to the project that defines the remote host "
+"configuration '%s' and then save the files.  You can also use Save As to "
+"store the file somewhere else."
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:1240
+msgid ""
+"There is no remote host configuration for host %s.  Do you want to create "
+"one?"
+msgstr ""
+"Конфигурация удаленного хоста для узла % s отсутствует. Вы хотите создать "
+"его?"
+
+#: src/debug/client/cap_remotegui.py:1255
+msgid "Create Host Config"
+msgstr "Создать конфигурацию хоста"
+
+#: src/debug/client/cap_remotegui.py:1298
+msgid "Remote Agent Failed to Start"
+msgstr "Не удалось запустить удаленный Агент"
+
+#: src/debug/client/cap_remotegui.py:1299
+#, fuzzy
+msgid "Connecting to host id %s failed."
+msgstr ""
+"Не удалось подключиться к узлу с кодом %s.  Пожалуйста, проверьте "
+"конфигурацию."
+
+#: src/debug/client/cap_remotegui.py:1302
+msgid "Remote Agent Failed to Install"
+msgstr "Удаленный агент не удалось установить"
+
+#: src/debug/client/cap_remotegui.py:1303
+msgid "The remote agent could not be installed on host id %s."
+msgstr "Удаленный агент не может быть установлен на хосте с кодом %s."
+
+#: src/debug/client/cap_remotegui.py:1333
+msgid ""
+"It looks like you have never connected to this host.  Try it first from the "
+"command line to verify its identity:"
+msgstr ""
+"Похоже, вы никогда не подключались к этому хосту.  Попробуйте сначала из "
+"командной строки, чтобы идентифицировать его:"
+
+#: src/debug/client/cap_remotegui.py:1336
+msgid "The stored host identity does not match."
+msgstr "Сохраненный идентификатор хоста не совпадает."
+
+#: src/debug/client/cap_remotegui.py:1338
+msgid ""
+"You will need to try it once from the command line to accept the new "
+"identity:"
+msgstr ""
+"Вам нужно будет попробовать один раз из командной строки, чтобы принять "
+"новое удостоверение:"
+
+#: src/debug/client/cap_remotegui.py:1340
+msgid ""
+"You will need to remove the old identity from ~/.ssh/known_hosts and then "
+"connect once from the command line once to accept the new identity:"
+msgstr ""
+"Вам нужно будет удалить старый идентификатор из ~/.ssh/known_hosts, а затем "
+"один раз подключиться из командной строки, чтобы принять новое удостоверение:"
+
+#: src/debug/client/cap_remotegui.py:1343
+#, fuzzy
+msgid ""
+"PuTTY is prompting for a login name.  Please add username@ to your Host Name "
+"in the remote host configuration.  Or, you can create a saved session for "
+"your host in putty.exe, set the Connection > Data > Auto-login username, and "
+"then save the session."
+msgstr ""
+"PuTTY запрашивает имя пользователя. Вам необходимо создать сохраненный сеанс "
+"для вашего хоста в putty.exe, установить Connection>Data>Auto-login username "
+"и сохранить сеанс."
+
+#: src/debug/client/cap_remotegui.py:1347
+msgid ""
+"Password-less remote login does not appear to be working.  Please see "
+"https://wingware.com/doc/proj/remote-hosts to configure access via an SSH "
+"user agent."
+msgstr ""
+"Похоже, что удаленный вход без пароля не работает.  Пожалуйста, см. https://"
+"wingware.com/doc/proj/remote-hosts чтобы настроить доступ по SSH с агентом "
+"пользователя."
+
+#: src/debug/client/cap_remotegui.py:1351
+msgid "The remote agent was not found.  Do you want to install it now?"
+msgstr "Удаленный агент не найден. Вы хотите установить его сейчас?"
+
+#: src/debug/client/cap_remotegui.py:1354
+msgid "Output received:"
+msgstr "Полученный результат:"
+
+#: src/debug/client/cap_remotegui.py:1357
+msgid "No output was received."
+msgstr "Нет вывода."
+
+#: src/debug/client/cap_remotegui.py:1391
+msgid "Configure..."
+msgstr "Настройка..."
+
+#: src/debug/client/cap_remotegui.py:1392
+msgid "Install Remote Agent"
+msgstr "Установка Удаленного Агента"
+
+#: src/debug/client/cap_remotegui.py:1393
+msgid "Probe Again"
+msgstr "Проба Снова"
+
+#: src/debug/client/cap_remotegui.py:1474
+msgid "Remote Host is Ready"
+msgstr "Удаленный хост готов"
+
+#: src/debug/client/cap_remotegui.py:1475
+msgid ""
+"Wing's remote agent for remote host identifier %s is up to date and working."
+msgstr ""
+"Удаленный агент Wing для идентификатора удаленного хоста %s является "
+"актуальным и работает."
+
+#: src/debug/client/cap_remotegui.py:1478
+msgid "Host Name:"
+msgstr "Имя хоста:"
+
+#: src/debug/client/cap_remotegui.py:1479
+msgid "Version:"
+msgstr "Версия:"
+
+#: src/debug/client/cap_remotegui.py:1482
+msgid "OS:"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:1483
+msgid "File System Encoding:"
+msgstr "Кодировка файловой системы:"
+
+#: src/debug/client/cap_remotegui.py:1484
+msgid "Remote Agent Process ID:"
+msgstr "Process ID удаленного агента:"
+
+#: src/debug/client/cap_remotegui.py:1489
+msgid "Installation Directory:"
+msgstr "Каталог установки:"
+
+#: src/debug/client/cap_remotegui.py:1490
+msgid "Home Directory:"
+msgstr "Домашний каталог:"
+
+#: src/debug/client/cap_remotegui.py:1491
+msgid "Base Directory:"
+msgstr "Базовый каталог:"
+
+#: src/debug/client/cap_remotegui.py:1545
+msgid ""
+"Remote agent for %s (version %s) needs update; use Project > Remote Hosts"
+msgstr ""
+"Удаленный агент для %s (версия %s) нуждается в обновлении; используйте "
+"Проекты > Удаленные хосты"
+
+#: src/debug/client/cap_remotegui.py:1553
+msgid "Update Remote Agent?"
+msgstr "Обновить удаленный агент?"
+
+#: src/debug/client/cap_remotegui.py:1554
+msgid ""
+"The remote agent's version (%s) does not match Wing's version (%s).  "
+"Updating the remote agent is recommended."
+msgstr ""
+"Версия удаленного агента (%s) не соответствует версии Wing (%s). "
+"Рекомендуется обновить удаленный агент."
+
+#: src/debug/client/cap_remotegui.py:1561
+msgid "Update Remote Agent"
+msgstr "Обновить удаленный агент"
+
+#: src/debug/client/cap_remotegui.py:1572
+msgid "Don't show this dialog again"
+msgstr "Не показывать этот диалог еще раз."
+
+#: src/debug/client/cap_remotegui.py:1803
+msgid "Open Local _File..."
+msgstr "Открыть локальный файл..."
+
+#: src/debug/client/cap_remotegui.py:1804
+msgid "Open _Remote File..."
+msgstr "Открыть удаленный файл..."
+
+#: src/debug/client/cap_remotegui.py:1817
+msgid "Sa_ve As Remote File..."
+msgstr "Сохранить как удаленный файл..."
+
+#: src/debug/client/cap_remotegui.py:1830
+msgid "Open _Remote Project..."
+msgstr "Открытый удаленный проект..."
+
+#: src/debug/client/cap_remotegui.py:1843
+msgid "Sa_ve Project On Remote Host..."
+msgstr "Сохранить проект на удаленном хосте..."
+
+#: src/debug/client/cap_remotegui.py:1876
+msgid "Create a new remote host"
+msgstr "Создать новый удаленный хост"
+
+#: src/debug/client/cap_remotegui.py:1879
+msgid "Duplicate the selected remote host"
+msgstr "Дублировать выбранный удаленный хост"
+
+#: src/debug/client/cap_remotegui.py:1882
+msgid "Edit the selected remote host"
+msgstr "Изменение выбранного удаленного узла"
+
+#: src/debug/client/cap_remotegui.py:1885
+msgid "Delete the selected remote host"
+msgstr "Удалить выбранный удаленный хост"
+
+#: src/debug/client/cap_remotegui.py:1888
+msgid "Probe the selected remote host"
+msgstr "Проверить выбранный удаленный хост"
+
+#: src/debug/client/cap_remotegui.py:1895
+msgid "Probe"
+msgstr "Проба"
+
+#: src/debug/client/cap_remotegui.py:1923
+msgid "Hostname"
+msgstr "Имя хоста"
+
+#: src/debug/client/cap_remotegui.py:1923
+#: src/debug/client/cap_remotegui.py:2458
+msgid "Base Directory"
+msgstr "Базовый каталог"
+
+#: src/debug/client/cap_remotegui.py:1978
+msgid "Manage Remote Hosts"
+msgstr "Управление удаленными хостами"
+
+#: src/debug/client/cap_remotegui.py:2039
+#: src/debug/client/cap_remotegui.py:2233
+msgid "Overwrite Existing Remote Host?"
+msgstr "Перезаписать существующий удаленный хост?"
+
+#: src/debug/client/cap_remotegui.py:2040
+#: src/debug/client/cap_remotegui.py:2234
+msgid ""
+"Another configuration for that remote host already exists.  Are you sure you "
+"want to overwrite the existing remote host configuration '%s'?"
+msgstr ""
+"Другая конфигурация для этого удаленного узла уже существует.  Вы уверены, "
+"что хотите перезаписать существующую конфигурацию удаленного узла \"%s\"?"
+
+#: src/debug/client/cap_remotegui.py:2186
+msgid "Remote Host: %s"
+msgstr "Удаленный хост: %s"
+
+#: src/debug/client/cap_remotegui.py:2295
+msgid "Recent Hosts"
+msgstr "Последние Хосты"
+
+#: src/debug/client/cap_remotegui.py:2377
+msgid "General"
+msgstr "Общий"
+
+#: src/debug/client/cap_remotegui.py:2379
+msgid "Options"
+msgstr "Опции"
+
+#: src/debug/client/cap_remotegui.py:2381
+msgid "Advanced"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2402
+msgid "Preference setting (%s)"
+msgstr "Preference setting (%s)"
+
+#: src/debug/client/cap_remotegui.py:2413
+msgid "Use Remote Host's Default"
+msgstr "Использовать удаленный хост по умолчанию"
+
+#: src/debug/client/cap_remotegui.py:2419
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: src/debug/client/cap_remotegui.py:2420
+msgid ""
+"The unique ID for this remote host configuration.  This is used in all "
+"references to resources on the remote host."
+msgstr ""
+"Уникальный идентификатор для этой конфигурации удаленного узла.  "
+"Используется во всех ссылках на ресурсы удаленного узла."
+
+#: src/debug/client/cap_remotegui.py:2427
+msgid "Host Name"
+msgstr "Имя хоста"
+
+#: src/debug/client/cap_remotegui.py:2428
+msgid ""
+"The remote host's DNS name or IP address.  This may include the user name in "
+"the form user@hostname or user@ipaddress."
+msgstr ""
+"DNS-имя или IP-адрес удаленного хоста. Включает имя пользователя в форме "
+"user@hostname или user@ipaddress."
+
+#: src/debug/client/cap_remotegui.py:2435
+#, fuzzy
+msgid "Installation Directory"
+msgstr "Каталог установки:"
+
+#: src/debug/client/cap_remotegui.py:2436
+#, fuzzy
+msgid ""
+"The full path to where Wing's remote agent and debugger should be "
+"installed.  By default, the location is determined automatically."
+msgstr ""
+"Полный путь к тому месту, где удаленный агент и отладчик Wing установлены "
+"или должны быть установлены."
+
+#: src/debug/client/cap_remotegui.py:2439
+msgid "Automatic"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2440
+#, fuzzy
+msgid "Specify Directory:"
+msgstr "Домашний каталог:"
+
+#: src/debug/client/cap_remotegui.py:2444
+msgid "Python Executable"
+msgstr "Исполняемый файл Python"
+
+#: src/debug/client/cap_remotegui.py:2446
+msgid ""
+"The Python executable to run on the remote host, or the executable name to "
+"find on the path, or blank to run 'python'.  If this is a partial path, it "
+"is relative to the Base Directory (defaults to the user's home directory)."
+msgstr ""
+"Исполняемый файл Python для запуска на удаленном узле, или имя исполняемого "
+"файла, чтобы найти путь, или пустой, чтобы запустить \"python\".  Если это "
+"частичный путь, то это относительно базового каталога (по умолчанию домашний "
+"каталог пользователя)."
+
+#: src/debug/client/cap_remotegui.py:2460
+#, fuzzy
+msgid ""
+"The directory from which relative paths are based when referring to files on "
+"this host.  If this is blank, the user's home directory is used as the base "
+"directory.  If it is a partial path, it is relateive to the user's home "
+"directory"
+msgstr ""
+"Каталог, из которого основаны относительные пути при обращении к файлам на "
+"этом хосте.  Если это поле пусто, домашний каталог пользователя используется "
+"в качестве базового каталога."
+
+#: src/debug/client/cap_remotegui.py:2471
+msgid "Forward X11"
+msgstr "Переадресация X11"
+
+#: src/debug/client/cap_remotegui.py:2473
+msgid ""
+"Enable this to forward X11 connections from the remote host to the local "
+"host."
+msgstr ""
+"Включите эту опцию, чтобы перенаправлять соединения X11 с удаленного узла на "
+"локальный узел."
+
+#: src/debug/client/cap_remotegui.py:2479
+msgid "SSH Port"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2481
+msgid ""
+"The TCP/IP port to use for SSH.  If unspecified, the default port (22) will "
+"be used."
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2483
+#, fuzzy
+msgid "Use Default (22)"
+msgstr "Консоль по умолчанию (%s)"
+
+#: src/debug/client/cap_remotegui.py:2484
+#: src/debug/client/cap_remotegui.py:2506
+msgid "Use specified port:"
+msgstr "Использовать указанный порт:"
+
+#: src/debug/client/cap_remotegui.py:2488
+msgid "Private Key"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2490
+msgid ""
+"The private key file to use for SSH into this host.  This must match the key "
+"format for your SSH implementation (OpenSSH or PuTTY).  If unspecified, the "
+"keys stored in the SSH user agent are used (ssh-agent/ssh-add for OpenSSH or "
+"pageant for PuTTY)."
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2494
+msgid "Use SSH User Agent"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2495
+msgid "Use private key file:"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2499
+msgid "Remote Agent Port"
+msgstr "Порт удаленного агента"
+
+#: src/debug/client/cap_remotegui.py:2501
+msgid ""
+"The TCP/IP port to use for the remote agent, on the remote end of the SSH "
+"tunnel.  If unspecified, a random port will be used but availability of that "
+"port is not guaranteed."
+msgstr ""
+"Порт TCP/IP, используемый для удаленного агента, на удаленном конце туннеля "
+"SSH.  Если не указано, будет использоваться случайный порт, но доступность "
+"этого порта не гарантируется."
+
+#: src/debug/client/cap_remotegui.py:2505
+msgid "Use Random Port"
+msgstr "Использовать Случайный Порт"
+
+#: src/debug/client/cap_remotegui.py:2510
+msgid "Remote Debug Ports"
+msgstr "Удаленные Порты Отладки"
+
+#: src/debug/client/cap_remotegui.py:2512
+msgid ""
+"The lowest TCP/IP port to use for the debugger, on the remote end of the SSH "
+"tunnel.  If unspecified, a random port will be used but availability of that "
+"port is not guaranteed.  When specified, this is the first port that will be "
+"used.  One port is consumed for each active debug process and Python Shell."
+msgstr ""
+"Самый низкий порт TCP/IP, используемый для отладчика, на удаленном конце "
+"туннеля SSH.  Если не указано, будет использоваться случайный порт, но "
+"доступность этого порта не гарантируется.  Если указан, то это первый порт, "
+"который будет использоваться.  Для каждого активного процесса отладки и "
+"оболочки Python используется один порт."
+
+#: src/debug/client/cap_remotegui.py:2518
+msgid "Use Random Ports"
+msgstr "Использовать Случайные Порты"
+
+#: src/debug/client/cap_remotegui.py:2519
+msgid "Start with this port:"
+msgstr "Начните с этого порта:"
+
+#: src/debug/client/cap_remotegui.py:2523
+msgid "File Encoding"
+msgstr "Кодировка Файлов"
+
+#: src/debug/client/cap_remotegui.py:2524
+msgid "The default encoding to use for files on the remote host."
+msgstr "Кодировка по умолчанию для файлов на удаленном узле."
+
+#: src/debug/client/cap_remotegui.py:2530
+msgid "I/O Encoding"
+msgstr "I/O кодировка"
+
+#: src/debug/client/cap_remotegui.py:2531
+msgid ""
+"The encoding to use for I/O when debugging or executing code on the remote "
+"host."
+msgstr ""
+"Кодировка, используемая для ввода-вывода при отладке или выполнении кода на "
+"удаленном узле."
+
+#: src/debug/client/cap_remotegui.py:2534
+msgid "Show I/O Encoding Preference"
+msgstr "Показать Предпочтения I/O Encoding"
+
+#: src/debug/client/cap_remotegui.py:2601
+msgid "You must specify an Identifier"
+msgstr "Необходимо указать Идентификатор"
+
+#: src/debug/client/cap_remotegui.py:2603
+msgid "Identifier 'localhost' is a reserved name"
+msgstr "Идентификатор 'localhost' - это зарезервированное имя"
+
+#: src/debug/client/cap_remotegui.py:2613
+msgid "You must specify the remote host name or IP address."
+msgstr "Необходимо указать имя удаленного узла или IP-адрес."
+
+#: src/debug/client/cap_remotegui.py:2618
+#, fuzzy
+msgid ""
+"Please specify the full path for the remote Wing installation without using "
+"the ~ character.  To install below the home directory, use a partial path "
+"instead."
+msgstr ""
+"Пожалуйста, укажите полный путь для установки удаленного Wing без "
+"использования символа ~.  Wing не может расширяться ~ во время установки "
+"удаленного агента."
+
+#: src/debug/client/cap_remotegui.py:2624
+#, fuzzy
+msgid "The private key file %s does not exist"
+msgstr "Выбранный файл не существует."
+
+#: src/debug/client/cap_watch.py:47
+msgid "Cannot evaluate: no debug program"
+msgstr "Не удается определить: нет программы отладки"
+
+#: src/debug/client/cap_watch.py:49
+msgid "Cannot evaluate: debug program is running"
+msgstr "Не удается определить: запущена программа отладки"
+
+#: src/debug/client/cap_watch.py:51
+msgid "Right-click for option menu"
+msgstr "Правый клик для меню опций "
+
+#: src/debug/client/cap_watch.py:53
+msgid "Cannot evaluate: debugger not ready"
+msgstr "Не удается определить: отладчик не готов"
+
+#: src/debug/client/cap_watch.py:55
+msgid "Cannot evaluate: unknown or invalid debug mode"
+msgstr "Не удается определить: неизвестный или недопустимый режим отладки"
+
+#: src/debug/client/cap_watch.py:82
+msgid "Watch"
+msgstr "Окно наблюдения"
+
+#: src/debug/client/cap_watch.py:87
+msgid "Watch Debug Data Values and Expressions"
+msgstr "Просмотр отладочных значений данных и выражений"
+
+#: src/debug/client/cap_watch.py:108
+msgid "No reference value selected"
+msgstr "Не выбрано контрольное значение"
+
+#: src/debug/client/cap_watch.py:114
+msgid "No value found"
+msgstr "Значение не найдено"
+
+#: src/debug/client/cap_watch.py:120
+msgid "No reference to track"
+msgstr "Нет ссылки на трек"
+
+#: src/debug/client/cap_watch.py:131
+msgid "No parent reference to track"
+msgstr "Нет родительской ссылки на трек"
+
+#: src/debug/client/cap_watch.py:134
+msgid "No parent found"
+msgstr "Родители не найдены"
+
+#: src/debug/client/cap_watch.py:137
+msgid "No parent value found"
+msgstr "Родительское значение не найдено"
+
+#: src/debug/client/cap_watch.py:150
+msgid "No symbolic path found"
+msgstr "Символический путь не найден"
+
+#: src/debug/client/cap_watch.py:166
+msgid "Value not in module scope"
+msgstr "Значение вне области модуля"
+
+#: src/debug/client/cap_watch.py:190
+msgid "Invalid watch style"
+msgstr "Неверный стиль окна наблюдения"
+
+#: src/debug/client/cap_watch.py:212 src/debug/client/cap_watch.py:494
+#: src/debug/client/cap_watch.py:584 src/debug/client/varframe.py:130
+#: src/debug/client/vartree.py:232 src/debug/client/varutils.py:1056
+msgid "Value"
+msgstr "Значение"
+
+#: src/debug/client/cap_watch.py:212 src/debug/client/vartree.py:232
+#: src/debug/client/varutils.py:1056
+msgid "Variable"
+msgstr "Переменная"
+
+#: src/debug/client/cap_watch.py:329
+msgid "Watch tool tree state"
+msgstr "Просмотр состояния дерева инструментов"
+
+#: src/debug/client/cap_watch.py:339 src/debug/client/cap_watch.py:377
+msgid "Watch tool state"
+msgstr "Просмотр состояния инструмента"
+
+#: src/debug/client/cap_watch.py:362
+msgid "Debug %s watch on %s"
+msgstr "Отладка %s наблюдение за %s"
+
+#: src/debug/client/cap_watch.py:364
+msgid "Debug %s watch on %s: %s"
+msgstr "Отладка %s наблюдение за %s: %s"
+
+#: src/debug/client/cap_watch.py:374
+msgid "Debug watch tree state"
+msgstr "Отладка Состояние дерева наблюдения"
+
+#: src/debug/client/cap_watch.py:485
+msgid "Add Expression"
+msgstr "Добавить Выражение"
+
+#: src/debug/client/cap_watch.py:487
+msgid "Clear Selected"
+msgstr "Очистить Выбранные"
+
+#: src/debug/client/cap_watch.py:488
+msgid "Clear All"
+msgstr "Очистить все"
+
+#: src/debug/client/cap_watch.py:490
+msgid "Use Tree View"
+msgstr "В Виде Дерева "
+
+#: src/debug/client/cap_watch.py:491
+msgid "Use Combo View"
+msgstr "Комбинированное Представление"
+
+#: src/debug/client/cap_watch.py:494
+msgid "Watching"
+msgstr "Наблюдение"
+
+#: src/debug/client/cap_watch.py:542
+msgid ""
+"Cannot edit sub-value name::Only top-level watch point names can be edited"
+msgstr ""
+"Не удается изменить имя суб-значения:: Можно редактировать только имена "
+"точек наблюдения верхнего уровня"
+
+#: src/debug/client/cap_watch.py:547
+msgid "Cannot edit watchpoint name::Only expressions can be edited"
+msgstr ""
+"Невозможно изменить имя точки наблюдения:: можно редактировать только "
+"выражения"
+
+#: src/debug/client/debugio.py:358
+msgid "Debug I/O"
+msgstr "I/O Отладки"
+
+#: src/debug/client/debugio.py:363
+msgid "Debug Process I/O"
+msgstr "I/O Процесса Отладки"
+
+#: src/debug/client/debugio.py:608
+msgid "Close current buffer"
+msgstr "Закрыть текущий буфер"
+
+#: src/debug/client/debugio.py:821 src/debug/client/debugio.py:833
+#: src/debug/client/stackpanel.py:132 src/debug/client/varutils.py:40
+#: src/debug/client/varutils.py:1005
+msgid "No debug process"
+msgstr "Нет процесса отладки"
+
+#: src/debug/client/debugio.py:824
+msgid "Debug process terminated"
+msgstr "Процесс отладки завершен"
+
+#: src/debug/client/debugio.py:827
+msgid ""
+"Redirected I/O is disabled on Windows 98 & ME; See external console for "
+"debug I/O"
+msgstr ""
+"Перенаправленный ввод-вывод отключен для Windows 98 & ME; см. Раздел внешняя "
+"консоль для ввода-вывода отладки"
+
+#: src/debug/client/debugio.py:835
+msgid "Debug I/O appears in context where process was launched"
+msgstr "Ввод-Вывод Отладки показывает контекст  запущенного процесса"
+
+#: src/debug/client/debugio.py:838
+msgid "See external console for debug I/O"
+msgstr "См. Раздел внешняя консоль для ввода-вывода отладки"
+
+#: src/debug/client/debugio.py:842
+msgid "Debug I/O (stdin, stdout, stderr) appears below"
+msgstr ""
+"Отладки ввода/вывода (стандартный ввод, стандартный вывод, стандартный "
+"вывод) появляется ниже"
+
+#: src/debug/client/debugio.py:901
+msgid "_Auto-Clear When Debug Starts"
+msgstr "Автоматическая Очистка При Запуске Отладки"
+
+#: src/debug/client/debugio.py:905
+msgid "_Never Auto-Show"
+msgstr "Никогда Авто-Шоу"
+
+#: src/debug/client/debugio.py:906
+msgid "Al_ways Auto-Show on Output"
+msgstr "Всегда авто-шоу на выходе"
+
+#: src/debug/client/debugio.py:907
+msgid "Auto-Show on _First Output"
+msgstr "Авто-шоу при первом выходе"
+
+#: src/debug/client/debugio.py:911
+msgid "Retain _History"
+msgstr "Сохранить Историю"
+
+#: src/debug/client/debugio.py:912
+msgid "Show _Child Processes"
+msgstr "Показать Дочерние Процессы"
+
+#: src/debug/client/debugio.py:916
+msgid "Configure _External Console..."
+msgstr "Настройка Внешней Консоли..."
+
+#: src/debug/client/debugio.py:917
+msgid "Configure Enco_ding..."
+msgstr "Настройка Кодировки..."
+
+#: src/debug/client/excpanel.py:65
+msgid " in file {}"
+msgstr " в файле {}"
+
+#: src/debug/client/excpanel.py:68
+msgid " line {}"
+msgstr " строка {}"
+
+#: src/debug/client/excpanel.py:294
+msgid "%s, prompt %i, line %s"
+msgstr "%s, prompt %i, строка %s"
+
+#: src/debug/client/excpanel.py:296
+msgid "<strong>\"{}\"</strong>"
+msgstr ""
+
+#: src/debug/client/excpanel.py:298
+msgid "File<html>&nbsp;</html>"
+msgstr "Файл<html>&nbsp;</html>"
+
+#: src/debug/client/excpanel.py:306
+msgid "%s, line %s, in <literal>%s</literal>"
+msgstr "%s, строка %s, в <literal>%s</literal>"
+
+#: src/debug/client/excpanel.py:385 src/debug/client/excpanel.py:998
+msgid "Exceptions"
+msgstr "Исключения"
+
+#: src/debug/client/excpanel.py:390
+msgid "Debug Process Exceptions"
+msgstr "Исключения Процесса Отладки"
+
+#: src/debug/client/excpanel.py:433
+msgid "Move up the exception stack"
+msgstr "Перейти вверх по стеку исключений"
+
+#: src/debug/client/excpanel.py:436
+msgid "Show innermost frame of the exception stack"
+msgstr "Показать внутренний фрейм стека исключений"
+
+#: src/debug/client/excpanel.py:439
+msgid "Move down the exception stack"
+msgstr "Перейти вниз по стеку исключений"
+
+#: src/debug/client/excpanel.py:442
+msgid "Frame Up"
+msgstr "Кадр вверх"
+
+#: src/debug/client/excpanel.py:443
+msgid "Show Position"
+msgstr "Показать Позицию"
+
+#: src/debug/client/excpanel.py:444
+msgid "Frame Down"
+msgstr "Кадр вниз"
+
+#: src/debug/client/excpanel.py:473
+msgid "_Ignore this exception location"
+msgstr "Игнорировать это местоположение исключения"
+
+#: src/debug/client/excpanel.py:477
+msgid ""
+"Wing reports exceptions that are likely to indicate a bug in code, including "
+"some that may be handled normally outside the debugger.  Use this check box "
+"to ignore an exception you are not interested in.  Ignored exceptions are "
+"still reported if they later lead to program termination.  You can also use "
+"the Configure item in the Options menu to alter when Wing reports exceptions "
+"and to edit the lists of exceptions that are always reported or always "
+"ignored."
+msgstr ""
+"Wing сообщает об исключениях, которые могут указывать на ошибку в коде, "
+"включая некоторые, которые могут обрабатываться обычно вне отладчика. "
+"Используйте этот флажок, чтобы игнорировать исключение, которое вас не "
+"интересует. Игнорируемые исключения по-прежнему сообщаются, если они позже "
+"приводят к завершению программы. Вы также можете использовать пункт "
+"«Настроить» в меню «Параметры», для изменений поведения Wing, когда сообщать "
+"об исключениях и редактировать списки исключений, которые всегда сообщаются "
+"или всегда игнорируются."
+
+#: src/debug/client/excpanel.py:558
+msgid "Copy the exception and traceback to the clipboard"
+msgstr "Скопируйте исключение и трассировку в буфер обмена"
+
+#: src/debug/client/excpanel.py:559
+msgid "Copy _Traceback"
+msgstr "Копировать трассировку"
+
+#: src/debug/client/excpanel.py:560
+msgid ""
+"Clear this exception display to blank and remove any remaining debugger run "
+"markers from source code."
+msgstr ""
+"Очистите отображения этого исключения и удалите все оставшиеся маркеры "
+"запуска отладчика из исходного кода."
+
+#: src/debug/client/excpanel.py:574
+msgid ""
+"Truncate the exception message to at most 10 lines, each with at most 1024 "
+"characters."
+msgstr ""
+"Усеките сообщение об исключении не более чем на 10 строк, каждая из которых "
+"содержит не более 1024 символов."
+
+#: src/debug/client/excpanel.py:576
+msgid "_Truncate Long Summaries"
+msgstr "Сократить длину итогов"
+
+#: src/debug/client/excpanel.py:583
+msgid "Indicate files that are in the project in the Exception traceback"
+msgstr "Указать файлы проекта в трассировке исключений"
+
+#: src/debug/client/excpanel.py:584
+msgid "Indicate _Project Files"
+msgstr "Указать Файлы Проекта"
+
+#: src/debug/client/excpanel.py:592
+msgid ""
+"Change between exception reporting modes and add/remove exceptions that are "
+"always reported or always ignored."
+msgstr ""
+"Переключение между режимами отчетов об исключениях и добавлением / удалением "
+"исключений, о которых всегда сообщается или которые всегда игнорируются."
+
+#: src/debug/client/excpanel.py:594
+msgid "C_onfigure..."
+msgstr "Настроить..."
+
+#: src/debug/client/excpanel.py:601
+msgid "Clear the list of all previously ignored exceptions"
+msgstr "Очистить список всех ранее игнорировавшихся исключений"
+
+#: src/debug/client/excpanel.py:602
+msgid "Clear _Ignored Exceptions"
+msgstr "Очистить Игнорируемые Исключения"
+
+#: src/debug/client/excpanel.py:990
+msgid "Copy"
+msgstr "Копия"
+
+#: src/debug/client/excpanel.py:991
+msgid "Clear"
+msgstr "Очистить"
+
+#: src/debug/client/excpanel.py:1072
+msgid "Could not find file for {}, line {}"
+msgstr "Не удалось найти файл для {}, строка {}"
+
+#: src/debug/client/interactive.py:181
+msgid "Could not start shell process"
+msgstr "Не удалось запустить процесс оболочки"
+
+#: src/debug/client/interactive.py:181
+#, fuzzy
+msgid "Python Shell Could Not Start"
+msgstr "Показать документацию Python Shell"
+
+#: src/debug/client/interactive.py:197
+msgid "Could not create process launcher"
+msgstr "Не удалось создать средство запуска процессов"
+
+#: src/debug/client/interactive.py:209
+msgid "Aborted remote inspect"
+msgstr "Прервать удаленный осмотр"
+
+#: src/debug/client/interactive.py:377
+msgid "(unavailable; shell was cleared)"
+msgstr "(недоступен; оболочка была очищена)"
+
+#: src/debug/client/interactive.py:477 src/debug/client/interactive.py:1799
+#: src/debug/client/runstate.py:3100
+msgid "Python Shell"
+msgstr "Оболочка Python"
+
+#: src/debug/client/interactive.py:1235
+msgid "Internal Wing Error -- please submit a bug report"
+msgstr "Внутренняя Ошибка Wing -- пожалуйста, отправьте отчет об ошибке "
+
+#: src/debug/client/interactive.py:1270
+msgid "Restarting shell process...\n"
+msgstr "Перезапуск процесса оболочки..."
+
+#: src/debug/client/interactive.py:1312
+msgid "Cannot execute: program is exiting"
+msgstr "Не удается выполнить: программа завершает работу"
+
+#: src/debug/client/interactive.py:1322 src/debug/client/interactive.py:1338
+msgid "Executing command.  Please wait for result"
+msgstr "Выполнение команды. Пожалуйста, дождитесь результата"
+
+#: src/debug/client/interactive.py:1328
+msgid "Commands will be debugged.  Use arrow keys for history."
+msgstr "Команды в отладке.  Используйте клавиши со стрелками для истории."
+
+#: src/debug/client/interactive.py:1330
+msgid "Commands execute without debug.  Use arrow keys for history."
+msgstr ""
+"Команды выполняются без отладки.  Используйте клавиши со стрелками для "
+"истории."
+
+#: src/debug/client/interactive.py:1346
+msgid "Needs restart for Python env"
+msgstr "Требуется перезагрузка для Python env"
+
+#: src/debug/client/interactive.py:1380
+msgid "<fragment>"
+msgstr "<фрагмент>"
+
+#: src/debug/client/interactive.py:1543
+msgid "During handling of the above exception, another exception occurred:"
+msgstr ""
+
+#: src/debug/client/interactive.py:1545
+msgid "During handling of the above exception, another exception was raised:"
+msgstr ""
+
+#: src/debug/client/interactive.py:1547
+msgid "Traceback (most recent call last):\n"
+msgstr "Traceback (most recent call last):\n"
+
+#: src/debug/client/interactive.py:1553 src/debug/client/interactive.py:1562
+msgid "  File \"%s\", line %s, in %s\n"
+msgstr "  Файл \"%s\", строка %s, из %s"
+
+#: src/debug/client/interactive.py:1557
+msgid "cleared"
+msgstr "очищен"
+
+#: src/debug/client/interactive.py:1558
+msgid "unavailable"
+msgstr "недоступен"
+
+#: src/debug/client/interactive.py:1559
+msgid "  %s, prompt %i, line %s"
+msgstr "  %s, prompt %i, строка %s"
+
+#: src/debug/client/interactive.py:1592
+msgid "Stale Python Shell Environment"
+msgstr "Устаревшая Среда Оболочки Python"
+
+#: src/debug/client/interactive.py:1593
+msgid ""
+"Warning:  The configured Python environment has changed since the Python "
+"Shell was started.  Do you want to restart it now?"
+msgstr ""
+"Предупреждение: Настройки среды Python изменилась с момента запуска оболочки "
+"Python.  Вы хотите перезапустить его сейчас?"
+
+#: src/debug/client/interactive.py:1602 src/debug/client/runstate.py:2777
+msgid "_Restart"
+msgstr "Перезапуск"
+
+#: src/debug/client/interactive.py:1605
+msgid "_Don't show this again"
+msgstr "Не показывать это снова"
+
+#: src/debug/client/interactive.py:1701
+msgid "aborted (disconnected)\n"
+msgstr "прервано (отключено)"
+
+#: src/debug/client/interactive.py:1804
+msgid "Interactive Python Shell"
+msgstr "Интерактивная оболочка Python"
+
+#: src/debug/client/interactive.py:1816
+msgid "Set active range of code in the editor"
+msgstr "Установить активный диапазон кода в редакторе"
+
+#: src/debug/client/interactive.py:1817
+msgid "Clear active range"
+msgstr "Очистить активный диапазон"
+
+#: src/debug/client/interactive.py:2012
+msgid "Click to enable debugging Python Shell commands"
+msgstr "Нажмите, чтобы включить отладку команд оболочки Python"
+
+#: src/debug/client/interactive.py:2020
+msgid "Click to disable debugging Python Shell commands"
+msgstr "Нажмите, чтобы отключить отладку команд оболочки Python"
+
+#: src/debug/client/interactive.py:2036
+msgid "Show the active range in the editor"
+msgstr "Показывать активный диапазон в редакторе"
+
+#: src/debug/client/interactive.py:2147
+msgid "Debug the active range"
+msgstr "Отладка активного диапазона"
+
+#: src/debug/client/interactive.py:2149
+msgid "Execute the active range"
+msgstr "Выполнение активного диапазона"
+
+#: src/debug/client/interactive.py:2287
+msgid ""
+"No Active Editor::Could not set an active range because there is no current "
+"editor with a Python file."
+msgstr ""
+"Нет активного редактора::Не удалось установить активный диапазон, потому что "
+"нет текущего редактора с файлом Python."
+
+#: src/debug/client/interactive.py:2371
+msgid "Copy _With Prompts"
+msgstr "Копировать с Promts (>>>)"
+
+#: src/debug/client/interactive.py:2377
+msgid "_Goto Definition"
+msgstr "Перейти к определению"
+
+#: src/debug/client/interactive.py:2381
+msgid "Move Cursor Up (Ctrl-Up)"
+msgstr "Переместить курсор вверх (Ctrl-Up)"
+
+#: src/debug/client/interactive.py:2382
+msgid "Move Cursor Down (Ctrl-Down)"
+msgstr "Переместить курсор вниз (Ctrl-Down)"
+
+#: src/debug/client/interactive.py:2383
+msgid "Insert Line Break (Ctrl-Return)"
+msgstr "Вставить разрыв строки (Ctrl-Return)"
+
+#: src/debug/client/interactive.py:2434
+msgid "Error: could not create process launcher"
+msgstr "Ошибка: не удалось запустить процесс "
+
+#: src/debug/client/interactive.py:2440
+msgid "Error: cannot evaluate local file %s on remote host %s"
+msgstr ""
+"Ошибка: не удается проанализировать локальный файл %s на удаленном узле %s"
+
+#: src/debug/client/interactive.py:2442
+msgid "Error: cannot evaluate remote file %s on host %s (host mismatch)"
+msgstr ""
+"Ошибка: не удается проанализировать удаленный файл %s на узле %s "
+"(несоответствие узла)"
+
+#: src/debug/client/interactive.py:2444
+msgid "Error: cannot evaluate remote file %s on localhost"
+msgstr "Ошибка: не удается проанализировать удаленный файл %s на localhost"
+
+#: src/debug/client/interactive.py:2454
+msgid "[Failed to inspect remote file; could not evaluate]\n"
+msgstr "[Не удалось проверить удаленный файл; не удалось проанализировать]"
+
+#: src/debug/client/interactive.py:2459
+msgid "evaluate %s"
+msgstr "анализируем %s"
+
+#: src/debug/client/interactive.py:2581
+msgid "evaluate lines %i-%i from %s"
+msgstr "оценка строк %i-%i из %s"
+
+#: src/debug/client/interactive.py:2583
+msgid "evaluate selection on lines %i-%i from %s"
+msgstr "оценка выборки по строкам %i-%i из%s"
+
+#: src/debug/client/interactive.py:2719
+msgid "Set Current Directory from Active Editor"
+msgstr "Установка текущего каталога из активного редактора"
+
+#: src/debug/client/interactive.py:2729
+msgid "Pr_ompt to Confirm Restart"
+msgstr "Запрос подтверждения перезагрузки"
+
+#: src/debug/client/interactive.py:2738
+msgid "Show Python Shell Doc_umentation"
+msgstr "Показать документацию Python Shell"
+
+#: src/debug/client/interactive.py:2750
+msgid "Use Project Properties"
+msgstr "Использовать свойства проекта"
+
+#: src/debug/client/interactive.py:2762
+msgid "Manage Launch Configurations..."
+msgstr "Управление конфигурациями запуска ..."
+
+#: src/debug/client/manager.py:598
+msgid "Disabling debug listen (too many connections)"
+msgstr "Отключение отладки Listen (слишком много подключений)"
+
+#: src/debug/client/manager.py:764
+msgid "Not listening (too many connections)"
+msgstr "Нет прослушивания (слишком много подключений)"
+
+#: src/debug/client/manager.py:766
+msgid "Not listening"
+msgstr "Нет прослушивания"
+
+#: src/debug/client/manager.py:773
+msgid "Allowed hosts:  "
+msgstr "Разрешенные хосты:"
+
+#: src/debug/client/manager.py:789
+msgid "(port %s)"
+msgstr "(порт %s)"
+
+#: src/debug/client/manager.py:795
+msgid "Listening on TCP/IP port %s"
+msgstr "Прослушивание порта TCP/IP %s"
+
+#: src/debug/client/manager.py:797
+#, fuzzy
+msgid "(for child processes)"
+msgstr "Показать Дочерние Процессы"
+
+#: src/debug/client/manager.py:799
+msgid "Listening for connections"
+msgstr "Прослушивание соединений"
+
+#: src/debug/client/manager.py:802
+msgid "Listen failed"
+msgstr "Не удалось прослушать"
+
+#: src/debug/client/manager.py:806
+msgid "Initiating listen on TCP/IP port %s"
+msgstr "Инициирование прослушивания порта TCP/IP %s"
+
+#: src/debug/client/manager.py:808
+msgid "Listening"
+msgstr "Прослушивание"
+
+#: src/debug/client/manager.py:1006
+msgid "Could not watch value::%s"
+msgstr "Не удалось просмотреть значение ::%s"
+
+#: src/debug/client/manager.py:1066
+msgid "Ignored Exceptions Cleared"
+msgstr "Игнорируемые исключения удалены"
+
+#: src/debug/client/manager.py:1067
+msgid ""
+"Previously ignored exceptions have been cleared:  %i exception(s) were "
+"removed."
+msgstr ""
+"Ранее игнорируемые исключения были очищены: %i исключение(й) были удалены."
+
+#: src/debug/client/manager.py:1154
+msgid "Unknown process (terminated)"
+msgstr "Неизвестный процесс (завершен)"
+
+#: src/debug/client/manager.py:1333
+msgid "Kill Also Associated Processes?"
+msgstr "Завершить также связанные процессы?"
+
+#: src/debug/client/manager.py:1334
+msgid "Select the process group members to kill "
+msgstr "Выберите группу процессов для завершения"
+
+#: src/debug/client/manager.py:1341
+msgid "%s%s (process id %i)"
+msgstr "%s%s (process id %i)"
+
+#: src/debug/client/manager.py:1352
+msgid "_Leave Other Processes Running"
+msgstr "_Оставить другие процессы выполняемыми"
+
+#: src/debug/client/manager.py:1353
+msgid "Kill _Selected Processes Only"
+msgstr "Завершить _Выбранные процессы"
+
+#: src/debug/client/manager.py:1354
+msgid "Kill All _Child Processes"
+msgstr "Завершить все _Дочерние процессы"
+
+#: src/debug/client/manager.py:1355
+msgid "Kill Entire Process _Group"
+msgstr "Завершить все процессы _Группы"
+
+#: src/debug/client/manager.py:1362
+msgid "_Always Do This Without Prompting"
+msgstr "_Всегда делать это без Подсказок"
+
+#: src/debug/client/manager.py:1423 src/debug/client/manager.py:1598
+msgid ""
+"Invalid debug.location-map preference\n"
+":Could not match %s\n"
+"In %s\n"
+"Using %s"
+msgstr ""
+"Недопустимое предпочтение debug.location-map\n"
+":Не удалось сопоставить %s\n"
+"В %s\n"
+"Использование %s"
+
+#: src/debug/client/manager.py:1700
+msgid "Invalid debug.location-map preferences key: %s\n"
+msgstr "Недопустимый ключ предпочтений debug.location-map: %s"
+
+#: src/debug/client/manager.py:1701
+msgid "Should be a non-empty string host name or IP address\n"
+msgstr "Should be a non-empty string host name or IP address"
+
+#: src/debug/client/manager.py:1727
+msgid "Skipping invalid debug.location-map preference value: %s\n"
+msgstr "Пропуск недопустимого значения предпочтения debug.location-map: %s"
+
+#: src/debug/client/manager.py:1728 src/debug/client/manager.py:1754
+msgid "Found under host name %s\n"
+msgstr "Найдено под именем хоста %s"
+
+#: src/debug/client/manager.py:1729
+msgid "Tuple items must be strings\n"
+msgstr "Элементы кортежа должны быть строками"
+
+#: src/debug/client/manager.py:1753
+msgid ""
+"Skipping invalid debug.location-map preference entry:\n"
+"%s\n"
+msgstr ""
+"Пропуск недопустимой записи предпочтения debug.location-map:\n"
+"%s"
+
+#: src/debug/client/manager.py:1755
+msgid "Should be a tuple of (remote, local) tuples"
+msgstr "Должен быть кортеж (удаленных, локальных) кортежей"
+
+#: src/debug/client/manager.py:1872
+msgid ""
+"Unable to create support file for debugger.  Please check to see if your "
+"Wing settings directory exists"
+msgstr ""
+"Не удалось создать файл поддержки для отладчика. Проверьте, существует ли "
+"ваш каталог настроек Wing"
+
+#: src/debug/client/manager.py:1876
+msgid ""
+"Unable to create %s because the disk is read-only or a directory called  %s "
+"could not be created.  You will not be able to use the debugger."
+msgstr ""
+"Не удалось создать %s, потому что диск доступен только для чтения или "
+"каталог с именем %s не может быть создан. Вы не сможете использовать "
+"отладчик."
+
+#: src/debug/client/manager.py:2012
+#, fuzzy
+msgid "Show Value _Detail"
+msgstr "Показать детали"
+
+#: src/debug/client/manager.py:2033
+msgid "Are You Sure?"
+msgstr ""
+
+#: src/debug/client/manager.py:2034
+#, fuzzy
+msgid ""
+"Resolving properties in Wing's debugger executes user code that may make "
+"unexpected changes to runtime state, hang on lengthy computations, trigger "
+"thread deadlocks, or crash on buggy code.  Are you sure you want to make "
+"this change?"
+msgstr ""
+"Установите для отображения значений свойств в представлениях отладочной "
+"информации. Следует использовать с осторожностью. Позволяет вызвать метод "
+"fget() в свойстве, который в некоторых базовых кодах может выполнять "
+"нежелательный код, непредсказуемые изменения состояния выполнения, зависание "
+"на длинных вычислениях, триггер замещения потоков или сбой при работе с "
+"ошибкой кода пользователя, в то время как данные отладки отображается в "
+"среде IDE."
+
+#: src/debug/client/manager.py:2051
+#, fuzzy
+msgid "Show Detail to Side"
+msgstr "Показать детали"
+
+#: src/debug/client/manager.py:2056
+msgid "Show _name Protected Variables"
+msgstr ""
+
+#: src/debug/client/manager.py:2059
+msgid "Show __name Private Variables"
+msgstr ""
+
+#: src/debug/client/manager.py:2062
+msgid "Show __name__ Special Variables"
+msgstr ""
+
+#: src/debug/client/manager.py:2073
+msgid "Show Integers as _Decimal"
+msgstr ""
+
+#: src/debug/client/manager.py:2077
+msgid "Show Integers as _Hex"
+msgstr ""
+
+#: src/debug/client/manager.py:2081
+msgid "Show Integers as _Octal"
+msgstr ""
+
+#: src/debug/client/manager.py:2088
+#, fuzzy
+msgid "Show _Memory Addresses"
+msgstr "Показать Дочерние Процессы"
+
+#: src/debug/client/manager.py:2091
+#, fuzzy
+msgid "Resolve _Properties"
+msgstr "Использовать свойства проекта"
+
+#: src/debug/client/prefs.py:28
+msgid ""
+"Controls whether the debugger raises source files to indicate exception "
+"locations encountered when working in the Debug Probe, and other debugger "
+"tools."
+msgstr ""
+"Контролирует, создает ли отладчик исходные файлы для указания мест "
+"исключения, встречающихся при работе в Debug Probe, и других инструментов "
+"отладчика."
+
+#: src/debug/client/prefs.py:35
+msgid ""
+"Controls whether or not the debugger listens for connections from an "
+"externally launched program. This should be enabled when the debug program "
+"is not launched by the IDE."
+msgstr ""
+"Контролирует, прослушивает ли отладчик соединения из программы, запускаемой "
+"извне. Это должно быть включено, если программа отладки не запускается в "
+"среде IDE."
+
+#: src/debug/client/prefs.py:44
+msgid ""
+"Sets which hosts are allowed to connect to the debugger when it is listening "
+"for externally launched programs.  This is used only for manual remote debug "
+"configuration and is ignored when debug is controlled by a remote host "
+"configuration."
+msgstr ""
+"Устанавливает, какие хосты могут подключаться к отладчику, когда он "
+"прослушивает программы, запускаемые извне. Используется только для ручной "
+"настройки удаленного отладки и игнорируется, когда отладка контролируется "
+"конфигурацией удаленного хоста."
+
+#: src/debug/client/prefs.py:55
+msgid ""
+"Defines a mapping between the remote and local locations of files for host-"
+"to-host debugging.  This is used only for manual remote debug configuration "
+"and is ignored when debug is controlled by a remote host configuration.  For "
+"each IP address, a remote and local prefix is given. This should be used "
+"when full paths of files on the remote host do not match those for the same "
+"files on the local host.  Wing assumes an external file server or "
+"synchronization protocol is in use and does not itself transfer the files."
+msgstr ""
+"Определяет сопоставление между удаленным и локальным местоположениями файлов "
+"для отладки host-to-host. Это используется только для ручной настройки "
+"удаленного отладки и игнорируется, когда отладка контролируется "
+"конфигурацией удаленного хоста. Для каждого IP-адреса указывается удаленный "
+"и локальный префикс. Это следует использовать, когда полные пути файлов на "
+"удаленном хосте не совпадают с полным путём файлов для тех же файлов на "
+"локальном хосте. Wing предполагает, что используется внешний файловый сервер "
+"или протокол синхронизации и сам не передает файлы."
+
+#: src/debug/client/prefs.py:67
+msgid "File Mappings"
+msgstr "Сопоставление файлов"
+
+#: src/debug/client/prefs.py:67
+msgid "Remote IP Address"
+msgstr "Удаленный IP-адрес"
+
+#: src/debug/client/prefs.py:68
+msgid "Same as localhost"
+msgstr "То же, что и localhost"
+
+#: src/debug/client/prefs.py:68
+msgid "Specify mapping"
+msgstr "Укажите сопоставление"
+
+#: src/debug/client/prefs.py:69
+msgid "Local"
+msgstr "Local"
+
+#: src/debug/client/prefs.py:80
+msgid ""
+"Controls how Wing reports exceptions that are raised by your debug process.  "
+"By default, Wing shows exceptions at the time that the exception traceback "
+"would normally be printed.  Alternatively, Wing can try to predict which "
+"exceptions are unhandled, and stop immediately when unhandled exceptions are "
+"raised so that any finally clauses can be stepped through in the debugger. "
+"Wing can also stop on all exceptions (even if handled) immediately when they "
+"are raised, or it can wait to report fatal exceptions as the debug process "
+"terminates.  In the latter case Wing makes a best effort to stop before the "
+"debug process exits or at least to report the exception post-mortem, but one "
+"or both may fail if working with externally launched debug processes.  In "
+"that case, we recommend using When Printed exception reporting mode."
+msgstr ""
+"Контролирует, как Wing сообщает об исключениях, которые возникают в процессе "
+"отладки. По умолчанию Wing показывает исключения в то время, когда "
+"трассировка исключения обычно печатается. В качестве альтернативы, Wing "
+"может попытаться предсказать, какие исключения необработаны, и немедленно "
+"прекратить работу, когда необработанные исключения будут подняты так, что "
+"любые окончательные предложения могут быть пройдены в отладчике. Wing также "
+"может останавливаться на всех исключениях (даже если обрабатывается) сразу "
+"же после их поднятия или может ожидать сообщения о фатальных исключениях, "
+"когда процесс отладки завершается. В последнем случае Wing прилагает все "
+"усилия, чтобы остановить процесс отладки или, по крайней мере, сообщить об "
+"исключении post-mortem, но один или оба могут потерпеть неудачу, если "
+"работают с внешними запущенными процессами отладки. В этом случае мы "
+"рекомендуем использовать режим «Отпечатанные исключения» (When Printed "
+"exception reporting mode)."
+
+#: src/debug/client/prefs.py:97
+msgid "When Printed (Default)"
+msgstr "При печати (по умолчанию)"
+
+#: src/debug/client/prefs.py:98
+msgid "At Process Termination"
+msgstr "При завершении процесса"
+
+#: src/debug/client/prefs.py:99
+msgid "Always Immediately"
+msgstr "Всегда сразу"
+
+#: src/debug/client/prefs.py:105
+msgid ""
+"Controls whether to stop on exceptions logged with logging.exception if the "
+"exception mode is set to 'When Printed'"
+msgstr ""
+"Определяет, следует ли останавливаться на исключениях, зарегистрированных в "
+"logging.exception, если для режима исключения задано значение \"при печати"
+"\"( 'When Printed')"
+
+#: src/debug/client/prefs.py:112
+msgid ""
+"Determines the network interface on which the debugger listens for "
+"connections.  This can be a symbolic name, an IP address, or left "
+"unspecified to indicate that the debugger should listen on all valid network "
+"interfaces on the machine.  Note that when a debug session is launched from "
+"within the IDE (with the Run button), it always connects from the loopback "
+"interface (127.0.0.1)"
+msgstr ""
+"Определяет сетевой интерфейс, на котором отладчик прослушивает подключения.  "
+"Это может быть символьное имя, IP-адрес или не указаное значение, "
+"указывающее, что отладчик должен прослушивать все допустимые сетевые "
+"интерфейсы на компьютере.  Обратите внимание, что при запуске сеанса отладки "
+"из среды IDE (с помощью кнопки Run), он всегда соединяется с интерфейсом "
+"loopback (127.0.0.1)"
+
+#: src/debug/client/prefs.py:119
+msgid "All valid interfaces"
+msgstr "Все допустимые интерфейсы"
+
+#: src/debug/client/prefs.py:120
+msgid "This interface"
+msgstr "Этот интерфейс"
+
+#: src/debug/client/prefs.py:126
+msgid ""
+"Determines the TCP/IP port on which the IDE will listen for the connection "
+"from the debug process.  This needs to be unique for each developer working "
+"on a given host.  The debug process, if launched from outside of the IDE, "
+"needs to be told the value specified here using kWingHostPort inside "
+"wingdbstub.py or by WINGDB_HOSTPORT environment variable before importing "
+"wingdbstub in the debug process."
+msgstr ""
+"Определяет порт TCP / IP, на котором IDE будет прослушивать соединение из "
+"процесса отладки. Оно должно быть уникальным для каждого разработчика, "
+"работающего на данном хосте. Для процесса отладки, если он запущен извне "
+"IDE, необходимо указать значение, указанное здесь, с помощью команды "
+"kWingHostPort внутри wingdbstub.py или переменной среды WINGDB_HOSTPORT "
+"перед импортом wingdbstub в процесс отладки."
+
+#: src/debug/client/prefs.py:139
+msgid ""
+"List of host/port combinations that should be included by default in the "
+"attach request list shown with Attach to Process in the Debug menu, in "
+"addition to those that are registered at runtime.  These are used primarily "
+"with manual remote debug configuration, and are not necessary when debug is "
+"controlled by a remote host configuration. This value corresponds with "
+"kAttachPort configured in wingdbstub.py or by WINGDB_ATTACHPORT environment "
+"variable before importing wingdbstub in the debug process."
+msgstr ""
+"Список комбинаций хостов и портов, которые должны быть включены по умолчанию "
+"в список запросов на подключение, показанный с помощью Attach to Process в "
+"меню Debug, в дополнение к тем, которые зарегистрированы во время "
+"выполнения. Они используются в основном с ручной конфигурацией удаленного "
+"отладки и не нужны, если отладка контролируется конфигурацией удаленного "
+"хоста. Это значение соответствует kAttachPort, настроенному в файле "
+"wingdbstub.py или WINGDB_ATTACHPORT, перед импортом wingdbstub в процесс "
+"отладки."
+
+#: src/debug/client/prefs.py:149
+msgid "IP Address"
+msgstr "IP Адрес"
+
+#: src/debug/client/prefs.py:154
+msgid ""
+"Enable or disable terminating debug processes that were launched from "
+"outside of the IDE.  When disabled, Wing just detaches from the process, "
+"leaving it running."
+msgstr ""
+"Включить или отключить завершение процессов отладки, которые были запущены "
+"извне интегрированной среды разработки.  При отключении, Wing просто "
+"отсоединяется от процесса, оставив его работать."
+
+#: src/debug/client/prefs.py:163
+msgid ""
+"Controls the amount of time that the IDE will wait for the debug process to "
+"respond before it gives up.  This protects the IDE from freezing up if your "
+"program running within the debug process crashes or becomes unavailable. It "
+"must also be taken into account when network connections are slow or if "
+"sending large data values (see the Huge List Threshold and Hug String "
+"Threshold preferences)."
+msgstr ""
+"Управляет временем, в течение которого среда IDE будет ожидать, пока процесс "
+"отладки ответит перед отправкой.  Это защищает IDE от зависания, если "
+"программа, выполняющаяся в процессе отладки, аварийно завершает работу или "
+"становится недоступной. Он также должен учитываться при медленном "
+"подключении к сети или при отправке больших значений данных (см. параметры \n"
+" пороговый уровень  Huge List Threshold и пороговое значение строки Hug "
+"String Threshold )."
+
+#: src/debug/client/prefs.py:176
+msgid ""
+"Defines types for which values should never be probed for contents. These "
+"are types that are known to crash when the debugger probes them because they "
+"contain buggy data value extraction code.  These values are instead shown as "
+"an opaque value with hex object instance id and are never accessed for "
+"runtime introspection."
+msgstr ""
+"Определяет типы, для которых значения не должны проверяться на содержимое. "
+"Это типы, которые, как известно, аварийно завершают работу, когда отладчик "
+"проверяет их, потому что они содержат ошибочный код извлечения значения "
+"данных.  Вместо этого эти значения отображаются как непрозрачное значение с "
+"hex-идентификатором объекта и никогда не доступны для интроспекции среды "
+"выполнения."
+
+#: src/debug/client/prefs.py:187
+msgid "Defines types for which values are never shown by the debugger."
+msgstr "Определяет типы, для которых отладчик никогда не отображает значения."
+
+#: src/debug/client/prefs.py:198
+msgid ""
+"Defines variable/key names for which values are never shown by the debugger."
+msgstr ""
+"Определяет имена переменная/ключ, значения которых никогда не отображаются "
+"отладчиком."
+
+#: src/debug/client/prefs.py:206
+msgid ""
+"Defines the character length threshold under which a value will always be "
+"shown on a single line, even if the value is a complex type like a list or "
+"dict."
+msgstr ""
+"Определяет порог длины символа, при котором значение всегда будет "
+"отображаться в одной строке, даже если это сложный тип, например, list или "
+"dict."
+
+#: src/debug/client/prefs.py:215
+#, fuzzy
+msgid ""
+"Defines the length threshold over which a list, dict, or other complex type "
+"will be considered too large to show in the debugger.  If this is set too "
+"large, the debugger will time out (see the Network Timeout preference)"
+msgstr ""
+"Определяет порог длины, по которому список, dict или другой сложный тип "
+"будет считаться слишком большим для отображения в обычном отладчике. Если "
+"это слишком велико, отладчик отключится (см. свойство сетевой тайм-аут  "
+"Network Timeout preference)"
+
+#: src/debug/client/prefs.py:225
+msgid ""
+"Defines the length over which a string is considered too large to fetch for "
+"display in the debugger.  If this is set too large, the debugger will time "
+"out (see the Network Timeout preference)."
+msgstr ""
+"Определяет длину, по которой строка считается слишком большой для извлечения "
+"и отображения в отладчике. Если это слишком велико, отладчик отключится (см. "
+"свойство сетевой тайм-аут  Network Timeout preference)."
+
+#: src/debug/client/prefs.py:235
+msgid ""
+"Set this to true to have the debug server use the __members__ attribute to "
+"try to interpret otherwise opaque data values.  This is a preference because "
+"some extension modules contain bugs that result in crashing if this "
+"attribute is accessed.  Note that __members__ has been deprecated since "
+"Python version 2.2."
+msgstr ""
+"Установите для этого значение true, чтобы сервер отладки использовал атрибут "
+"__members__, чтобы попытаться интерпретировать другие непрозрачные значения "
+"данных. Это предпочтение, потому что некоторые модули расширения содержат "
+"ошибки, которые приводят к сбою, если к этому атрибуту обращаются. Обратите "
+"внимание, что __members__ устарел с версии 2.2 Python."
+
+#: src/debug/client/prefs.py:247
+msgid ""
+"Number of seconds to wait before the debugger will stop in its own code "
+"after a pause request is received and no other Python code is reached."
+msgstr ""
+"Количество секунд ожидания до того, как отладчик остановится в своем "
+"собственном коде после получения запроса на паузу и не будет достигнут "
+"другой код Python."
+
+#: src/debug/client/prefs.py:256
+msgid ""
+"Sets the tracking style used when a value is double clicked in order to "
+"watch it.  Values may be tracked by symbolic name, by object reference and "
+"attribute by name, and by direct object reference."
+msgstr ""
+"Устанавливает стиль отслеживания, используемый при двойном щелчке значения, "
+"чтобы посмотреть его. Значения могут отслеживаться символьным именем, "
+"ссылкой на объект и атрибутом по имени, а также с помощью ссылки на прямые "
+"объекты."
+
+#: src/debug/client/prefs.py:262
+msgid "Symbolic name"
+msgstr "Символьное имя"
+
+#: src/debug/client/prefs.py:263
+msgid "Parent reference + name"
+msgstr "Родительская ссылка + имя"
+
+#: src/debug/client/prefs.py:264
+msgid "Direct object reference"
+msgstr "Прямая ссылка на объект"
+
+#: src/debug/client/prefs.py:270
+msgid "Search Registry for Python"
+msgstr "Поиск реестра для Python"
+
+#: src/debug/client/prefs.py:272
+msgid "Search PATH for 'python'"
+msgstr "Поиск PATH для 'python'"
+
+#: src/debug/client/prefs.py:276
+msgid ""
+"Sets the default Python Executable to use for debugging and source code "
+"analysis.  This can be overridden on a project by project basis in Project "
+"Properties."
+msgstr ""
+"Устанавливает исполняемый файл Python по умолчанию для использования, "
+"отладки и анализа исходного кода. Можно переопределить  в свойствах проекта."
+
+#: src/debug/client/prefs.py:281
+msgid "Specify:"
+msgstr "Определить:"
+
+#: src/debug/client/prefs.py:287
+msgid "Select the display style for integer values."
+msgstr "Выберите стиль отображения для целочисленных значений."
+
+#: src/debug/client/prefs.py:290
+msgid "Decimal"
+msgstr "10-чный"
+
+#: src/debug/client/prefs.py:290
+msgid "Hex"
+msgstr "16-чный"
+
+#: src/debug/client/prefs.py:290
+msgid "Octal"
+msgstr "8-чный"
+
+#: src/debug/client/prefs.py:295
+msgid ""
+"Controls whether or not time out, huge value, and error handling value "
+"errors are displayed by the debugger the first time they are encountered in "
+"each run of Wing."
+msgstr ""
+"Определяет, является ли тайм-аут, огромным значением и значения обработки "
+"ошибок отображаются отладчиком при первом их обнаружении в каждом запуске "
+"Wing."
+
+#: src/debug/client/prefs.py:306
+msgid ""
+"The color of the text highlight used for the run position during debugging"
+msgstr ""
+"Цвет подсветки текста, используемого для позиции выполнения во время отладки"
+
+#: src/debug/client/prefs.py:314
+msgid ""
+"Select transparency (0-160) of the text highlight used for the run position "
+"during debugging"
+msgstr ""
+"Выберите прозрачность (0-160) для выделения текста, используемого для "
+"положения run во время отладки"
+
+#: src/debug/client/prefs.py:317
+msgid "Opaque"
+msgstr "Непрозрачный"
+
+#: src/debug/client/prefs.py:318
+msgid "Alpha:"
+msgstr "Альфа:"
+
+#: src/debug/client/prefs.py:323
+msgid ""
+"The color of the active range of code used for quick evaluation in the "
+"Python Shell or Debug Probe."
+msgstr ""
+"Цвет активного куска кода, используемого для быстрой оценки в Python Shell "
+"или  Debug Probe."
+
+#: src/debug/client/prefs.py:329
+msgid ""
+"Whether sys.stdin should be set a wrapper object for user input in the "
+"program being debugged.  The wrapper allows debug commands, such as pause, "
+"to be executed while the program is waiting for user input.  The wrapper may "
+"cause problems with multi-threaded programs that use C stdio functions to "
+"read directly from stdin and will be slower than the normal file object."
+"However, turning this preference off means that your debug process will not "
+"pause or accept breakpoint changes while waiting for keyboard input, and any "
+"keyboard input that occurs as a side effect of commands typed in the Debug "
+"Probe will happen in unmodified stdin instead (even though output will still "
+"appear in the Debug Probe as always)."
+msgstr ""
+"Должен ли sys.stdin устанавливать объект-оболочку для ввода пользователем в "
+"отлаживаемой программе. Оболочка позволяет выполнять отладочные команды, "
+"такие как пауза,  в то время как программа ждет ввода пользователем. Обертка "
+"может вызвать проблемы с многопоточными программами, которые используют "
+"функции C stdio для чтения непосредственно из stdin и будут медленнее, чем "
+"обычный файл. Однако, отключение этого параметра означает, что ваш процесс "
+"отладки не будет приостанавливать или принимать изменения точки останова при "
+"ожидании для ввода с клавиатуры, и любой ввод на клавиатуре, который "
+"возникает как побочный эффект команд, введенных в Debug Probe, произойдет "
+"вместо немодифицированного stdin (хотя вывод все равно будет отображаться в "
+"пробном отладке, как всегда)."
+
+#: src/debug/client/prefs.py:343
+msgid ""
+"This is used to obtain verbose information about debugger internals in cases "
+"where you are having problems getting debugging working. The resulting log "
+"file can be emailed to support@wingware.com along with your bug report for "
+"interpretation. Logging can be disabled, or sent to stderr, stdout, or a "
+"file. When enabled, the debugger will run more slowly."
+msgstr ""
+"Используется для получения подробных сведений о внутренних отладчиках в "
+"случаях, когда возникают проблемы при отладке работы. Результирующий лог-"
+"файл может быть отправлен на support@wingware.com вместе с отчетом об ошибке "
+"для интерпретации. Ведение журнала может быть отключено или отправлено в "
+"stderr, stdout или файл. Если этот параметр включен, отладчик будет работать "
+"медленнее."
+
+#: src/debug/client/prefs.py:352 src/debug/client/prefs.py:377
+msgid "No logging"
+msgstr "Без регистрации"
+
+#: src/debug/client/prefs.py:353 src/debug/client/prefs.py:378
+msgid "Log to sys.stderr"
+msgstr "Вход в систему sys.stderr"
+
+#: src/debug/client/prefs.py:354 src/debug/client/prefs.py:379
+msgid "Log to sys.stdout"
+msgstr "Вход в систему sys.stdout"
+
+#: src/debug/client/prefs.py:355 src/debug/client/prefs.py:380
+msgid "Log to file:"
+msgstr "Вход в файл:"
+
+#: src/debug/client/prefs.py:359
+msgid ""
+"This is used to turn on very verbose and detailed logging from the "
+"debugger.  This should only be enabled at the request of Wingware Technical "
+"Support and will drastically slow down the debugger."
+msgstr ""
+"Используется для включения ведения очень подробного журнала для отладчика.  "
+"Должно быть включено только по просьбе технической поддержки Wingware и "
+"будет резко замедлять отладчик."
+
+#: src/debug/client/prefs.py:368
+msgid ""
+"This is used to obtain verbose information about the Python Shell internals "
+"in cases where you are having problems getting it working.  The resulting "
+"log file can be emailed to support@wingware.com along with your bug report "
+"for interpretation. Logging can be disabled, or sent to stderr, stdout, or a "
+"file.  When enabled, the Python Shell will run more slowly."
+msgstr ""
+"Это используется для получения подробной информации о внутренних компонентах "
+"Python в случаях, когда у вас возникают проблемы с ее работой. Полученный "
+"файл журнала можно отправить по электронной почте на адрес support@wingware."
+"com вместе с отчетом об ошибке для интерпретации. Ведение журнала может быть "
+"отключено или отправлено на stderr, stdout или файл. Когда включено, Python "
+"Shell будет работать медленнее."
+
+#: src/debug/client/prefs.py:385
+msgid ""
+"This is used to turn on very verbose and detailed logging from the Python "
+"Shell internals.  This should only be enabled at the request of Wingware "
+"Technical Support and will drastically slow down the Python Shell."
+msgstr ""
+"Используется для включения очень подробного ведения журнала из внутренних "
+"компонентов Python. Должно быть включено только по запросу технической "
+"поддержки Wingware и значительно замедлит работу оболочки Python."
+
+#: src/debug/client/prefs.py:395
+msgid ""
+"Selects whether to use the integrated Debug I/O tool for debug process input/"
+"output or an external DOS Command prompt window when running. on Windows.  "
+"Use an external window if your debug process depends on details of the "
+"command prompt environment for cursor movement, color text, etc."
+msgstr ""
+"Выбор использования встроенного средства  DebugI/O для процесса отладки "
+"input/output  или внешнего окна DOS командной строки  при запуске в "
+"Windows.  Используйте внешнее окно, если процесс отладки зависит от деталей "
+"командной строки, для перемещения курсора, цветового текста и т. д."
+
+#: src/debug/client/prefs.py:403
+msgid ""
+"Selects whether to use the integrated Debug I/O tool for debug process input/"
+"output or an external terminal window.  Use an external window if your debug "
+"process depends on details of the command prompt environment for cursor "
+"movement, color text, etc."
+msgstr ""
+"Выбор использования встроенного средства отладки ввода/вывода для процесса "
+"отладки входных/выходных данных или внешнего окна терминала.  Используйте "
+"внешнее окно, если процесс отладки зависит от деталей командной строки, для "
+"перемещения курсора, цветового текста и т. д."
+
+#: src/debug/client/prefs.py:416
+msgid ""
+"Determines whether to leave up the console after normal program exit, or to "
+"close the console right away in all cases.  This is only relevant when "
+"running with an external native console instead of using the integrated "
+"Debug I/O tool."
+msgstr ""
+"Определяет, следует ли оставлять консоль после выхода из обычной программы "
+"или сразу же закрыть консоль во всех случаях.  Это актуально только при "
+"работе с внешней встроенной консолью вместо использования встроенного "
+"средства Debug I/O ."
+
+#: src/debug/client/prefs.py:435
+msgid ""
+"A list of the terminal programs that are used with debug processes when "
+"running with an external console.  Each is tried in turn until one is found "
+"to exist.  If just the name is given, Wing will look for each first on the "
+"PATH and then in likely places.  Specify the full path (starting with \"/\") "
+"to use a specific executable.  If program arguments are specified, they must "
+"end with the argument that indicates that the rest of arguments are the "
+"program to run in the terminal.  If the program name starts with "
+"${WINGHOME} , ${WINGHOME} is replaced by the Wing install directory.  On OS "
+"X if the program name ends is .applescript, the environment is loaded from a "
+"file before starting the debugger."
+msgstr ""
+"Список программ терминалов, которые используются с процессами отладки при "
+"работе с внешней консолью.  Каждый из них пытается в свою очередь, пока не "
+"будет найдено, что существует.  Если только имя дается, крыло будет искать "
+"каждый первый на пути, а затем в вероятных местах.  Укажите полный путь "
+"(начинающийся с \"/\") для использования определенного исполняемого файла.  "
+"Если указаны аргументы программы, они должны заканчиваться аргументом, "
+"который указывает, что остальные аргументы являются программой, запускаемой "
+"в терминале.  Если имя программы начинается с $ {WINGHOME}, $ {WINGHOME} "
+"заменяется каталогом установки WING.  В ОС OS X, если имя программы "
+"заканчивается .applescript среда загружается из файла перед запуском "
+"отладчика."
+
+#: src/debug/client/prefs.py:452
+msgid "Enables line wrapping in the integrated Debug I/O tool."
+msgstr ""
+"Включает перенос строк в интегрированном инструменте ввода-вывода Debug I/O."
+
+#: src/debug/client/prefs.py:459
+msgid "Enables line wrapping in the Python Shell."
+msgstr "Включает перенос строк в оболочке Python."
+
+#: src/debug/client/prefs.py:466
+msgid "Enables line wrapping in the Debug Probe."
+msgstr "Включает перенос строк в зонде отладки."
+
+#: src/debug/client/prefs.py:473
+msgid ""
+"Enable to filter shell history traversal when something is entered prior to "
+"starting traversal.  When enabled, Wing will only show history items "
+"starting with the text between the start of the current item and the caret."
+msgstr ""
+"Включите фильтрацию обхода журнала оболочки, когда что-то вводится до начала "
+"обхода. Если включено, Wing будет показывать только элементы истории, "
+"начиная с текста между началом текущего элемента и концом строки."
+
+#: src/debug/client/prefs.py:481
+msgid ""
+"Auto-restart the Python Shell before a file is evaluated within it.  When "
+"this is disabled, be aware that previously defined symbols will linger in "
+"the Python Shell environment."
+msgstr ""
+"Авто-перезапуск оболочки Python перед тем, как файл будет оцениваться внутри "
+"неё. Если отключено, имейте в виду, что ранее определенные символы будут "
+"задерживаться в среде оболочки Python."
+
+#: src/debug/client/prefs.py:493
+msgid ""
+"Evaluate whole lines from editor rather than the exact selection, when a "
+"selection from the editor is sent to the Python Shell tool."
+msgstr ""
+"Оцените целые строки из редактора, а не точный выбор, когда выбор из "
+"редактора отправляется в инструмент Python Shell."
+
+#: src/debug/client/prefs.py:499
+msgid ""
+"Set to False so that shells will act modal in the same way as editors when "
+"working with a modal key bindings such as that for VI.  When True, the "
+"shells always act as if in Insert mode."
+msgstr ""
+"Установите значение False, чтобы оболочки работали модально так же, как и "
+"редакторы при работе с привязками модальных клавиш, например, для VI. Когда "
+"True, оболочки всегда действуют как в режиме Вставки."
+
+#: src/debug/client/prefs.py:506
+msgid ""
+"The number of lines after which the Python Shell will just print a summary "
+"rather than the actual lines of code pasted, dragged, or other transferred "
+"to the shell."
+msgstr ""
+"Количество строк, после которых оболочка Python будет просто печатать "
+"сводку, а не фактические строки кода, вставленные, перетаскиваемые или "
+"другие, перенесенные в оболочку."
+
+#: src/debug/client/prefs.py:513
+msgid ""
+"Whether to always execute immediately after text is pasted into a shell. "
+"Note that if the number of lines exceed the pasted line threshold, the lines "
+"are immediately executed."
+msgstr ""
+"Следует ли всегда выполнять код сразу после вставки текста в оболочку. "
+"Обратите внимание, что если количество строк превышает пороговое значение, "
+"код выполняются немедленно."
+
+#: src/debug/client/prefs.py:520
+msgid ""
+"Used internally to show information about exception handling to new users.  "
+"Once turned off, it is never turned on again"
+msgstr ""
+"Используется для отображения информации об обработке исключений для новых "
+"пользователей. Когда он выключен, он никогда не включается снова"
+
+#: src/debug/client/prefs.py:526
+msgid ""
+"Enable to automatically clear the Debug I/O tool each time a new debug "
+"session is started"
+msgstr ""
+"Включить автоматическую очистку инструмента Debug I/O каждый раз, когда "
+"запускается новый сеанс отладки"
+
+#: src/debug/client/prefs.py:532
+msgid "Never Auto-Show"
+msgstr "Никогда Авто-Шоу"
+
+#: src/debug/client/prefs.py:533
+msgid "Auto-Show on First Output"
+msgstr "Автоматическое отображение на первом выходе"
+
+#: src/debug/client/prefs.py:534
+msgid "Always Auto-Show on Output"
+msgstr "Всегда автотображение на выходе"
+
+#: src/debug/client/prefs.py:538
+msgid ""
+"Controls whether and when to automatically show the Debug I/O tool when it "
+"receives output."
+msgstr ""
+"Определяет, следует ли автоматически отображать средство отладки ввода-"
+"вывода при получении выходных данных."
+
+#: src/debug/client/prefs.py:543
+msgid ""
+"Names of builtin exceptions to never report, even if the exception is not "
+"handled.  This list takes precedence over the Always Report preference and "
+"the Report Exceptions preference when it is set to a value other than Always "
+"Immediately."
+msgstr ""
+"Имена встроенных исключений никогда не сообщать, даже если исключение не "
+"обрабатывается.  Этот список имеет приоритет над предпочтением «Всегда "
+"отчет» и предпочтением «Исключения отчетов», если для него установлено "
+"значение, отличное от «Всегда немедленно»."
+
+#: src/debug/client/prefs.py:550
+msgid ""
+"Names of builtin exceptions to (nearly) always report.  These exceptions are "
+"not reported only if they are explicitly caught by the specific subclass in "
+"the same frame in which they are raised.  "
+msgstr ""
+"Имена встроенных исключений (почти) всегда сообщаются. Эти исключения не "
+"сообщаются только в том случае, если они явно перехвачены конкретным "
+"подклассом в том же фрейме, в котором они были подняты."
+
+#: src/debug/client/prefs.py:558 src/debug/client/prefs.py:576
+msgid "Disabled"
+msgstr "Отключено"
+
+#: src/debug/client/prefs.py:559
+msgid "Symbols Only"
+msgstr "Только Символы"
+
+#: src/debug/client/prefs.py:560
+msgid "All (Use with Caution!)"
+msgstr "Все (используйте с осторожностью!)"
+
+#: src/debug/client/prefs.py:564
+msgid ""
+"Controls whether debug values are shown when the mouse hovers over a "
+"selection in the editor.  This may be disabled, enabled for symbols (like x."
+"y.z) only, or enabled for all selections including function or methods "
+"calls.  WARNING:  Enabling evaluation of any selection may result in "
+"function or method calls that have side effects such as altering the program "
+"state or even making unintended database or disk accesses!"
+msgstr ""
+"Управляет отображением отладочных значений при наведении указателя мыши на "
+"выделение в редакторе. Это может быть отключено, включено только для "
+"символов (например, x.y.z) или включено для всех выборов, включая вызовы "
+"функций или методов. ПРЕДУПРЕЖДЕНИЕ: Включение оценки любого выбора может "
+"привести к вызову функций или методов, которые имеют побочные эффекты, такие "
+"как изменение состояния программы или даже непреднамеренной доступ к базе "
+"данных или  диску!"
+
+#: src/debug/client/prefs.py:581
+msgid ""
+"Enable to display debug data values for any symbol on the editor when the "
+"mouse cursor hovers over it."
+msgstr ""
+"Позволяет отображать значения отладочной информации для любого символа в "
+"редакторе, когда курсор мыши на него наводится."
+
+#: src/debug/client/prefs.py:587
+msgid ""
+"Set to introspect live Python runtimes for information displayed in "
+"autocompletion, the Source Assistant, and debug data value tooltips.  "
+"Runtimes introspected include the Python Shell and live debug processes "
+"stopped at an exception or breakpoint."
+msgstr ""
+"Установите для интроспекции реального времени исполнения Python для "
+"информации, отображаемой в подсказках автозаполнения, Source Assistant и "
+"всплывающих подсказок. Внедренные Runtimes включают оболочку Python и "
+"текущие процессы отладки, остановленные в исключении или точке останова."
+
+#: src/debug/client/prefs.py:596
+msgid ""
+"Set to show property values in the debug data views.  This should be used "
+"with caution.  It enables invocation of the fget() method on the property, "
+"which in some code bases can execute unwanted code, make unexpected changes "
+"to runtime state, hang on lengthy computations, trigger thread deadlocks, "
+"or  crash on buggy user code while debug data is being displayed in the IDE."
+msgstr ""
+"Установите для отображения значений свойств в представлениях отладочной "
+"информации. Следует использовать с осторожностью. Позволяет вызвать метод "
+"fget() в свойстве, который в некоторых базовых кодах может выполнять "
+"нежелательный код, непредсказуемые изменения состояния выполнения, зависание "
+"на длинных вычислениях, триггер замещения потоков или сбой при работе с "
+"ошибкой кода пользователя, в то время как данные отладки отображается в "
+"среде IDE."
+
+#: src/debug/client/prefs.py:606
+msgid ""
+"Enable to allow Python code and other dynamic calls to be invoked while "
+"inspecting data in the debugger, for display in any part of the IDE's user "
+"interface.  This should be used with caution because it can cause the debug "
+"process to execute unwanted code, make unexpected changes to runtime state, "
+"hang on lengthy computations, deadlock threads, or crash in buggy code."
+msgstr ""
+"Включить возможность вызова кода Python и других динамических вызовов при "
+"проверке данных в отладчике для отображения в любой части интерфейса "
+"пользователя IDE. Это следует использовать с осторожностью, поскольку может "
+"привести к тому, что процесс отладки будет выполнять нежелательный код, "
+"внесет непредвиденные изменения в состояние выполнения, зависает на длинных "
+"вычислениях, потоках взаимоблокировки или сбой в buggy-коде."
+
+#: src/debug/client/prefs.py:617
+msgid ""
+"Allow __repr__ methods implemented in Python to be invoked. Disable this if "
+"the __repr__ methods take too long to complete or fail due to other bugs."
+msgstr ""
+"Разрешить методы __repr__, реализованные в Python для вызова. Отключите это, "
+"если методы __repr__ занимают слишком много времени для завершения или сбоя "
+"из-за других ошибок."
+
+#: src/debug/client/prefs.py:624
+msgid ""
+"Whether to inspect base classes for class attributes.  Disable this to work "
+"around crashing in packages such as openerp and odoo."
+msgstr ""
+"Нужно ли проверять базовые классы для атрибутов класса. Отключите это, чтобы "
+"вызвать сбой в пакетах, таких как openerp и odoo."
+
+#: src/debug/client/prefs.py:631
+msgid ""
+"Enable to maintain a history of Debug I/O, up to the number configured in "
+"the Files > Max Recent Items preference."
+msgstr ""
+"Включить поддержку истории Debug I/O, до номера, настроенного в настройках "
+"Files> Max Recent Items."
+
+#: src/debug/client/prefs.py:640
+msgid "Enable to include child processes in the process selector popup."
+msgstr "Включить дочерние процессы во всплывающем окне выбора процесса."
+
+#: src/debug/client/prefs.py:655
+msgid "Console default (%s)"
+msgstr "Консоль по умолчанию (%s)"
+
+#: src/debug/client/prefs.py:660
+msgid "Encoding of input/output in the Debug I/O panel"
+msgstr "Кодирование ввода/вывода на панели Debug I/O"
+
+#: src/debug/client/prefs.py:667
+msgid "Always"
+msgstr "Всегда"
+
+#: src/debug/client/prefs.py:668
+msgid "Only if Single-Threaded"
+msgstr "Только если Однопоточный"
+
+#: src/debug/client/prefs.py:669 src/debug/client/prefs.py:739
+msgid "Never"
+msgstr "Никогда"
+
+#: src/debug/client/prefs.py:673
+msgid ""
+"Controls when the debugger periodically flushes I/O sent to sys.stdout and "
+"sys.stderr.  Doing so may deadlock in some code. Not doing so may not "
+"display text that has been output without newline."
+msgstr ""
+"Управляет, когда отладчик периодически сбрасывает ввод-вывод, отправляемый в "
+"sys.stdout и sys.поток stderr.  Это может привести к блокировке некоторого "
+"кода. При этом не может отображаться текст, выводимый без новой строки."
+
+#: src/debug/client/prefs.py:683
+msgid "Use default stdin / stdout encoding"
+msgstr "Использовать стандартную кодировку stdin / stdout"
+
+#: src/debug/client/prefs.py:687
+msgid "Encoding of input/output in the integrated Python Shell and Debug Probe"
+msgstr ""
+"Кодирование ввода / вывода в интегрированной оболочке Python и отладочном "
+"зонде"
+
+#: src/debug/client/prefs.py:689
+msgid "Encoding of input/output in the integrated Python Shell"
+msgstr "Кодирование ввода / вывода в интегрированной оболочке Python"
+
+#: src/debug/client/prefs.py:703
+msgid ""
+"Enable to display a dialog when the Python Shell state no longer matches the "
+"configured Python Executable and/or Python Path."
+msgstr ""
+"Включить отображение диалогового окна, когда состояние оболочки Python "
+"больше не соответствует настроенному Python Executable и/или Python Path."
+
+#: src/debug/client/prefs.py:709
+msgid ""
+"Enable to use pprint.pprint to display values in the Python Shell and Debug "
+"Probe."
+msgstr ""
+"Разрешить использовать pprint.pprint для отображения значений в оболочке "
+"Python и пробном отладке."
+
+#: src/debug/client/prefs.py:716
+msgid ""
+"Enable to set current directory in the Python Shell to the directory of the "
+"active editor."
+msgstr ""
+"Включите установку текущего каталога в оболочке Python в каталог активного "
+"редактора."
+
+#: src/debug/client/prefs.py:722
+msgid ""
+"Selects the file to use for storing and retrieving shared launch "
+"configurations. By default the file 'launch' in the user settings directory "
+"is used."
+msgstr ""
+"Выбирает файл для хранения и получения общих конфигураций запуска. По "
+"умолчанию используется файл «launch» в каталоге настроек пользователя."
+
+#: src/debug/client/prefs.py:727
+msgid "Default"
+msgstr "Умолчание"
+
+#: src/debug/client/prefs.py:728
+msgid "File:"
+msgstr "Файл:"
+
+#: src/debug/client/prefs.py:733
+msgid ""
+"Enable to indicate projects files in the the debug stack, in the stack "
+"selector, Stack Data, and Exception tools."
+msgstr ""
+"Включить, чтобы указать файлы проектов в стеке отладки, в селекторе стека, "
+"средствах Stack Data и Exception."
+
+#: src/debug/client/prefs.py:740
+msgid "According to File Properties"
+msgstr "Согласно свойствам файла"
+
+#: src/debug/client/prefs.py:744
+msgid ""
+"Controls whether the Debug Args dialog is shown before each debug run:  "
+"Either never show the dialog or show it only if 'Show this dialog before "
+"each run' is checked in the file's properties (this is the default)."
+msgstr ""
+"Контролирует, отображается ли диалог Debug Args перед каждым отладочным "
+"запуском: либо никогда не показывать диалог, либо показывать его только в "
+"том случае, если в свойствах файла отмечен флажок «Показывать это диалоговое "
+"окно перед каждым запуском» (это значение по умолчанию)."
+
+#: src/debug/client/prefs.py:753
+msgid "Prompt for Action"
+msgstr "Приглашение к действию"
+
+#: src/debug/client/prefs.py:754
+msgid "Cancel Debug"
+msgstr "Отменить отладку"
+
+#: src/debug/client/prefs.py:755
+msgid "Debug Anyway"
+msgstr "Отладка в любом случае"
+
+#: src/debug/client/prefs.py:758
+msgid "Controls whether to start debugging if the defined build process fails"
+msgstr ""
+"Определяет, следует ли запускать отладку при сбое определенного процесса "
+"построения"
+
+#: src/debug/client/prefs.py:765
+msgid ""
+"Enable multi-process debugging.  When disabled, Wing will only accept one "
+"debug connection at a time."
+msgstr ""
+"Включить многопроцессорную отладку. При отключении Wing будет принимать "
+"только одно отладочное соединение одновременно."
+
+#: src/debug/client/prefs.py:770
+msgid ""
+"Maximum number of debug processes that can connect to Wing at once.  After "
+"the limit is reached, Wing accepts no additional connections until some "
+"processes detach or exit."
+msgstr ""
+"Максимальное количество отладочных процессов, которые могут сразу "
+"подключаться к Wing. После достижения предела Wing не принимает никаких "
+"дополнительных соединений, пока некоторые процессы не отсоединятся или не "
+"выходят."
+
+#: src/debug/client/prefs.py:776
+msgid ""
+"Enable debugging sub-processes.  When disabled, Wing will only debug the "
+"initially launched parent process."
+msgstr ""
+"Включить подпроцессы отладки. Когда отключено, Wing только отлаживает "
+"начальный родительский процесс."
+
+#: src/debug/client/prefs.py:781
+msgid ""
+"Enable replacement of sys.executable so that processes launched using that "
+"value will be debugged.  This must be enabled on Windows in order to debug "
+"child processes created with the multiprocessing module."
+msgstr ""
+"Включите замену sys.executable, чтобы процессы, запущенные с использованием "
+"этого значения, были отлажены. Это необходимо включить в Windows, чтобы "
+"отлаживать дочерние процессы, созданные с помощью модуля многопроцессорности."
+
+#: src/debug/client/prefs.py:787
+msgid "Switch Only if No Active Debug Process"
+msgstr "Переключение только в случае отсутствия активного процесса отладки"
+
+#: src/debug/client/prefs.py:788
+msgid "Switch to Most Recently Launched Process Group"
+msgstr "Переключиться на самую недавно запущенную группу процессов"
+
+#: src/debug/client/prefs.py:789
+msgid "Always Switch"
+msgstr "Всегда переключаться"
+
+#: src/debug/client/prefs.py:792
+msgid ""
+"When to automatically switch the currently active debug process to a process "
+"that reaches a breakpoint or exception."
+msgstr ""
+"Когда необходимо автоматически переключать текущий активный процесс отладки "
+"на процесс, который достигает точки останова или исключения."
+
+#: src/debug/client/prefs.py:798
+msgid "Leave Other Processes Running"
+msgstr "Оставить другие процессы запущенными"
+
+#: src/debug/client/prefs.py:799
+msgid "Kill Child Processes with Parent"
+msgstr "Убить дочерние процессы с родительским"
+
+#: src/debug/client/prefs.py:800
+msgid "Kill Entire Process Group"
+msgstr "Убить всю группу процессов"
+
+#: src/debug/client/prefs.py:801
+msgid "Prompt For Action When a Process is Killed"
+msgstr "Запрашивать действие при завершении процесса"
+
+#: src/debug/client/prefs.py:804
+msgid ""
+"How to terminate debug when a parent process or child process is "
+"terminated.  A process group includes any all parent and child processes, up "
+"to the initially launched process, including also grand-children and any "
+"other descendent process."
+msgstr ""
+"Как завершить отладку при завершении родительского процесса или дочернего "
+"процесса.  Группа процессов включает все родительские и дочерние процессы, "
+"вплоть до изначально запущенных процессов, в том числе внуков и других "
+"потомков процесса."
+
+#: src/debug/client/prefs.py:812
+msgid ""
+"Enable debugging more than one unit test at once.  When enabled, the Debug/"
+"Abort button in the Testing tool alters according to which test is selected."
+msgstr ""
+"Включить отладку сразу нескольких тестов.  При включении кнопки Отладка/"
+"Прерывание в средстве тестирования изменяется в соответствии с выбранным "
+"тестом."
+
+#: src/debug/client/prefs.py:818
+msgid ""
+"Enable debugging more than one instance of a named entry point.  When "
+"disabled, any existing debug process for a named entry point will be "
+"terminated when it is debugged."
+msgstr ""
+"Включить отладку более одного экземпляра именованной точки входа. При "
+"отключении любой существующий отладочный процесс для именованной точки входа "
+"будет прекращен, когда он будет отлажен."
+
+#: src/debug/client/prefs.py:826
+msgid ""
+"Whether to prompt when restarting the Python Shell as a result of restarting "
+"debugging."
+msgstr ""
+"Выводить приглашение при перезапуске оболочки Python в результате "
+"перезапуска отладки."
+
+#: src/debug/client/prefs.py:832
+msgid "Enables debugging code executed in the Python Shell or Debug Probe."
+msgstr ""
+"Включает отладочный код, выполняемый в оболочке Python или Зонде Отладки."
+
+#: src/debug/client/prefs.py:841
+msgid "Enables recursive debugging in the Python Shell and Debug Probe."
+msgstr "Включает рекурсивную отладку в оболочке Python и Зонде отладки."
+
+#: src/debug/client/prefs.py:849
+msgid ""
+"Whether to show a dialog when a breakpoint is set on a different line than "
+"the selected on."
+msgstr ""
+"Показывать диалоговое окно при установке точки останова на линии, отличной "
+"от выбранной."
+
+#: src/debug/client/prefs.py:857
+msgid "Whether to animate debug data tips shown when Shift-Space is pressed."
+msgstr ""
+
+#: src/debug/client/prefs.py:865
+msgid ""
+"Controls whether the debugger will close the connection after any data "
+"handling timeout.  This reduces the potential for hanging on data handling "
+"issues, but increases the chances the debug connection will be unnecessarily "
+"closed if any inspection of data takes more than the configured timeout to "
+"complete."
+msgstr ""
+"Определяет, будет ли отладчик закрывать соединение после любого тайм-аута "
+"обработки данных.  Это уменьшает вероятность зависания при обработке данных, "
+"но увеличивает вероятность того, что отладочное соединение будет "
+"необоснованно закрыто, если проверка данных займет больше заданного времени "
+"ожидания."
+
+#: src/debug/client/prefs.py:876
+msgid ""
+"Controls whether the debugger shows protected variables (with one "
+"leadingunderscore) in the Stack Data view."
+msgstr ""
+
+#: src/debug/client/prefs.py:884
+msgid ""
+"Controls whether the debugger shows private variables (with two "
+"leadingunderscores) in the Stack Data view."
+msgstr ""
+
+#: src/debug/client/prefs.py:892
+msgid ""
+"Controls whether the debugger shows special variables (with two leadingand "
+"two trailing underscores) in the Stack Data view."
+msgstr ""
+
+#: src/debug/client/prefs.py:900
+msgid ""
+"Controls whether the debugger shows memory addresses as part of the display "
+"of object instances."
+msgstr ""
+
+#: src/debug/client/prefs.py:908
+msgid "Controls whether the debugger shows value details in data views."
+msgstr ""
+
+#: src/debug/client/prefs.py:915
+msgid ""
+"Controls whether the debugger shows value details in data views verticallyor "
+"horizontally."
+msgstr ""
+
+#: src/debug/client/prefs.py:923
+msgid ""
+"Selects the type of search to perform in the array view of debug data: text, "
+"wildcard, or regex"
+msgstr ""
+
+#: src/debug/client/prefs.py:931
+msgid "Selects whether search in the array view is case sensitive"
+msgstr ""
+
+#: src/debug/client/prefs.py:938
+msgid ""
+"Controls whether searching in the debug array view searchs all columns or "
+"just the visible columns"
+msgstr ""
+
+#: src/debug/client/runstate.py:94
+msgid "Server not responding"
+msgstr "Сервер не отвечает"
+
+#: src/debug/client/runstate.py:95
+msgid ""
+"The debug server has stopped responding: Network connection has been closed"
+msgstr "Сервер отладки перестал отвечать: Сетевое подключение закрыто"
+
+#: src/debug/client/runstate.py:579
+msgid "Could not find a file to debug"
+msgstr "Не удалось найти файл для отладки"
+
+#: src/debug/client/runstate.py:579 src/debug/client/runstate.py:587
+msgid "Nothing to debug"
+msgstr "Нечего отлаживать"
+
+#: src/debug/client/runstate.py:587
+msgid "File does not exist: %s"
+msgstr "Файл не существует: %s"
+
+#: src/debug/client/runstate.py:607 src/debug/client/runstate.py:628
+msgid "Debugger launch cancelled"
+msgstr "Запуск отладчика отменен"
+
+#: src/debug/client/runstate.py:620
+msgid "Failed to open remote file"
+msgstr "Не удалось открыть удаленный файл"
+
+#: src/debug/client/runstate.py:694
+msgid "Build Command Not Found"
+msgstr "Команда Сборки Не Найдена"
+
+#: src/debug/client/runstate.py:695
+msgid ""
+"The build command set in file or project properties could not be found "
+"because it was removed from the OS Commands tool.  Please edit your file or "
+"project properties to correct this error.  Starting debug without build."
+msgstr ""
+"Не удалось найти команду Build, заданную в свойствах файла или проекта, "
+"поскольку она была удалена из инструмента команды ОС.  Измените свойства "
+"файла или проекта, чтобы исправить эту ошибку.  Запуск отладки без сборки."
+
+#: src/debug/client/runstate.py:718
+msgid "Build Command Failed"
+msgstr "Ошибка Команды Сборки"
+
+#: src/debug/client/runstate.py:719
+msgid "The build command failed.  Start debugging anyway?"
+msgstr "Не удалось выполнить команду сборки. Начать отладку в любом случае?"
+
+#: src/debug/client/runstate.py:723
+msgid "_Don't ask me again"
+msgstr "Не спрашивать снова"
+
+#: src/debug/client/runstate.py:731
+msgid "_Yes"
+msgstr "Да"
+
+#: src/debug/client/runstate.py:732
+msgid "_No"
+msgstr "Нет"
+
+#: src/debug/client/runstate.py:784
+msgid "Could not debug unsaved file"
+msgstr "Не удалось отладить несохраненный файл"
+
+#: src/debug/client/runstate.py:787
+msgid "Could not debug %s because it does not exist."
+msgstr "Не удалось выполнить отладку %s потому что его не существует."
+
+#: src/debug/client/runstate.py:788 src/debug/client/runstate.py:815
+msgid "Could not start debug process"
+msgstr "Не удалось запустить процесс отладки"
+
+#: src/debug/client/runstate.py:802
+msgid "Could not start TCP/IP listen"
+msgstr "Не удается запустить протокол TCP/IP для прослушивания"
+
+#: src/debug/client/runstate.py:900
+msgid "Could not debug \"%s\" -- the file does not exist"
+msgstr "Не удалось отладить \"%s\" -- файл не существует"
+
+#: src/debug/client/runstate.py:903
+msgid "Could not debug directory  \"%s\""
+msgstr "Не удалось отладить каталог  \"%s\""
+
+#: src/debug/client/runstate.py:906
+msgid "Cannot debug main file located within a zip or egg  \"%s\""
+msgstr ""
+"Не удается выполнить отладку основного файла, расположенного в ZIP или Egg  "
+"\"%s\""
+
+#: src/debug/client/runstate.py:964
+msgid "Unexpected local launch of remote file: %s"
+msgstr "Неожиданный локальный запуск удаленного файла: %s"
+
+#: src/debug/client/runstate.py:969 src/debug/client/runstate.py:1255
+msgid "Configured run directory does not exist: %s"
+msgstr "Заданный каталог выполнения не существует: %s"
+
+#: src/debug/client/runstate.py:1066
+msgid ""
+"Could not launch debugger for \"%s\".  The python interpreter \"%s\" may not "
+"exist."
+msgstr ""
+"Не удалось запустить отладчик для \"%s\".  Интерпретатор python \"%s \" "
+"может не существовать."
+
+#: src/debug/client/runstate.py:1071
+msgid "Could not launch debugger for \"%s\"."
+msgstr "Не удалось запустить отладчик для \"%s\"."
+
+#: src/debug/client/runstate.py:1118
+msgid "Debug Failed - Could not establish SSH tunnel"
+msgstr "Ошибка отладки - не удалось установить туннель SSH"
+
+#: src/debug/client/runstate.py:1120
+msgid "Output seen:"
+msgstr "Обнаруженный результат:"
+
+#: src/debug/client/runstate.py:1122
+msgid "No output was seen"
+msgstr "Вывод не был обнаружен"
+
+#: src/debug/client/runstate.py:1156
+msgid ""
+"Remote hosts mismatch:  Cannot use Python on host %s to run file %s - The "
+"file must be on the same host as Python."
+msgstr ""
+"Несоответствие удаленных хостов: Невозможно использовать Python для хоста %s "
+"для запуска файла %s. Файл должен находиться на том же хосте, что и Python."
+
+#: src/debug/client/runstate.py:1207
+msgid "Remote launch failed::Failed to start Python '%s' on host %s"
+msgstr "Сбой удаленного запуска::Не удалось запустить Python '%s' на хосте %s"
+
+#: src/debug/client/runstate.py:1209
+msgid "Remote launch failed::Failed to start Python on host %s"
+msgstr "Сбой удаленного запуска:: не удалось запустить Python на узле %s"
+
+#: src/debug/client/runstate.py:1211
+msgid "Received output:"
+msgstr "Полученный результат:"
+
+#: src/debug/client/runstate.py:1234
+msgid "Remote launch failed::Failed to start remote agent on host %s"
+msgstr ""
+"Сбой удаленного запуска:: не удалось запустить удаленный агент на узле %s"
+
+#: src/debug/client/runstate.py:1272
+msgid ""
+"You have specified that Wing should display a separate console for this "
+"debug process but Wing cannot find any of the configured consoles:\n"
+"\n"
+"%s\n"
+"\n"
+"Try altering the setting the Debug External Consoles preference from "
+"Preferences in the Edit menu or use integrated I/O by unchecking the Use "
+"External Console preference.\n"
+msgstr ""
+"Вы указали, что Wing должен отображать отдельную консоль для этого процесса "
+"отладки, но Wing не может найти какие-либо из сконфигурированных консолей:\n"
+"\n"
+"%s\n"
+"\n"
+"Попробуйте изменить настройку параметра «Отладка внешних консолей» в разделе "
+"«Настройки» в меню «Правка» или использовать встроенный ввод-вывод, сняв "
+"флажок «Использовать внешнюю консоль»."
+
+#: src/debug/client/runstate.py:1331
+msgid ""
+"Could not start debugger because the filename %s cannot be encoded in the "
+"current file system encoding (%s)"
+msgstr ""
+"Не удалось запустить отладчик, потому что имя файла %s не может быть "
+"распознано в текущей кодировке файловой системы (%s)"
+
+#: src/debug/client/runstate.py:1693 src/debug/client/runstate.py:2754
+msgid "Step Over"
+msgstr "Шаг Через"
+
+#: src/debug/client/runstate.py:1695 src/debug/client/runstate.py:2755
+msgid "Step Over Line"
+msgstr "Шаг Через Строку"
+
+#: src/debug/client/runstate.py:1703 src/debug/client/runstate.py:2757
+msgid "Step Into"
+msgstr "Шаг В"
+
+#: src/debug/client/runstate.py:1711 src/debug/client/runstate.py:2758
+msgid "Step Out"
+msgstr "Шаг Из"
+
+#: src/debug/client/runstate.py:1714 src/debug/client/runstate.py:2756
+msgid "Step Out To Frame"
+msgstr "Шаг Через Фрейм"
+
+#: src/debug/client/runstate.py:1792 src/debug/client/runstate.py:2759
+#: src/debug/client/runstate.py:2764
+msgid "Continue"
+msgstr "Прдолжить"
+
+#: src/debug/client/runstate.py:1799 src/debug/client/runstate.py:2761
+msgid "Debug to Cursor"
+msgstr "Отладка до Курсора"
+
+#: src/debug/client/runstate.py:1806
+msgid "Cannot Run To Location"
+msgstr "Не удается выполнить поиск"
+
+#: src/debug/client/runstate.py:1807
+msgid ""
+"Wing cannot run to this location because the file is not available on the "
+"remote host."
+msgstr ""
+"Wing не может работать в этом месте, так как файл недоступен на удаленном "
+"узле."
+
+#: src/debug/client/runstate.py:2182
+msgid "Process %i raised an exception"
+msgstr "Процесс %i вызвал исключение"
+
+#: src/debug/client/runstate.py:2183
+#, fuzzy
+msgid "Number of exception stacks: %i"
+msgstr "Перейти вниз по стеку исключений"
+
+#: src/debug/client/runstate.py:2185
+msgid "Process %i reached a breakpoint or paused"
+msgstr "Процесс %i достиг точки останова или приостановлен"
+
+#: src/debug/client/runstate.py:2327
+msgid " [%ld of %ld files changed since module load]"
+msgstr " [%ld из %ld после загрузки модуля ]"
+
+#: src/debug/client/runstate.py:2331
+msgid " [%ld modules loaded]"
+msgstr " [%ld загруженные модули]"
+
+#: src/debug/client/runstate.py:2514
+msgid ""
+"You may need to configure anti-virus or security software to allow Wing to "
+"listen on TCP/IP ports."
+msgstr ""
+"Возможно, потребуется настроить антивирус или программное обеспечение "
+"безопасности, чтобы позволить Wing прослушивать порты TCP/IP."
+
+#: src/debug/client/runstate.py:2515
+msgid "Debug Listen Failed"
+msgstr "Отладка отсутствует"
+
+#: src/debug/client/runstate.py:2518
+msgid ""
+"Debugger could not listen for connections:  Another copy of the IDE or other "
+"software may be running on the same network port (TCP/IP port %s).  This can "
+"be configured with the Debugger > Listening > Server Port preference or in "
+"Project Properties > Debug/Execute > Server Port."
+msgstr ""
+"Отладчик не может прослушивать подключения:  Другая копия IDE или другого "
+"программного обеспечения может выполняться на том же сетевом порту (порт TCP/"
+"IP %s).  Это может быть настроено с помощью Оладчик > Прослушивание> Порт "
+"Сервера  предпочтения или в свойства проекта > Отладка/Выполнить > Порт "
+"Сервера."
+
+#: src/debug/client/runstate.py:2520
+msgid ""
+"Listening on a random port also failed so debugging sub-processes will not "
+"work."
+msgstr ""
+"Не удалось прослушивать случайный порт, поэтому отладка подпроцессов не "
+"будет работать."
+
+#: src/debug/client/runstate.py:2522
+msgid ""
+"Debugger could not listen for TCP/IP connections for debugging sub-processes."
+msgstr ""
+"Отладчик не может прослушивать соединения TCP / IP для отладки подпроцессов."
+
+#: src/debug/client/runstate.py:2544
+msgid "; pid=%s"
+msgstr ""
+
+#: src/debug/client/runstate.py:2546
+msgid "; host=%s, pid=%s"
+msgstr ""
+
+#: src/debug/client/runstate.py:2555
+msgid "Debug process exited"
+msgstr "Процесс отладки завершен"
+
+#: src/debug/client/runstate.py:2557
+msgid "Debug process running"
+msgstr "Запуск процесса отладки"
+
+#: src/debug/client/runstate.py:2560
+msgid "Debug process paused"
+msgstr "Процесс отладки приостановлен"
+
+#: src/debug/client/runstate.py:2568
+msgid "Program exception"
+msgstr "Исключение программы"
+
+#: src/debug/client/runstate.py:2571
+msgid "Connected to debug process"
+msgstr "Подключенние к процессу отладки"
+
+#: src/debug/client/runstate.py:2574
+msgid "Unknown or invalid debug mode"
+msgstr "Неизвестный или недопустимый режим отладки"
+
+#: src/debug/client/runstate.py:2581
+msgid "terminated"
+msgstr "завершенный"
+
+#: src/debug/client/runstate.py:2584
+msgid "no process"
+msgstr "нет процесса"
+
+#: src/debug/client/runstate.py:2586
+msgid "running"
+msgstr "работа"
+
+#: src/debug/client/runstate.py:2588
+msgid "paused"
+msgstr "остановка"
+
+#: src/debug/client/runstate.py:2590 src/debug/client/runstate.py:2592
+msgid "listening"
+msgstr "прослушивание"
+
+#: src/debug/client/runstate.py:2594
+msgid "exception"
+msgstr "исключение"
+
+#: src/debug/client/runstate.py:2596
+msgid "connected"
+msgstr "соединение"
+
+#: src/debug/client/runstate.py:2598
+msgid "unknown mode"
+msgstr "неизвестный режим"
+
+#: src/debug/client/runstate.py:2660
+msgid " (changed on disk only)"
+msgstr "(изменено только на диске)"
+
+#: src/debug/client/runstate.py:2662 src/debug/client/runstate.py:2677
+msgid " (unsaved changes)"
+msgstr " (несохраненные изменения)"
+
+#: src/debug/client/runstate.py:2665
+msgid " (open and changed on disk)"
+msgstr " (открыть и изменить на диске)"
+
+#: src/debug/client/runstate.py:2746
+msgid ""
+"The following files are unsaved or do not match the code running in the "
+"debug process because they have changed in the IDE and/or on disk since they "
+"were last loaded. This may lead to incorrect source display for those files "
+"or failure to stop on breakpoints.  If your debug program is not designed to "
+"reload altered modules, you may wish to restart your debug process now."
+msgstr ""
+"Следующие файлы не сохранены или не соответствуют коду, выполняемому в "
+"процессе отладки, поскольку они изменились в среде IDE и/или на диске с "
+"момента последней загрузки. Это может привести к неправильному отображению "
+"исходных файлов или сбою остановки на точках останова.  Если программа "
+"отладки не предназначена для перезагрузки измененных модулей, может "
+"потребоваться перезапустить процесс отладки."
+
+#: src/debug/client/runstate.py:2752
+msgid "Files Modified"
+msgstr "Модифицированные файлы"
+
+#: src/debug/client/runstate.py:2754
+msgid "_Step Over"
+msgstr "Шаг Через"
+
+#: src/debug/client/runstate.py:2755
+msgid "_Step Over Line"
+msgstr "Шаг через строку"
+
+#: src/debug/client/runstate.py:2756
+msgid "_Step Out To Frame"
+msgstr "Шаг из фрейма"
+
+#: src/debug/client/runstate.py:2757
+msgid "_Step Into"
+msgstr "Шаг в"
+
+#: src/debug/client/runstate.py:2758
+msgid "_Step Out"
+msgstr "Шаг из"
+
+#: src/debug/client/runstate.py:2759
+#, fuzzy
+msgid "Con_tinue Debug"
+msgstr "Продолжить отладку"
+
+#: src/debug/client/runstate.py:2761
+msgid "_Debug to Cursor"
+msgstr "Отладка до курсора"
+
+#: src/debug/client/runstate.py:2762
+msgid "Debug to Clicked"
+msgstr "Отладка до Клика"
+
+#: src/debug/client/runstate.py:2762
+msgid "_Debug to Clicked"
+msgstr "Отладка до Клика"
+
+#: src/debug/client/runstate.py:2765
+msgid "Con_tinue Without Restart"
+msgstr ""
+
+#: src/debug/client/runstate.py:2770
+msgid "Save & _Restart"
+msgstr "Сохранить & Перезапустить"
+
+#: src/debug/client/runstate.py:2772
+msgid "Save & Sto_p Debugging"
+msgstr "Сохранить & остановить отладку"
+
+#: src/debug/client/runstate.py:2773
+msgid "Sa_ve & "
+msgstr "Сохранить &"
+
+#: src/debug/client/runstate.py:2774
+msgid " Without Saving"
+msgstr "Без сохранения"
+
+#: src/debug/client/runstate.py:2779
+msgid "Sto_p Debugging"
+msgstr "Остановить отладку"
+
+#: src/debug/client/runstate.py:2782
+msgid "Always _ignore module changes"
+msgstr "Всегда игнорировать изменения модуля"
+
+#: src/debug/client/runstate.py:2785
+msgid "_Auto-save before debugging"
+msgstr "Автоматическое сохранение перед отладкой"
+
+#: src/debug/client/runstate.py:2916 src/debug/client/runstate.py:2919
+msgid "Failed to Start"
+msgstr "Не удалось запустить"
+
+#: src/debug/client/runstate.py:2917
+msgid ""
+"Failed to start the debug the program:  Could not listen on TCP/IP port %s."
+msgstr ""
+"Не удалось запустить отладку программы: Не удалось прослушивать порт TCP/IP "
+"%s."
+
+#: src/debug/client/runstate.py:2920
+msgid ""
+"Failed to start the debug the program:  Could not listen on TCP/IP host %s, "
+"port %s."
+msgstr ""
+"Не удалось запустить отладку программы: не удалось прослушать TCP / IP хост "
+"%s, порт %s."
+
+#: src/debug/client/runstate.py:3005
+msgid ""
+"The debug process never connected back to Wing:  Aborting debug session.  "
+"See Trouble-shooting Failure to Debug in the product manual."
+msgstr ""
+"Процесс отладки никогда не подключался обратно к Wing: прерывание сеанса "
+"отладки.  См. Раздел устранение неполадок для отладки в руководстве по "
+"продукту."
+
+#: src/debug/client/runstate.py:3006
+msgid "Connection Failed"
+msgstr "Ошибка подключения"
+
+#: src/debug/client/runstate.py:3069
+msgid "Protocol Mismatch"
+msgstr "Несоответствие протокола"
+
+#: src/debug/client/runstate.py:3070
+msgid ""
+"The debug server protocol version (%i) does not match IDE protocol version "
+"(%i).  Please make sure your wingdbstub.py file and debug server "
+"installation match the version of Wing that you are running.  If you are "
+"running multiple instances of Wing, you may need to set kWingHostPort in "
+"wingdbstub.py and set the Debugger > Listening > Server Port preference."
+msgstr ""
+"Версия протокола отладочного сервера (%i) не соответствует версии протокола "
+"IDE (%i).  Пожалуйста, убедитесь, что файл wingdbstub.py и установка сервера "
+"отладки соответствуют версии Wing, которую вы используете.  Если вы "
+"используете несколько экземпляров Wing, вам может потребоваться установить "
+"kWingHostPort в wingdbstub.py и установите параметр Отладчик > Прослушивание "
+"> Порт Сервера."
+
+#: src/debug/client/runstate.py:3085
+msgid "Connection Refused"
+msgstr "В соединении отказано"
+
+#: src/debug/client/runstate.py:3086
+msgid ""
+"The debug process could not connect because it was not launched by the IDE "
+"and did not send a valid authentication token.  You may need to place a copy "
+"of %s into Wing's User Settings directory for the user running the debug "
+"process or into the same directory as wingdbstub.py"
+msgstr ""
+"Отладочный процесс не мог подключиться, поскольку он не был запущен средой "
+"IDE и не отправил действительный токен аутентификации. Возможно, вам "
+"понадобится поместить копию %s в каталог настроек пользователя Wing для "
+"пользователя, выполняющего процесс отладки или в тот же каталог, что и "
+"wingdbstub.py"
+
+#: src/debug/client/runstate.py:3146
+msgid "Couldn't initialize debug process"
+msgstr "Не удалось инициализировать процесс отладки"
+
+#: src/debug/client/runstate.py:3147
+msgid "Couldn't get information from the debug process or initialize it"
+msgstr ""
+"Не удалось получить информацию из процесса отладки или инициализировать его"
+
+#: src/debug/client/runstate.py:3343
+msgid "Open failed: %s is probably a binary file"
+msgstr "Ошибка открытия: %s вероятно, это двоичный файл"
+
+#: src/debug/client/runstate.py:3687
+msgid "Debug Process Exception"
+msgstr "Исключение процесса отладки"
+
+#: src/debug/client/runstate.py:3688
+msgid ""
+"Your debug process has raised an exception.  Use the <literal>Stack Data</"
+"literal> and other debugger tools to inspect the program state.\n"
+"\n"
+"<strong>IMPORTANT:</strong> Wing tries to report only unhandled exceptions, "
+"but for clarity will also report any exception you step over in the "
+"debugger.  If you reach an exception that you do not see running outside of "
+"the debugger, it may mean that Wing was unable to find the handler.  These "
+"exceptions can be ignored in the <literal>Exceptions</literal> tool. Other "
+"exception handling modes are also available. To get the most out of Wing, it "
+"is a good idea to read <literal>Managing Exceptions</literal> in the manual."
+msgstr ""
+"Исключение составляет процесс отладки. Используйте <literal>Данные стека</"
+"literal> и другие средства отладчика для проверки состояния программы.\n"
+"\n"
+"<strong>ВАЖНО:</strong> Wing пытается сообщать только необработанные "
+"исключения, но для наглядности также сообщит о любом исключении, которое вы "
+"перешагнули в отладчике.  Если вы достигли исключения, которое вы не видите "
+"за пределами отладчика, это может означать, что Wing не смог найти "
+"обработчик.  Эти исключения могут быть проигнорированы в "
+"<literal>Исключения</literal> инструмент. Также доступны другие режимы "
+"обработки исключений. Чтобы получить максимальную отдачу от Wing, "
+"рекомендуется прочитать <literal>Управление исключениями</literal> в "
+"руководстве."
+
+#: src/debug/client/runstate.py:3713
+msgid "Don't show this notice again"
+msgstr "Больше не показывать это уведомление "
+
+#: src/debug/client/shell.py:183
+msgid "[omitting some output]"
+msgstr "[опуская некоторые Выходные данные]"
+
+#: src/debug/client/shell.py:212
+msgid "truncated"
+msgstr "усеченный"
+
+#: src/debug/client/shell.py:940
+msgid "Save Session"
+msgstr "Сохраненная сессия"
+
+#: src/debug/client/shell.py:941
+msgid "Choose file to which to save the session:"
+msgstr "Выберите файл для сохранения сеанса:"
+
+#: src/debug/client/shell.py:1240
+msgid "Select _All"
+msgstr "Выбрать все"
+
+#: src/debug/client/shell.py:1242
+msgid "C_opy"
+msgstr "Копия"
+
+#: src/debug/client/shell.py:1243
+msgid "_Paste"
+msgstr "Вставить"
+
+#: src/debug/client/shell.py:1248
+msgid "Print..."
+msgstr "Печать..."
+
+#: src/debug/client/shell.py:1252
+msgid "Send _NUL (0x00)"
+msgstr "Послать NUL (0x00)"
+
+#: src/debug/client/shell.py:1254
+msgid "Send _EOF (0x04)"
+msgstr "Послать EOF (0x04)"
+
+#: src/debug/client/shell.py:1786 src/debug/client/shell.py:1803
+msgid "Shell state for %s"
+msgstr "Состояние оболочки для %s"
+
+#: src/debug/client/shell.py:1855
+msgid "Save Selection?"
+msgstr "Сохранить Выбор?"
+
+#: src/debug/client/shell.py:1856
+msgid "Would you like to save only the current selection?"
+msgstr "Вы хотите сохранить только текущий выбор?"
+
+#: src/debug/client/shell.py:1858
+msgid "Save _Selection"
+msgstr "Сохранить выбор"
+
+#: src/debug/client/shell.py:1859
+msgid "Save _All"
+msgstr "Сохранить все"
+
+#: src/debug/client/stackpanel.py:61
+msgid "Stack Data"
+msgstr "Стек Данных"
+
+#: src/debug/client/stackpanel.py:66
+msgid "Debug Process Stack Data"
+msgstr "Отладка данных стека процессов"
+
+#: src/debug/client/stackpanel.py:173 src/debug/client/stackpanel.py:176
+msgid "_Continue Debugging"
+msgstr "Продолжить отладку"
+
+#: src/debug/client/stackpanel.py:174 src/debug/client/stackpanel.py:177
+#: src/debug/client/stackpanel.py:180
+msgid "_Stop Debugging"
+msgstr "Остановить отладку"
+
+#: src/debug/client/stackpanel.py:179
+msgid "_Pause Debug Process"
+msgstr "Приостановить процесс отладки"
+
+#: src/debug/client/stackpanel.py:182
+msgid "_Start Debugging"
+msgstr "Начать отладку"
+
+#: src/debug/client/stackpanel.py:184
+msgid "Attach to Process..."
+msgstr "Присоединить к процессу..."
+
+#: src/debug/client/stackpanel.py:187
+msgid "_Accept Debug Connections"
+msgstr "Принимать отладочные подключения"
+
+#: src/debug/client/stackpanel.py:402
+msgid "No Active Process"
+msgstr "Нет активного процесса"
+
+#: src/debug/client/stackpanel.py:407
+msgid "(terminated)"
+msgstr "(завершено)"
+
+#: src/debug/client/stackpanel.py:466
+msgid "Debug Processes"
+msgstr "Отлаживаемые процессы"
+
+#: src/debug/client/stackpanel.py:614 src/debug/client/stackpanel.py:621
+msgid "Thread #0"
+msgstr "Поток #0"
+
+#: src/debug/client/stackpanel.py:614 src/debug/client/stackpanel.py:900
+msgid "No debug process is running"
+msgstr "Процесс отладки не запущен"
+
+#: src/debug/client/stackpanel.py:621
+msgid "Debug process is running"
+msgstr "Процесс отладки запущен"
+
+#: src/debug/client/stackpanel.py:634
+msgid " (first to stop)"
+msgstr "(сначала остановиться)"
+
+#: src/debug/client/stackpanel.py:637
+msgid " (running)"
+msgstr " (запуск)"
+
+#: src/debug/client/stackpanel.py:638
+msgid "Debug process threads"
+msgstr "Потоки процесса отладки"
+
+#: src/debug/client/stackpanel.py:900
+msgid "<no debug process stack>"
+msgstr "<нет стека процессов отладки>"
+
+#: src/debug/client/stackpanel.py:915
+msgid "Thread is running"
+msgstr "Поток работает"
+
+#: src/debug/client/stackpanel.py:944
+#, fuzzy
+msgid "Chained Exception Cause %i:"
+msgstr "Игнорируемые исключения удалены"
+
+#: src/debug/client/stackpanel.py:946
+msgid "Chained Exception Context %i:"
+msgstr ""
+
+#: src/debug/client/stackpanel.py:973
+msgid "pos %s-%s"
+msgstr "поз %s-%s"
+
+#: src/debug/client/stackpanel.py:976
+msgid ", line "
+msgstr ", строка "
+
+#: src/debug/client/stackpanel.py:988
+#, fuzzy
+msgid "Selected thread's primary stack"
+msgstr "Стек выбранного потока"
+
+#: src/debug/client/stackpanel.py:990
+#, fuzzy
+msgid "Selected thread's chained exception stack number %i"
+msgstr "Стек выбранного потока"
+
+#: src/debug/client/tnetproxy.py:498
+msgid "Note: Debug connection closed while polling for server messages"
+msgstr ""
+"Примечание: Отлаживаемое соединение закрыто во время опроса сообщений сервера"
+
+#: src/debug/client/tnetproxy.py:502
+msgid ""
+"Error: The debug connection closed unexpectedly while polling for server "
+"messages:"
+msgstr ""
+"Ошибка: Отлаживаемое соединение неожиданно закрылось при опросе сообщений "
+"сервера:"
+
+#: src/debug/client/tnetproxy.py:598 src/debug/client/tnetproxy.py:621
+msgid "<no valid stack frame>"
+msgstr "<недопустимый кадр стека>"
+
+#: src/debug/client/tnetproxy.py:627 src/debug/client/tnetproxy.py:959
+#: src/debug/client/tnetproxy.py:1057 src/debug/client/tnetproxy.py:1085
+#: src/debug/client/tnetproxy.py:1192 src/debug/client/tnetproxy.py:1223
+msgid "<network timeout during evaluate>"
+msgstr "<таймаут сети во время оценки>"
+
+#: src/debug/client/tnetproxy.py:1104
+#, fuzzy
+msgid "<network timeout during inspect array>"
+msgstr "<таймаут сети во время оценки>"
+
+#: src/debug/client/tnetproxy.py:1632
+msgid ""
+"Error: The debug connection closed unexpectedly while sending message\n"
+"with type %s to server:"
+msgstr ""
+"Ошибка: подключение к отладке неожиданно закрылось при отправке\n"
+"сообщения с типом %s на сервер:"
+
+#: src/debug/client/tnetproxy.py:1680
+msgid ""
+"Error: The debug connection closed unexpectedly while waiting for\n"
+"reply type %s after message type %s:\n"
+msgstr ""
+"Ошибка: Отлаживаемое соединение было неожиданно закрыто\n"
+"пока ожидался ответ типа %s после сообщения типа %s:"
+
+#: src/debug/client/tnetproxy.py:1683
+msgid ""
+"Error: The debug connection was closed after failing to unpack \n"
+"reply type %s after message type %s:\n"
+msgstr ""
+"Ошибка: Отлаживаемое подключение было закрыто после\n"
+"неудачной попытки распаковать ответ типа %s после сообщения типа %s:"
+
+#: src/debug/client/tnetproxy.py:1701
+msgid ""
+"Error: The debug connection timed out after %s seconds while waiting\n"
+"for reply type %s after message type %s.\n"
+"\n"
+"You may need to increase the value of debug.network-timeout preference."
+msgstr ""
+"Ошибка: время ожидания отладочного соединения истекло через %s секунд\n"
+"при ожидании ответа типа %s после типа сообщения %s.\n"
+"\n"
+"Возможно, вам нужно увеличить значение параметра debug.network-timeout."
+
+#: src/debug/client/varframe.py:52
+msgid ""
+"Enter text to filter the display.  To apply a filter to just one column use "
+"col:filter, for example 3:test or Title:test to filter just column 3 or the "
+"column labeled Title.  Multiple space-separated filters will display entries "
+"that match all of the filters.  Use the drop down to the right to set search "
+"options and scope."
+msgstr ""
+
+#: src/debug/client/varframe.py:61
+msgid "Filter:"
+msgstr ""
+
+#: src/debug/client/varframe.py:117
+#, fuzzy
+msgid "Nothing selected"
+msgstr "Нечего отлаживать"
+
+#: src/debug/client/varframe.py:122
+#, fuzzy
+msgid "Could not obtain data"
+msgstr "Не удалось получить пакет отладчика"
+
+#: src/debug/client/varframe.py:127
+#, fuzzy
+msgid "Could not expand value"
+msgstr "Не удалось просмотреть значение ::%s"
+
+#: src/debug/client/varframe.py:160
+#, fuzzy
+msgid "Loading..."
+msgstr "Подключение ..."
+
+#: src/debug/client/varframe.py:288
+msgid "No Matching Rows"
+msgstr ""
+
+#: src/debug/client/varframe.py:317
+msgid "Case Sensitive"
+msgstr ""
+
+#: src/debug/client/varframe.py:323
+msgid "Text Search"
+msgstr ""
+
+#: src/debug/client/varframe.py:324
+msgid "Wildcard Search"
+msgstr ""
+
+#: src/debug/client/varframe.py:325
+msgid "Regex Search"
+msgstr ""
+
+#: src/debug/client/varframe.py:331
+msgid "Search All Columns"
+msgstr ""
+
+#: src/debug/client/varframe.py:332
+msgid "Search Visible Columns"
+msgstr ""
+
+#: src/debug/client/varframe.py:352
+#, fuzzy
+msgid "No Data"
+msgstr "Данные"
+
+#: src/debug/client/varmanager.py:256
+msgid ""
+"Stored debug data value errors have been cleared.  Values will be refetched\n"
+"as needed for display after stepping or restarting your debug session.\n"
+msgstr ""
+"Сохраненные ошибки значений данных отладки были очищены.  Значения\n"
+"будут заменены по мере необходимости для отображения после выполнения\n"
+"или перезапуска сеанса отладки."
+
+#: src/debug/client/varmanager.py:256
+msgid "Value Errors Cleared"
+msgstr "Значения ошибок очищены"
+
+#: src/debug/client/varmanager.py:356
+#, fuzzy
+msgid "Error Probing Debug Data"
+msgstr "Предупреждение: Ошибка Зондирования Отлаживаемых Данных"
+
+#: src/debug/client/varmanager.py:357
+msgid ""
+"Warning:  The debugger encountered an error while inspecting local or global "
+"data.  This is caused by unexpected exceptions raised in a property, custom "
+"__repr__, __len__, or similar special method, or in an extension module.  "
+"Values that failed to load are flagged with <error handling value>."
+msgstr ""
+
+#: src/debug/client/varmanager.py:368
+msgid "Warning: Timeout During Evaluation"
+msgstr "Предупреждение: Блокировка по времени в ходе вычисления"
+
+#: src/debug/client/varmanager.py:369
+msgid ""
+"Warning:  Evaluation time for some local or global data values in your debug "
+"process exceeded the configured timeout. Values that failed to load are "
+"flagged with <timeout>."
+msgstr ""
+
+#: src/debug/client/varmanager.py:379
+msgid "Warning: Huge Value Encountered"
+msgstr "Предупреждение: Слишком большое значение"
+
+#: src/debug/client/varmanager.py:380
+msgid ""
+"Warning:  The size of some local or global data values in your debug process "
+"exceeded the configured size thresholds.  Values that failed to load are "
+"flagged with <huge>."
+msgstr ""
+
+#: src/debug/client/varmanager.py:398
+#, fuzzy
+msgid "Show Debug Data Value Warnings"
+msgstr "Просмотр отладочных значений данных и выражений"
+
+#: src/debug/client/varmanager.py:551
+msgid "Cannot access data"
+msgstr "Нет доступа к данным "
+
+#: src/debug/client/vartree.py:322
+msgid "Array"
+msgstr ""
+
+#: src/debug/client/vartree.py:322
+msgid "Array viewer for debug data"
+msgstr ""
+
+#: src/debug/client/vartree.py:323
+msgid "Text"
+msgstr ""
+
+#: src/debug/client/vartree.py:323
+msgid "Textual display of debug data"
+msgstr ""
+
+#: src/debug/client/vartree.py:448
+msgid "Show Value as _Array"
+msgstr ""
+
+#: src/debug/client/vartree.py:449
+msgid "Show Value as _Text"
+msgstr ""
+
+#: src/debug/client/vartree.py:453
+#, fuzzy
+msgid "Hide Value _Detail"
+msgstr "Скрыть детали"
+
+#: src/debug/client/vartree.py:459
+msgid "_Expand More"
+msgstr "Развернуть подробности"
+
+#: src/debug/client/vartree.py:460
+msgid "_Collapse More"
+msgstr "Свернуть подробности"
+
+#: src/debug/client/vartree.py:465
+msgid "Watch by _Symbolic Path"
+msgstr "Отслеживать по символическому пути"
+
+#: src/debug/client/vartree.py:466
+msgid "Watch by Direct _Reference"
+msgstr "Отслеживать по прямой ссылке"
+
+#: src/debug/client/vartree.py:467
+msgid "Watch by _Parent Slot"
+msgstr "Отслеживать родительский слот"
+
+#: src/debug/client/vartree.py:468
+msgid "Watch by _Module Slot"
+msgstr "Отслеживать слот модуля"
+
+#: src/debug/client/vartree.py:472
+msgid "_Force Reload"
+msgstr "Принудительная Перезагрузка"
+
+#: src/debug/client/vartree.py:495
+msgid "%s(): %s, line %i"
+msgstr "%s(): %s, строка %i"
+
+#: src/debug/client/varutils.py:212
+msgid "%s(): %s, line %s"
+msgstr "%s(): %s, строка %s"
+
+#: src/debug/client/varutils.py:214
+msgid "%s, line %s"
+msgstr "%s, строка %s"
+
+#: src/debug/client/varutils.py:261
+msgid "No symbolic path available"
+msgstr "Символический путь недоступен"
+
+#: src/debug/client/varutils.py:368
+msgid "<no debug process>"
+msgstr "<нет процесса отладки>"
+
+#: src/debug/client/varutils.py:378 src/debug/client/varutils.py:379
+#: src/debug/client/varutils.py:847
+msgid "<error evaluating>"
+msgstr "<ошибка вычисления>"
+
+#: src/debug/client/varutils.py:380 src/debug/client/varutils.py:381
+msgid "<error handling value>"
+msgstr "<значение обработки ошибок>"
+
+#: src/debug/client/varutils.py:382
+#, fuzzy
+msgid "network timeout"
+msgstr "<таймаут сети во время оценки>"
+
+#: src/debug/client/varutils.py:383
+msgid "<timeout>"
+msgstr "<таймаут>"
+
+#: src/debug/client/varutils.py:540
+msgid "<locals dict; len=%i>"
+msgstr ""
+
+#: src/debug/client/varutils.py:603
+msgid "<globals dict; len=%i>"
+msgstr ""
+
+#: src/debug/client/varutils.py:839
+msgid "<undefined>"
+msgstr "<неопределенный>"
+
+#: src/debug/client/varutils.py:1008
+msgid "Could not obtain symbolic path, err=%s"
+msgstr "Не удалось получить символический путь, err=%s"
+
+#~ msgid "Downloading remote agent package ({}KB)"
+#~ msgstr "Загрузка пакета удаленного агента ({}KB)"
+
+#~ msgid "Could not obtain debugger package"
+#~ msgstr "Не удалось получить пакет отладчика"
+
+#~ msgid "Could not unpack remote agent package (err={})"
+#~ msgstr "Не удалось распаковать пакет удаленного агента (err={})"
+
+#~ msgid "Unpacking remote agent package"
+#~ msgstr "Распаковка пакета удаленного агента"
+
+#~ msgid "Could not create patch directory"
+#~ msgstr "Не удалось создать каталог патчей"
+
+#~ msgid "Creating patch directory"
+#~ msgstr "Создание каталога патчей"
+
+#~ msgid "Checking patch directory"
+#~ msgstr "Проверка каталога патчей"
+
+#~ msgid "Failed to install patch {} (err={})"
+#~ msgstr "Не удалось установить патч {} (err={})"
+
+#~ msgid "Transferring patch {}"
+#~ msgstr "Перенос патча {}"
+
+#~ msgid "Connecting..."
+#~ msgstr "Подключение ..."
+
+#~ msgid "Could not create WINGHOME"
+#~ msgstr "Не удалось создать WINGHOME"
+
+#~ msgid "Creating WINGHOME"
+#~ msgstr "Создание WINGHOME"
+
+#~ msgid "Checking WINGHOME"
+#~ msgstr "Проверка WINGHOME"
+
+#~ msgid ""
+#~ "You must specify the full path to the remote Wing installation.  If the "
+#~ "directory does not exist, the remote user must have permissions to create "
+#~ "it."
+#~ msgstr ""
+#~ "Необходимо указать полный путь к удаленной установке Wing.  Если каталог "
+#~ "не существует, удаленный пользователь должен иметь разрешения на его "
+#~ "создание."
+
+#~ msgid "Con_tinue"
+#~ msgstr "Продолжать"
+
+#~ msgid ""
+#~ "Warning:  The debug server encountered an error in probing locals or\n"
+#~ "global data values.  This is usually caused by an unexpected exception\n"
+#~ "raised by code in an extension module in the debug code.\n"
+#~ "\n"
+#~ "For more information, turn on debugger logging in the Debugger / "
+#~ "Diagnostics /\n"
+#~ "Debug Internals Log File preference from the Edit menu."
+#~ msgstr ""
+#~ "Предупреждение: На сервере отладки произошла ошибка при зондировании\n"
+#~ "локальных или глобальных значений данных.  Обычно это бывает вызвано\n"
+#~ "неожиданным исключением кода в модуле расширения в отлаживаемом коде.\n"
+#~ "\n"
+#~ "Для получения дополнительной информации включите ведение журнала "
+#~ "отладчика\n"
+#~ "в настройке файла журнала Отладка / Диагностика / Отладка Внутренних "
+#~ "Файлов в\n"
+#~ "меню «Правка»."
+
+#~ msgid ""
+#~ "Warning:  Evaluation time for one or more locals or globals data values "
+#~ "in\n"
+#~ "your debug process exceeds the value of your Debugger / Advanced / "
+#~ "Network Timeout\n"
+#~ "preference.  Increase this value to see your data in the main debugger\n"
+#~ "window, or use the Debug Probe or Watch tool to view parts of the value "
+#~ "instead.\n"
+#~ "\n"
+#~ "You may also need to increase the huge list/string thresholds under "
+#~ "Debugger / Data\n"
+#~ "Filters preferences to accomodate these large data values."
+#~ msgstr ""
+#~ "Предупреждение: Время оценки одного или нескольких локальных или "
+#~ "глобальных значений данных\n"
+#~ "в процессе отладки превышает пороговое значение параметра Отладчик / "
+#~ "Дополнительно / Тайм-аут Сети.\n"
+#~ "Увеличьте это значение, чтобы просмотреть данные в главном окне "
+#~ "отладчика, \n"
+#~ "или используйте инструмент Зондом Отладки или Наблюдатель для просмотра "
+#~ "частей значения.\n"
+#~ "\n"
+#~ "Возможно потребуется увеличить пороговые значения Список / Строка в "
+#~ "настройках Отладчик / Фильты Данных  для размещения этих больших значений "
+#~ "данных."
+
+#~ msgid ""
+#~ "Warning:  The size of one or more locals or globals data values in\n"
+#~ "your debug process exceeds the value of your huge list/string thresholds\n"
+#~ "in Debugger / Data Filters preferences.  Increase these values to\n"
+#~ "see your data in the main debugger window, or use the Debug Probe\n"
+#~ "and Watch tool to view parts of the value instead.\n"
+#~ "\n"
+#~ "You may also need to increase preference Debugger / Advanced / Network\n"
+#~ "timeout to accomodate transfer times for these large data values."
+#~ msgstr ""
+#~ "Предупреждение: Размер одного или нескольких локальных или\n"
+#~ "глобальных значений данных в процессе отладки превышает допустимое\n"
+#~ "пороговое значение Список/Строка в настройках фильтров Отладчик/Данные.\n"
+#~ "Увеличьте эти значения, чтобы просмотреть данные в главном окне "
+#~ "отладчика,\n"
+#~ "или воспользуйтесь Зондом Отладки и Наблюдателем для просмотра частей "
+#~ "значения.\n"
+#~ "\n"
+#~ "Вам также может потребоваться увеличить значение в установках Отладчик / "
+#~ "Дополнительно / Тайм-Аут Сети\n"
+#~ "для учета времени передачи для этих больших значений данных."
+
+#~ msgid "<huge "
+#~ msgstr "<огромный "
+
+#~ msgid "<long "
+#~ msgstr "<длинный "
+
+#~ msgid "<opaque "
+#~ msgstr "<непрозрачный "
+
+#~ msgid "<error handling>"
+#~ msgstr "<обработка ошибок>"
+
+#~ msgid ""
+#~ "Unsupported remote OS type.  Please email us at support@wingware.com!"
+#~ msgstr ""
+#~ "Неподдерживаемый Тип удаленной ОС.  Пожалуйста, напишите нам по адресу "
+#~ "support@wingware.com!"

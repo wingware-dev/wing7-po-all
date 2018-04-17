@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_diff_commands\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-19 10:01+EDT\n"
+"PO-Revision-Date: 2018-03-17 14:39+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 44319\n"
+"X-Loco-Api-Version: 1.0.18 20180307-1\n"
+
+#: src/diff/commands.py:35
+msgid ""
+"These commands act on the diff/merge manager or on the current project,\n"
+"  regardless of keyboard focus."
+msgstr ""
+"Эти команды действуют в диспетчере \"Различий/Слияний\" или в\n"
+"  текущем проекте, независимо от фокуса клавиатуры."
+
+#: src/diff/commands.py:68
+msgid ""
+"Start a diff/merge session with the given two files.  Orientation should be "
+"'h' or 'v'\n"
+"    for horizontal or vertical side by side comparison, or None to use the "
+"Editor / Diff/Merge /\n"
+"    Orientation preference"
+msgstr ""
+"Запустите сеанс diff/merge с заданными двумя файлами.  Ориентация должна "
+"быть \"h\" или \"v\" для горизонтального или вертикального сравнения бок о "
+"бок, или None, чтобы использовать предпочтения Редактор/ Различия/Слияние /"
+"Ориентация"
+
+#: src/diff/commands.py:84
+msgid "File A"
+msgstr "Файл A"
+
+#: src/diff/commands.py:90
+msgid "File A:"
+msgstr "Файл A:"
+
+#: src/diff/commands.py:91
+msgid "File B"
+msgstr "Файл B"
+
+#: src/diff/commands.py:97
+msgid "File B:"
+msgstr "Файл B:"
+
+#: src/diff/commands.py:104
+msgid "Compare Files"
+msgstr "Сравнить файлы"
+
+#: src/diff/commands.py:108
+msgid ""
+"Start a diff/merge session with the given two directories.  Orientation "
+"should be 'h' or 'v'\n"
+"    for horizontal or vertical side by side comparison, or None to use the "
+"Editor / Diff/Merge /\n"
+"    Orientation preference"
+msgstr ""
+"Запустите сеанс diff/merge с заданными двумя каталогами.  Ориентация должна "
+"быть \"h\" или \"v\"\n"
+"    для горизонтального или вертикального сравнения бок о бок, или нет, "
+"чтобы использовать\n"
+"    предпочтения редактора / различия / слияния / ориентации"
+
+#: src/diff/commands.py:113
+msgid "Cannot compare remote directories"
+msgstr "Не удается сравнить удаленные каталоги"
+
+#: src/diff/commands.py:114
+msgid ""
+"Comparing remote directories is not yet supported.  Please email "
+"support@wingware.com if you need this feature."
+msgstr ""
+"Сравнение удаленных каталогов пока не поддерживается. Если вам нужна эта "
+"функция, напишите по адресу support@wingware.com."
+
+#: src/diff/commands.py:117
+msgid "OK"
+msgstr ""
+
+#: src/diff/commands.py:135
+msgid "Directory A"
+msgstr "Каталог A"
+
+#: src/diff/commands.py:141
+msgid "Directory A:"
+msgstr "Каталог A:"
+
+#: src/diff/commands.py:142
+msgid "Directory B"
+msgstr "Каталог B"
+
+#: src/diff/commands.py:148
+msgid "Directory B:"
+msgstr "Каталог B:"
+
+#: src/diff/commands.py:154
+msgid "Compare Directories"
+msgstr "Сравнить каталоги"
+
+#: src/diff/commands.py:158
+msgid ""
+"Start a diff/merge session between the current editor's unsaved\n"
+"    contents and the contents of its file on disk. Orientation should be "
+"'h'\n"
+"    or 'v' for horizontal or vertical side by side comparison, or None to "
+"use\n"
+"    the Editor / Diff/Merge / Orientation preference"
+msgstr ""
+"Запустите сеанс сравнения/слияния между несохраненным\n"
+"   содержимым текущего редактора и содержимым его файла на диске.\n"
+"   Ориентация должна быть \"h\" или \"v\" для горизонтального или\n"
+"   вертикального сравнения бок о бок, или None , чтобы использовать\n"
+"   предпочтения редактора / различия / слияния / ориентации"
+
+#: src/diff/commands.py:178
+msgid "Compare Buffer to Disk"
+msgstr "Сравнить буфер с диском"
+
+#: src/diff/commands.py:182
+msgid "Start a diff/merge session with the first/top-most two visible files."
+msgstr ""
+"Запустите сеанс Сравнения/Слияния с первыми/самыми верхними двумя видимыми "
+"файлами."
+
+#: src/diff/commands.py:191
+msgid ""
+"Start a diff/merge session between the file or directory currently\n"
+"    selected in the GUI and the corresponding revision in version control.\n"
+"    Orientation should be 'h' or 'v' for horizontal or vertical side by "
+"side\n"
+"    comparison, or None to use the Editor / Diff/Merge / Orientation\n"
+"    preference"
+msgstr ""
+"Запустите сеанс Сравнения/Слияния между файлом или каталогом,\n"
+"    выбранным в GUI, и соответствующей редакцией В системе управления\n"
+"    версиями.    Ориентация должна быть \"h\" или \"v\" для горизонтального\n"
+"    или вертикального сравнения бок о бок, или None , чтобы использовать\n"
+"    предпочтения Редактор/ различие / слияние / ориентация"
+
+#: src/diff/commands.py:215
+msgid "Compare to Repository"
+msgstr "Сравнить с Репозиторием"
+
+#: src/diff/commands.py:219
+msgid "Move to next difference in current diff/merge session"
+msgstr "Перейти к следующему отличию в текущем сеансе diff / merge"
+
+#: src/diff/commands.py:227
+msgid "Move to previous difference in current diff/merge session"
+msgstr "Перейти к предыдущему отличию в текущем сеансе diff / merge"
+
+#: src/diff/commands.py:234
+msgid "Cancel the current diff/merge session"
+msgstr "Отмена текущего сеанса сравнения / слияния"
+
+#: src/diff/commands.py:241
+msgid "Merge the current change from file A to file B"
+msgstr "Слияние изменений из файла A в файл B"
+
+#: src/diff/commands.py:252
+msgid "Merge the current change from file B to file A"
+msgstr "Слияние изменений из файла B в файл A"
+
+#: src/diff/commands.py:263
+msgid ""
+"Lock or unlock scrolling when diff/merge is active.  Toggles the\n"
+"    state by default or set lock=True or lock=False to set a particular\n"
+"    state."
+msgstr ""
+"Блокировать или разблокировать прокрутку, когда diff/merge\n"
+"    активен.  Переключает состояние по умолчанию или set lock=True\n"
+"    или lock=False, чтобы установить определенное состояние."
+
+#: src/diff/commands.py:272
+msgid ""
+"Determine whether to ignore white space in differences.  Toggles the\n"
+"    state by default or set ignore=True or ignore=False to set a particular\n"
+"    state."
+msgstr ""
+"Определите, следует ли игнорировать пробелы в различиях. Переключение "
+"состояния по умолчанию или установка ignore = True или ignore = False для "
+"установки определенного состояния."
+
+#: src/diff/commands.py:283
+msgid " Returns list of menu items for selecting recent diff/merge sessions "
+msgstr ""
+" Возвращает список пунктов меню для выбора последних сеансов diff / merge "
+
+#: src/diff/commands.py:315
+msgid ""
+" Returns list of menu items for selecting among active diff/merge sessions "
+msgstr ""
+" Возвращает список пунктов меню для выбора между активными сеансами diff / "
+"merge "

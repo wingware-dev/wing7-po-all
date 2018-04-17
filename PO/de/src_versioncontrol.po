@@ -1,0 +1,700 @@
+# Module src_versioncontrol translation file for language=de
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.2.4\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2016-12-12 17:42+0100\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/versioncontrol/attribs.py:25
+msgid "List of recent locations"
+msgstr ""
+
+#: src/versioncontrol/attribs.py:30
+msgid "Whether to display unregistered files in status displays"
+msgstr ""
+
+#: src/versioncontrol/attribs.py:34
+msgid "Use Preference Settings"
+msgstr ""
+
+#: src/versioncontrol/attribs.py:35
+msgid "Disable"
+msgstr ""
+
+#: src/versioncontrol/attribs.py:36
+msgid "Enable and Configure Here"
+msgstr ""
+
+#: src/versioncontrol/attribs.py:40
+msgid "Configures VCS systems for this project"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:42
+msgid "BZR"
+msgstr "BZR"
+
+#: src/versioncontrol/cap_bzr.py:43
+msgid "Bazaar"
+msgstr "Bazaar"
+
+#: src/versioncontrol/cap_bzr.py:58 src/versioncontrol/cap_hg.py:73
+msgid "_Annotate"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:60 src/versioncontrol/widgets.py:1705
+msgid "Project Status"
+msgstr "Projekt-Status"
+
+#: src/versioncontrol/cap_bzr.py:61
+msgid "Commit Project"
+msgstr "Projekt einchecken"
+
+#: src/versioncontrol/cap_bzr.py:63
+msgid "Merge Entire Branch"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:64
+msgid "Push Entire Branch"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:66
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/versioncontrol/cap_bzr.py:67
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/versioncontrol/cap_bzr.py:69 src/versioncontrol/cap_cvs.py:84
+#: src/versioncontrol/cap_git.py:90 src/versioncontrol/cap_hg.py:86
+#: src/versioncontrol/cap_perforce.py:205 src/versioncontrol/cap_svn.py:94
+#, fuzzy
+msgid "Configure..."
+msgstr "%s konfigurieren"
+
+#: src/versioncontrol/cap_bzr.py:369
+msgid "Merge entire branch"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:370
+msgid "Merge from"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:371
+msgid "Merge"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:381
+msgid "Push entire branch"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:382 src/versioncontrol/cap_git.py:974
+#: src/versioncontrol/cap_hg.py:508
+msgid "Push to"
+msgstr ""
+
+#: src/versioncontrol/cap_bzr.py:383 src/versioncontrol/cap_git.py:975
+#: src/versioncontrol/cap_hg.py:509
+msgid "_Push"
+msgstr ""
+
+#: src/versioncontrol/cap_cvs.py:64 src/versioncontrol/cap_hg.py:55
+#: src/versioncontrol/cap_perforce.py:177 src/versioncontrol/cap_svn.py:71
+msgid "Extra arguments to pass to every command."
+msgstr ""
+
+#: src/versioncontrol/cap_cvs.py:99
+msgid "CVS Update"
+msgstr ""
+
+#: src/versioncontrol/cap_cvs.py:100
+msgid "CVS"
+msgstr "CVS"
+
+#: src/versioncontrol/cap_cvs.py:111
+msgid "CVS Executable"
+msgstr "CVS Programmdatei"
+
+#: src/versioncontrol/cap_cvs.py:112 src/versioncontrol/cap_hg.py:101
+#: src/versioncontrol/cap_perforce.py:442 src/versioncontrol/cap_svn.py:169
+msgid "Extra Global Arguments"
+msgstr ""
+
+#: src/versioncontrol/cap_cvs.py:915 src/versioncontrol/cap_svn.py:868
+msgid "Checkout working copy"
+msgstr "Arbeitskopie auschecken"
+
+#: src/versioncontrol/cap_cvs.py:916 src/versioncontrol/cap_svn.py:869
+msgid "Checkout"
+msgstr ""
+
+#: src/versioncontrol/cap_cvs.py:917
+msgid "Module"
+msgstr "Modul"
+
+#: src/versioncontrol/cap_cvs.py:934
+msgid "Missing module"
+msgstr ""
+
+#: src/versioncontrol/cap_cvs.py:934
+msgid "The module name must be specified"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:64
+msgid "Use --porcelain output for git status"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:75 src/versioncontrol/cap_hg.py:75
+msgid "_Project Status"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:76
+msgid "C_ommit Project"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:78
+msgid "List _Branches"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:79
+msgid "S_witch Branch"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:81
+msgid "_Fetch Repository Changes"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:82
+msgid "P_ull Branch Changes"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:83
+msgid "Pus_h Branch Changes"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:85 src/versioncontrol/cap_hg.py:83
+msgid "_Add"
+msgstr "_Hinzufügen"
+
+#: src/versioncontrol/cap_git.py:86
+msgid "_Remove"
+msgstr "_Entfernen"
+
+#: src/versioncontrol/cap_git.py:97
+msgid "Git"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:109 src/versioncontrol/repository.py:260
+msgid "%s Executable"
+msgstr "%s Programmdatei"
+
+#: src/versioncontrol/cap_git.py:110
+msgid "Use --porcelain"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:794
+msgid "Failed to run git command"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:795
+msgid "Could not find git working directory"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:902
+msgid "Pull from repository"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:903
+msgid "Pull from"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:904
+msgid "_Pull"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:910 src/versioncontrol/cap_git.py:944
+#: src/versioncontrol/cap_git.py:981
+msgid "Branch name"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:943 src/versioncontrol/widgets.py:1978
+msgid "Working directory"
+msgstr "Arbeitsverzeichnis"
+
+#: src/versioncontrol/cap_git.py:946
+msgid "_Switch Branch"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:957 src/versioncontrol/widgets.py:2002
+msgid "Missing locations"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:958
+msgid "Both the working directory and the branch must be specified"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:973
+msgid "Push branch to repository"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:1012
+msgid "Fetch changes from repository"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:1013
+msgid "Fetch from"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:1014
+msgid "_Fetch"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:42 src/versioncontrol/cap_hg.py:43
+msgid "Mercurial"
+msgstr "Mercurial"
+
+#: src/versioncontrol/cap_hg.py:61 src/versioncontrol/cap_perforce.py:183
+msgid ""
+"Don't find unregistered files when scanning for file status. This can "
+"substantially reduce the time to scan large repositories."
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:76
+msgid "_Commit Project"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:78
+msgid "P_ull Changes"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:79
+msgid "Up_date"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:80
+msgid "_Merge"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:81
+msgid "Pu_sh Changes"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:84
+msgid "Remo_ve"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:102 src/versioncontrol/cap_perforce.py:443
+msgid "Don't Find Unregistered Files"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:483
+msgid "Pull All Changes"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:484
+msgid "Pull From"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:485
+msgid "Pull"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:490
+msgid "Update"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:507
+msgid "Push all changes"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:573 src/versioncontrol/cap_hg.py:586
+msgid "Cannot find single hg working directory root"
+msgstr ""
+
+#: src/versioncontrol/cap_perforce.py:429
+msgid "Perforce Sync"
+msgstr ""
+
+#: src/versioncontrol/cap_perforce.py:430
+msgid "Perforce"
+msgstr "Perforce"
+
+#: src/versioncontrol/cap_perforce.py:441
+msgid "Perforce Executable"
+msgstr "Perforce Programmdatei"
+
+#: src/versioncontrol/cap_svn.py:66
+msgid "Executable command to run svn"
+msgstr "Programmdatei um SVN auszuführen"
+
+#: src/versioncontrol/cap_svn.py:155
+msgid "SVN Update"
+msgstr ""
+
+#: src/versioncontrol/cap_svn.py:156
+msgid "SVN"
+msgstr "SVN"
+
+#: src/versioncontrol/cap_svn.py:167
+msgid "SVN Executable"
+msgstr "SVN Programmdatei"
+
+#: src/versioncontrol/cap_svn.py:168
+msgid "SVN Admin Executable"
+msgstr "SVN Admin Programmdatei"
+
+#: src/versioncontrol/manager.py:489
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: src/versioncontrol/manager.py:489
+msgid "Window"
+msgstr "Fenster"
+
+#: src/versioncontrol/manager.py:490
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/versioncontrol/manager.py:528
+msgid "Auto-refresh %s Status"
+msgstr ""
+
+#: src/versioncontrol/manager.py:769
+msgid "No %s %s"
+msgstr ""
+
+#: src/versioncontrol/manager.py:770
+msgid ""
+"%(identifier)s does not support a %(name)s command. The files were "
+"%(past_tense)s on disk, but new files and directories were not added and "
+"version control history was not copied."
+msgstr ""
+
+#: src/versioncontrol/manager.py:776
+msgid "OK"
+msgstr "OK"
+
+#: src/versioncontrol/manager.py:814
+msgid "Failed to inspect remote files"
+msgstr ""
+
+#: src/versioncontrol/prefs.py:28
+msgid "Enable the integrated version control system."
+msgstr ""
+
+#: src/versioncontrol/prefs.py:34
+msgid "Save without prompting before running version control commands."
+msgstr ""
+
+#: src/versioncontrol/prefs.py:40
+msgid ""
+"Maximum number of completed commands to store in the version control tool."
+msgstr ""
+
+#: src/versioncontrol/prefs.py:46
+msgid ""
+"Watch disk for version control changes and refresh the Project view and "
+"Project Status accordingly."
+msgstr ""
+
+#: src/versioncontrol/prefs.py:53
+msgid ""
+"Track file add, remove, and rename operations made with Wing's Project view "
+"into the version control repository."
+msgstr ""
+
+#: src/versioncontrol/prefs.py:60
+msgid "Log all commands to ide.log in the user settings directory."
+msgstr ""
+
+#: src/versioncontrol/prefs.py:68
+msgid "Always Active"
+msgstr "Immer aktiv"
+
+#: src/versioncontrol/prefs.py:69
+msgid "Active if used by project directories"
+msgstr ""
+
+#: src/versioncontrol/prefs.py:70
+msgid "Not active"
+msgstr "Nicht aktiv"
+
+#: src/versioncontrol/prefs.py:84
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/versioncontrol/repository.py:119 src/versioncontrol/widgets.py:572
+msgid ""
+"\n"
+"[command terminated]\n"
+"\n"
+msgstr ""
+
+#: src/versioncontrol/repository.py:206
+msgid "Executable command to run %s"
+msgstr "Programmdatei um %s auszuführen"
+
+#: src/versioncontrol/repository.py:209
+msgid "When %s version control support is active"
+msgstr ""
+
+#: src/versioncontrol/repository.py:288
+msgid "History of remote locations"
+msgstr ""
+
+#: src/versioncontrol/repository.py:524
+msgid "Cannot commit because the commit message is empty"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:225
+msgid "Save without _prompting"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:238 src/versioncontrol/widgets.py:240
+msgid "Commit selected files"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:253
+#, fuzzy
+msgid "Commit all project files"
+msgstr "Projekt einchecken"
+
+#: src/versioncontrol/widgets.py:259
+msgid ""
+"Show differences between files in working directory and last committed "
+"version"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:273
+msgid "View status for entire project"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:280
+msgid "Show preferences page for selected VCS"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:287
+msgid "View status of the selected files in the working directory"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:301
+msgid "Revert selected files"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:314
+msgid "Discard Changes in Files?"
+msgstr "Änderungen in den Dateien verwerfen?"
+
+#: src/versioncontrol/widgets.py:317
+msgid ""
+"Are you sure you want to discard your changes to %s and revert to the "
+"current state on this branch in %s?"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:324
+msgid "Show blame / praise / annotate for selected files"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:338
+msgid "Add the files to %(label)s"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:344
+#, fuzzy
+msgid "Remove files"
+msgstr "Dateien entfernen?"
+
+#: src/versioncontrol/widgets.py:356
+msgid "Remove Files?"
+msgstr "Dateien entfernen?"
+
+#: src/versioncontrol/widgets.py:360
+msgid ""
+"Are you sure you want to remove the following?\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:422
+msgid "Ou_tput"
+msgstr "Aus_gabe"
+
+#: src/versioncontrol/widgets.py:430
+msgid "Cance_l"
+msgstr "A_bbrechen"
+
+#: src/versioncontrol/widgets.py:434 src/versioncontrol/widgets.py:879
+msgid "Run Again"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:543
+msgid "Failed to run: %s</span>"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:597 src/versioncontrol/widgets.py:878
+#: src/versioncontrol/widgets.py:1247
+msgid "Goto Source"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:598
+msgid "Copy"
+msgstr "Kopieren"
+
+#: src/versioncontrol/widgets.py:599
+msgid "Select All"
+msgstr "Alles auswählen"
+
+#: src/versioncontrol/widgets.py:651
+msgid "C_onsole"
+msgstr "_Konsole"
+
+#: src/versioncontrol/widgets.py:880
+msgid "_Copy"
+msgstr "_Kopieren"
+
+#: src/versioncontrol/widgets.py:881
+msgid "Select _All"
+msgstr "_Alles auswählen"
+
+#: src/versioncontrol/widgets.py:1033
+msgid "Failed to find source"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1034
+msgid "Failed to find filename in diff output"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1237 src/versioncontrol/widgets.py:2092
+msgid "Hide Unregistered"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1240 src/versioncontrol/widgets.py:2088
+msgid "Show Unregistered"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1242
+msgid "View as List"
+msgstr "Als Liste anzeigen"
+
+#: src/versioncontrol/widgets.py:1244
+msgid "View as Tree"
+msgstr "Als Baum anzeigen"
+
+#: src/versioncontrol/widgets.py:1413
+msgid "No modified files"
+msgstr "Keine geänderten Dateien"
+
+#: src/versioncontrol/widgets.py:1608
+msgid "No %s files in project"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1624
+msgid "_Output"
+msgstr "_Ausgabe"
+
+#: src/versioncontrol/widgets.py:1644 src/versioncontrol/widgets.py:1670
+msgid "Status"
+msgstr "Status"
+
+#: src/versioncontrol/widgets.py:1673
+#, fuzzy
+msgid "Auto-refresh"
+msgstr "Aktualisieren"
+
+#: src/versioncontrol/widgets.py:1685
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: src/versioncontrol/widgets.py:1721
+msgid "Running status"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1752
+msgid "_Message"
+msgstr "_Nachricht"
+
+#: src/versioncontrol/widgets.py:1760
+msgid "_Diffs"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1764
+msgid "_Files"
+msgstr "_Dateien"
+
+#: src/versioncontrol/widgets.py:1767
+msgid "_Commit"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1823
+msgid "Nothing to commit"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1833
+msgid "Committing"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1843
+msgid "Commit succeeded"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1846
+msgid "Commit failed"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1889
+msgid "Command completed:  Output displayed in scratch editor."
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1960
+msgid "_Locations"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:1977
+msgid "Repository"
+msgstr "Projektarchiv"
+
+#: src/versioncontrol/widgets.py:2003
+msgid "Both the repository and the working directory must be specified"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:2069
+msgid "Configure %s"
+msgstr "%s konfigurieren"
+
+#: src/versioncontrol/widgets.py:2070
+msgid "Display Documentation"
+msgstr "Dokumentation anzeigen"
+
+#: src/versioncontrol/widgets.py:2075
+msgid "Show Scope"
+msgstr "Bereich anzeigen"
+
+#: src/versioncontrol/widgets.py:2077
+msgid "Hide Scope"
+msgstr "Bereich ausblenden"
+
+#: src/versioncontrol/widgets.py:2080
+msgid "Show Console"
+msgstr "Konsole anzeigen"
+
+#: src/versioncontrol/widgets.py:2082
+msgid "Hide Console"
+msgstr "Konsole ausblenden"
+
+#~ msgid "C_ut"
+#~ msgstr "_Ausschneiden"
+
+#~ msgid "_Paste"
+#~ msgstr "E_infügen"

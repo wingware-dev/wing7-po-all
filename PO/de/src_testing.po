@@ -1,0 +1,424 @@
+# Module src_testing translation file for language=de
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.2.4\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2016-12-19 20:55+0100\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/testing/attribs.py:25
+msgid "List of test files"
+msgstr "Liste der Testdateien"
+
+#: src/testing/attribs.py:29
+msgid "Glob / Wild Card"
+msgstr ""
+
+#: src/testing/attribs.py:30
+msgid "Regexp"
+msgstr ""
+
+#: src/testing/attribs.py:34
+msgid ""
+"List of glob wildcard or regular expressions identifying project test "
+"files.  Project files whose full path matches one of the patterns will be "
+"considered  test files and automatically added to the Testing tool."
+msgstr ""
+
+#: src/testing/attribs.py:41
+msgid "Name of the unit testing framework"
+msgstr "Name des Unit-Test-Framework"
+
+#: src/testing/attribs.py:53
+msgid ""
+"The environment to use when running unit tests.  Either select a launch "
+"configuration, or use the given run arguments with the default environment "
+"for the project."
+msgstr ""
+
+#: src/testing/attribs.py:61
+msgid "Per-Module"
+msgstr "Pro-Modul"
+
+#: src/testing/attribs.py:62
+msgid "Per-Package"
+msgstr "Pro-Paket"
+
+#: src/testing/attribs.py:66
+msgid ""
+"How many processes are spawned for each test run.  In the per-module model, "
+"one process is spawned for each module; in the per-package model, one "
+"process is spawned for each package or ddirectory.  Note that differing "
+"environment settings or run arguments can cause additional processes to be "
+"spawned."
+msgstr ""
+
+#: src/testing/attribs.py:77
+msgid "Maximum number of testing processes to run at on time."
+msgstr ""
+
+#: src/testing/attribs.py:82
+msgid "Last known test results"
+msgstr "Letzte bekannte Testergebnisse"
+
+#: src/testing/attribs.py:90
+msgid "All Results"
+msgstr "Alle Ergebnisse"
+
+#: src/testing/attribs.py:91
+msgid "All Results Without Output"
+msgstr "Alle Ergebnisse ohne Ausgabe"
+
+#: src/testing/attribs.py:92
+msgid "No Results"
+msgstr "Keine Ergebnisse"
+
+#: src/testing/attribs.py:96
+msgid ""
+"Test results are stored in the user branch of the project file without "
+"output by default and then restored when the project is opened. This can be "
+"disabled or the output can be stored along with the results."
+msgstr ""
+
+#: src/testing/attribs.py:109
+msgid "Default for Testing Framework"
+msgstr "Standard für das Test-Framework"
+
+#: src/testing/attribs.py:110
+msgid "Run as Package Module if in Package Directory"
+msgstr ""
+
+#: src/testing/attribs.py:111
+msgid "Always Run as a Top-Level Module"
+msgstr ""
+
+#: src/testing/attribs.py:115
+msgid ""
+"Whether to run a file in a package directory as a package module. If the "
+"file is not run as a package module, it is run as a top-level script. The "
+"default varies depending on the unit testing framework and the test runners "
+"for some frameworks may ignore this setting."
+msgstr ""
+
+#: src/testing/cap_testinggui.py:191 src/testing/cap_testinggui.py:262
+msgid "Output"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:214
+msgid "Chained Exception Cause:"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:216
+msgid "Chained Exception Context:"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:218
+msgid "Final Exception:"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:220
+msgid "Exception:"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:265
+msgid "Non-Python Output"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:531
+msgid "<i>no children</i>"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:792 src/testing/cap_testinggui.py:1317
+msgid "_Run Tests"
+msgstr "Tests _ausführen"
+
+#: src/testing/cap_testinggui.py:797
+msgid "_Debug Tests"
+msgstr "Tests _debuggen"
+
+#: src/testing/cap_testinggui.py:820
+msgid "Filter: "
+msgstr "Filter: "
+
+#: src/testing/cap_testinggui.py:905
+msgid "Succeeded"
+msgstr "Bestanden"
+
+#: src/testing/cap_testinggui.py:907
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#: src/testing/cap_testinggui.py:909
+msgid "Error"
+msgstr "Fehler"
+
+#: src/testing/cap_testinggui.py:911
+msgid "Syntax Error"
+msgstr "Syntaxfehler"
+
+#: src/testing/cap_testinggui.py:913
+msgid "Running"
+msgstr "Laufend"
+
+#: src/testing/cap_testinggui.py:947
+msgid "No tests to run"
+msgstr "Keine Tests auszuführen"
+
+#: src/testing/cap_testinggui.py:1019
+msgid "Clear All Test Results?"
+msgstr "Alle Testergebnisse löschen?"
+
+#: src/testing/cap_testinggui.py:1020
+msgid "Are you sure you want to clear all the stored test results?"
+msgstr "Wollen Sie sicher alle gespeicherten Testergebnisse löschen?"
+
+#: src/testing/cap_testinggui.py:1021
+msgid "Clear All"
+msgstr "Alle löschen"
+
+#: src/testing/cap_testinggui.py:1022
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/testing/cap_testinggui.py:1071
+msgid "Remove File"
+msgstr "Datei entfernen"
+
+#: src/testing/cap_testinggui.py:1071
+msgid "Remove Files"
+msgstr "Dateien entfernen"
+
+#: src/testing/cap_testinggui.py:1079
+msgid "Sort Tests Alphabetically"
+msgstr "Tests alphabetisch sortieren"
+
+#: src/testing/cap_testinggui.py:1084
+msgid "Sort Tests by Source Order"
+msgstr "Tests nach Quell-Reihenfolge sortieren"
+
+#: src/testing/cap_testinggui.py:1089 src/testing/cap_testinggui.py:1096
+msgid "Goto Source"
+msgstr "Gehe zum Quelltext"
+
+#: src/testing/cap_testinggui.py:1090
+msgid "Run Test"
+msgstr "Test ausführen"
+
+#: src/testing/cap_testinggui.py:1091
+msgid "Debug Test"
+msgstr "Test debuggen"
+
+#: src/testing/cap_testinggui.py:1092
+msgid "Run All Tests"
+msgstr "Alle Tests ausführen"
+
+#: src/testing/cap_testinggui.py:1093
+msgid "Clear All Results"
+msgstr "Alle Ergebnisse löschen"
+
+#: src/testing/cap_testinggui.py:1097
+msgid "Abort Tests"
+msgstr "Tests abbrechen"
+
+#: src/testing/cap_testinggui.py:1102
+msgid "Expand All Failed Tests"
+msgstr "Alle fehlgeschlagenen Tests ausklappen"
+
+#: src/testing/cap_testinggui.py:1103
+msgid "Collapse All Tests"
+msgstr "Alle Tests einklappen"
+
+#: src/testing/cap_testinggui.py:1106
+msgid "Add Files from Project..."
+msgstr "Dateien vom Projekt hinzufügen...."
+
+#: src/testing/cap_testinggui.py:1107
+msgid "Add Single File..."
+msgstr "Einzelne Datei hinzufügen...."
+
+#: src/testing/cap_testinggui.py:1110
+msgid "File Properties..."
+msgstr "Dateieigenschaften..."
+
+#: src/testing/cap_testinggui.py:1112
+msgid "Show Testing Documentation"
+msgstr "Testdokumentation anzeigen"
+
+#: src/testing/cap_testinggui.py:1115
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: src/testing/cap_testinggui.py:1122
+msgid "Copy Selected Text"
+msgstr "Ausgewählten Text kopieren"
+
+#: src/testing/cap_testinggui.py:1126
+msgid "Copy Failure Summary"
+msgstr "Fehlerzusammenfassung kopieren"
+
+#: src/testing/cap_testinggui.py:1130
+msgid "Copy All Results"
+msgstr "Alle Ergebnisse kopieren"
+
+#: src/testing/cap_testinggui.py:1287
+msgid "Completed tests"
+msgstr "Abgeschlossene Tests"
+
+#: src/testing/cap_testinggui.py:1314
+msgid "_Abort Tests"
+msgstr "Tests _abbrechen"
+
+#: src/testing/cap_testinggui.py:1351 src/testing/cap_testinggui.py:1368
+msgid "Debug Tests"
+msgstr "Tests debuggen"
+
+#: src/testing/cap_testinggui.py:1356 src/testing/cap_testinggui.py:1365
+msgid "Abort Debug"
+msgstr "Debuggen abbrechen"
+
+#: src/testing/cap_testinggui.py:1493 src/testing/cap_testinggui.py:1503
+msgid "Testing"
+msgstr "Testen"
+
+#: src/testing/cap_testinggui.py:1508
+msgid "Unit Tests"
+msgstr "Unit Tests"
+
+#: src/testing/manager.py:878
+msgid "Automatically Ignored Exceptions"
+msgstr "Automatisch ignorierte Exceptions"
+
+#: src/testing/manager.py:879
+msgid ""
+"I've automatically ignored some intermediate exception reports to get you "
+"directly to the exception in your pytest code.  These will be remembered in "
+"your project."
+msgstr ""
+
+#: src/testing/manager.py:884
+msgid "OK"
+msgstr "OK"
+
+#: src/testing/proppanels.py:33
+msgid "Test file patterns"
+msgstr "Testdatei Muster"
+
+#: src/testing/proppanels.py:37
+msgid "Pattern Type"
+msgstr ""
+
+#: src/testing/proppanels.py:38
+msgid "Pattern"
+msgstr "Muster"
+
+#: src/testing/proppanels.py:50
+msgid "Default Test Framework"
+msgstr "Standard Test-Framework"
+
+#: src/testing/proppanels.py:58 src/testing/proppanels.py:122
+msgid "Environment"
+msgstr "Umgebung"
+
+#: src/testing/proppanels.py:64
+msgid "Process Model"
+msgstr ""
+
+#: src/testing/proppanels.py:68
+msgid "Number of Processes"
+msgstr "Anzahl der Prozesse"
+
+#: src/testing/proppanels.py:72
+msgid "Run As Package Modules"
+msgstr ""
+
+#: src/testing/proppanels.py:77
+msgid "Save In Project File"
+msgstr "In Projektdatei speichern"
+
+#: src/testing/proppanels.py:81 src/testing/proppanels.py:128
+msgid "_Testing"
+msgstr "_Testen"
+
+#: src/testing/proppanels.py:93
+msgid "Default (%s)"
+msgstr "Standard (%s)"
+
+#: src/testing/proppanels.py:97
+msgid "Test Framework"
+msgstr "Test Framework"
+
+#: src/testing/proppanels.py:107
+msgid "Use Project Setting and Run Args:"
+msgstr ""
+
+#: src/testing/proppanels.py:108
+msgid ""
+"Use the testing configuration from Project Properties with the specified run "
+"arguments"
+msgstr ""
+
+#: src/testing/proppanels.py:110
+msgid "Use Selected Launch Configuration:"
+msgstr "Ausgewählte Start-Konfiguration benutzen:"
+
+#: src/testing/proppanels.py:111
+msgid "Select a custom launch configuration for testing this file"
+msgstr ""
+
+#: src/testing/proppanels.py:114
+msgid ""
+"The environment to use when running this file as a unit test.  Either select "
+"a launch configuration, or use the given run arguments with the project-"
+"specified environment."
+msgstr ""
+
+#: src/testing/runtests.py:228
+msgid "Starting local tests: %s"
+msgstr "Starte lokale Tests: %s"
+
+#: src/testing/runtests.py:270
+msgid "Starting tests on hostname %s: %s"
+msgstr "Starte Tests auf Hostname %s: %s"
+
+#: src/testing/runtests.py:315
+msgid "Debugging local tests: %s"
+msgstr "Debugge lokale Tests: %s"
+
+#: src/testing/runtests.py:338 src/testing/runtests.py:385
+msgid "Could not start debug process"
+msgstr "Debug-Prozess konnte nicht gestartet werden"
+
+#: src/testing/runtests.py:360
+msgid "Debugging tests on hostname %s: %s"
+msgstr "Debugge Tests auf Hostname %s: %s"
+
+#: src/testing/runtests.py:410
+msgid "Test process aborted: some tests were not run"
+msgstr ""
+
+#: src/testing/runtests.py:657 src/testing/runtests.py:661
+msgid "Test process suddenly quit while running %s"
+msgstr ""
+
+#: src/testing/runtests.py:659
+msgid " in %s"
+msgstr " in %s"
+
+#: src/testing/runtests.py:669
+msgid "Could not execute test runner"
+msgstr ""
+
+#: src/testing/runtests.py:676
+msgid "Could not read any output from test runner"
+msgstr ""

@@ -1,0 +1,166 @@
+# Module src_testing_commands translation file for language=de
+# Copyright (C) 2016 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 6.0.0\n"
+"POT-Creation-Date: 2016-12-12 13:03+EST\n"
+"PO-Revision-Date: 2016-06-14 14:34 EDT\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: src/testing/commands.py:38
+msgid ""
+"Globally available commands defined for the unit testing manager.  These\n"
+"  commands are available regardless of whether a testing manager is visible\n"
+"  or has keyboard focus."
+msgstr ""
+
+#: src/testing/commands.py:51
+msgid " Returns gtk widget; can return None, particularly when show is false "
+msgstr ""
+
+#: src/testing/commands.py:91
+msgid "Scan or re-scan the current editor file for unittests"
+msgstr ""
+
+#: src/testing/commands.py:99
+msgid ""
+"Run or debug the tests in the current editor. Uses the given\n"
+"    file or files instead if locs is not None.  The locations list may be\n"
+"    a list of locations or filenames or a single location or filename.\n"
+"    The tests are debugged if debug=True."
+msgstr ""
+
+#: src/testing/commands.py:118
+msgid ""
+"Debug the tests in the current editor. Uses the given file or files if locs "
+"is not None. The\n"
+"    locations can be a list of filenames or locations or a single filename "
+"or location."
+msgstr ""
+
+#: src/testing/commands.py:132
+msgid " Abort any running tests. "
+msgstr ""
+
+#: src/testing/commands.py:142
+msgid " Runs all the tests in testing panel. "
+msgstr ""
+
+#: src/testing/commands.py:160
+msgid " Debug all the tests in testing panel. "
+msgstr ""
+
+#: src/testing/commands.py:168
+msgid ""
+" Run the tests currently selected in the testing panel.  The tests are\n"
+"    debugged when debug is True."
+msgstr ""
+
+#: src/testing/commands.py:186
+msgid " Debug the tests currently selected in the testing panel. "
+msgstr ""
+
+#: src/testing/commands.py:194
+msgid ""
+" Run again the last group of tests that were run.  The tests are\n"
+"    debugged when debug is True."
+msgstr ""
+
+#: src/testing/commands.py:212
+msgid " Debug the last group of tests that were run. "
+msgstr ""
+
+#: src/testing/commands.py:235
+msgid ""
+"Re-run all the previously failed tests.  The tests are debugged when\n"
+"    debug is True."
+msgstr ""
+
+#: src/testing/commands.py:251
+msgid "Re-run all the previously failed tests in the debugger."
+msgstr ""
+
+#: src/testing/commands.py:259
+msgid ""
+" Runs the current test or tests, if possible.  The current tests are\n"
+"    determined by the current position in the active view.  The tests are\n"
+"    debugged when debug is True."
+msgstr ""
+
+#: src/testing/commands.py:275
+msgid ""
+" Runs the current test or tests, if possible.  The current tests are\n"
+"    determined by the current position in the active view. "
+msgstr ""
+
+#: src/testing/commands.py:284
+msgid ""
+" Runs the clicked test or tests, if possible.  The tests are\n"
+"    determined by the last clicked position in the active view.  The\n"
+"    tests are debugged when debug is True."
+msgstr ""
+
+#: src/testing/commands.py:300
+msgid ""
+" Runs the clicked test or tests, if possible.  The tests are\n"
+"    determined by the last clicked position in the active view. "
+msgstr ""
+
+#: src/testing/commands.py:309
+msgid ""
+"Add a file to the set of unit tests.  Adds the current editor\n"
+"    file if add_current=True.  Otherwise, asks the user to select a file."
+msgstr ""
+
+#: src/testing/commands.py:322
+msgid "Select files to add"
+msgstr ""
+
+#: src/testing/commands.py:347
+msgid ""
+"Add a file or files to the set of unit tests. locs can be a list of\n"
+"    filenames or locations or a single filename or location. Adds the "
+"current\n"
+"    editor file if locs is None."
+msgstr ""
+
+#: src/testing/commands.py:356
+msgid " Save all test results to a file. "
+msgstr ""
+
+#: src/testing/commands.py:368
+msgid "The file to save"
+msgstr ""
+
+#: src/testing/commands.py:374
+msgid "File to save:"
+msgstr ""
+
+#: src/testing/commands.py:382
+msgid " Load all test results from a file. "
+msgstr ""
+
+#: src/testing/commands.py:394
+msgid "The file to load"
+msgstr ""
+
+#: src/testing/commands.py:400
+msgid "File to load:"
+msgstr ""
+
+#: src/testing/commands.py:413
+msgid " Start verbose logging of test results "
+msgstr ""
+
+#: src/testing/commands.py:418
+msgid " Stop verbose logging of test results "
+msgstr ""

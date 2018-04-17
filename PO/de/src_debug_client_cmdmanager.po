@@ -1,0 +1,705 @@
+# translation of src_debug_client_cmdmanager.po to German
+# Module src_debug_client_cmdmanager translation file for language=de
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+# Claudia Walenzyk <cwalenzyk@yahoo.com>, 2004.
+# Claudia Richter <cwalenzyk@yahoo.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: src_debug_client_cmdmanager\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2017-05-07 07:43+0200\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 2.0.1\n"
+
+#: src/debug/client/cmdmanager.py:2
+msgid ""
+" cmdmanager.py -- Command map for debug client\n"
+"\n"
+"Copyright (c) 1999-2012, Archaeopteryx Software, Inc.  All rights reserved.\n"
+"\n"
+"Written by Stephan R.A. Deibel and John P. Ehresman\n"
+"\n"
+msgstr ""
+" cmdmanager.py -- Befehlsübersicht für den Debug-Client\n"
+"\n"
+"Copyright (c) 1999-2012, Archaeopteryx Software, Inc. Alle Rechte "
+"vorbehalten.\n"
+"\n"
+"Geschrieben von Stephan R.A. Deibel und John P. Ehresman\n"
+"\n"
+
+#: src/debug/client/cmdmanager.py:57
+msgid "Commands that control the debugger and current debug process, if any."
+msgstr ""
+"Befehle für den Debugger und den aktuellen Debug-Prozess, wenn vorhanden."
+
+#: src/debug/client/cmdmanager.py:76
+msgid "Always stop on exceptions, even if they are handled by the code"
+msgstr ""
+"Immer an Exceptions anhalten, selbst wenn sie im Code abgefangen werden"
+
+#: src/debug/client/cmdmanager.py:84
+msgid "Never stop on exceptions, even if they are unhandled in the code"
+msgstr ""
+"Niemals an Exceptions anhalten, selbst wenn sie nicht im Code abgefangen "
+"werden"
+
+#: src/debug/client/cmdmanager.py:92
+msgid "Stop only on exceptions that are not handled by the code"
+msgstr "Nur an Exceptions stoppen, die nicht im Code abgefangen werden"
+
+#: src/debug/client/cmdmanager.py:100
+msgid "Stop only on exceptions when they are about to be printed"
+msgstr "Nur an Exceptions stoppen, die ausgegeben würden"
+
+#: src/debug/client/cmdmanager.py:108
+msgid "Clear list of exceptions being ignored during debugging"
+msgstr ""
+"Liste der Exceptions, die während des Debuggens ignoriert wurden, löschen"
+
+#: src/debug/client/cmdmanager.py:117
+msgid "Execute the build command defined in the project, if any"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:132
+msgid "Attach to an already-running debug process"
+msgstr "Zu einem bereits laufenden Debug-Prozess hinzufügen"
+
+#: src/debug/client/cmdmanager.py:147
+msgid "Detach from the debug process and let it run"
+msgstr "Vom Debug-Prozess abtrennen und ausführen lassen"
+
+#: src/debug/client/cmdmanager.py:160
+msgid "Detach from all debug processes and let them run"
+msgstr "Von allen Debug-Prozessen abtrennen und ausführen lassen"
+
+#: src/debug/client/cmdmanager.py:169
+msgid "Step into current execution point, or start debugging at first line"
+msgstr ""
+"In den aktuellen Ausführungspunkt gehen oder Debuggen an der ersten Zeile "
+"starten"
+
+#: src/debug/client/cmdmanager.py:210
+msgid "Step over current instruction"
+msgstr "Über den aktuellen Befehl schreiten"
+
+#: src/debug/client/cmdmanager.py:222
+msgid "Step over current line"
+msgstr "Über die aktuelle Zeile schreiten"
+
+#: src/debug/client/cmdmanager.py:230
+msgid "Step over current statement"
+msgstr "Über den aktuellen Ausdruck schreiten"
+
+#: src/debug/client/cmdmanager.py:262
+msgid "Step over current block"
+msgstr "Über den aktuellen Block schreiten"
+
+#: src/debug/client/cmdmanager.py:313
+#, fuzzy
+msgid "Step out of the current function or method"
+msgstr "Über den aktuellen Ausführungspunkt schreiten"
+
+#: src/debug/client/cmdmanager.py:325
+msgid ""
+"Step out of the given frame (0=outermost) in the primary stack. Frame is\n"
+"    None to step out to the currently selected stack frame."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:337
+msgid "Already at Innermost Frame"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:338
+msgid ""
+"To Step Out to Here, first select a stack frame other than the innermost "
+"stack frame."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:340
+msgid "OK"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:361
+msgid "Move program counter to caret"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:420
+msgid "Move program counter to click location"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:446
+msgid "Start debugging the current file (rather than the main entry point)"
+msgstr "Debuggen der aktuellen Datei starten (anstelle des Debug-Startpunktes)"
+
+#: src/debug/client/cmdmanager.py:459
+msgid ""
+"Show the debug run arguments and environment configuration\n"
+"    dialog for the main entry point or current file"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:492
+#, fuzzy
+msgid "Start or continue debugging to next breakpoint or exception"
+msgstr "Ausführung fortfahren (oder starten), zum nächsten Haltepunkt"
+
+#: src/debug/client/cmdmanager.py:507
+msgid "(press Alt to continue all paused debug processes)"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:510
+msgid "Continue all paused debug processes"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:526
+msgid "Start a new debug process running"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:538
+msgid "Display the launch config manager"
+msgstr "Start-Konfigurations-Manager anzeigen"
+
+#: src/debug/client/cmdmanager.py:543
+msgid ""
+"Create a new launch configuration with the given name if it does not\n"
+"      already exist, and then open the launch configuration attribute dialog."
+msgstr ""
+"Neue Start-Konfiguration mit dem angegebenen Namen anlegen, falls\n"
+"    noch nicht vorhanden und den Start-Konfigurationen-Dialog öffnen."
+
+#: src/debug/client/cmdmanager.py:552
+msgid "Create Launch Configuration"
+msgstr "Start-Konfiguration erstellen"
+
+#: src/debug/client/cmdmanager.py:554
+msgid "Name of the new launch configuration"
+msgstr "Name der neuen Start-Konfiguration"
+
+#: src/debug/client/cmdmanager.py:556 src/debug/client/cmdmanager.py:579
+msgid "Name"
+msgstr "Name"
+
+#: src/debug/client/cmdmanager.py:562
+msgid "Display the named entry point manager"
+msgstr "Den Manager für benannte Einsprungspunkte anzeigen"
+
+#: src/debug/client/cmdmanager.py:567
+msgid ""
+"Create a new named entry point if it does not already exist, and then\n"
+"      open the named entry point attribute dialog."
+msgstr ""
+"Einen neuen benannten Einsprungspunkt erstellen, falls noch nicht\n"
+"     vorhanden und danach den Eigenschaftendialog öffnen."
+
+#: src/debug/client/cmdmanager.py:577
+msgid "Name of the entry point"
+msgstr "Name des benannten Einsprungspunktes"
+
+#: src/debug/client/cmdmanager.py:582
+msgid "Create Named Entry Point"
+msgstr "Benannten Einsprungpunkt erstellen"
+
+#: src/debug/client/cmdmanager.py:586
+msgid "Debug the named entry point"
+msgstr "Den benannten Einsprungspunkt debuggen"
+
+#: src/debug/client/cmdmanager.py:593
+msgid "Execute (without debugging) the named entry point"
+msgstr "Den benannten Einsprungspunkt ausführen (ohne debuggen)"
+
+#: src/debug/client/cmdmanager.py:600
+#, fuzzy
+msgid "Display the remote host configuration manager"
+msgstr "Start-Konfigurations-Manager anzeigen"
+
+#: src/debug/client/cmdmanager.py:605
+msgid ""
+"Create a new remote host configuration and open the remote host attribute\n"
+"      dialog."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:615
+#, fuzzy
+msgid "Terminate current debug session"
+msgstr "Zu einem bereits laufenden Debug-Prozess hinzufügen"
+
+#: src/debug/client/cmdmanager.py:636
+msgid "(press Alt to terminate all debug processes)"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:639
+msgid "Terminate all debug processes"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:653
+#, fuzzy
+msgid "Pause debug at current program counter"
+msgstr "Frei-laufende Ausführung an aktuellem Programmzähler anhalten"
+
+#: src/debug/client/cmdmanager.py:663
+msgid "(press Alt to pause all debug processes)"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:666
+#, fuzzy
+msgid "Pause all free-running debug processes at the current program counter"
+msgstr "Frei-laufende Ausführung an aktuellem Programmzähler anhalten"
+
+#: src/debug/client/cmdmanager.py:693
+msgid "Stop and restart debugging"
+msgstr "Debuggen stoppen und neu starten"
+
+#: src/debug/client/cmdmanager.py:715
+msgid "(press Alt to restart all debug processes)"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:718
+msgid "Stop and restart all debug processes that were launched from the IDE"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:747
+msgid "Re-run the latest debug session that was launched from the IDE"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:756
+msgid "Run to current cursor position"
+msgstr "Zur aktuellen Cursor-Position gehen"
+
+#: src/debug/client/cmdmanager.py:773
+#, fuzzy
+msgid "Debug to the line at the current mouse click location"
+msgstr ""
+"Die Bedingung für den Haltepunkt am Ort des aktuellen Mausklicks bearbeiten"
+
+#: src/debug/client/cmdmanager.py:780
+msgid "Debug to Clicked"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:787
+msgid "Move up the current debug stack"
+msgstr "Aktuellen Debug-Stack nach oben gehen"
+
+#: src/debug/client/cmdmanager.py:812
+msgid "Move down the current debug stack"
+msgstr "Aktuellen Debug-Stack nach unten gehen"
+
+#: src/debug/client/cmdmanager.py:832
+msgid ""
+"Show the position (thread and stack frame) where the debugger originally\n"
+"    stopped"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:851
+msgid "Set a new regular breakpoint on current line"
+msgstr "Einen neuen, regulären Haltepunkt auf der aktuelle Zeile setzen"
+
+#: src/debug/client/cmdmanager.py:870
+msgid "Set a new regular breakpoint at the current mouse click location"
+msgstr "Einen neuen, regulären Haltepunkt am Ort des Mausklicks setzen"
+
+#: src/debug/client/cmdmanager.py:882
+msgid ""
+"Toggle breakpoint at current line (creates new regular bp when one is "
+"created)"
+msgstr ""
+"Haltepunkt an der aktuellen Zeile umschalten (erstellt neuen regulären "
+"Haltepunkt, wenn einer erstellt ist)"
+
+#: src/debug/client/cmdmanager.py:897
+msgid "Set a new conditional breakpoint on current line"
+msgstr "Einen neuen, bedingten Haltepunkt setzen an der aktuellen Zeile"
+
+#: src/debug/client/cmdmanager.py:910
+#, fuzzy
+msgid "Set a new conditional breakpoint at the current mouse click location"
+msgstr ""
+"Einen neuen, bedingten\\ Haltepunkt am Ort des aktuellen Mausklicks setzen"
+
+#: src/debug/client/cmdmanager.py:919
+msgid "Set a new temporary breakpoint on current line"
+msgstr "Einen neuen, temporären Haltepunkt auf der aktuellen Zeile setzen"
+
+#: src/debug/client/cmdmanager.py:926
+msgid "Set a new temporary breakpoint at the current mouse click location"
+msgstr ""
+"Einen neuen, temporären Haltepunkt am Ort des aktuellen Mausklicks setzen"
+
+#: src/debug/client/cmdmanager.py:934
+msgid "Ignore the breakpoint on current line for N iterations"
+msgstr "Den Haltepunkt auf der aktuellen Zeile für N Iterationen ignorieren"
+
+#: src/debug/client/cmdmanager.py:945
+msgid ""
+"Ignore the breakpoint at the current mouse click location for N iterations"
+msgstr ""
+"Den Haltepunkt am aktuellen Ort des Mausklicks für N Iterationen ignorieren"
+
+#: src/debug/client/cmdmanager.py:955
+msgid "Edit condition for the breakpoint on current line"
+msgstr "Bedingung für Haltepunkt auf der aktuellen Zeile bearbeiten"
+
+#: src/debug/client/cmdmanager.py:966
+msgid "Edit condition for the breakpoint at the current mouse click location"
+msgstr ""
+"Die Bedingung für den Haltepunkt am Ort des aktuellen Mausklicks bearbeiten"
+
+#: src/debug/client/cmdmanager.py:974
+msgid "Toggle whether breakpoint on current line is enabled or disabled"
+msgstr ""
+"Schaltet ein, ob der Haltepunkt an der aktuellen Zeile aktiviert oder "
+"deaktiviert ist"
+
+#: src/debug/client/cmdmanager.py:989
+msgid "Enable the breakpoint on the current line"
+msgstr "Einen Haltepunkt an der aktuellen Zeile aktivieren"
+
+#: src/debug/client/cmdmanager.py:1000
+msgid "Enable the breakpoint at current click location"
+msgstr "Einen Haltepunkt am Ort des Mausklicks aktivieren"
+
+#: src/debug/client/cmdmanager.py:1012
+msgid "Disable the breakpoint on current line"
+msgstr "Einen Haltepunkt an der aktuellen Zeile deaktivieren"
+
+#: src/debug/client/cmdmanager.py:1023
+msgid "Disable the breakpoint at current click location"
+msgstr "Einen Haltepunkt am Ort des Mausklicks deaktivieren"
+
+#: src/debug/client/cmdmanager.py:1035
+#, fuzzy
+msgid "Set a disabled breakpoint on the current line"
+msgstr "Einen Haltepunkt an der aktuellen Zeile löschen"
+
+#: src/debug/client/cmdmanager.py:1046
+msgid "Enable all breakpoints"
+msgstr "Alle Haltepunkte aktivieren"
+
+#: src/debug/client/cmdmanager.py:1056
+msgid "Disable all breakpoints"
+msgstr "Alle Haltepunkte deaktivieren"
+
+#: src/debug/client/cmdmanager.py:1066
+msgid "Clear the breakpoint on the current line"
+msgstr "Einen Haltepunkt an der aktuellen Zeile löschen"
+
+#: src/debug/client/cmdmanager.py:1075
+msgid "Clear the breakpoint at current click location"
+msgstr "Einen Haltepunkt am Ort des Mausklicks löschen"
+
+#: src/debug/client/cmdmanager.py:1085
+msgid "Clear all breakpoints"
+msgstr "Alle Haltepunkte löschen"
+
+#: src/debug/client/cmdmanager.py:1096 src/debug/client/cmdmanager.py:1112
+msgid "Watch selected variable using a direct object reference to track it"
+msgstr ""
+"Gewählte Variable beobachten unter Verwendung eines direkten "
+"Objektverweises, um sie zu verfolgen"
+
+#: src/debug/client/cmdmanager.py:1120
+msgid ""
+"Watch selected variable using a reference to the value's parent and the key\n"
+"    slot for the value"
+msgstr ""
+"Gewählte Variable beobachten unter Verwendung eines Verweises zum Parent des "
+"Wertes\n"
+"     und dem Key-Slot des Wertes"
+
+#: src/debug/client/cmdmanager.py:1129
+msgid "Watch selected value using the symbolic path to it"
+msgstr ""
+"Gewählten Wert beobachten unter Verwendung des symbolischen Pfades zu ihm"
+
+#: src/debug/client/cmdmanager.py:1137
+msgid ""
+"Watch selected value relative to a module looked up by name in\n"
+"    sys.modules"
+msgstr ""
+"Markierten Wert relativ zu einem Modul, das nach Namen in sys.modules "
+"nachgeschlagen wurde\n"
+"    beobachten"
+
+#: src/debug/client/cmdmanager.py:1146
+msgid "Add a new expression to the watch list"
+msgstr "Einen neuen Ausdruck zur Beobachtungsliste hinzufügen"
+
+#: src/debug/client/cmdmanager.py:1154
+msgid "Force refetch of a value from server"
+msgstr "Erneutes Abrufen eines Wertes vom Server erzwingen"
+
+#: src/debug/client/cmdmanager.py:1183
+msgid "Clear stored variable errors so they get refetched"
+msgstr ""
+"Gespeicherte Variablenfehler löschen, so dass sie erneut abgerufen werden"
+
+#: src/debug/client/cmdmanager.py:1201
+msgid "Expand whole selected variables display subtree deeper"
+msgstr "Ansicht aller gewählten Variblen einen Ast tiefer erweitern"
+
+#: src/debug/client/cmdmanager.py:1217
+msgid "Collapse whole selected variables display subtree one more level"
+msgstr "Ansicht aller gewählten Variablen eine weitere Ebene zusammenklappen "
+
+#: src/debug/client/cmdmanager.py:1245
+#, fuzzy
+msgid "Show the selected value as an array"
+msgstr "Detailbereich des Textwertes anzeigen"
+
+#: src/debug/client/cmdmanager.py:1258
+#, fuzzy
+msgid "Show the selected value as text"
+msgstr "Detailbereich des Textwertes anzeigen"
+
+#: src/debug/client/cmdmanager.py:1265
+#, fuzzy
+msgid "Hide the debug value detail area"
+msgstr "Detailbereich des Textwertes anzeigen"
+
+#: src/debug/client/cmdmanager.py:1281 src/debug/client/cmdmanager.py:1286
+msgid "Utility to get bp status info"
+msgstr ""
+"Hilfsprogramm, um Informationen über den Status des Haltepunktes zu erhalten"
+
+#: src/debug/client/cmdmanager.py:1301
+msgid " Returns most current created shell view or None if there isn't any. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1307
+msgid ""
+" Returns most current created ipy shell view or None if there isn't any. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1313
+msgid ""
+" Returns most current created debug probe view or None if there isn't any. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1319
+msgid ""
+" Restart python shell, optionally showing the Python Shell tool and/or "
+"placing\n"
+"    keyboard focus on it. Prompts the user first when prompt is True or when "
+"prompt is\n"
+"    'pref' and the user has not asked to bypass the prompt."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1338
+msgid "Restart Python Shell?"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1339
+msgid ""
+"Are you sure you want to restart the Python Shell?  This clears the shell to "
+"blank and restarts the associated Python instance."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1342
+msgid "_Restart Python Shell"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1343
+msgid "_Cancel"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1347
+msgid "_Don't prompt before restart"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1359
+msgid "Restart python shell. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1366
+msgid ""
+"Clear text in the python shell, according to given scope ('all' for whole "
+"shell,\n"
+"    'selection' for selection and 'entry' for text entered since the last "
+"prompt).\n"
+"    Optionally shows the Python Shell if not already visible and/or sets "
+"focus into it."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1394 src/debug/client/cmdmanager.py:1776
+msgid " Kill python shell process. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1409
+msgid ""
+"Toggle the active range in the Python Shell:  The active range\n"
+"    is cleared if already set, or otherwise set using the current editor\n"
+"    selection."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1421 src/debug/client/cmdmanager.py:1797
+msgid "Evaluate the active range in the Python Shell, if any is set"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1430
+msgid "Show the active range set in the Python Shell in the editor."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1467
+msgid " Clear debug probe. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1482
+msgid ""
+"Toggle the active range in the Debug Probe:  The active range\n"
+"    is cleared if already set, or otherwise set using the current editor\n"
+"    selection."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1494
+msgid "Evaluate the active range in the Debug Probe, if any is set"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1503
+msgid "Show the active range set in the Debug Probe in the editor."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1511
+msgid "Get all visible editors in frontmost window"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1534
+msgid ""
+"Show tooltips on all visible editors indicating the current value of\n"
+"    all visible symbols"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1571
+msgid ""
+"Hide all the debug value tooltips previously shown with "
+"debug_show_value_tips()"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1579
+msgid " Turn on additional logging for diagnosing problems with the debugger "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1586
+msgid " Turn off additional logging for diagnosing problems with the debugger "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1593
+msgid " Return the shell that has the focus or None. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1639
+msgid " Copy text from shell, including all prompts "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1658
+msgid " Interupt debugger execution; equivalent to ctrl-c on command line "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1691
+msgid "Chained Exception Cause %i:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1693
+msgid "Chained Exception Context %i:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1696
+msgid "Chained Exception Cause:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1698
+msgid "Chained Exception Context:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1702
+msgid "Final Exception:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1711
+msgid "pos %s-%s"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1713
+msgid ", line "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1754
+msgid " Restart python shell. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1765
+msgid " Clear python shell. "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1787
+msgid ""
+"Toggle the active range in the Python Shell:  The active range\n"
+"      is cleared if already set, or otherwise set using the current editor\n"
+"      selection."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1805
+msgid "Show the active range set in the IPython tool in the editor."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1813
+msgid ""
+"Connect to an existing kernel specified by the file.  The kill\n"
+"      current arg specifies if a yes/no dialog it displayed before the\n"
+"      current session is abandoned and has 3 value logic that applies\n"
+"      only if something has been executed since the session was created\n"
+"      or connected:\n"
+"       - if true, the current session is killed or disconnected\n"
+"       - if false, it's not killed\n"
+"       - if None, a yes/no dialog is displayed\n"
+"         "
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1826
+msgid "Connect to Existing IPython Kernel"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1844
+msgid "Disconnect from current session"
+msgstr "Von der aktuellen Sitzung trennen"
+
+#: src/debug/client/cmdmanager.py:1846 src/debug/client/cmdmanager.py:1848
+msgid "Kill current session"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1855
+msgid "The filename for kernel"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1860
+msgid "Kernel Filename"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1874
+msgid "Cannot Interrupt IPython Kernel::"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1889
+msgid ""
+"Commands for the debugger's Watch tool (Wing Pro only).\n"
+"  These are available only when the watch tool has key board focus."
+msgstr ""
+"Befehle für das Beobachten-Werkzeug des Debuggers (nur für Wing "
+"Professional).\n"
+"  Diese sind nur verfügbar, wenn die Tastatur für das Beobachten-Werkzeug "
+"aktiviert ist."
+
+#: src/debug/client/cmdmanager.py:1906
+msgid "Clear selected entry from the watch list"
+msgstr "Markierten Eintrag von der Beobachtungsliste löschen"
+
+#: src/debug/client/cmdmanager.py:1918
+msgid "Clear all entries from the watch list"
+msgstr "Alle Einträge von der Beobachtungsliste löschen"

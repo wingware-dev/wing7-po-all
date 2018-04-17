@@ -1,0 +1,77 @@
+# Module src_refactoring_commands translation file for language=en
+# Copyright (C) 2011 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 4.0.1\n"
+"POT-Creation-Date: 2017-05-01 13:42+EDT\n"
+"PO-Revision-Date: 2011-03-30 22:09 EDT\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: src/refactoring/commands.py:2
+msgid ""
+" \n"
+"\n"
+"Copyright (c) 1999-2012, Archaeopteryx Software, Inc.  All rights reserved.\n"
+"\n"
+"Written by Stephan R.A. Deibel and John P. Ehresman\n"
+"\n"
+msgstr ""
+
+#: src/refactoring/commands.py:47
+msgid ""
+" Rename currently selected symbol.  The new_name argument is used as the\n"
+"    default for the name field if specified.  Aternatively, the transform "
+"argument\n"
+"    may be set to camel-upper for UpperCamelCase, camel-lower for "
+"lowerCamelCase,\n"
+"    under-lower for under_scored_name, or under-upper for UNDER_SCORED_NAME."
+msgstr ""
+
+#: src/refactoring/commands.py:103
+msgid ""
+" Rename last symbol clicked.  See rename_symbol for details on arguments."
+msgstr ""
+
+#: src/refactoring/commands.py:111
+msgid ""
+" Move the currently selected symbol to another module, class, \n"
+"    or function.  The new_filename and new_scope_name arguments are used\n"
+"    as default values in the filename and scope name fields if specified. "
+msgstr ""
+
+#: src/refactoring/commands.py:132
+msgid " Move last symbol clicked to another module, class, or function. "
+msgstr ""
+
+#: src/refactoring/commands.py:140
+msgid ""
+" Returns the active editor and line range selected.  Returns \n"
+"    None, (-1, -1) if nothing is selected. "
+msgstr ""
+
+#: src/refactoring/commands.py:157
+msgid ""
+" Extract selected lines to a new function or method.  The new_name\n"
+"    argument is used as the default for the name field if specified. "
+msgstr ""
+
+#: src/refactoring/commands.py:171
+msgid ""
+" Only check for a non-blank lines; more expensive tests are done\n"
+"    later. "
+msgstr ""
+
+#: src/refactoring/commands.py:186
+msgid ""
+" Introduce named variable set to the current selected expression or\n"
+"    to the range in the active editor specified by pos_range.  The new_name\n"
+"    argument is used as the default variable name if it is specified. "
+msgstr ""

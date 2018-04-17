@@ -1,0 +1,737 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_debug_client_cmdmanager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-21 10:17+EDT\n"
+"PO-Revision-Date: 2018-03-07 21:13+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 43357\n"
+"X-Loco-Api-Version: 1.0.18 20180307-1\n"
+
+#: src/debug/client/cmdmanager.py:2
+msgid ""
+" cmdmanager.py -- Command map for debug client\n"
+"\n"
+"Copyright (c) 1999-2012, Archaeopteryx Software, Inc.  All rights reserved.\n"
+"\n"
+"Written by Stephan R.A. Deibel and John P. Ehresman\n"
+"\n"
+msgstr ""
+" cmdmanager.py -- Командная карта для отладочного клиента\n"
+"\n"
+"Copyright (c) 1999-2012, Archaeopteryx Software, Inc.  Все права защищены.\n"
+"\n"
+"Written by Stephan R.A. Deibel and John P. Ehresman\n"
+"\n"
+
+#: src/debug/client/cmdmanager.py:57
+msgid "Commands that control the debugger and current debug process, if any."
+msgstr ""
+"Команды, управляющие отладчиком и текущим процессом отладки, если таковые "
+"имеются."
+
+#: src/debug/client/cmdmanager.py:76
+msgid "Always stop on exceptions, even if they are handled by the code"
+msgstr ""
+"Всегда прерывать выполнение на исключениях, даже если они обрабатываются "
+"кодом"
+
+#: src/debug/client/cmdmanager.py:84
+msgid "Never stop on exceptions, even if they are unhandled in the code"
+msgstr ""
+"Никогда не прерывать выполнение на исключениях, даже если они не "
+"обрабатываются в коде"
+
+#: src/debug/client/cmdmanager.py:92
+msgid "Stop only on exceptions that are not handled by the code"
+msgstr ""
+"Прерывать выполнение только на исключениях, которые не обрабатываются кодом"
+
+#: src/debug/client/cmdmanager.py:100
+msgid "Stop only on exceptions when they are about to be printed"
+msgstr "Останавливаться только на исключениях после печати"
+
+#: src/debug/client/cmdmanager.py:108
+msgid "Clear list of exceptions being ignored during debugging"
+msgstr "Очистить список исключений, игнорируемых во время отладки"
+
+#: src/debug/client/cmdmanager.py:117
+msgid "Execute the build command defined in the project, if any"
+msgstr "Выполните команду сборки, определенную в проекте, если таковая"
+
+#: src/debug/client/cmdmanager.py:132
+msgid "Attach to an already-running debug process"
+msgstr "Присоединить к уже запущенному процессу отладки"
+
+#: src/debug/client/cmdmanager.py:147
+msgid "Detach from the debug process and let it run"
+msgstr "Отсоедините процесс отладки и пусть он работает"
+
+#: src/debug/client/cmdmanager.py:160
+msgid "Detach from all debug processes and let them run"
+msgstr "Отсоедините все отладочные процессы и дайте им работать"
+
+#: src/debug/client/cmdmanager.py:169
+msgid "Step into current execution point, or start debugging at first line"
+msgstr "Шаг в текущую точку выполнения или запуск отладки в первой строке"
+
+#: src/debug/client/cmdmanager.py:210
+msgid "Step over current instruction"
+msgstr "Шаг через текущую инструкцию"
+
+#: src/debug/client/cmdmanager.py:222
+msgid "Step over current line"
+msgstr "Шаг через текущую линию"
+
+#: src/debug/client/cmdmanager.py:230
+msgid "Step over current statement"
+msgstr "Шаг через текущее выражение"
+
+#: src/debug/client/cmdmanager.py:262
+msgid "Step over current block"
+msgstr "Шаг через текущий блок"
+
+#: src/debug/client/cmdmanager.py:313
+msgid "Step out of the current function or method"
+msgstr "Шаг из текущей функции или метода"
+
+#: src/debug/client/cmdmanager.py:325
+#, fuzzy
+msgid ""
+"Step out of the given frame (0=outermost) in the primary stack. Frame is\n"
+"    None to step out to the currently selected stack frame."
+msgstr ""
+"Шаг из заданного кадра (0 = внешний). Frame is None, чтобы выйти\n"
+"    на выбранный в данный момент фрейм стека."
+
+#: src/debug/client/cmdmanager.py:337
+msgid "Already at Innermost Frame"
+msgstr "Уже в самой внутренней структуре"
+
+#: src/debug/client/cmdmanager.py:338
+msgid ""
+"To Step Out to Here, first select a stack frame other than the innermost "
+"stack frame."
+msgstr ""
+"Чтобы выйти отсюда, сначала выберите кадр стека, отличный от самого "
+"внутреннего кадра стека."
+
+#: src/debug/client/cmdmanager.py:340
+msgid "OK"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:361
+msgid "Move program counter to caret"
+msgstr "Переместить счетчик программы на каретку"
+
+#: src/debug/client/cmdmanager.py:420
+msgid "Move program counter to click location"
+msgstr "Переместить счетчик программ в положение click"
+
+#: src/debug/client/cmdmanager.py:446
+msgid "Start debugging the current file (rather than the main entry point)"
+msgstr "Начните отладку текущего файла (вместо основной точки входа)"
+
+#: src/debug/client/cmdmanager.py:459
+msgid ""
+"Show the debug run arguments and environment configuration\n"
+"    dialog for the main entry point or current file"
+msgstr ""
+"Показать аргументы отладки и диалог настройки среды\n"
+"    для главной точки входа или текущего файла"
+
+#: src/debug/client/cmdmanager.py:492
+msgid "Start or continue debugging to next breakpoint or exception"
+msgstr ""
+"Запустить или продолжить отладку до следующей точки останова или исключения"
+
+#: src/debug/client/cmdmanager.py:507
+msgid "(press Alt to continue all paused debug processes)"
+msgstr "(нажмите Alt, чтобы продолжить все приостановленные процессы отладки)"
+
+#: src/debug/client/cmdmanager.py:510
+msgid "Continue all paused debug processes"
+msgstr "Продолжить все приостановленные процессы отладки"
+
+#: src/debug/client/cmdmanager.py:526
+msgid "Start a new debug process running"
+msgstr "Запуск нового процесса отладки"
+
+#: src/debug/client/cmdmanager.py:538
+msgid "Display the launch config manager"
+msgstr "Отобразить диспетчер конфигурации запуска"
+
+#: src/debug/client/cmdmanager.py:543
+msgid ""
+"Create a new launch configuration with the given name if it does not\n"
+"      already exist, and then open the launch configuration attribute dialog."
+msgstr ""
+"Создайте новую конфигурацию запуска с заданным именем, если она еще\n"
+"      не существует, а затем откройте диалог атрибута конфигурации запуска."
+
+#: src/debug/client/cmdmanager.py:552
+msgid "Create Launch Configuration"
+msgstr "Создать конфигурацию запуска"
+
+#: src/debug/client/cmdmanager.py:554
+msgid "Name of the new launch configuration"
+msgstr "Имя новой конфигурации запуска"
+
+#: src/debug/client/cmdmanager.py:556 src/debug/client/cmdmanager.py:579
+msgid "Name"
+msgstr "Имя"
+
+#: src/debug/client/cmdmanager.py:562
+msgid "Display the named entry point manager"
+msgstr "Отображение диспетчера именованных точек входа"
+
+#: src/debug/client/cmdmanager.py:567
+msgid ""
+"Create a new named entry point if it does not already exist, and then\n"
+"      open the named entry point attribute dialog."
+msgstr ""
+"Создайте новую именованную точку входа, если она еще не существует,\n"
+"      а затем откройте диалоговое окно с именем атрибута точки входа."
+
+#: src/debug/client/cmdmanager.py:577
+msgid "Name of the entry point"
+msgstr "Название точки входа"
+
+#: src/debug/client/cmdmanager.py:582
+msgid "Create Named Entry Point"
+msgstr "Создать именованную точку входа"
+
+#: src/debug/client/cmdmanager.py:586
+msgid "Debug the named entry point"
+msgstr "Отладка именованной точки входа"
+
+#: src/debug/client/cmdmanager.py:593
+msgid "Execute (without debugging) the named entry point"
+msgstr "Выполнить (без отладки) именованную точку входа"
+
+#: src/debug/client/cmdmanager.py:600
+msgid "Display the remote host configuration manager"
+msgstr "Отобразить диспетчер конфигурации удаленного хоста"
+
+#: src/debug/client/cmdmanager.py:605
+msgid ""
+"Create a new remote host configuration and open the remote host attribute\n"
+"      dialog."
+msgstr ""
+"Создайте новую конфигурацию удаленного хоста и откройте \n"
+"      диалоговое окно атрибута удаленного хоста."
+
+#: src/debug/client/cmdmanager.py:615
+msgid "Terminate current debug session"
+msgstr "Завершить текущий сеанс отладки"
+
+#: src/debug/client/cmdmanager.py:636
+msgid "(press Alt to terminate all debug processes)"
+msgstr "(нажмите Alt, чтобы завершить все процессы отладки)"
+
+#: src/debug/client/cmdmanager.py:639
+msgid "Terminate all debug processes"
+msgstr "Завершить все процессы отладки"
+
+#: src/debug/client/cmdmanager.py:653
+msgid "Pause debug at current program counter"
+msgstr "Пауза отладки на текущем счетчике программы"
+
+#: src/debug/client/cmdmanager.py:663
+msgid "(press Alt to pause all debug processes)"
+msgstr "(нажмите Alt, чтобы приостановить все процессы отладки)"
+
+#: src/debug/client/cmdmanager.py:666
+msgid "Pause all free-running debug processes at the current program counter"
+msgstr "Приостановить все процессы отладки на текущем счетчике программы"
+
+#: src/debug/client/cmdmanager.py:693
+msgid "Stop and restart debugging"
+msgstr "Остановить и перезапустить отладку"
+
+#: src/debug/client/cmdmanager.py:715
+msgid "(press Alt to restart all debug processes)"
+msgstr "(нажмите Alt, чтобы перезапустить все процессы отладки)"
+
+#: src/debug/client/cmdmanager.py:718
+msgid "Stop and restart all debug processes that were launched from the IDE"
+msgstr ""
+"Остановите и перезапустите все процессы отладки, запущенные из среды IDE"
+
+#: src/debug/client/cmdmanager.py:747
+msgid "Re-run the latest debug session that was launched from the IDE"
+msgstr ""
+"Повторно запустите последний сеанс отладки, который был запущен из среды IDE"
+
+#: src/debug/client/cmdmanager.py:756
+msgid "Run to current cursor position"
+msgstr "Выполнить до текущего положения курсора"
+
+#: src/debug/client/cmdmanager.py:773
+msgid "Debug to the line at the current mouse click location"
+msgstr "Отладка строки в текущем местоположении click мыши"
+
+#: src/debug/client/cmdmanager.py:780
+msgid "Debug to Clicked"
+msgstr "Отладка до щелчка"
+
+#: src/debug/client/cmdmanager.py:787
+msgid "Move up the current debug stack"
+msgstr "Перемещение вверх по текущему стеку отладки"
+
+#: src/debug/client/cmdmanager.py:812
+msgid "Move down the current debug stack"
+msgstr "Перемещение вниз по текущему стеку отладки"
+
+#: src/debug/client/cmdmanager.py:832
+msgid ""
+"Show the position (thread and stack frame) where the debugger originally\n"
+"    stopped"
+msgstr ""
+"Показать позицию (поток и кадр стека), в которой отладчик был\n"
+"    остановлен"
+
+#: src/debug/client/cmdmanager.py:851
+msgid "Set a new regular breakpoint on current line"
+msgstr "Установка новой обычной точки останова в текущей строке"
+
+#: src/debug/client/cmdmanager.py:870
+msgid "Set a new regular breakpoint at the current mouse click location"
+msgstr ""
+"Установка новой обычной точки останова в текущем местоположении щелчка мышью"
+
+#: src/debug/client/cmdmanager.py:882
+msgid ""
+"Toggle breakpoint at current line (creates new regular bp when one is "
+"created)"
+msgstr ""
+"Переключить точку останова на текущую линию (создает новую обычную bp при "
+"создании)"
+
+#: src/debug/client/cmdmanager.py:897
+msgid "Set a new conditional breakpoint on current line"
+msgstr "Установка новой условной точки останова для текущей строки"
+
+#: src/debug/client/cmdmanager.py:910
+msgid "Set a new conditional breakpoint at the current mouse click location"
+msgstr ""
+"Установка новой условной точки останова в текущем местоположении щелчка мыши"
+
+#: src/debug/client/cmdmanager.py:919
+msgid "Set a new temporary breakpoint on current line"
+msgstr "Установка новой временной точки останова для текущей строки"
+
+#: src/debug/client/cmdmanager.py:926
+msgid "Set a new temporary breakpoint at the current mouse click location"
+msgstr ""
+"Установка новой временной точки останова в текущем местоположении щелчка мыши"
+
+#: src/debug/client/cmdmanager.py:934
+msgid "Ignore the breakpoint on current line for N iterations"
+msgstr "Игнорировать точку останова в текущей строке для N итераций"
+
+#: src/debug/client/cmdmanager.py:945
+msgid ""
+"Ignore the breakpoint at the current mouse click location for N iterations"
+msgstr ""
+"Игнорировать точку останова в текущем местоположении щелчка мыши для N "
+"итераций"
+
+#: src/debug/client/cmdmanager.py:955
+msgid "Edit condition for the breakpoint on current line"
+msgstr "Изменить условие для точки останова в текущей строке"
+
+#: src/debug/client/cmdmanager.py:966
+msgid "Edit condition for the breakpoint at the current mouse click location"
+msgstr ""
+"Изменить условие для точки останова в текущем местоположении щелчка мыши"
+
+#: src/debug/client/cmdmanager.py:974
+msgid "Toggle whether breakpoint on current line is enabled or disabled"
+msgstr ""
+"Переключение между включением или отключением точки останова в текущей строке"
+
+#: src/debug/client/cmdmanager.py:989
+msgid "Enable the breakpoint on the current line"
+msgstr "Включить точку останова в текущей строке"
+
+#: src/debug/client/cmdmanager.py:1000
+msgid "Enable the breakpoint at current click location"
+msgstr "Включить точку останова в текущем местоположении щелчка"
+
+#: src/debug/client/cmdmanager.py:1012
+msgid "Disable the breakpoint on current line"
+msgstr "Отключить точку останова в текущей строке"
+
+#: src/debug/client/cmdmanager.py:1023
+msgid "Disable the breakpoint at current click location"
+msgstr "Отключить точку останова в текущем местоположении щелчка мыши"
+
+#: src/debug/client/cmdmanager.py:1035
+msgid "Set a disabled breakpoint on the current line"
+msgstr "Установка отключенной точки останова на текущей строке"
+
+#: src/debug/client/cmdmanager.py:1046
+msgid "Enable all breakpoints"
+msgstr "Включить все точки останова"
+
+#: src/debug/client/cmdmanager.py:1056
+msgid "Disable all breakpoints"
+msgstr "Отключить все точки останова"
+
+#: src/debug/client/cmdmanager.py:1066
+msgid "Clear the breakpoint on the current line"
+msgstr "Очистить точку останова на текущей строке"
+
+#: src/debug/client/cmdmanager.py:1075
+msgid "Clear the breakpoint at current click location"
+msgstr "Очистить точку останова в текущем местоположении щелчка"
+
+#: src/debug/client/cmdmanager.py:1085
+msgid "Clear all breakpoints"
+msgstr "Очистить все точки останова"
+
+#: src/debug/client/cmdmanager.py:1096 src/debug/client/cmdmanager.py:1112
+msgid "Watch selected variable using a direct object reference to track it"
+msgstr "Отслеживать выбранную переменную с помощью прямой ссылки на объект"
+
+#: src/debug/client/cmdmanager.py:1120
+msgid ""
+"Watch selected variable using a reference to the value's parent and the key\n"
+"    slot for the value"
+msgstr ""
+"Отслеживать выбранную переменную с помощью ссылки на\n"
+"    родительское значение и ключевой слот для значения"
+
+#: src/debug/client/cmdmanager.py:1129
+msgid "Watch selected value using the symbolic path to it"
+msgstr "Отслеживать выбранное значение, используя символический путь к нему"
+
+#: src/debug/client/cmdmanager.py:1137
+msgid ""
+"Watch selected value relative to a module looked up by name in\n"
+"    sys.modules"
+msgstr ""
+"Отслеживать выбранное значение относительно имени модуля в\n"
+"    sys.modules"
+
+#: src/debug/client/cmdmanager.py:1146
+msgid "Add a new expression to the watch list"
+msgstr "Добавить новое выражение в список Отслеживания"
+
+#: src/debug/client/cmdmanager.py:1154
+msgid "Force refetch of a value from server"
+msgstr "Принудительное получение значения с сервера"
+
+#: src/debug/client/cmdmanager.py:1183
+msgid "Clear stored variable errors so they get refetched"
+msgstr "Очистить историю переменных ошибок для возможного перевыбора"
+
+#: src/debug/client/cmdmanager.py:1201
+msgid "Expand whole selected variables display subtree deeper"
+msgstr "Развернуть всю структуру выбранных переменных"
+
+#: src/debug/client/cmdmanager.py:1217
+msgid "Collapse whole selected variables display subtree one more level"
+msgstr "Свернуть всю структуру выбранных переменных на один уровень"
+
+#: src/debug/client/cmdmanager.py:1245
+#, fuzzy
+msgid "Show the selected value as an array"
+msgstr "Показать область детализации текстового значения"
+
+#: src/debug/client/cmdmanager.py:1258
+#, fuzzy
+msgid "Show the selected value as text"
+msgstr "Показать область детализации текстового значения"
+
+#: src/debug/client/cmdmanager.py:1265
+#, fuzzy
+msgid "Hide the debug value detail area"
+msgstr "Показать область детализации текстового значения"
+
+#: src/debug/client/cmdmanager.py:1281 src/debug/client/cmdmanager.py:1286
+msgid "Utility to get bp status info"
+msgstr "Утилита информации о состоянии точки останова"
+
+#: src/debug/client/cmdmanager.py:1301
+msgid " Returns most current created shell view or None if there isn't any. "
+msgstr ""
+" Возвращает самое последнее созданное представление оболочки или None, если "
+"его нет. "
+
+#: src/debug/client/cmdmanager.py:1307
+msgid ""
+" Returns most current created ipy shell view or None if there isn't any. "
+msgstr "Возвращает актуальный вид оболочки ipy или None, если его нет. "
+
+#: src/debug/client/cmdmanager.py:1313
+msgid ""
+" Returns most current created debug probe view or None if there isn't any. "
+msgstr ""
+" Возвращает актуальное значение Отладочного зонда или None, если его нет."
+
+#: src/debug/client/cmdmanager.py:1319
+msgid ""
+" Restart python shell, optionally showing the Python Shell tool and/or "
+"placing\n"
+"    keyboard focus on it. Prompts the user first when prompt is True or when "
+"prompt is\n"
+"    'pref' and the user has not asked to bypass the prompt."
+msgstr ""
+"Перезапустить оболочку Python, опционально показывая инструмент оболочки "
+"Python\n"
+"    и/или устанавливая на него фокус клавиатуры. Запрашивает сначала "
+"пользователя,\n"
+"    когда запрос имеет значение True, или когда запрос является 'pref',\n"
+"    и пользователь не попросил пропустить запрос."
+
+#: src/debug/client/cmdmanager.py:1338
+msgid "Restart Python Shell?"
+msgstr "Перезапустить оболочку Python?"
+
+#: src/debug/client/cmdmanager.py:1339
+msgid ""
+"Are you sure you want to restart the Python Shell?  This clears the shell to "
+"blank and restarts the associated Python instance."
+msgstr ""
+"Вы действительно хотите перезапустить оболочку Python? Это полностью очистит "
+"окно оболочки и перезапустит связанный экземпляр Python."
+
+#: src/debug/client/cmdmanager.py:1342
+msgid "_Restart Python Shell"
+msgstr "Перезапуск Оболочки Python"
+
+#: src/debug/client/cmdmanager.py:1343
+msgid "_Cancel"
+msgstr "Отмена"
+
+#: src/debug/client/cmdmanager.py:1347
+msgid "_Don't prompt before restart"
+msgstr "Не запрашивать перед перезагрузкой"
+
+#: src/debug/client/cmdmanager.py:1359
+msgid "Restart python shell. "
+msgstr "Перезапустите оболочку python."
+
+#: src/debug/client/cmdmanager.py:1366
+msgid ""
+"Clear text in the python shell, according to given scope ('all' for whole "
+"shell,\n"
+"    'selection' for selection and 'entry' for text entered since the last "
+"prompt).\n"
+"    Optionally shows the Python Shell if not already visible and/or sets "
+"focus into it."
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1394 src/debug/client/cmdmanager.py:1776
+msgid " Kill python shell process. "
+msgstr " Убить процесс оболочки python. "
+
+#: src/debug/client/cmdmanager.py:1409
+msgid ""
+"Toggle the active range in the Python Shell:  The active range\n"
+"    is cleared if already set, or otherwise set using the current editor\n"
+"    selection."
+msgstr ""
+"Переключение активного диапазона в оболочке Python: активный диапазон\n"
+"    очищается, если уже задан, или иным образом устанавливается с помощью\n"
+"    текущего выбора редактора."
+
+#: src/debug/client/cmdmanager.py:1421 src/debug/client/cmdmanager.py:1797
+msgid "Evaluate the active range in the Python Shell, if any is set"
+msgstr "Оцените активный диапазон в оболочке Python, если он установлен"
+
+#: src/debug/client/cmdmanager.py:1430
+msgid "Show the active range set in the Python Shell in the editor."
+msgstr "Показывать активный диапазон, заданный в оболочке Python в редакторе."
+
+#: src/debug/client/cmdmanager.py:1467
+msgid " Clear debug probe. "
+msgstr " Очистить Зонд Отладки. "
+
+#: src/debug/client/cmdmanager.py:1482
+msgid ""
+"Toggle the active range in the Debug Probe:  The active range\n"
+"    is cleared if already set, or otherwise set using the current editor\n"
+"    selection."
+msgstr ""
+"Переключить активный диапазон в Зонде Отладки: активный диапазон\n"
+"    очищается, если он уже установлен, или иным образом установлен\n"
+"    с использованием текущего выбора редактора."
+
+#: src/debug/client/cmdmanager.py:1494
+msgid "Evaluate the active range in the Debug Probe, if any is set"
+msgstr "Оцените активный диапазон в отладочном зонде, если он задан"
+
+#: src/debug/client/cmdmanager.py:1503
+msgid "Show the active range set in the Debug Probe in the editor."
+msgstr ""
+"Показать активный диапазон, установленный в Отладочном Зонде в редакторе."
+
+#: src/debug/client/cmdmanager.py:1511
+msgid "Get all visible editors in frontmost window"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1534
+msgid ""
+"Show tooltips on all visible editors indicating the current value of\n"
+"    all visible symbols"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1571
+msgid ""
+"Hide all the debug value tooltips previously shown with "
+"debug_show_value_tips()"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1579
+msgid " Turn on additional logging for diagnosing problems with the debugger "
+msgstr ""
+" Включение дополнительного ведения журнала для диагностики неполадок в "
+"отладчике "
+
+#: src/debug/client/cmdmanager.py:1586
+msgid " Turn off additional logging for diagnosing problems with the debugger "
+msgstr ""
+"Отключение ведения дополнительного журнала диагностики проблем с отладчиком"
+
+#: src/debug/client/cmdmanager.py:1593
+msgid " Return the shell that has the focus or None. "
+msgstr " Возврат оболочки, которая имеет фокус или нет. "
+
+#: src/debug/client/cmdmanager.py:1639
+msgid " Copy text from shell, including all prompts "
+msgstr " Копировать текст из оболочки, включая все подсказки "
+
+#: src/debug/client/cmdmanager.py:1658
+msgid " Interupt debugger execution; equivalent to ctrl-c on command line "
+msgstr ""
+" Прерываем выполнение отладки; эквивалентное сочетание клавиш Ctrl-C в "
+"командной строке "
+
+#: src/debug/client/cmdmanager.py:1691
+msgid "Chained Exception Cause %i:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1693
+msgid "Chained Exception Context %i:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1696
+msgid "Chained Exception Cause:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1698
+msgid "Chained Exception Context:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1702
+msgid "Final Exception:"
+msgstr ""
+
+#: src/debug/client/cmdmanager.py:1711
+msgid "pos %s-%s"
+msgstr "поз %s-%s"
+
+#: src/debug/client/cmdmanager.py:1713
+msgid ", line "
+msgstr ", ряд "
+
+#: src/debug/client/cmdmanager.py:1754
+msgid " Restart python shell. "
+msgstr " Перезапустите оболочку python. "
+
+#: src/debug/client/cmdmanager.py:1765
+msgid " Clear python shell. "
+msgstr " Очистить оболочку python. "
+
+#: src/debug/client/cmdmanager.py:1787
+msgid ""
+"Toggle the active range in the Python Shell:  The active range\n"
+"      is cleared if already set, or otherwise set using the current editor\n"
+"      selection."
+msgstr ""
+"Переключить активный диапазон в оболочке Python: активный диапазон\n"
+"      очищается, если он уже установлен или иным образом установлен с\n"
+"      использованием текущего выбора редактора."
+
+#: src/debug/client/cmdmanager.py:1805
+msgid "Show the active range set in the IPython tool in the editor."
+msgstr ""
+"Отображение активного набора диапазонов в инструменте IPython в редакторе."
+
+#: src/debug/client/cmdmanager.py:1813
+msgid ""
+"Connect to an existing kernel specified by the file.  The kill\n"
+"      current arg specifies if a yes/no dialog it displayed before the\n"
+"      current session is abandoned and has 3 value logic that applies\n"
+"      only if something has been executed since the session was created\n"
+"      or connected:\n"
+"       - if true, the current session is killed or disconnected\n"
+"       - if false, it's not killed\n"
+"       - if None, a yes/no dialog is displayed\n"
+"         "
+msgstr ""
+"Подключитесь к существующему ядру, указанному в файле. Аргумент kill arg\n"
+"      указывает, открывается ли диалоговое окно yes/no перед текущим "
+"сеансом\n"
+"      и имеет 3 значения логики, которые применяются только в том случае, "
+"если\n"
+"      что-то было выполнено с момента создания или подключения сеанса:\n"
+"       -Если true, текущий сеанс будет убит или отключен\n"
+"       -Если false, он не будет убит\n"
+"       -Если None, отображается диалоговое окно \"да/нет\""
+
+#: src/debug/client/cmdmanager.py:1826
+msgid "Connect to Existing IPython Kernel"
+msgstr "Подключение к существующему IPython ядру"
+
+#: src/debug/client/cmdmanager.py:1844
+msgid "Disconnect from current session"
+msgstr "Отключение от текущего сеанса"
+
+#: src/debug/client/cmdmanager.py:1846 src/debug/client/cmdmanager.py:1848
+msgid "Kill current session"
+msgstr "Убить текущую сессию"
+
+#: src/debug/client/cmdmanager.py:1855
+msgid "The filename for kernel"
+msgstr "Имя файла для ядра"
+
+#: src/debug/client/cmdmanager.py:1860
+msgid "Kernel Filename"
+msgstr "Имя Файла Ядра"
+
+#: src/debug/client/cmdmanager.py:1874
+msgid "Cannot Interrupt IPython Kernel::"
+msgstr "Не удается прервать IPython Kernel::"
+
+#: src/debug/client/cmdmanager.py:1889
+msgid ""
+"Commands for the debugger's Watch tool (Wing Pro only).\n"
+"  These are available only when the watch tool has key board focus."
+msgstr ""
+"Команды для инструмента Отслеживания отладки (только для Wing Pro). \n"
+"  Они доступны только в том случае, если инструмент Отслеживания имеет фокус "
+"клавиатуры."
+
+#: src/debug/client/cmdmanager.py:1906
+msgid "Clear selected entry from the watch list"
+msgstr "Очистить выбранную запись из списка Отслеживания"
+
+#: src/debug/client/cmdmanager.py:1918
+msgid "Clear all entries from the watch list"
+msgstr "Очистить все записи из списка Отслеживания"
+
+#~ msgid "No stack"
+#~ msgstr "Нет стека"

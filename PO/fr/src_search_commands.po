@@ -1,0 +1,158 @@
+# Module src_search_commands translation file for language=fr
+# Copyright (C) 2010 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.2.4\n"
+"POT-Creation-Date: 2016-12-12 13:04+EST\n"
+"PO-Revision-Date: 2016-11-02 21:44+0100\n"
+"Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
+"Language-Team: None\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/search/commands.py:38
+msgid ""
+"Globally available commands defined for the search manager.  These\n"
+"  commands are available regardless of whether a search manager is visible\n"
+"  or has keyboard focus."
+msgstr ""
+"Commandes disponibles globalement pour le gestionnaire de recherches\n"
+"   Ces commandes sont disponibles que le gestionnaire de recherches soit\n"
+"   visible ou ait son focus sur le clavier."
+
+#: src/search/commands.py:51 src/search/commands.py:223
+#: src/search/commands.py:243
+msgid " Bring up the search manager in search mode. "
+msgstr " Amener en évidence le gestionnaire de recherches en mode recherche."
+
+#: src/search/commands.py:56
+msgid " Search again using the search manager's current settings. "
+msgstr ""
+" Chercher de nouveau en utilisant les configurations actuelles du "
+"gestionnaire de recherche."
+
+#: src/search/commands.py:82
+msgid ""
+" Search again using the search manager's current settings\n"
+"    in forward direction "
+msgstr ""
+" Chercher de nouveau en utilisant les configurations actuelles\n"
+"     du gestionnaire de recherche en direction avant"
+
+#: src/search/commands.py:90
+msgid ""
+" Search again using the search manager's current settings\n"
+"    in backward direction "
+msgstr ""
+" Chercher de nouveau en utilisant les configurations actuelles\n"
+"     du gestionnaire de recherche en direction arrière"
+
+#: src/search/commands.py:97
+msgid " Bring up the search manager in replace mode. "
+msgstr " Amener en évidence le gestionnaire de recherches en mode remplacer."
+
+#: src/search/commands.py:102
+msgid " Replace current selection with the search manager. "
+msgstr " Remplacer la sélection actuelle avec le gestionnaire de recherches."
+
+#: src/search/commands.py:119
+msgid " Replace current selection and search again. "
+msgstr " Remplacer la sélection actuelle et chercher de nouveau. "
+
+#: src/search/commands.py:135
+msgid ""
+" Find view: one in the active document window is preferred and then one in "
+"a\n"
+"    floating window.  If 2+ meet the criteria, the last used for a search\n"
+"    is returned "
+msgstr ""
+
+#: src/search/commands.py:209
+msgid " Get initial text to put in search field. "
+msgstr " Récupérer le texte initial à placer dans le champ de recherche."
+
+#: src/search/commands.py:294 src/search/commands.py:304
+msgid " Search forward using current selection "
+msgstr " Recherche avant en utilisant la sélection actuelle"
+
+#: src/search/commands.py:310
+msgid " Search backward using current selection "
+msgstr " Recherche arrière en utilisant la sélection actuelle"
+
+#: src/search/commands.py:316
+msgid ""
+" Search on current selection using the Search in Files tool. The look_in "
+"argument gets\n"
+"    entered in the look in field if not None or ''. The current selection is "
+"put into the search\n"
+"    field if it doesn't span multiple lines and either use_selection is true "
+"or there's nothing in\n"
+"    the search field. The given search text is used instead, if provided"
+msgstr ""
+" Chercher dans la sélection actuelle en utilisant l'outil Chercher dans "
+"Fichiers.\n"
+"    L’argument look_in est entré dans le champ d'examen si non None ou ‘’.\n"
+"    La sélection actuelle est mise dans le champ de recherche si elle ne "
+"couvre pas plusieurs lignes\n"
+"    et soit use_selection est Vrai ou il n'y a rien dans le champ de "
+"recherche.\n"
+"    Le texte de recherche est utilisé à la place, si fourni."
+
+#: src/search/commands.py:327
+msgid " Move to the next found match in the Search in Files tool. "
+msgstr ""
+" Se déplacer vers la correspondance suivante trouvée dans l'outil Chercher "
+"dans fichiers. "
+
+#: src/search/commands.py:335
+msgid " Move to the previous found match in the Search in Files tool. "
+msgstr ""
+" Se déplacer vers la correspondance précédente trouvée dans l'outil Chercher "
+"dans fichiers. "
+
+#: src/search/commands.py:343
+msgid " Display search and replace in files tool. "
+msgstr " Afficher l'outil chercher et remplacer dans les fichiers. "
+
+#: src/search/commands.py:350
+msgid " Pause the currently running batch search, if any "
+msgstr ""
+
+#: src/search/commands.py:365
+msgid ""
+"Commands for a particular search manager instance.  These are only\n"
+"  available when the search manager has they keyboard focus."
+msgstr ""
+"Commandes pour une instance particulière du gestionnaire de recherche\n"
+"   Elles sont disponibles uniquement quand le gestionnaire de recherche\n"
+"   a son focus sur le clavier."
+
+#: src/search/commands.py:397
+msgid ""
+"Place a forward tab at the current cursor position in search or replace\n"
+"    string"
+msgstr ""
+"Placer une tabulation avant à la position actuelle du curseur dans la \n"
+"   chaîne à chercher ou remplacer"
+
+#: src/search/commands.py:416
+msgid " Cut selected text "
+msgstr " Couper le texte sélectionné "
+
+#: src/search/commands.py:425
+msgid " Copy selected text "
+msgstr " Copier le texte sélectionné"
+
+#: src/search/commands.py:433
+msgid " Clear selected text "
+msgstr " Effacer le texte sélectionné"
+
+#: src/search/commands.py:441
+msgid " Paste text from clipboard "
+msgstr " Coller le texte depuis le presse-papier "

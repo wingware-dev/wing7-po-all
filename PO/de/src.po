@@ -1,0 +1,1462 @@
+# translation of src.po to German
+# Module src translation file for language=de
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+# Claudia Walenzyk <cwalenzyk@yahoo.com>, 2004.
+# Claudia Richter <cwalenzyk@yahoo.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: src\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2017-05-07 07:36+0200\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 2.0.1\n"
+
+#: src/capabilities.py:114
+msgid "Advanced indentation analysis and translation"
+msgstr "Erweiterte Einrückungsanalyse und Übersetzung"
+
+#: src/capabilities.py:115
+msgid "Folding in the source code editor"
+msgstr "Falten im Quelltext-Editor"
+
+#: src/capabilities.py:116
+msgid "Recent menus"
+msgstr "Letzte Menüs"
+
+#: src/capabilities.py:117
+msgid "Attach/detach to debug processes"
+msgstr "Anhängen/Abtrennen an/von Debug-Prozessen"
+
+#: src/capabilities.py:118
+msgid "Expression and value watching for debugger"
+msgstr "Ausdruck- und Wertbeobachtung für den Debugger"
+
+#: src/capabilities.py:119
+msgid "Interactive debug probe tool"
+msgstr "Interaktives Debug-Test-Werkzeug"
+
+#: src/capabilities.py:120
+msgid "Debug externally launched processes"
+msgstr "Extern gestartete Prozesse debuggen"
+
+#: src/capabilities.py:121
+msgid "Advance exception handling modes"
+msgstr "Erweiterte Exception-Behandlungsmodi"
+
+#: src/capabilities.py:122
+msgid "Module-oriented debug data view"
+msgstr "Modulorientierte Debug-Datenansicht"
+
+#: src/capabilities.py:123
+msgid "Shared projects for use in revision control"
+msgstr "Gemeinsame Projekte für die Nutzung mit der Versionsverwaltung"
+
+#: src/capabilities.py:124
+msgid "Advanced breakpoints for debugger"
+msgstr "Erweiterte Haltepunkte für den Debugger"
+
+#: src/capabilities.py:125
+msgid "Debug data value tooltips"
+msgstr ""
+
+#: src/capabilities.py:126
+msgid "Debugger breakpoint manager"
+msgstr "Haltepunkt-Manager des Debuggers"
+
+#: src/capabilities.py:127
+msgid "Source code browser"
+msgstr "Source-Code-Browser"
+
+#: src/capabilities.py:128
+msgid "Source assistant"
+msgstr "Source-Assistent"
+
+#: src/capabilities.py:129
+msgid "Scripting support"
+msgstr "Skripting-Support"
+
+#: src/capabilities.py:130
+msgid "Keyboard and command macro support"
+msgstr "Support für Tastatur- und Befehlsmakros"
+
+#: src/capabilities.py:131
+msgid "User-defined named bookmarks"
+msgstr "Benannte Lesezeichen vom Benutzer definiert"
+
+#: src/capabilities.py:132
+msgid "Autocompletion"
+msgstr "Auto-Vervollständigung"
+
+#: src/capabilities.py:133
+msgid "Projects"
+msgstr "Projekte"
+
+#: src/capabilities.py:134
+msgid "Wildcard and regular expression search"
+msgstr "Wildcard- und reguläre Ausdrucksuche"
+
+#: src/capabilities.py:135
+msgid "Batch search"
+msgstr "Batch-Suche"
+
+#: src/capabilities.py:136
+msgid "Disk search"
+msgstr "Suche auf der Festplatte"
+
+#: src/capabilities.py:137
+msgid "Multi-window GUI support"
+msgstr "GUI-Support für mehrere Fenster"
+
+#: src/capabilities.py:138
+msgid "Messages view"
+msgstr "Nachrichtenansicht"
+
+#: src/capabilities.py:139
+msgid "Unit testing tool"
+msgstr "Unit-Test Werkzeug"
+
+#: src/capabilities.py:140
+msgid "Support for running external processes in a console"
+msgstr "Unterstützung für die Ausführung externer Prozesse in einer Konsole"
+
+#: src/capabilities.py:141
+msgid "Code snippets"
+msgstr "Code-Schnipsel"
+
+#: src/capabilities.py:142
+msgid "Version control"
+msgstr "Versionsverwaltung"
+
+#: src/capabilities.py:143
+msgid "Perspectives"
+msgstr "Perspektiven"
+
+#: src/capabilities.py:144
+msgid "Difference and merge tool"
+msgstr "Vergleichen und Zusammenführen-Werkzeug"
+
+#: src/capabilities.py:145
+msgid "Code warnings"
+msgstr "Code Warnungen"
+
+#: src/capabilities.py:146
+msgid "Auto-editing"
+msgstr "Auto-Bearbeitung"
+
+#: src/capabilities.py:147
+msgid "Named file sets"
+msgstr "Benannte Dateigruppen"
+
+#: src/capabilities.py:148
+msgid "Launch Configurations"
+msgstr "Start-Konfigurationen"
+
+#: src/capabilities.py:149
+msgid "IPython"
+msgstr "IPython"
+
+#: src/capabilities.py:150
+msgid "Multi-process debugging"
+msgstr "Multi-Prozess Debuggen"
+
+#: src/capabilities.py:151
+msgid "Find Symbol in Project"
+msgstr "Finde Symbol im Projekt"
+
+#: src/capabilities.py:153
+msgid "Debug code executed in shells"
+msgstr ""
+
+#: src/capabilities.py:154
+msgid "Automated remote debugging"
+msgstr ""
+
+#: src/capabilities.py:156
+msgid "Generic support specific to Wing 101"
+msgstr "Allgemeiner Support für Wing 101"
+
+#: src/capabilities.py:157
+msgid "Generic support specific to Wing Personal"
+msgstr "Allgemeiner Support für Wing Personal"
+
+#: src/capabilities.py:158
+msgid "Generic support specific to Wing Pro"
+msgstr "Allgemeiner Support für Wing Pro"
+
+#: src/config.py:146
+#, fuzzy
+msgid ""
+"Wing was written at Wingware, maker of Python IDEs since 1998.  This product "
+"contains the following third party modules:\n"
+"    \n"
+"  * Python, the programming language, written by Guido van Rossum and many "
+"contributors.\n"
+"\n"
+"  * Qt5 cross-platform GUI toolkit, developed by many contributors.\n"
+"  \n"
+"  * PyQt5 Python bindings for Qt5, by Riverbank Computing Limited.\n"
+"  \n"
+"  * Python Imaging Library, developed by Secret Labs AB and Fredrik Lundh.\n"
+"  \n"
+"  * Scintilla, a source code editor widget, written by Neil Hodgson and many "
+"contributors.\n"
+"  \n"
+"  * Docutils, tools for ReST document conversion, written by David Goodger "
+"and contributors.\n"
+"  \n"
+"  * Sqlite, an embedded sql database engine, written by D. Richard Hipp, Dan "
+"Kennedy, Shane Harrelson, Christian Werner, and contributors.\n"
+"  \n"
+"  * Pysqlite, Python bindings for sqlite, written by Gerhard Häring.\n"
+"  \n"
+"  * pexpect by Noah Spurrier, Richard Holden, Marco Molteni, Kimberley "
+"Burchett, Robert Stone, Hartmut Goebel, Chad Schroeder, Erick Tryzelaar, "
+"Dave Kirby, Ids vander Molen, George Todd, Noel Taylor, Nicolas D. Cesar, "
+"Alexander Gattin, Geoffrey Marshall, Francisco Lourenco, Glen Mabey, Karthik "
+"Gurusamy, and Fernando Perez.\n"
+"  \n"
+"  * Icons from Crystal Clear by Everaldo and Tulliana-1.0 by M. Umut Pulat.\n"
+"  \n"
+"We gratefully acknowledge the efforts of all that have contributed to these "
+"and the other open source products and tools that are used in the "
+"development of Wing.\n"
+"  \n"
+"  "
+msgstr ""
+"Wing geschrieben bei Wingware, Macher von Python IDEs seit 1999.  Dieses "
+"Produkt enthält die folgenden Module von Dritten:\n"
+"    \n"
+"  * Python, die Programmiersprache, geschrieben von Guido van Rossum und "
+"Mitwirkenden.\n"
+"\n"
+"  * Qt5 cross-platform GUI toolkit, entwickelt von vielen Mitwirkenden.\n"
+"  \n"
+"  * PyQt5 Python bindings für Qt5, von Riverbank Computing Limited.\n"
+"  \n"
+"  * Python Imaging Library, entwickelt durch Secret Labs AB und Fredrik "
+"Lundh.\n"
+"  \n"
+"  * Scintilla, ein Source-Code-Editor-Widget, geschrieben von Neil Hodgson "
+"und Mitwirkenden.\n"
+"  \n"
+"  * Docutils, Werkzeuge für die ReST Dokument-Konvertierung, geschrieben von "
+"David Goodger und Mitwirkenden.\n"
+"  \n"
+"  * Sqlite, eine eingebettete SQL Datenbank, geschrieben von D. Richard "
+"Hipp, Dan Kennedy, Shane Harrelson, Christian Werner und Mitwirkenden.\n"
+"  \n"
+"  * Pysqlite, Python-Bindings für sqlite, geschrieben von Gerhard Häring.\n"
+"  \n"
+"  * pexpect von Noah Spurrier, Richard Holden, Marco Molteni, Kimberley "
+"Burchett, Robert Stone, Hartmut Goebel, Chad Schroeder, Erick Tryzelaar, "
+"Dave Kirby, Ids vander Molen, George Todd, Noel Taylor, Nicolas D. Cesar, "
+"Alexander Gattin, Geoffrey Marshall, Francisco Lourenco, Glen Mabey, Karthik "
+"Gurusamy und Fernando Perez.\n"
+"  \n"
+" * Icons von Crystal Clear von Everaldo und Tulliana-1.0 von M. Umut Pulat.\n"
+"  \n"
+"   * Icons from Crystal Clear by Everaldo and Tulliana-1.0 by M. Umut "
+"Pulat.\n"
+"  \n"
+"  Wir bedanken uns bei allen, die zu diesen und anderen Open Source "
+"Produkten, die für die Entwicklung von Wing verwendet wurden, beigetragen "
+"haben, für ihre Arbeit.\n"
+"  \n"
+"  "
+
+#: src/main.py:67
+msgid "Wing %s version is %s build %s"
+msgstr "Wing %s Version ist %s erstellt %s"
+
+#: src/main.py:68
+#, fuzzy
+msgid "kWingHome="
+msgstr "kWingHome setzen zu"
+
+#: src/main.py:69
+msgid "UserSettings="
+msgstr ""
+
+#: src/main.py:70
+msgid "kCachDir="
+msgstr ""
+
+#: src/main.py:74
+msgid "Cannot run without WINGHOME: exiting"
+msgstr "Kann ohne WINGHOME nicht ausführen: Beenden"
+
+#: src/main.py:84
+msgid "Exit"
+msgstr "Verlassen"
+
+#: src/main.py:90
+msgid "Could not create or access user settings directory "
+msgstr ""
+"Das Verzeichnis mit den Benutzer-Einstellungen konnte nicht erstellt werden "
+
+#: src/main.py:118
+msgid "Creating singletons..."
+msgstr "Erstelle Singletons..."
+
+#: src/main.py:284
+msgid "_Use dotfile locking"
+msgstr ""
+
+#: src/main.py:285
+msgid "_Don't use dotfile locking"
+msgstr ""
+
+#: src/main.py:286
+msgid "Wing may not have started correctly"
+msgstr "Wing wurde eventuell nicht korrekt gestartet"
+
+#: src/main.py:287
+msgid ""
+"Wing may have hung when trying to open a database file in your ~/.cache "
+"directory the last time it was run.  This may be caused by a file locking "
+"failure with a remote file server.  To work around the file locking failure, "
+"use the slower dotfile locking."
+msgstr ""
+
+#: src/mainprefs.py:34
+msgid "System Default"
+msgstr "Systemvoreinstellung"
+
+#: src/mainprefs.py:45
+msgid ""
+"The language to use for the user interface.  Either the default for this "
+"system, or set to a specific supported language."
+msgstr ""
+"Die Sprache, die für die Benutzeroberfläche verwendet werden soll. Verwenden "
+"Sie entweder die Voreinstellung für dieses System oder wählen Sie eine "
+"andere Sprache, die unterstützt wird."
+
+#: src/mainprefs.py:55
+msgid ""
+"The language to use for the documentation, when available (not all "
+"documentation is translated into all supported languages)."
+msgstr ""
+"Die Sprache, die für die Dokumentation verwendet werden soll (wenn "
+"verfügbar). Bitte beachten Sie, dass die Dokumentation nicht in allen "
+"unterstützen Sprachen zur Verfügung steht."
+
+#: src/mainprefs.py:64
+msgid ""
+"Controls whether most recent project is reopened at startup, in the absence "
+"of any other project on the command line."
+msgstr ""
+"Kontrolliert, ob das letzte Projekt mangels eines anderen Projektes in der "
+"Befehlszeile beim Starten wieder geöffnet wird."
+
+#: src/mainprefs.py:77
+msgid ""
+"This is a map from file extension or wildcard to mime type.  It adds "
+"additional file type mappings to those built into Wing.  File extensions can "
+"be specified alone without dot or wildcard, for example \"xcf\" or using "
+"wildcards containing \"*\" and/or \"?\", for example \"Makefile*\". The mime "
+"type to use for Python files is \"text/x-python\"."
+msgstr ""
+"Dies ist eine Konvertierung von Dateizusätzen oder Wildcards zu Mime-Typen. "
+"Dies fügt zusätzliche Konvertierungen von Dateitypen zu denen, die in Wing "
+"IDE erstellt werden, hinzu. Dateizusätze können allein ohne Punkt oder "
+"Wildcard angegeben werden, z. B. \"xcf\" oder sie können Wildcards "
+"verwenden, die \"*\" und/oder \"?\" enthalten, z. B. \"Makefile*\". Der Mime-"
+"Typ, der für Python-Dateien verwendet wird, lautet \"text/x-python\"."
+
+#: src/mainprefs.py:83
+msgid "File Extension"
+msgstr "Dateizusatz"
+
+#: src/mainprefs.py:83 src/mainprefs.py:92 src/mainprefs.py:101
+msgid "Mime Type"
+msgstr "Mime-Typ"
+
+#: src/mainprefs.py:89
+msgid ""
+"This is a map from mime type to displayable name for that mime type; one "
+"entry should be added for each new mime type added with the main.extra-mime-"
+"types preference."
+msgstr ""
+"Dies ist eine Konvertierung von Mime-Typen zu anzeigbaren Namen für diese "
+"Mime-Typen; ein Zugang sollte für jeden neuen Mime-Typen, der mit der "
+"Einstellung main.extra-mime-types hinzugefügt wurde, erstellt werden."
+
+#: src/mainprefs.py:92 src/mainprefs.py:468
+msgid "Name"
+msgstr "Name"
+
+#: src/mainprefs.py:98
+msgid ""
+"This is a map from mime type to tuple of start/end comment characters for "
+"each mime type.  One entry should be added for each new mime type added with "
+"the main.extra-mime-types preference."
+msgstr ""
+"Dies ist eine Konvertierung von Mime-Typen zu Tuple von Anfang/End-"
+"Kommentarzeichen für jeden Mime-Typen. Ein Zugang sollte für jeden neuen "
+"Mime-Typen, der mit der Einstellung main.extra-mime-types hinzugefügt wurde, "
+"erstellt werden."
+
+#: src/mainprefs.py:101
+msgid "Comment Characters"
+msgstr "Kommentarzeichen"
+
+#: src/mainprefs.py:102
+msgid "End"
+msgstr "Ende"
+
+#: src/mainprefs.py:102
+msgid "Start"
+msgstr "Start"
+
+#: src/mainprefs.py:107
+msgid "System default (%s)"
+msgstr "Systemvoreinstellung (%s)"
+
+#: src/mainprefs.py:109
+msgid ""
+"The default encoding to use for text files opened in the source editor and "
+"other tools, when an encoding for that file cannot be determined by reading "
+"the file.  Other encodings may also be tried.  This also sets the encoding "
+"to use for newly created files."
+msgstr ""
+"Die Standard-Kodierung, die für Textdateien, die im Source-Editor oder "
+"anderen Werkzeugen geöffnet werden, verwendet wird, wenn beim Lesen der "
+"Datei keine Kodierung für die Datei bestimmt werden kann. Andere Kodierungen "
+"können auch probiert werden. Dies stellt auch die Kodierung ein, die für neu "
+"erstellte Dateien verwendet wird."
+
+#: src/mainprefs.py:120
+#, fuzzy
+msgid ""
+"The number of bytes at which the IDE log file (%s) is truncated.  This file "
+"can be sent to technical support to help diagnose problems with the IDE."
+msgstr ""
+"Legt Anzahl der Bytes fest, an welcher die Fehlerprotokolldatei (%s) "
+"abgeschnitten wird. Diese Datei kann an den technischen Support gesendet "
+"werden, um bei der Diagnose von Problemen mit dem IDE zu helfen."
+
+#: src/mainprefs.py:128
+msgid "Auto Reload"
+msgstr "Automatisch Neuladen"
+
+#: src/mainprefs.py:129 src/mainprefs.py:136
+msgid "Immediately Request Reload"
+msgstr "Neuladen sofort Anfordern"
+
+#: src/mainprefs.py:130 src/mainprefs.py:137
+msgid "Request Reload on Edit"
+msgstr "Neuladen beim Bearbeiten anfordern"
+
+#: src/mainprefs.py:131 src/mainprefs.py:138
+msgid "Never Reload"
+msgstr "Niemals Neuladen"
+
+#: src/mainprefs.py:149
+#, fuzzy
+msgid ""
+"Selects action to perform on files found to be externally changed but "
+"unaltered within the IDE.  Use Auto Reload to automatically reload these "
+"files, Immediately Request Reload to ask via a dialog box upon detection, "
+"Request Reload on Edit to ask only if the unchanged file is edited within "
+"the IDE subsequently, or Never Reload to ignore external changes (although "
+"you will still be warned if you try to save over an externally changed file)"
+msgstr ""
+"Wählt Aktion, um Dateien auszuführen, die extern geändert wurden, aber "
+"innerhalb des IDEs unverändert sind. Dabei ist \"Automatisch Neuladen\",um "
+"diese Dateien automatisch wieder zu laden, \"Neuladen sofort Anfordern\", um "
+"nach Feststellung über eine Dialogbox zu fragen, \"Neuladen beim Bearbeiten "
+"anfordern\", um nur zu fragen, wenn die unveränderte Datei innerhalb des IDE "
+"nachträglich bearbeitet wurde, oder \"Niemals Neuladen\", um externe "
+"Änderungen zu ignorieren (obwohl Sie trotzdem noch gewarnt werden, wenn sie "
+"versuchen, eine extern geänderte Datei zu überspeichern)"
+
+#: src/mainprefs.py:158
+#, fuzzy
+msgid ""
+"Selects action to perform on files found to be externally changed and that "
+"also have been altered in the IDE.  One of Immediately Request Reload to ask "
+"via a dialog box upon detection, Request Reload on Edit to ask if the file "
+"is edited further, or Never Reload to ignore external changes (although you "
+"will always be warned if you try to save over an externally changed file)"
+msgstr ""
+"Wählt Aktion, um Dateien auszuführen, die sowohl extern als auch innerhalb "
+"des IDE geändert wurden. Dabei ist \"Neuladen sofort Anfordern\", um nach "
+"Feststellung über eine Dialogbox anzufragen, \"Neuladen beim Bearbeiten "
+"anfordern\", um zu fragen, ob die Datei weiter bearbeitet wurde, oder "
+"\"Niemals Neuladen\", um externe Änderungen zu ignorieren (obwohl sie "
+"trotzdem immer gewarnt werden, wenn Sie versuchen, eine extern geänderte "
+"Datei zu überspeichern.)"
+
+#: src/mainprefs.py:166
+msgid ""
+"Time in seconds indicating the frequency with which the IDE should check the "
+"disk for files that have changed externally. Set to 0 to disable entirely."
+msgstr ""
+"Zeit in Sekunden, die die Frequenz angibt, mit welcher das IDE die "
+"Festplatte auf extern geänderte Dateien überprüfen sollte. Auf 0 einstellen, "
+"um es vollständig zu deaktivieren."
+
+#: src/mainprefs.py:172
+msgid ""
+"Don't reload files if size has not changed and a hash of the contents "
+"matches the hash when it was last read. This check is skipped if file is "
+"larger than 5 MB."
+msgstr ""
+
+#: src/mainprefs.py:180
+msgid ""
+"Specifies the directories in which Wing will look for user-defined scripts "
+"that extend the functionality of the IDE itself.  The directory names may "
+"contain environment variables in the $(envname) form.  Use $(WING:"
+"PROJECT_DIR) for the project directory.For each directory, Wing will load "
+"all found Python modules and packages, treating any function whose name "
+"starts with a letter (not _ or __) as a script-provided command.  Extension "
+"scripts found in files within directories later in the list will override "
+"scripts of the same name found earlier, except that scripts can never "
+"override commands that are defined internally in Wing itself (these are "
+"documented in the Command Reference in the users manual). See the Scripting "
+"and Extending chapter of the manual for more information on writing and "
+"using extension scripts.  Note that %s is always appended to the given path "
+"since it contains scripts that ship with Wing."
+msgstr ""
+"Bestimmt die Verzeichnisse, in denen Wing nach benutzerdefinierten Skripten "
+"sucht, die die Funktionalität des IDEs erweitern.  Die Verzeichnisnamen "
+"können Umgebungsvasriablen in der Form $(envname) enthalten.  Benutzen Sie "
+"$(WING:PROJECT_DIR) für das Projektverzeichnis. Wing wird für jedes "
+"Verzeichnis alle gefundenen Python-Module und -Pakete laden und jede "
+"Funktion, deren Name mit einem Buchstaben beginnt (nicht _ oder __) als "
+"Skript-definierten Befehl behandeln. Erweiterungsskripte, die in Dateien "
+"gefunden werden, die sich in Verzeichnissen weiter unten in der Liste "
+"befinden, überschreiben Skripte mit dem gleichen Namen, die davor gefunden "
+"wurden. Skripte können allerdings nie Befehle überschreiben, die intern in "
+"Wing definiert sind (diese sind in der Befehlsreferenz im Benutzerhandbuch "
+"dokumentiert). Bitte lesen Sie die Kapitel Skripte schreiben und erweitern "
+"im Benutzerhandbuch, um zusätzliche Informationen zum Schreiben und "
+"Verwenden von Erweiterungsskripten zu erhalten. Beachten Sie bitte, dass %s "
+"immer an den gegebenen Pfad angehängt wird, da es Skripte enthält, die mit "
+"Wing geliefert werden. "
+
+#: src/mainprefs.py:198
+msgid ""
+"When enabled, Wing will automatically reload scripts that extend the IDE "
+"when they are edited and saved from the IDE.  This makes developing "
+"extension scripts for the IDE very fast, and should work in most cases.  "
+"Disable this when working on extension scripts that do not reload properly, "
+"such as those that reach through the scripting API extensively."
+msgstr ""
+"Wenn diese Funktion aktiviert ist, wird Wing Skripte, die das IDE erweitern, "
+"automatisch neu laden, wenn diese im IDE bearbeitet und gespeichert werden. "
+"Dadurch wird das Entwickeln von Erweiterungsskripten für das IDE sehr "
+"schnell und es sollte meistens funktionieren. Deaktivieren Sie die Funktion, "
+"wenn Sie mit Erweiterungsskripten arbeiten, deren Neuladen nicht richtig "
+"funktioniert, zum Beispiel bei Skripten, die beträchtlich durch das "
+"Skripting-API reichen."
+
+#: src/mainprefs.py:211
+msgid ""
+"Automatically attempt to connect to wingware.com to check for updates once "
+"every day after Wing is started."
+msgstr ""
+"Versucht, automatisch zu wingware.com zu verbinden, um einmal am Tag nach "
+"Updates zu suchen nachdem Wing gestartet wurde."
+
+#: src/mainprefs.py:221
+msgid ""
+"Show a reminder when Support+Upgrades for the active license is expired or "
+"will expire soon."
+msgstr ""
+"Erinnerung anzeigen, wenn Support+Wartung für die aktive Lizenz ausgelaufen "
+"sind oder bald auslaufen."
+
+#: src/mainprefs.py:226
+#, fuzzy
+msgid ""
+"Used internally to keep track of latest version the user is not interested in"
+msgstr ""
+"Wird intern verwendet, um Updates zu verfolgen, an denen der Benutzer nicht "
+"interessiert ist"
+
+#: src/mainprefs.py:235
+msgid ""
+"Allow submitting a log of which features you use to Wingware.  This is done "
+"periodically at startup and also when you submit bug reports, feedback, or "
+"check for updates.  The data provided is held confidential, used only for "
+"technical support and planning future development, and can be seen in the "
+"file %s"
+msgstr ""
+
+#: src/mainprefs.py:242
+msgid "Base on the Current File or Selection"
+msgstr "Basierend auf der aktuellen Datei oder Auswahl"
+
+#: src/mainprefs.py:243
+msgid "Use Project's Home Directory"
+msgstr "Heimatverzeichnis des Projekts verwenden"
+
+#: src/mainprefs.py:244
+msgid "Use Last Open/Save Directory"
+msgstr "Verzeichnis, das zuletzt geöffnet/gespeichert wurde, verwenden"
+
+#: src/mainprefs.py:245
+msgid "Use Startup or Current Directory"
+msgstr "Start- oder aktuelles Verzeichnis verwenden"
+
+#: src/mainprefs.py:246
+msgid "Use Fixed Directory Specified Below"
+msgstr "Festgesetztes Verzeichnis, das unten angegeben ist, verwenden"
+
+#: src/mainprefs.py:251
+msgid ""
+"Defines how Wing determines the starting directory to use when prompting for "
+"a file name:  Either based on location of the resource at current focus, "
+"location of the current project home directory, the last directory visited "
+"for file selection, the current directory at startup (or selected since), or "
+"always the specific fixed directory entered here."
+msgstr ""
+"Legt fest, wie Wing das zu verwendende Startverzeichnis bestimmt, wenn nach "
+"einem Dateinamen verlangt wird: Dies ist entweder die Stelle der Ressource, "
+"die derzeit aktiv ist, die Stelle des aktuellen Projektverzeichnisses, das "
+"letzte Verzeichnis, das für die Dateiauswahl besucht wurde, das aktuelle "
+"Verzeichnis beim Start (oder das seitdem ausgewählt wurde) oder es ist immer "
+"das speziell festgesetzte Verzeichnis, das hier eingegeben ist."
+
+#: src/mainprefs.py:292
+msgid "Python Files"
+msgstr "Python-Dateien"
+
+#: src/mainprefs.py:293
+msgid "Hidden & Temporary Files"
+msgstr "Versteckte & temporäre Dateien"
+
+#: src/mainprefs.py:294
+msgid "All Source Files"
+msgstr "Alle Source-Dateien"
+
+#: src/mainprefs.py:295
+msgid "C/C++ Files"
+msgstr "C/C++ Dateien"
+
+#: src/mainprefs.py:296
+msgid "HTML and XML Files"
+msgstr "HTML- und XML-Dateien"
+
+#: src/mainprefs.py:418 src/mainprefs.py:419
+msgid "Spec"
+msgstr "Spezifikation"
+
+#: src/mainprefs.py:418 src/mainprefs.py:419
+msgid "Type"
+msgstr "Typ"
+
+#: src/mainprefs.py:424
+msgid "Exclude"
+msgstr "Ausschließen"
+
+#: src/mainprefs.py:424
+msgid "Include"
+msgstr "Einschließen"
+
+# Wildcard => Jokerzeichen?
+#: src/mainprefs.py:430
+msgid ""
+"Defines file filters to apply to file names for inclusion and exclusion from "
+"a larger set (such as scanned disk files or all project files).\n"
+"\n"
+"Each filter is named and contains one list of inclusion patterns and one "
+"list of exclusion patterns.  The patterns can be a wildcard on the file "
+"name, wildcard on a directory name, or a mime type name.\n"
+"\n"
+" Only a single pattern needs to be matched for inclusion or exclusion.  "
+"Exclusion patterns take precedence over inclusion patterns, so any match on "
+"an exclusion pattern will always exclude a file from the selected set.  "
+"Filters are used in constraining search, adding project files, and for other "
+"operations on collections of files."
+msgstr ""
+"Definiert Datei-Filter, die auf Dateinamen angewendet werden, um deren "
+"Einbeziehung oder Ausschluss aus einer größeren Gruppe festzulegen (wie "
+"durchsuchte Festplattendateien oder alle Projektdateien).\n"
+"\n"
+"Jeder Filter hat einen Namen und enthält eine Liste mit den Einschluss-"
+"Muster und eine Liste mit den Ausschluss-Muster. Die Muster können entweder "
+"eine Wildcard auf den Dateinamen, eine Wildcard auf den Verzeichnisnamen "
+"oder ein Mime-Typ-Name sein.\n"
+"\n"
+" Nur ein einziges Kriterium muss übereinstimmen, um die Einbeziehung oder "
+"den Ausschluss zu bewirken.  Ausschlusskriterien haben Vorrang gegenüber "
+"Einschlusskriterien, so dass eine Übereinstimmung mit einem "
+"Ausschlusskriterium die Datei immer von der gewählten Gruppe ausschließt. "
+"Filter werden für begrenzende Suchen, beim Hinzufügen von Projektdateien und "
+"für andere Operationen an Dateisammlungen verwendet."
+
+#: src/mainprefs.py:468
+msgid "Specification"
+msgstr "Spezifikation"
+
+#: src/mainprefs.py:474
+msgid ""
+"If True and a gtk, gdk, or glib critical message is logged, Wing tries to "
+"start a C debugger and break at the current execution point"
+msgstr ""
+"Wenn Wahr und eine kritische gtk-, gdk- oder glib-Nachricht protokolliert "
+"wurde, versucht Wing, einen C-Debugger zu starten und am aktuellen "
+"Ausführungspunkt zu halten. "
+
+#: src/mainprefs.py:482
+msgid "Controls whether or not the splash screen is shown at startup."
+msgstr "Kontrolliert ob das Einschalt-Bildschirm gezeigt wird"
+
+#: src/mainprefs.py:488
+msgid "Reuse Existing Instance to Open Files"
+msgstr ""
+
+#: src/mainprefs.py:489
+msgid "Always Reuse Existing Instance"
+msgstr "Immer eine bestehende Instanz wiederverwenden"
+
+#: src/mainprefs.py:490
+msgid "Always Launch New Instance"
+msgstr "Immer eine neue Instanz starten"
+
+#: src/mainprefs.py:495
+msgid ""
+"Controls whether Wing tries to reuse an existing running instance of the IDE "
+"when it is launched again."
+msgstr ""
+
+#: src/mainprefs.py:505
+msgid ""
+"When enabled, Wing will show a dialog offerring to update any remote agent "
+"that does not match Wing's version."
+msgstr ""
+"Falls aktiviert, wird Wing in einem Dialog die Aktualisierung von Remote-"
+"Agenten anbieten, die nicht der Version von Wing entsprechen."
+
+#: src/mainprefs.py:519
+#, fuzzy
+msgid ""
+"The executable to use in order to run the SSH client on the host where Wing "
+"is running.  This is used to establish secure SSH tunnels to remote hosts. "
+"You must configure SSH and a key server outside of Wing, since Wing assumes "
+"it can connect to remote hosts without entering a password."
+msgstr ""
+"Die zu benutzende Programmdatei um den SSH-Client auf dem Host zu starten, "
+"auf dem Wing läuft. Dies wird zum Aufbauen sicherer SSH-Tunnel zu Remote-"
+"Hosts benutzt. Sie müssen SSH und einen Schlüsselserver außerhalb von Wing "
+"IDE konfigurieren, da Wing annimmt, das es nicht zu einem Remote-Host "
+"verbinden kann ohne ein Passwort einzugeben."
+
+#: src/mainprefs.py:524
+msgid "Find %s on PATH"
+msgstr ""
+
+#: src/mainprefs.py:525
+msgid "Use executable:"
+msgstr "Programmdatei benutzen:"
+
+#: src/mainprefs.py:531
+msgid ""
+"The TCP/IP port number to use for the remote end of the SSH tunnel to Wing's "
+"remote agent.  Using a random port should work in most cases and avoids "
+"collisions if there are multiple active sessions, but a fixed port is needed "
+"if the random port generated IDE-side is not also available on the remote "
+"host."
+msgstr ""
+
+#: src/mainprefs.py:537
+msgid "Use Random Port"
+msgstr "Zufälligen Port benutzen"
+
+#: src/mainprefs.py:538
+msgid "Use specified port:"
+msgstr "Angegebenen Port benutzen:"
+
+#: src/mainprefs.py:543
+msgid "The maximum time in seconds to wait for SSH tunnels to be established."
+msgstr "Die maximale Wartezeit in Sekunden, bis eine SSH-Tunnel aufgebaut ist."
+
+#: src/mainprefs.py:551
+msgid ""
+"The maximum time in seconds to wait if a connection to a remote host is not "
+"responding.  Afterwards the connection is closed and retried."
+msgstr ""
+
+#: src/mainprefs.py:560
+msgid ""
+"Allows manual configuration of an http proxy to be used for feedback, bug "
+"reports, and license activation, all of which result in Wing connecting to "
+"wingware.com via http.  Leave user name and password blank if not required."
+msgstr ""
+
+#: src/mainprefs.py:564
+msgid "No proxy server (or auto-detected)"
+msgstr "Kein Proxy-Server (oder automatische Erkennung)"
+
+#: src/mainprefs.py:565
+msgid "Configure proxy server manually:"
+msgstr "Proxy-Server manuell konfigurieren:"
+
+#: src/mainprefs.py:566
+msgid "Host name"
+msgstr "Hostname"
+
+#: src/mainprefs.py:566
+msgid "Port"
+msgstr "Port"
+
+#: src/mainprefs.py:566
+msgid "User name"
+msgstr "Benutzername"
+
+#: src/mainprefs.py:567
+msgid "Password"
+msgstr "Passwort"
+
+#: src/mainprefs.py:573 src/mainprefs.py:608
+msgid "Never"
+msgstr "Nie"
+
+#: src/mainprefs.py:574
+msgid "When saving files"
+msgstr "Beim Speichern von Dateien"
+
+#: src/mainprefs.py:575
+msgid "When saving files in project"
+msgstr "Beim Speichern von Dateien im Projekt"
+
+#: src/mainprefs.py:579
+msgid ""
+"Controls whether to automatically strip trailing white space in the editor.  "
+"May be enabled for any file or only files that are part of the current "
+"project."
+msgstr ""
+"Steuert ob im Editor Leerraum am Zeilenende automatisch entfernt wird.  Kann "
+"für alle Dateien aktiviert werden oder nur für Dateien des aktuellen "
+"Projektes."
+
+#: src/mainprefs.py:590
+msgid "Tools and Layout"
+msgstr "Werkzeuge and Layout"
+
+#: src/mainprefs.py:591
+msgid "Tools, Layout, and Editors"
+msgstr "Werkzeuge, Layout, und Editoren"
+
+#: src/mainprefs.py:592
+msgid "All Visual State"
+msgstr "Alle visuellen Zustände"
+
+#: src/mainprefs.py:596
+msgid ""
+"Selects the file to use for storing and retrieving shared perspectives. By "
+"default (when value is None) the file 'perspectives' in the user settings "
+"directory is used."
+msgstr ""
+
+#: src/mainprefs.py:601 src/mainprefs.py:627
+msgid "Default"
+msgstr "Standardeinstellung"
+
+#: src/mainprefs.py:602 src/mainprefs.py:628
+msgid "File:"
+msgstr "Datei:"
+
+#: src/mainprefs.py:607
+msgid "Always"
+msgstr "Immer"
+
+#: src/mainprefs.py:609
+msgid "Prompt"
+msgstr "Fragen"
+
+#: src/mainprefs.py:610
+msgid "Configured by Perspective"
+msgstr "Durch die Perspektive konfiguriert"
+
+#: src/mainprefs.py:613
+msgid ""
+"Selects whether to auto-save perspectives when switching to another "
+"perspective. Can always auto-save, never auto-save, prompt each time a "
+"perspective is left, or auto-save as configured on a per-perspective basis."
+msgstr ""
+
+#: src/mainprefs.py:622
+msgid ""
+"Selects the file to use for storing and retrieving shared named files sets. "
+"By default (when value is None) the file 'filesets' in the user settings "
+"directory is used."
+msgstr ""
+
+#: src/mainprefs.py:633
+msgid "Defines which plugins are enabled or disabled."
+msgstr "Legt fest, welche Erweiterungen aktivert oder deaktiviert sind."
+
+#: src/mainprefs.py:640
+msgid ""
+"The amount by which to zoom font sizes in or out in the documentation viewer."
+msgstr ""
+
+#: src/mainprefs.py:645
+msgid ""
+"Whether to try parsing docstrings as ReST format for display in the Source "
+"Assistant.  This may destroy formatting of some docstrings."
+msgstr ""
+
+#: src/mainprefs.py:652
+msgid "Debug"
+msgstr ""
+
+#: src/mainprefs.py:653
+msgid "Informational"
+msgstr ""
+
+#: src/mainprefs.py:654
+#, fuzzy
+msgid "Warning"
+msgstr "Code Warnungen"
+
+#: src/mainprefs.py:655
+msgid "Error"
+msgstr ""
+
+#: src/mainprefs.py:656
+#, fuzzy
+msgid "Severe"
+msgstr "Nie"
+
+#: src/mainprefs.py:659
+msgid ""
+"The error level at or above which the source assistant will display parse "
+"errors in PEP287 docstrings (if showing PEP287 errors) or will fall back to "
+"showing plain text (if not showing PEP287 errors).  For errors below this "
+"threshold, a best attempt is made to achieve a reasonable rendering."
+msgstr ""
+
+#: src/mainprefs.py:667
+msgid ""
+"Whether to render docstrings even if they contain parse errors at or above "
+"the threshold set by Source Assistant PEP 287 Error Threshold.  When "
+"disabled, failing docstrings are shown as plain text instead.  When enabled, "
+"a best effort is made to display the formatted docstring while suppressing "
+"errors."
+msgstr ""
+
+#: src/mainprefs.py:675
+msgid ""
+"Whether to rewrap plain text docstrings for display in the Source "
+"Assistant.  This may destroy formatting of some docstrings."
+msgstr ""
+
+#: src/mainprefs.py:681
+msgid ""
+"Whether to always show docstrings in the Source Assistant.  When disabled, "
+"only the docstring for the last displayed symbol is shown."
+msgstr ""
+
+#: src/mainprefs.py:687
+msgid "Whether show docstring type and validity in the Source Assistant."
+msgstr ""
+
+#: src/mainprefs.py:693
+msgid "Controls whether Wing will periodically show discount offers."
+msgstr ""
+
+#: src/premain.py:44
+msgid "Warning: A filename must follow the --prefs-file option"
+msgstr "Warnung: Ein Dateiname muss der --prefs-file Option folgen."
+
+#: src/premain.py:48
+msgid "Warning: A prefs filename cannot begin with \"--\""
+msgstr "Warnung: Ein prefs Dateiname kann nicht mit \"--\" beginnen."
+
+# HTK: Top-Level => oberste Ebene?
+#: src/premain.py:586
+msgid "Top-level Commands"
+msgstr "Top-Level Befehle"
+
+#: src/premain.py:588
+msgid "Project Manager Commands"
+msgstr "Projektmanager Befehle"
+
+#: src/premain.py:590
+msgid "Editor Commands"
+msgstr "Editor Befehle"
+
+#: src/premain.py:592
+msgid "Search Manager Commands"
+msgstr "Suchmanager Befehle"
+
+#: src/premain.py:594
+msgid "Unit Testing Commands"
+msgstr "Modul-Test Befehle"
+
+#: src/premain.py:597
+msgid "Version Control Commands"
+msgstr "Versionsverwaltung Befehle"
+
+#: src/premain.py:600
+msgid "Debugger Commands"
+msgstr "Debugger Befehle"
+
+#: src/premain.py:602
+msgid "Refactoring Commands"
+msgstr "Refaktorierung Befehle"
+
+#: src/premain.py:605
+msgid "Source Browser Commands"
+msgstr "Source-Browser Befehle"
+
+#: src/premain.py:608
+msgid "Script-provided Add-on Commands"
+msgstr "Von Skripten gelieferte Zusatzbefehle"
+
+#: src/premain.py:640 src/premain.py:740
+msgid "OS X"
+msgstr "OS X"
+
+#: src/premain.py:743
+msgid "XCode"
+msgstr "XCode"
+
+#: src/premain.py:844
+msgid "Preferences Dialog Path"
+msgstr ""
+
+#: src/premain.py:846
+msgid "Internal Name"
+msgstr "Interner Name"
+
+#: src/premain.py:847
+msgid "Data Specification"
+msgstr "Daten Spezifikation"
+
+#: src/premain.py:851
+msgid "Default Value"
+msgstr "Standardeinstellung"
+
+#: src/premain.py:877
+msgid "Core Preferences"
+msgstr "Haupteinstellungen"
+
+#: src/premain.py:878
+msgid "User Interface Preferences"
+msgstr "Einstellungen der Benutzeroberfläche"
+
+#: src/premain.py:879
+msgid "Editor Preferences"
+msgstr "Einstellungen des Editors"
+
+#: src/premain.py:883
+msgid "Diff/Merge Preferences"
+msgstr "Einstellungen von Vergleichen/Zusammenführen"
+
+#: src/premain.py:886
+msgid "Project Manager Preferences"
+msgstr "Einstellungen des Projektmanagers"
+
+#: src/premain.py:887
+msgid "Debugger Preferences"
+msgstr "Einstellungen des Debuggers"
+
+#: src/premain.py:888
+msgid "Source Analysis Preferences"
+msgstr "Einstellungen der Source-Analyse"
+
+#: src/premain.py:892
+msgid "Source Browser Preferences"
+msgstr "Einstellungen des Source-Browsers"
+
+#: src/premain.py:894
+msgid "Version Control Preferences"
+msgstr "Einstellungen der Versionsverwaltung"
+
+#: src/premain.py:896
+msgid "Internal Preferences"
+msgstr "Interne Einstellungen"
+
+#: src/singleton.py:274
+msgid "Creating singletons... %s"
+msgstr "Erstelle Singletons... %s"
+
+#: src/singleton.py:708
+msgid "Enter Command Arguments"
+msgstr "Befehlsargumente eingeben"
+
+#: src/singleton.py:1044
+msgid "Wing"
+msgstr "Wing"
+
+#: src/startwing.py:503
+msgid "Use console_%s to print a diagnostic log while running."
+msgstr ""
+
+#: src/startwing.py:506
+msgid "--verbose                  Print a diagnostic log while running"
+msgstr ""
+"--verbose                  Ausgabe eines Diagnose-Protokolls während der "
+"Ausführung"
+
+#: src/startwing.py:509
+msgid ""
+"Wing %(product)s Command Line Usage:\n"
+"\n"
+"%(execname)s <args> [<project>.wpr] [file1[:lineno], ...]\n"
+"\n"
+"Optionally specify a project to open and/or a list of files.  Filenames\n"
+"may be followed by ':' and a line number to scroll to that line.\n"
+"\n"
+"Valid arguments are:\n"
+"  \n"
+"--prefs-file=<filename>    Set preferences override file.  Any preferences\n"
+"                           in the file override those in the default user\n"
+"                           preferences file and any changes made during the\n"
+"                           session are written to the override file.\n"
+"                             \n"
+"--new                      Force creation of a new instance of Wing even if\n"
+"                           an instance is already running.\n"
+"--reuse                    Force reusing any existing instance of Wing even\n"
+"                           if no files were given on the command line.\n"
+"  \n"
+"%(verbose)s\n"
+"--help                     Show this message.\n"
+"  \n"
+"For details see https://wingware.com/doc/install/command-line-usage  \n"
+msgstr ""
+
+#: src/startwing.py:672
+msgid "Fatal startup error:  Exiting Wing"
+msgstr "Schwerer Fehler beim Start: Wing wird beendet"
+
+#~ msgid "101"
+#~ msgstr "101"
+
+#~ msgid "Personal"
+#~ msgstr "Personal"
+
+#~ msgid "Pro"
+#~ msgstr "Pro"
+
+#~ msgid "kUserWingDir set to"
+#~ msgstr "kUserWingDir setzen zu"
+
+#~ msgid "kDefaultCacheDir set to"
+#~ msgstr "kDefaultCacheDir setzen auf"
+
+#~ msgid "wingdb.py: Error: Debug file does not exist:"
+#~ msgstr "wingdb.py: Fehler: Debug-Datei existiert nicht:"
+
+#~ msgid "wingdb.py: Error: Debug file is not a file:"
+#~ msgstr "wingdb.py: Fehler: Debug-Datei ist keine Datei:"
+
+#~ msgid "Network peer is "
+#~ msgstr "Netzwerk-Peer ist"
+
+#~ msgid "Attach port = "
+#~ msgstr "Port anhängen = "
+
+#~ msgid "Initial stop = "
+#~ msgstr "Sofort anhalten = "
+
+#~ msgid "wingdb.py: Could not create debug server"
+#~ msgstr "wingdb.py: Debug-Server konnte nicht erstellt werden"
+
+#~ msgid "wingdb.py: Running %s"
+#~ msgstr "wingdb.py: %s wird ausgeführt"
+
+#~ msgid "wingdb.py: Server exiting abnormally on exception"
+#~ msgstr "wingdb.py: Server beendet fehlerhaft an Exception"
+
+#~ msgid "wingdb.py: Error: Failed to start the debug server"
+#~ msgstr "wingdb.py: Fehler: Starten des Debug-Servers ist fehlgeschlagen"
+
+#~ msgid ""
+#~ "wingdb.py: Error: You may be running an unsupported version of Python"
+#~ msgstr ""
+#~ "wingdb.py: Fehler: Sie nutzen vielleicht eine Python-Version, die nicht "
+#~ "untersützt wird"
+
+#~ msgid "wingdb.py: Python version = %s"
+#~ msgstr "wingdb.py: Python-Version = %s"
+
+#~ msgid "-- Type return or enter to exit --\n"
+#~ msgstr "-- Nutzen Sie die Return-Taste oder Enter zum Beenden --\n"
+
+#~ msgid "Professional"
+#~ msgstr "Professional"
+
+#~ msgid "Checking for updates..."
+#~ msgstr "Prüfe auf Aktualisierungen..."
+
+#~ msgid "Enterprise"
+#~ msgstr "Enterprise"
+
+#~ msgid ""
+#~ "This product contains the following open source modules:\n"
+#~ "    \n"
+#~ "  * Python, the programming language, written by Guido van Rossum and "
+#~ "contributors.\n"
+#~ "  \n"
+#~ "  * GTK, a GUI development framework, written by Jonathan Blandford, Hans "
+#~ "Breuer, Matthias Clasen, Tim Janik, Tor Lillqvist, Federico Mena "
+#~ "Quintero, Kristian Rietveld, Søren Sandmann, Manish Singh, Owen Taylor, "
+#~ "and contributors.\n"
+#~ "  \n"
+#~ "  * GTK Theme Engines by The Rasterman, Owen Taylor, Randy Gordon\n"
+#~ "  \n"
+#~ "  * GTK Themes as follows: AluminumAlloy by Robert Izsaki (roberTO); "
+#~ "Black-Background based on work by Eric R. Reitz; Glider by Link Dupont; "
+#~ "Glossy P by m5brane; GnuBubble by Kyle Davis; H2O by Eric R. Reitz; High "
+#~ "Contrast, Low Contrast, and Large Print themes by Bill Haneman and T. "
+#~ "Liebeck; Smokey-Blue by Jakub Steiner and Paul Hendrick; Smooth-2000 and "
+#~ "Smooth-Sea-Ice by ajgenius; Smooth-Desert and Smooth-Retro by Ken "
+#~ "Joseph.\n"
+#~ "  \n"
+#~ "  * GTK Wimp Theme for Windows compatibility by Raymond Penners, Evan "
+#~ "Martin, Owen Taylor, Arnaud Charlet, and Dom Lachowicz.\n"
+#~ "  \n"
+#~ "  * Additional icons from Crystal Clear by Everaldo and Tulliana-1.0 by "
+#~ "M. Umut Pulat\n"
+#~ "  \n"
+#~ "  * PyGTK, Python bindings for GTK, written by James Henstridge and "
+#~ "contributors.\n"
+#~ "  \n"
+#~ "  * Scintilla, a source code editor widget, written by Neil Hodgson and "
+#~ "contributors.\n"
+#~ "  \n"
+#~ "  * GtkScintilla2, a GTK integration for Scintilla, written by Dennis J "
+#~ "Houy, Sven Herzberg, and contributors.\n"
+#~ "  \n"
+#~ "  * PyScintilla2, Python bindings for GtkScintilla2, written by Roberto "
+#~ "Cavada and contributors.\n"
+#~ "  \n"
+#~ "  * Docutils, tools for ReST document conversion, written by David "
+#~ "Goodger and contributors.\n"
+#~ "  \n"
+#~ "  * Sqlite, an embedded sql database engine, written by D. Richard Hipp, "
+#~ "Dan Kennedy, Shane Harrelson, Christian Werner, and contributors.\n"
+#~ "  \n"
+#~ "  * Pysqlite, Python bindings for sqlite, written by Gerhard Häring.\n"
+#~ "  \n"
+#~ "  * Additional support libraries as follows:  atk by Bill Haneman, Marc "
+#~ "Mulcahy, and Padraig Obriain; expat by the Thai Open Source Software "
+#~ "Center Ltd, Clark Cooper, and contributors; fontconfig by Keith Packard; "
+#~ "freetype by Werner Lemberg, David Turner, and contributors; glib by Hans "
+#~ "Breuer, Matthias Clasen, Tor Lillqvist, Tim Janik, Havoc Pennington, Ron "
+#~ "Steinke, Owen Taylor, Sebastian Wilhelmi, and contributors; libiconv "
+#~ "written by Bruno Haible; libpng by Glenn Randers-Pehrson, Andreas Eric "
+#~ "Dilger, Guy Eric Schalnat, and contributors; libXft, libXrender, and "
+#~ "render by Keith Packard and contributors; pexpect by Noah Spurrier, "
+#~ "Richard Holden, Marco Molteni, Kimberley Burchett, Robert Stone, Hartmut "
+#~ "Goebel, Chad Schroeder, Erick Tryzelaar, Dave Kirby, Ids vander Molen, "
+#~ "George Todd, Noel Taylor, Nicolas D. Cesar, Alexander Gattin, Geoffrey "
+#~ "Marshall, Francisco Lourenco, Glen Mabey, Karthik Gurusamy, and Fernando "
+#~ "Perez; Py2PDF by Dinu Gherman; and zlib by Jean-loup Gailly and Mark "
+#~ "Adler.\n"
+#~ "  \n"
+#~ "  We gratefully acknowledge the efforts of all that have contributed to "
+#~ "these and other open source products used in the development of Wing "
+#~ "IDE.\n"
+#~ "  \n"
+#~ "  "
+#~ msgstr ""
+#~ "Dieses Produkt enthält die folgenden Open Source Module:\n"
+#~ "    \n"
+#~ "  * Python, die Programmiersprache, geschrieben von Guido van Rossum und "
+#~ "Mitwirkenden.\n"
+#~ "  \n"
+#~ "  * GTK, ein Framework für die GUI-Entwicklung, geschrieben von Jonathan "
+#~ "Blandford, Hans Breuer, Matthias Clasen, Tim Janik, Tor Lillqvist, "
+#~ "Federico Mena Quintero, Kristian Rietveld, Søren Sandmann, Manish Singh, "
+#~ "Owen Taylor und Mitwirkenden.\n"
+#~ "  \n"
+#~ "  * GTK Theme-Engines von The Rasterman, Owen Taylor, Randy Gordon.\n"
+#~ "  \n"
+#~ "  * GTK Themes wie folgt: AluminumAlloy von Robert Izsaki (roberTO); "
+#~ "Black-Background basierend auf Arbeit von Eric R. Reitz; Glider von Link "
+#~ "Dupont; Glossy P von m5brane; GnuBubble von Kyle Davis; H2O von Eric R. "
+#~ "Reitz; High Contrast, Low Contrast und Large Print Themen von Bill "
+#~ "Haneman und T. Liebeck; Smokey-Blue von Jakub Steiner und Paul Hendrick; "
+#~ "Smooth-2000 und Smooth-Sea-Ice von ajgenius, Smooth-Desert und Smooth-"
+#~ "Retro von Ken Joseph.\n"
+#~ "  \n"
+#~ "  * GTK Wimp-Theme für Windows-Kompatibilität von Raymond Penners, Evan "
+#~ "Martin, Owen Taylor, Arnaud Charlet und Dom Lachowicz.\n"
+#~ "  \n"
+#~ "  * Zusätzlich Icons aus Crystal Clear von Everaldo und Tulliana-1.0 von "
+#~ "M. Umut Pulat\n"
+#~ "  \n"
+#~ "  * PyGTK, Python-Bindings für GTK, geschrieben von James Henstridge und "
+#~ "Mitwirkenden.\n"
+#~ "  \n"
+#~ "  * Scintilla, ein Source-Code-Editor-Widget, geschrieben von Neil "
+#~ "Hodgson und Mitwirkenden.\n"
+#~ "  \n"
+#~ "  * GtkScintilla2, eine GTK-Integration für Scintilla, geschrieben von "
+#~ "Dennis J Houy, Sven Herzberg und Mitwirkenden.\n"
+#~ "  \n"
+#~ "  * PyScintilla2, Python-Bindings für GtkScintilla2, geschrieben von "
+#~ "Roberto Cavada und Mitwirkenden.\n"
+#~ "  \n"
+#~ "  * Docutils, Werkzeuge für die ReST Dokument-Konvertierung, geschrieben "
+#~ "von David Goodger und Mitwirkenden.\n"
+#~ "  \n"
+#~ "  * Zusätzliche Support-Bibliotheken wie folgt: atk von Bill Haneman, "
+#~ "Marc Mulcahy und Padraig Obriain; expat vom Thai Open Source Software "
+#~ "Center Ltd, Clark Cooper und Mitarbeitern; fontconfig von Keith Packard; "
+#~ "freetype von Werner Lemberg, David Turner und Mitwirkenden; glib von Hans "
+#~ "Breuer, Matthias Clasen, Tor Lillqvist, Tim Janik, Havoc Pennington, Ron "
+#~ "Steinke, Owen Taylor, Sebastian Wilhelmi und Mitwirkenden; libiconv "
+#~ "geschrieben von Bruno Haible; libpng von Glenn Randers-Pehrson, Andreas "
+#~ "Eric Dilger, Guy Eric Schalnat und Mitwirkenden; libXft, libXrender und "
+#~ "render von Keith Packard und Mitwirkenden; pexpect von Noah Spurrier, "
+#~ "Richard Holden, Marco Molteni, Kimberley Burchett, Robert Stone, Hartmut "
+#~ "Goebel, Chad Schroeder, Erick Tryzelaar, Dave Kirby, Ids vander Molen, "
+#~ "George Todd, Noel Taylor, Nicolas D. Cesar, Alexander Gattin, Geoffrey "
+#~ "Marshall, Francisco Lourenco, Glen Mabey, Karthik Gurusamy und Fernando "
+#~ "Perez; Py2PDF von Dinu Gherman sowie zlib von Jean-loup Gailly und Mark "
+#~ "Adler.\n"
+#~ "  \n"
+#~ "  Wir bedanken uns bei allen, die zu diesen und anderen Open Source "
+#~ "Produkten, die für die Entwicklung von Wing verwendet wurden, beigetragen "
+#~ "haben, für ihre Arbeit.\n"
+#~ "  \n"
+#~ "  "
+
+#~ msgid "Wrong Architecture"
+#~ msgstr "Falsche Architektur"
+
+#~ msgid ""
+#~ "You are working on an Intel machine but are running the Power PC version "
+#~ "of Wing.  Please download the correct version from wingware.com."
+#~ msgstr ""
+#~ "Sie arbeiten an einer Intel-Maschine aber führen die Power PC-Version von "
+#~ "Wing aus.  Bitte laden Sie die korrekte Version von wingware.com herunter."
+
+#~ msgid "Wrong Apple Architecture (PPC)"
+#~ msgstr "Falsche Apple-Architektur (PPC)"
+
+#~ msgid "Attributes"
+#~ msgstr "Attribute"
+
+#~ msgid "Text Style"
+#~ msgstr "Textstil"
+
+#~ msgid "Attribute"
+#~ msgstr "Attribut"
+
+#~ msgid "Value"
+#~ msgstr "Wert"
+
+#~ msgid "Specify"
+#~ msgstr "Angeben"
+
+#~ msgid ""
+#~ "Defines text styles used in data and document display.  Each style is "
+#~ "specified as a list of (name, value) tuples.  The names and values must "
+#~ "be valid Pango text attribute names and values.  To set default values "
+#~ "that apply to all styles, use the \"default\" style name (for example "
+#~ "adding (\"size\", 14) changes default display size to 14 points. Note "
+#~ "that size of menus, buttons, labels, and other basic GUI elements are set "
+#~ "using system-wide theme configuration and not from this preference.  The "
+#~ "source editor is also configured separately."
+#~ msgstr ""
+#~ "Definiert Textstile, die in der Daten- und Dokumentenanzeige verwendet "
+#~ "werden. Jeder Stil wird als eine Liste von (Name, Wert) Tuples angegeben. "
+#~ "Die Namen und Werte müssen gültige Pango-Textattributnamen und -werte "
+#~ "sein. Zur Einstellung von Standardwerten, die auf alle Stile angewendet "
+#~ "werden, verwenden Sie den \"default\" Stilnamen (zum Beispiel ändert das "
+#~ "Hinzufügen von (\"size\", 14) die Standard-Anzeigegröße auf 14 Punkt). "
+#~ "Beachten Sie, dass die Größe von Menüs, Schältflächen, Labels und anderen "
+#~ "grundlegenden GUI-Elementen mit der systemweiten Themenkonfiguration und "
+#~ "nicht mit dieser Einstellung gesetzt wird. Der Source-Editor wird auch "
+#~ "separat konfiguriert."
+
+#~ msgid ""
+#~ "Defines file sets by specifying filters to apply to file names for "
+#~ "inclusion and exclusion from a larger set (such as scanned disk files or "
+#~ "all project files).\n"
+#~ "\n"
+#~ "Each file set is named and contains one list of inclusion patterns and "
+#~ "one list of exclusion patterns.  The patterns can be a wildcard on the "
+#~ "file name, wildcard on a directory name, or a mime type name.\n"
+#~ "\n"
+#~ " Only a single pattern needs to be matched for inclusion or exclusion.  "
+#~ "Exclusion patterns take precedence over inclusion patterns, so any match "
+#~ "on an exclusion pattern will always exclude a file from the set.  File "
+#~ "sets are used in constraining search, adding project files, and for other "
+#~ "operations on collections of files."
+#~ msgstr ""
+#~ "Definiert Dateigruppen durch die Bestimmung von Filtern, die auf "
+#~ "Dateinamen angewendet werden, um deren Einbeziehung oder Ausschluss aus "
+#~ "einem größeren Set festzulegen (wie durchsuchte Festplattendateien oder "
+#~ "alle Projektdateien).\n"
+#~ "\n"
+#~ "Jede Dateigruppe hat einen Namen und enthält eine Liste mit den "
+#~ "Einschlusskriterien und eine Liste mit den Ausschlusskriterien. Die "
+#~ "Kriterien können entweder eine Wildcard auf den Dateinamen, eine Wildcard "
+#~ "auf den Verzeichnisnamen oder ein Mime-Typ-Name sein.\n"
+#~ "\n"
+#~ "Nur ein einziges Kriterium muss übereinstimmen, um die Einbeziehung oder "
+#~ "den Ausschluss zu bewirken. Ausschlusskriterien haben Vorrang gegenüber "
+#~ "Einschlusskriterien, so dass eine Übereinstimmung mit einem "
+#~ "Ausschlusskriterium die Datei immer von dem Set ausschließt. Dateigruppen "
+#~ "werden für begrenzende Suchen, beim Hinzufügen von Projektdateien und für "
+#~ "andere Operationen an Dateisammlungen verwendet."
+
+# HTK: Caret
+# HTK: Teilfertig
+#, fuzzy
+#~ msgid ""
+#~ "Controls what parts of the GUI are altered when switching perspectives.  "
+#~ "Tools and Layout only captures the set of visible tools and overall "
+#~ "layout, Tool, Layout, and Editors stores also the set of open editors, "
+#~ "and All Visual State captures all details of the visual state, including "
+#~ "the state of the tools, the size and position of windows, and the caret "
+#~ "position."
+#~ msgstr ""
+#~ "Steuert welche Teile der Oberfläche beim Perspektiv-Wechsel geändert "
+#~ "werden.  Tools and Layout only captures the set of visible tools and "
+#~ "overall layout, Tool, Layout, and Editors stores also the set of open "
+#~ "editors, and All Visual State captures all details of the visual state, "
+#~ "including the state of the tools, the size and position of windows, and "
+#~ "the caret position."
+
+#~ msgid "Using Qt version %s and PySide version %s"
+#~ msgstr "Verwendet Qt Version %s und PySide Version %s"
+
+#~ msgid "Using GTK version %d.%d.%d and PyGTK version %d.%d.%d"
+#~ msgstr "Verwendet GTK-Version %d.%d.%d und PyGTK-Version %d.%d.%d"
+
+#~ msgid "No X Windows DISPLAY has been specified"
+#~ msgstr "Es wurde kein X Windows DISPLAY angegeben"
+
+#~ msgid "Exiting Wing"
+#~ msgstr "Wing wird beendet"
+
+#~ msgid "wingdb.py: Error: Cannot run a debug process with optimized python"
+#~ msgstr ""
+#~ "wingdb.py: Fehler: Kann einen Debug-Prozess nicht mit optimiertem Python "
+#~ "ausführen"
+
+#~ msgid ""
+#~ "wingdb.py: Error: You must omit the -O or -OO command line option, or"
+#~ msgstr ""
+#~ "wingdb.py: Fehler: Sie müssen die -O oder -OO Option der Befehlszeile "
+#~ "weglassen, oder"
+
+#~ msgid "wingdb.py: Error: undefine environment variable PYTHONOPTIMIZE"
+#~ msgstr "wingdb.py: Fehler: Unbestimmte Umgebungsvariable PYTHONOPTIMIZE"
+
+#~ msgid "Wing %s"
+#~ msgstr "Wing %s"
+
+#~ msgid "Project file compaction"
+#~ msgstr "Verdichtung von Projektdateien"

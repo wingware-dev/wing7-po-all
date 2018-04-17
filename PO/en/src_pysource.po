@@ -1,0 +1,266 @@
+# Module src_pysource translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2018-04-16 16:37+EDT\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: \n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/pysource/attribs.py:23
+msgid "Analyze main file for sys.path changes"
+msgstr ""
+
+#: src/pysource/codewarn.py:60
+msgid "Undefined attribute"
+msgstr ""
+
+#: src/pysource/codewarn.py:61
+msgid "Undefined name"
+msgstr ""
+
+#: src/pysource/codewarn.py:62
+msgid "Import not found"
+msgstr ""
+
+#: src/pysource/codewarn.py:63
+msgid "Syntax error"
+msgstr ""
+
+#: src/pysource/codewarn.py:64
+msgid "Indent warning"
+msgstr ""
+
+#: src/pysource/codewarn.py:436
+msgid "Imported module not found: {}"
+msgstr ""
+
+#: src/pysource/codewarn.py:443
+msgid "Undefined name: %s"
+msgstr ""
+
+#: src/pysource/codewarn.py:570
+msgid "Undefined attribute: %s, %s is probably %s"
+msgstr ""
+
+#: src/pysource/codewarn.py:571
+msgid " or "
+msgstr ""
+
+#: src/pysource/codewarn.py:1050 src/pysource/codewarn.py:1056
+msgid "builtin {}"
+msgstr ""
+
+#: src/pysource/codewarn.py:1051
+msgid "the {} class"
+msgstr ""
+
+#: src/pysource/codewarn.py:1058
+msgid "a {} instance"
+msgstr ""
+
+#: src/pysource/codewarn.py:1060
+msgid "{} instances"
+msgstr ""
+
+#: src/pysource/codewarn.py:1064
+msgid " in {} module"
+msgstr ""
+
+#: src/pysource/codewarn.py:1069
+msgid "the {} module"
+msgstr ""
+
+#: src/pysource/codewarn.py:1076
+msgid "a builtin {} instance"
+msgstr ""
+
+#: src/pysource/codewarn.py:1078
+msgid "builtin {} instances"
+msgstr ""
+
+#: src/pysource/codewarn.py:1080
+msgid "the builtin {} class"
+msgstr ""
+
+#: src/pysource/llinecache.py:74
+msgid "Inconsistent indentation (not in units of indent size)"
+msgstr ""
+
+#: src/pysource/llinecache.py:76
+msgid "This code will never be reached"
+msgstr ""
+
+#: src/pysource/llinecache.py:78
+msgid "Expected indentation to decrease"
+msgstr ""
+
+#: src/pysource/llinecache.py:80
+msgid "Expected indentation to increase"
+msgstr ""
+
+#: src/pysource/llinecache.py:82
+msgid "Unexpected indentation decrease"
+msgstr ""
+
+#: src/pysource/llinecache.py:84
+msgid "Unexpected indentation increase"
+msgstr ""
+
+#: src/pysource/llinecache.py:86
+msgid "Bad indentation level"
+msgstr ""
+
+#: src/pysource/llinecache.py:88
+msgid "Indentation error (unspecified)"
+msgstr ""
+
+#: src/pysource/manager.py:223
+msgid "(Analyzing Files: pass 1, Q=%i) "
+msgstr ""
+
+#: src/pysource/manager.py:225
+msgid "(Analyzing Files: pass 2, Q=%i) "
+msgstr ""
+
+#: src/pysource/manager.py:227
+msgid "(Analyzing Files: %i pending remote inspections) "
+msgstr ""
+
+#: src/pysource/manager.py:1615
+msgid ""
+"Scrape errors for %s:\n"
+"%s"
+msgstr ""
+
+#: src/pysource/manager.py:1643
+msgid "%s does not exist (scrape failed)"
+msgstr ""
+
+#: src/pysource/manager.py:1647
+msgid "%s is empty (scrape failed; removing file now)"
+msgstr ""
+
+#: src/pysource/manager.py:1690
+msgid "Scraping %s"
+msgstr ""
+
+#: src/pysource/manager.py:1700
+msgid "Failed to scrape extension module %s: Python not found"
+msgstr ""
+
+#: src/pysource/manager.py:1718
+msgid ""
+"Failed to start process to scrape extension module %s: could not find "
+"suitable rundir"
+msgstr ""
+
+#: src/pysource/manager.py:1743
+msgid ""
+"Failed to start process to scrape extension module %s: cannot encode "
+"arguments"
+msgstr ""
+
+#: src/pysource/manager.py:1750
+msgid "Cache file is %s"
+msgstr ""
+
+#: src/pysource/manager.py:1759
+msgid "Failed to start process to scrape extension module %s"
+msgstr ""
+
+#: src/pysource/manager.py:1764
+msgid "Failed scraping API for %s"
+msgstr ""
+
+#: src/pysource/manager.py:1766
+msgid "API scraping process for %s completed"
+msgstr ""
+
+#: src/pysource/prefs.py:28
+msgid ""
+"Path to search for interface files for extension modules.  If directory name "
+"is relative, it will be interpreted as relative to the  user settings "
+"directory (%s)"
+msgstr ""
+
+#: src/pysource/prefs.py:37
+msgid "Whether Wing should try to analyze python source in the background."
+msgstr ""
+
+#: src/pysource/prefs.py:46
+msgid "The maximum size of the disk cache in megabytes"
+msgstr ""
+
+#: src/pysource/prefs.py:47
+msgid "Clear cache"
+msgstr ""
+
+#: src/pysource/prefs.py:48
+msgid "Clear cache files and re-analyse all source code"
+msgstr ""
+
+#: src/pysource/prefs.py:52
+msgid ""
+"The maximum # of analysis info buffers that can be in-memory at once for "
+"files that are not open."
+msgstr ""
+
+#: src/pysource/prefs.py:60
+msgid ""
+"Enable to automatically load and introspect extension modules and other "
+"modules that cannot be statically analysed.  These modules are loaded in "
+"another process space and 'scraped' to obtain at least some analysis of the "
+"module's contents."
+msgstr ""
+
+#: src/pysource/prefs.py:91
+msgid ""
+"This is a dictionary from module name to Python code that should be executed "
+"before attempting to load extension modules for scraping.  This is needed in "
+"cases where the extension modules are designed to be loaded only after some "
+"configuration magic is performed.  For most extension modules, no extra "
+"configuration should be needed."
+msgstr ""
+
+#: src/pysource/prefs.py:126
+msgid "Configuration Code"
+msgstr ""
+
+#: src/pysource/prefs.py:126
+msgid "Module Name"
+msgstr ""
+
+#: src/pysource/prefs.py:131
+msgid ""
+"Use slower, dotfile locking for sqllite databases to work around buggy "
+"remote file servers.  Only needed if the user cache directory is on a remote "
+"file system or can be accessed via a remote file system.  It is recommended "
+"that the user cache directory be on the local file system for performance "
+"reasons."
+msgstr ""
+
+#: src/pysource/prefs.py:140
+msgid ""
+"Prefix for Python Standard Library Documentation.  This should be in the "
+"form https://docs.python.org/library/ and Wing will append module and symbol "
+"specific to the given URL.  To use locally stored documentation, you must "
+"run a local web server since # bookmarks do not work in file: URLs."
+msgstr ""
+
+#: src/pysource/prefs.py:147
+msgid "Use docs.python.org"
+msgstr ""
+
+#: src/pysource/prefs.py:148
+msgid "Other:"
+msgstr ""

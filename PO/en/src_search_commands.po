@@ -1,0 +1,131 @@
+# Module src_search_commands translation file for language=en
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 4.0.0\n"
+"POT-Creation-Date: 2017-01-06 10:24+EST\n"
+"PO-Revision-Date: 2010-11-24 23:48 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: src/search/commands.py:38
+msgid ""
+"Globally available commands defined for the search manager.  These\n"
+"  commands are available regardless of whether a search manager is visible\n"
+"  or has keyboard focus."
+msgstr ""
+
+#: src/search/commands.py:51 src/search/commands.py:223
+#: src/search/commands.py:243
+msgid " Bring up the search manager in search mode. "
+msgstr ""
+
+#: src/search/commands.py:56
+msgid " Search again using the search manager's current settings. "
+msgstr ""
+
+#: src/search/commands.py:82
+msgid ""
+" Search again using the search manager's current settings\n"
+"    in forward direction "
+msgstr ""
+
+#: src/search/commands.py:90
+msgid ""
+" Search again using the search manager's current settings\n"
+"    in backward direction "
+msgstr ""
+
+#: src/search/commands.py:97
+msgid " Bring up the search manager in replace mode. "
+msgstr ""
+
+#: src/search/commands.py:102
+msgid " Replace current selection with the search manager. "
+msgstr ""
+
+#: src/search/commands.py:119
+msgid " Replace current selection and search again. "
+msgstr ""
+
+#: src/search/commands.py:135
+msgid ""
+" Find view: one in the active document window is preferred and then one in "
+"a\n"
+"    floating window.  If 2+ meet the criteria, the last used for a search\n"
+"    is returned "
+msgstr ""
+
+#: src/search/commands.py:209
+msgid " Get initial text to put in search field. "
+msgstr ""
+
+#: src/search/commands.py:294 src/search/commands.py:304
+msgid " Search forward using current selection "
+msgstr ""
+
+#: src/search/commands.py:310
+msgid " Search backward using current selection "
+msgstr ""
+
+#: src/search/commands.py:316
+msgid ""
+" Search on current selection using the Search in Files tool. The look_in "
+"argument gets\n"
+"    entered in the look in field if not None or ''. The current selection is "
+"put into the search\n"
+"    field if it doesn't span multiple lines and either use_selection is true "
+"or there's nothing in\n"
+"    the search field. The given search text is used instead, if provided"
+msgstr ""
+
+#: src/search/commands.py:327
+msgid " Move to the next found match in the Search in Files tool. "
+msgstr ""
+
+#: src/search/commands.py:335
+msgid " Move to the previous found match in the Search in Files tool. "
+msgstr ""
+
+#: src/search/commands.py:343
+msgid " Display search and replace in files tool. "
+msgstr ""
+
+#: src/search/commands.py:350
+msgid " Pause the currently running batch search, if any "
+msgstr ""
+
+#: src/search/commands.py:365
+msgid ""
+"Commands for a particular search manager instance.  These are only\n"
+"  available when the search manager has they keyboard focus."
+msgstr ""
+
+#: src/search/commands.py:397
+msgid ""
+"Place a forward tab at the current cursor position in search or replace\n"
+"    string"
+msgstr ""
+
+#: src/search/commands.py:416
+msgid " Cut selected text "
+msgstr ""
+
+#: src/search/commands.py:425
+msgid " Copy selected text "
+msgstr ""
+
+#: src/search/commands.py:433
+msgid " Clear selected text "
+msgstr ""
+
+#: src/search/commands.py:441
+msgid " Paste text from clipboard "
+msgstr ""

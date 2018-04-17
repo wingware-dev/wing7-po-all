@@ -1,0 +1,402 @@
+# Module scripts_pylintpanel translation file for language=fr
+# Copyright (C) 2010 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.2.4\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2016-11-19 17:24+0100\n"
+"Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
+"Language-Team: None\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: scripts/pylintpanel.py:1
+msgid ""
+"\n"
+"PyLint integration for Wing.\n"
+"\n"
+"Copyright (c) 2006-2007 Markus Meyer <meyer@mesw.de>\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining a "
+"copy\n"
+"of this software and associated documentation files (the \"Software\"), to "
+"deal\n"
+"in the Software without restriction, including without limitation the "
+"rights\n"
+"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
+"copies of the Software, and to permit persons to whom the Software is\n"
+"furnished to do so, subject to the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be included in\n"
+"all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS "
+"OR\n"
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM,\n"
+"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN "
+"THE\n"
+"SOFTWARE.\n"
+"\n"
+"----------------------------------------------------------------------------\n"
+"Change Log\n"
+"----------------------------------------------------------------------------\n"
+"\n"
+"Version 1.0 (2006-10-12)\n"
+"\n"
+"* First release\n"
+"\n"
+"Version 1.1 (2007-03-19)\n"
+"\n"
+"* Fix compatibility issues with newer PyLint versions\n"
+"* Fix error message when PyLint returns no errors\n"
+"\n"
+"Version 1.2 (2008-06-05)  Modifications by Wingware:\n"
+"\n"
+"* Pass configured environment to the pylint sub-process\n"
+"  (includes also PYTHONPATH if it's set in project)\n"
+"* Use presence of a settings file to enable/disable for easier upgrades\n"
+"* Removed obsolete example args\n"
+"* Renamed \"preferences\" to \"configure\" in context menu to avoid "
+"confusion\n"
+"* Renamed command execute_pylint to pylint_execute and pylint_preferences\n"
+"  to pylint_configure\n"
+"* Changed execution of pylint to be asyncronous\n"
+"\n"
+"Version 1.3 (2008-09-30)  Modifications by Wingware:\n"
+"\n"
+"* Added ability to process whole packages, if current file is in\n"
+"  a package\n"
+"\n"
+"Version 1.4 (2010-06-03)  Modifications by Jan Nabbefeld:\n"
+"\n"
+"* Added ability to use per project pylintpanel.cfg (copy the file from\n"
+"  your user settings directory into the same directory as your project "
+"file)\n"
+"\n"
+"Version 1.5 (2011-09-07)  Modifications by Ronan Le Gallic and Wingware:\n"
+"\n"
+"* Support for pylint 0.24+ column number output (Le Gallic)\n"
+"* Avoid reporting empty output in pylint 0.24+ as an error (Le Gallic)\n"
+"* Fix failure to set parseable output flag (Wingware)\n"
+"* Don't assume scope names are in all pylint messages (Wingware)\n"
+"* Better handle multiple pylint views (Wingware)\n"
+"\n"
+"Version 1.6 (2013-10-29)  Modifications by Wingware:\n"
+"\n"
+"* Support for pylint 1.0.0+\n"
+"* Rescan pylint version when the configuration file is saved\n"
+"* Added use_project_env configuration option to allow using a pylint\n"
+"  that cannot run in the project-defined environment\n"
+"* Print a warning to the log if --output-format or --msg-template\n"
+"  are used as args in configuration since these break output parsing\n"
+"* Try to decode pylint output so non-ascii characters are correct\n"
+"* Always show PyLint tool when processing a new file\n"
+"* Works in Wing 5\n"
+"\n"
+"Version 1.7 (2016-02-04)  Modifications by Steve Barnes <gadgetsteve@hotmail."
+"com>:\n"
+"\n"
+"* Add pkg_timeout configuration item to allow longer timeouts on package "
+"parsing\n"
+"\n"
+"Version 1.8 (2016-03-08)  Modifications by Wingware\n"
+"\n"
+"* Use longer delimiter in msg template to avoid problems parsing output\n"
+"\n"
+msgstr ""
+
+#: scripts/pylintpanel.py:115
+msgid "Errors"
+msgstr "Erreurs"
+
+#: scripts/pylintpanel.py:115
+msgid "Errors that must be fixed"
+msgstr "Erreurs qui doivent être réparées"
+
+#: scripts/pylintpanel.py:116
+msgid "Warnings"
+msgstr "Avertissements"
+
+#: scripts/pylintpanel.py:116
+msgid "Warnings that could indicate problems"
+msgstr "Avertissements qui pourraient indiquer des problèmes"
+
+#: scripts/pylintpanel.py:117
+msgid "General informative messages"
+msgstr "Messages d'information générale"
+
+#: scripts/pylintpanel.py:117
+msgid "Info"
+msgstr "Info"
+
+#: scripts/pylintpanel.py:148
+msgid ""
+"\n"
+"    Get configuration option from configuration file\n"
+"    "
+msgstr ""
+"\n"
+"    Obtenir les options de configuration du fichier de configuration\n"
+"    "
+
+#: scripts/pylintpanel.py:168
+#, fuzzy
+msgid ""
+"\n"
+"    Edit and possibly create configuration file. Currently, this will just\n"
+"    open the configuration file inside Wing.\n"
+"    "
+msgstr ""
+"\n"
+"    Éditer et possiblement créer le fichier de configuration. Actuellement,\n"
+"    cela ouvrira juste le fichier de configuration dans WingIDE.\n"
+"    "
+
+#: scripts/pylintpanel.py:212
+msgid ""
+"\n"
+"    Get full name and path of config file\n"
+"    "
+msgstr ""
+"\n"
+"    Obtenir le nom et chemin complet du fichier de configuration\n"
+"    "
+
+#: scripts/pylintpanel.py:249
+msgid "Show the pylint configuration file so it can be edited"
+msgstr ""
+"Afficher le fichier de configuration pylint afin qu'il puisse être édité"
+
+#: scripts/pylintpanel.py:253
+msgid " Copies all results from the displayed pylint results list. "
+msgstr ""
+" Copie tous les résultats depuis la liste de résultats pylint affichée."
+
+#: scripts/pylintpanel.py:276 scripts/pylintpanel.py:299
+#: scripts/pylintpanel.py:897
+msgid "Line"
+msgstr "Ligne"
+
+#: scripts/pylintpanel.py:278 scripts/pylintpanel.py:301
+#: scripts/pylintpanel.py:897
+msgid "Column"
+msgstr "Colonne"
+
+#: scripts/pylintpanel.py:289
+msgid " Copy the selected pylint results to the clipboard. "
+msgstr " Copier les résultats pylint sélectionnés dans le presse papier. "
+
+#: scripts/pylintpanel.py:308
+msgid " Copy the line number for the currently selected pylint result. "
+msgstr ""
+" Copier le numéro de ligne pour le résultat pylint en cours sélectionné. "
+
+#: scripts/pylintpanel.py:322
+msgid " Copy the currently selected pylint result message. "
+msgstr " Copier le message de résultat pylint sélectionné. "
+
+#: scripts/pylintpanel.py:336
+msgid " Retrieves list of currently selected indexes "
+msgstr ""
+
+#: scripts/pylintpanel.py:348
+msgid "Execute pylint for the current editor"
+msgstr "Exécuter pylint pour l'éditeur courant"
+
+#: scripts/pylintpanel.py:361
+msgid ""
+"Execute pylint on all files in the package to which the\n"
+"  file in the current editor belongs"
+msgstr ""
+"Exécute pylint sur tous les fichiers dans le paquet dont\n"
+"   le fichier dans l'éditeur courant appartient."
+
+#: scripts/pylintpanel.py:390
+msgid "Show the Wing documentation section for the PyLint integration"
+msgstr ""
+"Afficher la section de la documentation de Wing pour l'intégration de PyLint"
+
+#: scripts/pylintpanel.py:517
+msgid ""
+"PyLint panel configuration file not found. Choose \"Configure\" from the "
+"context menu to edit the configuration file.  You will need to install "
+"pylint separately."
+msgstr ""
+"Fichier de configuration du panneau PyLing non trouvé. Choisir \"Configure\" "
+"depuis le menu contextuel pour éditer le fichier de configuration. Vous "
+"aurez besoin d'installer pylint séparément."
+
+#: scripts/pylintpanel.py:517 scripts/pylintpanel.py:528
+msgid "Error"
+msgstr "Erreur"
+
+#: scripts/pylintpanel.py:528
+msgid "Invalid values specified in configuration file"
+msgstr "Valeurs invalides spécifiées dans le fichier de configuration"
+
+#: scripts/pylintpanel.py:535
+msgid "Updating for package %s"
+msgstr "En cours de mise à jour du paquet %s"
+
+#: scripts/pylintpanel.py:538
+msgid "Updating for %s"
+msgstr "En cours de mise à jour pour %s"
+
+#: scripts/pylintpanel.py:541
+msgid "Updating for %i items"
+msgstr "En cours de mise à jour pour %i éléments"
+
+#: scripts/pylintpanel.py:714
+msgid ""
+"Error executing PyLint:  Command failed with error=%s, status=%s; stderr:\n"
+"%s"
+msgstr ""
+"Erreur exécutant PyLint : Commande échouée avec l'erreur=%s, statuts=%s ; "
+"stderr :\n"
+"%s"
+
+#: scripts/pylintpanel.py:714
+msgid "PyLint Failed"
+msgstr "PyLint a échoué"
+
+#: scripts/pylintpanel.py:725
+msgid "PyLint Timed Out"
+msgstr "PyLint temps dépassé"
+
+#: scripts/pylintpanel.py:725
+msgid ""
+"PyLint timed out:  Command did not complete within timeout of %i seconds.  "
+"Right click on the PyLint tool to configure this value.  Output from "
+"PyLint:\n"
+"\n"
+"%s"
+msgstr ""
+"PyLint temps dépassé : la commande n'a pas été accomplie dans le temps "
+"dépassé de %i secondes. Clic droit sur l'outil PyLint pour configurer cette "
+"valeur. Sortie depuis PyLint :\n"
+"\n"
+"%s"
+
+#: scripts/pylintpanel.py:753
+msgid "Panel definition for the project manager"
+msgstr "Définition des panneaux pour le gestionnaire de projet"
+
+#: scripts/pylintpanel.py:767
+msgid ""
+"Get (label, prefix, suffix) for the display label to use for the given\n"
+"    panel instance"
+msgstr ""
+"Obtenir (labell, prefix, suffix) pour l’affichage du label à utiliser pour\n"
+"      l’instance de panneau donnée"
+
+#: scripts/pylintpanel.py:770 scripts/pylintpanel.py:964
+msgid "PyLint"
+msgstr "PyLint"
+
+#: scripts/pylintpanel.py:773
+msgid "Get full title for the given panel instance"
+msgstr "Obtenir le titre complet pour l'instance de panneau donnée"
+
+#: scripts/pylintpanel.py:775 scripts/pylintpanel.py:879
+msgid "PyLint Panel"
+msgstr "Panneau PyLint"
+
+#: scripts/pylintpanel.py:790
+msgid "A single template manager view"
+msgstr ""
+
+#: scripts/pylintpanel.py:793
+msgid " Constructor "
+msgstr " Constructeur "
+
+#: scripts/pylintpanel.py:877
+msgid " Returns the title of this view suitable for display. "
+msgstr " Retourne le titre de cette vue approprié pour l'affichage."
+
+#: scripts/pylintpanel.py:882
+msgid " Get the command map object for this view. "
+msgstr " Obtenir l'objet de carte de commande pour cette vue."
+
+#: scripts/pylintpanel.py:897
+msgid "Full Path"
+msgstr "Chemin complet"
+
+#: scripts/pylintpanel.py:897
+msgid "Line Number"
+msgstr "Numéro de ligne"
+
+#: scripts/pylintpanel.py:897 scripts/pylintpanel.py:996
+msgid "Message"
+msgstr "Message"
+
+#: scripts/pylintpanel.py:925
+msgid "Construct popup menu for this object."
+msgstr "Construire un menu popup pour cet objet."
+
+#: scripts/pylintpanel.py:929
+msgid "Update"
+msgstr "Mise à jour"
+
+#: scripts/pylintpanel.py:930
+msgid "Update for Package"
+msgstr "Mise à jour du paquet"
+
+#: scripts/pylintpanel.py:935
+msgid "Update for %s"
+msgstr "Mise à jour pour %s"
+
+#: scripts/pylintpanel.py:938
+msgid "Update for Package %s"
+msgstr "Mise à jour du paquet %s"
+
+#: scripts/pylintpanel.py:943
+msgid "Copy All Info Messages"
+msgstr "Copier tous les Messages d'Info"
+
+#: scripts/pylintpanel.py:945
+msgid "Copy All Warnings"
+msgstr "Copier tous les avertissements"
+
+#: scripts/pylintpanel.py:947
+msgid "Copy All Errors"
+msgstr "Copier toutes les erreurs"
+
+#: scripts/pylintpanel.py:953
+msgid "Copy Selected Results"
+msgstr "Copier les résultats sélectionnés"
+
+#: scripts/pylintpanel.py:954
+msgid "Copy Selected Line Number"
+msgstr "Copier le numéro de ligne sélectionné"
+
+#: scripts/pylintpanel.py:955
+msgid "Copy Selected Message"
+msgstr "Copier le Message sélectionné"
+
+#: scripts/pylintpanel.py:957
+msgid "Configure..."
+msgstr "Configurer..."
+
+#: scripts/pylintpanel.py:958
+msgid "Show PyLint Tool Documentation"
+msgstr "Afficher la documentation de l'outil PyLint"
+
+#: scripts/pylintpanel.py:994
+msgid "Message: %s"
+msgstr "Message : %s"
+
+#~ msgid "Callback to display the popup menu"
+#~ msgstr "Procédure de rappel pour afficher le menu popup"
+
+#~ msgid "A PyLint view"
+#~ msgstr "Une vue PyLint"

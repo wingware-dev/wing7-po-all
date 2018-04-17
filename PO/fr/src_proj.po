@@ -1,0 +1,2952 @@
+# translation of src_proj.po to French
+# Module src_proj translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+# Encolpe DEGOUTE <encolpe.degoute@free.fr>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: src_proj\n"
+"POT-Creation-Date: 2018-04-16 16:39+EDT\n"
+"PO-Revision-Date: 2017-01-07 14:44+0100\n"
+"Last-Translator: Laurent Fasnacht <l@libres.ch>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: src/proj/anastats.py:75
+#, fuzzy
+msgid ""
+"Wing uses the Python configuration specified in the Environment tab of File "
+"Properties for your main\n"
+"debug file, if any is defined, or in Project Properties if there is no main "
+"debug file.  Source\n"
+"analysis results will vary when run against different versions of Python or "
+"with different PYTHONPATH.\n"
+msgstr ""
+"L'analyseur du code source utilise les propriétés de débogage actives pour "
+"votre fichier de\n"
+"débogage principal, si défini, et votre projet comme un tout si aucun "
+"fichier de débogage\n"
+"principal n'est défini. Les résultats de l'analyse varieront lorsqu'ils sont "
+"lancées avec des\n"
+"versions de Python différentes ou avec un PYTHONPATH different.\n"
+
+#: src/proj/anastats.py:86
+msgid "Interpreter:"
+msgstr "Interpréteur :"
+
+#: src/proj/anastats.py:98
+msgid "Effective Python Path:"
+msgstr "Chemin Python effectif :"
+
+#: src/proj/anastats.py:118
+msgid "Change Settings"
+msgstr "Modifier les paramètres"
+
+#: src/proj/anastats.py:120
+msgid "Close"
+msgstr "Fermer"
+
+#: src/proj/anastats.py:157
+msgid "Python Environment"
+msgstr "Environnement Python"
+
+#: src/proj/anastats.py:188
+msgid "<untitled>"
+msgstr "<sans-titre>"
+
+#: src/proj/anastats.py:202
+msgid "<not found>"
+msgstr "<non trouvé>"
+
+#: src/proj/anastats.py:213
+#, fuzzy
+msgid ""
+"\n"
+"These settings are being determined by the configured environment for the "
+"main entry point\n"
+"\"%s\".  Use the button below to alter settings for that named entry point.\n"
+msgstr ""
+"\n"
+"Ces configurations sont déterminées par les propriétés de débogages pour le "
+"fichier de débogage principal\n"
+"%s.\n"
+"\n"
+"Appuyez sur le bouton de configurations ci-dessus pour modifier les "
+"configurations de ce fichier.\n"
+
+#: src/proj/anastats.py:216
+#, fuzzy
+msgid ""
+"\n"
+"These settings are being determined by the configured environment for the "
+"main debug file\n"
+"%s.  Use the button below to alter settings for that file.\n"
+msgstr ""
+"\n"
+"Ces configurations sont déterminées par les propriétés de débogages pour le "
+"fichier de débogage principal\n"
+"%s.\n"
+"\n"
+"Appuyez sur le bouton de configurations ci-dessus pour modifier les "
+"configurations de ce fichier.\n"
+
+#: src/proj/anastats.py:219
+msgid ""
+"\n"
+"Since no main debug file is defined, these settings are being determined by "
+"the environment\n"
+"configured for project %s.  Use the button below to alter the project "
+"properties.\n"
+msgstr ""
+"\n"
+"Puisque aucun fichier de débogage principal n'est défini, ces configurations "
+"sont déterminées par\n"
+"l’environnement configuré pour le projet %s. Utiliser le bouton ci-dessous "
+"pour modifier les propriétés du projet.\n"
+
+#: src/proj/attribs.py:31
+msgid "The list of files in the project"
+msgstr "La liste des fichiers dans le projet"
+
+#: src/proj/attribs.py:33
+msgid "The list of directories in the project"
+msgstr "La liste des répertoires dans le projet"
+
+#: src/proj/attribs.py:37
+msgid "The type of project file: shared or unshared"
+msgstr "Le type de fichier projet : partagé ou non partagé"
+
+#: src/proj/attribs.py:57
+#, fuzzy
+msgid ""
+"The PYTHONPATH used by the code in your project.  The path separator is \"%s"
+"\".  The default is the PYTHONPATH Wing inherited at startup.  Otherwise, "
+"the specified path is added to Python's sys.path.  This value is used by the "
+"debugger and source analyser to provide better auto-completion and source "
+"navigation options.  You can use environment variable names as part of the "
+"directory names in the form $(ENVNAME).  Use $(WING:PROJECT_DIR) for the "
+"project directory."
+msgstr ""
+"Le PYTHONPATH utilisé par le code dans votre projet. La valeur par défaut "
+"est celle du sys.path dans votre interpréteur Python sélectionné (qui inclut "
+"toute variable d'environnement PYTHONPATH héritée). Le séparateur de chemin "
+"est \"%s\".  Cette valeur est utilisée par le débogueur et l'analyseur de "
+"source pour fournir une meilleure auto-complétion et des options de "
+"navigation de source. Vous pouvez utiliser des noms de variables "
+"d'environnement comme un partie des noms de répertoires sous la forme "
+"$(ENVNAME).  Utiliser $(WING:PROJECT_DIR) pour le répertoire projet."
+
+#: src/proj/attribs.py:65
+#, fuzzy
+msgid ""
+"The Python executable or virtualenv Python used with the code in your "
+"project.  This is used by the debugger and source analyser to provide "
+"correct auto-completion and code navigation options.  The default is the "
+"interpreter run by \"python\" on the command line, or as found on the path "
+"(or registry on Windows)"
+msgstr ""
+"L'exécutable Python utilisé avec votre code dans votre projet. C'est utilisé "
+"par le débogueur et l'analyseur de source pour fournir une auto-complétion "
+"correcte et des options de navigation de code Par défaut l'interpréteur est "
+"exécuté par \"python\" en ligne de commande, ou comme trouvé dans le path "
+"(ou le registre sur Windows)"
+
+#: src/proj/attribs.py:73
+msgid ""
+"Arguments to pass to the Python interpreter when debugging.  The default -u "
+"provides for unbuffered output; prompts for keyboard input may not appear "
+"without this option."
+msgstr ""
+"Arguments à passer à l'interpréteur Python lors du débogage. Le -u par "
+"défaut est fourni pour les sorties sans mise en mémoire tampon ; invite pour "
+"les entrées clavier pourraient ne pas apparaître sans cette option."
+
+#: src/proj/attribs.py:85
+msgid ""
+"Initial directory in which the debug process starts. The default is to use "
+"the directory of the debug file. This is also used for initial directory for "
+"Python Shell, for resolving partial Python Path entries, and some other "
+"features.  For these, the default is to use the directory of the main debug "
+"file is used, or the directory of the project when no main debug file is "
+"defined. Use $(WING:PROJECT_DIR) to set the initial directory to the "
+"project's directory."
+msgstr ""
+
+#: src/proj/attribs.py:96
+msgid "Command to execute before running the debug process."
+msgstr "Commande à exécuter avant de lancer le processus de débogage."
+
+#: src/proj/attribs.py:105
+msgid ""
+"The environment to use by default when debugging or executing this file.  "
+"Either use the project-defined environment with given run args or select a "
+"launch configuration."
+msgstr ""
+
+#: src/proj/attribs.py:114
+msgid ""
+"Environment variables to set before running the debug process or other sub-"
+"processes started from Wing.  Some tools, such as the Snippets tool also use "
+"the environment specified here.  Entries are in \"name=value\" format, one "
+"per line.  Use \"name=\" (without a value) to unset and remove an inherited "
+"environment value."
+msgstr ""
+"Variables d'environnement à fixer avant le lancement du processus de "
+"débogage ou des sous-processus démarrés depuis Wing. Certains outils, comme "
+"l'outil Bouts de code utilisent aussi l'environnement spécifié ici. Les "
+"entrées sont dans le format \"name=value\", une par ligne. Utiliser \"name="
+"\" (sans valeur) pour désactiver et retirer la valeur héritée "
+"d'environnement."
+
+#: src/proj/attribs.py:117
+#, fuzzy
+msgid ""
+"The base directory for the project.  This overrides the project file "
+"location as the directory on which to base relative paths shown in the "
+"Project view and elsewhere.  It is also used as the directory in which the "
+"Python Shell subprocess is launched and for the starting directory when the "
+"Default Directory Policy preference is set to Current Project."
+msgstr ""
+"Le répertoire de base pour le projet. Cela écraser l'emplacement du fichier "
+"projet comme le répertoire dans lequel  XXX"
+
+#: src/proj/attribs.py:126
+msgid ""
+"The main entry point for debugging, either a Python file or a named entry "
+"point.  When not specified, debugging starts in the current file in the "
+"environment specified in its File Properties under Debug/Execute."
+msgstr ""
+
+#: src/proj/attribs.py:130
+msgid ""
+"The primary debug file, if any.  When set, this is where debugging always "
+"starts.  Otherwise debugging starts in the current file."
+msgstr ""
+"Le fichier de débogage principal, si existant. Lorsqu'affecté, c'est "
+"l'endroit où le débogage commence à chaque fois. Autrement le débogage "
+"commence dans le fichier courrant."
+
+#: src/proj/attribs.py:134 src/proj/attribs.py:193 src/proj/attribs.py:222
+#: src/proj/attribs.py:251
+msgid "Use Preferences Setting"
+msgstr "Utiliser les paramètres des préférences"
+
+#: src/proj/attribs.py:135
+msgid "Always Debug Child Processes"
+msgstr "Toujours déboguer les process enfant"
+
+#: src/proj/attribs.py:136
+msgid "Never Debug Child Processes"
+msgstr "Jamais déboguer les process enfant"
+
+#: src/proj/attribs.py:141
+msgid ""
+"Controls whether to automatically debug child processes spawned by a debug "
+"process."
+msgstr ""
+
+#: src/proj/attribs.py:151
+msgid "Used internally to track the project type at creation time."
+msgstr ""
+
+#: src/proj/attribs.py:184
+msgid ""
+"A list of modifications to the default set of attributes that are stored in "
+"the project files's shared layer (*.wpr).  Each item is +package.attrib-name "
+"to add a shared attrib or -package.attrib-name to move an attrib to the per-"
+"user file (*.wpu) so it is not shared with other users."
+msgstr ""
+
+#: src/proj/attribs.py:194 src/proj/properties.py:2311
+msgid "Line Feed \\n (Posix/Unix/OS X)"
+msgstr "Saut de ligne \\n (Posix/Unix/OS X)"
+
+#: src/proj/attribs.py:195
+msgid "Carriage Return \\r (Mac OS <=9)"
+msgstr "Retour chariot \\r (Mac OS <= 9)"
+
+#: src/proj/attribs.py:196
+msgid "Carriage Return and Line Feed \\r\\n (Windows)"
+msgstr "Retour chariot et saut de ligne \\r\\n (Windows)"
+
+#: src/proj/attribs.py:201
+msgid ""
+"Preferred line ending style to use with this project.  This overrides the "
+"default line ending set in preferences."
+msgstr ""
+"Utiliser le style de fin de ligne préféré avec ce projet. Cela écrase la fin "
+"de ligne par défaut fixée dans préférences."
+
+#: src/proj/attribs.py:208 src/proj/attribs.py:237
+msgid "Ignore Conflicts"
+msgstr "Ignorer les conflits"
+
+#: src/proj/attribs.py:209 src/proj/attribs.py:238
+msgid "Warn About Conflicts"
+msgstr "Avertir sur les conflits"
+
+#: src/proj/attribs.py:210
+msgid "Auto-convert on Open"
+msgstr "Auto-conversion à l'ouverture"
+
+#: src/proj/attribs.py:215
+msgid ""
+"Policy for treating files that are opened if the line endings in the file do "
+"not match the preferred line ending style"
+msgstr ""
+"Politique pour traiter les fichiers qui sont ouverts si les fins de ligne "
+"dans le fichier ne correspondent pas au style préféré de fin de ligne"
+
+#: src/proj/attribs.py:223
+msgid "Spaces Only"
+msgstr "Espaces uniquement"
+
+#: src/proj/attribs.py:224
+msgid "Tabs Only"
+msgstr "Tabulations uniquement"
+
+#: src/proj/attribs.py:225
+msgid "Mixed Tabs and Spaces"
+msgstr "Tabulations et espaces mixés"
+
+#: src/proj/attribs.py:230
+msgid ""
+"Preferred indentation style to use with this project.  This overrides the "
+"default indentation style set in preferences."
+msgstr ""
+"Style d'indentation préféré à utiliser avec ce projet. Cela écrase le style "
+"d'indentation par défaut fixé dans les préférences."
+
+#: src/proj/attribs.py:243
+msgid ""
+"Policy for treating files that are opened if the indent style in the file "
+"does not match the preferred indent style"
+msgstr ""
+"Politique pour traiter les fichiers qui sont ouverts si les styles d'indents "
+"dans le fichier ne correspondent pas au style préféré d'indent"
+
+#: src/proj/attribs.py:256
+msgid ""
+"Controls whether to automatically strip trailing white space in the editor.  "
+"May be enabled for all files or only files that are part of the project."
+msgstr ""
+
+#: src/proj/attribs.py:266 src/proj/properties.py:2717
+msgid "Use Preference Setting"
+msgstr "Utiliser les paramètres des préférences"
+
+#: src/proj/attribs.py:268
+msgid ""
+"The default encoding to use for text files opened in the source editor and "
+"other tools, when an encoding for that file cannot be determined by reading "
+"the file.  Other encodings may also be tried.  This also sets the encoding "
+"to use for newly created files."
+msgstr ""
+"L'encodage par défaut à utiliser pour les fichiers texte ouvert dans "
+"l'éditeur de sources et les autres outils, quand un encodage pour ce fichier "
+"ne peut pas être déterminé en lisant le fichier. D'autres encodages pourrant "
+"aussi être essayés. Cela fixe aussi l'encodage à utiliser pour les nouveaux "
+"fichiers créés."
+
+#: src/proj/attribs.py:278
+msgid "Enables Zope2/Plone support"
+msgstr "Active le support de Zope2/Plone"
+
+#: src/proj/attribs.py:283
+msgid ""
+"Enables checking for and offering to auto-add files when a new Zope Home is "
+"set"
+msgstr ""
+
+#: src/proj/attribs.py:288
+msgid ""
+"Zope2 instance directory (or Zope installation for Zope 2.6.x and earlier).  "
+"When altered, Wing will check and offer to install WingDBG, the debugger "
+"support product."
+msgstr ""
+"Le répertoire d'instance Zope2 (ou l'installation Zope pour Zope 2.6.x et "
+"précédent). Lorsque modifié, Wing vérifiera et proposera d'installer "
+"WingDBG, le produit de support du débogueur."
+
+#: src/proj/attribs.py:293
+msgid ""
+"Zope2 host (if remote).  This is used to find the Debugger / Local/Remote / "
+"Location Map value to use on file names read from the zope.conf file.  It "
+"should be left blank if your Zope instance is on the same machine as Wing."
+msgstr ""
+"Hôte Zope2 (si distant). C'est utilisé pour trouver la valeur Débogueur / "
+"Externe/Distant / Carte de localisation à utiliser sur les noms de fichier "
+"lus depuis le fichier zope.conf. Ce doit être laissé blanc si votre instance "
+"Zope est sur la même machine que Wing."
+
+#: src/proj/attribs.py:298
+msgid ""
+"Enable debugging of Django template files, so setting breakpoints, stepping, "
+"and viewing data will work in template files as well as Python code."
+msgstr ""
+"Activer le débogage des fichiers de modèles Django, de placer des points "
+"d'arrêts, avancer pas à pas, et voir les données qui fonctionneront dans les "
+"fichiers modèles comme dans le code Python."
+
+#: src/proj/attribs.py:303
+msgid ""
+"Enable special event loop handling for matplotlib so that plots update "
+"interactively while working in the Python Shell and Debug Probe."
+msgstr ""
+"Activer la gestion spéciale de boucle d'événement pour matplotlib ainsi il "
+"mets à jour la trace interactivement tout en travaillant dans le Shell "
+"Python et le Débogueur avec Sonde."
+
+#: src/proj/attribs.py:308
+msgid "A container in which scripts can store information in the project file."
+msgstr ""
+"Un conteneur dans lequele les scripts peuvent stocker des informations dans "
+"le fichier du projet."
+
+#: src/proj/attribs.py:314
+msgid ""
+"Determines the TCP/IP port on which the IDE will listen for the connections "
+"from externally launched debug processes. This needs to be unique for each "
+"IDE instance running on a host. The externally launched debug process needs "
+"to be told the value specified here using kWingHostPort inside wingdbstub.py "
+"or by WINGDB_HOSTPORT environment variable before importing wingdbstub in "
+"the debug process."
+msgstr ""
+
+#: src/proj/cap_findsymbol.py:1069
+msgid "_Sort Alphabetically"
+msgstr "Trier Alphabétiquement"
+
+#: src/proj/cap_findsymbol.py:1071
+msgid "Sort items alphabetically rather than in the order found in the file"
+msgstr ""
+"Ranger les items alphabétiquement plutôt que dans l’ordre trouvé dans le "
+"fichier"
+
+#: src/proj/cap_findsymbol.py:1072
+msgid "Include _Args in Search"
+msgstr ""
+
+#: src/proj/cap_findsymbol.py:1074
+msgid "Include the text of function arguments in the text on which to search"
+msgstr ""
+
+#: src/proj/cap_panel.py:79
+msgid "Click to open recent projects"
+msgstr "Cliquer pour ouvrir les projets récents"
+
+#: src/proj/cap_panel.py:86
+msgid "_Options"
+msgstr "_Options"
+
+#: src/proj/cap_panel.py:95
+msgid "Follow Selection"
+msgstr "Suivre la sélection"
+
+#: src/proj/cap_panel.py:96
+msgid "Follow Current Editor"
+msgstr "Suivre l'éditeur courant"
+
+#: src/proj/cap_panel.py:98
+msgid "View As Tree"
+msgstr "Voir comme une Arborescence"
+
+#: src/proj/cap_panel.py:99
+msgid "View As Flattened Tree"
+msgstr "Voir comme une Arborescence Aplatie"
+
+#: src/proj/cap_panel.py:102
+msgid ""
+"When checked, the project selection is visited in a non-sticky editor that "
+"auto-closes when hidden.  Double clicking always opens a sticky file for "
+"editing."
+msgstr ""
+"Lorsque coché, la sélection du projet est visitée dans un éditeur temporaire "
+"qui se ferme automatiquement lorsqu'elle est cachée. Double cliquer ouvre "
+"toujours un fichier permanent pour l'éditer."
+
+#: src/proj/cap_panel.py:105
+msgid ""
+"When checked, project tree expansion is automatically changed to show the "
+"file in the current editor."
+msgstr ""
+"Lorsque coché, l'expansion de l'arbre projet est automatiquement changée "
+"pour afficher le fichier de l'éditeur actuel."
+
+#: src/proj/cap_panel.py:131
+msgid "Sort By Name"
+msgstr "Trier par nom"
+
+#: src/proj/cap_panel.py:132
+msgid "Sort By Mime Type"
+msgstr "Trier par type Mime"
+
+#: src/proj/cap_panel.py:133
+msgid "Sort By Extension"
+msgstr "Trier par extension"
+
+#: src/proj/cap_panel.py:143
+msgid "List Files Before Directories"
+msgstr "Lister les fichiers avant les répertoires"
+
+#: src/proj/cap_panel.py:197
+msgid "Project: %s%s [%i files / %i dirs]"
+msgstr "Projet : %s%s [%i fichier(s) / %i répertoire(s)]"
+
+#: src/proj/cap_panel.py:219
+msgid "Project"
+msgstr "Projet"
+
+#: src/proj/cap_panel.py:225
+msgid "Project Manager"
+msgstr "Gestionnaire de projets"
+
+#: src/proj/cap_panel.py:385
+msgid "Project: <none>"
+msgstr "Projet : <aucun>"
+
+#: src/proj/cap_panel.py:387
+msgid "Project: %s"
+msgstr "Projet : %s"
+
+#: src/proj/cap_panel.py:425 src/proj/cap_panel.py:437
+msgid "Project panel state"
+msgstr "Panneau d'état du projet"
+
+#: src/proj/cap_panel.py:456
+msgid "Directory P_roperties..."
+msgstr "Propriétés du répertoire..."
+
+#: src/proj/cap_panel.py:464
+msgid "File P_roperties..."
+msgstr "P_ropriétés du fichier..."
+
+#: src/proj/cap_panel.py:481
+msgid "_Copy Filenames"
+msgstr "_Copier les noms de fichiers"
+
+#: src/proj/cap_panel.py:488
+msgid "Show in Explorer"
+msgstr "Afficher dans l'Explorateur"
+
+#: src/proj/cap_panel.py:490
+msgid "Show in Finder"
+msgstr "Afficher dans le Finder"
+
+#: src/proj/cap_panel.py:492
+msgid "Show Directory"
+msgstr "Afficher le répertoire"
+
+#: src/proj/cap_panel.py:494
+msgid "Open in External _Viewer"
+msgstr "Ouvrir dans le _visionneur externe"
+
+#: src/proj/cap_panel.py:495
+msgid "_Search in Selected"
+msgstr "_Chercher dans la sélection"
+
+#: src/proj/cap_panel.py:498
+msgid "_Name Selected File Set..."
+msgstr "_Nommer l’Ensemble de fichiers sélectionné…"
+
+#: src/proj/cap_panel.py:503
+msgid "_Debug Selected"
+msgstr "_Déboguer la sélection"
+
+#: src/proj/cap_panel.py:506
+msgid "E_xecute Selected"
+msgstr "E_xécuter la sélection"
+
+#: src/proj/cap_panel.py:509
+msgid "Set As Main Debug Fi_le"
+msgstr "Choisir comme fi_chier de débogage principal"
+
+#: src/proj/cap_panel.py:511
+msgid "Clear Main Debug Fi_le"
+msgstr "Effacer le fi_chier de débogage principal"
+
+#: src/proj/cap_panel.py:530
+msgid "Re_move/Exclude From Project"
+msgstr "Enl_ever/Exclure du projet"
+
+#: src/proj/cap_panel.py:532
+msgid "_Add Existing File..."
+msgstr "_Ajouter un fichier existant..."
+
+#: src/proj/cap_panel.py:533
+msgid "Add Existing D_irectory..."
+msgstr "Ajouter un _répertoire existant..."
+
+#: src/proj/cap_panel.py:535
+msgid "Res_can Directory"
+msgstr "Res_canner le répertoire"
+
+#: src/proj/cap_panel.py:542
+msgid "Dele_te"
+msgstr "Suppri_mer"
+
+#: src/proj/cap_panel.py:544
+msgid "Move To _Trash"
+msgstr "Déplacer vers la _corbeille"
+
+#: src/proj/cap_panel.py:551
+msgid "Renam_e..."
+msgstr "Renomm_er..."
+
+#: src/proj/cap_panel.py:553
+msgid "_Create New File..."
+msgstr "_Créer un nouveau fichier..."
+
+#: src/proj/cap_panel.py:554
+msgid "Create Ne_w Directory..."
+msgstr "Créer un nou_veau répertoire..."
+
+#: src/proj/cap_panel.py:555
+msgid "Create Ne_w Package..."
+msgstr "Créer un nou_veau Package..."
+
+#: src/proj/cap_panel.py:560
+msgid "Show Project _Documentation"
+msgstr "Afficher la _documentation du projet"
+
+#: src/proj/cap_panel.py:562
+msgid "Configure Menu..."
+msgstr "Configurer le menu..."
+
+#: src/proj/cap_panel.py:588
+msgid "Project File"
+msgstr "Fichier projet"
+
+#: src/proj/cap_panel.py:609
+msgid "New name for the directory"
+msgstr "Nouveau nom pour le répertoire"
+
+#: src/proj/cap_panel.py:610
+msgid "New Directory Name"
+msgstr "Nouveau nom de répertoire"
+
+#: src/proj/cap_panel.py:612
+msgid "New name for the file"
+msgstr "Nouveau nom pour le fichier"
+
+#: src/proj/cap_panel.py:613
+msgid "New File Name"
+msgstr "Nouveau nom de fichier"
+
+#: src/proj/cap_panel.py:884
+msgid "Move to Trash Failed"
+msgstr "Échec de déplacement vers la corbeille"
+
+#: src/proj/cap_panel.py:885
+msgid "The following items could not be moved to the trash:"
+msgstr "Les éléments suivants ne peuvent pas être déplacés dans la corbeille :"
+
+#: src/proj/cap_panel.py:891 src/proj/cap_treepanel.py:636
+#: src/proj/manager.py:622 src/proj/newproject.py:669
+#: src/proj/newproject.py:789 src/proj/properties.py:619
+msgid "OK"
+msgstr "OK"
+
+#: src/proj/cap_panel.py:902
+msgid "Recycle Selected Files and Directories?"
+msgstr "Recycler les fichiers et répertoires sélectionnés ?"
+
+#: src/proj/cap_panel.py:903
+msgid ""
+"Are you sure you want to move the selected files, directories, and all "
+"contents of the directories to the recycling bin?"
+msgstr ""
+"Êtes-vous sûr de vouloir déplacer les fichiers, les répertoires sélectionnés "
+"et tous les fichiers contenus dans ceux-ci vers la corbeille ?"
+
+#: src/proj/cap_panel.py:904
+msgid "_Recycle Selected Files and Directories"
+msgstr "_Recycler les fichiers et répertoires sélectionnés"
+
+#: src/proj/cap_panel.py:906
+msgid "Move Selected Files and Directories to Trash?"
+msgstr "Déplacer les fichiers et répertoires sélectionnés vers la corbeille ?"
+
+#: src/proj/cap_panel.py:907
+msgid ""
+"Are you sure you want to move the selected files, directories, and all "
+"contents of the directories to the trash?"
+msgstr ""
+"Êtes-vous sûr de vouloir déplacer les fichiers, répertoires, et tous les "
+"contenus de tous les répertoires sélectionnés vers la corbeille ?"
+
+#: src/proj/cap_panel.py:908
+msgid "_Move Selected Files and Directories to Trash"
+msgstr "_Déplacer les fichiers et répertoires sélectionnés vers la corbeille"
+
+#: src/proj/cap_panel.py:911
+msgid "Recycle Selected Files?"
+msgstr "Recycler le(s) fichier(s) sélectionné(s) ?"
+
+#: src/proj/cap_panel.py:912
+msgid "Are you sure you want to move the selected files to the recycling bin?"
+msgstr ""
+"Êtes-vous sûr de vouloir déplacer le(s) fichier(s) sélectionné(s) vers la "
+"corbeille ?"
+
+#: src/proj/cap_panel.py:913
+msgid "_Recycle Selected Files"
+msgstr "_Recycler le(s) fichier(s) sélectionné(s)"
+
+#: src/proj/cap_panel.py:915
+msgid "Move Selected Files to Trash?"
+msgstr "Déplacer le(s) fichier(s) sélectionné(s) dans la corbeille ?"
+
+#: src/proj/cap_panel.py:916
+msgid "Are you sure you want to move the selected files to the trash?"
+msgstr ""
+"Êtes-vous sûr de vouloir déplacer le(s) fichier(s) sélectionné(s) vers la "
+"corbeille ?"
+
+#: src/proj/cap_panel.py:917
+msgid "_Move Selected Files to Trash"
+msgstr "_Déplacer le(s) fichier(s) sélectionné(s) vers la corbeille"
+
+#: src/proj/cap_panel.py:920
+msgid "Recycle Selected Directories?"
+msgstr "Recycler les répertoires sélectionnés ?"
+
+#: src/proj/cap_panel.py:921
+msgid ""
+"Are you sure you want to move the selected directories and all files within "
+"them to the recycling bin?"
+msgstr ""
+"Êtes-vous sûr de vouloir déplacer les répertoires sélectionnés et tous les "
+"fichiers contenus dans ceux-ci vers la corbeille ?"
+
+#: src/proj/cap_panel.py:922
+msgid "_Recycle Selected Directories"
+msgstr "_Recycler les répertoires sélectionnés"
+
+#: src/proj/cap_panel.py:924
+msgid "Move Selected Directories to Trash?"
+msgstr "Déplacer les répertoires sélectionnés vers la corbeille ?"
+
+#: src/proj/cap_panel.py:925
+msgid ""
+"Are you sure you want to move the selected directories and all files within "
+"them to the trash?"
+msgstr ""
+"Êtes-vous sûr de vouloir déplacer les répertoires sélectionnés et tous les "
+"fichiers qui y sont inclus vers la corbeille ?"
+
+#: src/proj/cap_panel.py:926
+msgid "_Move Selected Directories to Trash"
+msgstr "_Déplacer les répertoires sélectionnés vers la corbeille"
+
+#: src/proj/cap_panel.py:932 src/proj/manager.py:1782 src/proj/manager.py:1815
+#: src/proj/properties.py:2158 src/proj/properties.py:2257
+#: src/proj/properties.py:2562
+msgid "_Cancel"
+msgstr "_Annuler"
+
+#: src/proj/cap_shared.py:80
+msgid ""
+"Serious error writing the user branch of project file %s:  File may be "
+"corrupted.  Please report this problem to support@wingware.com"
+msgstr ""
+"Erreur sérieuse en écrivant la branche utilisateur du fichier projet %s : Le "
+"fichier peut être corrompu. Veuillez reporter ce problème à support@wingware."
+"com"
+
+#: src/proj/cap_shared.py:87
+#, fuzzy
+msgid "Failed to write parts of the user branch of the project file: "
+msgstr "Échec de l'écriture d'une partie du fichier projet: "
+
+#: src/proj/cap_treepanel.py:625
+msgid "Move Selected Files?"
+msgstr "Déplacer le(s) fichier(s) sélectionné(s) ?"
+
+#: src/proj/cap_treepanel.py:626
+msgid "Are you sure you want to move the following items to %s ?"
+msgstr "Êtes-vous sûr de vouloir déplacer les éléments suivants vers %s ?"
+
+#: src/proj/cap_treepanel.py:629
+msgid "Copy Selected Files?"
+msgstr "Copier le(s) fichier(s) sélectionné(s) ?"
+
+#: src/proj/cap_treepanel.py:630
+msgid "Are you sure you want to copy the following items to %s ?"
+msgstr "Êtes-vous sûr de vouloir copier les éléments suivants vers %s ?"
+
+#: src/proj/cap_treepanel.py:637 src/proj/manager.py:422
+#: src/proj/newproject.py:670 src/proj/newproject.py:1061
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/proj/cap_treepanel.py:642
+msgid "_Don't show this dialog again"
+msgstr "_Ne plus afficher cette notice à nouveau"
+
+#: src/proj/cap_treepanel.py:676
+msgid "main entry point"
+msgstr "point d’entrée principal"
+
+#: src/proj/cap_treepanel.py:677
+msgid "main debug file"
+msgstr "fichier de débogage principal"
+
+#: src/proj/cap_treepanel.py:714
+msgid ". (project home directory)"
+msgstr ". (répertoire du projet initial)"
+
+#: src/proj/manager.py:101
+msgid "Choose file to create"
+msgstr "Choisir le fichier à créer"
+
+#: src/proj/manager.py:104
+msgid "Select file to add to project"
+msgstr "Sélectionnez un fichier à ajouter au projet"
+
+#: src/proj/manager.py:188
+msgid ""
+"Remote Inspect Failed::The selected directory %s remote inspect failed and "
+"has not been added to the project"
+msgstr ""
+
+#: src/proj/manager.py:193
+#, fuzzy
+msgid ""
+"Does not Exist::The selected directory %s does not exist and has not been "
+"added to the project"
+msgstr ""
+"Le répertoire d'instance Zope 2 '%s' n'existe pas ou n'est pas un répertoire"
+
+#: src/proj/manager.py:214
+msgid "Select Directory to Remove"
+msgstr "Sélectionner le répertoire à enlever"
+
+#: src/proj/manager.py:252
+msgid "Invalid selection"
+msgstr "Sélection invalide"
+
+#: src/proj/manager.py:253
+msgid "Sorry, %s is not a directory."
+msgstr "Désolé, %s n'est pas un répertoire."
+
+#: src/proj/manager.py:353 src/proj/manager.py:369
+msgid "Cannot Copy Files"
+msgstr "Impossible de copier les fichiers"
+
+#: src/proj/manager.py:354
+msgid "%s::Remote inspect of %s failed."
+msgstr ""
+
+#: src/proj/manager.py:370 src/proj/manager.py:381
+msgid "%s::The directory %s already exists.  Please remove or rename it first."
+msgstr ""
+"%s::Le répertoire %s existe déjà. Veuillez le retirer ou le renommer en "
+"premier."
+
+#: src/proj/manager.py:380
+msgid "Cannot Move Files"
+msgstr "Impossible de déplacer les fichiers"
+
+#: src/proj/manager.py:398
+msgid "Replace existing files?"
+msgstr "Remplacer les fichiers existant ?"
+
+#: src/proj/manager.py:399
+msgid ""
+"The following files already exist.  Do you want to replace the selected "
+"files?"
+msgstr ""
+"Le(s) fichier(s) suivant(s) existe(nt) déjà. Voulez vous remplacer le(s) "
+"fichier(s) sélectionné(s) ?"
+
+#: src/proj/manager.py:421
+msgid "Replace the Selected Files"
+msgstr "Remplacer le(s) fichier(s) sélectionné(s)"
+
+#: src/proj/manager.py:555
+msgid "Could not inspect remote target file"
+msgstr ""
+
+#: src/proj/manager.py:559
+msgid "Target file already exists"
+msgstr "Le fichier cible existe déjà"
+
+#: src/proj/manager.py:606
+msgid "Could not Move"
+msgstr "N'a pas pu déplacer"
+
+#: src/proj/manager.py:607
+msgid ""
+"Some of the selected items could not be moved on disk.  Please check their "
+"permissions and try again."
+msgstr ""
+"Certains des éléments sélectionnés ne pourront pas être déplacés sur le "
+"disque. Veuillez vérifier leurs permissions et essayer de nouveau."
+
+#: src/proj/manager.py:610
+msgid "Could not Copy"
+msgstr "N'a pas pu copier"
+
+#: src/proj/manager.py:611
+msgid ""
+"Some of the selected items could not be copied on disk.  Please check their "
+"permissions and try again."
+msgstr ""
+"Certains des éléments sélectionnés ne pourront pas être copiés sur le "
+"disque. Veuillez vérifier leurs permissions et essayer de nouveau."
+
+#: src/proj/manager.py:619
+msgid "Errors:"
+msgstr "Erreurs :"
+
+#: src/proj/manager.py:998
+msgid "Open Project"
+msgstr "Ouvrir un projet"
+
+#: src/proj/manager.py:999
+msgid "Select project to open"
+msgstr "Sélectionner un projet à ouvrir"
+
+#: src/proj/manager.py:1026
+msgid "Converting project..."
+msgstr "Convertit le projet..."
+
+#: src/proj/manager.py:1037
+msgid "Project Conversion Options"
+msgstr "Options de Conversion du projet"
+
+#: src/proj/manager.py:1038
+#, fuzzy
+msgid ""
+"Would you like to convert this project to use the new auto-updating "
+"directory style available in Wing 3+?  Doing so may include more files than "
+"were shown in your Wing 2.x project display.\n"
+"\n"
+"Alternatively, you may convert the project as a static list of files.\n"
+"\n"
+"You will be able to modify the project contents after conversion in either "
+"case. The converted project will be opened as a new untitled project."
+msgstr ""
+"Souhaitez-vous convertir ce projet pour utiliser le nouveau style de "
+"répertoire mis a jour automatiquement disponible dans Wing 3.0 ? Ceci peut "
+"inclure plus de fichiers que ceux qui étaient affichée dans votre affichage "
+"de projet dans Wing 2.x.\n"
+"\n"
+"Alternativement, vous pouvez convertir le projet comme une liste statique de "
+"fichiers.\n"
+"\n"
+"Vous pourrez modifier les contenus du projet après modification dans chacun "
+"des cas. Le projet converti sera ouvert comme un nouveau projet sans titre."
+
+#: src/proj/manager.py:1049
+msgid "Use Auto-Updating Project"
+msgstr "Utiliser l'auto-mise à jour du projet"
+
+#: src/proj/manager.py:1050
+msgid "Use Static Project"
+msgstr "Utiliser un projet Statique"
+
+#: src/proj/manager.py:1059
+msgid "Creating project instance..."
+msgstr "Création d'une instance de projet..."
+
+#: src/proj/manager.py:1073
+msgid "Close prior project..."
+msgstr "Fermeture du projet antérieur..."
+
+#: src/proj/manager.py:1076
+msgid "Project opened"
+msgstr "Projet ouvert"
+
+#: src/proj/manager.py:1079
+msgid "Reading project..."
+msgstr "Lit le projet..."
+
+#: src/proj/manager.py:1085 src/proj/manager.py:1106
+msgid "Failed to load project"
+msgstr "Le chargement du projet a échoué"
+
+#: src/proj/manager.py:1086
+msgid ""
+"Could not open project file '%s': it is a shared (two-file) project  for use "
+"with revision control and cannot be read by Wing Personal."
+msgstr ""
+"N'a pas pu ouvrir le fichier projet '%s' : c'est un projet (deux-fichiers) "
+"partagé pour utiliser avec un contrôle de révision et ne peut pas être lu "
+"avec Wing Personal."
+
+#: src/proj/manager.py:1088 src/proj/manager.py:1110 src/proj/project.py:1715
+#: src/proj/properties.py:3309
+msgid "_OK"
+msgstr "_OK"
+
+#: src/proj/manager.py:1107
+msgid ""
+"Could not open project file '%s': it may be unreadable or  in an invalid "
+"file format.  Try opening it from the File menu to  inspect the contents of "
+"the file."
+msgstr ""
+"N'a pas pu ouvrir le fichier projet '%s' : ce peut être illisible ou un "
+"format de fichiers invalide. Essayez de l'ouvrir depuis le menu Fichier pour "
+"inspecter le contenu du fichier."
+
+#: src/proj/manager.py:1128
+msgid "Failed to save portions of visual state:"
+msgstr "Échec pour enregistrer des portions d'état visuel :"
+
+#: src/proj/manager.py:1181
+msgid "Creating GUI..."
+msgstr "Création de l'Interface Graphique Utilisateur..."
+
+#: src/proj/manager.py:1185
+msgid "Update command GUI..."
+msgstr ""
+
+#: src/proj/manager.py:1216
+#, fuzzy
+msgid ""
+"Converted version %s project::This Wing version %s project file has been "
+"converted to Wing %s.x auto-updating project file format. You may want to "
+"trim what Wing has added to the project. Then save it to a new file name, "
+"since Wing %s.x project files cannot be opened with older versions of Wing."
+msgstr ""
+"Version %s du projet convertie. Cette version Wing %s de fichier projet de "
+"Wing a été convertie à Wing 4.x en mise à jour automatique du format de "
+"fichier projet. Vous pourriez vouloir TRIM"
+
+#: src/proj/manager.py:1222
+#, fuzzy
+msgid ""
+"Converted version %s project::This Wing version %s project file has been "
+"converted to Wing %s.x project file format with a static list of files.  To "
+"add auto-updating directories, use Add Directory in the Project menu.  "
+"Please save the project to a new file name, since Wing %s.x project files "
+"cannot be opened with older versions of Wing."
+msgstr ""
+"Version %s du projet convertie. Cette version %s de fichier projet de Wing a "
+"été convertie au format de fichier projet Wing 4.x avec une liste statique "
+"de fichiers. Pour ajouter la mise à jour automatique des répertoires, "
+"utiliser Ajouter un répertoire dans le menu Projet. Veuillez enregistrer le "
+"projet sous un nouveau nom de fichier, depuis que les fichiers projet Wing 4."
+"x ne peuvent pas être ouverts avec des versions plus anciennes de Wing."
+
+#: src/proj/manager.py:1228
+#, fuzzy
+msgid ""
+"Converted version %s project::This Wing version %s project file has been "
+"converted to Wing %s.x project file format.  Please save it to a new file "
+"name, since Wing %s.x project files cannot be opened with older versions of "
+"Wing."
+msgstr ""
+"Version %s du projet convertie. Cette version %s de fichier projet de Wing a "
+"été convertie au format de fichier projet Wing 4.x. Veuillez l'enregistrer "
+"sous un nouveau nom de fichier, car les fichiers projet Wing 4.x ne peuvent "
+"pas être ouverts avec des versions plus anciennes de Wing."
+
+#: src/proj/manager.py:1360
+msgid "Save Project As"
+msgstr "Enregistrer le projet Comme"
+
+#: src/proj/manager.py:1781
+msgid "_Open Selected"
+msgstr "Ouvrir la _sélection"
+
+#: src/proj/manager.py:1784
+msgid "Select Project File to Open"
+msgstr "Sélectionner un fichier projet à ouvrir"
+
+#: src/proj/manager.py:1814
+msgid "_Goto Definition"
+msgstr "Aller à la définition"
+
+#: src/proj/manager.py:1817
+msgid "Find Symbol in Project"
+msgstr "Trouver un symbole dans le projet"
+
+#: src/proj/manager.py:1936
+msgid "Enter fragments separated by spaces:"
+msgstr "Entrer des fragments séparés par des espaces :"
+
+#: src/proj/manager.py:2016
+#, fuzzy
+msgid "Match on _Full Path"
+msgstr "_Chemin Python"
+
+#: src/proj/newproject.py:42
+msgid "Generic Python"
+msgstr "Python Générique"
+
+#: src/proj/newproject.py:43
+msgid "Generic with virtualenv"
+msgstr ""
+
+#: src/proj/newproject.py:74
+msgid "Zope2 (without Plone)"
+msgstr "Zope2 (sans Plone)"
+
+#: src/proj/newproject.py:79
+#, fuzzy
+msgid "Connect to Remote Host via SSH"
+msgstr "Connecter à un hôte distant (via SSH)"
+
+#: src/proj/newproject.py:80
+msgid "Connect to Vagrant"
+msgstr ""
+
+#: src/proj/newproject.py:100
+msgid ""
+"The type of project you wish to create.  Some project types prompt for "
+"different initial values."
+msgstr ""
+"Le type de projet que vous souhaitez créer. Certains types de projet "
+"demandent des valeurs initiales différentes."
+
+#: src/proj/newproject.py:109
+msgid ""
+"The primary source directory to add to the project.  Other directories can "
+"be added later in the Project tool."
+msgstr ""
+"Le répertoire source primaire à ajouter au projet. D’autres répertoires "
+"pourront être ajoutés plus tard dans l’outil Projet."
+
+#: src/proj/newproject.py:115
+msgid "This can be changed later in Project Properties."
+msgstr "Cela peut être changé plus tard dans les propriétés du projet."
+
+#: src/proj/newproject.py:118
+msgid "The Python executable to use with this project."
+msgstr "L'exécutable Python à utiliser avec ce projet."
+
+#: src/proj/newproject.py:120
+msgid "The python.exe to use with this project."
+msgstr "Le python.exe à utiliser avec ce projet."
+
+#: src/proj/newproject.py:121
+msgid "The virtualenv Python to use with this project."
+msgstr ""
+
+#: src/proj/newproject.py:159
+msgid "Python Executable"
+msgstr "Exécutable Python"
+
+#: src/proj/newproject.py:204
+msgid "Project Created"
+msgstr "Projet Créé"
+
+#: src/proj/newproject.py:205
+msgid "A new untitled project has been created.  You can now:"
+msgstr "Un nouveau projet a été créé. Vous pouvez maintenant :"
+
+#: src/proj/newproject.py:206
+msgid "Drag files and directories onto the Project tool"
+msgstr "Faites glisser fichiers et répertoires sur l’outil de Projet"
+
+#: src/proj/newproject.py:207
+msgid "Configure Project Properties from the Project menu"
+msgstr "Configurer les propriétés du projet depuis le menu Projet"
+
+#: src/proj/newproject.py:208
+msgid "Save the project to disk"
+msgstr "Enregistrer le projet sur le disque"
+
+#: src/proj/newproject.py:241 src/proj/properties.py:2966
+msgid "Add Directory"
+msgstr "Ajouter un répertoire"
+
+#: src/proj/newproject.py:242
+msgid "Project Properties"
+msgstr "Propriétés du projet"
+
+#: src/proj/newproject.py:243
+msgid "Save Now"
+msgstr "Enregistrer maintenant"
+
+#: src/proj/newproject.py:244
+msgid "Save Later"
+msgstr "Enregistrer plus tard"
+
+#: src/proj/newproject.py:264
+msgid "Virtualenv Python"
+msgstr ""
+
+#: src/proj/newproject.py:311
+#, fuzzy
+msgid "Store Project File on Remote Host"
+msgstr "Sélectionner un fichier projet à ouvrir"
+
+#: src/proj/newproject.py:336
+msgid ""
+"Please choose a different Identifier to avoid overwriting the existing but "
+"different shared host configuration %s"
+msgstr ""
+
+#: src/proj/newproject.py:375
+msgid "Remote Project Created"
+msgstr "Projet distant créé"
+
+#: src/proj/newproject.py:376
+msgid "Add files and directories from the remote host"
+msgstr "Ajouter des fichiers et répertoires depuis l'hôte distant"
+
+#: src/proj/newproject.py:396
+msgid "Save Remote Project"
+msgstr "Enregistrer le projet distant"
+
+#: src/proj/newproject.py:397
+msgid "Select the location to store the new project."
+msgstr "Sélectionnez l'emplacement où enregistrer le nouveau projet."
+
+#: src/proj/newproject.py:421 src/proj/newproject.py:1016
+#, fuzzy
+msgid "Project Setup Complete"
+msgstr "Projet ouvert"
+
+#: src/proj/newproject.py:422
+msgid ""
+"Your project has been configured.  Next you'll need to install Wing's remote "
+"agent on the remote host."
+msgstr ""
+
+#: src/proj/newproject.py:430 src/proj/newproject.py:1029
+msgid "Install Remote Agent"
+msgstr ""
+
+#: src/proj/newproject.py:475
+msgid "Source Directory"
+msgstr "Répertoire source"
+
+#: src/proj/newproject.py:489
+msgid "The given source directory does not exist or is not a directory"
+msgstr "Le répertoire source donné n'existe pas ou n'est pas un répertoire"
+
+#: src/proj/newproject.py:509
+msgid "Scanning Directory"
+msgstr "Scanner le répertoire"
+
+#: src/proj/newproject.py:513
+msgid "Scanning the disk for project files.  Please wait."
+msgstr "Scanne le disque pour les fichiers projet. Veuillez patienter."
+
+#: src/proj/newproject.py:587 src/proj/properties.py:2075
+msgid "Zope2 Instance Home"
+msgstr "Instance principale Zope2"
+
+#: src/proj/newproject.py:590 src/proj/properties.py:2077
+msgid "Zope2 Host (if remote)"
+msgstr "Hôte Zope2 (si distant)"
+
+#: src/proj/newproject.py:658
+msgid ""
+"Choose project type.  These values can be changed later with Project "
+"Properties in the Project menu:"
+msgstr ""
+"Choisir le type de projet. Ces valeurs peuvent être changées plus tard dans "
+"les propriétés du projet dans le menu Projet:"
+
+#: src/proj/newproject.py:668
+msgid "Show Documentation"
+msgstr "Afficher la documentation"
+
+#: src/proj/newproject.py:673
+msgid "New Project"
+msgstr "Nouveau projet"
+
+#: src/proj/newproject.py:683
+msgid "Show this dialog when creating projects"
+msgstr "Afficher cette boite de dialogue lors de la création de projets"
+
+#: src/proj/newproject.py:733
+msgid "_New Project"
+msgstr "_Nouveau projet"
+
+#: src/proj/newproject.py:785
+msgid "Invalid Values"
+msgstr "Valeurs invalides"
+
+#: src/proj/newproject.py:786
+msgid "Some values are invalid:"
+msgstr "Certaines valeurs sont invalides :"
+
+#: src/proj/newproject.py:888
+#, fuzzy
+msgid "Add files and directories from the vagrant box"
+msgstr "Ajouter des fichiers et répertoires depuis l'hôte distant"
+
+#: src/proj/newproject.py:891
+msgid "The existing Vagrant project directory on the local host"
+msgstr ""
+
+#: src/proj/newproject.py:904
+#, fuzzy
+msgid "Vagrant Project Directory"
+msgstr "Répertoire du projet initial"
+
+#: src/proj/newproject.py:917
+#, fuzzy
+msgid "The selected Vagrant Project Directory %s does not exist"
+msgstr "Le répertoire du projet initial '%s' n'existe pas"
+
+#: src/proj/newproject.py:921
+msgid "Vagrantfile not found in %s"
+msgstr ""
+
+#: src/proj/newproject.py:927
+msgid "Could not run 'vagrant ssh-config': failed to start"
+msgstr ""
+
+#: src/proj/newproject.py:930
+msgid "Could not run 'vagrant ssh-config': timed out"
+msgstr ""
+
+#: src/proj/newproject.py:946
+msgid "SSH Port from 'vagrant ssh-config' is not an integer: %s"
+msgstr ""
+
+#: src/proj/newproject.py:950
+msgid "SSH private key from 'vagrant ssh-config' does not exist: %s"
+msgstr ""
+
+#: src/proj/newproject.py:954
+msgid "Empty User line from 'vagrant ssh-config'"
+msgstr ""
+
+#: src/proj/newproject.py:958
+msgid "Empty HostName line from 'vagrant ssh-config'"
+msgstr ""
+
+#: src/proj/newproject.py:961
+msgid ""
+"Could not obtain the necessary data from 'vagrant ssh-config'.  Have you run "
+"'vagrant up' in %s?"
+msgstr ""
+
+#: src/proj/newproject.py:1017
+msgid ""
+"Your project has been configured.  Next you'll need to install Wing's remote "
+"agent on the Vagrant box."
+msgstr ""
+
+#: src/proj/newproject.py:1052
+msgid ""
+"Please try converting again with puttygen.  Canceling will leave the project "
+"partially configured but unsaved."
+msgstr ""
+
+#: src/proj/newproject.py:1060
+msgid "Retry puttygen"
+msgstr ""
+
+#: src/proj/newproject.py:1066
+#, fuzzy
+msgid "Could Not Convert Key"
+msgstr "N'a pas pu convertir l'encodage"
+
+#: src/proj/newproject.py:1067
+msgid ""
+"Could not convert the Vagrant private key to PuTTY format because puttygen."
+"exe failed to start.  It must be installed in the same directory as plink."
+"exe."
+msgstr ""
+
+#: src/proj/newproject.py:1078
+#, fuzzy
+msgid "Could Not Find Converted Key"
+msgstr "N'a pas pu convertir l'encodage"
+
+#: src/proj/newproject.py:1079
+msgid "Could not find the converted key file \"%s\"."
+msgstr ""
+
+#: src/proj/newproject.py:1098
+msgid "Private Key Conversion"
+msgstr ""
+
+#: src/proj/newproject.py:1099
+msgid ""
+"Vagrant's private key needs to be manually converted for PuTTY.  Continue to "
+"start puttygen with the private key loaded.  Then use Save Private Key in "
+"puttygen with file name %s.  It is OK to save it without a pass phrase, "
+"since the original also doesn't have one.  When you quit puttygen, Wing will "
+"continue setting up your project."
+msgstr ""
+
+#: src/proj/newproject.py:1105
+msgid "Start puttygen"
+msgstr ""
+
+#: src/proj/prefs.py:19
+msgid ""
+"Controls whether any files open in an editor are also closed when a project "
+"file is closed"
+msgstr ""
+"Contrôle si les fichiers ouverts dans un éditeur sont aussi fermés quand un "
+"fichier projet est fermé"
+
+#: src/proj/prefs.py:27
+msgid ""
+"Controls whether or not the IDE will follow the current project manager "
+"selection by opening the corresponding source file in a non-sticky (auto-"
+"closing) editor.  In either case, the project manager will always open a "
+"file in sticky mode when an item is double clicked or the Goto Source "
+"context menu item is used."
+msgstr ""
+"Contrôle si l'IDE, ou non, suivra la sélection du gestionnaire de projet "
+"actuel en ouvrant le fichier source correspondant dans un éditeur temporaire "
+"(auto-fermant). Dans tous les cas, le gestionnaire de projet ouvrira "
+"toujours un fichier en mode non-éphémère quand un élément est double cliqué "
+"ou que l'élément du menu contextuel Aller à la source est utilisé."
+
+#: src/proj/prefs.py:38
+msgid ""
+"Controls whether or not the IDE will follow the current editor by expanding "
+"the project tree to show the file open in the editor."
+msgstr ""
+"Contrôle si l'IDE, ou non, suivra la sélection de l'éditeur courrant en "
+"développant l'arbre du projet pour afficher le fichier ouvert dans l'éditeur."
+
+#: src/proj/prefs.py:46
+msgid ""
+"Controls whether or not the IDE will confirm file copy/move operations "
+"initiated by dragging items around on the Project view."
+msgstr ""
+"Contrôle si l'IDE, ou non, confirmera les opérations de copie/déplacement de "
+"fichier initiées par le glissement d'éléments autour de la vue du projet."
+
+#: src/proj/prefs.py:54
+msgid ""
+"Match fragments to full path of the file name, rather than just the file "
+"name.  Full path matching still occurs when the path separation character is "
+"included in the search pattern."
+msgstr ""
+
+#: src/proj/prefs.py:62
+msgid "Clipboard"
+msgstr "Presse-papier"
+
+#: src/proj/prefs.py:63
+msgid "Navigation"
+msgstr "Navigation"
+
+#: src/proj/prefs.py:64
+msgid "Debug/Test"
+msgstr "Débogage/Test"
+
+#: src/proj/prefs.py:65
+msgid "Revision Control"
+msgstr "Contrôle de révision"
+
+#: src/proj/prefs.py:66
+msgid "Project Management"
+msgstr "Gestion de projet"
+
+#: src/proj/prefs.py:67
+msgid "File Management"
+msgstr "Gestion de fichier"
+
+#: src/proj/prefs.py:68
+msgid "Script-Defined Items"
+msgstr "Éléments définis-par-scripts"
+
+#: src/proj/prefs.py:72
+msgid ""
+"Controls which groups of menu items will be shown in the Project tool's "
+"context menu."
+msgstr ""
+
+#: src/proj/prefs.py:79
+msgid "Extra menu items to add to the Project tool context menu."
+msgstr ""
+"Éléments supplémentaires du menu à ajouter au menu contextuel de l'outil "
+"Projet."
+
+#: src/proj/prefs.py:81
+msgid "Command"
+msgstr "Commande"
+
+#: src/proj/prefs.py:81
+msgid "Item Name"
+msgstr "Nom d'élément"
+
+#: src/proj/prefs.py:86
+msgid ""
+"Whether to show New Project dialog when creating projects.  When this is "
+"disabled, a blank project is created and can be configured and saved from "
+"the Project menu."
+msgstr ""
+
+#: src/proj/projcvt.py:466 src/proj/properties.py:90
+msgid "Build Command"
+msgstr "Commande de construction"
+
+#: src/proj/projcvt.py:506 src/proj/properties.py:511
+msgid "Launch Config"
+msgstr "Lancer configurations"
+
+#: src/proj/project.py:1320
+msgid "New Project #%d.wpr"
+msgstr "Nouveau projet #%d.wpr"
+
+#: src/proj/project.py:1675
+msgid ""
+"\n"
+"\n"
+"Project locked by: hostname=%s, user=%s, process_id=%s."
+msgstr ""
+"\n"
+"\n"
+"Projet verrouillé par : hostname=%s, user=%s, process_id=%s."
+
+#: src/proj/project.py:1677
+msgid ""
+"\n"
+"\n"
+"Note: Could not read lock file.  Reason: %s"
+msgstr ""
+"\n"
+"\n"
+"Note : N'a pas pu lire le fichier verrou. Raison : %s"
+
+#: src/proj/project.py:1679
+msgid "Project Opened Read-Only"
+msgstr "Projet ouvert en Lecture seule"
+
+#: src/proj/project.py:1680
+msgid ""
+"This project is already open in another instance of Wing so has been opened "
+"read-only.  Use Save Project As to save any changes to another project "
+"file.  Overriding the lock is also possible but may lose project data "
+"written by the other instance of Wing.%s"
+msgstr ""
+"Ce projet est déjà ouvert dans une autre instance de Wing et a donc été "
+"ouvert en lecture-seule. Utiliser 'Enregistrer le projet sous' pour "
+"sauvegarger toute modification dans un autre fichier projet. Écraser le "
+"verrou est aussi possible mais pourra perdre des données du projet écrites "
+"dans l'autre instance de Wing. %s"
+
+#: src/proj/project.py:1690
+msgid ""
+"Failed to Override Lock::The lock could not be overridden for remote file %s"
+msgstr ""
+"Écrasement du verrou échoué::Le verrou n'a pas pu être écrasé. Veuillez "
+"vérifier si le fichier verrouillé %s est en lecture seule."
+
+#: src/proj/project.py:1693
+msgid ""
+"Failed to Override Lock::The lock could not be overridden.  Please check "
+"whether the lock file %s is read-only."
+msgstr ""
+"Écrasement du verrou échoué::Le verrou n'a pas pu être écrasé. Veuillez "
+"vérifier si le fichier verrouillé %s est en lecture seule."
+
+#: src/proj/project.py:1706
+msgid "Choose Other Project..."
+msgstr "Choisir un autre projet…"
+
+#: src/proj/project.py:1714
+msgid "O_pen Other"
+msgstr "Ouvrir les autres"
+
+#: src/proj/project.py:1716
+msgid "O_verride Lock"
+msgstr "Écraser le Verrou"
+
+#: src/proj/project.py:1825
+msgid "Could not open project::Failed to open remote project file"
+msgstr ""
+
+#: src/proj/project.py:1855
+msgid ""
+"Could not open project::Cannot open version 1.0 projects from a remote "
+"location"
+msgstr ""
+
+#: src/proj/project.py:1915
+msgid ""
+"Could not open project::Failed to open user branch of remote project file"
+msgstr ""
+
+#: src/proj/project.py:1933
+msgid "Could not read per-user project data in '%s'"
+msgstr "N'a pas pu lire les données projet par-utilisateur dans '%s'"
+
+#: src/proj/project.py:1938
+msgid ""
+"Could not open per-user project data in '%s': it may be unreadable or  in an "
+"invalid file format.  Try opening it from the File menu to  inspect the "
+"contents of the file."
+msgstr ""
+"N'a pas pu lire les données projet par-utilisateur dans '%s' : elles peuvent "
+"être illisible ou dans un format de fichier invalide. Essayez de les ouvrir "
+"depuis le menu Fichier pour inspecter le contenu du fichier."
+
+#: src/proj/project.py:2090
+#, fuzzy
+msgid "Project Write Failed::Failed to write remote project file %s: "
+msgstr "Échec de l'écriture d'une partie du fichier projet: "
+
+#: src/proj/project.py:2122 src/proj/project.py:2146
+msgid "General write error"
+msgstr "Erreur d'écriture générale"
+
+#: src/proj/project.py:2152
+msgid ""
+"Unexpected failure to save project file %s: Please submit a bug report from "
+"the Help menu."
+msgstr ""
+"Erreur imprévue pour enregistrer le fichier projet %s : Veuillez envoyer un "
+"Retour de bugs depuis le menu Aide."
+
+#: src/proj/project.py:2158
+msgid "Failed to write parts of the project file: "
+msgstr "Échec de l'écriture d'une partie du fichier projet: "
+
+#: src/proj/project.py:2590
+msgid "Cannot add Unsaved Files"
+msgstr "Impossible d'ajouter des fichiers non sauvegardés"
+
+#: src/proj/project.py:2591
+msgid ""
+"Sorry, you cannot add an unsaved file.  Please save the file before adding "
+"it to the project."
+msgstr ""
+"Désolé, vous ne pouvez pas ajouter un fichier non sauvegardé. Veuillez "
+"enregistrer le fichier avant de l'ajouter au projet."
+
+#: src/proj/properties.py:63
+msgid "Run Arguments"
+msgstr "Arguments d'exécution"
+
+#: src/proj/properties.py:69 src/proj/properties.py:409
+msgid "Enter any run arguments here"
+msgstr ""
+
+#: src/proj/properties.py:80
+msgid "Show this dialog before each run"
+msgstr "Afficher cette boite de dialogue avant chaque exécution"
+
+#: src/proj/properties.py:81 src/proj/properties.py:91
+msgid "Environment"
+msgstr "Environnement"
+
+#: src/proj/properties.py:82
+msgid "Project Home Directory"
+msgstr "Répertoire du projet initial"
+
+#: src/proj/properties.py:83
+msgid "Python _Executable"
+msgstr "_Exécutable Python"
+
+#: src/proj/properties.py:84
+msgid "Python _Path"
+msgstr "_Chemin Python"
+
+#: src/proj/properties.py:86
+msgid "Main Entry Point"
+msgstr "Point d'entrée principal"
+
+#: src/proj/properties.py:88
+msgid "Main Debug File"
+msgstr "Fichier de débogage principal"
+
+#: src/proj/properties.py:89
+msgid "Initial Directory"
+msgstr "Répertoire initial"
+
+#: src/proj/properties.py:92
+msgid "Python Options"
+msgstr "Options Python"
+
+#: src/proj/properties.py:108 src/proj/properties.py:131
+msgid "Use inherited environment"
+msgstr "Utiliser l'environnement hérité"
+
+#: src/proj/properties.py:109
+msgid ""
+"Use the environment values inherited from the system & user settings and "
+"configure python dialog without any changes"
+msgstr ""
+"Utilise les valeurs d'environnement héritées par le système & des "
+"préférences utilisateur et configure la boite de dialogue python sans aucune "
+"modification"
+
+#: src/proj/properties.py:112 src/proj/properties.py:135
+msgid "Add to inherited environment"
+msgstr "Ajouter à l'environnement hérité"
+
+#: src/proj/properties.py:113 src/proj/properties.py:136
+msgid ""
+"Add the values listed below to the environment values inherited from the "
+"system and user settings"
+msgstr ""
+"Ajoute les valeurs listées ci-dessous aux valeurs héritées de "
+"l'environnement du système et des préférences de l'utilisateur"
+
+#: src/proj/properties.py:122
+msgid "Use project values"
+msgstr "Utiliser les valeurs du projet"
+
+#: src/proj/properties.py:123
+msgid ""
+"Use the environment values set by the project.  Use the Project Properties "
+"page to modify these values"
+msgstr ""
+"Utilise les valeurs de l'environnement fixées par le projet. Utiliser la "
+"page des propriétés du projet pour modifier ces valeurs"
+
+#: src/proj/properties.py:126
+msgid "Add to project values"
+msgstr "Ajouter dans les valeurs du projet"
+
+#: src/proj/properties.py:127
+msgid "Add the values listed below to the values set by the project"
+msgstr ""
+"Ajouter les valeurs listées ci-dessous aux valeurs fixées par le projet"
+
+#: src/proj/properties.py:132
+msgid ""
+"Use the environment values inherited from the system and user settings "
+"without any changes"
+msgstr ""
+"Utilise les valeurs d'environnement héritées par le système et des "
+"préférences utilisateur sans aucune modification"
+
+#: src/proj/properties.py:149
+msgid "View/edit project environment"
+msgstr "Voir/éditer l'environnnement du projet"
+
+#: src/proj/properties.py:226
+#, fuzzy
+msgid "Unspecified Build Command"
+msgstr "Commande de construction"
+
+#: src/proj/properties.py:227 src/proj/properties.py:274
+msgid "Configure..."
+msgstr "Configurer..."
+
+#: src/proj/properties.py:228 src/proj/properties.py:275
+msgid "Edit command and run environment for build"
+msgstr "Éditer la commande et l'environnement d'exécution pour construire"
+
+#: src/proj/properties.py:257
+msgid "Unspecified"
+msgstr "Non spécifié"
+
+#: src/proj/properties.py:261
+msgid "Unknown Command"
+msgstr "Commande Inconnue"
+
+#: src/proj/properties.py:271
+msgid "Create New..."
+msgstr "Créer nouveau..."
+
+#: src/proj/properties.py:272
+msgid "Create new command for build"
+msgstr "Créer une nouvelle commande pour construire"
+
+#: src/proj/properties.py:372
+msgid "Use Project Settings and the Following Run Args:"
+msgstr "Utiliser les paramètres du projet et lancer les arguments suivants :"
+
+#: src/proj/properties.py:373
+msgid "Use the environment and Python settings from Project Properties"
+msgstr ""
+"Utiliser les paramètres de l'environnement et de Python depuis les "
+"Propriétés du projet"
+
+#: src/proj/properties.py:375
+msgid "Use Selected Launch Configuration:"
+msgstr "Utiliser le lancement de configuration sélectionné :"
+
+#: src/proj/properties.py:376
+msgid ""
+"Select a custom launch configuration for debugging or executing this file"
+msgstr ""
+"Sélectionner un lancement de configuration personnalisé pour déboguer ou "
+"exécuter ce fichier"
+
+#: src/proj/properties.py:387
+msgid "View/edit project properties"
+msgstr "Voir/éditer les propriétés du projet"
+
+#: src/proj/properties.py:399
+msgid "Edit the selected Launch Configuration"
+msgstr "Éditer le lancement de configuration sélectionné"
+
+#: src/proj/properties.py:399 src/proj/properties.py:560
+#: src/proj/properties.py:3324
+msgid "_Edit"
+msgstr "_Éditer"
+
+#: src/proj/properties.py:400
+msgid "Create and use a new Launch Configuration"
+msgstr "Créer et utiliser un nouveau lancement de configuration"
+
+#: src/proj/properties.py:400 src/proj/properties.py:561
+#: src/proj/properties.py:3325
+msgid "_New"
+msgstr "_Nouveau"
+
+#: src/proj/properties.py:401
+msgid ""
+"Show the Launch Configuration manager to add, edit, or delete launch "
+"configurations."
+msgstr ""
+"Afficher le gestionnaire de lancement de configuration pour ajouter, éditer, "
+"ou supprimer des lancements de configurations."
+
+#: src/proj/properties.py:401 src/proj/properties.py:562
+#: src/proj/properties.py:3326
+msgid "_Manage"
+msgstr "Gérer"
+
+#: src/proj/properties.py:403
+msgid "Unspecified Launch Config"
+msgstr "Lancement de configuration non spécifié"
+
+#: src/proj/properties.py:481
+msgid "Create Launch Configuration"
+msgstr "Créer un lancement de configuration"
+
+#: src/proj/properties.py:484
+msgid "Name of the new launch configuration"
+msgstr "Nom du nouveau lancement de configuration"
+
+#: src/proj/properties.py:487 src/proj/properties.py:602
+msgid "Name"
+msgstr "Nom"
+
+#: src/proj/properties.py:560
+msgid "Edit the selected Named Entry Point"
+msgstr "Éditer le point d'entrée nommé sélectionné"
+
+#: src/proj/properties.py:561
+msgid "Create and use a new Named Entry Point"
+msgstr "Créer et utiliser un nouveau point d'entrée nommé"
+
+#: src/proj/properties.py:562
+msgid ""
+"Show the Named Entry Point manager to add, edit, or delete named entry "
+"points."
+msgstr ""
+"Afficher le gestionnaire de point d'entrée nommé pour ajouter, éditer, ou "
+"supprimer des point d'entrée nommés."
+
+#: src/proj/properties.py:596
+msgid "Create Named Entry Point"
+msgstr "Créer un point d'entrée nommé"
+
+#: src/proj/properties.py:599
+msgid "Name of the new entry point"
+msgstr "Nom du nouveau point d'entrée"
+
+#: src/proj/properties.py:616
+#, fuzzy
+msgid "No Entry Point"
+msgstr "Point d'entrée"
+
+#: src/proj/properties.py:617
+msgid ""
+"No entry point is selected.  Please select an entry point to edit, or create "
+"a new one instead."
+msgstr ""
+
+#: src/proj/properties.py:630
+msgid "Entry Point"
+msgstr "Point d'entrée"
+
+#: src/proj/properties.py:683
+msgid "No File Name"
+msgstr "Par nom de fichier"
+
+#: src/proj/properties.py:684
+msgid "Please select a file before configuring the environment"
+msgstr "Veuillez sélectionner un fichier avant de configurer l'environnement"
+
+#: src/proj/properties.py:691 src/proj/properties.py:1841
+msgid "Start Debug in Current Editor File"
+msgstr "Démarrer le débogage dans le fichier de l'éditeur courant"
+
+#: src/proj/properties.py:692
+msgid "Debug starts in the current file in the editor."
+msgstr "Le débogage commence dans le fichier actuel de l'éditeur."
+
+#: src/proj/properties.py:694
+msgid "Use Selected Entry Point:"
+msgstr "Utilise le point d'entrée sélectionné :"
+
+#: src/proj/properties.py:695
+msgid "Always start debugging with the selected named entry point."
+msgstr ""
+"Toujours démarrer le débogage avec le point d’entrée nommé sélectionné."
+
+#: src/proj/properties.py:697 src/proj/properties.py:1842
+msgid "Start Debug in Selected File:"
+msgstr "Démarrer le débogage dans le fichier sélectionné :"
+
+#: src/proj/properties.py:698
+msgid ""
+"Always start debugging with the selected file, using the environment "
+"configured in its File Properties."
+msgstr ""
+"Toujours démarrer le débogage avec le fichier sélectionné, en utilisant "
+"l’environnement configuré dans ses propriétés de fichier."
+
+#: src/proj/properties.py:709
+#, fuzzy
+msgid "View/edit runtime environment"
+msgstr "Voir/éditer l'environnnement du projet"
+
+#: src/proj/properties.py:897
+msgid "Use default"
+msgstr "Utiliser les valeurs par défaut"
+
+#: src/proj/properties.py:899
+msgid "Custom"
+msgstr "Personnaliser"
+
+#: src/proj/properties.py:922
+msgid "View/edit preference setting"
+msgstr "Voir/éditer les paramètres des préférences"
+
+#: src/proj/properties.py:946
+msgid "Use project setting"
+msgstr "Utiliser les paramètres du projet"
+
+#: src/proj/properties.py:954
+msgid "View/edit project property"
+msgstr "Voir/éditer les propriétés du projet"
+
+#: src/proj/properties.py:1380
+msgid "Initial directory '%s' does not exist"
+msgstr "Le répertoire initial '%s' n'existe pas"
+
+#: src/proj/properties.py:1382
+msgid "Initial directory '%s' is not a directory"
+msgstr "Le répertoire initial '%s' n'est pas un répertoire"
+
+#: src/proj/properties.py:1384
+msgid ""
+"Initial directory '%s' is a partial path -- This must be a full path to "
+"avoid problems locating source files for analysis and debugging.  Use ${WING:"
+"PROJECTDIR} to create paths relative to the project, or reference any "
+"environment variable with ${VAR}."
+msgstr ""
+"Le répertoire initial '%s' est un chemin partiel -- Ce doit être un chemin "
+"complet pour éviter des problèmes pour localiser les fichiers sources pour "
+"l'analyse et le débogage. Utilisez ${WING:PROJECTDIR} pour créer des chemins "
+"relatifs au projet, ou référencez toute variable d’environnement avec ${VAR}."
+
+#: src/proj/properties.py:1409
+msgid "Cannot use a Named Entry Point in this version of Wing"
+msgstr ""
+"Ne peut pas utiliser un point d'entrée nommé dans cette version de Wing"
+
+#: src/proj/properties.py:1412
+msgid "Named Entry Point '%s' does not exist"
+msgstr "Le point d'entrée nommé '%s' n'existe pas"
+
+#: src/proj/properties.py:1415
+msgid "Main Debug File '%s' does not exist"
+msgstr "Le fichier de débogage principal '%s' n'existe pas"
+
+#: src/proj/properties.py:1417
+msgid "Main Debug File '%s' is a directory"
+msgstr "Le fichier de débogage principal '%s' est un répertoire"
+
+#: src/proj/properties.py:1448
+msgid ""
+"It should be the name of a Python interpreter that is on your PATH (such as "
+"python, python3.4, python.exe) or the full path to the Python interpreter "
+"you wish to use."
+msgstr ""
+
+#: src/proj/properties.py:1450
+msgid "Python executable '%s' was not found."
+msgstr "L'exécutable Python '%s' n’a pas été trouvé."
+
+#: src/proj/properties.py:1452
+msgid "Python executable '%s' is not a file."
+msgstr "L'exécutable Python '%s' n'est pas un fichier."
+
+#: src/proj/properties.py:1460
+msgid "Python executable '%s' is a Python file."
+msgstr "L'exécutable Python '%s' n'est pas un fichier Python."
+
+#: src/proj/properties.py:1466
+msgid "Could not launch or inspect Python executable '%s'."
+msgstr "N’a pas pu lancer ou inspecter l’exécutable Python ‘%s’."
+
+#: src/proj/properties.py:1476
+msgid "Python executable cannot be found so must be specified here"
+msgstr "L'exécutable Python ne peut être trouvé et doit donc être spécifié ici"
+
+#: src/proj/properties.py:1478
+msgid "Python executable '%s' is not a file"
+msgstr "L'exécutable Python '%s' n'est pas un fichier"
+
+#: src/proj/properties.py:1513
+msgid "Project Home Directory '%s' does not exist"
+msgstr "Le répertoire du projet initial '%s' n'existe pas"
+
+#: src/proj/properties.py:1515
+msgid "Project Home '%s' is not a directory"
+msgstr "Le projet initial '%s' n'est pas un répertoire"
+
+#: src/proj/properties.py:1535
+msgid ""
+"PYTHONPATH entry '%s' is a partial path -- We strongly recommend using full "
+"paths here to avoid problems locating source files for analysis and "
+"debugging.  "
+msgstr ""
+"L'entrée PYTHONPATH '%s' est un chemin partiel -- Nous recommandons "
+"fortement d'utiliser des chemins complets ici pour éviter des problèmes pour "
+"localiser les fichiers sources pour l'analyse et le débogage."
+
+#: src/proj/properties.py:1538
+msgid ""
+"If you must use a partial path, be sure to set Initial Directory under the "
+"Debug tab or define a Main Debug File so that the starting directory for all "
+"files in your project is unambiguous."
+msgstr ""
+"Si vous devez utiliser un chemin partiel, soyez sûr de définir le répertoire "
+"initial sous l'onglet Débogage ou définir un fichier de Débogage principal "
+"ainsi le répertoire de départ pour tous les fichiers dans votre projet ne "
+"sera pas ambigu."
+
+#: src/proj/properties.py:1543
+msgid "PYTHONPATH entry '%s' is also a partial path"
+msgstr "L'entrée '%s' du PYTHONPATH est aussi un chemin partiel"
+
+#: src/proj/properties.py:1562
+msgid "PYTHONPATH entry '%s' does not exist or cannot be found"
+msgstr "L'entrée '%s' du PYTHONPATH n'existe pas ou ne peut pas être trouvée"
+
+#: src/proj/properties.py:1564
+msgid "PYTHONPATH entry '%s' is not a directory"
+msgstr "L'entrée «%s» du PYTHONPATH n'est pas un répertoire"
+
+#: src/proj/properties.py:1576
+msgid "Environment must be in var=value form, one per line:"
+msgstr "L'environnement doit être de la forme var=valeur, un par ligne :"
+
+#: src/proj/properties.py:1578
+msgid "Env entry %s is invalid"
+msgstr "L'entrée %s de l'environnement est invalide"
+
+#: src/proj/properties.py:1597
+msgid "(from project properties)"
+msgstr "(depuis les propriétés du projet)"
+
+#: src/proj/properties.py:1604
+msgid ""
+"This file is stored on remote host '%s' but the selected launch "
+"configuration %s is for a host '%s'"
+msgstr ""
+
+#: src/proj/properties.py:1607
+msgid ""
+"This file is stored on remote host '%s' but the selected launch "
+"configuration %s is for localhost"
+msgstr ""
+
+#: src/proj/properties.py:1611
+msgid ""
+"This file is stored on localhost but the selected launch configuration %s is "
+"for a remote host '%s'"
+msgstr ""
+
+#: src/proj/properties.py:1628
+msgid "The selected launch configuration no longer exists."
+msgstr "Le lancement de configuration sélectionné n'existe plus."
+
+#: src/proj/properties.py:1659
+msgid "Zope2 instance directory must be specified when Zope support is enabled"
+msgstr ""
+"Le répertoire d'instance Zope2 doit être spécifié quand le support Zope est "
+"activé"
+
+#: src/proj/properties.py:1662
+msgid "Zope2 instance directory '%s' does not exist or is not a directory"
+msgstr ""
+"Le répertoire d'instance Zope 2 '%s' n'existe pas ou n'est pas un répertoire"
+
+#: src/proj/properties.py:1675
+msgid ""
+"Zope2 installation directory could not be read from ZOPEINST/etc/zope.conf "
+"or does not exist -- using '%s'"
+msgstr ""
+"Le répertroire d'installation Zope2 ne peut pas être lu depuis ZOPEINST/etc/"
+"zope.conf ou n'existe pas -- utilise '%s'"
+
+#: src/proj/properties.py:1679
+msgid "Zope2 instance directory '%s' missing expected 'Products' subdirectory"
+msgstr ""
+"Il manque le sous-répertoire attendu 'Products' dans le répertoire "
+"d'instance Zope2 '%s'"
+
+#: src/proj/properties.py:1692
+msgid ""
+"Zope2 home directory '%s' (obtained from etc/zope.conf in Zope Instance) "
+"does not exist or is not a directory"
+msgstr ""
+"Le répertoire principal '%s' Zope2 (obtenu depuis etc/zope.conf dans "
+"l'instance Zope) n'existe pas ou n'est pas un répertoire"
+
+#: src/proj/properties.py:1696
+msgid ""
+"Zope2 home directory '%s' (obtained from etc/zope.conf in the Zope Instance) "
+"appears invalid -- missing expected directories and files"
+msgstr ""
+"Le répertoire principal '%s' Zope2 (obtenu depuis etc/zope.conf dans "
+"l'instance Zope) apparaît invalide -- il manque les répertoires et fichier "
+"attendus"
+
+#: src/proj/properties.py:1704
+#, fuzzy
+msgid ""
+"Zope2 host '%s' does not have an entry in the Debugger > Advanced > Location "
+"Map preference."
+msgstr ""
+"L'hôte '%s' Zope2 n'est pas encore une entrée dans la préférence Débogueur / "
+"Externe/Distant / Carte de localisation."
+
+#: src/proj/properties.py:1712
+msgid "Single User (One File)"
+msgstr "Utilisateur simple (un fichier)"
+
+#: src/proj/properties.py:1713
+msgid "Shared (Two Files)"
+msgstr "Partagé (deux fichiers)"
+
+#: src/proj/properties.py:1718
+#, fuzzy
+msgid ""
+"Type of project:  Single user projects store all values in one *.wpr file, "
+"and shared projects stores the sharable configuration in *.wpr and user-"
+"specific values in *.wpu.  In shared projects, the *.wpr file can be checked "
+"into revision control for sharing with other developers.  Note that shared "
+"projects cannot be read byWing Personal."
+msgstr ""
+"Type de projet : soit un utilisateur seul qui stocke toutes les valeurs dans "
+"un fichier, ou un projet multi-utilisateur qui stocke le coeur du projet "
+"dans *.wpr and les valeurs spécifiques de l'utilisateur dans *.wpu. Le "
+"fichier *.wpr peut être vérifier en contrôle de révision pour partager avec "
+"d'autres développeurs."
+
+#: src/proj/properties.py:1808
+msgid "Python Configuration"
+msgstr "Configuration Python"
+
+#: src/proj/properties.py:1810
+msgid "Project Properties: %s"
+msgstr "Propriétés du projet : %s"
+
+#: src/proj/properties.py:1848
+msgid "Debug Child Processes"
+msgstr "Déboguer les process enfants"
+
+#: src/proj/properties.py:1850
+#, fuzzy
+msgid "View/edit Debug Child Processes preference"
+msgstr "Voir/éditer l'affichage des préférences des espaces"
+
+#: src/proj/properties.py:1866 src/proj/properties.py:2692
+msgid "None"
+msgstr "None"
+
+#: src/proj/properties.py:1872 src/proj/properties.py:2703
+msgid "Unbuffered (-u)"
+msgstr "Sans tampon (-u)"
+
+#: src/proj/properties.py:1876
+msgid "Debug Server Port"
+msgstr "Port de serveur de débogage"
+
+#: src/proj/properties.py:1885
+msgid "Automatic Perspectives"
+msgstr "Perspectives automatiques"
+
+#: src/proj/properties.py:1891
+msgid "Remote"
+msgstr "Distant"
+
+#: src/proj/properties.py:1917
+msgid "Analyze main debug file for sys.path changes"
+msgstr ""
+"Analyser le fichier de débogage principal pour les modifications de sys.path"
+
+#: src/proj/properties.py:1923 src/proj/properties.py:2824
+msgid "_Debug/Execute"
+msgstr "_Déboguer/Exécuter"
+
+#: src/proj/properties.py:1925 src/proj/properties.py:2834
+msgid "_Debug"
+msgstr "_Déboguer"
+
+#: src/proj/properties.py:1931
+msgid "E_nvironment"
+msgstr "E_nvironnement"
+
+#: src/proj/properties.py:1935
+msgid "Opt_ions"
+msgstr "Opt_ions"
+
+#: src/proj/properties.py:1939
+msgid "E_xtensions"
+msgstr "E_xtensions"
+
+#: src/proj/properties.py:1953
+msgid "_VCS"
+msgstr "_VCS"
+
+#: src/proj/properties.py:2010
+msgid "Project Type"
+msgstr "Type de projet"
+
+#: src/proj/properties.py:2016
+#, fuzzy
+msgid "Default File Encoding"
+msgstr "Encodage par défaut"
+
+#: src/proj/properties.py:2018
+msgid "View/edit Default Encoding Preference"
+msgstr "Voir/éditer les préférences d'encodage par défaut"
+
+#: src/proj/properties.py:2022
+msgid "Location of Project File"
+msgstr "Emplacement du fichier projet"
+
+#: src/proj/properties.py:2023
+msgid "Specified Directory:"
+msgstr "Répertoire spécifié :"
+
+#: src/proj/properties.py:2025
+msgid "Preferred Line Ending"
+msgstr "Fin de ligne Préférée"
+
+#: src/proj/properties.py:2027
+msgid "View/edit Line Ending preference"
+msgstr "Voir/éditer les préférences de fin de ligne"
+
+#: src/proj/properties.py:2030
+msgid "Line Ending Policy"
+msgstr "Politique de fin de ligne"
+
+#: src/proj/properties.py:2032
+msgid "Preferred Indent Style"
+msgstr "Style d'indent préféré"
+
+#: src/proj/properties.py:2034
+msgid "View/edit Indent Style preference"
+msgstr "Voir/éditer les préférences de style d'indent"
+
+#: src/proj/properties.py:2037
+msgid "Indent Style Policy"
+msgstr "Politique de style d'indent"
+
+#: src/proj/properties.py:2039
+msgid "Strip Trailing White Space"
+msgstr "Enlever les espaces blancs de fin de chaîne"
+
+#: src/proj/properties.py:2041
+#, fuzzy
+msgid "View/edit Strip Trailing White Space preference"
+msgstr "Voir/éditer l'affichage des préférences des espaces"
+
+#: src/proj/properties.py:2063
+msgid "Enable Django Template Debugging"
+msgstr "Activer le débogage de modèle Django"
+
+#: src/proj/properties.py:2064 src/proj/properties.py:2068
+#: src/proj/properties.py:2072
+msgid "Help"
+msgstr "Aide"
+
+#: src/proj/properties.py:2065
+msgid "Show Django setup How-To in the help viewer"
+msgstr ""
+"Afficher le guide pratique d'installation Django dans le visionneur de l'aide"
+
+#: src/proj/properties.py:2067
+msgid "Matplotlib Event Loop Support"
+msgstr "Support de boucle d'événement Matplotlib"
+
+#: src/proj/properties.py:2069
+msgid "Show Matplotlib How-To in the help viewer"
+msgstr "Afficher le guide pratique de Matplotlib dans le visionneur de l'aide"
+
+#: src/proj/properties.py:2071
+msgid "Enable Zope2/Plone Support"
+msgstr "Activer le support Zope2/Plone"
+
+#: src/proj/properties.py:2073
+msgid "Show Zope setup How-To in the help viewer"
+msgstr ""
+"Afficher le guide pratique d'installation Zope dans le visionneur de l'aide"
+
+#: src/proj/properties.py:2153
+msgid "Add Zope Files?"
+msgstr "Ajouter des fichiers Zope ?"
+
+#: src/proj/properties.py:2154
+msgid ""
+"Would you like to automatically add Zope source files to your project?  "
+"Select the directories to include:"
+msgstr ""
+"Voulez-vous ajouter automatiquement les fichiers sources Zope à votre "
+"projet ? Sélectionner les répertoires à inclure :"
+
+#: src/proj/properties.py:2157
+msgid "_Add Files"
+msgstr "_Ajouter des fichiers"
+
+#: src/proj/properties.py:2160
+msgid "Do_n't show this notice again"
+msgstr "Ne plus afficher cette notice à nouveau"
+
+#: src/proj/properties.py:2225 src/proj/properties.py:2234
+msgid "Could not install WingDBG"
+msgstr "N'a pas pu installer WingDBG"
+
+#: src/proj/properties.py:2226
+msgid ""
+"Could not install WingDBG because an exception occurred.  Please check that "
+"%s is writable and %s exists"
+msgstr ""
+"N'a pas pu installer WingDBG car une exception est survenue. Veuillez "
+"vérifier que %s peut être écrit et que %s existe"
+
+#: src/proj/properties.py:2235
+msgid ""
+"Could not install WingDBG.  Please check that %s is writable and %s exists"
+msgstr ""
+"N'a pas pu installer WingDBG. Veuillez vérifier que %s peut être écrit et "
+"que %s existe"
+
+#: src/proj/properties.py:2251
+msgid "Install Zope Debugging Support?"
+msgstr "Installer le support de débogage Zope ?"
+
+#: src/proj/properties.py:2252
+msgid ""
+"Wing could not find the WingDBG product in the selected Zope installation.  "
+"Debugging will not work without it.  Would you like to install WingDBG in %s?"
+msgstr ""
+"Wing n'a pas pu trouver le produit WingDBG dans l'installation Zope "
+"sélectionnée. Le débogage ne fonctionnera pas sans cela. Voulez-vous "
+"installer WingDBG dans %s ?"
+
+#: src/proj/properties.py:2256
+msgid "_Install WingDBG"
+msgstr "Installer WingDBG"
+
+#: src/proj/properties.py:2295
+msgid "Version Control"
+msgstr "Contrôle de version"
+
+#: src/proj/properties.py:2298
+msgid "Show Preferences"
+msgstr "Afficher les préférences"
+
+#: src/proj/properties.py:2312
+msgid "Carriage Return \\r (Mac OS <= 9)"
+msgstr "Retour chariot \\r (Mac OS <= 9)"
+
+#: src/proj/properties.py:2313
+msgid "Carriage Return + Line Feed \\r\\n (Windows)"
+msgstr "Retour chariot et saut de ligne \\r\\n (Windows)"
+
+#: src/proj/properties.py:2318
+msgid ""
+"The type of end-of-line characters to use in this file.  Changing this value "
+"will cause the file's existing line endings to be translated in the editor.  "
+"Save the editor to change the file on disk."
+msgstr ""
+"Le type de caractères de fin-de-ligne à utiliser dans ce fichier. Changer "
+"cette valeur provoquera le changement des fin-de-ligne existantes de ce "
+"fichier dans l'éditeur. Enregistrer l'éditeur pour modifier le fichier sur "
+"le disque."
+
+#: src/proj/properties.py:2336
+msgid ""
+"The file type to use for this file.  This affects how Wing sees the file for "
+"source analysis and how it is syntax highlighted."
+msgstr ""
+"Le type de fichier à utiliser pour ce fichier. Cela affecte comment Wing "
+"voit le fichier pour l'analyse de la source et comment la syntaxe est "
+"surlignée."
+
+#: src/proj/properties.py:2343
+msgid ""
+"Sets whether or not this file is read-only on disk.  Be cautious with this "
+"option if you are using a revision control system that relies on file "
+"permissions for locking."
+msgstr ""
+"Fixe, ou non, ce fichier en lecture seule sur le disque. Soyez prudent avec "
+"cette option si vous utilisez un système de contrôle de révision qui se fie "
+"aux permissions de fichier pour bloquer."
+
+#: src/proj/properties.py:2508
+msgid "Could not convert encoding"
+msgstr "N'a pas pu convertir l'encodage"
+
+#: src/proj/properties.py:2509
+msgid ""
+"Encoding of this file cannot be set here because the file contains a comment "
+"specifying '%s' encoding.  Please edit the comment instead."
+msgstr ""
+"L'encodage de fichier ne peut pas être fixé ici car le fichier contient un "
+"commentaire '%s' spécifiant l'encodage. Veuillez plutôt éditer ce "
+"commentaire."
+
+#: src/proj/properties.py:2536
+msgid "Reload file with new encoding?"
+msgstr "Recharger avec un nouvel encodage ?"
+
+#: src/proj/properties.py:2538 src/proj/properties.py:2542
+msgid "\"set by preference\""
+msgstr "\"affecté par les préférences\""
+
+#: src/proj/properties.py:2545
+msgid ""
+"You have changed the encoding of this file from %s to %s.  Would you like to "
+"discard changes and reload the file now using the new encoding, or just save "
+"the current editor's content using the new encoding the next time it is "
+"saved?  You should reload if the file was not opened correctly with the old "
+"encoding."
+msgstr ""
+"Vous avez changé l'encodage de ce fichier de %s à %s. Voulez vous annulez "
+"ces modifications et recharger le fichier maintenant en utilisant le nouvel "
+"encodage, ou juste enregistrer le contenu de l'éditeur en utilisant le "
+"nouvel encodage la prochaine fois qu'il sera sauvegardé ? Vous devriez le "
+"recharger si le fichier n'a pas été ouvert correctement avec l'ancien "
+"encodage."
+
+#: src/proj/properties.py:2558
+msgid "Abandon Changes?"
+msgstr "Abandon des modifications ?"
+
+#: src/proj/properties.py:2559
+msgid ""
+"Do you really want to abandon your changes and reread this file from disk?"
+msgstr ""
+"Voulez vous vraiment abandonner vos modifications et relire ce fichier "
+"depuis le disque ?"
+
+#: src/proj/properties.py:2561
+msgid "_Abandon Changes"
+msgstr "_Abandon des modifications"
+
+#: src/proj/properties.py:2571
+msgid "Reload Now"
+msgstr "Recharger maintenant"
+
+#: src/proj/properties.py:2572
+msgid "Do Not Reload"
+msgstr "Ne pas recharger"
+
+#: src/proj/properties.py:2573
+msgid "Cancel Encoding Change"
+msgstr "Annuler le changement d'encodage"
+
+#: src/proj/properties.py:2607
+msgid "File Properties: %s"
+msgstr "Propriétés du fichier : %s"
+
+#: src/proj/properties.py:2730
+msgid "Set by Encoding Comment (%s)"
+msgstr "Affecté par le commentaire d'encodage (%s)"
+
+#: src/proj/properties.py:2744 src/proj/properties.py:2748
+msgid "Plain Text"
+msgstr "Texte plein"
+
+#: src/proj/properties.py:2749
+msgid "By File Name (%s)"
+msgstr "Par nom de fichier (%s)"
+
+#: src/proj/properties.py:2754
+msgid "File Type"
+msgstr "Type du fichier"
+
+#: src/proj/properties.py:2756
+msgid "Encoding"
+msgstr "Encodage"
+
+#: src/proj/properties.py:2758
+msgid "View/edit Default Text Encoding preference"
+msgstr "Voir/éditer les préférences d'encodage du texte par défaut"
+
+#: src/proj/properties.py:2762
+msgid "Line Ending Style"
+msgstr "Style de fin de ligne"
+
+#: src/proj/properties.py:2764
+msgid "Indent Style"
+msgstr "Style d'indent"
+
+#: src/proj/properties.py:2766
+msgid "Convert Indents"
+msgstr "Convertir les indents"
+
+#: src/proj/properties.py:2767
+msgid "Display the indentation conversion tool"
+msgstr "Afficher l'outil de conversion d'indentation"
+
+#: src/proj/properties.py:2771
+msgid "Read-only on Disk"
+msgstr "Lecture seule sur le disque"
+
+#: src/proj/properties.py:2780
+msgid "Show White Space"
+msgstr "Afficher les espaces blancs"
+
+#: src/proj/properties.py:2782
+msgid "View/edit Show Whitespace preference"
+msgstr "Voir/éditer l'affichage des préférences des espaces"
+
+#: src/proj/properties.py:2785
+msgid "Show EOL"
+msgstr "Afficher les fin de ligne"
+
+#: src/proj/properties.py:2787
+msgid "View/edit Show EOL preference"
+msgstr "Voir/éditer l'affichage des préférences de fin de lignes"
+
+#: src/proj/properties.py:2790
+msgid "Show Indent Guides"
+msgstr "Afficher les guides d'indents"
+
+#: src/proj/properties.py:2792
+msgid "View/edit Show Indent Guides preference"
+msgstr "Voir/éditer Afficher les préférences des guides d'indent"
+
+#: src/proj/properties.py:2795
+msgid "Ignore Indent Errors"
+msgstr "Ignorer les erreurs d'indents"
+
+#: src/proj/properties.py:2797
+msgid "Ignore EOL Errors"
+msgstr "Ignorer les erreurs de fin de ligne"
+
+#: src/proj/properties.py:2799
+msgid "Ensure Ending EOL"
+msgstr "Assurer les fins EOL"
+
+#: src/proj/properties.py:2801
+#, fuzzy
+msgid "View/edit Ensure Ending EOL When Saving preference"
+msgstr "Voir/éditer les préférences de fin de ligne"
+
+#: src/proj/properties.py:2813
+msgid "_File Attributes"
+msgstr "Attibuts du _fichier"
+
+#: src/proj/properties.py:2818
+msgid "_Editor"
+msgstr "_Éditeur"
+
+#: src/proj/properties.py:2829
+msgid "_Environment"
+msgstr "_Environnement"
+
+#: src/proj/properties.py:2910
+msgid "Debug: %s"
+msgstr "Déboguer : %s"
+
+#: src/proj/properties.py:2936
+msgid "Name of directory"
+msgstr "Nom du répertoire"
+
+#: src/proj/properties.py:2938
+msgid "Check this to scan all sub-directories recursively."
+msgstr "Cocher ceci pour scanner tous les sous-répertoires récursivement."
+
+#: src/proj/properties.py:2940
+msgid ""
+"The filter that specifies which of the directory's files should be included "
+"in the project.  This should be an fnmatch/glob style pattern (such as '*' "
+"or '*.py') or the name of a Filter configured in preferences.  Use the "
+"button to configure Filters."
+msgstr ""
+
+#: src/proj/properties.py:2946
+msgid ""
+"Whether to show files matching the Hidden and Temporary file filter.  When "
+"checked, those files are not included in the project.  When unchecked, all "
+"files in the directory are included in the project.  Use the button to alter "
+"the Hidden and Temporary file filter in preferences."
+msgstr ""
+
+#: src/proj/properties.py:2952
+msgid ""
+"Check this to watch for changes on disk and update the project view to "
+"reflect any changes to files existing on disk.  When unchecked, the "
+"directory is only scanned once at startup or by right-clicking on the "
+"directory and selecting Rescan Directory."
+msgstr ""
+
+#: src/proj/properties.py:2954
+msgid "The name of the directory."
+msgstr "Le nom du répertoire"
+
+#: src/proj/properties.py:2956
+msgid ""
+"Files and directories located within this directory that have been manually "
+"removed or excluded from display in the project.  Use the Clear Excludes "
+"button to remove all excludes for this directory."
+msgstr ""
+
+#: src/proj/properties.py:2968
+msgid "Directory Properties"
+msgstr "Propriétés du répertoire"
+
+#: src/proj/properties.py:2995
+msgid "No Excludes"
+msgstr "Pas d'exclusions"
+
+#: src/proj/properties.py:2996
+msgid "Hidden and Temporary files"
+msgstr "Fichiers cachés et temporaires"
+
+#: src/proj/properties.py:3005 src/proj/properties.py:3014
+#: src/proj/properties.py:3022
+msgid "Directory"
+msgstr "Répertoire"
+
+#: src/proj/properties.py:3030
+msgid "Include"
+msgstr "Inclure"
+
+#: src/proj/properties.py:3038
+msgid "Exclude"
+msgstr "Exclure"
+
+#: src/proj/properties.py:3045
+msgid "Recursive"
+msgstr "Récursif"
+
+#: src/proj/properties.py:3047
+msgid "Watch for external changes"
+msgstr "Surveiller les modifications externes"
+
+#: src/proj/properties.py:3055
+msgid "Clear Excludes"
+msgstr "Effacer les exclusions"
+
+#: src/proj/properties.py:3056
+msgid "Immediately clear all exclusions for this directory"
+msgstr "Nettoyer immédiatement toutes les exclusions pour ce répertoire"
+
+#: src/proj/properties.py:3139
+msgid "No files or subdirectories excluded"
+msgstr "Aucun fichier ou sous-répertoire exclu"
+
+#: src/proj/properties.py:3141
+msgid "%s files or subdirectories excluded"
+msgstr "%s fichiers ou sous-répertoires exclus"
+
+#: src/proj/properties.py:3209
+#, fuzzy
+msgid "Remote Inspect Failed"
+msgstr "Projet distant créé"
+
+#: src/proj/properties.py:3210
+msgid "Could not show file dialog because remote inspect of %s failed"
+msgstr ""
+
+#: src/proj/properties.py:3284
+msgid "The following referenced environment variables were undefined: "
+msgstr ""
+"Les variables d'environnement référencées suivantes étaient indéfinies : "
+
+#: src/proj/properties.py:3288
+msgid "Invalid Properties"
+msgstr "Propriétés invalides"
+
+#: src/proj/properties.py:3288
+msgid ""
+"Some values are invalid:\n"
+"\n"
+msgstr ""
+"Certaines valeurs sont invalides :\n"
+"\n"
+
+#: src/proj/properties.py:3292
+msgid ""
+"\n"
+"Some warnings were also encountered:\n"
+"\n"
+msgstr ""
+"\n"
+"Quelques avertissements ont aussi été détectés :\n"
+"\n"
+
+#: src/proj/properties.py:3295
+msgid ""
+"\n"
+"Please correct the values and try again.\n"
+msgstr ""
+"\n"
+"Veuillez corriger ces valeurs et essayer à nouveau.\n"
+
+#: src/proj/properties.py:3300
+msgid ""
+"\n"
+"Some property warnings were encountered:\n"
+"\n"
+msgstr ""
+"\n"
+"Quelques avertissements de propriétés ont été détectés :\n"
+"\n"
+
+#: src/proj/properties.py:3310
+msgid "Properties Warnings"
+msgstr "Avertissements des propriétés"
+
+#: src/proj/properties.py:3324
+msgid "Edit the selected remote host configuration"
+msgstr "Éditer le lancement de configuration distant sélectionné"
+
+#: src/proj/properties.py:3325
+msgid "Create and use a new remote host configuration"
+msgstr "Créer et utiliser une nouvelle configuration d’hôte distant"
+
+#: src/proj/properties.py:3326
+#, fuzzy
+msgid ""
+"Show the remote host configuration manager to add, edit, or delete named "
+"remote hosts."
+msgstr ""
+"Afficher le gestionnaire de point d'entrée nommé pour ajouter, éditer, ou "
+"supprimer des point d'entrée nommés."
+
+#: src/proj/properties.py:3362
+msgid "Create Remote Host Configuration"
+msgstr "Créer une configuration d’hôte distant"
+
+#~ msgid ""
+#~ "Python executable '%s' is a Python file.  It should be a Python "
+#~ "interpreter (such as python.exe or python)."
+#~ msgstr ""
+#~ "L’exécutable Python '%s' est un fichier Python. Ce devrait être un "
+#~ "interpréteur Python (comme python.exe ou python)."
+
+#~ msgid "The PYTHONPATH to use for this project."
+#~ msgstr "Le PYTHONPATH à utiliser avec ce projet."
+
+#, fuzzy
+#~ msgid "Name of the new remote host configuration"
+#~ msgstr "Nom du nouveau lancement de configuration"
+
+#~ msgid "Python executable '%s' is not on your PATH."
+#~ msgstr "L'exécutable Python '%s' n'est pas dans votre PATH."
+
+#~ msgid "Matplotlib"
+#~ msgstr "Matplotlib"
+
+#~ msgid "Django"
+#~ msgstr "Django"
+
+#~ msgid "Flask"
+#~ msgstr "Flask"
+
+#~ msgid "Plone"
+#~ msgstr "Plone"
+
+#~ msgid "Pyramid"
+#~ msgstr "Pyramid"
+
+#~ msgid "Turbogears"
+#~ msgstr "Turbogears"
+
+#~ msgid "Web2py"
+#~ msgstr "Web2py"
+
+#~ msgid "PyGTK"
+#~ msgstr "PyGTK"
+
+#~ msgid "PyGObject"
+#~ msgstr "PyGObject"
+
+#~ msgid "PyQt"
+#~ msgstr "PyQt"
+
+#~ msgid "WxPython"
+#~ msgstr "WxPython"
+
+#~ msgid "Blender"
+#~ msgstr "Blender"
+
+#~ msgid "NUKE/NUKEX"
+#~ msgstr "NUKE/NUKEX"
+
+#~ msgid "Re_move From Project"
+#~ msgstr "En_lever du projet"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Recent"
+#~ msgstr "Récent"
+
+#~ msgid "New"
+#~ msgstr "Nouveau"
+
+#~ msgid "Files Scanned:"
+#~ msgstr "Fichiers scannés :"
+
+#~ msgid "Analysis Statistics"
+#~ msgstr "Analyse statistique"
+
+#~ msgid ""
+#~ "Initial directory in which to run the debug process starts. If "
+#~ "unspecified, the location of the debug file will be used."
+#~ msgstr ""
+#~ "Répertoire initial dans lequel se lance le processus de débogage. Si non "
+#~ "spécifié, l'emplacement du fichier de débogage sera utilisé."
+
+#~ msgid ""
+#~ "Select whether to stop all threads when debugger stops at a breakpoint, "
+#~ "an exception, or while stepping or to stop only one.  When only one "
+#~ "thread is stopped, any other threads will continue running -- note that "
+#~ "the other threads will not stop for any reason while the first is stopped "
+#~ "so any breakpoints or exceptions on the other threads will be ignored."
+#~ msgstr ""
+#~ "Sélectionne d'arrêter toutes les tâches quand le débogueur s'arrête sur "
+#~ "un point d'arrêt, une exception, durant une marche pas à pas ou s'arrête "
+#~ "seulement une tâche. Quand seulement une tâche est arrêtée, toutes les "
+#~ "autres tâches continueront à être exécutées -- noter que les autres "
+#~ "tâches ne s'arreteront pas pour quelque raison que ce soit tant que la "
+#~ "première tâche est arrêtée ainsi tout point d'arrêt ou exceptions sur "
+#~ "d'autres tâches seront ignorées."
+
+#~ msgid ""
+#~ "Names of attributes that will be stored in the project files's shared "
+#~ "layer"
+#~ msgstr ""
+#~ "Noms des attributs qui seront mémorisés dans les couches partagées des "
+#~ "fichiers projet"
+
+#~ msgid "Open in Wing"
+#~ msgstr "Ouvrir dans Wing"
+
+#~ msgid "Move To Recycling Bin"
+#~ msgstr "Déplacer vers la corbeille"
+
+#~ msgid ""
+#~ "Controls the type of project file that is written by default for new "
+#~ "projects:  \"normal\" for regular single-file format with extension .wpr, "
+#~ "and \"shared\" for split format where the .wpr file contains shared "
+#~ "project info that can be checked into a shared revision control "
+#~ "repository and the .wpu file contains user-specific information such as "
+#~ "location of breakpoints. This is useful to avoid revision control wars on "
+#~ "a project with multiple developers."
+#~ msgstr ""
+#~ "Contrôle le type de fichier projet qui est écrit par défaut pour les "
+#~ "nouveaux projets : \"normal\" pour les format de fichiers-simples "
+#~ "réguliers avec une extension .wpr, et \"partagé\" pour diviser les "
+#~ "formats où les fichiers .wpr contiennent des informations de projets "
+#~ "partagés qui peuvent être inspectées dans un dépôt partagé de contrôle de "
+#~ "révision et les fichier .wpu contiennent des informations spécifiques à "
+#~ "l'utilisateur comme l'emplacement de points d'arrêts. C'est utile pour "
+#~ "éviter des guerres de contrôles de révision sur un projet avec plusieurs "
+#~ "développeurs."
+
+#~ msgid "Stop All Threads"
+#~ msgstr "Arrêter toutes les tâches"
+
+#~ msgid "<none>"
+#~ msgstr "<none>"
+
+#~ msgid "Stop One Thread"
+#~ msgstr "Arrêter une tâche"
+
+#~ msgid "Op_tions"
+#~ msgstr "Op_tions"
+
+#~ msgid ""
+#~ "Files to include, can either be a fnmatch / glob pattern or the name of a "
+#~ "file set"
+#~ msgstr ""
+#~ "Fichiers à inclure, peuvent être soit des modèles fnmatch / glob ou le "
+#~ "nom d'un jeu de fichiers"
+
+#~ msgid "Hidden"
+#~ msgstr "Caché"
+
+#~ msgid "Watch for Changes"
+#~ msgstr "Surveiller les modifications"
+
+#~ msgid "Filter"
+#~ msgstr "Filtre"
+
+#~ msgid ""
+#~ "This will compact your project by removing non-critical information that "
+#~ "accumulates over time.  Please select what you would like to prune.  Note "
+#~ "that after pruning some information like window positions will be lost."
+#~ msgstr ""
+#~ "Cela compactera votre projet en enlevant les informations non critiques "
+#~ "qui s'accumulent dans le temps. Veuillez sélectionner ce que voudriez "
+#~ "retirer. Notez qu'après ce retrait quelques informations comme la "
+#~ "position des fenêtes seront perdues."
+
+#, fuzzy
+#~ msgid "_Prune Selected"
+#~ msgstr "Exécution sélectionnée"
+
+#~ msgid "Prune attributes for non-existent files"
+#~ msgstr "Retirer des attributs pour les fichiers non-existants"
+
+#~ msgid "Prune visual state information"
+#~ msgstr "Retirer les informations de l'état visuel"
+
+#~ msgid "Prune expression and command histories"
+#~ msgstr "Retirer l'expression et l'historique des commandes"
+
+#~ msgid "Prune non-critical debug attributes"
+#~ msgstr "Retirer les attributs de débogage non critiques"
+
+#~ msgid "Compaction complete"
+#~ msgstr "Compression terminée"
+
+#~ msgid ""
+#~ "The project has been compacted.  %ld unused attributes were removed.  %ld "
+#~ "attribute sets for non-existent files were removed."
+#~ msgstr ""
+#~ "Le projet a été compacté. %ld attributs non utilisés ont été enlevés. %ld "
+#~ "jeux d'attributs pour des fichiers non-existants ont été retirés."
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Shared"
+#~ msgstr "Partagé"
+
+#~ msgid "Add File"
+#~ msgstr "Ajouter des fichiers"
+
+#~ msgid "Add Package"
+#~ msgstr "Ajouter des paquets"
+
+#~ msgid "untitled_%d.wpr"
+#~ msgstr "sans-titre_%d.wpr"
+
+#~ msgid "Update"
+#~ msgstr "Mettre �jour"
+
+#~ msgid "Project Size Exceeded"
+#~ msgstr "Taille du projet excessive"
+
+#~ msgid "Project-wide"
+#~ msgstr "A travers le projet"
+
+#~ msgid "Per-file"
+#~ msgstr "Par fichier"

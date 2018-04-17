@@ -1,0 +1,808 @@
+# Module scripts_django translation file for language=es
+# Copyright (C) 2016 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 6.0.0\n"
+"POT-Creation-Date: 2018-03-21 10:07+EDT\n"
+"PO-Revision-Date: 2016-11-28 20:57 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: scripts/django.py:1
+msgid ""
+"A plugin that provides Django-specific functionality when a project\n"
+"looks like it contains Django files.\n"
+"\n"
+"Copyright (c) 2010, Wingware All rights reserved.\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n"
+"IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n"
+"CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n"
+"TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n"
+"SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"
+"\n"
+msgstr ""
+
+#: scripts/django.py:49
+msgid ""
+"Utility that determines contexts attribute for always-active \n"
+"  commands so those commands don't show in the GUI when the plugin\n"
+"  is inactive"
+msgstr ""
+
+#: scripts/django.py:53 scripts/django.py:957 scripts/django.py:1040
+#: scripts/django.py:1053 scripts/django.py:1143 scripts/django.py:1187
+#: scripts/django.py:1230 scripts/django.py:1270 scripts/django.py:1278
+#: scripts/django.py:1291
+msgid "Djang_o"
+msgstr ""
+
+#: scripts/django.py:95
+msgid ""
+"The following actions were completed successfully:\n"
+"\n"
+msgstr ""
+
+#: scripts/django.py:101
+msgid ", and\n"
+msgstr ""
+
+#: scripts/django.py:110
+msgid "Some errors occurred.  You may need to correct these manually:"
+msgstr ""
+
+#: scripts/django.py:124
+msgid "You may need to configure Python Executable in Project Properties"
+msgstr ""
+
+#: scripts/django.py:145
+msgid ""
+"Start a new Django project with given site name and superuser account.\n"
+"  This will prompt for the location of django-admin.py, the parent "
+"directory,\n"
+"  and the site name to use. It then runs django-admin.py startproject, "
+"edits\n"
+"  settings.py fields DATABASE_ENGINE and DATABASE_NAME to use sqlite3 by\n"
+"  default, adds django.contrib.admin to INSTALLED_APPS in settings.py, runs\n"
+"  syncdb/migrate (creating superuser account if one was given), sets up the "
+"default\n"
+"  admin templates by copying base_site.html into the project, and then "
+"offers\n"
+"  to create a new project in Wing and run the django-setup-wing-project\n"
+"  command to configure the Wing project for use with the new Django\n"
+"  project."
+msgstr ""
+
+#: scripts/django.py:175
+msgid "Could not find django-admin.py"
+msgstr ""
+
+#: scripts/django.py:177
+msgid ""
+"Could not find django-admin.py on the path.  Please specify the full path."
+msgstr ""
+
+#: scripts/django.py:179
+msgid "Could not open %s -- please check the path"
+msgstr ""
+
+#: scripts/django.py:190
+msgid "Could not determine Python to use"
+msgstr ""
+
+#: scripts/django.py:191
+msgid ""
+"Could not find the Python to use by inspecting %s -- please enter the full "
+"path to the Python executable (python.exe or virtualenv Python) to use with "
+"Django"
+msgstr ""
+
+#: scripts/django.py:208
+msgid "Python Executable"
+msgstr ""
+
+#: scripts/django.py:223
+msgid "OK"
+msgstr ""
+
+#: scripts/django.py:224 scripts/django.py:482
+msgid "Cancel"
+msgstr ""
+
+#: scripts/django.py:244
+msgid "Failed to Execute django-admin.py startproject"
+msgstr ""
+
+#: scripts/django.py:245
+msgid ""
+"The command '%s' failed with error code %i and the following output:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: scripts/django.py:247 scripts/django.py:261
+msgid ""
+"\n"
+"\n"
+"Wing may not be finding the right Python.  Please edit django-admin.py to "
+"set the correct path for Python after #! on the first line."
+msgstr ""
+
+#: scripts/django.py:259
+msgid "Failed to Start Project"
+msgstr ""
+
+#: scripts/django.py:260
+msgid "The command '%s' failed to produce output: settings.py is missing."
+msgstr ""
+
+#: scripts/django.py:265
+msgid "site directory %s was created with django-admin.py startproject"
+msgstr ""
+
+#: scripts/django.py:277
+msgid "Could not read %s to set default settings"
+msgstr ""
+
+#: scripts/django.py:349
+msgid "Failed to write updated settings to %s"
+msgstr ""
+
+#: scripts/django.py:351
+msgid ""
+"database engine and name in settings.py were set to use sqlite3 by default"
+msgstr ""
+
+#: scripts/django.py:353
+msgid "django.contrib.admin was added to INSTALLED_APPS in settings.py"
+msgstr ""
+
+#: scripts/django.py:377
+msgid " (superuser account %s was created)"
+msgstr ""
+
+#: scripts/django.py:381
+msgid ""
+"The superuser account must be created manually.  Copy/paste this command to "
+"a shell: %s"
+msgstr ""
+
+#: scripts/django.py:413
+msgid ""
+"The command %s failed with error code %i and output as follows:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: scripts/django.py:416 scripts/django.py:893
+msgid ""
+"The command %s succeeded but printed unexpected output:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: scripts/django.py:419
+msgid "The command %s exited with error code %i and no output"
+msgstr ""
+
+#: scripts/django.py:422
+msgid "django-admin.py %s was run%s"
+msgstr ""
+
+#: scripts/django.py:428
+msgid "Could not execute %s to locate base_site.html:  Err=%i; %s"
+msgstr ""
+
+#: scripts/django.py:453
+msgid "Could not copy base_site.html into the project"
+msgstr ""
+
+#: scripts/django.py:455
+msgid "the default admin template %s was copied into the project"
+msgstr ""
+
+#: scripts/django.py:458
+msgid "Created Django Project"
+msgstr ""
+
+#: scripts/django.py:459
+msgid "The Django project has been created.  "
+msgstr ""
+
+#: scripts/django.py:463
+msgid ""
+"\n"
+"\n"
+"You can now set up a new Wing project if desired."
+msgstr ""
+
+#: scripts/django.py:472
+msgid "Wing Project Setup Canceled"
+msgstr ""
+
+#: scripts/django.py:473
+msgid ""
+"Setting up a Wing project for your newly created Django site was canceled.  "
+"You can set one up manually later by creating a project, adding the Django "
+"site files, and choosing Configure Project for Django from the Django menu "
+"that will appear in the menu bar after the Django files have been added to "
+"the project."
+msgstr ""
+
+#: scripts/django.py:481
+msgid "Create Wing Project"
+msgstr ""
+
+#: scripts/django.py:527
+msgid "Start New Django Project"
+msgstr ""
+
+#: scripts/django.py:573
+msgid ""
+"Which django-admin.py and Django installation to use for the new project. "
+"Use the default if the desired django-admin.py is on your PATH."
+msgstr ""
+
+#: scripts/django.py:577
+msgid ""
+"The parent directory into which the new project's site directory should be "
+"written."
+msgstr ""
+
+#: scripts/django.py:581
+msgid "The Django site name for the new project."
+msgstr ""
+
+#: scripts/django.py:584
+msgid "The superuser account name (blank to skip creating account)"
+msgstr ""
+
+#: scripts/django.py:587
+msgid ""
+"The superuser account's email address (ignored when not creating account)"
+msgstr ""
+
+#: scripts/django.py:590
+msgid "The superuser account password (ignored when not creating account)"
+msgstr ""
+
+#: scripts/django.py:593
+msgid "The full path to the Python Executable to use with Django"
+msgstr ""
+
+#: scripts/django.py:598
+msgid ""
+"Sets up a Wing project to work with an existing Django project. This\n"
+"  assumes that you have already added files to the project so that your\n"
+"  manage.py and settings.py files are in the project. It sets up the Python\n"
+"  Executable project property, sets \"manage.py runserver 8000\" as the main "
+"debug\n"
+"  file, sets up the Wing project environment by defining DJANGO_SITENAME "
+"and\n"
+"  DJANGO_SETTINGS_MODULE, adds the site directory to the Python Path in the "
+"Wing\n"
+"  project, turns on child process debugging (for auto-reload), enables "
+"template\n"
+"  debugging in the settings.py file, ensures that the Template\n"
+"  Debugging project property is enabled, sets up the unit testing framework "
+"and\n"
+"  file patterns in project properties."
+msgstr ""
+
+#: scripts/django.py:617
+msgid "Django Files Not Found"
+msgstr ""
+
+#: scripts/django.py:618
+msgid ""
+"Please add your Django project directory (with manage.py and settings) to "
+"your Wing Project and then select the Project > Extensions > Configure "
+"Project for Django menu item.  Or use Start Django Project to start a new "
+"Django project from scratch."
+msgstr ""
+
+#: scripts/django.py:635
+msgid ""
+"Could not determine which Python Executable to use in Project Properties. "
+"Set this manually if the default Python is not the one being used with "
+"Django."
+msgstr ""
+
+#: scripts/django.py:641
+msgid ""
+"Could not obtain Python Executable to use in Project Properties from %s. Set "
+"this manually if the default Python is not the one being used with Django."
+msgstr ""
+
+#: scripts/django.py:646
+msgid "%s was set as the Python Executable in Project Properties"
+msgstr ""
+
+#: scripts/django.py:651
+msgid "Django runserver"
+msgstr ""
+
+#: scripts/django.py:655
+msgid "Launch Django"
+msgstr ""
+
+#: scripts/django.py:666
+msgid "%s was set as main debug file with run arguments %s"
+msgstr ""
+
+#: scripts/django.py:669
+msgid "enabled child process debugging in Project Properties (for auto-reload)"
+msgstr ""
+
+#: scripts/django.py:698
+msgid ""
+"DJANGO_SITENAME and DJANGO_SETTINGS_MODULE environment variables were added "
+"to the project-wide environment"
+msgstr ""
+
+#: scripts/django.py:700
+msgid "added directories %s and %s to the Python Path in Project Properties"
+msgstr ""
+
+#: scripts/django.py:702
+msgid "Set PYTHONSTARTUP_CODE to initialize Django in the Python Shell"
+msgstr ""
+
+#: scripts/django.py:706
+msgid ""
+"Could not enable template debug in Django settings -- this needs to be done "
+"manually before debugging Django templates with Wing."
+msgstr ""
+
+#: scripts/django.py:716
+msgid "Failed to read %s to enable template debugging"
+msgstr ""
+
+#: scripts/django.py:784
+msgid "Failed to write %s with template debug enabled"
+msgstr ""
+
+#: scripts/django.py:786
+msgid ""
+"set option 'debug': True in TEMPLATES in the site's settings.py file so "
+"Wing's debugger can debug templates"
+msgstr ""
+
+#: scripts/django.py:790
+msgid ""
+"Failed to update %s with template debug enabled (missing TEMPLATES section); "
+"falling back to using TEMPLATE_DEBUG"
+msgstr ""
+
+#: scripts/django.py:823
+msgid "Failed to write %s with TEMPLATE_DEBUG enabled"
+msgstr ""
+
+#: scripts/django.py:825
+msgid ""
+"set TEMPLATE_DEBUG = True in the site's settings.py file so Wing's debugger "
+"can debug templates"
+msgstr ""
+
+#: scripts/django.py:833
+msgid "enabled Template Debugging in Project Properties"
+msgstr ""
+
+#: scripts/django.py:845
+msgid "configured unit testing for Django"
+msgstr ""
+
+#: scripts/django.py:848
+msgid "Django Configuration Complete"
+msgstr ""
+
+#: scripts/django.py:849
+msgid "The project file has been configured for Django.  "
+msgstr ""
+
+#: scripts/django.py:857
+msgid "Configure Project for Django"
+msgstr ""
+
+#: scripts/django.py:863
+msgid "Could not find manage.py and/or settings.py in the project"
+msgstr ""
+
+#: scripts/django.py:869
+msgid ""
+"Could not find Python.  Please set Python Executable in Project Properties, "
+"accessed from the Project menu"
+msgstr ""
+
+#: scripts/django.py:873
+msgid ""
+"Start a new application within the current Django project and add it to "
+"the \n"
+"  INSTALLED_APPS list in the project's settings.py file."
+msgstr ""
+
+#: scripts/django.py:882 scripts/django.py:889
+msgid "Failed to Start App"
+msgstr ""
+
+#: scripts/django.py:883
+msgid "The Django app could not be created:  %s"
+msgstr ""
+
+#: scripts/django.py:891
+msgid ""
+"The command %s failed with error code %i and output:\n"
+"\n"
+"%s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: scripts/django.py:896
+msgid "Created Django app %s in %s"
+msgstr ""
+
+#: scripts/django.py:901
+msgid ""
+"Could not edit Django settings -- App %s needs to be added manually to "
+"INSTALLED_APPS"
+msgstr ""
+
+#: scripts/django.py:910
+msgid "Unable to read %s to update INSTALLED_APPS"
+msgstr ""
+
+#: scripts/django.py:946
+msgid "Unable to write %s to update INSTALLED_APPS"
+msgstr ""
+
+#: scripts/django.py:948
+msgid "Added %s to INSTALLED_APPS in %s"
+msgstr ""
+
+#: scripts/django.py:950
+msgid "The App was Created"
+msgstr ""
+
+#: scripts/django.py:951
+msgid "The application was created.  "
+msgstr ""
+
+#: scripts/django.py:958
+msgid "Start New Django Application"
+msgstr ""
+
+#: scripts/django.py:962
+msgid "Run manage.py migrate (or syncdb in Django 1.6 and earlier)"
+msgstr ""
+
+#: scripts/django.py:966
+msgid "Failed to Migrate DB"
+msgstr ""
+
+#: scripts/django.py:967
+msgid "Could not migrate db:  %s"
+msgstr ""
+
+#: scripts/django.py:986
+msgid "Could not sync the database: Sub-process timed out"
+msgstr ""
+
+#: scripts/django.py:988
+msgid "Could not migrate the database: Sub-process timed out"
+msgstr ""
+
+#: scripts/django.py:991
+msgid ""
+"Could not sync the database: Sub-process failed with exit_status=%s, errno=%s"
+msgstr ""
+
+#: scripts/django.py:993
+msgid ""
+"Could not migrate the database: Sub-process failed with exit_status=%s, "
+"errno=%s"
+msgstr ""
+
+#: scripts/django.py:996
+msgid "Sync DB completed"
+msgstr ""
+
+#: scripts/django.py:998
+msgid "Migrate DB completed"
+msgstr ""
+
+#: scripts/django.py:1006
+msgid "Sync DB completed with no errors or output"
+msgstr ""
+
+#: scripts/django.py:1008
+msgid "Migrate DB completed with no errors or output"
+msgstr ""
+
+#: scripts/django.py:1012
+msgid "Django Sync DB"
+msgstr ""
+
+#: scripts/django.py:1014
+msgid "Django Migrate DB"
+msgstr ""
+
+#: scripts/django.py:1041
+msgid "Migrate Database"
+msgstr ""
+
+#: scripts/django.py:1044
+msgid "Run manage.py unit tests in the Testing tool"
+msgstr ""
+
+#: scripts/django.py:1054
+msgid "Run Unit Tests"
+msgstr ""
+
+#: scripts/django.py:1057
+msgid "Run manage.py tests with output in a scratch buffer"
+msgstr ""
+
+#: scripts/django.py:1062
+msgid "Failed to run Django unit tests"
+msgstr ""
+
+#: scripts/django.py:1063
+msgid "Could not run Django :  %s"
+msgstr ""
+
+#: scripts/django.py:1067 scripts/django.py:1093 scripts/django.py:1098
+msgid "Django Unit Tests"
+msgstr ""
+
+#: scripts/django.py:1069
+msgid "Starting Django Unit Tests at %s:\n"
+msgstr ""
+
+#: scripts/django.py:1078
+msgid "Could not run Django unit tests: Sub-process timed out"
+msgstr ""
+
+#: scripts/django.py:1080
+msgid ""
+"Could not run Django unit tests: Sub-process failed with exit_status=%s, "
+"errno=%s"
+msgstr ""
+
+#: scripts/django.py:1082 scripts/django.py:1088
+msgid "Django unit tests passed successfully"
+msgstr ""
+
+#: scripts/django.py:1090
+msgid "Django unit tests passed successfully with no output"
+msgstr ""
+
+#: scripts/django.py:1107
+msgid ""
+"Run manage.py sql for given app name and display the output in a\n"
+"  scratch buffer."
+msgstr ""
+
+#: scripts/django.py:1112 scripts/django.py:1132
+msgid "Failed to Generate SQL"
+msgstr ""
+
+#: scripts/django.py:1113
+msgid "Could not generate SQL:  %s"
+msgstr ""
+
+#: scripts/django.py:1120 scripts/django.py:1139
+msgid "Django SQL"
+msgstr ""
+
+#: scripts/django.py:1122
+msgid "This command is no longer used in Django 1.10+"
+msgstr ""
+
+#: scripts/django.py:1129 scripts/django.py:1173 scripts/django.py:1216
+#: scripts/django.py:1254
+msgid "Failed to start sub-process"
+msgstr ""
+
+#: scripts/django.py:1131 scripts/django.py:1175 scripts/django.py:1218
+#: scripts/django.py:1256
+msgid "Sub-process timed out"
+msgstr ""
+
+#: scripts/django.py:1133
+msgid "Could not generate SQL: %s"
+msgstr ""
+
+#: scripts/django.py:1144
+msgid "Generate SQL"
+msgstr ""
+
+#: scripts/django.py:1146 scripts/django.py:1190
+msgid "Django App Name"
+msgstr ""
+
+#: scripts/django.py:1159
+msgid ""
+"Run manage.py makemigrations for given app name and display the output in a\n"
+"  scratch buffer."
+msgstr ""
+
+#: scripts/django.py:1164 scripts/django.py:1176
+msgid "Failed to Make Migrations"
+msgstr ""
+
+#: scripts/django.py:1165 scripts/django.py:1177
+msgid "Could not migrate app: %s"
+msgstr ""
+
+#: scripts/django.py:1183
+msgid "Django App Migration"
+msgstr ""
+
+#: scripts/django.py:1188
+msgid "Migrate App"
+msgstr ""
+
+#: scripts/django.py:1203
+msgid ""
+"Run manage.py showmigrations and display the output in a scratch buffer."
+msgstr ""
+
+#: scripts/django.py:1207 scripts/django.py:1219
+msgid "Failed to Show Migrations"
+msgstr ""
+
+#: scripts/django.py:1208 scripts/django.py:1220
+msgid "Could not show migrations: %s"
+msgstr ""
+
+#: scripts/django.py:1226
+msgid "Django Show Migrations"
+msgstr ""
+
+#: scripts/django.py:1231
+msgid "Show Migrations"
+msgstr ""
+
+#: scripts/django.py:1238
+msgid "Run manage.py check (or validate in Django 1.5 and earlier)"
+msgstr ""
+
+#: scripts/django.py:1242
+msgid "Failed to Validate"
+msgstr ""
+
+#: scripts/django.py:1243
+msgid "Could not validate:  %s"
+msgstr ""
+
+#: scripts/django.py:1257
+msgid "Could Not Validate"
+msgstr ""
+
+#: scripts/django.py:1258
+msgid "Could not validate: %s"
+msgstr ""
+
+#: scripts/django.py:1264
+msgid "Validate Succeeded"
+msgstr ""
+
+#: scripts/django.py:1264
+msgid "Validated with 0 errors found"
+msgstr ""
+
+#: scripts/django.py:1266
+msgid "Django Validate"
+msgstr ""
+
+#: scripts/django.py:1271
+msgid "Run Check"
+msgstr ""
+
+#: scripts/django.py:1274
+msgid "Show documentation for using Wing and Django together"
+msgstr ""
+
+#: scripts/django.py:1279
+msgid "Show Documentation"
+msgstr ""
+
+#: scripts/django.py:1282
+msgid ""
+"Show and restart the Python Shell tool, which works in the same\n"
+"  environment as \"manage.py shell\".  To show the tool without restarting\n"
+"  it, use the Tools menu."
+msgstr ""
+
+#: scripts/django.py:1292
+msgid "Restart Shell"
+msgstr ""
+
+#: scripts/django.py:1300
+msgid ""
+"Tracks whether the Django plugin should be enabled or not. Install\n"
+"  signals so plugin can activate or deactivate based on what project is "
+"open\n"
+"  and what it contains."
+msgstr ""
+
+#: scripts/django.py:1321
+msgid "Connect to signals on project so plugin can enable when appropriate"
+msgstr ""
+
+#: scripts/django.py:1338
+msgid "Current project has changed"
+msgstr ""
+
+#: scripts/django.py:1343
+msgid "Project contents have changed (given files were added or removed)"
+msgstr ""
+
+#: scripts/django.py:1351
+msgid ""
+"Avoid constant scanning of project during file discovery; we scan\n"
+"    one second after the last project file update"
+msgstr ""
+
+#: scripts/django.py:1372
+msgid ""
+"Try to find key Django project files in the project.  Returns full path\n"
+"    to manage.py and settings.py (or settings package) or (None, None) if "
+"not found."
+msgstr ""
+
+#: scripts/django.py:1418
+msgid ""
+"Get the full path to the project directory.  The site-name is\n"
+"    os.path.basename() fo the path."
+msgstr ""
+
+#: scripts/django.py:1428
+msgid ""
+"Get a list of the app directories in the current project. Returns a\n"
+"    list of the full path to the app directory. The app name is\n"
+"    os.path.basename() of each path."
+msgstr ""
+
+#: scripts/django.py:1448
+msgid "Try to detect if this is a Django project, based on its contents"
+msgstr ""
+
+#: scripts/django.py:1457
+msgid ""
+"Set a callback to invoke when project files have been added so\n"
+"    that _IsDjangoProject returns true.  Used in bootstrapping a new\n"
+"    Django project."
+msgstr ""
+
+#: scripts/django.py:1467
+msgid ""
+"Plugin activator for Django.  Note this must call CAPIApplication."
+"EnablePlugin()\n"
+"  and return True to enable or False to disable initially"
+msgstr ""
+
+#: scripts/django.py:1474
+msgid "Django Extensions"
+msgstr ""

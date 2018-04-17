@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_wingbase\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"PO-Revision-Date: 2018-03-14 20:37+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 44094\n"
+"X-Loco-Api-Version: 1.0.18 20180307-1\n"
+
+#: src/wingbase/filefilter.py:60
+msgid "Wild Card on File Name"
+msgstr "Wild Card по имени файла"
+
+#: src/wingbase/filefilter.py:61
+msgid "Mime Type"
+msgstr ""
+
+#: src/wingbase/filefilter.py:62
+msgid "Wild Card on Directory Name"
+msgstr "Wild Card по имени каталога"
+
+#: src/wingbase/filefilter.py:428 src/wingbase/filefilter.py:433
+#: src/wingbase/filefilter.py:440
+msgid "Invalid or empty filter %s spec pos=%i: '%s'"
+msgstr "Недопустимый или пустой фильтр %s spec pos=%i: '%s'"
+
+#: src/wingbase/filefilter.py:435
+msgid "Bad mime type in filter %s spec pos=%i: '%s'"
+msgstr "Плохой Тип mime в фильтре %s spec pos=%i: '%s'"
+
+#: src/wingbase/filefilter.py:444
+msgid "Unknown filter %s spec type pos=%i: '%s'"
+msgstr "Неизвестный фильтр %s spec type pos=%i: '%s'"
+
+#: src/wingbase/mime.py:133
+msgid "Wing Project"
+msgstr "Проект Wing"
+
+#: src/wingbase/mime.py:134
+msgid "Python Interface"
+msgstr "Python-Интерфейс "
+
+#: src/wingbase/mime.py:484 src/wingbase/mime.py:486 src/wingbase/mime.py:561
+msgid "%s File"
+msgstr "%s файл"
+
+#: src/wingbase/remoteclient.py:817
+msgid "Missing remote host configuration for %s"
+msgstr "Отсутствует конфигурация удаленного узла для %s"
+
+#: src/wingbase/remoteclient.py:1023
+msgid ""
+"Remote server %s failed to connect (hostname=%s, winghome=%s, pyexec=%s)"
+msgstr ""
+"Удаленному серверу %s не удалось подключиться (hostname=%s, winghome=%s, "
+"pyexec=%s)"
+
+#: src/wingbase/remoteclient.py:1033
+msgid "Remote server to %s is unused -- closing connection"
+msgstr "Удаленный сервер в %s не используется -- закрытие соединения"
+
+#: src/wingbase/remoteclient.py:1355
+#, fuzzy
+msgid "Reverse SSH tunnel startup timed out -- no output seen in >10 seconds"
+msgstr "Timeout -- нет выхода наблюдаемый в >3 секунды"
+
+#: src/wingbase/remoteclient.py:1541
+msgid "Reverse tunnel to %s (%i<->%i) failed after %i retries"
+msgstr ""
+"Обратный туннель к %s (%i <->%i) завершился неудачно после %i повторных "
+"попыток"
+
+#: src/wingbase/remoteclient.py:1546
+msgid "Reverse tunnel to %s (%i<->%i) is unused -- closing connection"
+msgstr ""
+"Обратный туннель к %s (%i<-> %i) не используется -- закрытие соединения"
+
+#: src/wingbase/textutils.py:1057
+msgid "Unable to convert to unicode.  Tried encodings: %s."
+msgstr "Невозможно преобразовать в unicode. Пробные кодировки: %s."
+
+#: src/wingbase/updateutils.py:114
+msgid "Corrupt catalog: Missing | in line: "
+msgstr ""
+
+#: src/wingbase/updateutils.py:124
+msgid "Corrupt catalog: Invalid line type: "
+msgstr ""
+
+#: src/wingbase/updateutils.py:215
+msgid "Version spec on line %i is too short"
+msgstr ""
+
+#: src/wingbase/updateutils.py:219
+msgid "Bad version %s on line %i"
+msgstr ""
+
+#: src/wingbase/updateutils.py:231
+msgid "Bad release type %s on line %i"
+msgstr ""
+
+#: src/wingbase/updateutils.py:235
+msgid "Bad release flag %s on line %i"
+msgstr ""
+
+#: src/wingbase/updateutils.py:240
+msgid "Line %i lists summary before version"
+msgstr ""
+
+#: src/wingbase/updateutils.py:243
+msgid "Bad change summary on line %i"
+msgstr ""
+
+#: src/wingbase/updateutils.py:246
+msgid "Bad product type on line %i"
+msgstr ""
+
+#: src/wingbase/updateutils.py:249
+msgid "Bad change type on line %i"
+msgstr ""
+
+#: src/wingbase/updateutils.py:344
+msgid "Some unpatchable files changed:"
+msgstr ""
+
+#: src/wingbase/updateutils.py:348
+msgid "No changes for the update"
+msgstr ""
+
+#: src/wingbase/updateutils.py:379
+msgid "Could not create update tarfile:"
+msgstr ""
+
+#: src/wingbase/updateutils.py:470
+msgid "Updates are corrupt and need to be removed and reinstalled"
+msgstr ""
+
+#: src/wingbase/updateutils.py:519
+msgid "Failed to delete old busy update: %s"
+msgstr ""
+
+#: src/wingbase/updateutils.py:522
+msgid "Possibly concurrent update/merge on %s"
+msgstr ""
+
+#: src/wingbase/updateutils.py:530
+msgid "Renaming %s failed; skipping update merge"
+msgstr ""
+
+#: src/wingbase/updateutils.py:564
+msgid "Failed to merge update directories: %s -> %s; aborting merge"
+msgstr ""
+
+#: src/wingbase/updateutils.py:687
+msgid "Missing file: %s"
+msgstr ""
+
+#: src/wingbase/updateutils.py:691
+msgid "Invalid Type: %s (expected file but found non-file)"
+msgstr ""
+
+#: src/wingbase/updateutils.py:693
+msgid "Invalid Type: %s (expected directory but found non-directory)"
+msgstr ""
+
+#: src/wingbase/updateutils.py:698
+msgid "Read failed:  %s"
+msgstr ""
+
+#: src/wingbase/updateutils.py:701
+msgid "Changed file: %s"
+msgstr ""

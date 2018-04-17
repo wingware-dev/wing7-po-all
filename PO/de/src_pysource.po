@@ -1,0 +1,330 @@
+# translation of src_pysource.po to German
+# Module src_pysource translation file for language=de
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+# Claudia Walenzyk <cwalenzyk@yahoo.com>, 2004.
+# Claudia Richter <cwalenzyk@yahoo.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: src_pysource\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2012-12-10 17:18+0100\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: src/pysource/attribs.py:23
+msgid "Analyze main file for sys.path changes"
+msgstr "Haupt-Datei auf Änderungen von sys.path analysieren"
+
+#: src/pysource/codewarn.py:60
+#, fuzzy
+msgid "Undefined attribute"
+msgstr "Undefinierter Name: %s"
+
+#: src/pysource/codewarn.py:61
+#, fuzzy
+msgid "Undefined name"
+msgstr "Undefinierter Name: %s"
+
+#: src/pysource/codewarn.py:62
+msgid "Import not found"
+msgstr ""
+
+#: src/pysource/codewarn.py:63
+msgid "Syntax error"
+msgstr ""
+
+#: src/pysource/codewarn.py:64
+msgid "Indent warning"
+msgstr ""
+
+#: src/pysource/codewarn.py:436
+msgid "Imported module not found: {}"
+msgstr ""
+
+#: src/pysource/codewarn.py:443
+msgid "Undefined name: %s"
+msgstr "Undefinierter Name: %s"
+
+#: src/pysource/codewarn.py:570
+msgid "Undefined attribute: %s, %s is probably %s"
+msgstr "Undefiniertes Attribut: %s, %s ist wahrscheinlich %s"
+
+#: src/pysource/codewarn.py:571
+msgid " or "
+msgstr " oder "
+
+#: src/pysource/codewarn.py:1023 src/pysource/codewarn.py:1029
+msgid "builtin {}"
+msgstr ""
+
+#: src/pysource/codewarn.py:1024
+#, fuzzy
+msgid "the {} class"
+msgstr "Die %s Klasse"
+
+#: src/pysource/codewarn.py:1031
+#, fuzzy
+msgid "a {} instance"
+msgstr "Eine %s Instanz"
+
+#: src/pysource/codewarn.py:1033
+#, fuzzy
+msgid "{} instances"
+msgstr "Eine %s Instanz"
+
+#: src/pysource/codewarn.py:1037
+#, fuzzy
+msgid " in {} module"
+msgstr "Das %s Modul"
+
+#: src/pysource/codewarn.py:1042
+#, fuzzy
+msgid "the {} module"
+msgstr "Das %s Modul"
+
+#: src/pysource/codewarn.py:1049
+#, fuzzy
+msgid "a builtin {} instance"
+msgstr "Eine %s Instanz"
+
+#: src/pysource/codewarn.py:1051
+#, fuzzy
+msgid "builtin {} instances"
+msgstr "Eine %s Instanz"
+
+#: src/pysource/codewarn.py:1053
+#, fuzzy
+msgid "the builtin {} class"
+msgstr "Die %s Klasse"
+
+#: src/pysource/llinecache.py:74
+msgid "Inconsistent indentation (not in units of indent size)"
+msgstr ""
+"Inkonsistenten Einrückung (nicht in Einheiten von Einrückungsschritten)"
+
+#: src/pysource/llinecache.py:76
+msgid "This code will never be reached"
+msgstr "Dieser Code wird nie erreicht werden"
+
+#: src/pysource/llinecache.py:78
+msgid "Expected indentation to decrease"
+msgstr ""
+
+#: src/pysource/llinecache.py:80
+msgid "Expected indentation to increase"
+msgstr ""
+
+#: src/pysource/llinecache.py:82
+msgid "Unexpected indentation decrease"
+msgstr ""
+
+#: src/pysource/llinecache.py:84
+msgid "Unexpected indentation increase"
+msgstr ""
+
+#: src/pysource/llinecache.py:86
+msgid "Bad indentation level"
+msgstr "Ungültige Einrückungstiefe"
+
+#: src/pysource/llinecache.py:88
+msgid "Indentation error (unspecified)"
+msgstr "Einrückungsfehler (unspezifiziert)"
+
+#: src/pysource/manager.py:223
+msgid "(Analyzing Files: pass 1, Q=%i) "
+msgstr "(Analysiere Dateien: Durchgang 1, Q=%i) "
+
+#: src/pysource/manager.py:225
+msgid "(Analyzing Files: pass 2, Q=%i) "
+msgstr "(Analysiere Dateien: Durchgang 2, Q=%i) "
+
+#: src/pysource/manager.py:227
+msgid "(Analyzing Files: %i pending remote inspections) "
+msgstr ""
+
+#: src/pysource/manager.py:1586
+msgid ""
+"Scrape errors for %s:\n"
+"%s"
+msgstr ""
+"Fehler beim Instanziieren von %s:\n"
+"%s"
+
+#: src/pysource/manager.py:1614
+msgid "%s does not exist (scrape failed)"
+msgstr "%s existiert nicht (Instanziieren gescheitert)"
+
+#: src/pysource/manager.py:1618
+msgid "%s is empty (scrape failed; removing file now)"
+msgstr ""
+
+#: src/pysource/manager.py:1661
+msgid "Scraping %s"
+msgstr ""
+
+#: src/pysource/manager.py:1671
+msgid "Failed to scrape extension module %s: Python not found"
+msgstr ""
+
+#: src/pysource/manager.py:1689
+msgid ""
+"Failed to start process to scrape extension module %s: could not find "
+"suitable rundir"
+msgstr ""
+
+#: src/pysource/manager.py:1714
+msgid ""
+"Failed to start process to scrape extension module %s: cannot encode "
+"arguments"
+msgstr ""
+
+#: src/pysource/manager.py:1721
+msgid "Cache file is %s"
+msgstr "Cache-Datei ist %s"
+
+#: src/pysource/manager.py:1730
+msgid "Failed to start process to scrape extension module %s"
+msgstr ""
+
+#: src/pysource/manager.py:1735
+msgid "Failed scraping API for %s"
+msgstr ""
+
+#: src/pysource/manager.py:1737
+msgid "API scraping process for %s completed"
+msgstr ""
+
+#: src/pysource/prefs.py:28
+msgid ""
+"Path to search for interface files for extension modules.  If directory name "
+"is relative, it will be interpreted as relative to the  user settings "
+"directory (%s)"
+msgstr ""
+"Pfad zu suchen für Schnittstellen-Dateien für Builtin-Module. Wenn der "
+"Verzeichnisname relativ ist, wird er relativ zur Benutzer-Einstellungs "
+"Verzeichnis (%s) interpretiert"
+
+#: src/pysource/prefs.py:37
+msgid "Whether Wing should try to analyze python source in the background."
+msgstr ""
+"Stellt ein, ob Wing versuchen sollte, Python-Source im Hintergrund zu "
+"analysieren."
+
+#: src/pysource/prefs.py:46
+msgid "The maximum size of the disk cache in megabytes"
+msgstr "Die Maximalgröße des Festplattenspeichers in Megabyte"
+
+#: src/pysource/prefs.py:47
+msgid "Clear cache"
+msgstr "Cache löschen"
+
+#: src/pysource/prefs.py:48
+msgid "Clear cache files and re-analyse all source code"
+msgstr "Cache löschen und Source Code neu analysieren"
+
+#: src/pysource/prefs.py:52
+msgid ""
+"The maximum # of analysis info buffers that can be in-memory at once for "
+"files that are not open."
+msgstr ""
+"Die maximale Anzahl # von Analyse-Informations-Puffern, die gleichzeitig im "
+"Speicher sein können für Dateien, die nicht geöffnet sind."
+
+#: src/pysource/prefs.py:60
+#, fuzzy
+msgid ""
+"Enable to automatically load and introspect extension modules and other "
+"modules that cannot be statically analysed.  These modules are loaded in "
+"another process space and 'scraped' to obtain at least some analysis of the "
+"module's contents."
+msgstr ""
+"Diese Option auf Falsch setzen, um das automatische Laden von "
+"Erweiterungsmodulen und anderen Modulen, die statisch nicht analysiert "
+"werden können, zu deaktivieren. Diese Module werden in eine andere "
+"Prozessumgebung geladen und instanziiert, um die Inhalte des Moduls "
+"zumindest etwas zu analysieren."
+
+#: src/pysource/prefs.py:91
+#, fuzzy
+msgid ""
+"This is a dictionary from module name to Python code that should be executed "
+"before attempting to load extension modules for scraping.  This is needed in "
+"cases where the extension modules are designed to be loaded only after some "
+"configuration magic is performed.  For most extension modules, no extra "
+"configuration should be needed."
+msgstr ""
+"Dies ist ein Dictionary von Modulnamen zu Python-Code, der vor dem Laden von "
+"Erweiterungsmodulen zum Instanziieren ausgeführt werden sollte. Dies ist in "
+"einigen Fällen, z. B. in PyGTK und wxPython, erforderlich, da die "
+"Erweiterungsmodule so entwickelt sind, dass sie erst geladen werden, nachdem "
+"etwas \"Konfigurationsmagie\" angewendet wurde. Für die meisten "
+"Erweiterungsmodule ist keine zusätzliche Konfiguration erforderlich."
+
+#: src/pysource/prefs.py:126
+msgid "Configuration Code"
+msgstr "Konfigurationscode"
+
+#: src/pysource/prefs.py:126
+msgid "Module Name"
+msgstr "Modulname"
+
+#: src/pysource/prefs.py:131
+msgid ""
+"Use slower, dotfile locking for sqllite databases to work around buggy "
+"remote file servers.  Only needed if the user cache directory is on a remote "
+"file system or can be accessed via a remote file system.  It is recommended "
+"that the user cache directory be on the local file system for performance "
+"reasons."
+msgstr ""
+
+#: src/pysource/prefs.py:140
+msgid ""
+"Prefix for Python Standard Library Documentation.  This should be in the "
+"form https://docs.python.org/library/ and Wing will append module and symbol "
+"specific to the given URL.  To use locally stored documentation, you must "
+"run a local web server since # bookmarks do not work in file: URLs."
+msgstr ""
+
+#: src/pysource/prefs.py:147
+msgid "Use docs.python.org"
+msgstr "docs.python.org benutzen"
+
+#: src/pysource/prefs.py:148
+msgid "Other:"
+msgstr "Andere:"
+
+#~ msgid "a %s literal"
+#~ msgstr "Ein %s Literal"
+
+#~ msgid "a ?? literal"
+#~ msgstr "Ein ?? Literal"
+
+#~ msgid "the %s symbol"
+#~ msgstr "Das %s Symbol"
+
+#~ msgid "How to scan for instance attributes."
+#~ msgstr "Wie nach Instanz-Attributen gesucht werden soll."
+
+#~ msgid "Scan __init__ only"
+#~ msgstr "Nur __init__ durchsuchen"
+
+#~ msgid "Scan all methods"
+#~ msgstr "Alle Methoden durchsuchen"
+
+#~ msgid "Unable to create analysis cache directory %s"
+#~ msgstr "Cache-Verzeichnis der Analyse konnte nicht erstellt werden: %s"
+
+#~ msgid "Failed to Start Process"
+#~ msgstr "Starten des Prozesses gescheitert"
+
+#~ msgid "Success scraping %s"
+#~ msgstr "Laden von %s erfolgreich"

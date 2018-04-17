@@ -1,0 +1,329 @@
+# translation of src_proj_commands.po to German
+# Module src_proj_commands translation file for language=de
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+# Claudia Walenzyk <cwalenzyk@yahoo.com>, 2004.
+# Claudia Richter <cwalenzyk@yahoo.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: src_proj_commands\n"
+"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"PO-Revision-Date: 2016-12-14 17:56+0100\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/proj/commands.py:48
+msgid ""
+"These commands act on the project manager or on the current project,\n"
+"  regardless of whether the project list has the keyboard focus."
+msgstr ""
+"Diese Befehle sind für den Projektmanager oder das aktuelle Projekt,\n"
+"  ungeachtet der Tatsache, ob die Tastatur für die Projektliste aktiviert "
+"ist."
+
+#: src/proj/commands.py:61
+msgid " Utility method to get location of active editor. "
+msgstr " Gebrauchsmethode, um den Ort des aktiven Editors zu erhalten. "
+
+#: src/proj/commands.py:70
+msgid " Finds a view to apply project commands to. "
+msgstr " Sucht eine Ansicht auf die Projektbefehle angewendet werden können. "
+
+#: src/proj/commands.py:79
+msgid " Raise the project manager window "
+msgstr " Das Fenster des Projektmanagers aufschlagen "
+
+#: src/proj/commands.py:83
+msgid ""
+" Create a new blank project.  Use show_dialog to control whether the\n"
+"    New Project dialog is shown or instead a blank new project is created.\n"
+"    By default, the Project > Show New Project Dialog preference is used."
+msgstr ""
+
+#: src/proj/commands.py:92
+msgid ""
+" Open the given project file, or prompt the user to select a\n"
+"    file if the filename is not given."
+msgstr ""
+
+#: src/proj/commands.py:108
+msgid " Open a project file from a remote host"
+msgstr " Projektdatei von einem Remote-Host öffnen"
+
+#: src/proj/commands.py:116
+msgid "Save current project to a remote host"
+msgstr "Aktuelles Projekt auf einem Remote-Host speichern"
+
+#: src/proj/commands.py:126
+msgid "Remote URL Required"
+msgstr "Remote-URL benötigt"
+
+#: src/proj/commands.py:127
+msgid ""
+"Cannot save to %s.  The remote filename must be in form ssh://hostname/path/"
+"to/file"
+msgstr ""
+
+#: src/proj/commands.py:129 src/proj/commands.py:141 src/proj/commands.py:153
+msgid "OK"
+msgstr "OK"
+
+#: src/proj/commands.py:137
+msgid "Invalid Identifier"
+msgstr ""
+
+#: src/proj/commands.py:138
+msgid ""
+"%s is not a valid remote host ID.  No remote host configuration could be "
+"found."
+msgstr ""
+
+#: src/proj/commands.py:148
+msgid "Shared Remote Host Configuration Required"
+msgstr "Geteilte Remote-Host Konfiguration benötigt"
+
+#: src/proj/commands.py:149
+msgid ""
+"The remote host configuration for the filename %s is not a shared "
+"configuration, so saving a project there is not allowed.  Please use a "
+"shared remote host configuration instead."
+msgstr ""
+"Die Remote-Host Konfiguration für den Dateinamen %s ist keine geteilte "
+"Konfiguration, daher ist dort das Speichern eines Projekte nicht gestattet.  "
+"Bitte benutzen Sie stattdessen eine geteilte Remote-Host Konfiguration."
+
+#: src/proj/commands.py:164
+msgid " Close currently open project file "
+msgstr " Gegenwärtig geöffnete Projektdatei schließen "
+
+#: src/proj/commands.py:178
+msgid " Save project file. "
+msgstr " Projektdatei speichern. "
+
+#: src/proj/commands.py:185
+msgid ""
+" Save project file under the given name, or prompt user for a name\n"
+"    if the filename is not given."
+msgstr ""
+
+#: src/proj/commands.py:197
+msgid " Add an existing file to the project. "
+msgstr " Eine bestehende Datei zum Projekt hinzufügen. "
+
+#: src/proj/commands.py:203
+msgid " Add directory to project. "
+msgstr " Verzeichnis zum Projekt hinzufügen. "
+
+#: src/proj/commands.py:214
+msgid " Add the frontmost currently open file to project "
+msgstr ""
+" Die vorderste der gegenwärtig geöffneten Dateien zum Projekt hinzufügen "
+
+#: src/proj/commands.py:223
+msgid " Remove directory from project. "
+msgstr " Verzeichnis aus Projekt entfernen. "
+
+#: src/proj/commands.py:232 src/proj/commands.py:489
+msgid " Remove currently selected file or package from the project "
+msgstr ""
+" Die gegenwärtig ausgewählte Datei oder das Paket vom Projekt entfernen."
+
+#: src/proj/commands.py:239
+msgid ""
+" Scan project directories for changes.  If list of directories is not\n"
+"    specified, currently selected directories are used. "
+msgstr ""
+
+#: src/proj/commands.py:272
+msgid ""
+"Show the currently selected file in the project view, if present.\n"
+"    The selection may be the current editor, if it has focus, or files\n"
+"    selected in other views."
+msgstr ""
+
+#: src/proj/commands.py:288
+msgid ""
+"Show current file failed::Could not show the current file in the project "
+"tool -- the project view could not be displayed."
+msgstr ""
+
+#: src/proj/commands.py:293
+msgid ""
+"Show current file failed::Could not show the current file in the project "
+"tool -- There is no selected file."
+msgstr ""
+
+#: src/proj/commands.py:298
+msgid ""
+"Show current file failed::Could not show the current file in the project "
+"tool -- the file %s is not in the project"
+msgstr ""
+
+#: src/proj/commands.py:304
+msgid ""
+" Set current editor file as the main debug entry point for this project "
+msgstr ""
+" Die aktuelle Datei im Editor als Haupt-Einsprungspunkt für dieses Projekt "
+"einstellen "
+
+#: src/proj/commands.py:316
+msgid ""
+" Clear main debug entry point to nothing, so that debugging runs the\n"
+"    file in the current editor by default "
+msgstr ""
+" Den Haupt-Einsprungspunkt löschen, so daß das Debuggen standardmäßig die\n"
+"    aktuelle Datei im Editor startet. "
+
+#: src/proj/commands.py:325
+msgid ""
+" Store project single-user (one file) format, which can also be read by Wing "
+"Personal."
+msgstr ""
+
+#: src/proj/commands.py:333
+msgid ""
+" Store project in sharable (two file) format.  The .wpr file can be checked "
+"into revision\n"
+"      control or other shared with other users and machines.  This is the "
+"default and the format\n"
+"      cannot be read by Wing Personal."
+msgstr ""
+
+#: src/proj/commands.py:343
+msgid "View or change project-wide properties"
+msgstr "Projektweite Eigenschaften ansehen oder ändern"
+
+#: src/proj/commands.py:354
+msgid ""
+"View project properties for a particular file (current file if none\n"
+"    is given)"
+msgstr ""
+"Projekteigenschaften für eine bestimmte Datei (aktuelle Datei wenn\n"
+"     keine angegeben)"
+
+#: src/proj/commands.py:393
+msgid "Show the project manager's directory properties dialog"
+msgstr "Den Verzeichnis-Eigenschaften-Dialog des Projektmanagers anzeigen"
+
+#: src/proj/commands.py:406
+msgid ""
+"Show the effective Python version and path for the current configuration"
+msgstr ""
+
+#: src/proj/commands.py:410 src/proj/commands.py:496
+msgid " Set selected file as the main debug file for this project "
+msgstr ""
+" Die gewählte Datei als Haupt-Debug-Datei für dieses Projekt einstellen "
+
+#: src/proj/commands.py:417 src/proj/commands.py:503
+msgid " Open files currently selected in the project manager "
+msgstr " Die gegenwärtig im Projektmanager ausgewählten Dateien öffnen "
+
+#: src/proj/commands.py:424 src/proj/commands.py:554
+msgid " Open file currently selected in the project manager "
+msgstr " Die gegenwärtig ausgewählte Datei im Projektmanager öffnen "
+
+#: src/proj/commands.py:431 src/proj/commands.py:561
+msgid " Browse file currently selected in the project manager "
+msgstr " Die gegenwärtig ausgewählte Datei im Projektmanager durchsuchen "
+
+#: src/proj/commands.py:438 src/proj/commands.py:575
+msgid " Start debugging the file currently selected in the project manager "
+msgstr ""
+" Debuggen der gegenwärtig ausgewählten Datei im Projektmanager starten "
+
+#: src/proj/commands.py:445 src/proj/commands.py:582
+msgid " Execute the file currently selected in the project manager "
+msgstr " Die gegenwärtig ausgewählte Datei im Projektmanager ausführen "
+
+#: src/proj/commands.py:452 src/proj/commands.py:589
+msgid "View project as directory tree from project file"
+msgstr "Projekt als Verzeichnisbaum von der Projektdatei anzeigen"
+
+#: src/proj/commands.py:459 src/proj/commands.py:596
+msgid "View project as flattened directory tree from project file"
+msgstr "Projekt als abgeflachten Verzeichnisbaum von der Projektdatei anzeigen"
+
+#: src/proj/commands.py:473
+msgid ""
+"Commands that are available only when the project view has the\n"
+"    keyboard focus."
+msgstr ""
+"Befehle, die nur zur Verfügung stehen, wenn die Tastatur für die\n"
+"    Projektansicht aktiviert ist. "
+
+#: src/proj/commands.py:510
+msgid "Rename the currently selected file or directory in the project view"
+msgstr ""
+"Die in der Projektansicht ausgewählte Datei oder das Verzeichnis umbenennen"
+
+#: src/proj/commands.py:525
+msgid "New name for the directory"
+msgstr "Neuer Name für das Verzeichnis"
+
+#: src/proj/commands.py:526
+msgid "New Directory Name"
+msgstr "Neuer Verzeichnisname"
+
+#: src/proj/commands.py:528
+msgid "New name for the file"
+msgstr "Neuer Name für die Datei"
+
+#: src/proj/commands.py:529
+msgid "New File Name"
+msgstr "Neuer Dateiname"
+
+#: src/proj/commands.py:544
+msgid "Rename Selected Item in Project"
+msgstr ""
+
+#: src/proj/commands.py:547
+msgid ""
+" Move the files and/or directories currently selected in the project\n"
+"      view to the trash or recycling bin "
+msgstr ""
+
+#: src/proj/commands.py:568
+msgid " Search in file or directory currently selected in the project manager "
+msgstr ""
+" In der aktuell im Projektmanager ausgewählten Datei oder dem Verzeichnis "
+"suchen "
+
+#~ msgid " Create a new project. "
+#~ msgstr " Ein neues Projekt anlegen. "
+
+#~ msgid " Store project in normal format "
+#~ msgstr " Projekt in normalem Format speichern "
+
+#~ msgid " Store project in sharable format "
+#~ msgstr " Projekt in gemeinsam nutzbaren Format speichern "
+
+#~ msgid ""
+#~ " Compact currently open project file by pruning information about non-"
+#~ "existent files\n"
+#~ "    and non-critical attribs for things like visual state. "
+#~ msgstr ""
+#~ " Verdichten der gegenwärtig geöffneten Projektdatei durch das Entfernen "
+#~ "von Informationen über\n"
+#~ "    nicht bestehende Dateien und nicht-kritische Attribute für Dinge wie "
+#~ "visueller Status. "
+
+#~ msgid "Show source code analysis statistics"
+#~ msgstr "Statistiken der Source-Code-Analyse anzeigen"
+
+#~ msgid " Save project file under another name. "
+#~ msgstr " Projektdatei unter einem anderen Namen speichern. "
+
+#~ msgid " Add a package to the project. "
+#~ msgstr " Ein Paket zum Projekt hinzufügen. "
+
+#~ msgid "View project as tree organized by file mime type"
+#~ msgstr "Projekt als Baum, der nach Datei-Mime-Typ organisiert ist, anzeigen"
