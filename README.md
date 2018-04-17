@@ -7,11 +7,11 @@ This repository contains translations of Wing version 7 for all Wing Python IDE
 products (including Wing Pro, Wing Personal, and Wing 101).  The following 
 translations exist:
 
-  PO/en -- Empty translation with all strings; use this to start a new translation
-  PO/de -- German
-  PO/fr -- French
-  PO/ru -- Russian
-  PO/es -- Spanish (partial; not currently active)
+    PO/en -- Empty translation with all strings; use this to start a new translation
+    PO/de -- German
+    PO/fr -- French
+    PO/ru -- Russian
+    PO/es -- Spanish (partial; not currently active)
 
 These can be edited with any number of tools available for working with 
 gettext PO files.
