@@ -85,7 +85,8 @@ they are not needed now:
 	src_wingide_topcommands.po
 
 
-These are currently unused or only contain error strings and can be entirely skipped:
+These are currently unused or only contain error strings and can be entirely skipped
+(these should not even be present unless re-added by accident):
 	
 	scripts_testapi.po
 	src_profile.po
