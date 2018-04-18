@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src\n"
 "POT-Creation-Date: 2018-03-21 10:16+EDT\n"
-"PO-Revision-Date: 2017-05-07 07:36+0200\n"
+"PO-Revision-Date: 2018-04-18 12:28+0200\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: pygettext.py 1.4\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: src/capabilities.py:114
 msgid "Advanced indentation analysis and translation"
@@ -106,7 +106,7 @@ msgstr "Wildcard- und reguläre Ausdrucksuche"
 
 #: src/capabilities.py:135
 msgid "Batch search"
-msgstr "Batch-Suche"
+msgstr "Stapel-Suche"
 
 #: src/capabilities.py:136
 msgid "Disk search"
@@ -174,11 +174,11 @@ msgstr "Finde Symbol im Projekt"
 
 #: src/capabilities.py:153
 msgid "Debug code executed in shells"
-msgstr ""
+msgstr "Debuggen von Code in ausgeführten Shells"
 
 #: src/capabilities.py:154
 msgid "Automated remote debugging"
-msgstr ""
+msgstr "Automatisiertes Remote-Debuggen"
 
 #: src/capabilities.py:156
 msgid "Generic support specific to Wing 101"
@@ -278,17 +278,16 @@ msgid "Wing %s version is %s build %s"
 msgstr "Wing %s Version ist %s erstellt %s"
 
 #: src/main.py:68
-#, fuzzy
 msgid "kWingHome="
-msgstr "kWingHome setzen zu"
+msgstr "kWingHome="
 
 #: src/main.py:69
 msgid "UserSettings="
-msgstr ""
+msgstr "UserSettings="
 
 #: src/main.py:70
 msgid "kCachDir="
-msgstr ""
+msgstr "kCachDir="
 
 #: src/main.py:74
 msgid "Cannot run without WINGHOME: exiting"
@@ -543,7 +542,7 @@ msgstr ""
 "im Benutzerhandbuch, um zusätzliche Informationen zum Schreiben und "
 "Verwenden von Erweiterungsskripten zu erhalten. Beachten Sie bitte, dass %s "
 "immer an den gegebenen Pfad angehängt wird, da es Skripte enthält, die mit "
-"Wing geliefert werden. "
+"Wing geliefert werden."
 
 #: src/mainprefs.py:198
 msgid ""
@@ -708,15 +707,15 @@ msgid ""
 msgstr ""
 "Wenn Wahr und eine kritische gtk-, gdk- oder glib-Nachricht protokolliert "
 "wurde, versucht Wing, einen C-Debugger zu starten und am aktuellen "
-"Ausführungspunkt zu halten. "
+"Ausführungspunkt zu halten"
 
 #: src/mainprefs.py:482
 msgid "Controls whether or not the splash screen is shown at startup."
-msgstr "Kontrolliert ob das Einschalt-Bildschirm gezeigt wird"
+msgstr "Steuert ob das Einschalt-Bild gezeigt wird."
 
 #: src/mainprefs.py:488
 msgid "Reuse Existing Instance to Open Files"
-msgstr ""
+msgstr "Bestehende Instanz wiederverwenden um Dateien zu Öffnen"
 
 #: src/mainprefs.py:489
 msgid "Always Reuse Existing Instance"
@@ -756,7 +755,7 @@ msgstr ""
 
 #: src/mainprefs.py:524
 msgid "Find %s on PATH"
-msgstr ""
+msgstr "Finde %s in PATH"
 
 #: src/mainprefs.py:525
 msgid "Use executable:"
@@ -912,25 +911,23 @@ msgstr ""
 
 #: src/mainprefs.py:652
 msgid "Debug"
-msgstr ""
+msgstr "Debuggen"
 
 #: src/mainprefs.py:653
 msgid "Informational"
-msgstr ""
+msgstr "Informativ"
 
 #: src/mainprefs.py:654
-#, fuzzy
 msgid "Warning"
-msgstr "Code Warnungen"
+msgstr "Warnung"
 
 #: src/mainprefs.py:655
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: src/mainprefs.py:656
-#, fuzzy
 msgid "Severe"
-msgstr "Nie"
+msgstr "Kritisch"
 
 #: src/mainprefs.py:659
 msgid ""
@@ -971,11 +968,11 @@ msgstr ""
 
 #: src/premain.py:44
 msgid "Warning: A filename must follow the --prefs-file option"
-msgstr "Warnung: Ein Dateiname muss der --prefs-file Option folgen."
+msgstr "Warnung: Ein Dateiname muss der --prefs-file Option folgen"
 
 #: src/premain.py:48
 msgid "Warning: A prefs filename cannot begin with \"--\""
-msgstr "Warnung: Ein prefs Dateiname kann nicht mit \"--\" beginnen."
+msgstr "Warnung: Ein prefs Dateiname darf nicht mit \"--\" beginnen"
 
 # HTK: Top-Level => oberste Ebene?
 #: src/premain.py:586

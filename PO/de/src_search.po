@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_search\n"
 "POT-Creation-Date: 2018-03-21 10:16+EDT\n"
-"PO-Revision-Date: 2016-12-14 17:23+0100\n"
+"PO-Revision-Date: 2018-04-18 12:19+0200\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: src/search/_widgets.py:204
 msgid "_Text Search"
@@ -137,9 +137,8 @@ msgid "Documentation"
 msgstr "Dokumentation"
 
 #: src/search/_widgets.py:620
-#, fuzzy
 msgid "File Sets"
-msgstr "Datei: %s\n"
+msgstr "Dateigruppen"
 
 #: src/search/_widgets.py:800
 msgid "Select directory to use"
@@ -291,7 +290,7 @@ msgstr "Datei: %s\n"
 
 #: src/search/cap_batch.py:1501 src/search/interactive.py:701
 msgid "Wrapped "
-msgstr "Umgebrochen"
+msgstr "Umgebrochen "
 
 #: src/search/cap_batch.py:1504
 msgid "%sFile: %s"
@@ -322,9 +321,8 @@ msgid "Reading directory: "
 msgstr "Lesen von Verzeichnis: "
 
 #: src/search/cap_batch.py:1788
-#, fuzzy
 msgid "Searching remote files..."
-msgstr "Projektdateien suchen"
+msgstr "Suche entfernte Dateien..."
 
 #: src/search/cap_batch.py:1811
 msgid "Scanning: "
@@ -348,7 +346,7 @@ msgstr "Konnte nicht ersetzen: Kein vorheriger Suchtreffer"
 
 #: src/search/cap_batch.py:1893
 msgid "Failed to display editor for replace"
-msgstr "Die Anzeige des Editors zum Ersetzen ist fehlgeschlagen."
+msgstr "Die Anzeige des Editors zum Ersetzen ist fehlgeschlagen"
 
 #: src/search/cap_batch.py:1948
 msgid ""
@@ -576,15 +574,15 @@ msgstr "_Interaktive Suche"
 
 #: src/search/common.py:73
 msgid "_Batch Search Files"
-msgstr "_Batch-Suche in Dateien"
+msgstr "_Stapel-Suche in Dateien"
 
 #: src/search/common.py:74
 msgid "Batch Search _Disk"
-msgstr "Batch-Suche der _Festplatte"
+msgstr "Stapel-Suche der _Festplatte"
 
 #: src/search/common.py:75
 msgid "Batch Search D_ocumentation"
-msgstr "Batch-Suche der D_okumentation"
+msgstr "Stapel-Suche der D_okumentation"
 
 #: src/search/common.py:76
 msgid "Interactive _Replace"
@@ -592,11 +590,11 @@ msgstr "Interaktives E_rsetzen"
 
 #: src/search/common.py:77
 msgid "Batch Re_place Files"
-msgstr "Batch-Er_setzen in Dateien"
+msgstr "Stapel-Er_setzen in Dateien"
 
 #: src/search/common.py:78
 msgid "Batch Replace Dis_k"
-msgstr "Batch-Ersetzen auf dem Laufwer_k"
+msgstr "Stapel-Ersetzen auf dem Laufwer_k"
 
 #: src/search/common.py:81
 msgid "Search: "
@@ -608,7 +606,7 @@ msgstr "Ersetzen: "
 
 #: src/search/common.py:423 src/search/interactive.py:328
 msgid "Failed to find editor for replace"
-msgstr "Es wurde kein Editor für das Ersetzen gefunden."
+msgstr "Es wurde kein Editor für das Ersetzen gefunden"
 
 #: src/search/common.py:460
 msgid "Replace OK"
@@ -619,24 +617,23 @@ msgid "Replacing %s"
 msgstr "%s wird ersetzt"
 
 #: src/search/common.py:522 src/search/common.py:548
-#, fuzzy
 msgid "Replace Error: Could not read %s"
-msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden."
+msgstr "Fehler beim Ersetzen: %s konnte nicht gelesen werden"
 
 #: src/search/common.py:533
 msgid "Replace Error: Could not convert %s to unicode"
-msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden."
+msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden"
 
 #: src/search/common.py:573
-#, fuzzy
 msgid "Replace Error:  Could not write remote file %s"
-msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden."
+msgstr ""
+"Fehler beim Ersetzen: Entfernte Datei %s konnte nicht geschrieben werden"
 
 #: src/search/common.py:605
 msgid "Replace Error:  Could not convert replaced %s to output encoding"
 msgstr ""
 "Fehler beim Ersetzen: Konnte die ersetzten %s nicht in die Ausgabe-Kodierung "
-"umwandeln."
+"umwandeln"
 
 #: src/search/common.py:625
 #, fuzzy
