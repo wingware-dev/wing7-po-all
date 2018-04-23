@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_debug_client\n"
 "POT-Creation-Date: 2018-04-16 16:41+EDT\n"
-"PO-Revision-Date: 2017-05-03 23:06+0200\n"
+"PO-Revision-Date: 2018-04-23 02:27+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.4\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: src/debug/client/attribs.py:35
 msgid "Breakpoints for a file"
@@ -114,8 +114,7 @@ msgstr ""
 
 #: src/debug/client/bpmanager.py:712 src/debug/client/cap_advbreak.py:453
 #: src/debug/client/cap_remotegui.py:877 src/debug/client/cap_remotegui.py:950
-#: src/debug/client/cap_remotegui.py:959
-#: src/debug/client/cap_remotegui.py:1017
+#: src/debug/client/cap_remotegui.py:959 src/debug/client/cap_remotegui.py:1017
 #: src/debug/client/cap_remotegui.py:1251
 #: src/debug/client/cap_remotegui.py:1494 src/debug/client/manager.py:2041
 #: src/debug/client/runstate.py:1810 src/debug/client/varmanager.py:391
@@ -163,9 +162,8 @@ msgid "Chained Exception Context:"
 msgstr "Exceptions ignorées effacées"
 
 #: src/debug/client/callstack.py:307 src/debug/client/stackpanel.py:957
-#, fuzzy
 msgid "Final Exception:"
-msgstr "Exceptions"
+msgstr "Exception finale :"
 
 #: src/debug/client/callstack.py:321
 msgid " pos %s-%s"
@@ -426,8 +424,7 @@ msgstr "Activer tous les points d'arrêts"
 msgid "Show Breakpoints Documentation"
 msgstr "Afficher la documentation des points d'arrêts"
 
-#: src/debug/client/cap_debugprobe.py:41
-#: src/debug/client/cap_debugprobe.py:210
+#: src/debug/client/cap_debugprobe.py:41 src/debug/client/cap_debugprobe.py:210
 msgid "Debug Probe"
 msgstr "Débogueur-Sonde"
 
@@ -1232,8 +1229,7 @@ msgstr "Délai expiré"
 msgid "Installing Remote Agent: %s"
 msgstr "Installe l'agent distant : %s"
 
-#: src/debug/client/cap_remotegui.py:238
-#: src/debug/client/cap_remotegui.py:1198
+#: src/debug/client/cap_remotegui.py:238 src/debug/client/cap_remotegui.py:1198
 msgid "Please wait."
 msgstr "Veuillez patienter."
 
@@ -1246,7 +1242,6 @@ msgid "Check the Network > SSH Executable preference"
 msgstr ""
 
 #: src/debug/client/cap_remotegui.py:334
-#, fuzzy
 msgid "(truncated)"
 msgstr "(tronqué)"
 
@@ -1263,9 +1258,8 @@ msgid "Failed to create {}"
 msgstr "Échec de création de {}"
 
 #: src/debug/client/cap_remotegui.py:394
-#, fuzzy
 msgid "Detecting Remote OS Type"
-msgstr "Déctection du type d'OS"
+msgstr "Détection du type d'OS distant"
 
 #: src/debug/client/cap_remotegui.py:410 src/debug/client/cap_remotegui.py:446
 msgid "Could not determine OS type (err={})"
@@ -1291,14 +1285,12 @@ msgid "Checking Installation Directory"
 msgstr "Répertoire d’installation :"
 
 #: src/debug/client/cap_remotegui.py:491 src/debug/client/cap_remotegui.py:499
-#, fuzzy
 msgid "Preparing Installation"
-msgstr "Vérification de l’installation"
+msgstr "Préparation de l’installation"
 
 #: src/debug/client/cap_remotegui.py:516
-#, fuzzy
 msgid "Configuring Installation"
-msgstr "Vérification de l’installation"
+msgstr "Configuration de l’installation"
 
 #: src/debug/client/cap_remotegui.py:521
 msgid "Configuring wingdbstub.py"
@@ -1344,9 +1336,8 @@ msgid "Transferring wingdebugpw"
 msgstr "En cours de transfert de wingdebugpw"
 
 #: src/debug/client/cap_remotegui.py:868
-#, fuzzy
 msgid "Base Directory Changed"
-msgstr "Répertoire de base"
+msgstr "Répertoire de base modifié"
 
 #: src/debug/client/cap_remotegui.py:869
 msgid ""
@@ -1458,9 +1449,8 @@ msgid "Initializing..."
 msgstr "Initialisation en cours..."
 
 #: src/debug/client/cap_remotegui.py:1173
-#, fuzzy
 msgid "Waiting for connection..."
-msgstr "A l’écoute des connections"
+msgstr "En attente de connection…"
 
 #: src/debug/client/cap_remotegui.py:1178
 msgid "Waiting ({} secs left)"
@@ -1617,7 +1607,6 @@ msgid "Installation Directory:"
 msgstr "Répertoire d’installation :"
 
 #: src/debug/client/cap_remotegui.py:1490
-#, fuzzy
 msgid "Home Directory:"
 msgstr "Répertoire de base :"
 
@@ -1788,7 +1777,7 @@ msgstr ""
 
 #: src/debug/client/cap_remotegui.py:2439
 msgid "Automatic"
-msgstr ""
+msgstr "Automatique"
 
 #: src/debug/client/cap_remotegui.py:2440
 #, fuzzy
@@ -1829,7 +1818,6 @@ msgid ""
 msgstr ""
 
 #: src/debug/client/cap_remotegui.py:2479
-#, fuzzy
 msgid "SSH Port"
 msgstr "Port SSH"
 
@@ -1908,7 +1896,6 @@ msgid "Start with this port:"
 msgstr "Commencer avec ce port :"
 
 #: src/debug/client/cap_remotegui.py:2523
-#, fuzzy
 msgid "File Encoding"
 msgstr "Encodage du fichier"
 
@@ -2713,7 +2700,7 @@ msgstr "Afficher les _détails"
 
 #: src/debug/client/manager.py:2033
 msgid "Are You Sure?"
-msgstr ""
+msgstr "Êtes-vous sûr ?"
 
 #: src/debug/client/manager.py:2034
 msgid ""
@@ -2742,15 +2729,15 @@ msgstr ""
 
 #: src/debug/client/manager.py:2073
 msgid "Show Integers as _Decimal"
-msgstr ""
+msgstr "Afficher les entiers comme décimal"
 
 #: src/debug/client/manager.py:2077
 msgid "Show Integers as _Hex"
-msgstr ""
+msgstr "Afficher les entiers comme hex"
 
 #: src/debug/client/manager.py:2081
 msgid "Show Integers as _Octal"
-msgstr ""
+msgstr "Afficher les entiers comme octal"
 
 #: src/debug/client/manager.py:2088
 #, fuzzy
@@ -4201,9 +4188,8 @@ msgid "_Step Out"
 msgstr "Un pas en de_hors"
 
 #: src/debug/client/runstate.py:2759
-#, fuzzy
 msgid "Con_tinue Debug"
-msgstr "_Continuer le débogage"
+msgstr "Continuer le débogage"
 
 #: src/debug/client/runstate.py:2761
 msgid "_Debug to Cursor"
@@ -4219,7 +4205,7 @@ msgstr "Déboguer jusqu'au clic"
 
 #: src/debug/client/runstate.py:2765
 msgid "Con_tinue Without Restart"
-msgstr ""
+msgstr "Continuer sans redémarrage"
 
 #: src/debug/client/runstate.py:2770
 msgid "Save & _Restart"
@@ -4603,17 +4589,15 @@ msgstr ""
 
 #: src/debug/client/varframe.py:61
 msgid "Filter:"
-msgstr ""
+msgstr "Filtre :"
 
 #: src/debug/client/varframe.py:117
-#, fuzzy
 msgid "Nothing selected"
-msgstr "Rien à déboguer"
+msgstr "Rien de sélectionné"
 
 #: src/debug/client/varframe.py:122
-#, fuzzy
 msgid "Could not obtain data"
-msgstr "Ne peut pas obtenir le package du débogueur"
+msgstr "Ne peut pas obtenir de données"
 
 #: src/debug/client/varframe.py:127
 #, fuzzy
@@ -4621,9 +4605,8 @@ msgid "Could not expand value"
 msgstr "Ne peut pas surveiller la valeur::%s"
 
 #: src/debug/client/varframe.py:160
-#, fuzzy
 msgid "Loading..."
-msgstr "Se connecte..."
+msgstr "Chargement en cours…"
 
 #: src/debug/client/varframe.py:288
 msgid "No Matching Rows"
@@ -4631,7 +4614,7 @@ msgstr ""
 
 #: src/debug/client/varframe.py:317
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Sensible à la casse"
 
 #: src/debug/client/varframe.py:323
 msgid "Text Search"
@@ -4654,9 +4637,8 @@ msgid "Search Visible Columns"
 msgstr ""
 
 #: src/debug/client/varframe.py:352
-#, fuzzy
 msgid "No Data"
-msgstr "Donnée"
+msgstr "Pas de données"
 
 #: src/debug/client/varmanager.py:256
 #, fuzzy
@@ -4726,7 +4708,7 @@ msgstr ""
 
 #: src/debug/client/vartree.py:323
 msgid "Text"
-msgstr ""
+msgstr "Texte"
 
 #: src/debug/client/vartree.py:323
 msgid "Textual display of debug data"

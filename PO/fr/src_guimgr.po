@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: src_guimgr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 16:39+EDT\n"
-"PO-Revision-Date: 2017-05-03 23:08+0200\n"
+"PO-Revision-Date: 2018-04-23 02:31+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: support@ingeniweb.com\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0\n"
+"X-Generator: Poedit 2.0.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: src/guimgr/attribs.py:86
@@ -1414,14 +1414,12 @@ msgid "_Load Results..."
 msgstr "_Charger des résultats..."
 
 #: src/guimgr/constants.py:611
-#, fuzzy
 msgid "Next Tool"
-msgstr "Insérer un outil"
+msgstr "Outil suivant"
 
 #: src/guimgr/constants.py:612
-#, fuzzy
 msgid "Previous Tool"
-msgstr "Précédent"
+msgstr "Outil précédent"
 
 #: src/guimgr/constants.py:614
 msgid "_Load Perspective"
@@ -1548,9 +1546,8 @@ msgid "Check for _Updates..."
 msgstr "Chercher des mises a jo_ur..."
 
 #: src/guimgr/constants.py:674
-#, fuzzy
 msgid "Apply Update..."
-msgstr "Appliquer un correctif..."
+msgstr "Applique la mise-à-jour…"
 
 #: src/guimgr/constants.py:675
 msgid "_About..."
@@ -1775,9 +1772,8 @@ msgid "Create Bookmark"
 msgstr "Créer un signet"
 
 #: src/guimgr/constants.py:867
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "Créer un signet"
+msgstr "Enlever un signet"
 
 #: src/guimgr/constants.py:870
 msgid "Goto Bookmark"
@@ -1828,9 +1824,8 @@ msgid "Close"
 msgstr "Fermer"
 
 #: src/guimgr/document.py:183
-#, fuzzy
 msgid "Table of Contents"
-msgstr "Contenus"
+msgstr "Table des matières"
 
 #: src/guimgr/document.py:184 src/guimgr/wingtips.py:243
 msgid "Wing Tips"
@@ -2110,9 +2105,8 @@ msgstr ""
 "toute l'Interface Utilisateur (GUI) jusqu'au redémarrage de Wing."
 
 #: src/guimgr/guimanager.py:934
-#, fuzzy
 msgid "Installed updates: %s"
-msgstr "Correctifs Installés : %s"
+msgstr "Mises-à-jours installées : %s"
 
 #: src/guimgr/guimanager.py:1099
 msgid "Cannot Open Remote File"
@@ -2696,14 +2690,12 @@ msgid "Code Warnings:"
 msgstr ""
 
 #: src/guimgr/multieditor.py:1313
-#, fuzzy
 msgid "More..."
-msgstr "Configurer..."
+msgstr "Plus…"
 
 #: src/guimgr/multieditor.py:1361
-#, fuzzy
 msgid "Bookmarks:"
-msgstr "Signets"
+msgstr "Signets :"
 
 #: src/guimgr/multieditor.py:2143
 msgid "General failure getting multi-editor visual state"
@@ -2790,9 +2782,8 @@ msgid "Keep Tabs Alphabetized"
 msgstr "Garder les onglets par ordre alphabétique"
 
 #: src/guimgr/multieditor.py:3657
-#, fuzzy
 msgid "Add New Tabs on Left"
-msgstr "Placer les onglets à gauche"
+msgstr "Ajouter de nouveaux onglets à gauche"
 
 #: src/guimgr/multieditor.py:3660
 msgid "Sort Symbol Menus Alphabetically"
@@ -3660,9 +3651,8 @@ msgid "Con_figure Reloading"
 msgstr "Con_figurer le rechargement"
 
 #: src/guimgr/reloader.py:152
-#, fuzzy
 msgid "_Compare to Disk"
-msgstr "Comparer l'état actuel avec le fichier sauvegardé"
+msgstr "Comparer au disque"
 
 #: src/guimgr/savemanager.py:46
 msgid "Use System Default (%s)"
@@ -3718,9 +3708,8 @@ msgid "  (Remote write pending)"
 msgstr ""
 
 #: src/guimgr/savemanager.py:197 src/guimgr/savemanager.py:744
-#, fuzzy
 msgid "Failed to write remote file"
-msgstr "Échec d'écriture du fichier"
+msgstr "Échec d'écriture du fichier distant"
 
 #: src/guimgr/savemanager.py:198
 #, fuzzy
@@ -3809,9 +3798,8 @@ msgstr ""
 "autre fichier cible, ou annuler l'enregistrement ?"
 
 #: src/guimgr/savemanager.py:653
-#, fuzzy
 msgid "Com_pare to Disk"
-msgstr "Comparer l'état actuel avec le fichier sauvegardé"
+msgstr "Comparer au disque"
 
 #: src/guimgr/savemanager.py:654
 msgid "_Overwrite"
@@ -3840,14 +3828,12 @@ msgid ""
 msgstr ""
 
 #: src/guimgr/savemanager.py:671
-#, fuzzy
 msgid "_Save Now"
-msgstr "_Enregistrer"
+msgstr "Enregistrer maintenant"
 
 #: src/guimgr/savemanager.py:681
-#, fuzzy
 msgid "Could Not Write to Remote Host"
-msgstr "N’a pas pu enregistrer les fichiers distants"
+msgstr "N’a pas pu écrire sur l’hôte distant"
 
 #: src/guimgr/savemanager.py:682
 #, fuzzy
@@ -3861,7 +3847,7 @@ msgstr ""
 
 #: src/guimgr/savemanager.py:684
 msgid "_Try Again"
-msgstr ""
+msgstr "Essayer à nouveau"
 
 #: src/guimgr/savemanager.py:693
 msgid "Different file format"
