@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_wingide_topcommands\n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2017-01-06 22:59+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
@@ -63,7 +63,7 @@ msgstr " Zu anderer Position gehen. "
 msgid "These are the high level application control commands."
 msgstr "Dies sind die Top-Level Anwendungsbefehle."
 
-#: src/wingide/topcommands.py:185 src/wingide/topcommands.py:2734
+#: src/wingide/topcommands.py:185 src/wingide/topcommands.py:2783
 msgid " Constructor; fGuiMgr is invariant. "
 msgstr " Constructor; fGuiMgr ist unveränderlich. "
 
@@ -312,8 +312,8 @@ msgstr ""
 "einen anderen Namen zum Speichern aus."
 
 #: src/wingide/topcommands.py:698 src/wingide/topcommands.py:836
-#: src/wingide/topcommands.py:2206 src/wingide/topcommands.py:2219
-#: src/wingide/topcommands.py:2249 src/wingide/topcommands.py:2256
+#: src/wingide/topcommands.py:2254 src/wingide/topcommands.py:2267
+#: src/wingide/topcommands.py:2297 src/wingide/topcommands.py:2304
 msgid "_OK"
 msgstr "_OK"
 
@@ -848,19 +848,21 @@ msgid "Show the Wing Tips window"
 msgstr "Fenster mit Wing Tipps anzeigen"
 
 #: src/wingide/topcommands.py:1993
+#, fuzzy
 msgid ""
-"Show the given document in PDF format.  One of 'manual', 'intro',\n"
-"    or 'howtos'."
+"Show the given document in PDF format by opening it from wingware.com.  Doc "
+"is one\n"
+"    of 'manual' (default), 'intro', or 'howtos'."
 msgstr ""
 "Das angegebene Dokument in PDF-Format anzeigen. Entweder "
 "'manual' (Benutzerhandbuch),\n"
 "    'intro' (Einführung) oder 'howtos' (Howtos)."
 
-#: src/wingide/topcommands.py:2011
+#: src/wingide/topcommands.py:2010
 msgid "Show the given document section in HTML format."
 msgstr "Gegebenen Dokumentabschnitt in HTML-Format anzeigen."
 
-#: src/wingide/topcommands.py:2033
+#: src/wingide/topcommands.py:2032
 #, fuzzy
 msgid ""
 "Search using given text and the toolbar search area.  The search\n"
@@ -870,26 +872,26 @@ msgstr ""
 "Verwendung\n"
 "     des Textes, der im Suchbereich der Werkzeugleiste eingegeben ist."
 
-#: src/wingide/topcommands.py:2095
+#: src/wingide/topcommands.py:2094
 msgid "Search successful (wrapped)"
 msgstr "Suche erfolgreich (umbrochen)"
 
-#: src/wingide/topcommands.py:2100
+#: src/wingide/topcommands.py:2099
 msgid "No search match"
 msgstr "Keine Suchtreffer"
 
-#: src/wingide/topcommands.py:2107
+#: src/wingide/topcommands.py:2106
 msgid "Search successful"
 msgstr "Suche erfolgreich"
 
-#: src/wingide/topcommands.py:2122
+#: src/wingide/topcommands.py:2121
 #, fuzzy
 msgid "Move to next match of text already entered in the toolbar search area"
 msgstr ""
 "Zum nächsten Treffer des Textes, der im Suchbereich der Werkzeugleiste "
 "eingegeben ist, gehen"
 
-#: src/wingide/topcommands.py:2131
+#: src/wingide/topcommands.py:2130
 #, fuzzy
 msgid ""
 "Move to previous match of text already entered in the toolbar search area"
@@ -897,19 +899,19 @@ msgstr ""
 "Zum nächsten Treffer des Textes, der im Suchbereich der Werkzeugleiste "
 "eingegeben ist, gehen"
 
-#: src/wingide/topcommands.py:2140
+#: src/wingide/topcommands.py:2139
 msgid " Move focus to toolbar search entry. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2159
+#: src/wingide/topcommands.py:2158
 msgid "Show the feedback submission dialog"
 msgstr "Dialog für Feedback anzeigen"
 
-#: src/wingide/topcommands.py:2164
+#: src/wingide/topcommands.py:2163
 msgid "Show the bug reporting dialog"
 msgstr "Dialog für Fehlerberichte anzeigen"
 
-#: src/wingide/topcommands.py:2169
+#: src/wingide/topcommands.py:2168
 msgid ""
 "Check for updates to Wing and offer to install any that are\n"
 "    available"
@@ -917,11 +919,52 @@ msgstr ""
 "Nach Updates für Wing suchen und vorschlagen, verfügbare\n"
 "    Updates zu installieren"
 
-#: src/wingide/topcommands.py:2175
+#: src/wingide/topcommands.py:2174
 msgid "Apply a manually downloaded update"
 msgstr ""
 
-#: src/wingide/topcommands.py:2180
+#: src/wingide/topcommands.py:2179
+msgid ""
+"Validate the Wing installation, checking that all files are present\n"
+"    and have the expected contents"
+msgstr ""
+
+#: src/wingide/topcommands.py:2190
+msgid "Checking Installation"
+msgstr ""
+
+#: src/wingide/topcommands.py:2191 src/wingide/topcommands.py:2194
+msgid "Reading Catalog"
+msgstr ""
+
+#: src/wingide/topcommands.py:2199
+msgid "Scanned %i of %i files"
+msgstr ""
+
+#: src/wingide/topcommands.py:2213
+msgid "Installation is Valid"
+msgstr ""
+
+#: src/wingide/topcommands.py:2214
+msgid "No problems were found with your installation of Wing %s version %s"
+msgstr ""
+
+#: src/wingide/topcommands.py:2217
+msgid "Installation Problems Found"
+msgstr ""
+
+#: src/wingide/topcommands.py:2218
+msgid ""
+"The following errors where found with your installation of Wing %s version "
+"%s:"
+msgstr ""
+
+#: src/wingide/topcommands.py:2223
+#, fuzzy
+msgid "OK"
+msgstr "_OK"
+
+#: src/wingide/topcommands.py:2228
 msgid ""
 "Prompt user and copy the tutorial directory from the Wing \n"
 "    installation to the directory selected by the user"
@@ -930,20 +973,20 @@ msgstr ""
 "Verzeichnis, das \n"
 "  vom Benutzer ausgewählt wird."
 
-#: src/wingide/topcommands.py:2189 src/wingide/topcommands.py:2203
-#: src/wingide/topcommands.py:2217 src/wingide/topcommands.py:2247
+#: src/wingide/topcommands.py:2237 src/wingide/topcommands.py:2251
+#: src/wingide/topcommands.py:2265 src/wingide/topcommands.py:2295
 msgid "Could not copy tutorial"
 msgstr "Tutorial konnte nicht kopiert werden"
 
-#: src/wingide/topcommands.py:2190
+#: src/wingide/topcommands.py:2238
 msgid "No valid directory was selected."
 msgstr "Es wurde kein gültiges Verzeichnis ausgewählt."
 
-#: src/wingide/topcommands.py:2201
+#: src/wingide/topcommands.py:2249
 msgid "tutorial"
 msgstr "Tutorial"
 
-#: src/wingide/topcommands.py:2204
+#: src/wingide/topcommands.py:2252
 msgid ""
 "A non-empty directory %s already exists.  Please remove it  or select "
 "another location."
@@ -951,45 +994,45 @@ msgstr ""
 "Eine nicht-leeres Verzeichnis %s existiert bereits. Bitte entfernen Sie es "
 "oder wählen ein anderes Verzeichnis."
 
-#: src/wingide/topcommands.py:2218
+#: src/wingide/topcommands.py:2266
 msgid "Unable to create directory %s.  Please check disk permissions."
 msgstr ""
 
-#: src/wingide/topcommands.py:2248
+#: src/wingide/topcommands.py:2296
 msgid ""
 "Unable to copy all of directory %s.  Please check disk permissions and free "
 "space."
 msgstr ""
 
-#: src/wingide/topcommands.py:2254
+#: src/wingide/topcommands.py:2302
 msgid "Tutorial copied"
 msgstr "Tutorial wurde kopiert"
 
-#: src/wingide/topcommands.py:2255
+#: src/wingide/topcommands.py:2303
 msgid "Tutorial was copied to %s"
 msgstr "Tutorial wurde in %s kopiert"
 
-#: src/wingide/topcommands.py:2261
+#: src/wingide/topcommands.py:2309
 msgid "Choose Target Folder"
 msgstr "Wählen Sie den Ziel Ordner aus"
 
-#: src/wingide/topcommands.py:2262
+#: src/wingide/topcommands.py:2310
 msgid "Please select a target folder to which to copy the tutorial files"
 msgstr ""
 "Bitte wählen Sie einen Ordner, in den die Source-Dateien des Tutorials "
 "kopiert werden sollen."
 
-#: src/wingide/topcommands.py:2271
+#: src/wingide/topcommands.py:2319
 msgid "Show the contents of all non-empty text registers in a temporary editor"
 msgstr ""
 "Die Inhalte aller nicht-leeren Textregister in einem vorübergehenden Editor "
 "anzeigen"
 
-#: src/wingide/topcommands.py:2278
+#: src/wingide/topcommands.py:2326
 msgid "Utility to get current editor"
 msgstr "Werkzeug, um aktuellen Editor zu holen"
 
-#: src/wingide/topcommands.py:2287
+#: src/wingide/topcommands.py:2335
 #, fuzzy
 msgid ""
 "Set a bookmark at current location on the editor. Mark is the project-wide "
@@ -1001,19 +1044,19 @@ msgstr ""
 "Ein Lesezeichen am aktuellen Ort im Editor setzen. \"Mark\" ist der\n"
 "    projektweite Textname des Lesezeichens."
 
-#: src/wingide/topcommands.py:2292
+#: src/wingide/topcommands.py:2340
 msgid "Set Named Bookmark"
 msgstr "Benanntes Lesezeichen setzen"
 
-#: src/wingide/topcommands.py:2310
+#: src/wingide/topcommands.py:2358
 msgid "The project-wide name of the bookmark to set or replace."
 msgstr ""
 
-#: src/wingide/topcommands.py:2312
+#: src/wingide/topcommands.py:2360
 msgid "Name:"
 msgstr "Name:"
 
-#: src/wingide/topcommands.py:2317
+#: src/wingide/topcommands.py:2365
 msgid ""
 "Set a bookmark at the current location on the editor using a dialog to set "
 "the\n"
@@ -1022,7 +1065,7 @@ msgid ""
 "    location, and default category is set to the current bookmark category."
 msgstr ""
 
-#: src/wingide/topcommands.py:2326
+#: src/wingide/topcommands.py:2374
 msgid ""
 "Set a bookmark at the clicked location on the editor using a dialog to set "
 "the\n"
@@ -1031,7 +1074,7 @@ msgid ""
 "    location, and default category is set to the current bookmark category."
 msgstr ""
 
-#: src/wingide/topcommands.py:2340
+#: src/wingide/topcommands.py:2388
 #, fuzzy
 msgid ""
 "Set or remove a bookmark at current location on the editor. When set, the "
@@ -1045,7 +1088,7 @@ msgstr ""
 "Ein Lesezeichen am aktuellen Ort im Editor setzen. Dabei soll der nächste\n"
 "    Tastenanschlag als Name des Lesezeichens verwendet werden."
 
-#: src/wingide/topcommands.py:2353
+#: src/wingide/topcommands.py:2401
 #, fuzzy
 msgid ""
 "Set or remove a bookmark at the position in the editor where the most recent "
@@ -1059,13 +1102,13 @@ msgstr ""
 "Ein Lesezeichen am aktuellen Ort im Editor setzen. Dabei soll der nächste\n"
 "    Tastenanschlag als Name des Lesezeichens verwendet werden."
 
-#: src/wingide/topcommands.py:2363
+#: src/wingide/topcommands.py:2411
 msgid ""
 "Remove the given named bookmark, optionally confirming the removal with the "
 "user."
 msgstr ""
 
-#: src/wingide/topcommands.py:2372
+#: src/wingide/topcommands.py:2420
 msgid ""
 "Set a bookmark at current line, using a default bookmark name for that "
 "context.\n"
@@ -1076,30 +1119,30 @@ msgid ""
 "    are left blank."
 msgstr ""
 
-#: src/wingide/topcommands.py:2388
+#: src/wingide/topcommands.py:2436
 msgid ""
 "Remove bookmark at current line, if any. This command is only available if "
 "there is a\n"
 "    bookmark on the line."
 msgstr ""
 
-#: src/wingide/topcommands.py:2402
+#: src/wingide/topcommands.py:2450
 msgid "Edit the defined bookmark categories"
 msgstr ""
 
-#: src/wingide/topcommands.py:2407
+#: src/wingide/topcommands.py:2455
 msgid "Goto named bookmark"
 msgstr "Zum benannten Lesezeichen gehen"
 
-#: src/wingide/topcommands.py:2421
+#: src/wingide/topcommands.py:2469
 msgid "Bookmark"
 msgstr "Lesezeichen"
 
-#: src/wingide/topcommands.py:2423
+#: src/wingide/topcommands.py:2471
 msgid "Bookmark:"
 msgstr "Lesezeichen:"
 
-#: src/wingide/topcommands.py:2428
+#: src/wingide/topcommands.py:2476
 msgid ""
 "Go to the next bookmark, or the first one if no bookmark is selected. Stays "
 "within\n"
@@ -1108,7 +1151,7 @@ msgid ""
 "    current bookmark category are visited unless a category is passed."
 msgstr ""
 
-#: src/wingide/topcommands.py:2438
+#: src/wingide/topcommands.py:2486
 msgid ""
 "Go to the previous bookmark in the bookmark list, or the last one if no "
 "bookmark is\n"
@@ -1119,58 +1162,58 @@ msgid ""
 "    passed."
 msgstr ""
 
-#: src/wingide/topcommands.py:2449
+#: src/wingide/topcommands.py:2497
 msgid "Show a list of all currently defined bookmarks"
 msgstr "Liste aller zurzeit definierten Lesezeichen anzeigen"
 
-#: src/wingide/topcommands.py:2455
+#: src/wingide/topcommands.py:2503
 msgid "Export all bookmark categories"
 msgstr ""
 
-#: src/wingide/topcommands.py:2464
+#: src/wingide/topcommands.py:2512
 #, fuzzy
 msgid "The location to export the bookmark categories"
 msgstr "Verzeichnis, in dem die Datei gespeichert wird"
 
-#: src/wingide/topcommands.py:2469
+#: src/wingide/topcommands.py:2517
 #, fuzzy
 msgid "Export File:"
 msgstr "Datei auswählen:"
 
-#: src/wingide/topcommands.py:2477
+#: src/wingide/topcommands.py:2525
 #, fuzzy
 msgid "Import bookmark categories"
 msgstr "Keine Lesezeichen definiert"
 
-#: src/wingide/topcommands.py:2486
+#: src/wingide/topcommands.py:2534
 msgid "The exported bookmark categories to read"
 msgstr ""
 
-#: src/wingide/topcommands.py:2491
+#: src/wingide/topcommands.py:2539
 #, fuzzy
 msgid "Import File:"
 msgstr "Datei auswählen:"
 
-#: src/wingide/topcommands.py:2498
+#: src/wingide/topcommands.py:2546
 #, fuzzy
 msgid " Returns list of menu items for selecting among defined bookmarks "
 msgstr " Gibt Liste der Menüeinträge für das Werkzeugmenü aus. "
 
-#: src/wingide/topcommands.py:2512
+#: src/wingide/topcommands.py:2560
 #, fuzzy
 msgid "No matching bookmarks defined"
 msgstr "Keine Lesezeichen definiert"
 
-#: src/wingide/topcommands.py:2521
+#: src/wingide/topcommands.py:2570
 #, fuzzy
 msgid " Returns list of menu items for selecting bookmark category "
 msgstr " Gibt Liste der Menüeinträge für das Werkzeugmenü aus. "
 
-#: src/wingide/topcommands.py:2534
+#: src/wingide/topcommands.py:2583
 msgid "Current Bookmark Category"
 msgstr ""
 
-#: src/wingide/topcommands.py:2545
+#: src/wingide/topcommands.py:2594
 msgid ""
 "Set a bookmark at current location on the editor using the next\n"
 "    key press as the name of the bookmark."
@@ -1178,7 +1221,7 @@ msgstr ""
 "Ein Lesezeichen am aktuellen Ort im Editor setzen. Dabei soll der nächste\n"
 "    Tastenanschlag als Name des Lesezeichens verwendet werden."
 
-#: src/wingide/topcommands.py:2554
+#: src/wingide/topcommands.py:2603
 msgid ""
 "Goto bookmark using single character name defined by\n"
 "    the next pressed key"
@@ -1187,13 +1230,13 @@ msgstr ""
 "verwenden,\n"
 "    der durch den nächsten Tastenanschlag definiert wird"
 
-#: src/wingide/topcommands.py:2567
+#: src/wingide/topcommands.py:2616
 msgid ""
 "Remove one or more bookmarks without confirmation (pass in space separated "
 "list of names)"
 msgstr ""
 
-#: src/wingide/topcommands.py:2572
+#: src/wingide/topcommands.py:2621
 #, fuzzy
 msgid ""
 " Start internal profiling.  Profile information is collected for Wing's\n"
@@ -1203,7 +1246,7 @@ msgstr ""
 "IDE's\n"
 "    internals until internal_profile_stop is executed."
 
-#: src/wingide/topcommands.py:2606
+#: src/wingide/topcommands.py:2655
 msgid ""
 " Stop internal profiling after earlier internal_profile_start command.\n"
 "    The profile can be found in the ide.log file or submitted to Wingware "
@@ -1211,107 +1254,107 @@ msgid ""
 "    part of the error log included with a bug report from the Help menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2618
+#: src/wingide/topcommands.py:2667
 msgid " Start logging information about keystroke processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2623
+#: src/wingide/topcommands.py:2672
 msgid " Stop logging information about keystroke processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2628
+#: src/wingide/topcommands.py:2677
 msgid "Restore the given named perspective."
 msgstr "Das angegebene benannte Perspektive wiederherstellen."
 
-#: src/wingide/topcommands.py:2631 src/wingide/topcommands.py:2646
+#: src/wingide/topcommands.py:2680 src/wingide/topcommands.py:2695
 msgid "Invalid Perspective::The perspective '%s' does not exist"
 msgstr "Ungültige Perspektive::Die Perspektive '%s' existiert nicht"
 
-#: src/wingide/topcommands.py:2638
+#: src/wingide/topcommands.py:2687
 msgid ""
 " Update the perspective with the current state.  If no name is given,\n"
 "    the active perspective is used. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2655
+#: src/wingide/topcommands.py:2704
 msgid "Display the perspectives manager dialog"
 msgstr "Den Perspektiven-Manager Dialog anzeigen"
 
-#: src/wingide/topcommands.py:2662
+#: src/wingide/topcommands.py:2711
 msgid "Enable auto-perspectives"
 msgstr "Auto-Perspektiven aktivieren"
 
-#: src/wingide/topcommands.py:2674
+#: src/wingide/topcommands.py:2723
 msgid "Disable auto-perspectives"
 msgstr "Auto-Perspektiven deaktivieren"
 
-#: src/wingide/topcommands.py:2686
+#: src/wingide/topcommands.py:2735
 msgid "Load the given named file set"
 msgstr "Die angegebene benannte Dateigruppe laden"
 
-#: src/wingide/topcommands.py:2689
+#: src/wingide/topcommands.py:2738
 msgid "Invalid File Set::The named file set '%s' does not exist"
 msgstr ""
 "Ungültige Dateigruppe::Die benannte Dateigruppe '%s' ist nicht vorhanden"
 
-#: src/wingide/topcommands.py:2696
+#: src/wingide/topcommands.py:2745
 msgid "Display the file set manager dialog"
 msgstr "Dateigruppen-Manager Dialog anzeigen"
 
-#: src/wingide/topcommands.py:2702
+#: src/wingide/topcommands.py:2751
 msgid "Create a new named file set with the currently open files"
 msgstr ""
 "Erstellen einer neuen benannten Dateigruppe aus den momentan geöffneten "
 "Dateien"
 
-#: src/wingide/topcommands.py:2712
+#: src/wingide/topcommands.py:2761
 msgid "Create a new named file set with the currently selected files"
 msgstr ""
 "Erstellen einer neuen benannten Dateigruppe aus den momentan ausgewählten "
 "Dateien"
 
-#: src/wingide/topcommands.py:2721
+#: src/wingide/topcommands.py:2770
 msgid "Enter a new license code, replacing any existing license activation"
 msgstr ""
 "Einen neuen Lizenzcode eingeben und dabei alle vorhanden Lizenzaktivierungen "
 "überschreiben"
 
-#: src/wingide/topcommands.py:2727
+#: src/wingide/topcommands.py:2776
 msgid "Commands to dynamically generate menu items for the top level menus."
 msgstr ""
 "Befehle, um Menüeintrage für die Top-Level Menüs dynamisch zu erzeugen."
 
-#: src/wingide/topcommands.py:2745
+#: src/wingide/topcommands.py:2794
 msgid " Returns list of menu item definitions for all windows. "
 msgstr " Gibt Liste der Definitionen der Menüeinträge für alle Fenster aus. "
 
-#: src/wingide/topcommands.py:2752
+#: src/wingide/topcommands.py:2801
 msgid "Untitled"
 msgstr "Unbenannt"
 
-#: src/wingide/topcommands.py:2804
+#: src/wingide/topcommands.py:2853
 msgid ""
 "Return extra Help menu items to include if running on a trial license\n"
 "    or no license"
 msgstr ""
 
-#: src/wingide/topcommands.py:2810 src/wingide/topcommands.py:2836
+#: src/wingide/topcommands.py:2859 src/wingide/topcommands.py:2885
 msgid "Buy Now"
 msgstr "Jetzt kaufen"
 
-#: src/wingide/topcommands.py:2815
+#: src/wingide/topcommands.py:2864
 msgid "Upgrade to Commercial Use Now"
 msgstr "Jetzt auf kommerzielle Nutzung upgraden"
 
-#: src/wingide/topcommands.py:2823
+#: src/wingide/topcommands.py:2872
 msgid "Buy Full-Featured Wing Pro"
 msgstr ""
 
-#: src/wingide/topcommands.py:2837
+#: src/wingide/topcommands.py:2886
 msgid "Enter License..."
 msgstr "Lizenz eingeben..."
 
-#: src/wingide/topcommands.py:2849
+#: src/wingide/topcommands.py:2898
 msgid ""
 " Returns list of menu item definitions for all documents in active\n"
 "    window. "
@@ -1319,114 +1362,114 @@ msgstr ""
 " Gibt Liste der Definitionen der Menüeinträge für alle Dokumente im aktiven\n"
 "    Fenster aus. "
 
-#: src/wingide/topcommands.py:2875
+#: src/wingide/topcommands.py:2924
 msgid "Wing Help"
 msgstr "Wing Hilfe"
 
-#: src/wingide/topcommands.py:2902 src/wingide/topcommands.py:2914
-#: src/wingide/topcommands.py:2928
+#: src/wingide/topcommands.py:2951 src/wingide/topcommands.py:2963
+#: src/wingide/topcommands.py:2977
 msgid " Debug loc; used to implement recent menu. "
 msgstr " Debug loc, verwendet, um das letzte Menü zu implementieren. "
 
-#: src/wingide/topcommands.py:2907
+#: src/wingide/topcommands.py:2956
 msgid " Generates list of menu items for recent files menu. "
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Dateien. "
 
-#: src/wingide/topcommands.py:2921
+#: src/wingide/topcommands.py:2970
 msgid " Generates list of menu items for recent projects menu. "
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Projekte. "
 
-#: src/wingide/topcommands.py:2950 src/wingide/topcommands.py:3027
+#: src/wingide/topcommands.py:2999 src/wingide/topcommands.py:3076
 msgid " Generates list of menu items for recent debug menu. "
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Debuggen. "
 
-#: src/wingide/topcommands.py:2960
+#: src/wingide/topcommands.py:3009
 #, fuzzy
 msgid ""
 "Generates a list of menu items for creating a new debug process,\n"
 "      if multi-process debugging is enabled"
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Debuggen. "
 
-#: src/wingide/topcommands.py:2967
+#: src/wingide/topcommands.py:3016
 msgid "Start _New Process"
 msgstr "_Neuen Prozess starten"
 
-#: src/wingide/topcommands.py:2968
+#: src/wingide/topcommands.py:3017
 msgid "Step _Into New Process"
 msgstr ""
 
-#: src/wingide/topcommands.py:2969
+#: src/wingide/topcommands.py:3018
 msgid "Run to C_ursor in New Process"
 msgstr ""
 
-#: src/wingide/topcommands.py:2971
+#: src/wingide/topcommands.py:3020
 msgid "_Continue All Processes"
 msgstr "Alle Prozesse _fortsetzen"
 
-#: src/wingide/topcommands.py:2972
+#: src/wingide/topcommands.py:3021
 msgid "_Pause All Processes"
 msgstr "Alle Prozesse _pausieren"
 
-#: src/wingide/topcommands.py:2973
+#: src/wingide/topcommands.py:3022
 msgid "_Restart All Processes"
 msgstr "Alle Prozesse _neu starten"
 
-#: src/wingide/topcommands.py:2974
+#: src/wingide/topcommands.py:3023
 msgid "_Kill All Processes"
 msgstr "Alle Prozesse _töten"
 
-#: src/wingide/topcommands.py:2980
+#: src/wingide/topcommands.py:3029
 msgid "_Attach to Process..."
 msgstr "An Prozess _anhängen..."
 
-#: src/wingide/topcommands.py:2981
+#: src/wingide/topcommands.py:3030
 msgid "_Detach from Process"
 msgstr "Von Prozess _trennen"
 
-#: src/wingide/topcommands.py:2982
+#: src/wingide/topcommands.py:3031
 #, fuzzy
 msgid "Detach from A_ll Processes"
 msgstr "Von Prozess _trennen"
 
-#: src/wingide/topcommands.py:2985
+#: src/wingide/topcommands.py:3034
 #, fuzzy
 msgid "Pro_cesses"
 msgstr "Prozesse"
 
-#: src/wingide/topcommands.py:2998
+#: src/wingide/topcommands.py:3047
 msgid " Generates list of menu items for named debug entry points. "
 msgstr ""
 " Erzeugt eine Liste der Menüeinträge für benannte Debug Einsprungspunkte. "
 
-#: src/wingide/topcommands.py:3010 src/wingide/topcommands.py:3049
+#: src/wingide/topcommands.py:3059 src/wingide/topcommands.py:3098
 msgid "Manage Named Entry Points..."
 msgstr "Benannte Einsprungspunkte verwalten..."
 
-#: src/wingide/topcommands.py:3015
+#: src/wingide/topcommands.py:3064
 #, fuzzy
 msgid " Execute loc; used to implement recent menu. "
 msgstr " Debug loc, verwendet, um das letzte Menü zu implementieren. "
 
-#: src/wingide/topcommands.py:3039
+#: src/wingide/topcommands.py:3088
 msgid " Generates list of menu items to execute named entry points. "
 msgstr ""
 " Erzeugt eine Liste der Menüeinträge für das Ausführen benannter "
 "Einsprungspunkte. "
 
-#: src/wingide/topcommands.py:3055
+#: src/wingide/topcommands.py:3104
 msgid " Invoke script; used to implement recent menu. "
 msgstr " Skript aufrufen; verwendet, um letztes Menü zu implementieren. "
 
-#: src/wingide/topcommands.py:3060
+#: src/wingide/topcommands.py:3109
 msgid " Returns label to use for script. "
 msgstr " Gibt das für das Skript zu verwendende Kennzeichen aus. "
 
-#: src/wingide/topcommands.py:3072
+#: src/wingide/topcommands.py:3121
 #, fuzzy
 msgid " Generates list of menu items for recent scripts menu. "
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Dateien. "
 
-#: src/wingide/topcommands.py:3080
+#: src/wingide/topcommands.py:3129
 msgid ""
 " Create list of tool menu items.  If new_window is True, commands attached\n"
 "    to items will create new tool window. "
@@ -1435,103 +1478,103 @@ msgstr ""
 "gesetzt ist, werden\n"
 "    Befehle, die an Einträge angehängt sind, neue Werkzeugfenster anlegen. "
 
-#: src/wingide/topcommands.py:3129 src/wingide/topcommands.py:3134
+#: src/wingide/topcommands.py:3178 src/wingide/topcommands.py:3183
 msgid " Returns list of menu items for the tools menu. "
 msgstr " Gibt Liste der Menüeinträge für das Werkzeugmenü aus. "
 
-#: src/wingide/topcommands.py:3139
+#: src/wingide/topcommands.py:3188
 msgid ""
 " Create the dock-specific tools menu items or empty list if not in single\n"
 "    window mode"
 msgstr ""
 
-#: src/wingide/topcommands.py:3146
+#: src/wingide/topcommands.py:3195
 msgid "Show _Horizontal Tool Area"
 msgstr "_Waagerechten Werkzeugbereich anzeigen"
 
-#: src/wingide/topcommands.py:3147
+#: src/wingide/topcommands.py:3196
 msgid "Hide _Horizontal Tool Area"
 msgstr "_Waagerechten Werkzeugbereich ausblenden"
 
-#: src/wingide/topcommands.py:3148
+#: src/wingide/topcommands.py:3197
 msgid "Show _Vertical Tool Area"
 msgstr "_Senkrechten Werkzeugbereich anzeigen"
 
-#: src/wingide/topcommands.py:3149
+#: src/wingide/topcommands.py:3198
 msgid "Hide _Vertical Tool Area"
 msgstr "_Senkrechten Werkzeugbereich ausblenden"
 
-#: src/wingide/topcommands.py:3150
+#: src/wingide/topcommands.py:3199
 msgid "_Move Vertical Tool Area to Right"
 msgstr "Senkrechten Werkzeugbereich nach rechts _verschieben"
 
-#: src/wingide/topcommands.py:3151
+#: src/wingide/topcommands.py:3200
 msgid "_Move Vertical Tool Area to Left"
 msgstr "Senkrechten Werkzeugbereich nach links _verschieben"
 
-#: src/wingide/topcommands.py:3152
+#: src/wingide/topcommands.py:3201
 msgid "Ma_ximize Editor Area"
 msgstr "Editor-Bereich m_aximieren"
 
-#: src/wingide/topcommands.py:3153
+#: src/wingide/topcommands.py:3202
 msgid "Un-ma_ximize Editor Area"
 msgstr "Ma_ximierung des Editor-Bereichs aufheben"
 
-#: src/wingide/topcommands.py:3154
+#: src/wingide/topcommands.py:3203
 msgid "Show Toolbar"
 msgstr "Werkzeugleiste anzeigen"
 
-#: src/wingide/topcommands.py:3155
+#: src/wingide/topcommands.py:3204
 msgid "Hide Toolbar"
 msgstr "Werkzeugleiste ausblenden"
 
-#: src/wingide/topcommands.py:3160
+#: src/wingide/topcommands.py:3209
 msgid ""
 " Create list of perspective menu items that call the given action with \n"
 "    the perspective name"
 msgstr ""
 
-#: src/wingide/topcommands.py:3199
+#: src/wingide/topcommands.py:3248
 #, fuzzy
 msgid " Returns list of menu items for setting current perspective "
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Projekte. "
 
-#: src/wingide/topcommands.py:3205
+#: src/wingide/topcommands.py:3254
 #, fuzzy
 msgid " Returns list of menu items for deleting perspectives "
 msgstr " Gibt Liste der Menüeinträge für das Werkzeugmenü aus. "
 
-#: src/wingide/topcommands.py:3214
+#: src/wingide/topcommands.py:3263
 #, fuzzy
 msgid " Returns list of menu items for selecting keyboard personality "
 msgstr " Gibt Liste der Menüeinträge für das Werkzeugmenü aus. "
 
-#: src/wingide/topcommands.py:3239
+#: src/wingide/topcommands.py:3288
 msgid " Generates list of menu items for all named file sets. "
 msgstr ""
 " Erzeugt eine Liste von Menüeinträgen für alle benannten Dateigruppen. "
 
-#: src/wingide/topcommands.py:3245
+#: src/wingide/topcommands.py:3294
 #, fuzzy
 msgid "Generates menu items for remote file open commands"
 msgstr "Erzeugt Menüeinträge für das Menü Letzte Dateien"
 
-#: src/wingide/topcommands.py:3254
+#: src/wingide/topcommands.py:3303
 #, fuzzy
 msgid "Generates menu items for remote project open commands"
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Projekte. "
 
-#: src/wingide/topcommands.py:3263
+#: src/wingide/topcommands.py:3312
 #, fuzzy
 msgid "Generates menu items for remote project save commands"
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Projekte. "
 
-#: src/wingide/topcommands.py:3272
+#: src/wingide/topcommands.py:3321
 #, fuzzy
 msgid "Generates menu items for remote file save commands"
 msgstr " Erzeugt eine Liste der Menüeinträge für das Menü Letzte Dateien. "
 
-#: src/wingide/topcommands.py:3281
+#: src/wingide/topcommands.py:3330
 msgid "Beep once"
 msgstr "Einmal piepsen"
 

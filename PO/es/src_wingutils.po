@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:17+EDT\n"
 "PO-Revision-Date: 2012-01-04 18:25-0600\n"
 "Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
 "Language-Team:  <C@li.org>\n"
@@ -115,13 +115,13 @@ msgstr ""
 msgid "Value is %s, should be dict"
 msgstr ""
 
-#: src/wingutils/datatype.py:459
+#: src/wingutils/datatype.py:459 src/wingutils/datatype.py:574
 msgid ""
 "Bad dictionary key %s:\n"
 "%s"
 msgstr ""
 
-#: src/wingutils/datatype.py:462
+#: src/wingutils/datatype.py:462 src/wingutils/datatype.py:577
 msgid ""
 "Bad dictionary value %s:\n"
 "%s"
@@ -163,49 +163,54 @@ msgstr ""
 msgid "[list of str]"
 msgstr ""
 
-#: src/wingutils/datatype.py:569
+#: src/wingutils/datatype.py:570
+#, fuzzy
+msgid "Value is %s, should be CFileFilters"
+msgstr "El valor debería ser None"
+
+#: src/wingutils/datatype.py:581
 msgid "[file filters]"
 msgstr ""
 
-#: src/wingutils/datatype.py:584
+#: src/wingutils/datatype.py:596
 msgid "Value has type %s, should be string containing a #.#.#.# IP4 address\n"
 msgstr ""
 
-#: src/wingutils/datatype.py:588
+#: src/wingutils/datatype.py:600
 msgid "Value should be a #.#.#.# IP4 address"
 msgstr ""
 
-#: src/wingutils/datatype.py:594
+#: src/wingutils/datatype.py:606
 msgid "Value should be a #.#.#.# IP4 address but contains non-numeric parts"
 msgstr ""
 
-#: src/wingutils/datatype.py:615
+#: src/wingutils/datatype.py:627
 msgid "Icon should be IconReference but has type %s"
 msgstr ""
 
-#: src/wingutils/datatype.py:620
+#: src/wingutils/datatype.py:632
 msgid "Icon file does not exist"
 msgstr ""
 
-#: src/wingutils/datatype.py:622
+#: src/wingutils/datatype.py:634
 msgid "Icon file is a directory"
 msgstr ""
 
-#: src/wingutils/datatype.py:626
+#: src/wingutils/datatype.py:638
 msgid "Icon spec has type %s, should be string, unicode, or location"
 msgstr ""
 
-#: src/wingutils/datatype.py:629
+#: src/wingutils/datatype.py:641
 msgid ""
 "Icon spec string must start with wingide- for Wing icon or SP_ for Qt stock "
 "icon"
 msgstr ""
 
-#: src/wingutils/datatype.py:685
+#: src/wingutils/datatype.py:697
 msgid "Value is not a CResourceLocation: %s"
 msgstr ""
 
-#: src/wingutils/datatype.py:705
+#: src/wingutils/datatype.py:717
 msgid "Cannot convert text into a CResourceLocation: %s"
 msgstr ""
 
@@ -381,7 +386,7 @@ msgid ""
 "comment should be changed instead."
 msgstr ""
 
-#: src/wingutils/savable.py:739
+#: src/wingutils/savable.py:766
 msgid "Unknown"
 msgstr "Desconocido"
 

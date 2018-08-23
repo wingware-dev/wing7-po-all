@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-04-16 16:37+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:17+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:24GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -196,13 +196,13 @@ msgstr ""
 msgid "Revert"
 msgstr ""
 
-#: src/wingide/aboutbox.py:329 src/wingide/wingapp.py:1516
+#: src/wingide/aboutbox.py:329 src/wingide/wingapp.py:1544
 msgid "Cancel"
 msgstr ""
 
 #: src/wingide/updatemgr.py:59 src/wingide/updatemgr.py:400
-#: src/wingide/updatemgr.py:803 src/wingide/wingapp.py:1929
-#: src/wingide/wingapp.py:1950
+#: src/wingide/updatemgr.py:807 src/wingide/wingapp.py:1957
+#: src/wingide/wingapp.py:1978
 msgid "_OK"
 msgstr ""
 
@@ -210,8 +210,8 @@ msgstr ""
 msgid "Skipping update check -- done too recently"
 msgstr ""
 
-#: src/wingide/updatemgr.py:142 src/wingide/updatemgr.py:925
-#: src/wingide/updatemgr.py:937
+#: src/wingide/updatemgr.py:142 src/wingide/updatemgr.py:929
+#: src/wingide/updatemgr.py:941
 msgid "OK"
 msgstr ""
 
@@ -235,7 +235,7 @@ msgstr ""
 msgid "Connecting to wingware.com"
 msgstr ""
 
-#: src/wingide/updatemgr.py:206 src/wingide/wingapp.py:1942
+#: src/wingide/updatemgr.py:206 src/wingide/wingapp.py:1970
 msgid "Network Error"
 msgstr ""
 
@@ -329,8 +329,8 @@ msgstr ""
 msgid "Add _Support+Upgrades"
 msgstr ""
 
-#: src/wingide/updatemgr.py:383 src/wingide/updatemgr.py:562
-#: src/wingide/updatemgr.py:663 src/wingide/wingapp.py:1930
+#: src/wingide/updatemgr.py:383 src/wingide/updatemgr.py:565
+#: src/wingide/updatemgr.py:666 src/wingide/wingapp.py:1958
 msgid "_Cancel"
 msgstr ""
 
@@ -346,203 +346,200 @@ msgstr ""
 msgid "Preparing Interface"
 msgstr ""
 
-#: src/wingide/updatemgr.py:561
+#: src/wingide/updatemgr.py:564
 msgid "_Update"
 msgstr ""
 
-#: src/wingide/updatemgr.py:565
+#: src/wingide/updatemgr.py:568
 msgid "A Newer Version is Available"
 msgstr ""
 
-#: src/wingide/updatemgr.py:581
+#: src/wingide/updatemgr.py:584
 msgid "New Version!"
 msgstr ""
 
-#: src/wingide/updatemgr.py:581
+#: src/wingide/updatemgr.py:584
 msgid "Summary of changes:"
 msgstr ""
 
-#: src/wingide/updatemgr.py:603
+#: src/wingide/updatemgr.py:606
 msgid "Automatically check for updates"
 msgstr ""
 
-#: src/wingide/updatemgr.py:666
+#: src/wingide/updatemgr.py:669
 msgid "Installing Updates"
 msgstr ""
 
-#: src/wingide/updatemgr.py:691
+#: src/wingide/updatemgr.py:694
 msgid "Downloading update to %s"
 msgstr ""
 
-#: src/wingide/updatemgr.py:740
+#: src/wingide/updatemgr.py:743
 msgid "Connecting to server"
 msgstr ""
 
-#: src/wingide/updatemgr.py:745
+#: src/wingide/updatemgr.py:748
 msgid "Could not open connection to download update"
 msgstr ""
 
-#: src/wingide/updatemgr.py:752
+#: src/wingide/updatemgr.py:755
 msgid "Downloading update"
 msgstr ""
 
-#: src/wingide/updatemgr.py:758
+#: src/wingide/updatemgr.py:761
 msgid "Downloading update (%d.2MB)"
 msgstr ""
 
-#: src/wingide/updatemgr.py:764
-msgid "Failed to download update %s"
+#: src/wingide/updatemgr.py:767
+msgid "Failed to download update"
 msgstr ""
 
-#: src/wingide/updatemgr.py:770
+#: src/wingide/updatemgr.py:773
 msgid "Installing update"
 msgstr ""
 
-#: src/wingide/updatemgr.py:785
+#: src/wingide/updatemgr.py:788 src/wingide/updatemgr.py:791
 msgid "Validating Install"
 msgstr ""
 
-#: src/wingide/updatemgr.py:788
-msgid "Validating Install (%i of %i"
+#: src/wingide/updatemgr.py:791
+msgid "(%i of %i)"
 msgstr ""
 
-#: src/wingide/updatemgr.py:804
+#: src/wingide/updatemgr.py:808
 msgid "Update Failed"
 msgstr ""
 
-#: src/wingide/updatemgr.py:805
+#: src/wingide/updatemgr.py:809
 msgid ""
 "The update could not be applied.  Errors were:\n"
 "\n"
 msgstr ""
 
-#: src/wingide/updatemgr.py:823
+#: src/wingide/updatemgr.py:827
 msgid "_Restart Now"
 msgstr ""
 
-#: src/wingide/updatemgr.py:827
+#: src/wingide/updatemgr.py:831
 msgid "_Continue Working"
 msgstr ""
 
-#: src/wingide/updatemgr.py:831
+#: src/wingide/updatemgr.py:835
 msgid "Validation Failed"
 msgstr ""
 
-#: src/wingide/updatemgr.py:833
+#: src/wingide/updatemgr.py:837
 msgid "Revert completed but the following validation errors were found."
 msgstr ""
 
-#: src/wingide/updatemgr.py:835
+#: src/wingide/updatemgr.py:839
 msgid ""
 "The upgrade was installed but the following validation errors were found."
 msgstr ""
 
-#: src/wingide/updatemgr.py:836
+#: src/wingide/updatemgr.py:840
 msgid ""
 "This indicates that some files have changed since they were originally "
 "installed:"
 msgstr ""
 
-#: src/wingide/updatemgr.py:840
+#: src/wingide/updatemgr.py:844
 msgid "Revert Complete"
 msgstr ""
 
-#: src/wingide/updatemgr.py:841
+#: src/wingide/updatemgr.py:845
 msgid ""
 "Successfully reverted to version %s.  Please restart Wing to start using "
 "that version."
 msgstr ""
 
-#: src/wingide/updatemgr.py:844
+#: src/wingide/updatemgr.py:848
 msgid "Update Complete"
 msgstr ""
 
-#: src/wingide/updatemgr.py:845
+#: src/wingide/updatemgr.py:849
 msgid ""
 "The update has been installed successfully.  Please restart Wing to start "
 "using the new version."
 msgstr ""
 
-#: src/wingide/updatemgr.py:874
+#: src/wingide/updatemgr.py:878
 msgid "Could not install update in %s or %s -- update failed."
 msgstr ""
 
-#: src/wingide/updatemgr.py:883
+#: src/wingide/updatemgr.py:887
 msgid "Failed to extract %s to %s -- update failed."
 msgstr ""
 
-#: src/wingide/updatemgr.py:910
+#: src/wingide/updatemgr.py:914
 msgid "Failed to remove update directory %s -- try removing it manually"
 msgstr ""
 
-#: src/wingide/updatemgr.py:923
+#: src/wingide/updatemgr.py:927
 msgid "Invalid Update File"
 msgstr ""
 
-#: src/wingide/updatemgr.py:924
+#: src/wingide/updatemgr.py:928
 msgid "The selected file %s is not an update file"
 msgstr ""
 
-#: src/wingide/updatemgr.py:934
+#: src/wingide/updatemgr.py:938
 msgid "Update Mismatch"
 msgstr ""
 
-#: src/wingide/updatemgr.py:935
+#: src/wingide/updatemgr.py:939
 msgid ""
 "The selected update file %s cannot be used because it does not match the "
 "currently running version"
 msgstr ""
 
-#: src/wingide/updatemgr.py:951
+#: src/wingide/updatemgr.py:955
 msgid "Select Update"
 msgstr ""
 
-#: src/wingide/updatemgr.py:952
+#: src/wingide/updatemgr.py:956
 msgid "Select the update file"
 msgstr ""
 
-#: src/wingide/updatemgr.py:966
+#: src/wingide/updatemgr.py:970
 msgid ""
 "Your license is not covered by Support+Upgrades.  Subscribing provides email "
 "support and free upgrades to new major releases."
 msgstr ""
 
-#: src/wingide/updatemgr.py:970
+#: src/wingide/updatemgr.py:974
 msgid ""
 "Your Support+Upgrades subscription expired at the end of %s.  Renew now for "
 "email support and free upgrades to new major releases."
 msgstr ""
 
-#: src/wingide/updatemgr.py:974
+#: src/wingide/updatemgr.py:978
 msgid ""
 "Your Support+Upgrades subscription will expire at the end of %s.  Renew now "
 "to retain email support and free upgrades to new major releases."
 msgstr ""
 
-#: src/wingide/updatemgr.py:978
+#: src/wingide/updatemgr.py:982
 msgid ""
 "Your Support+Upgrades subscription is valid through %s, providing you with "
 "email support and free upgrades to new major releases."
 msgstr ""
 
-#: src/wingide/wingapp.py:284
+#: src/wingide/wingapp.py:288
 msgid "Initializing script manager..."
 msgstr ""
 
-#: src/wingide/wingapp.py:525
+#: src/wingide/wingapp.py:566
 msgid "Could not store foreground lock timeout"
 msgstr ""
 
-#: src/wingide/wingapp.py:526
+#: src/wingide/wingapp.py:567
 msgid ""
-"Could not store the foreground lock timeout used on Windows 98/ME and 2K/XP "
-"to control whether background applications can raise windows to the very "
-"front.  The value has been set to allow Wing's debugger to raise windows to "
-"the very front in all cases, but if you are running multiple copies of Wing, "
-"this value may be reset prematurely before this instance of Wing exits."
+"Warning: Wing may fail to come to the front when debug processes stop.  To "
+"fix this, quit all instances of Wing and remove the file %s."
 msgstr ""
 
-#: src/wingide/wingapp.py:568
+#: src/wingide/wingapp.py:604
 msgid ""
 "WARNING: Could not restore the original foreground lock timeout used on "
 "Windows 98/ME and 2K/XP to control whether background applications can raise "
@@ -550,11 +547,11 @@ msgid ""
 "to raise windows unexpectedly until you log out or reboot."
 msgstr ""
 
-#: src/wingide/wingapp.py:706 src/wingide/wingapp.py:714
+#: src/wingide/wingapp.py:746 src/wingide/wingapp.py:754
 msgid "Cannot find Python"
 msgstr ""
 
-#: src/wingide/wingapp.py:707
+#: src/wingide/wingapp.py:747
 msgid ""
 "A supported version of Python could not be found.  If you have a recent "
 "Python, be sure you also have a recent version of Wing.  If you do not have "
@@ -564,7 +561,7 @@ msgid ""
 "use."
 msgstr ""
 
-#: src/wingide/wingapp.py:715
+#: src/wingide/wingapp.py:755
 msgid ""
 "A supported version of Python could not be found.  If you have a recent "
 "Python, be sure you also have a recent version of Wing.  If you do not have "
@@ -573,238 +570,238 @@ msgid ""
 "Configure Python in the Edit menu to select the Python Executable to use."
 msgstr ""
 
-#: src/wingide/wingapp.py:729
+#: src/wingide/wingapp.py:769
 msgid "Starting application instance manager..."
 msgstr ""
 
-#: src/wingide/wingapp.py:768
+#: src/wingide/wingapp.py:808
 msgid "Checking autosaves..."
 msgstr ""
 
-#: src/wingide/wingapp.py:812
+#: src/wingide/wingapp.py:852
 msgid "Cannot execute unsaved file."
 msgstr ""
 
-#: src/wingide/wingapp.py:815
+#: src/wingide/wingapp.py:855
 msgid "Cannot execute %s because it does not exist."
 msgstr ""
 
-#: src/wingide/wingapp.py:816
+#: src/wingide/wingapp.py:856
 msgid "Cannot execute"
 msgstr ""
 
-#: src/wingide/wingapp.py:1060
+#: src/wingide/wingapp.py:1088
 msgid "Could not display %s\n"
 msgstr ""
 
-#: src/wingide/wingapp.py:1061
+#: src/wingide/wingapp.py:1089
 msgid "Error = %s\n"
 msgstr ""
 
-#: src/wingide/wingapp.py:1062
+#: src/wingide/wingapp.py:1090
 msgid "Failed to display document viewer or web browser"
 msgstr ""
 
-#: src/wingide/wingapp.py:1063 src/wingide/wingapp.py:1199
+#: src/wingide/wingapp.py:1091 src/wingide/wingapp.py:1227
 msgid "Could not display"
 msgstr ""
 
-#: src/wingide/wingapp.py:1151
+#: src/wingide/wingapp.py:1179
 msgid "Bad viewer command"
 msgstr ""
 
-#: src/wingide/wingapp.py:1153
+#: src/wingide/wingapp.py:1181
 msgid "Timeout waiting for process exit"
 msgstr ""
 
-#: src/wingide/wingapp.py:1155
+#: src/wingide/wingapp.py:1183
 msgid "Could not start process"
 msgstr ""
 
-#: src/wingide/wingapp.py:1157
+#: src/wingide/wingapp.py:1185
 msgid "Process failed"
 msgstr ""
 
-#: src/wingide/wingapp.py:1161
+#: src/wingide/wingapp.py:1189
 msgid "Could not find in path"
 msgstr ""
 
-#: src/wingide/wingapp.py:1182 src/wingide/wingapp.py:1184
+#: src/wingide/wingapp.py:1210 src/wingide/wingapp.py:1212
 msgid "Python webbrowser.open() failed"
 msgstr ""
 
-#: src/wingide/wingapp.py:1196
+#: src/wingide/wingapp.py:1224
 msgid ""
 "Could not launch document viewer for %s.  Tried these:\n"
 "\n"
 msgstr ""
 
-#: src/wingide/wingapp.py:1198
+#: src/wingide/wingapp.py:1226
 msgid "%s (Error=%ld): %s\n"
 msgstr ""
 
-#: src/wingide/wingapp.py:1234
+#: src/wingide/wingapp.py:1262
 msgid "Could not read autosave file: %s"
 msgstr ""
 
-#: src/wingide/wingapp.py:1247
+#: src/wingide/wingapp.py:1275
 msgid "Could restore remote project auto-save file: %s"
 msgstr ""
 
-#: src/wingide/wingapp.py:1256
+#: src/wingide/wingapp.py:1284
 msgid "Could restore project auto-save file: %s"
 msgstr ""
 
-#: src/wingide/wingapp.py:1288
+#: src/wingide/wingapp.py:1316
 msgid "Recover Unsaved Changes?"
 msgstr ""
 
-#: src/wingide/wingapp.py:1289
+#: src/wingide/wingapp.py:1317
 msgid ""
 "Wing has found changes that were not saved during your last session.  Please "
 "select the files you wish to recover:"
 msgstr ""
 
-#: src/wingide/wingapp.py:1306 src/wingide/wingapp.py:1323
+#: src/wingide/wingapp.py:1334 src/wingide/wingapp.py:1351
 msgid "Discard Unsaved Changes"
 msgstr ""
 
-#: src/wingide/wingapp.py:1307 src/wingide/wingapp.py:1324
+#: src/wingide/wingapp.py:1335 src/wingide/wingapp.py:1352
 msgid "Re-select Files"
 msgstr ""
 
-#: src/wingide/wingapp.py:1309
+#: src/wingide/wingapp.py:1337
 msgid "Discard Unsaved Changes?"
 msgstr ""
 
-#: src/wingide/wingapp.py:1310
+#: src/wingide/wingapp.py:1338
 msgid "Are you sure you want to discard all unsaved changes?"
 msgstr ""
 
-#: src/wingide/wingapp.py:1326
+#: src/wingide/wingapp.py:1354
 msgid "Discard Some Unsaved Changes?"
 msgstr ""
 
-#: src/wingide/wingapp.py:1327
+#: src/wingide/wingapp.py:1355
 msgid ""
 "Are you sure you want to discard the unsaved changes in the files you did "
 "not select?"
 msgstr ""
 
-#: src/wingide/wingapp.py:1337
+#: src/wingide/wingapp.py:1365
 msgid "Restore Selected Files"
 msgstr ""
 
-#: src/wingide/wingapp.py:1338
+#: src/wingide/wingapp.py:1366
 msgid "Do not Restore"
 msgstr ""
 
-#: src/wingide/wingapp.py:1371
+#: src/wingide/wingapp.py:1399
 msgid "Opening specified project..."
 msgstr ""
 
-#: src/wingide/wingapp.py:1375
+#: src/wingide/wingapp.py:1403
 msgid ""
 "Warning: More than one project specified on command line. Only the last one "
 "was opened."
 msgstr ""
 
-#: src/wingide/wingapp.py:1385
+#: src/wingide/wingapp.py:1413
 msgid "Opening recent project..."
 msgstr ""
 
-#: src/wingide/wingapp.py:1393
+#: src/wingide/wingapp.py:1421
 msgid "Preparing workspace..."
 msgstr ""
 
-#: src/wingide/wingapp.py:1395
+#: src/wingide/wingapp.py:1423
 msgid "Opening default project..."
 msgstr ""
 
-#: src/wingide/wingapp.py:1406
+#: src/wingide/wingapp.py:1434
 msgid "Displaying windows..."
 msgstr ""
 
-#: src/wingide/wingapp.py:1410
+#: src/wingide/wingapp.py:1438
 msgid "Opening files..."
 msgstr ""
 
-#: src/wingide/wingapp.py:1489
+#: src/wingide/wingapp.py:1517
 msgid "No License::Failed to deactivate:  No license is active."
 msgstr ""
 
-#: src/wingide/wingapp.py:1492
+#: src/wingide/wingapp.py:1520
 msgid ""
 "Cannot Deactivate Trial::Wing cannot deactivate a trial license. Each "
 "installation uses a unique trial license.  If you need more time on your "
 "trial, please email the license number %s to support@wingware.com."
 msgstr ""
 
-#: src/wingide/wingapp.py:1504
+#: src/wingide/wingapp.py:1532
 msgid ""
 "Failed to Deactivate::Failed to deactivate the license %s.  Please check "
 "permissions on file %s"
 msgstr ""
 
-#: src/wingide/wingapp.py:1507
+#: src/wingide/wingapp.py:1535
 msgid ""
 "Failed to Deactivate::Failed to deactivate the license %s:  Unknown error."
 msgstr ""
 
-#: src/wingide/wingapp.py:1511
+#: src/wingide/wingapp.py:1539
 msgid "Deactivate License and Quit?"
 msgstr ""
 
-#: src/wingide/wingapp.py:1512
+#: src/wingide/wingapp.py:1540
 msgid ""
 "Are you sure you want to deactivate and remove license %s and quit Wing?"
 msgstr ""
 
-#: src/wingide/wingapp.py:1515
+#: src/wingide/wingapp.py:1543
 msgid "Deactivate and Quit"
 msgstr ""
 
-#: src/wingide/wingapp.py:1614
+#: src/wingide/wingapp.py:1642
 msgid "_Never show any offers"
 msgstr ""
 
-#: src/wingide/wingapp.py:1630
+#: src/wingide/wingapp.py:1658
 msgid "_Buy Wing Pro Now!"
 msgstr ""
 
-#: src/wingide/wingapp.py:1631
+#: src/wingide/wingapp.py:1659
 msgid "_Remind Me Later"
 msgstr ""
 
-#: src/wingide/wingapp.py:1632
+#: src/wingide/wingapp.py:1660
 msgid "_Skip This Offer"
 msgstr ""
 
-#: src/wingide/wingapp.py:1761
+#: src/wingide/wingapp.py:1789
 msgid "Alpha"
 msgstr ""
 
-#: src/wingide/wingapp.py:1763
+#: src/wingide/wingapp.py:1791
 msgid "Beta"
 msgstr ""
 
-#: src/wingide/wingapp.py:1765
+#: src/wingide/wingapp.py:1793
 msgid "Release Candidate"
 msgstr ""
 
-#: src/wingide/wingapp.py:1767
+#: src/wingide/wingapp.py:1795
 msgid "Final Release"
 msgstr ""
 
-#: src/wingide/wingapp.py:1905
+#: src/wingide/wingapp.py:1933
 msgid "Scanned %i Python installations"
 msgstr ""
 
-#: src/wingide/wingapp.py:1933
+#: src/wingide/wingapp.py:1961
 msgid "Proxy Server Configuration"
 msgstr ""
 
-#: src/wingide/wingapp.py:1943
+#: src/wingide/wingapp.py:1971
 msgid ""
 "Unable to connect to wingware.com.  Please check your network connection and "
 "try again.\n"
@@ -813,21 +810,21 @@ msgid ""
 "proxy and Wing is not picking up the settings automatically."
 msgstr ""
 
-#: src/wingide/wingapp.py:1948
+#: src/wingide/wingapp.py:1976
 msgid "Configure Proxy..."
 msgstr ""
 
-#: src/wingide/wingapp.py:2009
+#: src/wingide/wingapp.py:2037
 msgid ""
 "Please quit Wing before logging out or shutting down your system.  This "
 "ensures that all your changes will be saved to disk."
 msgstr ""
 
-#: src/wingide/wingapp.py:2009 src/wingide/wingapp.py:2013
+#: src/wingide/wingapp.py:2037 src/wingide/wingapp.py:2041
 msgid "Please quit Wing"
 msgstr ""
 
-#: src/wingide/wingapp.py:2013
+#: src/wingide/wingapp.py:2041
 msgid ""
 "Some remotely stored files were not saved.  Please check Wing before logging "
 "out to make sure that all your remotely stored files have been saved "

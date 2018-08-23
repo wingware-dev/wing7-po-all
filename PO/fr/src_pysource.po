@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_pysource\n"
-"POT-Creation-Date: 2018-04-16 16:42+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-04-23 02:36+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
@@ -22,126 +22,97 @@ msgstr ""
 msgid "Analyze main file for sys.path changes"
 msgstr "Analyser le fichier principal pour des modifications de sys.path"
 
-#: src/pysource/codewarn.py:60
+#: src/pysource/codewarn.py:61
 msgid "Undefined attribute"
 msgstr "Attribut indéfini"
 
-#: src/pysource/codewarn.py:61
+#: src/pysource/codewarn.py:62
 msgid "Undefined name"
 msgstr "Nom indéfini"
 
-#: src/pysource/codewarn.py:62
+#: src/pysource/codewarn.py:63
 msgid "Import not found"
 msgstr "Import non trouvé"
 
-#: src/pysource/codewarn.py:63
+#: src/pysource/codewarn.py:64
 msgid "Syntax error"
 msgstr "Erreur de syntaxe"
 
-#: src/pysource/codewarn.py:64
+#: src/pysource/codewarn.py:65
 msgid "Indent warning"
 msgstr ""
 
-#: src/pysource/codewarn.py:436
-msgid "Imported module not found: {}"
-msgstr "Module importé non trouvé : {}"
+#: src/pysource/codewarn.py:496
+#, fuzzy
+msgid "Import not found: {}"
+msgstr "Import non trouvé"
 
-#: src/pysource/codewarn.py:443
+#: src/pysource/codewarn.py:503
 msgid "Undefined name: %s"
 msgstr "Nom indéfini : %s"
 
-#: src/pysource/codewarn.py:570
-msgid "Undefined attribute: %s, %s is probably %s"
-msgstr "Attribut indéfini : %s, %s est probablement %s"
-
-#: src/pysource/codewarn.py:571
+#: src/pysource/codewarn.py:624 src/pysource/codewarn.py:626
 msgid " or "
 msgstr " ou "
 
-#: src/pysource/codewarn.py:1050 src/pysource/codewarn.py:1056
-msgid "builtin {}"
+#: src/pysource/codewarn.py:629
+msgid "Attribute undefined: .%s of %s: %s"
 msgstr ""
 
-#: src/pysource/codewarn.py:1051
-msgid "the {} class"
-msgstr "la classe {}"
+#: src/pysource/codewarn.py:1242
+msgid "class"
+msgstr ""
 
-#: src/pysource/codewarn.py:1058
-msgid "a {} instance"
-msgstr "une instance {}"
-
-#: src/pysource/codewarn.py:1060
-msgid "{} instances"
-msgstr "instances {}"
-
-#: src/pysource/codewarn.py:1064
-msgid " in {} module"
+#: src/pysource/codewarn.py:1249
+#, fuzzy
+msgid "module"
 msgstr " dans le module {}"
 
-#: src/pysource/codewarn.py:1069
-msgid "the {} module"
-msgstr "le module {}"
-
-#: src/pysource/codewarn.py:1076
-#, fuzzy
-msgid "a builtin {} instance"
-msgstr "une instance %s"
-
-#: src/pysource/codewarn.py:1078
-#, fuzzy
-msgid "builtin {} instances"
-msgstr "une instance %s"
-
-#: src/pysource/codewarn.py:1080
-#, fuzzy
-msgid "the builtin {} class"
-msgstr "la classe %s"
-
-#: src/pysource/llinecache.py:74
+#: src/pysource/llinecache.py:75
 msgid "Inconsistent indentation (not in units of indent size)"
 msgstr "Indentation inconsistente (pas en unités de taille d'indent)"
 
-#: src/pysource/llinecache.py:76
+#: src/pysource/llinecache.py:77
 msgid "This code will never be reached"
 msgstr "Ce code ne sera jamais atteint"
 
-#: src/pysource/llinecache.py:78
+#: src/pysource/llinecache.py:79
 msgid "Expected indentation to decrease"
 msgstr "Diminution de l'indentation attendue"
 
-#: src/pysource/llinecache.py:80
+#: src/pysource/llinecache.py:81
 msgid "Expected indentation to increase"
 msgstr "Augmentation de l'indentation attendue"
 
-#: src/pysource/llinecache.py:82
+#: src/pysource/llinecache.py:83
 msgid "Unexpected indentation decrease"
 msgstr "Diminution de l'indentation inattendue"
 
-#: src/pysource/llinecache.py:84
+#: src/pysource/llinecache.py:85
 msgid "Unexpected indentation increase"
 msgstr "Augmentation de l'indentation inattendue"
 
-#: src/pysource/llinecache.py:86
+#: src/pysource/llinecache.py:87
 msgid "Bad indentation level"
 msgstr "Mauvais niveau d'identation"
 
-#: src/pysource/llinecache.py:88
+#: src/pysource/llinecache.py:89
 msgid "Indentation error (unspecified)"
 msgstr "Erreur d'indentation (non spécifiée)"
 
-#: src/pysource/manager.py:223
+#: src/pysource/manager.py:228
 msgid "(Analyzing Files: pass 1, Q=%i) "
 msgstr "(Analyse de fichiers : pass 1, Q=%i) "
 
-#: src/pysource/manager.py:225
+#: src/pysource/manager.py:230
 msgid "(Analyzing Files: pass 2, Q=%i) "
 msgstr "(Analyse de fichiers : pass 2, Q=%i) "
 
-#: src/pysource/manager.py:227
+#: src/pysource/manager.py:232
 msgid "(Analyzing Files: %i pending remote inspections) "
 msgstr ""
 
-#: src/pysource/manager.py:1615
+#: src/pysource/manager.py:2532
 msgid ""
 "Scrape errors for %s:\n"
 "%s"
@@ -149,27 +120,27 @@ msgstr ""
 "Erreurs de lecture des infos internes pour %s :\n"
 "%s"
 
-#: src/pysource/manager.py:1643
+#: src/pysource/manager.py:2560
 msgid "%s does not exist (scrape failed)"
 msgstr "%s n'existe pas (lecture des infos internes échouée)"
 
-#: src/pysource/manager.py:1647
+#: src/pysource/manager.py:2564
 msgid "%s is empty (scrape failed; removing file now)"
 msgstr ""
 "%s est vide (lecture des infos internes échouée ; enlever le fichier "
 "maintenant)"
 
-#: src/pysource/manager.py:1690
+#: src/pysource/manager.py:2607
 msgid "Scraping %s"
 msgstr "Lecture des infos internes de %s"
 
-#: src/pysource/manager.py:1700
+#: src/pysource/manager.py:2617
 msgid "Failed to scrape extension module %s: Python not found"
 msgstr ""
 "Échec de lecture des infos internes du module d'extension %s : Python non "
 "trouvé"
 
-#: src/pysource/manager.py:1718
+#: src/pysource/manager.py:2635
 msgid ""
 "Failed to start process to scrape extension module %s: could not find "
 "suitable rundir"
@@ -177,7 +148,7 @@ msgstr ""
 "Échec du démarrage du processus de lecture des infos internes du module "
 "d'extension %s : n'a pas pu trouvé un rundir adéquat"
 
-#: src/pysource/manager.py:1743
+#: src/pysource/manager.py:2660
 msgid ""
 "Failed to start process to scrape extension module %s: cannot encode "
 "arguments"
@@ -185,21 +156,21 @@ msgstr ""
 "Échec du démarrage du processus de lecture des infos internes du module "
 "d'extension %s : n'a pas pu encoder les arguments"
 
-#: src/pysource/manager.py:1750
+#: src/pysource/manager.py:2667
 msgid "Cache file is %s"
 msgstr "Le fichier de cache est %s"
 
-#: src/pysource/manager.py:1759
+#: src/pysource/manager.py:2676
 msgid "Failed to start process to scrape extension module %s"
 msgstr ""
 "Échec du démarrage du processus de lecture des infos internes du module "
 "d'extension %s"
 
-#: src/pysource/manager.py:1764
+#: src/pysource/manager.py:2681
 msgid "Failed scraping API for %s"
 msgstr "Échec de lecture des infos internes de l'API pour %s"
 
-#: src/pysource/manager.py:1766
+#: src/pysource/manager.py:2683
 msgid "API scraping process for %s completed"
 msgstr "Processus de lecture des infos internes de l'API pour %s terminé"
 
@@ -296,6 +267,36 @@ msgstr "Utiliser docs.python.org"
 #: src/pysource/prefs.py:148
 msgid "Other:"
 msgstr "Autre :"
+
+#~ msgid "Imported module not found: {}"
+#~ msgstr "Module importé non trouvé : {}"
+
+#~ msgid "Undefined attribute: %s, %s is probably %s"
+#~ msgstr "Attribut indéfini : %s, %s est probablement %s"
+
+#~ msgid "the {} class"
+#~ msgstr "la classe {}"
+
+#~ msgid "a {} instance"
+#~ msgstr "une instance {}"
+
+#~ msgid "{} instances"
+#~ msgstr "instances {}"
+
+#~ msgid "the {} module"
+#~ msgstr "le module {}"
+
+#, fuzzy
+#~ msgid "a builtin {} instance"
+#~ msgstr "une instance %s"
+
+#, fuzzy
+#~ msgid "builtin {} instances"
+#~ msgstr "une instance %s"
+
+#, fuzzy
+#~ msgid "the builtin {} class"
+#~ msgstr "la classe %s"
 
 #~ msgid "a %s literal"
 #~ msgstr "un litéral %s"

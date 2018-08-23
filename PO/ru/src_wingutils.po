@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_wingutils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 10:17+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-03-18 16:28+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -121,7 +121,7 @@ msgstr "[список из: "
 msgid "Value is %s, should be dict"
 msgstr "Значение %s, должно быть dict"
 
-#: src/wingutils/datatype.py:459
+#: src/wingutils/datatype.py:459 src/wingutils/datatype.py:574
 msgid ""
 "Bad dictionary key %s:\n"
 "%s"
@@ -129,7 +129,7 @@ msgstr ""
 "Плохой ключ словаря %s:\n"
 "%s"
 
-#: src/wingutils/datatype.py:462
+#: src/wingutils/datatype.py:462 src/wingutils/datatype.py:577
 msgid ""
 "Bad dictionary value %s:\n"
 "%s"
@@ -173,41 +173,46 @@ msgstr "Значение содержит нестрочный элемент в
 msgid "[list of str]"
 msgstr "[список из строк]"
 
-#: src/wingutils/datatype.py:569
+#: src/wingutils/datatype.py:570
+#, fuzzy
+msgid "Value is %s, should be CFileFilters"
+msgstr "Значение %s, должно быть dict"
+
+#: src/wingutils/datatype.py:581
 msgid "[file filters]"
 msgstr "[фильтр файлов]"
 
-#: src/wingutils/datatype.py:584
+#: src/wingutils/datatype.py:596
 msgid "Value has type %s, should be string containing a #.#.#.# IP4 address\n"
 msgstr "Значение типа %s, должно быть строкой, содержащей #.#.#.# IP4 address"
 
-#: src/wingutils/datatype.py:588
+#: src/wingutils/datatype.py:600
 msgid "Value should be a #.#.#.# IP4 address"
 msgstr "Значение должно быть #.#.#.# IP4 address"
 
-#: src/wingutils/datatype.py:594
+#: src/wingutils/datatype.py:606
 msgid "Value should be a #.#.#.# IP4 address but contains non-numeric parts"
 msgstr "Значение должно быть #.#.#.# IP4 address, но содержит нечисловые части"
 
-#: src/wingutils/datatype.py:615
+#: src/wingutils/datatype.py:627
 msgid "Icon should be IconReference but has type %s"
 msgstr "Значок должен быть IconReference но типа %s"
 
-#: src/wingutils/datatype.py:620
+#: src/wingutils/datatype.py:632
 msgid "Icon file does not exist"
 msgstr "Файл значка не существует"
 
-#: src/wingutils/datatype.py:622
+#: src/wingutils/datatype.py:634
 msgid "Icon file is a directory"
 msgstr "Файл значка является каталогом"
 
-#: src/wingutils/datatype.py:626
+#: src/wingutils/datatype.py:638
 msgid "Icon spec has type %s, should be string, unicode, or location"
 msgstr ""
 "Спецификация значка имеет Тип %s, должна быть строкой, юникодом или "
 "расположением"
 
-#: src/wingutils/datatype.py:629
+#: src/wingutils/datatype.py:641
 msgid ""
 "Icon spec string must start with wingide- for Wing icon or SP_ for Qt stock "
 "icon"
@@ -215,11 +220,11 @@ msgstr ""
 "Icon spec string должен начинаться с wingide - для значка Wing или SP_ для "
 "значка акции Qt"
 
-#: src/wingutils/datatype.py:685
+#: src/wingutils/datatype.py:697
 msgid "Value is not a CResourceLocation: %s"
 msgstr "Значение не является CResourceLocation: %s"
 
-#: src/wingutils/datatype.py:705
+#: src/wingutils/datatype.py:717
 msgid "Cannot convert text into a CResourceLocation: %s"
 msgstr "Не удается преобразовать текст в CResourceLocation: %s"
 
@@ -401,7 +406,7 @@ msgstr ""
 "присутствует комментарий кодировки; в этом случае этот атрибут игнорируется, "
 "и вместо него следует изменить комментарий кодировки."
 
-#: src/wingutils/savable.py:739
+#: src/wingutils/savable.py:766
 msgid "Unknown"
 msgstr "Неизвестный"
 

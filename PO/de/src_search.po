@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_search\n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
-"PO-Revision-Date: 2018-04-18 12:19+0200\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"PO-Revision-Date: 2016-12-14 17:23+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: src/search/_widgets.py:204
 msgid "_Text Search"
@@ -43,7 +43,7 @@ msgstr "Ersetzen: "
 msgid "Pa_use"
 msgstr "_Anhalten"
 
-#: src/search/_widgets.py:300 src/search/interactive.py:714
+#: src/search/_widgets.py:300 src/search/interactive.py:715
 msgid "Wrapped Search Failed"
 msgstr "Umgebrochene Suche fehlgeschlagen"
 
@@ -137,8 +137,9 @@ msgid "Documentation"
 msgstr "Dokumentation"
 
 #: src/search/_widgets.py:620
+#, fuzzy
 msgid "File Sets"
-msgstr "Dateigruppen"
+msgstr "Datei: %s\n"
 
 #: src/search/_widgets.py:800
 msgid "Select directory to use"
@@ -272,83 +273,84 @@ msgstr "_Groß- und Kleinschreibung beachten"
 msgid "_Whole Words"
 msgstr "_Ganze Wörter"
 
-#: src/search/cap_batch.py:582 src/search/cap_batch.py:604
+#: src/search/cap_batch.py:580 src/search/cap_batch.py:602
 msgid "Search in files state"
 msgstr "In Dateizustand suchen"
 
-#: src/search/cap_batch.py:925
+#: src/search/cap_batch.py:923
 msgid "Line %s: "
 msgstr "Zeile %s: "
 
-#: src/search/cap_batch.py:931
+#: src/search/cap_batch.py:929
 msgid "%s, line %i: "
 msgstr "%s, Zeile %i: "
 
-#: src/search/cap_batch.py:954
+#: src/search/cap_batch.py:952
 msgid "File: %s\n"
 msgstr "Datei: %s\n"
 
-#: src/search/cap_batch.py:1501 src/search/interactive.py:701
+#: src/search/cap_batch.py:1499 src/search/interactive.py:702
 msgid "Wrapped "
-msgstr "Umgebrochen "
+msgstr "Umgebrochen"
 
-#: src/search/cap_batch.py:1504
+#: src/search/cap_batch.py:1502
 msgid "%sFile: %s"
 msgstr "%sDatei: %s"
 
-#: src/search/cap_batch.py:1571
+#: src/search/cap_batch.py:1570
 msgid "Search Aborted"
 msgstr "Suche abgebrochen"
 
-#: src/search/cap_batch.py:1664
+#: src/search/cap_batch.py:1663
 msgid "Directory does not exist: \"%s\""
 msgstr "Verzeichnis ist nicht vorhanden: \"%s\""
 
-#: src/search/cap_batch.py:1671
+#: src/search/cap_batch.py:1670
 msgid "Directory search not supported"
 msgstr "Verzeichnissuche wird nicht unterstützt"
 
-#: src/search/cap_batch.py:1699
+#: src/search/cap_batch.py:1700
 msgid "Search Starting"
 msgstr "Suche wird begonnen"
 
-#: src/search/cap_batch.py:1778
+#: src/search/cap_batch.py:1779
 msgid "Found %i matches in %i files"
 msgstr "Es wurden %i Treffer in %i Dateien gefunden"
 
-#: src/search/cap_batch.py:1784
+#: src/search/cap_batch.py:1785
 msgid "Reading directory: "
 msgstr "Lesen von Verzeichnis: "
 
-#: src/search/cap_batch.py:1788
+#: src/search/cap_batch.py:1789
+#, fuzzy
 msgid "Searching remote files..."
-msgstr "Suche entfernte Dateien..."
+msgstr "Projektdateien suchen"
 
-#: src/search/cap_batch.py:1811
+#: src/search/cap_batch.py:1812
 msgid "Scanning: "
 msgstr "Durchsuchen: "
 
-#: src/search/cap_batch.py:1821
+#: src/search/cap_batch.py:1822
 msgid "Search Paused"
 msgstr "Suche angehalten"
 
-#: src/search/cap_batch.py:1825
+#: src/search/cap_batch.py:1826
 msgid "Search Continued"
 msgstr "Suche fortgesetzt"
 
-#: src/search/cap_batch.py:1856 src/search/interactive.py:493
+#: src/search/cap_batch.py:1857 src/search/interactive.py:493
 msgid "No search string"
 msgstr "Kein Suchstring"
 
-#: src/search/cap_batch.py:1889 src/search/interactive.py:323
+#: src/search/cap_batch.py:1890 src/search/interactive.py:323
 msgid "Could not replace:  No previous search match"
 msgstr "Konnte nicht ersetzen: Kein vorheriger Suchtreffer"
 
-#: src/search/cap_batch.py:1893
+#: src/search/cap_batch.py:1894
 msgid "Failed to display editor for replace"
-msgstr "Die Anzeige des Editors zum Ersetzen ist fehlgeschlagen"
+msgstr "Die Anzeige des Editors zum Ersetzen ist fehlgeschlagen."
 
-#: src/search/cap_batch.py:1948
+#: src/search/cap_batch.py:1949
 msgid ""
 "You have configured Replace All to open all altered files into Wing.\n"
 "\n"
@@ -366,7 +368,7 @@ msgstr ""
 "\n"
 "Sind Sie sicher, dass Sie diese Einstellung möchten?"
 
-#: src/search/cap_batch.py:1953
+#: src/search/cap_batch.py:1954
 msgid ""
 "You have configured Replace All to operate directly on disk files (already "
 "open files will be changed only within Wing and left unsaved).\n"
@@ -384,27 +386,27 @@ msgstr ""
 "\n"
 "Sind Sie sicher, dass Sie diese Einstellung möchten?"
 
-#: src/search/cap_batch.py:1959
+#: src/search/cap_batch.py:1960
 msgid "Confirm Replace All"
 msgstr "Alle Ersetzen bestätigen"
 
-#: src/search/cap_batch.py:1960
+#: src/search/cap_batch.py:1961
 msgid "_Replace All"
 msgstr "Alle E_rsetzen"
 
-#: src/search/cap_batch.py:1961
+#: src/search/cap_batch.py:1962
 msgid "_Cancel"
 msgstr "_Abbrechen"
 
-#: src/search/cap_batch.py:2102
+#: src/search/cap_batch.py:2106
 msgid "Filter '%s' is invalid"
 msgstr "Filter '%s' ist ungültig"
 
-#: src/search/cap_batch.py:2690 src/search/cap_batch.py:2697
+#: src/search/cap_batch.py:2694 src/search/cap_batch.py:2701
 msgid "Warning: Replace All"
 msgstr "Warnung: Alle Ersetzen"
 
-#: src/search/cap_batch.py:2691
+#: src/search/cap_batch.py:2695
 msgid ""
 "You have set Replace All to operate directly on disk files (already open "
 "files will be changed only within Wing until they are saved to disk).\n"
@@ -422,7 +424,7 @@ msgstr ""
 "dringend, Sicherheitskopien von allen Dateien anzufertigen oder ein "
 "Versionsverwaltungssystem zu verwenden, um Datenverluste zu vermeiden."
 
-#: src/search/cap_batch.py:2698
+#: src/search/cap_batch.py:2702
 msgid ""
 "You have set Replace All to open altered files into Wing.\n"
 "\n"
@@ -436,11 +438,11 @@ msgstr ""
 "rückgängig gemacht werden und die Dateien auf der Festplatte erst dann "
 "geändert, wenn die Änderungen gespeichert werden."
 
-#: src/search/cap_batch.py:2741 src/search/cap_batch.py:2751
+#: src/search/cap_batch.py:2745 src/search/cap_batch.py:2755
 msgid "Search in Files"
 msgstr "In Dateien suchen"
 
-#: src/search/cap_batch.py:2756
+#: src/search/cap_batch.py:2760
 msgid "Multiple File Search and Replace"
 msgstr "Suchen und Ersetzen in mehreren Dateien"
 
@@ -574,15 +576,15 @@ msgstr "_Interaktive Suche"
 
 #: src/search/common.py:73
 msgid "_Batch Search Files"
-msgstr "_Stapel-Suche in Dateien"
+msgstr "_Batch-Suche in Dateien"
 
 #: src/search/common.py:74
 msgid "Batch Search _Disk"
-msgstr "Stapel-Suche der _Festplatte"
+msgstr "Batch-Suche der _Festplatte"
 
 #: src/search/common.py:75
 msgid "Batch Search D_ocumentation"
-msgstr "Stapel-Suche der D_okumentation"
+msgstr "Batch-Suche der D_okumentation"
 
 #: src/search/common.py:76
 msgid "Interactive _Replace"
@@ -590,11 +592,11 @@ msgstr "Interaktives E_rsetzen"
 
 #: src/search/common.py:77
 msgid "Batch Re_place Files"
-msgstr "Stapel-Er_setzen in Dateien"
+msgstr "Batch-Er_setzen in Dateien"
 
 #: src/search/common.py:78
 msgid "Batch Replace Dis_k"
-msgstr "Stapel-Ersetzen auf dem Laufwer_k"
+msgstr "Batch-Ersetzen auf dem Laufwer_k"
 
 #: src/search/common.py:81
 msgid "Search: "
@@ -606,69 +608,70 @@ msgstr "Ersetzen: "
 
 #: src/search/common.py:423 src/search/interactive.py:328
 msgid "Failed to find editor for replace"
-msgstr "Es wurde kein Editor für das Ersetzen gefunden"
+msgstr "Es wurde kein Editor für das Ersetzen gefunden."
 
 #: src/search/common.py:460
 msgid "Replace OK"
 msgstr "Ersetzen OK"
 
-#: src/search/common.py:505
+#: src/search/common.py:507
 msgid "Replacing %s"
 msgstr "%s wird ersetzt"
 
-#: src/search/common.py:522 src/search/common.py:548
+#: src/search/common.py:524 src/search/common.py:547 src/search/common.py:699
+#, fuzzy
 msgid "Replace Error: Could not read %s"
-msgstr "Fehler beim Ersetzen: %s konnte nicht gelesen werden"
+msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden."
 
-#: src/search/common.py:533
+#: src/search/common.py:535
 msgid "Replace Error: Could not convert %s to unicode"
-msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden"
+msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden."
 
-#: src/search/common.py:573
+#: src/search/common.py:619
+#, fuzzy
 msgid "Replace Error:  Could not write remote file %s"
-msgstr ""
-"Fehler beim Ersetzen: Entfernte Datei %s konnte nicht geschrieben werden"
+msgstr "Fehler beim Ersetzen: %s konnte nicht in Unicode umgewandelt werden."
 
-#: src/search/common.py:605
+#: src/search/common.py:651
 msgid "Replace Error:  Could not convert replaced %s to output encoding"
 msgstr ""
 "Fehler beim Ersetzen: Konnte die ersetzten %s nicht in die Ausgabe-Kodierung "
-"umwandeln"
+"umwandeln."
 
-#: src/search/common.py:625
+#: src/search/common.py:675
 #, fuzzy
 msgid "Replace failed to open document %s"
 msgstr "Ersetzen konnte das Dokument nicht öffnen"
 
-#: src/search/common.py:660
+#: src/search/common.py:726
 msgid "Replaced %i matches in %s"
 msgstr "Es wurden %i Treffer in %s ersetzt"
 
-#: src/search/common.py:668
+#: src/search/common.py:734
 msgid "Replaced %i matches in %i files"
 msgstr "Es wurden %i Treffer in %i Dateien ersetzt"
 
-#: src/search/common.py:672
+#: src/search/common.py:738
 msgid "Replaced %i matches in %i file"
 msgstr "Es wurden %i Treffer in %i Datei ersetzt"
 
-#: src/search/common.py:714
+#: src/search/common.py:780
 msgid "Replace Paused"
 msgstr "Ersetzen angehalten"
 
-#: src/search/common.py:720
+#: src/search/common.py:786
 msgid "Replace Continued"
 msgstr "Ersetzen fortgesetzt"
 
-#: src/search/common.py:869 src/search/common.py:893
+#: src/search/common.py:933 src/search/common.py:957
 msgid "Search manager state"
 msgstr "Zustand des Suchmanagers"
 
-#: src/search/common.py:1055
+#: src/search/common.py:1117
 msgid "Skipping large file %s; size=%i; max=%i"
 msgstr ""
 
-#: src/search/common.py:1063
+#: src/search/common.py:1125
 msgid "Could not open %s"
 msgstr ""
 
@@ -696,19 +699,19 @@ msgstr "Konnte nicht alle ersetzen: Kein aktives Dokument"
 msgid "Could not replace: document is readonly"
 msgstr "Konnte nicht ersetzen: Dokument ist nur lesbar"
 
-#: src/search/interactive.py:705
+#: src/search/interactive.py:706
 msgid "Search Successful"
 msgstr "Suche erfolgreich"
 
-#: src/search/interactive.py:716
+#: src/search/interactive.py:717
 msgid "Search Failed"
 msgstr "Suche gescheitert"
 
-#: src/search/interactive.py:801 src/search/interactive.py:812
+#: src/search/interactive.py:802 src/search/interactive.py:813
 msgid "Search"
 msgstr "Suchen"
 
-#: src/search/interactive.py:817
+#: src/search/interactive.py:818
 msgid "Interactive Search and Replace"
 msgstr "Interaktives Suchen und Ersetzen"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:17+EDT\n"
 "PO-Revision-Date: 2012-01-04 17:01-0600\n"
 "Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
 "Language-Team:  <C@li.org>\n"
@@ -16,21 +16,21 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: KBabel 0.9.5\n"
 
-#: src/pref/prefconstants.py:67
-msgid "Enable Tooltips"
-msgstr "Activar consejos"
-
-#: src/pref/prefconstants.py:70
+#: src/pref/prefconstants.py:66
 msgid "Display Language"
 msgstr "Idioma"
 
-#: src/pref/prefconstants.py:73
+#: src/pref/prefconstants.py:69
 msgid "Color Palette"
 msgstr ""
 
-#: src/pref/prefconstants.py:74
+#: src/pref/prefconstants.py:70
 msgid "Use Color Palette Throughout the UI"
 msgstr ""
+
+#: src/pref/prefconstants.py:74
+msgid "Enable Tooltips"
+msgstr "Activar consejos"
 
 #: src/pref/prefconstants.py:80
 msgid "Windowing Policy"
@@ -53,13 +53,13 @@ msgstr "Tamaño del icono de la barra de herramientas"
 msgid "Toolbar Style"
 msgstr "Estilo de la barra de herramientas"
 
-#: src/pref/prefconstants.py:93 src/pref/prefconstants.py:220
-#: src/pref/prefconstants.py:437
+#: src/pref/prefconstants.py:93 src/pref/prefconstants.py:222
+#: src/pref/prefconstants.py:452
 msgid "Groups Shown"
 msgstr ""
 
-#: src/pref/prefconstants.py:94 src/pref/prefconstants.py:221
-#: src/pref/prefconstants.py:438
+#: src/pref/prefconstants.py:94 src/pref/prefconstants.py:223
+#: src/pref/prefconstants.py:453
 msgid "Custom Items"
 msgstr ""
 
@@ -161,445 +161,437 @@ msgstr "Herramientas de auto-enfoque"
 msgid "Case Sensitive Sorting"
 msgstr "Ordenar distinguiendo mayúsculas/minúsculas"
 
-#: src/pref/prefconstants.py:149
-msgid "Auto-Show Bug Report Dialog"
-msgstr "Mostrar el diálogo de reporte de errores."
-
-#: src/pref/prefconstants.py:150
-msgid "Auto-check for Product Updates"
-msgstr "Verifica la existencia de actualizaciones de manera automática"
-
-#: src/pref/prefconstants.py:151
-msgid "Submit Usage Stats"
-msgstr ""
-
-#: src/pref/prefconstants.py:156
-msgid "Show Support+Upgrades Reminders"
-msgstr "Mostrar recordatorios de Soporte y Actualizaciones"
-
-#: src/pref/prefconstants.py:159
+#: src/pref/prefconstants.py:152
 msgid "Always Use Full Path in Tooltips"
 msgstr ""
 
-#: src/pref/prefconstants.py:163
+#: src/pref/prefconstants.py:156
 msgid "Max Error Log Size"
 msgstr "Tamaño máximo del registro de errores"
 
-#: src/pref/prefconstants.py:164
+#: src/pref/prefconstants.py:157
 msgid "Shared File Sets Repository"
 msgstr ""
 
-#: src/pref/prefconstants.py:165
+#: src/pref/prefconstants.py:158
 msgid "Key Map File"
 msgstr "Archivo con mapa de teclas"
 
-#: src/pref/prefconstants.py:166
+#: src/pref/prefconstants.py:159
+msgid "Auto-check for Product Updates"
+msgstr "Verifica la existencia de actualizaciones de manera automática"
+
+#: src/pref/prefconstants.py:160
+msgid "Submit Usage Stats"
+msgstr ""
+
+#: src/pref/prefconstants.py:164
+msgid "Show Support+Upgrades Reminders"
+msgstr "Mostrar recordatorios de Soporte y Actualizaciones"
+
+#: src/pref/prefconstants.py:167
 msgid "Show Discount Offers"
 msgstr ""
 
-#: src/pref/prefconstants.py:172
+#: src/pref/prefconstants.py:168
+msgid "Auto-Show Bug Report Dialog"
+msgstr "Mostrar el diálogo de reporte de errores."
+
+#: src/pref/prefconstants.py:174
 msgid "Auto-Save Files Before Debug or Execute"
 msgstr ""
 
-#: src/pref/prefconstants.py:175
+#: src/pref/prefconstants.py:177
 msgid "Default Directory Policy"
 msgstr ""
 
-#: src/pref/prefconstants.py:176
+#: src/pref/prefconstants.py:178
 msgid "Title Style"
 msgstr "Estilo de título"
 
-#: src/pref/prefconstants.py:177
+#: src/pref/prefconstants.py:179
 msgid "Show Hostname in Titles"
 msgstr ""
 
-#: src/pref/prefconstants.py:178
+#: src/pref/prefconstants.py:180
 msgid "Default Encoding"
 msgstr "Codificación predeterminada"
 
-#: src/pref/prefconstants.py:179
+#: src/pref/prefconstants.py:181
 msgid "New File EOL"
 msgstr ""
 
-#: src/pref/prefconstants.py:180
+#: src/pref/prefconstants.py:182
 msgid "New File Extension"
 msgstr "Añadir extensión de archivo"
 
-#: src/pref/prefconstants.py:184
+#: src/pref/prefconstants.py:186
 msgid "Max Recent Items"
 msgstr "Max Recent Items"
 
-#: src/pref/prefconstants.py:188
+#: src/pref/prefconstants.py:190
 #, fuzzy
 msgid "Maximum File Size (MB)"
 msgstr "Tamaño máximo del caché"
 
-#: src/pref/prefconstants.py:192
+#: src/pref/prefconstants.py:194
 msgid "Extra File Types"
 msgstr "Tipos de archivo extra"
 
-#: src/pref/prefconstants.py:193
+#: src/pref/prefconstants.py:195
 #, fuzzy
 msgid "File Filters"
 msgstr "Conjuntos de archivos"
 
-#: src/pref/prefconstants.py:197
+#: src/pref/prefconstants.py:199
 msgid "External Check Freq"
 msgstr "Frecuencia de verificación"
 
-#: src/pref/prefconstants.py:198
+#: src/pref/prefconstants.py:200
 msgid "Reload when Unchanged"
 msgstr "Cuando no han habido modificaciones"
 
-#: src/pref/prefconstants.py:199
+#: src/pref/prefconstants.py:201
 msgid "Reload when Changed"
 msgstr "Cuando han habido modificaciones"
 
-#: src/pref/prefconstants.py:200
+#: src/pref/prefconstants.py:202
 msgid "Check Hash before Reloading"
 msgstr ""
 
-#: src/pref/prefconstants.py:205
+#: src/pref/prefconstants.py:207
 msgid "File Display Commands"
 msgstr "Comandos para ver archivos"
 
-#: src/pref/prefconstants.py:206
+#: src/pref/prefconstants.py:208
 msgid "Url Display Commands"
 msgstr "Comandos para ver URL's"
 
-#: src/pref/prefconstants.py:210
+#: src/pref/prefconstants.py:212
 msgid "Auto-reopen Last Project"
 msgstr "Abrir automáticamente el último proyecto"
 
-#: src/pref/prefconstants.py:211
+#: src/pref/prefconstants.py:213
 msgid "Close Files with Project"
 msgstr "Cerrar archivos junto con el proyecto"
 
-#: src/pref/prefconstants.py:212
+#: src/pref/prefconstants.py:214
 #, fuzzy
 msgid "Show New Project Dialog"
 msgstr "Mostrar el diálogo de reporte de errores."
 
-#: src/pref/prefconstants.py:215
+#: src/pref/prefconstants.py:217
 msgid "Open Projects as Text"
 msgstr "Abrir proyectos como texto"
 
-#: src/pref/prefconstants.py:216
+#: src/pref/prefconstants.py:218
 msgid "Confirm Drag Copy/Move"
 msgstr "Confirmar Copiar/Mover"
 
-#: src/pref/prefconstants.py:225
+#: src/pref/prefconstants.py:227
 msgid "Show Line Numbers"
 msgstr "Mostrar número de línea"
 
-#: src/pref/prefconstants.py:226
+#: src/pref/prefconstants.py:228
 msgid "Show Whitespace"
 msgstr "Mostrar espacios en blanco"
 
-#: src/pref/prefconstants.py:227
+#: src/pref/prefconstants.py:229
 msgid "Show EOL"
 msgstr "Mostrar caracteres de fin de línea (EOL)"
 
-#: src/pref/prefconstants.py:231
+#: src/pref/prefconstants.py:233
 msgid "Split Reuse Policy"
 msgstr "Política de reuso de particiones"
 
-#: src/pref/prefconstants.py:232
+#: src/pref/prefconstants.py:234
 msgid "Other Split Type"
 msgstr ""
 
-#: src/pref/prefconstants.py:233
+#: src/pref/prefconstants.py:235
 msgid "Show All Files in All Splits"
 msgstr ""
 
-#: src/pref/prefconstants.py:237 src/pref/prefconstants.py:261
-#: src/pref/prefconstants.py:363
+#: src/pref/prefconstants.py:239 src/pref/prefconstants.py:263
+#: src/pref/prefconstants.py:364
 #, fuzzy
 msgid "Background Color"
 msgstr "Color del marcador"
 
-#: src/pref/prefconstants.py:240
+#: src/pref/prefconstants.py:242
 msgid "Strip Trailing White Space"
 msgstr "Borrar espacios en blanco"
 
-#: src/pref/prefconstants.py:241
+#: src/pref/prefconstants.py:243
 msgid "Block Comment Style"
 msgstr "Estilo de comentarios en bloques"
 
-#: src/pref/prefconstants.py:242
+#: src/pref/prefconstants.py:244
 msgid "Scroll Past End"
 msgstr ""
 
-#: src/pref/prefconstants.py:243
+#: src/pref/prefconstants.py:245
 msgid "Ensure File Ends With EOL When Saving"
 msgstr ""
 
-#: src/pref/prefconstants.py:244
+#: src/pref/prefconstants.py:246
 #, fuzzy
 msgid "Enable Font Size Zooming"
 msgstr "Habilitar plegado de código"
 
-#: src/pref/prefconstants.py:248
+#: src/pref/prefconstants.py:250
 msgid "On Empty Selection"
 msgstr ""
 
-#: src/pref/prefconstants.py:249
+#: src/pref/prefconstants.py:251
 msgid "Middle Mouse Paste"
 msgstr "Pegar texto con el botón central del ratón"
 
-#: src/pref/prefconstants.py:253
+#: src/pref/prefconstants.py:255
 msgid "Convert Indent Style On Paste"
 msgstr ""
 
-#: src/pref/prefconstants.py:256
+#: src/pref/prefconstants.py:258
 msgid "Adjust Indent After Paste"
 msgstr ""
 
-#: src/pref/prefconstants.py:262
+#: src/pref/prefconstants.py:264
 msgid "Syntax Formatting"
 msgstr "Formato de sintaxis"
 
-#: src/pref/prefconstants.py:263
+#: src/pref/prefconstants.py:265
 msgid "Highlight Builtins"
 msgstr ""
 
-#: src/pref/prefconstants.py:268
+#: src/pref/prefconstants.py:270
 msgid "Error Indicators"
 msgstr "Indicador de errores"
 
-#: src/pref/prefconstants.py:269 src/pref/prefconstants.py:360
+#: src/pref/prefconstants.py:271 src/pref/prefconstants.py:361
 msgid "Indicator Style"
 msgstr ""
 
-#: src/pref/prefconstants.py:270
+#: src/pref/prefconstants.py:272
 #, fuzzy
 msgid "Error Color"
 msgstr "Color del marcador"
 
-#: src/pref/prefconstants.py:271
+#: src/pref/prefconstants.py:273
 #, fuzzy
 msgid "Warning Color"
 msgstr "Color del marcador"
 
-#: src/pref/prefconstants.py:277
+#: src/pref/prefconstants.py:279
 msgid "Auto-Editing Enabled"
 msgstr "Edición automática habilitada"
 
-#: src/pref/prefconstants.py:278
+#: src/pref/prefconstants.py:280
 msgid "Auto-Close Characters"
 msgstr "Cerrar bloques"
 
-#: src/pref/prefconstants.py:279
+#: src/pref/prefconstants.py:281
 msgid "Auto-Enter Invocation Args"
 msgstr ""
 
-#: src/pref/prefconstants.py:280
+#: src/pref/prefconstants.py:282
 msgid "    Auto-wrap Arguments"
 msgstr ""
 
-#: src/pref/prefconstants.py:281
+#: src/pref/prefconstants.py:283
 msgid "    Invoke After Completion"
 msgstr ""
 
-#: src/pref/prefconstants.py:282
+#: src/pref/prefconstants.py:284
 msgid "Apply Quotes to Selection"
 msgstr ""
 
-#: src/pref/prefconstants.py:283
+#: src/pref/prefconstants.py:285
 msgid "Apply Comment Key to Selection"
 msgstr ""
 
-#: src/pref/prefconstants.py:284
+#: src/pref/prefconstants.py:286
 msgid "Apply (), [], and {} to Selection"
 msgstr ""
 
-#: src/pref/prefconstants.py:285
+#: src/pref/prefconstants.py:287
 msgid "Apply Colon to Selection"
 msgstr ""
 
-#: src/pref/prefconstants.py:286
+#: src/pref/prefconstants.py:288
 msgid "Auto-Enter Spaces"
 msgstr ""
 
-#: src/pref/prefconstants.py:287
+#: src/pref/prefconstants.py:289
 msgid "    Auto-Space After Keywords"
 msgstr ""
 
-#: src/pref/prefconstants.py:288
-msgid "    Enforce PEP8 Style Spacing"
-msgstr ""
-
-#: src/pref/prefconstants.py:289
-msgid "    Spaces Around = in Argument Lists"
-msgstr ""
-
 #: src/pref/prefconstants.py:290
-msgid "    Spaces Around : in Type Annotations"
+msgid "    Enforce PEP 8 Style Spacing"
 msgstr ""
 
 #: src/pref/prefconstants.py:291
-msgid "Manage Blocks on Repeated Colon Key Presses"
+msgid "    Spaces Around : in Type Annotations"
 msgstr ""
 
 #: src/pref/prefconstants.py:292
-msgid "Continue Comment or String on New Line"
+msgid "Manage Blocks on Repeated Colon Key Presses"
 msgstr ""
 
 #: src/pref/prefconstants.py:293
+msgid "Continue Comment or String on New Line"
+msgstr ""
+
+#: src/pref/prefconstants.py:294
 msgid "Correct Out-of-Order Typing"
 msgstr ""
 
-#: src/pref/prefconstants.py:304
+#: src/pref/prefconstants.py:305
 #, fuzzy
 msgid "Selection Color"
 msgstr "Color de selección de texto"
 
-#: src/pref/prefconstants.py:305
+#: src/pref/prefconstants.py:306
 #, fuzzy
 msgid "Caret Color"
 msgstr "Color del marcador"
 
-#: src/pref/prefconstants.py:306
+#: src/pref/prefconstants.py:307
 msgid "Caret Width"
 msgstr "Ancho del cursor"
 
-#: src/pref/prefconstants.py:307
+#: src/pref/prefconstants.py:308
 msgid "Caret Flash Rate (ms)"
 msgstr "Parpadeo del cursor (ms)"
 
-#: src/pref/prefconstants.py:308
+#: src/pref/prefconstants.py:309
 msgid "Caret Line Highlight"
 msgstr "Resaltar la línea actual"
 
-#: src/pref/prefconstants.py:312
+#: src/pref/prefconstants.py:313
 #, fuzzy
 msgid "Display Selections Popup"
 msgstr "Política de selección"
 
-#: src/pref/prefconstants.py:318
+#: src/pref/prefconstants.py:319
 msgid "Use Indent Analysis"
 msgstr "Usar análisis de indentación"
 
-#: src/pref/prefconstants.py:319
+#: src/pref/prefconstants.py:320
 msgid "Default Tab Size"
 msgstr "Ancho del tabulador"
 
-#: src/pref/prefconstants.py:322
+#: src/pref/prefconstants.py:323
 msgid "Default Indent Size"
 msgstr ""
 
-#: src/pref/prefconstants.py:326
+#: src/pref/prefconstants.py:327
 msgid "Default Indent Style"
 msgstr ""
 
-#: src/pref/prefconstants.py:327
+#: src/pref/prefconstants.py:328
 msgid "Auto Indent"
 msgstr "Sangrado automático"
 
-#: src/pref/prefconstants.py:330
+#: src/pref/prefconstants.py:331
 msgid "Show Indent Guides"
 msgstr ""
 
-#: src/pref/prefconstants.py:334
+#: src/pref/prefconstants.py:335
 msgid "Show Python Indent Warning Dialog"
 msgstr ""
 
-#: src/pref/prefconstants.py:335
+#: src/pref/prefconstants.py:336
 msgid "Show Override Warning Dialog"
 msgstr ""
 
-#: src/pref/prefconstants.py:339
+#: src/pref/prefconstants.py:340
 msgid "Wrap Long Lines"
 msgstr ""
 
-#: src/pref/prefconstants.py:340
+#: src/pref/prefconstants.py:341
 msgid "Edge Markers"
 msgstr ""
 
-#: src/pref/prefconstants.py:341
+#: src/pref/prefconstants.py:342
 msgid "Reformatting Wrap Column"
 msgstr "Ajustar línea en la columna"
 
-#: src/pref/prefconstants.py:345
+#: src/pref/prefconstants.py:346
 msgid "Highlight Occurrences"
 msgstr "Resaltar las coincidencias"
 
-#: src/pref/prefconstants.py:346
+#: src/pref/prefconstants.py:347
 msgid "Match Case"
 msgstr "Coincidir mayúsculas/minúsculas"
 
-#: src/pref/prefconstants.py:347
+#: src/pref/prefconstants.py:348
 msgid "Occurrences Indicator Style"
 msgstr ""
 
-#: src/pref/prefconstants.py:348
+#: src/pref/prefconstants.py:349
 #, fuzzy
 msgid "Occurrences Color"
 msgstr "Ocurrencias"
 
-#: src/pref/prefconstants.py:352
+#: src/pref/prefconstants.py:353
 msgid "Bookmark Color"
 msgstr "Color del marcador"
 
-#: src/pref/prefconstants.py:353
+#: src/pref/prefconstants.py:354
 msgid "Bookmark Style"
 msgstr "Estilo del marcador"
 
-#: src/pref/prefconstants.py:354
+#: src/pref/prefconstants.py:355
 msgid "Confirm Deletion"
 msgstr ""
 
-#: src/pref/prefconstants.py:358
+#: src/pref/prefconstants.py:359
 msgid "Enable Folding"
 msgstr "Habilitar plegado de código"
 
-#: src/pref/prefconstants.py:359
+#: src/pref/prefconstants.py:360
 msgid "Line Mode"
 msgstr "Modo de línea"
 
-#: src/pref/prefconstants.py:361
+#: src/pref/prefconstants.py:362
 msgid "Fold Trailing White Space"
 msgstr ""
 
-#: src/pref/prefconstants.py:362
+#: src/pref/prefconstants.py:363
 msgid "Foreground Color"
 msgstr ""
 
-#: src/pref/prefconstants.py:369
+#: src/pref/prefconstants.py:370
 msgid "Auto-show Completer"
 msgstr ""
 
-#: src/pref/prefconstants.py:370
+#: src/pref/prefconstants.py:374
+msgid "Python Turbo Mode"
+msgstr ""
+
+#: src/pref/prefconstants.py:377
 msgid "Completion Keys"
 msgstr ""
 
-#: src/pref/prefconstants.py:374
-msgid "Python Turbo Mode (Experimental)"
-msgstr ""
-
-#: src/pref/prefconstants.py:379
+#: src/pref/prefconstants.py:383
 msgid "Auto-completer Height"
 msgstr ""
 
-#: src/pref/prefconstants.py:380
+#: src/pref/prefconstants.py:384
 msgid "Auto-complete Delay (sec)"
 msgstr ""
 
-#: src/pref/prefconstants.py:381
+#: src/pref/prefconstants.py:385
 msgid "Auto-complete Timeout"
 msgstr ""
 
-#: src/pref/prefconstants.py:382
+#: src/pref/prefconstants.py:386
 msgid "Completion Mode"
 msgstr ""
 
-#: src/pref/prefconstants.py:383
+#: src/pref/prefconstants.py:387
 msgid "Case Insensitive Matching"
 msgstr "Coincidencias insensibles a capitalización"
-
-#: src/pref/prefconstants.py:387
-msgid "Include Snippets in Completer"
-msgstr ""
 
 #: src/pref/prefconstants.py:391
 msgid "Non-Python Completion"
@@ -610,624 +602,675 @@ msgid "Non-Python Word Size"
 msgstr ""
 
 #: src/pref/prefconstants.py:397
-msgid "Orientation"
-msgstr "Orientación"
+msgid "Include Snippets in Auto-Completer"
+msgstr ""
 
 #: src/pref/prefconstants.py:398
-msgid "Lock Scrolling"
+msgid "Snippets Path"
 msgstr ""
 
 #: src/pref/prefconstants.py:399
+msgid "Include Default Snippets"
+msgstr ""
+
+#: src/pref/prefconstants.py:404
+msgid "Orientation"
+msgstr "Orientación"
+
+#: src/pref/prefconstants.py:405
+msgid "Lock Scrolling"
+msgstr ""
+
+#: src/pref/prefconstants.py:406
 msgid "Ignore White Space"
 msgstr "Ignorar los cambios de los espacios en blanco"
 
-#: src/pref/prefconstants.py:400
+#: src/pref/prefconstants.py:407
 msgid "Empty Session Warning"
 msgstr ""
 
-#: src/pref/prefconstants.py:401
+#: src/pref/prefconstants.py:408
 msgid "Diff Color"
 msgstr "Color de diferencias (diff)"
 
-#: src/pref/prefconstants.py:402
+#: src/pref/prefconstants.py:409
 msgid "Merged Diff Color"
 msgstr "Color de diferencias mezcladas"
 
-#: src/pref/prefconstants.py:406
+#: src/pref/prefconstants.py:413
+msgid "Auto-Reformat for PEP 8"
+msgstr ""
+
+#: src/pref/prefconstants.py:414
+msgid "Spaces Around = in Argument Lists"
+msgstr ""
+
+#: src/pref/prefconstants.py:415
+msgid "Enforce Line Length"
+msgstr ""
+
+#: src/pref/prefconstants.py:416
+msgid "Reindent All Lines in Files"
+msgstr ""
+
+#: src/pref/prefconstants.py:417
+msgid "Reformat Timeout"
+msgstr ""
+
+#: src/pref/prefconstants.py:421
 #, fuzzy
 msgid "Document Font"
 msgstr "Tipografía de _impresión:"
 
-#: src/pref/prefconstants.py:407
+#: src/pref/prefconstants.py:422
 msgid "Use Default Foreground Colors"
 msgstr ""
 
-#: src/pref/prefconstants.py:409
+#: src/pref/prefconstants.py:424
 msgid "Print Header Format"
 msgstr "Formato de la cabecera"
 
-#: src/pref/prefconstants.py:410
+#: src/pref/prefconstants.py:425
 msgid "Print Header Font"
 msgstr "Tipo de letra de cabecera:"
 
-#: src/pref/prefconstants.py:411
+#: src/pref/prefconstants.py:426
 msgid "Print Footer Format"
 msgstr "Formato del pie"
 
-#: src/pref/prefconstants.py:412
+#: src/pref/prefconstants.py:427
 msgid "Print Footer Font"
 msgstr "Tipo de letra de cabecera"
 
-#: src/pref/prefconstants.py:418
+#: src/pref/prefconstants.py:433
 #, fuzzy
 msgid "Introspect Live Runtime"
 msgstr "Estilo de perspectiva"
 
-#: src/pref/prefconstants.py:419
+#: src/pref/prefconstants.py:434
 msgid "Typing Suspend Timeout"
 msgstr ""
 
-#: src/pref/prefconstants.py:420
+#: src/pref/prefconstants.py:435
 msgid "Max Cache Size (MB)"
 msgstr "Tamaño máximo del caché"
 
-#: src/pref/prefconstants.py:421
+#: src/pref/prefconstants.py:436
 msgid "Max Memory Buffers"
 msgstr ""
 
-#: src/pref/prefconstants.py:425
+#: src/pref/prefconstants.py:440
 msgid "Interface File Path"
 msgstr ""
 
-#: src/pref/prefconstants.py:426
+#: src/pref/prefconstants.py:441
 msgid "Scrape Extension Modules"
 msgstr ""
 
-#: src/pref/prefconstants.py:427
+#: src/pref/prefconstants.py:442
 msgid "Scraping Helper Snippets"
 msgstr ""
 
-#: src/pref/prefconstants.py:431
+#: src/pref/prefconstants.py:446
 msgid "Python Docs URL Prefix"
 msgstr ""
 
-#: src/pref/prefconstants.py:434 src/pref/prefconstants.py:654
-#: src/pref/prefconstants.py:670 src/pref/prefconstants.py:705
+#: src/pref/prefconstants.py:449 src/pref/prefconstants.py:672
+#: src/pref/prefconstants.py:688 src/pref/prefconstants.py:724
 msgid "Advanced"
 msgstr "Avanzado"
 
-#: src/pref/prefconstants.py:442
+#: src/pref/prefconstants.py:457
 msgid "Brace Highlighting"
 msgstr ""
 
-#: src/pref/prefconstants.py:443
+#: src/pref/prefconstants.py:458
 msgid "Brace Highlight Color"
 msgstr ""
 
-#: src/pref/prefconstants.py:444
+#: src/pref/prefconstants.py:459
 #, fuzzy
 msgid "Brace Highlight Background Color"
 msgstr "Color del marcador"
 
-#: src/pref/prefconstants.py:445
+#: src/pref/prefconstants.py:460
 msgid "Brace Badlight Color"
 msgstr ""
 
-#: src/pref/prefconstants.py:446
+#: src/pref/prefconstants.py:461
 #, fuzzy
 msgid "Brace Badlight Background Color"
 msgstr "Color del marcador"
 
-#: src/pref/prefconstants.py:452
+#: src/pref/prefconstants.py:467
 msgid "Maximum Non-Sticky Editors"
 msgstr ""
 
-#: src/pref/prefconstants.py:453
+#: src/pref/prefconstants.py:468
 msgid "Use Custom Mouse Cursor"
 msgstr ""
 
-#: src/pref/prefconstants.py:454
+#: src/pref/prefconstants.py:469
 msgid "Selection Policy"
 msgstr "Política de selección"
 
-#: src/pref/prefconstants.py:455
+#: src/pref/prefconstants.py:470
 msgid "Mini-search Case Sensitivity"
 msgstr ""
 
-#: src/pref/prefconstants.py:456
+#: src/pref/prefconstants.py:471
 msgid "Symbol Menu Max Length"
 msgstr ""
 
-#: src/pref/prefconstants.py:463
+#: src/pref/prefconstants.py:478
 msgid "Integer Display Mode"
 msgstr ""
 
-#: src/pref/prefconstants.py:466
+#: src/pref/prefconstants.py:481
 msgid "Hover Over Symbols"
 msgstr ""
 
-#: src/pref/prefconstants.py:467
+#: src/pref/prefconstants.py:482
 msgid "Hover Over Selection"
 msgstr ""
 
-#: src/pref/prefconstants.py:468
+#: src/pref/prefconstants.py:483
 #, fuzzy
 msgid "Run Marker Color"
 msgstr "Color del marcador de línea del depurador"
 
-#: src/pref/prefconstants.py:469
+#: src/pref/prefconstants.py:484
 #, fuzzy
 msgid "Run Marker Alpha"
 msgstr "Alfa del marcador de línea del depurador"
 
-#: src/pref/prefconstants.py:470
+#: src/pref/prefconstants.py:485
 msgid "Active Range Color"
 msgstr ""
 
-#: src/pref/prefconstants.py:471
+#: src/pref/prefconstants.py:486
 msgid "Line Threshold"
 msgstr ""
 
-#: src/pref/prefconstants.py:472
+#: src/pref/prefconstants.py:487
 msgid "Indicate Project Files in Stack"
 msgstr ""
 
-#: src/pref/prefconstants.py:477
+#: src/pref/prefconstants.py:492
 msgid "Set Current Directory from Active Editor"
 msgstr ""
 
-#: src/pref/prefconstants.py:483
+#: src/pref/prefconstants.py:498
 msgid "Enable Multi-Process Debugging"
 msgstr ""
 
-#: src/pref/prefconstants.py:484
+#: src/pref/prefconstants.py:499
 msgid "Switch to Stopped Processes"
 msgstr ""
 
-#: src/pref/prefconstants.py:485
+#: src/pref/prefconstants.py:500
 msgid "Debug Child Processes"
 msgstr ""
 
-#: src/pref/prefconstants.py:486
+#: src/pref/prefconstants.py:501
 msgid "Replace sys.executable"
 msgstr ""
 
-#: src/pref/prefconstants.py:487
+#: src/pref/prefconstants.py:502
 msgid "Termination Model"
 msgstr ""
 
-#: src/pref/prefconstants.py:488
+#: src/pref/prefconstants.py:503
 msgid "Maximum Process Count"
 msgstr ""
 
-#: src/pref/prefconstants.py:489
+#: src/pref/prefconstants.py:504
 msgid "Debug Multiple Tests at Once"
 msgstr ""
 
-#: src/pref/prefconstants.py:490
+#: src/pref/prefconstants.py:505
 msgid "Debug Multiple Instances of a Named Entry Point"
 msgstr ""
 
-#: src/pref/prefconstants.py:496
+#: src/pref/prefconstants.py:511
 msgid "Report Exceptions"
 msgstr ""
 
-#: src/pref/prefconstants.py:497
+#: src/pref/prefconstants.py:512
 msgid "Report Logged Exceptions In When Printed Mode"
 msgstr ""
 
-#: src/pref/prefconstants.py:498
+#: src/pref/prefconstants.py:513
 msgid "Never Report"
 msgstr ""
 
-#: src/pref/prefconstants.py:499
+#: src/pref/prefconstants.py:514
 msgid "Always Report"
 msgstr ""
 
-#: src/pref/prefconstants.py:504
+#: src/pref/prefconstants.py:519
 msgid "Debug I/O Encoding"
 msgstr ""
 
-#: src/pref/prefconstants.py:505
+#: src/pref/prefconstants.py:520
 msgid "Flush I/O Periodically"
 msgstr ""
 
-#: src/pref/prefconstants.py:506
+#: src/pref/prefconstants.py:521
 msgid "Shell Encoding"
 msgstr ""
 
-#: src/pref/prefconstants.py:507
+#: src/pref/prefconstants.py:522
 msgid "Pretty Print in Shells"
 msgstr ""
 
-#: src/pref/prefconstants.py:511
+#: src/pref/prefconstants.py:526
 msgid "OS Commands Encoding"
 msgstr ""
 
-#: src/pref/prefconstants.py:515
+#: src/pref/prefconstants.py:530
 msgid "Use External Console"
 msgstr ""
 
-#: src/pref/prefconstants.py:516
+#: src/pref/prefconstants.py:531
 msgid "External Console Waits on Exit"
 msgstr ""
 
-#: src/pref/prefconstants.py:520
+#: src/pref/prefconstants.py:535
 msgid "External Consoles"
 msgstr ""
 
-#: src/pref/prefconstants.py:524
+#: src/pref/prefconstants.py:539
 #, fuzzy
-msgid "Show _name Protected Variables"
+msgid "Show __name Protected Variables"
 msgstr "Mostrar el diálogo de reporte de errores."
 
-#: src/pref/prefconstants.py:525
-msgid "Show __name Private Variables"
-msgstr ""
+#: src/pref/prefconstants.py:540
+#, fuzzy
+msgid "Show ____name Private Variables"
+msgstr "Mostrar el diálogo de reporte de errores."
 
-#: src/pref/prefconstants.py:526
-msgid "Show __name__ Special Variables"
-msgstr ""
+#: src/pref/prefconstants.py:541
+#, fuzzy
+msgid "Show ____name____ Special Variables"
+msgstr "Mostrar el diálogo de reporte de errores."
 
-#: src/pref/prefconstants.py:527
+#: src/pref/prefconstants.py:542
 msgid "Show Memory Addresses"
 msgstr ""
 
-#: src/pref/prefconstants.py:528
+#: src/pref/prefconstants.py:543
 msgid "Huge List Threshold"
 msgstr ""
 
-#: src/pref/prefconstants.py:529
+#: src/pref/prefconstants.py:544
 msgid "Huge String Threshold"
 msgstr ""
 
-#: src/pref/prefconstants.py:533
-msgid "Omit Types"
-msgstr ""
-
-#: src/pref/prefconstants.py:534
-msgid "Omit Names"
-msgstr ""
-
-#: src/pref/prefconstants.py:535
-msgid "Do Not Expand"
-msgstr ""
-
-#: src/pref/prefconstants.py:539
-msgid "Accept Debug Connections"
-msgstr ""
-
-#: src/pref/prefconstants.py:540
-msgid "Kill Externally Launched Processes"
-msgstr ""
-
-#: src/pref/prefconstants.py:541
-msgid "Server Host"
-msgstr ""
-
-#: src/pref/prefconstants.py:542
-msgid "Server Port"
-msgstr ""
-
-#: src/pref/prefconstants.py:549 src/pref/prefconstants.py:555
-msgid "Debug Internals Log File"
-msgstr ""
-
-#: src/pref/prefconstants.py:550 src/pref/prefconstants.py:557
-msgid "Python Shell Debug Log"
-msgstr ""
-
-#: src/pref/prefconstants.py:556
-msgid "Extremely Verbose Internal Log"
-msgstr ""
-
-#: src/pref/prefconstants.py:558
-msgid "Extremely Verbose Python Shell Debug Log"
-msgstr ""
-
-#: src/pref/prefconstants.py:561
-msgid "Network Timeout"
-msgstr ""
-
-#: src/pref/prefconstants.py:562
-msgid "Close Connection on Timeout"
-msgstr ""
-
-#: src/pref/prefconstants.py:563
-#, fuzzy
-msgid "Resolve Properties"
-msgstr "Auto guardar perspectivas"
-
-#: src/pref/prefconstants.py:564
-msgid "Allow Calls in Data Inspection"
-msgstr ""
-
-#: src/pref/prefconstants.py:565
-msgid "Call Python ____repr____ Methods"
-msgstr ""
-
-#: src/pref/prefconstants.py:566
-msgid "Inspect Base Classes"
-msgstr ""
-
-#: src/pref/prefconstants.py:567
+#: src/pref/prefconstants.py:548
 msgid "Show Data Warnings"
 msgstr ""
 
-#: src/pref/prefconstants.py:573
-msgid "Ignore Unsynchronized Files"
+#: src/pref/prefconstants.py:551
+msgid "Omit Types"
 msgstr ""
 
-#: src/pref/prefconstants.py:576
-msgid "Use sys.stdin Wrapper"
+#: src/pref/prefconstants.py:552
+msgid "Omit Names"
+msgstr ""
+
+#: src/pref/prefconstants.py:553
+msgid "Do Not Expand"
+msgstr ""
+
+#: src/pref/prefconstants.py:557
+msgid "Accept Debug Connections"
+msgstr ""
+
+#: src/pref/prefconstants.py:558
+msgid "Kill Externally Launched Processes"
+msgstr ""
+
+#: src/pref/prefconstants.py:559
+msgid "Server Host"
+msgstr ""
+
+#: src/pref/prefconstants.py:560
+msgid "Server Port"
+msgstr ""
+
+#: src/pref/prefconstants.py:567 src/pref/prefconstants.py:574
+msgid "Debug Internals Log File"
+msgstr ""
+
+#: src/pref/prefconstants.py:568 src/pref/prefconstants.py:576
+msgid "Python Shell Debug Log"
+msgstr ""
+
+#: src/pref/prefconstants.py:575
+msgid "Extremely Verbose Internal Log"
 msgstr ""
 
 #: src/pref/prefconstants.py:577
-msgid "Show Editor on Exceptions in Shells"
-msgstr ""
-
-#: src/pref/prefconstants.py:578
-msgid "Shells Ignore Editor Modes"
-msgstr ""
-
-#: src/pref/prefconstants.py:579
-msgid "Execute Pasted Lines in Shells Immediately"
+msgid "Extremely Verbose Python Shell Debug Log"
 msgstr ""
 
 #: src/pref/prefconstants.py:580
 #, fuzzy
-msgid "Auto-show Run Args Dialog"
-msgstr "Mostrar el diálogo de reporte de errores."
+msgid "Resolve Properties"
+msgstr "Auto guardar perspectivas"
 
-#: src/pref/prefconstants.py:583
-msgid "Force Win32 Window Raising"
+#: src/pref/prefconstants.py:581
+msgid "Allow Calls in Data Inspection"
 msgstr ""
 
-#: src/pref/prefconstants.py:585
-msgid "When Build Fails"
+#: src/pref/prefconstants.py:582
+msgid "Call Python ____repr____ Methods"
+msgstr ""
+
+#: src/pref/prefconstants.py:583
+msgid "Inspect Base Classes"
+msgstr ""
+
+#: src/pref/prefconstants.py:587
+msgid "Network Timeout"
+msgstr ""
+
+#: src/pref/prefconstants.py:588
+msgid "Close Connection on Timeout"
+msgstr ""
+
+#: src/pref/prefconstants.py:589
+msgid "Ignore Unsynchronized Files"
+msgstr ""
+
+#: src/pref/prefconstants.py:590
+msgid "Step Past importlib Frames"
 msgstr ""
 
 #: src/pref/prefconstants.py:591
-msgid "Default Watch Style"
+msgid "Use sys.stdin Wrapper"
+msgstr ""
+
+#: src/pref/prefconstants.py:592
+msgid "Show Editor on Exceptions in Shells"
+msgstr ""
+
+#: src/pref/prefconstants.py:593
+msgid "Shells Ignore Editor Modes"
 msgstr ""
 
 #: src/pref/prefconstants.py:594
-msgid "Show Breaks Moved Dialog"
+msgid "Execute Pasted Lines in Shells Immediately"
 msgstr ""
 
 #: src/pref/prefconstants.py:595
-msgid "Animate Debug Data Tooltips"
-msgstr ""
-
-#: src/pref/prefconstants.py:596
-msgid "Allowed Hosts"
-msgstr ""
-
-#: src/pref/prefconstants.py:597
-msgid "Location Map"
-msgstr ""
+#, fuzzy
+msgid "Auto-show Run Args Dialog"
+msgstr "Mostrar el diálogo de reporte de errores."
 
 #: src/pref/prefconstants.py:598
-msgid "Common Attach Hosts"
+msgid "Force Win32 Window Raising"
 msgstr ""
 
-#: src/pref/prefconstants.py:603
-msgid "Prompt to Update Remote Agent"
-msgstr ""
-
-#: src/pref/prefconstants.py:604
-msgid "SSH Executable"
-msgstr ""
-
-#: src/pref/prefconstants.py:605
-msgid "SSH Remote TCP/IP Port"
+#: src/pref/prefconstants.py:600
+msgid "When Build Fails"
 msgstr ""
 
 #: src/pref/prefconstants.py:606
-msgid "SSH Timeout"
+msgid "Default Watch Style"
 msgstr ""
 
-#: src/pref/prefconstants.py:607
-msgid "Hung Connection Timeout"
+#: src/pref/prefconstants.py:609
+msgid "Show Breaks Moved Dialog"
+msgstr ""
+
+#: src/pref/prefconstants.py:610
+msgid "Animate Debug Data Tooltips"
+msgstr ""
+
+#: src/pref/prefconstants.py:611
+msgid "Common Attach Hosts"
+msgstr ""
+
+#: src/pref/prefconstants.py:612
+msgid "Allowed Hosts"
 msgstr ""
 
 #: src/pref/prefconstants.py:613
-msgid "Use HTTPS to wingware.com"
-msgstr ""
-
-#: src/pref/prefconstants.py:614
-msgid "HTTP Proxy Server"
+msgid "Location Map"
 msgstr ""
 
 #: src/pref/prefconstants.py:618
-msgid "Search Path"
+msgid "Prompt to Update Remote Agent"
 msgstr ""
 
 #: src/pref/prefconstants.py:619
+msgid "SSH Executable"
+msgstr ""
+
+#: src/pref/prefconstants.py:620
+msgid "SSH Remote TCP/IP Port"
+msgstr ""
+
+#: src/pref/prefconstants.py:621
+msgid "SSH Timeout"
+msgstr ""
+
+#: src/pref/prefconstants.py:622
+msgid "Hung Connection Timeout"
+msgstr ""
+
+#: src/pref/prefconstants.py:628
+msgid "Use HTTPS to wingware.com"
+msgstr ""
+
+#: src/pref/prefconstants.py:629
+msgid "HTTP Proxy Server"
+msgstr ""
+
+#: src/pref/prefconstants.py:633
+msgid "Search Path"
+msgstr ""
+
+#: src/pref/prefconstants.py:634
 msgid "Auto-Reload Scripts on Save"
 msgstr ""
 
-#: src/pref/prefconstants.py:624
+#: src/pref/prefconstants.py:639
 #, fuzzy
 msgid "Selection/Caret"
 msgstr "Color de selección de texto"
 
-#: src/pref/prefconstants.py:625
+#: src/pref/prefconstants.py:640
 msgid "Occurrences"
 msgstr "Ocurrencias"
 
-#: src/pref/prefconstants.py:626
+#: src/pref/prefconstants.py:641
 msgid "Indentation"
 msgstr "Sangrado"
 
-#: src/pref/prefconstants.py:627
+#: src/pref/prefconstants.py:642
 msgid "Line Wrapping"
 msgstr "Ajuste de líneas"
 
-#: src/pref/prefconstants.py:628
+#: src/pref/prefconstants.py:643
 msgid "Clipboard"
 msgstr ""
 
-#: src/pref/prefconstants.py:632
+#: src/pref/prefconstants.py:647
 #, fuzzy
 msgid "Syntax Coloring"
 msgstr "Formato de sintaxis"
 
-#: src/pref/prefconstants.py:633
+#: src/pref/prefconstants.py:648
 msgid "Brace Matching"
 msgstr ""
 
-#: src/pref/prefconstants.py:636
+#: src/pref/prefconstants.py:651
 msgid "Code Warnings"
 msgstr ""
 
-#: src/pref/prefconstants.py:638
+#: src/pref/prefconstants.py:653
 msgid "Bookmarks"
 msgstr ""
 
-#: src/pref/prefconstants.py:640
+#: src/pref/prefconstants.py:655
 msgid "Folding"
 msgstr "Plegado de código"
 
-#: src/pref/prefconstants.py:642
+#: src/pref/prefconstants.py:657
 msgid "Auto-completion"
 msgstr ""
 
-#: src/pref/prefconstants.py:644
+#: src/pref/prefconstants.py:659
 msgid "Auto-editing"
 msgstr "Edición automática"
 
-#: src/pref/prefconstants.py:646
+#: src/pref/prefconstants.py:661
+msgid "Snippets"
+msgstr ""
+
+#: src/pref/prefconstants.py:663
 msgid "Diff/Merge"
 msgstr ""
 
-#: src/pref/prefconstants.py:649
+#: src/pref/prefconstants.py:666
+msgid "PEP 8"
+msgstr ""
+
+#: src/pref/prefconstants.py:667
 msgid "Printing"
 msgstr "Impresión"
 
-#: src/pref/prefconstants.py:653 src/pref/prefconstants.py:715
+#: src/pref/prefconstants.py:671 src/pref/prefconstants.py:734
 msgid "Context Menu"
 msgstr ""
 
-#: src/pref/prefconstants.py:658
+#: src/pref/prefconstants.py:676
 msgid "Layout"
 msgstr "Disposición"
 
-#: src/pref/prefconstants.py:659
+#: src/pref/prefconstants.py:677
 #, fuzzy
 msgid "Toolbar"
 msgstr "Barras de herramientas"
 
-#: src/pref/prefconstants.py:660
+#: src/pref/prefconstants.py:678
 msgid "Fonts"
 msgstr ""
 
-#: src/pref/prefconstants.py:661
+#: src/pref/prefconstants.py:679
 msgid "Keyboard"
 msgstr "Teclado"
 
-#: src/pref/prefconstants.py:665
+#: src/pref/prefconstants.py:683
 msgid "Perspectives"
 msgstr "Perspectivas"
 
-#: src/pref/prefconstants.py:669
+#: src/pref/prefconstants.py:687
 msgid "Other"
 msgstr "Otras"
 
-#: src/pref/prefconstants.py:676
+#: src/pref/prefconstants.py:694
 msgid "File Types"
 msgstr "Tipos de archivos"
 
-#: src/pref/prefconstants.py:677
+#: src/pref/prefconstants.py:695
 msgid "Reloading"
 msgstr "Recarga de archivos"
 
-#: src/pref/prefconstants.py:681
+#: src/pref/prefconstants.py:699
 msgid "External Display"
 msgstr "Aplicaciones externas"
 
-#: src/pref/prefconstants.py:686
+#: src/pref/prefconstants.py:704
 msgid "Processes"
 msgstr ""
 
-#: src/pref/prefconstants.py:688
+#: src/pref/prefconstants.py:706
 msgid "Exceptions"
 msgstr ""
 
-#: src/pref/prefconstants.py:689
+#: src/pref/prefconstants.py:707
 msgid "I/O"
 msgstr ""
 
-#: src/pref/prefconstants.py:692
+#: src/pref/prefconstants.py:710
 #, fuzzy
 msgid "Data Display"
 msgstr "Aplicaciones externas"
 
-#: src/pref/prefconstants.py:693
+#: src/pref/prefconstants.py:711
 msgid "Data Filters"
 msgstr ""
 
-#: src/pref/prefconstants.py:697
+#: src/pref/prefconstants.py:712
+#, fuzzy
+msgid "Introspection"
+msgstr "Estilo de perspectiva"
+
+#: src/pref/prefconstants.py:716
 msgid "Listening"
 msgstr ""
 
-#: src/pref/prefconstants.py:701 src/pref/prefconstants.py:706
+#: src/pref/prefconstants.py:720 src/pref/prefconstants.py:725
 msgid "Diagnostics"
 msgstr ""
 
-#: src/pref/prefconstants.py:711
+#: src/pref/prefconstants.py:730
 msgid "User Interface"
 msgstr "Interfaz de usuario"
 
-#: src/pref/prefconstants.py:718
+#: src/pref/prefconstants.py:737
 msgid "Projects"
 msgstr "Proyectos"
 
-#: src/pref/prefconstants.py:721
+#: src/pref/prefconstants.py:740
 msgid "Files"
 msgstr "Archivos"
 
-#: src/pref/prefconstants.py:722
+#: src/pref/prefconstants.py:741
 msgid "Editor"
 msgstr ""
 
-#: src/pref/prefconstants.py:723
+#: src/pref/prefconstants.py:742
 msgid "Debugger"
 msgstr ""
 
-#: src/pref/prefconstants.py:726
+#: src/pref/prefconstants.py:745
 msgid "Source Analysis"
 msgstr ""
 
-#: src/pref/prefconstants.py:730
+#: src/pref/prefconstants.py:749
 msgid "Enable built-in version control"
 msgstr ""
 
-#: src/pref/prefconstants.py:731
+#: src/pref/prefconstants.py:750
 msgid "Save files without prompting"
 msgstr "Guardar archivos sin preguntar"
 
-#: src/pref/prefconstants.py:732
+#: src/pref/prefconstants.py:751
 msgid "Track changes made in project tool"
 msgstr ""
 
-#: src/pref/prefconstants.py:733
+#: src/pref/prefconstants.py:752
 msgid "Automatically refresh status"
 msgstr ""
 
-#: src/pref/prefconstants.py:734
+#: src/pref/prefconstants.py:753
 msgid "Enable diagnostic logging"
 msgstr ""
 
-#: src/pref/prefconstants.py:739
+#: src/pref/prefconstants.py:758
 msgid "Version Control"
 msgstr "Control de versiones"
 
-#: src/pref/prefconstants.py:744
+#: src/pref/prefconstants.py:763
 msgid "IDE Extension Scripting"
 msgstr ""
 
-#: src/pref/prefconstants.py:747
+#: src/pref/prefconstants.py:766
 msgid "Network"
 msgstr ""
 

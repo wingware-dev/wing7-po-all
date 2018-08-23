@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_wingutils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2016-11-01 21:40+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
 "Language-Team: French <gnomefr@traduc.org>\n"
@@ -124,7 +124,7 @@ msgstr "[liste de : "
 msgid "Value is %s, should be dict"
 msgstr "La valeur est %s, et devrait être un dictionnaire"
 
-#: src/wingutils/datatype.py:459
+#: src/wingutils/datatype.py:459 src/wingutils/datatype.py:574
 msgid ""
 "Bad dictionary key %s:\n"
 "%s"
@@ -132,7 +132,7 @@ msgstr ""
 "Mauvaise clé de dictionnaire %s :\n"
 "%s"
 
-#: src/wingutils/datatype.py:462
+#: src/wingutils/datatype.py:462 src/wingutils/datatype.py:577
 msgid ""
 "Bad dictionary value %s:\n"
 "%s"
@@ -176,45 +176,50 @@ msgstr "La valeur contient un élément qui n'est pas une chaîne en position %i
 msgid "[list of str]"
 msgstr "[liste de chaînes]"
 
-#: src/wingutils/datatype.py:569
+#: src/wingutils/datatype.py:570
+#, fuzzy
+msgid "Value is %s, should be CFileFilters"
+msgstr "La valeur est %s, et devrait être un dictionnaire"
+
+#: src/wingutils/datatype.py:581
 msgid "[file filters]"
 msgstr "[filtres de fichier]"
 
-#: src/wingutils/datatype.py:584
+#: src/wingutils/datatype.py:596
 msgid "Value has type %s, should be string containing a #.#.#.# IP4 address\n"
 msgstr ""
 "La valeur est de type %s, elle devrait être une chaine contenant une adresse "
 "IP4 #.#.#.#\n"
 
-#: src/wingutils/datatype.py:588
+#: src/wingutils/datatype.py:600
 msgid "Value should be a #.#.#.# IP4 address"
 msgstr "La valeur devrait être une adresse IP4 #.#.#.#"
 
-#: src/wingutils/datatype.py:594
+#: src/wingutils/datatype.py:606
 msgid "Value should be a #.#.#.# IP4 address but contains non-numeric parts"
 msgstr ""
 "La valeur devrait être une adresse IP4 #.#.#.# mais contient des éléments "
 "non-numériques"
 
-#: src/wingutils/datatype.py:615
+#: src/wingutils/datatype.py:627
 msgid "Icon should be IconReference but has type %s"
 msgstr ""
 
-#: src/wingutils/datatype.py:620
+#: src/wingutils/datatype.py:632
 msgid "Icon file does not exist"
 msgstr "Le fichier icône n'existe pas"
 
-#: src/wingutils/datatype.py:622
+#: src/wingutils/datatype.py:634
 msgid "Icon file is a directory"
 msgstr "Le fichier icône est un répertoire"
 
-#: src/wingutils/datatype.py:626
+#: src/wingutils/datatype.py:638
 msgid "Icon spec has type %s, should be string, unicode, or location"
 msgstr ""
 "Icône spec a un type %s, qui devrait être une chaîne, un unicode ou un "
 "emplacement"
 
-#: src/wingutils/datatype.py:629
+#: src/wingutils/datatype.py:641
 #, fuzzy
 msgid ""
 "Icon spec string must start with wingide- for Wing icon or SP_ for Qt stock "
@@ -223,11 +228,11 @@ msgstr ""
 "La chaîne de sec d’icône doit commencer avec wingide- pour une icône Wing "
 "IDE ou…"
 
-#: src/wingutils/datatype.py:685
+#: src/wingutils/datatype.py:697
 msgid "Value is not a CResourceLocation: %s"
 msgstr "La valeur n'est pas une CResourceLocation : %s"
 
-#: src/wingutils/datatype.py:705
+#: src/wingutils/datatype.py:717
 msgid "Cannot convert text into a CResourceLocation: %s"
 msgstr "Impossible de convertir du texte en CResourceLocation : %s"
 
@@ -409,7 +414,7 @@ msgstr ""
 "un commentaire d'encodage dans le fichier ; dans ce cas cet attribut est "
 "ignoré et le commentaire d'encodage doit être modifié à la place."
 
-#: src/wingutils/savable.py:739
+#: src/wingutils/savable.py:766
 msgid "Unknown"
 msgstr "Inconnu"
 

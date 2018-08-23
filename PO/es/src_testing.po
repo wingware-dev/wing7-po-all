@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.0\n"
-"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:17+EDT\n"
 "PO-Revision-Date: 2012-01-04 16:06-0600\n"
 "Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
 "Language-Team: None\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid ""
 "How many processes are spawned for each test run.  In the per-module model, "
 "one process is spawned for each module; in the per-package model, one "
-"process is spawned for each package or ddirectory.  Note that differing "
+"process is spawned for each package or directory.  Note that differing "
 "environment settings or run arguments can cause additional processes to be "
 "spawned."
 msgstr ""
@@ -79,7 +79,7 @@ msgid "All Results Without Output"
 msgstr ""
 
 #: src/testing/attribs.py:92
-msgid "No Results"
+msgid "No Results or Output"
 msgstr ""
 
 #: src/testing/attribs.py:96
@@ -137,161 +137,192 @@ msgstr ""
 msgid "<i>no children</i>"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:792 src/testing/cap_testinggui.py:1317
+#: src/testing/cap_testinggui.py:793
+msgid "_Run"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:793 src/testing/cap_testinggui.py:1341
 msgid "_Run Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:797
+#: src/testing/cap_testinggui.py:802
+#, fuzzy
+msgid "_Debug"
+msgstr "Ejecutar prueba"
+
+#: src/testing/cap_testinggui.py:802
 #, fuzzy
 msgid "_Debug Tests"
 msgstr "Ejecutar prueba"
 
-#: src/testing/cap_testinggui.py:820
+#: src/testing/cap_testinggui.py:826
 msgid "Filter: "
 msgstr ""
 
-#: src/testing/cap_testinggui.py:905
+#: src/testing/cap_testinggui.py:928
 msgid "Succeeded"
 msgstr "Exitosa"
 
-#: src/testing/cap_testinggui.py:907
+#: src/testing/cap_testinggui.py:930
 msgid "Failed"
 msgstr "Falló"
 
-#: src/testing/cap_testinggui.py:909
+#: src/testing/cap_testinggui.py:932
 msgid "Error"
 msgstr "Error"
 
-#: src/testing/cap_testinggui.py:911
+#: src/testing/cap_testinggui.py:934
 msgid "Syntax Error"
 msgstr "Error de sintaxis"
 
-#: src/testing/cap_testinggui.py:913
+#: src/testing/cap_testinggui.py:936
 msgid "Running"
 msgstr "En ejecución"
 
-#: src/testing/cap_testinggui.py:947
+#: src/testing/cap_testinggui.py:970
 msgid "No tests to run"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1019
+#: src/testing/cap_testinggui.py:1042
 msgid "Clear All Test Results?"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1020
+#: src/testing/cap_testinggui.py:1043
 msgid "Are you sure you want to clear all the stored test results?"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1021
+#: src/testing/cap_testinggui.py:1044
 msgid "Clear All"
 msgstr "Limpiar Todo"
 
-#: src/testing/cap_testinggui.py:1022
+#: src/testing/cap_testinggui.py:1045
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/testing/cap_testinggui.py:1071
+#: src/testing/cap_testinggui.py:1094
 msgid "Remove File"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1071
+#: src/testing/cap_testinggui.py:1094
 msgid "Remove Files"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1079
+#: src/testing/cap_testinggui.py:1102
 msgid "Sort Tests Alphabetically"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1084
+#: src/testing/cap_testinggui.py:1107
 msgid "Sort Tests by Source Order"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1089 src/testing/cap_testinggui.py:1096
+#: src/testing/cap_testinggui.py:1112 src/testing/cap_testinggui.py:1119
 msgid "Goto Source"
 msgstr "Ir al código fuente"
 
-#: src/testing/cap_testinggui.py:1090
+#: src/testing/cap_testinggui.py:1113
 msgid "Run Test"
 msgstr "Ejecutar prueba"
 
-#: src/testing/cap_testinggui.py:1091
+#: src/testing/cap_testinggui.py:1114
 msgid "Debug Test"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1092
+#: src/testing/cap_testinggui.py:1115
 msgid "Run All Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1093
+#: src/testing/cap_testinggui.py:1116
 msgid "Clear All Results"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1097
+#: src/testing/cap_testinggui.py:1120
 msgid "Abort Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1102
+#: src/testing/cap_testinggui.py:1125
 msgid "Expand All Failed Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1103
+#: src/testing/cap_testinggui.py:1126
 msgid "Collapse All Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1106
+#: src/testing/cap_testinggui.py:1129
 msgid "Add Files from Project..."
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1107
+#: src/testing/cap_testinggui.py:1130
 msgid "Add Single File..."
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1110
+#: src/testing/cap_testinggui.py:1133
 msgid "File Properties..."
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1112
+#: src/testing/cap_testinggui.py:1135
 msgid "Show Testing Documentation"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1115
+#: src/testing/cap_testinggui.py:1138
 msgid "Select All"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1122
+#: src/testing/cap_testinggui.py:1145
 msgid "Copy Selected Text"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1126
+#: src/testing/cap_testinggui.py:1149
 msgid "Copy Failure Summary"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1130
+#: src/testing/cap_testinggui.py:1153
 msgid "Copy All Results"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1287
+#: src/testing/cap_testinggui.py:1310
 msgid "Completed tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1314
+#: src/testing/cap_testinggui.py:1337
 msgid "_Abort Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1351 src/testing/cap_testinggui.py:1368
+#: src/testing/cap_testinggui.py:1338
+msgid "Abort"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:1342
+#, fuzzy
+msgid "Run"
+msgstr "En ejecución"
+
+#: src/testing/cap_testinggui.py:1379 src/testing/cap_testinggui.py:1402
 #, fuzzy
 msgid "Debug Tests"
 msgstr "Ejecutar prueba"
 
-#: src/testing/cap_testinggui.py:1356 src/testing/cap_testinggui.py:1365
+#: src/testing/cap_testinggui.py:1380 src/testing/cap_testinggui.py:1403
+#, fuzzy
+msgid "Debug"
+msgstr "Ejecutar prueba"
+
+#: src/testing/cap_testinggui.py:1386
+msgid "Stop Debug"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:1387 src/testing/cap_testinggui.py:1398
+msgid "Stop"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:1397
 msgid "Abort Debug"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1493 src/testing/cap_testinggui.py:1503
+#: src/testing/cap_testinggui.py:1529 src/testing/cap_testinggui.py:1539
 msgid "Testing"
 msgstr "Pruebas"
 
-#: src/testing/cap_testinggui.py:1508
+#: src/testing/cap_testinggui.py:1544
 msgid "Unit Tests"
 msgstr ""
 
@@ -395,7 +426,7 @@ msgstr ""
 msgid "Debugging local tests: %s"
 msgstr ""
 
-#: src/testing/runtests.py:338 src/testing/runtests.py:385
+#: src/testing/runtests.py:338 src/testing/runtests.py:390
 msgid "Could not start debug process"
 msgstr ""
 
@@ -403,23 +434,23 @@ msgstr ""
 msgid "Debugging tests on hostname %s: %s"
 msgstr ""
 
-#: src/testing/runtests.py:410
+#: src/testing/runtests.py:415
 msgid "Test process aborted: some tests were not run"
 msgstr ""
 
-#: src/testing/runtests.py:657 src/testing/runtests.py:661
+#: src/testing/runtests.py:662 src/testing/runtests.py:666
 msgid "Test process suddenly quit while running %s"
 msgstr ""
 
-#: src/testing/runtests.py:659
+#: src/testing/runtests.py:664
 msgid " in %s"
 msgstr ""
 
-#: src/testing/runtests.py:669
+#: src/testing/runtests.py:674
 msgid "Could not execute test runner"
 msgstr ""
 
-#: src/testing/runtests.py:676
+#: src/testing/runtests.py:681
 msgid "Could not read any output from test runner"
 msgstr ""
 

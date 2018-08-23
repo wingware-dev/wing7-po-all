@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_pref\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-03-05 22:43+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,21 +17,21 @@ msgstr ""
 "X-Loco-Project-Id: 43216\n"
 "X-Loco-Api-Version: 1.0.18 20180227-1\n"
 
-#: src/pref/prefconstants.py:67
-msgid "Enable Tooltips"
-msgstr "Включить подсказки"
-
-#: src/pref/prefconstants.py:70
+#: src/pref/prefconstants.py:66
 msgid "Display Language"
 msgstr "Язык интерфейса"
 
-#: src/pref/prefconstants.py:73
+#: src/pref/prefconstants.py:69
 msgid "Color Palette"
 msgstr "Цветовая палитра"
 
-#: src/pref/prefconstants.py:74
+#: src/pref/prefconstants.py:70
 msgid "Use Color Palette Throughout the UI"
 msgstr "Использование цветовой палитры в пользовательском интерфейсе"
+
+#: src/pref/prefconstants.py:74
+msgid "Enable Tooltips"
+msgstr "Включить подсказки"
 
 #: src/pref/prefconstants.py:80
 msgid "Windowing Policy"
@@ -53,13 +53,13 @@ msgstr "Размер Панели Инструментов"
 msgid "Toolbar Style"
 msgstr "Стиль Панели Инструментов"
 
-#: src/pref/prefconstants.py:93 src/pref/prefconstants.py:220
-#: src/pref/prefconstants.py:437
+#: src/pref/prefconstants.py:93 src/pref/prefconstants.py:222
+#: src/pref/prefconstants.py:452
 msgid "Groups Shown"
 msgstr "Отображаемые группы"
 
-#: src/pref/prefconstants.py:94 src/pref/prefconstants.py:221
-#: src/pref/prefconstants.py:438
+#: src/pref/prefconstants.py:94 src/pref/prefconstants.py:223
+#: src/pref/prefconstants.py:453
 msgid "Custom Items"
 msgstr "Пользовательские элементы"
 
@@ -159,436 +159,430 @@ msgstr "Инструменты автофокусировки"
 msgid "Case Sensitive Sorting"
 msgstr "Сортировка с учетом регистра"
 
-#: src/pref/prefconstants.py:149
-msgid "Auto-Show Bug Report Dialog"
-msgstr "Автопоказ диалогового окна отчета об ошибках"
-
-#: src/pref/prefconstants.py:150
-msgid "Auto-check for Product Updates"
-msgstr "Автоматическая проверка обновлений продукта"
-
-#: src/pref/prefconstants.py:151
-msgid "Submit Usage Stats"
-msgstr ""
-
-#: src/pref/prefconstants.py:156
-msgid "Show Support+Upgrades Reminders"
-msgstr "Показать напоминания о поддержке + обновлениях"
-
-#: src/pref/prefconstants.py:159
+#: src/pref/prefconstants.py:152
 msgid "Always Use Full Path in Tooltips"
 msgstr "Всегда использовать полный путь в подсказках"
 
-#: src/pref/prefconstants.py:163
+#: src/pref/prefconstants.py:156
 msgid "Max Error Log Size"
 msgstr "Максимальный размер журнала ошибок"
 
-#: src/pref/prefconstants.py:164
+#: src/pref/prefconstants.py:157
 msgid "Shared File Sets Repository"
 msgstr "Репозиторий общих файлов"
 
-#: src/pref/prefconstants.py:165
+#: src/pref/prefconstants.py:158
 msgid "Key Map File"
 msgstr "Key Map Файл"
 
-#: src/pref/prefconstants.py:166
+#: src/pref/prefconstants.py:159
+msgid "Auto-check for Product Updates"
+msgstr "Автоматическая проверка обновлений продукта"
+
+#: src/pref/prefconstants.py:160
+msgid "Submit Usage Stats"
+msgstr ""
+
+#: src/pref/prefconstants.py:164
+msgid "Show Support+Upgrades Reminders"
+msgstr "Показать напоминания о поддержке + обновлениях"
+
+#: src/pref/prefconstants.py:167
 msgid "Show Discount Offers"
 msgstr ""
 
-#: src/pref/prefconstants.py:172
+#: src/pref/prefconstants.py:168
+msgid "Auto-Show Bug Report Dialog"
+msgstr "Автопоказ диалогового окна отчета об ошибках"
+
+#: src/pref/prefconstants.py:174
 msgid "Auto-Save Files Before Debug or Execute"
 msgstr "Автоматическое сохранение файлов перед Отладкой или выполнением"
 
-#: src/pref/prefconstants.py:175
+#: src/pref/prefconstants.py:177
 msgid "Default Directory Policy"
 msgstr "Политика каталогов по умолчанию"
 
-#: src/pref/prefconstants.py:176
+#: src/pref/prefconstants.py:178
 msgid "Title Style"
 msgstr "Стиль заголовка"
 
-#: src/pref/prefconstants.py:177
+#: src/pref/prefconstants.py:179
 msgid "Show Hostname in Titles"
 msgstr "Показывать имя хоста в заголовках"
 
-#: src/pref/prefconstants.py:178
+#: src/pref/prefconstants.py:180
 msgid "Default Encoding"
 msgstr "Кодировка по умолчанию"
 
-#: src/pref/prefconstants.py:179
+#: src/pref/prefconstants.py:181
 msgid "New File EOL"
 msgstr "Символ конца строки"
 
-#: src/pref/prefconstants.py:180
+#: src/pref/prefconstants.py:182
 msgid "New File Extension"
 msgstr "Расширение файла"
 
-#: src/pref/prefconstants.py:184
+#: src/pref/prefconstants.py:186
 msgid "Max Recent Items"
 msgstr "Макс последних элементов"
 
-#: src/pref/prefconstants.py:188
+#: src/pref/prefconstants.py:190
 msgid "Maximum File Size (MB)"
 msgstr "Максимальный размер файла (МБ)"
 
-#: src/pref/prefconstants.py:192
+#: src/pref/prefconstants.py:194
 msgid "Extra File Types"
 msgstr "Дополнительные типы файлов"
 
-#: src/pref/prefconstants.py:193
+#: src/pref/prefconstants.py:195
 msgid "File Filters"
 msgstr "Фильтры файлов"
 
-#: src/pref/prefconstants.py:197
+#: src/pref/prefconstants.py:199
 msgid "External Check Freq"
 msgstr "Частота Внешней проверки"
 
-#: src/pref/prefconstants.py:198
+#: src/pref/prefconstants.py:200
 msgid "Reload when Unchanged"
 msgstr "Перезагрузить если неизменено"
 
-#: src/pref/prefconstants.py:199
+#: src/pref/prefconstants.py:201
 msgid "Reload when Changed"
 msgstr "Перезагрузить при изменении"
 
-#: src/pref/prefconstants.py:200
+#: src/pref/prefconstants.py:202
 msgid "Check Hash before Reloading"
 msgstr "Проверка хэша перед перезагрузкой"
 
-#: src/pref/prefconstants.py:205
+#: src/pref/prefconstants.py:207
 msgid "File Display Commands"
 msgstr "Файл отображаемые команды"
 
-#: src/pref/prefconstants.py:206
+#: src/pref/prefconstants.py:208
 msgid "Url Display Commands"
 msgstr "Url отображаемые команды"
 
-#: src/pref/prefconstants.py:210
+#: src/pref/prefconstants.py:212
 msgid "Auto-reopen Last Project"
 msgstr "Автоматически открывать последний проект"
 
-#: src/pref/prefconstants.py:211
+#: src/pref/prefconstants.py:213
 msgid "Close Files with Project"
 msgstr "Закрыть файлы из Project"
 
-#: src/pref/prefconstants.py:212
+#: src/pref/prefconstants.py:214
 msgid "Show New Project Dialog"
 msgstr "Показать новый диалог проекта"
 
-#: src/pref/prefconstants.py:215
+#: src/pref/prefconstants.py:217
 msgid "Open Projects as Text"
 msgstr "Открыть проекты в виде текста"
 
-#: src/pref/prefconstants.py:216
+#: src/pref/prefconstants.py:218
 msgid "Confirm Drag Copy/Move"
 msgstr "Подтверждать копирование/перемещение"
 
-#: src/pref/prefconstants.py:225
+#: src/pref/prefconstants.py:227
 msgid "Show Line Numbers"
 msgstr "Показать Номера Строк"
 
-#: src/pref/prefconstants.py:226
+#: src/pref/prefconstants.py:228
 msgid "Show Whitespace"
 msgstr "Показать Пробелы"
 
-#: src/pref/prefconstants.py:227
+#: src/pref/prefconstants.py:229
 msgid "Show EOL"
 msgstr "Показать EOL"
 
-#: src/pref/prefconstants.py:231
+#: src/pref/prefconstants.py:233
 msgid "Split Reuse Policy"
 msgstr "Политика повторного использования разделения"
 
-#: src/pref/prefconstants.py:232
+#: src/pref/prefconstants.py:234
 msgid "Other Split Type"
 msgstr "Другой Тип Разделения"
 
-#: src/pref/prefconstants.py:233
+#: src/pref/prefconstants.py:235
 msgid "Show All Files in All Splits"
 msgstr "Показать все файлы во всех Разделениях"
 
-#: src/pref/prefconstants.py:237 src/pref/prefconstants.py:261
-#: src/pref/prefconstants.py:363
+#: src/pref/prefconstants.py:239 src/pref/prefconstants.py:263
+#: src/pref/prefconstants.py:364
 msgid "Background Color"
 msgstr "Цвет фона"
 
-#: src/pref/prefconstants.py:240
+#: src/pref/prefconstants.py:242
 msgid "Strip Trailing White Space"
 msgstr "Убрать пробелы в конце строки"
 
-#: src/pref/prefconstants.py:241
+#: src/pref/prefconstants.py:243
 msgid "Block Comment Style"
 msgstr "Стиль Блока Комментария"
 
-#: src/pref/prefconstants.py:242
+#: src/pref/prefconstants.py:244
 msgid "Scroll Past End"
 msgstr "Прокрутка в конец"
 
-#: src/pref/prefconstants.py:243
+#: src/pref/prefconstants.py:245
 msgid "Ensure File Ends With EOL When Saving"
 msgstr "Убедитесь, что файл заканчивается с помощью EOL при сохранении"
 
-#: src/pref/prefconstants.py:244
+#: src/pref/prefconstants.py:246
 msgid "Enable Font Size Zooming"
 msgstr "Включить Масштабирование Размера Шрифта"
 
-#: src/pref/prefconstants.py:248
+#: src/pref/prefconstants.py:250
 msgid "On Empty Selection"
 msgstr "При Пустом Выборе"
 
-#: src/pref/prefconstants.py:249
+#: src/pref/prefconstants.py:251
 msgid "Middle Mouse Paste"
 msgstr "Средняя Вставка Мыши"
 
-#: src/pref/prefconstants.py:253
+#: src/pref/prefconstants.py:255
 msgid "Convert Indent Style On Paste"
 msgstr "Преобразование стиля отступов во вствке"
 
-#: src/pref/prefconstants.py:256
+#: src/pref/prefconstants.py:258
 msgid "Adjust Indent After Paste"
 msgstr "Настройка Отступа После Вставки"
 
-#: src/pref/prefconstants.py:262
+#: src/pref/prefconstants.py:264
 msgid "Syntax Formatting"
 msgstr "Форматирование Синтаксиса"
 
-#: src/pref/prefconstants.py:263
+#: src/pref/prefconstants.py:265
 msgid "Highlight Builtins"
 msgstr "Подсветка Встроенных команд"
 
-#: src/pref/prefconstants.py:268
+#: src/pref/prefconstants.py:270
 msgid "Error Indicators"
 msgstr "Индикатор ошибки"
 
-#: src/pref/prefconstants.py:269 src/pref/prefconstants.py:360
+#: src/pref/prefconstants.py:271 src/pref/prefconstants.py:361
 msgid "Indicator Style"
 msgstr "Стиль индикатора"
 
-#: src/pref/prefconstants.py:270
+#: src/pref/prefconstants.py:272
 #, fuzzy
 msgid "Error Color"
 msgstr "Цвет переднего плана"
 
-#: src/pref/prefconstants.py:271
+#: src/pref/prefconstants.py:273
 #, fuzzy
 msgid "Warning Color"
 msgstr "Цвет курсора"
 
-#: src/pref/prefconstants.py:277
+#: src/pref/prefconstants.py:279
 msgid "Auto-Editing Enabled"
 msgstr "Автоматическое редактирование включено"
 
-#: src/pref/prefconstants.py:278
+#: src/pref/prefconstants.py:280
 msgid "Auto-Close Characters"
 msgstr "Автоматическое Закрытие Символов"
 
-#: src/pref/prefconstants.py:279
+#: src/pref/prefconstants.py:281
 msgid "Auto-Enter Invocation Args"
 msgstr "Автоматический ввод аргументов вызова"
 
-#: src/pref/prefconstants.py:280
+#: src/pref/prefconstants.py:282
 msgid "    Auto-wrap Arguments"
 msgstr "     автоматический перенос аргументов"
 
-#: src/pref/prefconstants.py:281
+#: src/pref/prefconstants.py:283
 msgid "    Invoke After Completion"
 msgstr ""
 
-#: src/pref/prefconstants.py:282
+#: src/pref/prefconstants.py:284
 msgid "Apply Quotes to Selection"
 msgstr "Применить кавычки к выбору"
 
-#: src/pref/prefconstants.py:283
+#: src/pref/prefconstants.py:285
 msgid "Apply Comment Key to Selection"
 msgstr "Закомментарить выбор"
 
-#: src/pref/prefconstants.py:284
+#: src/pref/prefconstants.py:286
 msgid "Apply (), [], and {} to Selection"
 msgstr "Применять (), [], и {} для выбранного"
 
-#: src/pref/prefconstants.py:285
+#: src/pref/prefconstants.py:287
 msgid "Apply Colon to Selection"
 msgstr "Применить двоеточие к выделению"
 
-#: src/pref/prefconstants.py:286
+#: src/pref/prefconstants.py:288
 msgid "Auto-Enter Spaces"
 msgstr "Автоматический Ввод Пробелов"
 
-#: src/pref/prefconstants.py:287
+#: src/pref/prefconstants.py:289
 msgid "    Auto-Space After Keywords"
 msgstr "    Автопробел После Ключевых Слов"
 
-#: src/pref/prefconstants.py:288
-msgid "    Enforce PEP8 Style Spacing"
+#: src/pref/prefconstants.py:290
+#, fuzzy
+msgid "    Enforce PEP 8 Style Spacing"
 msgstr "    Принудительно измененять стиль к PEP8"
 
-#: src/pref/prefconstants.py:289
-msgid "    Spaces Around = in Argument Lists"
-msgstr "    Пробелы вокруг = в списках аргументов"
-
-#: src/pref/prefconstants.py:290
+#: src/pref/prefconstants.py:291
 msgid "    Spaces Around : in Type Annotations"
 msgstr "    Пробелы вокруг: в аннотации типа"
 
-#: src/pref/prefconstants.py:291
+#: src/pref/prefconstants.py:292
 msgid "Manage Blocks on Repeated Colon Key Presses"
 msgstr "Управление блоками при повторном нажатии клавиш двоеточия"
 
-#: src/pref/prefconstants.py:292
+#: src/pref/prefconstants.py:293
 msgid "Continue Comment or String on New Line"
 msgstr "Продолжить комментарий или строку в Новой строке"
 
-#: src/pref/prefconstants.py:293
+#: src/pref/prefconstants.py:294
 msgid "Correct Out-of-Order Typing"
 msgstr "Исправление неупорядоченной типизации"
 
-#: src/pref/prefconstants.py:304
+#: src/pref/prefconstants.py:305
 msgid "Selection Color"
 msgstr "Цвет выделения"
 
-#: src/pref/prefconstants.py:305
+#: src/pref/prefconstants.py:306
 msgid "Caret Color"
 msgstr "Цвет курсора"
 
-#: src/pref/prefconstants.py:306
+#: src/pref/prefconstants.py:307
 msgid "Caret Width"
 msgstr "Ширина курсора"
 
-#: src/pref/prefconstants.py:307
+#: src/pref/prefconstants.py:308
 msgid "Caret Flash Rate (ms)"
 msgstr "Частота мгания курсора (мс)"
 
-#: src/pref/prefconstants.py:308
+#: src/pref/prefconstants.py:309
 msgid "Caret Line Highlight"
 msgstr "Подсветка Строки Курсора"
 
-#: src/pref/prefconstants.py:312
+#: src/pref/prefconstants.py:313
 msgid "Display Selections Popup"
 msgstr "Отображать всплывающие окна выбора"
 
-#: src/pref/prefconstants.py:318
+#: src/pref/prefconstants.py:319
 msgid "Use Indent Analysis"
 msgstr "Использовать анализ отступов"
 
-#: src/pref/prefconstants.py:319
+#: src/pref/prefconstants.py:320
 msgid "Default Tab Size"
 msgstr "Размер вкладки по умолчанию"
 
-#: src/pref/prefconstants.py:322
+#: src/pref/prefconstants.py:323
 msgid "Default Indent Size"
 msgstr "Размер отступа по умолчанию"
 
-#: src/pref/prefconstants.py:326
+#: src/pref/prefconstants.py:327
 msgid "Default Indent Style"
 msgstr "Стиль отступа по умолчанию"
 
-#: src/pref/prefconstants.py:327
+#: src/pref/prefconstants.py:328
 msgid "Auto Indent"
 msgstr "Автоматический отступ"
 
-#: src/pref/prefconstants.py:330
+#: src/pref/prefconstants.py:331
 msgid "Show Indent Guides"
 msgstr "Показать линии отступа"
 
-#: src/pref/prefconstants.py:334
+#: src/pref/prefconstants.py:335
 msgid "Show Python Indent Warning Dialog"
 msgstr "Показать диалоговое окно предупреждения отступа Python"
 
-#: src/pref/prefconstants.py:335
+#: src/pref/prefconstants.py:336
 msgid "Show Override Warning Dialog"
 msgstr "Показать диалоговое окно предупреждения переопределения"
 
-#: src/pref/prefconstants.py:339
+#: src/pref/prefconstants.py:340
 msgid "Wrap Long Lines"
 msgstr "Перенос длинных строк"
 
-#: src/pref/prefconstants.py:340
+#: src/pref/prefconstants.py:341
 msgid "Edge Markers"
 msgstr "Маркеры Края"
 
-#: src/pref/prefconstants.py:341
+#: src/pref/prefconstants.py:342
 msgid "Reformatting Wrap Column"
 msgstr "Переформатирование столбца при переносе"
 
-#: src/pref/prefconstants.py:345
+#: src/pref/prefconstants.py:346
 msgid "Highlight Occurrences"
 msgstr "Подсветка повторных экземпляров"
 
-#: src/pref/prefconstants.py:346
+#: src/pref/prefconstants.py:347
 msgid "Match Case"
 msgstr "Учитывать регистр"
 
-#: src/pref/prefconstants.py:347
+#: src/pref/prefconstants.py:348
 msgid "Occurrences Indicator Style"
 msgstr "Стиль индикаторов событий"
 
-#: src/pref/prefconstants.py:348
+#: src/pref/prefconstants.py:349
 msgid "Occurrences Color"
 msgstr "Цвет заливки"
 
-#: src/pref/prefconstants.py:352
+#: src/pref/prefconstants.py:353
 msgid "Bookmark Color"
 msgstr "Цвет закладки"
 
-#: src/pref/prefconstants.py:353
+#: src/pref/prefconstants.py:354
 msgid "Bookmark Style"
 msgstr "Стиль закладки"
 
-#: src/pref/prefconstants.py:354
+#: src/pref/prefconstants.py:355
 msgid "Confirm Deletion"
 msgstr ""
 
-#: src/pref/prefconstants.py:358
+#: src/pref/prefconstants.py:359
 msgid "Enable Folding"
 msgstr "Включить сворачивание"
 
-#: src/pref/prefconstants.py:359
+#: src/pref/prefconstants.py:360
 msgid "Line Mode"
 msgstr "Режим линии"
 
-#: src/pref/prefconstants.py:361
+#: src/pref/prefconstants.py:362
 msgid "Fold Trailing White Space"
 msgstr "Сложить пробелы из конца строки"
 
-#: src/pref/prefconstants.py:362
+#: src/pref/prefconstants.py:363
 msgid "Foreground Color"
 msgstr "Цвет переднего плана"
 
-#: src/pref/prefconstants.py:369
+#: src/pref/prefconstants.py:370
 msgid "Auto-show Completer"
 msgstr "Показывать вырианты автозаполнения"
 
-#: src/pref/prefconstants.py:370
+#: src/pref/prefconstants.py:374
+#, fuzzy
+msgid "Python Turbo Mode"
+msgstr "Режим Python Turbo (Экспериментальный)"
+
+#: src/pref/prefconstants.py:377
 msgid "Completion Keys"
 msgstr "Ключи Завершения"
 
-#: src/pref/prefconstants.py:374
-msgid "Python Turbo Mode (Experimental)"
-msgstr "Режим Python Turbo (Экспериментальный)"
-
-#: src/pref/prefconstants.py:379
+#: src/pref/prefconstants.py:383
 msgid "Auto-completer Height"
 msgstr "Автоподстройка высоты"
 
-#: src/pref/prefconstants.py:380
+#: src/pref/prefconstants.py:384
 msgid "Auto-complete Delay (sec)"
 msgstr "Задержка автозаполнения (сек)"
 
-#: src/pref/prefconstants.py:381
+#: src/pref/prefconstants.py:385
 msgid "Auto-complete Timeout"
 msgstr "Тайм-аут автозаполнения"
 
-#: src/pref/prefconstants.py:382
+#: src/pref/prefconstants.py:386
 msgid "Completion Mode"
 msgstr "Режим заполнения"
 
-#: src/pref/prefconstants.py:383
+#: src/pref/prefconstants.py:387
 msgid "Case Insensitive Matching"
 msgstr "Без учета регистра"
-
-#: src/pref/prefconstants.py:387
-msgid "Include Snippets in Completer"
-msgstr "Включить фрагменты в комплект"
 
 #: src/pref/prefconstants.py:391
 msgid "Non-Python Completion"
@@ -599,619 +593,673 @@ msgid "Non-Python Word Size"
 msgstr "Размер слова Не-Python"
 
 #: src/pref/prefconstants.py:397
+#, fuzzy
+msgid "Include Snippets in Auto-Completer"
+msgstr "Включить фрагменты в комплект"
+
+#: src/pref/prefconstants.py:398
+msgid "Snippets Path"
+msgstr ""
+
+#: src/pref/prefconstants.py:399
+#, fuzzy
+msgid "Include Default Snippets"
+msgstr "Включить фрагменты в комплект"
+
+#: src/pref/prefconstants.py:404
 msgid "Orientation"
 msgstr "Ориентация"
 
-#: src/pref/prefconstants.py:398
+#: src/pref/prefconstants.py:405
 msgid "Lock Scrolling"
 msgstr "Блокировка прокрутки"
 
-#: src/pref/prefconstants.py:399
+#: src/pref/prefconstants.py:406
 msgid "Ignore White Space"
 msgstr "Игнорировать пробелы"
 
-#: src/pref/prefconstants.py:400
+#: src/pref/prefconstants.py:407
 msgid "Empty Session Warning"
 msgstr "Предупреждение о пустой сессии"
 
-#: src/pref/prefconstants.py:401
+#: src/pref/prefconstants.py:408
 msgid "Diff Color"
 msgstr "Цвет различий"
 
-#: src/pref/prefconstants.py:402
+#: src/pref/prefconstants.py:409
 msgid "Merged Diff Color"
 msgstr "Цвет слитых различий"
 
-#: src/pref/prefconstants.py:406
+#: src/pref/prefconstants.py:413
+msgid "Auto-Reformat for PEP 8"
+msgstr ""
+
+#: src/pref/prefconstants.py:414
+#, fuzzy
+msgid "Spaces Around = in Argument Lists"
+msgstr "    Пробелы вокруг = в списках аргументов"
+
+#: src/pref/prefconstants.py:415
+msgid "Enforce Line Length"
+msgstr ""
+
+#: src/pref/prefconstants.py:416
+msgid "Reindent All Lines in Files"
+msgstr ""
+
+#: src/pref/prefconstants.py:417
+#, fuzzy
+msgid "Reformat Timeout"
+msgstr "Тайм-аут сети"
+
+#: src/pref/prefconstants.py:421
 msgid "Document Font"
 msgstr "Шрифт документа"
 
-#: src/pref/prefconstants.py:407
+#: src/pref/prefconstants.py:422
 msgid "Use Default Foreground Colors"
 msgstr "Использовать цвета переднего плана по умолчанию"
 
-#: src/pref/prefconstants.py:409
+#: src/pref/prefconstants.py:424
 msgid "Print Header Format"
 msgstr "Формат заголовка печати"
 
-#: src/pref/prefconstants.py:410
+#: src/pref/prefconstants.py:425
 msgid "Print Header Font"
 msgstr "Шрифт заголовка печати"
 
-#: src/pref/prefconstants.py:411
+#: src/pref/prefconstants.py:426
 msgid "Print Footer Format"
 msgstr "Формат нижнего колонтитула печати"
 
-#: src/pref/prefconstants.py:412
+#: src/pref/prefconstants.py:427
 msgid "Print Footer Font"
 msgstr "Шрифт нижнего колонтитула печати"
 
-#: src/pref/prefconstants.py:418
+#: src/pref/prefconstants.py:433
 msgid "Introspect Live Runtime"
 msgstr "Самоанализ \"живой\" среды выполнения"
 
-#: src/pref/prefconstants.py:419
+#: src/pref/prefconstants.py:434
 msgid "Typing Suspend Timeout"
 msgstr "Ввод тайм-аута приостановки"
 
-#: src/pref/prefconstants.py:420
+#: src/pref/prefconstants.py:435
 msgid "Max Cache Size (MB)"
 msgstr "Максимальный размер кеша (МБ)"
 
-#: src/pref/prefconstants.py:421
+#: src/pref/prefconstants.py:436
 msgid "Max Memory Buffers"
 msgstr "Макс. Буфер памяти"
 
-#: src/pref/prefconstants.py:425
+#: src/pref/prefconstants.py:440
 msgid "Interface File Path"
 msgstr "Путь к файлу интерфейса"
 
-#: src/pref/prefconstants.py:426
+#: src/pref/prefconstants.py:441
 msgid "Scrape Extension Modules"
 msgstr ""
 
-#: src/pref/prefconstants.py:427
+#: src/pref/prefconstants.py:442
 msgid "Scraping Helper Snippets"
 msgstr ""
 
-#: src/pref/prefconstants.py:431
+#: src/pref/prefconstants.py:446
 msgid "Python Docs URL Prefix"
 msgstr "Префиксы URL для Python Docs"
 
-#: src/pref/prefconstants.py:434 src/pref/prefconstants.py:654
-#: src/pref/prefconstants.py:670 src/pref/prefconstants.py:705
+#: src/pref/prefconstants.py:449 src/pref/prefconstants.py:672
+#: src/pref/prefconstants.py:688 src/pref/prefconstants.py:724
 msgid "Advanced"
 msgstr "Дополнительно"
 
-#: src/pref/prefconstants.py:442
+#: src/pref/prefconstants.py:457
 msgid "Brace Highlighting"
 msgstr "Подсветка Скобок"
 
-#: src/pref/prefconstants.py:443
+#: src/pref/prefconstants.py:458
 #, fuzzy
 msgid "Brace Highlight Color"
 msgstr "Подсветка Скобок"
 
-#: src/pref/prefconstants.py:444
+#: src/pref/prefconstants.py:459
 #, fuzzy
 msgid "Brace Highlight Background Color"
 msgstr "Цвет фона"
 
-#: src/pref/prefconstants.py:445
+#: src/pref/prefconstants.py:460
 msgid "Brace Badlight Color"
 msgstr ""
 
-#: src/pref/prefconstants.py:446
+#: src/pref/prefconstants.py:461
 #, fuzzy
 msgid "Brace Badlight Background Color"
 msgstr "Цвет фона"
 
-#: src/pref/prefconstants.py:452
+#: src/pref/prefconstants.py:467
 msgid "Maximum Non-Sticky Editors"
 msgstr ""
 
-#: src/pref/prefconstants.py:453
+#: src/pref/prefconstants.py:468
 msgid "Use Custom Mouse Cursor"
 msgstr "Использовать пользовательский курсор мыши"
 
-#: src/pref/prefconstants.py:454
+#: src/pref/prefconstants.py:469
 msgid "Selection Policy"
 msgstr "Политика выбора"
 
-#: src/pref/prefconstants.py:455
+#: src/pref/prefconstants.py:470
 msgid "Mini-search Case Sensitivity"
 msgstr "Мини-Поиск чувствительности к регистру"
 
-#: src/pref/prefconstants.py:456
+#: src/pref/prefconstants.py:471
 msgid "Symbol Menu Max Length"
 msgstr "Максимальная длина меню символов"
 
-#: src/pref/prefconstants.py:463
+#: src/pref/prefconstants.py:478
 msgid "Integer Display Mode"
 msgstr "Целочисленный режим отображения"
 
-#: src/pref/prefconstants.py:466
+#: src/pref/prefconstants.py:481
 msgid "Hover Over Symbols"
 msgstr "Наведите Курсор На Символы"
 
-#: src/pref/prefconstants.py:467
+#: src/pref/prefconstants.py:482
 msgid "Hover Over Selection"
 msgstr "Проход над выбором"
 
-#: src/pref/prefconstants.py:468
+#: src/pref/prefconstants.py:483
 msgid "Run Marker Color"
 msgstr "Цвет маркера запуска"
 
-#: src/pref/prefconstants.py:469
+#: src/pref/prefconstants.py:484
 msgid "Run Marker Alpha"
 msgstr "Запустить маркер альфа"
 
-#: src/pref/prefconstants.py:470
+#: src/pref/prefconstants.py:485
 msgid "Active Range Color"
 msgstr "Цвет активного диапазона"
 
-#: src/pref/prefconstants.py:471
+#: src/pref/prefconstants.py:486
 msgid "Line Threshold"
 msgstr "Пороговое значение строки (Перенос строк)"
 
-#: src/pref/prefconstants.py:472
+#: src/pref/prefconstants.py:487
 msgid "Indicate Project Files in Stack"
 msgstr "Указание файлов проекта в стеке"
 
-#: src/pref/prefconstants.py:477
+#: src/pref/prefconstants.py:492
 msgid "Set Current Directory from Active Editor"
 msgstr "Установка текущего каталога из активного редактора"
 
-#: src/pref/prefconstants.py:483
+#: src/pref/prefconstants.py:498
 msgid "Enable Multi-Process Debugging"
 msgstr "Включить отладку нескольких процессов"
 
-#: src/pref/prefconstants.py:484
+#: src/pref/prefconstants.py:499
 msgid "Switch to Stopped Processes"
 msgstr "Переключиться на остановленные процессы"
 
-#: src/pref/prefconstants.py:485
+#: src/pref/prefconstants.py:500
 msgid "Debug Child Processes"
 msgstr "Отладка дочерних процессов"
 
-#: src/pref/prefconstants.py:486
+#: src/pref/prefconstants.py:501
 msgid "Replace sys.executable"
 msgstr "Заменить sys.executable"
 
-#: src/pref/prefconstants.py:487
+#: src/pref/prefconstants.py:502
 msgid "Termination Model"
 msgstr "Модель завершения"
 
-#: src/pref/prefconstants.py:488
+#: src/pref/prefconstants.py:503
 msgid "Maximum Process Count"
 msgstr "Максимальное количество процессов"
 
-#: src/pref/prefconstants.py:489
+#: src/pref/prefconstants.py:504
 msgid "Debug Multiple Tests at Once"
 msgstr "Отладка нескольких тестов одновременно"
 
-#: src/pref/prefconstants.py:490
+#: src/pref/prefconstants.py:505
 msgid "Debug Multiple Instances of a Named Entry Point"
 msgstr "Отладка нескольких экземпляров именованной точки входа"
 
-#: src/pref/prefconstants.py:496
+#: src/pref/prefconstants.py:511
 msgid "Report Exceptions"
 msgstr "Отчеты об исключениях"
 
-#: src/pref/prefconstants.py:497
+#: src/pref/prefconstants.py:512
 msgid "Report Logged Exceptions In When Printed Mode"
 msgstr "Отчет об исключениях, зарегистрированных в режиме печати"
 
-#: src/pref/prefconstants.py:498
+#: src/pref/prefconstants.py:513
 msgid "Never Report"
 msgstr "Никогда не сообщать"
 
-#: src/pref/prefconstants.py:499
+#: src/pref/prefconstants.py:514
 msgid "Always Report"
 msgstr "Всегда сообщать"
 
-#: src/pref/prefconstants.py:504
+#: src/pref/prefconstants.py:519
 msgid "Debug I/O Encoding"
 msgstr "Кодировка I/O отладки"
 
-#: src/pref/prefconstants.py:505
+#: src/pref/prefconstants.py:520
 msgid "Flush I/O Periodically"
 msgstr "Периодический сброс I/O"
 
-#: src/pref/prefconstants.py:506
+#: src/pref/prefconstants.py:521
 msgid "Shell Encoding"
 msgstr "Кодировка оболочки"
 
-#: src/pref/prefconstants.py:507
+#: src/pref/prefconstants.py:522
 msgid "Pretty Print in Shells"
 msgstr "Привлекательная печать в оболочках"
 
-#: src/pref/prefconstants.py:511
+#: src/pref/prefconstants.py:526
 msgid "OS Commands Encoding"
 msgstr "Кодировка команд ОС"
 
-#: src/pref/prefconstants.py:515
+#: src/pref/prefconstants.py:530
 msgid "Use External Console"
 msgstr "Использовать внешнюю консоль"
 
-#: src/pref/prefconstants.py:516
+#: src/pref/prefconstants.py:531
 msgid "External Console Waits on Exit"
 msgstr "Внешняя консоль ждет выхода"
 
-#: src/pref/prefconstants.py:520
+#: src/pref/prefconstants.py:535
 msgid "External Consoles"
 msgstr "Внешние консоли"
 
-#: src/pref/prefconstants.py:524
+#: src/pref/prefconstants.py:539
 #, fuzzy
-msgid "Show _name Protected Variables"
+msgid "Show __name Protected Variables"
 msgstr "Показать новый диалог проекта"
 
-#: src/pref/prefconstants.py:525
+#: src/pref/prefconstants.py:540
 #, fuzzy
-msgid "Show __name Private Variables"
+msgid "Show ____name Private Variables"
 msgstr "Показывать имя хоста в заголовках"
 
-#: src/pref/prefconstants.py:526
-msgid "Show __name__ Special Variables"
-msgstr ""
+#: src/pref/prefconstants.py:541
+#, fuzzy
+msgid "Show ____name____ Special Variables"
+msgstr "Показывать имя хоста в заголовках"
 
-#: src/pref/prefconstants.py:527
+#: src/pref/prefconstants.py:542
 msgid "Show Memory Addresses"
 msgstr ""
 
-#: src/pref/prefconstants.py:528
+#: src/pref/prefconstants.py:543
 msgid "Huge List Threshold"
 msgstr "Порог для очень больших списков"
 
-#: src/pref/prefconstants.py:529
+#: src/pref/prefconstants.py:544
 msgid "Huge String Threshold"
 msgstr "Порог для очень больших строк"
 
-#: src/pref/prefconstants.py:533
-msgid "Omit Types"
-msgstr "Опустить типы"
-
-#: src/pref/prefconstants.py:534
-msgid "Omit Names"
-msgstr "Опустить имена"
-
-#: src/pref/prefconstants.py:535
-msgid "Do Not Expand"
-msgstr "Не разворачивать"
-
-#: src/pref/prefconstants.py:539
-msgid "Accept Debug Connections"
-msgstr "Принять отладочные подключения"
-
-#: src/pref/prefconstants.py:540
-msgid "Kill Externally Launched Processes"
-msgstr "Убить внешние запущенные процессы"
-
-#: src/pref/prefconstants.py:541
-msgid "Server Host"
-msgstr "Хост сервера"
-
-#: src/pref/prefconstants.py:542
-msgid "Server Port"
-msgstr "Порт сервера"
-
-#: src/pref/prefconstants.py:549 src/pref/prefconstants.py:555
-msgid "Debug Internals Log File"
-msgstr "Файл журнала внутренних отладок"
-
-#: src/pref/prefconstants.py:550 src/pref/prefconstants.py:557
-msgid "Python Shell Debug Log"
-msgstr "Журнал отладки оболочки Python"
-
-#: src/pref/prefconstants.py:556
-msgid "Extremely Verbose Internal Log"
-msgstr "Чрезвычайно подробный внутренний журнал"
-
-#: src/pref/prefconstants.py:558
-msgid "Extremely Verbose Python Shell Debug Log"
-msgstr "Чрезвычайно подробный журнал отладки оболочки Python"
-
-#: src/pref/prefconstants.py:561
-msgid "Network Timeout"
-msgstr "Тайм-аут сети"
-
-#: src/pref/prefconstants.py:562
-msgid "Close Connection on Timeout"
-msgstr "Закрыть соединение по таймауту"
-
-#: src/pref/prefconstants.py:563
-msgid "Resolve Properties"
-msgstr "Разрешить свойства"
-
-#: src/pref/prefconstants.py:564
-msgid "Allow Calls in Data Inspection"
-msgstr "Разрешить вызовы при проверке данных"
-
-#: src/pref/prefconstants.py:565
-msgid "Call Python ____repr____ Methods"
-msgstr "Вызов Python ____repr____ Методы"
-
-#: src/pref/prefconstants.py:566
-msgid "Inspect Base Classes"
-msgstr "Проверка базовых классов"
-
-#: src/pref/prefconstants.py:567
+#: src/pref/prefconstants.py:548
 msgid "Show Data Warnings"
 msgstr "Показать предупреждения данных"
 
-#: src/pref/prefconstants.py:573
+#: src/pref/prefconstants.py:551
+msgid "Omit Types"
+msgstr "Опустить типы"
+
+#: src/pref/prefconstants.py:552
+msgid "Omit Names"
+msgstr "Опустить имена"
+
+#: src/pref/prefconstants.py:553
+msgid "Do Not Expand"
+msgstr "Не разворачивать"
+
+#: src/pref/prefconstants.py:557
+msgid "Accept Debug Connections"
+msgstr "Принять отладочные подключения"
+
+#: src/pref/prefconstants.py:558
+msgid "Kill Externally Launched Processes"
+msgstr "Убить внешние запущенные процессы"
+
+#: src/pref/prefconstants.py:559
+msgid "Server Host"
+msgstr "Хост сервера"
+
+#: src/pref/prefconstants.py:560
+msgid "Server Port"
+msgstr "Порт сервера"
+
+#: src/pref/prefconstants.py:567 src/pref/prefconstants.py:574
+msgid "Debug Internals Log File"
+msgstr "Файл журнала внутренних отладок"
+
+#: src/pref/prefconstants.py:568 src/pref/prefconstants.py:576
+msgid "Python Shell Debug Log"
+msgstr "Журнал отладки оболочки Python"
+
+#: src/pref/prefconstants.py:575
+msgid "Extremely Verbose Internal Log"
+msgstr "Чрезвычайно подробный внутренний журнал"
+
+#: src/pref/prefconstants.py:577
+msgid "Extremely Verbose Python Shell Debug Log"
+msgstr "Чрезвычайно подробный журнал отладки оболочки Python"
+
+#: src/pref/prefconstants.py:580
+msgid "Resolve Properties"
+msgstr "Разрешить свойства"
+
+#: src/pref/prefconstants.py:581
+msgid "Allow Calls in Data Inspection"
+msgstr "Разрешить вызовы при проверке данных"
+
+#: src/pref/prefconstants.py:582
+msgid "Call Python ____repr____ Methods"
+msgstr "Вызов Python ____repr____ Методы"
+
+#: src/pref/prefconstants.py:583
+msgid "Inspect Base Classes"
+msgstr "Проверка базовых классов"
+
+#: src/pref/prefconstants.py:587
+msgid "Network Timeout"
+msgstr "Тайм-аут сети"
+
+#: src/pref/prefconstants.py:588
+msgid "Close Connection on Timeout"
+msgstr "Закрыть соединение по таймауту"
+
+#: src/pref/prefconstants.py:589
 msgid "Ignore Unsynchronized Files"
 msgstr "Игнорировать несинхронизированные файлы"
 
-#: src/pref/prefconstants.py:576
+#: src/pref/prefconstants.py:590
+msgid "Step Past importlib Frames"
+msgstr ""
+
+#: src/pref/prefconstants.py:591
 msgid "Use sys.stdin Wrapper"
 msgstr "Использование sys.stdin Wrapper"
 
-#: src/pref/prefconstants.py:577
+#: src/pref/prefconstants.py:592
 msgid "Show Editor on Exceptions in Shells"
 msgstr "Показать редактор исключений в Shells"
 
-#: src/pref/prefconstants.py:578
+#: src/pref/prefconstants.py:593
 msgid "Shells Ignore Editor Modes"
 msgstr "Оболочки игнорируют режимы редактора"
 
-#: src/pref/prefconstants.py:579
+#: src/pref/prefconstants.py:594
 msgid "Execute Pasted Lines in Shells Immediately"
 msgstr "Выполнить строки, вставленные в оболочки немедленно"
 
-#: src/pref/prefconstants.py:580
+#: src/pref/prefconstants.py:595
 msgid "Auto-show Run Args Dialog"
 msgstr "Авто-диалог Аргументы Запуска"
 
-#: src/pref/prefconstants.py:583
+#: src/pref/prefconstants.py:598
 msgid "Force Win32 Window Raising"
 msgstr "Принудительное развертывание окна Win32"
 
-#: src/pref/prefconstants.py:585
+#: src/pref/prefconstants.py:600
 msgid "When Build Fails"
 msgstr "При сбое сборки"
 
-#: src/pref/prefconstants.py:591
+#: src/pref/prefconstants.py:606
 msgid "Default Watch Style"
 msgstr "Стиль окна наблюдения по умолчанию"
 
-#: src/pref/prefconstants.py:594
+#: src/pref/prefconstants.py:609
 msgid "Show Breaks Moved Dialog"
 msgstr "Показывать диалог отчета об ошибке"
 
-#: src/pref/prefconstants.py:595
+#: src/pref/prefconstants.py:610
 msgid "Animate Debug Data Tooltips"
 msgstr ""
 
-#: src/pref/prefconstants.py:596
-msgid "Allowed Hosts"
-msgstr "Разрешенные узлы"
-
-#: src/pref/prefconstants.py:597
-msgid "Location Map"
-msgstr "Схема расположения файла"
-
-#: src/pref/prefconstants.py:598
+#: src/pref/prefconstants.py:611
 msgid "Common Attach Hosts"
 msgstr "Общие прикрепленные хосты"
 
-#: src/pref/prefconstants.py:603
+#: src/pref/prefconstants.py:612
+msgid "Allowed Hosts"
+msgstr "Разрешенные узлы"
+
+#: src/pref/prefconstants.py:613
+msgid "Location Map"
+msgstr "Схема расположения файла"
+
+#: src/pref/prefconstants.py:618
 msgid "Prompt to Update Remote Agent"
 msgstr "Запрос на обновление удаленного агента"
 
-#: src/pref/prefconstants.py:604
+#: src/pref/prefconstants.py:619
 msgid "SSH Executable"
 msgstr "SSH исполняемый файл"
 
-#: src/pref/prefconstants.py:605
+#: src/pref/prefconstants.py:620
 msgid "SSH Remote TCP/IP Port"
 msgstr "SSH Удаленный TCP/IP порт"
 
-#: src/pref/prefconstants.py:606
+#: src/pref/prefconstants.py:621
 msgid "SSH Timeout"
 msgstr "Тайм-аут SSH"
 
-#: src/pref/prefconstants.py:607
+#: src/pref/prefconstants.py:622
 msgid "Hung Connection Timeout"
 msgstr "Время ожидания соединения"
 
-#: src/pref/prefconstants.py:613
+#: src/pref/prefconstants.py:628
 msgid "Use HTTPS to wingware.com"
 msgstr ""
 
-#: src/pref/prefconstants.py:614
+#: src/pref/prefconstants.py:629
 msgid "HTTP Proxy Server"
 msgstr ""
 
-#: src/pref/prefconstants.py:618
+#: src/pref/prefconstants.py:633
 msgid "Search Path"
 msgstr "Путь поиска"
 
-#: src/pref/prefconstants.py:619
+#: src/pref/prefconstants.py:634
 msgid "Auto-Reload Scripts on Save"
 msgstr "Автоматическая перезагрузка скриптов при сохранении"
 
-#: src/pref/prefconstants.py:624
+#: src/pref/prefconstants.py:639
 msgid "Selection/Caret"
 msgstr "Выбор/курсор"
 
-#: src/pref/prefconstants.py:625
+#: src/pref/prefconstants.py:640
 msgid "Occurrences"
 msgstr "Экземпляры"
 
-#: src/pref/prefconstants.py:626
+#: src/pref/prefconstants.py:641
 msgid "Indentation"
 msgstr "Отступ"
 
-#: src/pref/prefconstants.py:627
+#: src/pref/prefconstants.py:642
 msgid "Line Wrapping"
 msgstr "Перенос строк"
 
-#: src/pref/prefconstants.py:628
+#: src/pref/prefconstants.py:643
 msgid "Clipboard"
 msgstr "Буфер обмена"
 
-#: src/pref/prefconstants.py:632
+#: src/pref/prefconstants.py:647
 msgid "Syntax Coloring"
 msgstr "Раскраска синтаксиса"
 
-#: src/pref/prefconstants.py:633
+#: src/pref/prefconstants.py:648
 #, fuzzy
 msgid "Brace Matching"
 msgstr "Подсветка Скобок"
 
-#: src/pref/prefconstants.py:636
+#: src/pref/prefconstants.py:651
 #, fuzzy
 msgid "Code Warnings"
 msgstr "Показать предупреждения данных"
 
-#: src/pref/prefconstants.py:638
+#: src/pref/prefconstants.py:653
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: src/pref/prefconstants.py:640
+#: src/pref/prefconstants.py:655
 msgid "Folding"
 msgstr "Свёртки"
 
-#: src/pref/prefconstants.py:642
+#: src/pref/prefconstants.py:657
 msgid "Auto-completion"
 msgstr "Авто-завершение"
 
-#: src/pref/prefconstants.py:644
+#: src/pref/prefconstants.py:659
 msgid "Auto-editing"
 msgstr "Авто-редактирование"
 
-#: src/pref/prefconstants.py:646
+#: src/pref/prefconstants.py:661
+msgid "Snippets"
+msgstr ""
+
+#: src/pref/prefconstants.py:663
 msgid "Diff/Merge"
 msgstr "Сравнения/Слияния"
 
-#: src/pref/prefconstants.py:649
+#: src/pref/prefconstants.py:666
+msgid "PEP 8"
+msgstr ""
+
+#: src/pref/prefconstants.py:667
 msgid "Printing"
 msgstr "Печать"
 
-#: src/pref/prefconstants.py:653 src/pref/prefconstants.py:715
+#: src/pref/prefconstants.py:671 src/pref/prefconstants.py:734
 msgid "Context Menu"
 msgstr "Контекстное меню"
 
-#: src/pref/prefconstants.py:658
+#: src/pref/prefconstants.py:676
 msgid "Layout"
 msgstr "Макет"
 
-#: src/pref/prefconstants.py:659
+#: src/pref/prefconstants.py:677
 msgid "Toolbar"
 msgstr "Панель инструментов"
 
-#: src/pref/prefconstants.py:660
+#: src/pref/prefconstants.py:678
 msgid "Fonts"
 msgstr "Шрифты"
 
-#: src/pref/prefconstants.py:661
+#: src/pref/prefconstants.py:679
 msgid "Keyboard"
 msgstr "Клавиатуры"
 
-#: src/pref/prefconstants.py:665
+#: src/pref/prefconstants.py:683
 msgid "Perspectives"
 msgstr "Перспективы"
 
-#: src/pref/prefconstants.py:669
+#: src/pref/prefconstants.py:687
 msgid "Other"
 msgstr "Другие"
 
-#: src/pref/prefconstants.py:676
+#: src/pref/prefconstants.py:694
 msgid "File Types"
 msgstr "Типы файлов"
 
-#: src/pref/prefconstants.py:677
+#: src/pref/prefconstants.py:695
 msgid "Reloading"
 msgstr "Перезагрузка"
 
-#: src/pref/prefconstants.py:681
+#: src/pref/prefconstants.py:699
 msgid "External Display"
 msgstr "Внешний дисплей"
 
-#: src/pref/prefconstants.py:686
+#: src/pref/prefconstants.py:704
 msgid "Processes"
 msgstr "Процессы"
 
-#: src/pref/prefconstants.py:688
+#: src/pref/prefconstants.py:706
 msgid "Exceptions"
 msgstr "Исключения"
 
-#: src/pref/prefconstants.py:689
+#: src/pref/prefconstants.py:707
 msgid "I/O"
 msgstr ""
 
-#: src/pref/prefconstants.py:692
+#: src/pref/prefconstants.py:710
 #, fuzzy
 msgid "Data Display"
 msgstr "Внешний дисплей"
 
-#: src/pref/prefconstants.py:693
+#: src/pref/prefconstants.py:711
 msgid "Data Filters"
 msgstr "Фильтры данных"
 
-#: src/pref/prefconstants.py:697
+#: src/pref/prefconstants.py:712
+#, fuzzy
+msgid "Introspection"
+msgstr "Самоанализ \"живой\" среды выполнения"
+
+#: src/pref/prefconstants.py:716
 msgid "Listening"
 msgstr "Tрансляция (Listening)"
 
-#: src/pref/prefconstants.py:701 src/pref/prefconstants.py:706
+#: src/pref/prefconstants.py:720 src/pref/prefconstants.py:725
 msgid "Diagnostics"
 msgstr "Диагностика"
 
-#: src/pref/prefconstants.py:711
+#: src/pref/prefconstants.py:730
 msgid "User Interface"
 msgstr "Пользовательский интерфейс"
 
-#: src/pref/prefconstants.py:718
+#: src/pref/prefconstants.py:737
 msgid "Projects"
 msgstr "Проекты"
 
-#: src/pref/prefconstants.py:721
+#: src/pref/prefconstants.py:740
 msgid "Files"
 msgstr "Файлы"
 
-#: src/pref/prefconstants.py:722
+#: src/pref/prefconstants.py:741
 msgid "Editor"
 msgstr "Редактор"
 
-#: src/pref/prefconstants.py:723
+#: src/pref/prefconstants.py:742
 msgid "Debugger"
 msgstr "Отладчик"
 
-#: src/pref/prefconstants.py:726
+#: src/pref/prefconstants.py:745
 msgid "Source Analysis"
 msgstr "Анализ источников"
 
-#: src/pref/prefconstants.py:730
+#: src/pref/prefconstants.py:749
 msgid "Enable built-in version control"
 msgstr "Включить встроенное управление версиями"
 
-#: src/pref/prefconstants.py:731
+#: src/pref/prefconstants.py:750
 msgid "Save files without prompting"
 msgstr "Сохранение файлов без запроса"
 
-#: src/pref/prefconstants.py:732
+#: src/pref/prefconstants.py:751
 msgid "Track changes made in project tool"
 msgstr "Отслеживание изменений, внесенных в project tool"
 
-#: src/pref/prefconstants.py:733
+#: src/pref/prefconstants.py:752
 msgid "Automatically refresh status"
 msgstr "Автоматическое обновление состояния проекта"
 
-#: src/pref/prefconstants.py:734
+#: src/pref/prefconstants.py:753
 msgid "Enable diagnostic logging"
 msgstr "Включить ведение журнала диагностики"
 
-#: src/pref/prefconstants.py:739
+#: src/pref/prefconstants.py:758
 msgid "Version Control"
 msgstr "Контроль версий"
 
-#: src/pref/prefconstants.py:744
+#: src/pref/prefconstants.py:763
 msgid "IDE Extension Scripting"
 msgstr "Сценарии расширения IDE"
 
-#: src/pref/prefconstants.py:747
+#: src/pref/prefconstants.py:766
 msgid "Network"
 msgstr "Сеть"
 

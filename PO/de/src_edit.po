@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_edit\n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2016-12-19 08:58+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
@@ -169,43 +169,43 @@ msgstr ""
 msgid "Options to use when adding selections"
 msgstr "Optionen die beim Hinzufügen von Auswahl benutzt werden"
 
-#: src/edit/cap_autocomplete.py:1953
+#: src/edit/cap_autocomplete.py:1968
 msgid "(symbol)"
 msgstr "(Symbol)"
 
-#: src/edit/cap_autocomplete.py:1964
+#: src/edit/cap_autocomplete.py:1979
 msgid "(snippet)"
 msgstr "(Schnipsel)"
 
-#: src/edit/cap_autocomplete.py:4017
+#: src/edit/cap_autocomplete.py:4026
 msgid "_Sort Alphabetically"
 msgstr "Alphabetisch _sortieren"
 
-#: src/edit/cap_autocomplete.py:4019
+#: src/edit/cap_autocomplete.py:4028
 msgid "Sort items alphabetically rather than in the order found in the file"
 msgstr "Einträge alphabetisch sortieren statt des Reihenfolge in der Datei"
 
-#: src/edit/cap_autocomplete.py:4021
+#: src/edit/cap_autocomplete.py:4030
 msgid "Include _Args in Search"
 msgstr ""
 
-#: src/edit/cap_autocomplete.py:4023
+#: src/edit/cap_autocomplete.py:4032
 msgid "Include the text of function arguments in the text on which to search"
 msgstr ""
 
-#: src/edit/cap_autoeditor.py:1474
+#: src/edit/cap_autoeditor.py:1497
 msgid "Press : again to indent following block instead"
 msgstr "Nochmal : drücken um statt dessen den folgenden Block einzurücken"
 
-#: src/edit/cap_autoeditor.py:1522
+#: src/edit/cap_autoeditor.py:1545
 msgid "Press : again to select another possible indent"
 msgstr "Nochmal : drücken um andere mögliche Einrückung auszuwählen"
 
-#: src/edit/cap_autoeditor.py:1539
+#: src/edit/cap_autoeditor.py:1562
 msgid "Press : again to indent following line"
 msgstr "Nochmal : drücken um die folgende Zeile einzurücken"
 
-#: src/edit/cap_autoeditor.py:2419
+#: src/edit/cap_autoeditor.py:2442
 msgid "Entering Invocation: Tab key moves between arguments"
 msgstr ""
 
@@ -247,9 +247,9 @@ msgstr ""
 msgid "Remove Bookmark"
 msgstr "Alle Lesezeichen entfernen"
 
-#: src/edit/cap_bookmarks.py:157 src/edit/cap_snippets.py:1175
-#: src/edit/cap_snippets.py:1286 src/edit/cap_snippets.py:1295
-#: src/edit/cap_snippets.py:1454
+#: src/edit/cap_bookmarks.py:157 src/edit/cap_snippets.py:1202
+#: src/edit/cap_snippets.py:1321 src/edit/cap_snippets.py:1330
+#: src/edit/cap_snippets.py:1489
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -258,302 +258,302 @@ msgstr "Abbrechen"
 msgid "Don't ask me again"
 msgstr "Nach dieser _Datei nicht mehr fragen"
 
-#: src/edit/cap_bookmarks.py:592 src/edit/cap_bookmarks.py:636
-#: src/edit/cap_bookmarks.py:1780
+#: src/edit/cap_bookmarks.py:592 src/edit/cap_bookmarks.py:635
+#: src/edit/cap_bookmarks.py:1777
 msgid "Filter:"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:596 src/edit/cap_bookmarks.py:646
-#: src/edit/cap_bookmarks.py:1899
+#: src/edit/cap_bookmarks.py:596 src/edit/cap_bookmarks.py:645
+#: src/edit/cap_bookmarks.py:1896
 msgid "All Categories"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:607 src/edit/cap_bookmarks.py:669
-#: src/edit/cap_bookmarks.py:1911
+#: src/edit/cap_bookmarks.py:606 src/edit/cap_bookmarks.py:666
+#: src/edit/cap_bookmarks.py:1907
 #, fuzzy
 msgid "Edit Categories..."
 msgstr "%s _bearbeiten..."
 
-#: src/edit/cap_bookmarks.py:619 src/edit/cap_bookmarks.py:681
+#: src/edit/cap_bookmarks.py:618 src/edit/cap_bookmarks.py:678
 #, fuzzy
 msgid "Remove 1 Visible Bookmark in this File"
 msgstr "Alle Lesezeichen entfernen"
 
-#: src/edit/cap_bookmarks.py:621 src/edit/cap_bookmarks.py:683
+#: src/edit/cap_bookmarks.py:620 src/edit/cap_bookmarks.py:680
 #, fuzzy
 msgid "Remove %i Visible Bookmarks in this File"
 msgstr "Alle Lesezeichen entfernen"
 
-#: src/edit/cap_bookmarks.py:627 src/edit/cap_bookmarks.py:691
+#: src/edit/cap_bookmarks.py:626 src/edit/cap_bookmarks.py:688
 #, fuzzy
 msgid "Remove All Bookmarks in this File"
 msgstr "Alle Lesezeichen entfernen"
 
-#: src/edit/cap_bookmarks.py:695
+#: src/edit/cap_bookmarks.py:692
 #, fuzzy
 msgid "Match Fragment"
 msgstr "E_inrückung anpassen"
 
-#: src/edit/cap_bookmarks.py:998 src/edit/cap_bookmarks.py:2031
+#: src/edit/cap_bookmarks.py:995 src/edit/cap_bookmarks.py:2027
 msgid "Bookmarks"
 msgstr "Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:1003 src/edit/cap_bookmarks.py:1746
+#: src/edit/cap_bookmarks.py:1000 src/edit/cap_bookmarks.py:1743
 msgid "Bookmark Manager"
 msgstr "Lesezeichen-Manager"
 
-#: src/edit/cap_bookmarks.py:1036
+#: src/edit/cap_bookmarks.py:1033
 msgid "Create a new bookmark category"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1039
+#: src/edit/cap_bookmarks.py:1036
 msgid "Edit the selected bookmark category"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1042
+#: src/edit/cap_bookmarks.py:1039
 msgid "Delete the selected bookmark category"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1045
+#: src/edit/cap_bookmarks.py:1042
 #, fuzzy
 msgid "New"
 msgstr "_Neu..."
 
-#: src/edit/cap_bookmarks.py:1046 src/edit/cap_oscommands.py:1822
+#: src/edit/cap_bookmarks.py:1043 src/edit/cap_oscommands.py:1822
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: src/edit/cap_bookmarks.py:1047 src/edit/cap_oscommands.py:1823
+#: src/edit/cap_bookmarks.py:1044 src/edit/cap_oscommands.py:1823
 msgid "Delete"
 msgstr "Löschen"
 
-#: src/edit/cap_bookmarks.py:1048
+#: src/edit/cap_bookmarks.py:1045
 msgid "Export"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1049
+#: src/edit/cap_bookmarks.py:1046
 msgid "Import"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1070
+#: src/edit/cap_bookmarks.py:1067
 msgid "_Show Docs..."
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1074
+#: src/edit/cap_bookmarks.py:1071
 #, fuzzy
 msgid "_Close"
 msgstr "Schließen"
 
-#: src/edit/cap_bookmarks.py:1077
+#: src/edit/cap_bookmarks.py:1074
 msgid "ID"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1077 src/edit/cap_oscommands.py:391
+#: src/edit/cap_bookmarks.py:1074 src/edit/cap_oscommands.py:391
 msgid "Title"
 msgstr "Titel"
 
-#: src/edit/cap_bookmarks.py:1077 src/edit/cap_oscommands.py:443
+#: src/edit/cap_bookmarks.py:1074 src/edit/cap_oscommands.py:443
 #: src/edit/cap_oscommands.py:2320
 msgid "Shared"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1128
+#: src/edit/cap_bookmarks.py:1125
 msgid "Manage Bookmark Categories"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1228
+#: src/edit/cap_bookmarks.py:1225
 #, fuzzy
 msgid "Untitled"
 msgstr "Titel"
 
-#: src/edit/cap_bookmarks.py:1293
+#: src/edit/cap_bookmarks.py:1290
 msgid "Cannot delete this category because it is used by %i bookmarks."
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1293
+#: src/edit/cap_bookmarks.py:1290
 #, fuzzy
 msgid "Could Not Delete"
 msgstr "Gewähltes Symbol konnte nicht gefunden werden"
 
-#: src/edit/cap_bookmarks.py:1331 src/edit/cap_snippets.py:1415
+#: src/edit/cap_bookmarks.py:1328 src/edit/cap_snippets.py:1450
 msgid "OK"
 msgstr "OK"
 
-#: src/edit/cap_bookmarks.py:1363 src/edit/cap_oscommands.py:2906
+#: src/edit/cap_bookmarks.py:1360 src/edit/cap_oscommands.py:2906
 msgid "_New..."
 msgstr "_Neu..."
 
-#: src/edit/cap_bookmarks.py:1364
+#: src/edit/cap_bookmarks.py:1361
 #, fuzzy
 msgid "_Edit..."
 msgstr "Bearbeiten"
 
-#: src/edit/cap_bookmarks.py:1365
+#: src/edit/cap_bookmarks.py:1362
 #, fuzzy
 msgid "_Delete..."
 msgstr "Löschen"
 
-#: src/edit/cap_bookmarks.py:1367
+#: src/edit/cap_bookmarks.py:1364
 msgid "Export Categories..."
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1368
+#: src/edit/cap_bookmarks.py:1365
 msgid "Import Categories..."
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1379
+#: src/edit/cap_bookmarks.py:1376
 #, fuzzy
 msgid "Bookmark: %s"
 msgstr "Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:1437
+#: src/edit/cap_bookmarks.py:1434 src/edit/utils.py:909
 #, fuzzy
 msgid "Bookmark"
 msgstr "Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:1451 src/edit/cap_bookmarks.py:1808
-#: src/edit/cap_snippets.py:1034
+#: src/edit/cap_bookmarks.py:1448 src/edit/cap_bookmarks.py:1805
+#: src/edit/cap_snippets.py:1045
 msgid "Name"
 msgstr "Name"
 
-#: src/edit/cap_bookmarks.py:1452
+#: src/edit/cap_bookmarks.py:1449
 #, fuzzy
 msgid "The bookmark's name"
 msgstr "Lesezeichen-Manager"
 
-#: src/edit/cap_bookmarks.py:1457 src/edit/cap_bookmarks.py:1808
+#: src/edit/cap_bookmarks.py:1454 src/edit/cap_bookmarks.py:1805
 msgid "Category"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1458
+#: src/edit/cap_bookmarks.py:1455
 msgid "The bookmark's category, if any"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1463
+#: src/edit/cap_bookmarks.py:1460
 msgid "Notes"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1464
+#: src/edit/cap_bookmarks.py:1461
 msgid "Notes for this bookmark"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1534
+#: src/edit/cap_bookmarks.py:1531
 msgid "Bookmark must have a non-empty name"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1537
+#: src/edit/cap_bookmarks.py:1534
 msgid "Invalid Bookmark Data"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1604
+#: src/edit/cap_bookmarks.py:1601
 msgid "The location to export the bookmarks"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1609
+#: src/edit/cap_bookmarks.py:1606
 #, fuzzy
 msgid "Export File:"
 msgstr "Gehe zu Datei"
 
-#: src/edit/cap_bookmarks.py:1639
+#: src/edit/cap_bookmarks.py:1636
 msgid "The exported bookmarks to read"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1644
+#: src/edit/cap_bookmarks.py:1641
 #, fuzzy
 msgid "Import File:"
 msgstr "Gehe zu Datei"
 
-#: src/edit/cap_bookmarks.py:1678
+#: src/edit/cap_bookmarks.py:1675
 #, fuzzy
 msgid "Goto Bookmark"
 msgstr "Gehe zum ausgewählten Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:1680
+#: src/edit/cap_bookmarks.py:1677
 #, fuzzy
 msgid "Edit Bookmark"
 msgstr "Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:1682
+#: src/edit/cap_bookmarks.py:1679
 #, fuzzy
 msgid "Delete Bookmark"
 msgstr "Gehe zum ausgewählten Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:1685
+#: src/edit/cap_bookmarks.py:1682
 #, fuzzy
 msgid "Export Visible Bookmarks"
 msgstr "Lesezeichen umschalten"
 
-#: src/edit/cap_bookmarks.py:1687
+#: src/edit/cap_bookmarks.py:1684
 #, fuzzy
 msgid "Import Bookmarks"
 msgstr "Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:1800 src/edit/cap_oscommands.py:2292
+#: src/edit/cap_bookmarks.py:1797 src/edit/cap_oscommands.py:2292
 msgid "_Options"
 msgstr "_Optionen"
 
-#: src/edit/cap_bookmarks.py:1808
+#: src/edit/cap_bookmarks.py:1805
 msgid "Scope"
 msgstr "Bereich"
 
-#: src/edit/cap_bookmarks.py:1808 src/edit/cap_sassist.py:74
+#: src/edit/cap_bookmarks.py:1805 src/edit/cap_sassist.py:77
 msgid "File"
 msgstr "Datei"
 
-#: src/edit/cap_bookmarks.py:1808 src/edit/editor.py:10406
+#: src/edit/cap_bookmarks.py:1805 src/edit/editor.py:10760
 msgid "Line"
 msgstr "Zeile"
 
-#: src/edit/cap_bookmarks.py:1900
+#: src/edit/cap_bookmarks.py:1897
 #, fuzzy
 msgid "Match Fragment:"
 msgstr "E_inrückung anpassen"
 
-#: src/edit/cap_bookmarks.py:1977
+#: src/edit/cap_bookmarks.py:1973
 msgid "undefined"
 msgstr "nicht definiert"
 
-#: src/edit/cap_bookmarks.py:1982 src/edit/cap_bookmarks.py:1983
+#: src/edit/cap_bookmarks.py:1978 src/edit/cap_bookmarks.py:1979
 msgid "n/a"
 msgstr "entf."
 
-#: src/edit/cap_bookmarks.py:2047
+#: src/edit/cap_bookmarks.py:2043
 msgid "Goto Selected Bookmark"
 msgstr "Gehe zum ausgewählten Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:2049
+#: src/edit/cap_bookmarks.py:2045
 #, fuzzy
 msgid "Edit Selected Bookmark..."
 msgstr "Gehe zum ausgewählten Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:2050
+#: src/edit/cap_bookmarks.py:2046
 msgid "Remove Selected Bookmark"
 msgstr "Ausgewähltes Lesezeichen entfernen"
 
-#: src/edit/cap_bookmarks.py:2051
+#: src/edit/cap_bookmarks.py:2047
 msgid "Remove All Bookmarks"
 msgstr "Alle Lesezeichen entfernen"
 
-#: src/edit/cap_bookmarks.py:2053
+#: src/edit/cap_bookmarks.py:2049
 #, fuzzy
 msgid "Export Selected Bookmarks..."
 msgstr "Gehe zum ausgewählten Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:2054
+#: src/edit/cap_bookmarks.py:2050
 msgid "Export Visible Bookmarks..."
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:2056
+#: src/edit/cap_bookmarks.py:2052
 #, fuzzy
 msgid "Import Bookmarks..."
 msgstr "Lesezeichen"
 
-#: src/edit/cap_bookmarks.py:2058
+#: src/edit/cap_bookmarks.py:2054
 #, fuzzy
 msgid "Confirm Bookmark Deletion"
 msgstr "Dokumentation der Lesezeichen anzeigen"
 
-#: src/edit/cap_bookmarks.py:2061
+#: src/edit/cap_bookmarks.py:2057
 msgid "Show Bookmarking Documentation"
 msgstr "Dokumentation der Lesezeichen anzeigen"
 
@@ -600,7 +600,7 @@ msgid "_Match File (%s)"
 msgstr "_Übereinstimmen in Datei (%s)"
 
 #: src/edit/cap_indentmgr.py:289 src/edit/cap_oscommands.py:2280
-#: src/edit/cap_snippets.py:1534
+#: src/edit/cap_snippets.py:1577
 msgid "_Cancel"
 msgstr "_Abbrechen"
 
@@ -655,23 +655,23 @@ msgstr "Wing kann diese Datei konvertieren."
 msgid "Wing will place one tab per indentation level found in the file."
 msgstr "Wing wird in dieser Datei einen Tab pro Einrückungsebene setzen."
 
-#: src/edit/cap_indentmgr.py:741
+#: src/edit/cap_indentmgr.py:744
 msgid "_Convert..."
 msgstr "_Umwandeln..."
 
-#: src/edit/cap_indentmgr.py:742 src/edit/editor.py:9445
+#: src/edit/cap_indentmgr.py:745 src/edit/editor.py:9799
 msgid "Do_n't Convert"
 msgstr "_Nicht umwandeln"
 
-#: src/edit/cap_indentmgr.py:743 src/edit/editor.py:9446
+#: src/edit/cap_indentmgr.py:746 src/edit/editor.py:9800
 msgid "_Don't ask about this file again"
 msgstr "Nach dieser _Datei nicht mehr fragen"
 
-#: src/edit/cap_indentmgr.py:754
+#: src/edit/cap_indentmgr.py:757
 msgid "Suspicious Indentation in File"
 msgstr "Verdächtige Einrückung in der Datei"
 
-#: src/edit/cap_indentmgr.py:756
+#: src/edit/cap_indentmgr.py:759
 msgid ""
 "The file %s contains indentation with %s.  It may appear incorrectly in some "
 "editors and may contain unexpected errors in block structure. Total indents "
@@ -684,15 +684,15 @@ msgstr ""
 "Einrückungswerkzeug kann die Datei in einen anderen Einrückungsstil "
 "konvertiert werden."
 
-#: src/edit/cap_indentmgr.py:765
+#: src/edit/cap_indentmgr.py:768
 msgid "Ne_ver ask for any file"
 msgstr "_Niemals für eine Datei fragen"
 
-#: src/edit/cap_indentmgr.py:796
+#: src/edit/cap_indentmgr.py:799
 msgid "Indentation Policy Violation"
 msgstr "Richtlinie für Einrückungen verletzt"
 
-#: src/edit/cap_indentmgr.py:798
+#: src/edit/cap_indentmgr.py:801
 msgid ""
 "The file %s contains indentation with %s and you have configured your "
 "project to require %s indents.  Total indents = %s.  If you wish, you can "
@@ -702,47 +702,47 @@ msgstr ""
 "Projektes ist. %s.  Gesamteinrückungen = %s. Sie können diese Datei "
 "reparieren, indem Sie sie mit dem Einrückungsmanager umwandeln."
 
-#: src/edit/cap_indentmgr.py:828
+#: src/edit/cap_indentmgr.py:831
 msgid "tabs and spaces"
 msgstr "Tabs und Leerzeichen"
 
-#: src/edit/cap_indentmgr.py:830
+#: src/edit/cap_indentmgr.py:833
 msgid "spaces only"
 msgstr "Nur Leerzeichen"
 
-#: src/edit/cap_indentmgr.py:832
+#: src/edit/cap_indentmgr.py:835
 msgid "tabs only"
 msgstr "Nur Tabs"
 
-#: src/edit/cap_indentmgr.py:834
+#: src/edit/cap_indentmgr.py:837
 msgid "no indents"
 msgstr "Keine Einrückungen"
 
-#: src/edit/cap_indentmgr.py:840
+#: src/edit/cap_indentmgr.py:843
 msgid " (with indent errors)"
 msgstr " (mit Fehlern bei der Einrückung)"
 
-#: src/edit/cap_indentmgr.py:842
+#: src/edit/cap_indentmgr.py:845
 msgid " (with indent warnings)"
 msgstr " (mit Warnungen bei der Einrückung)"
 
-#: src/edit/cap_indentmgr.py:934 src/edit/prefs.py:1043
+#: src/edit/cap_indentmgr.py:937 src/edit/prefs.py:1090
 msgid "Indentation"
 msgstr "Einrückung"
 
-#: src/edit/cap_indentmgr.py:939
+#: src/edit/cap_indentmgr.py:942
 msgid "Source Code Indent Analysis and Conversion"
 msgstr "Einrückungsanalyse und -umwandlung des Source-Codes"
 
-#: src/edit/cap_indentmgr.py:963 src/edit/editor.py:9444
+#: src/edit/cap_indentmgr.py:966 src/edit/editor.py:9798
 msgid "_Convert"
 msgstr "_Umwandeln"
 
-#: src/edit/cap_indentmgr.py:991 src/edit/cap_indentmgr.py:1038
+#: src/edit/cap_indentmgr.py:994 src/edit/cap_indentmgr.py:1041
 msgid "None.\n"
 msgstr "Keine.\n"
 
-#: src/edit/cap_indentmgr.py:992 src/edit/cap_indentmgr.py:1039
+#: src/edit/cap_indentmgr.py:995 src/edit/cap_indentmgr.py:1042
 msgid ""
 "Availability:\n"
 "\n"
@@ -750,7 +750,7 @@ msgstr ""
 "Verfügbarkeit:\n"
 "\n"
 
-#: src/edit/cap_indentmgr.py:994 src/edit/cap_indentmgr.py:1041
+#: src/edit/cap_indentmgr.py:997 src/edit/cap_indentmgr.py:1044
 msgid ""
 "Action:\n"
 "\n"
@@ -758,63 +758,63 @@ msgstr ""
 "Aktion:\n"
 "\n"
 
-#: src/edit/cap_indentmgr.py:1073
+#: src/edit/cap_indentmgr.py:1076
 msgid "Convert"
 msgstr "Umwandeln"
 
-#: src/edit/cap_indentmgr.py:1155
+#: src/edit/cap_indentmgr.py:1158
 msgid "File:"
 msgstr "Datei:"
 
-#: src/edit/cap_indentmgr.py:1163
+#: src/edit/cap_indentmgr.py:1166
 msgid "Status:"
 msgstr "Status:"
 
-#: src/edit/cap_indentmgr.py:1177
+#: src/edit/cap_indentmgr.py:1180
 msgid "Counts:"
 msgstr "Anzahl:"
 
-#: src/edit/cap_indentmgr.py:1187 src/edit/cap_indentmgr.py:1200
+#: src/edit/cap_indentmgr.py:1190 src/edit/cap_indentmgr.py:1203
 msgid "(from existing contents)"
 msgstr "(aus bestehenden Inhalten)"
 
-#: src/edit/cap_indentmgr.py:1193
+#: src/edit/cap_indentmgr.py:1196
 msgid "T_ab size:"
 msgstr "T_abgröße:"
 
-#: src/edit/cap_indentmgr.py:1206
+#: src/edit/cap_indentmgr.py:1209
 msgid "_Indent size:"
 msgstr "_Einrückungsgröße:"
 
-#: src/edit/cap_indentmgr.py:1211
+#: src/edit/cap_indentmgr.py:1214
 msgid "Conversions:"
 msgstr "Umwandlungen:"
 
-#: src/edit/cap_indentmgr.py:1220
+#: src/edit/cap_indentmgr.py:1223
 msgid "_Spaces Only"
 msgstr "Nur _Leerzeichen"
 
-#: src/edit/cap_indentmgr.py:1222
+#: src/edit/cap_indentmgr.py:1225
 msgid "_Tabs Only"
 msgstr "Nur _Tabs"
 
-#: src/edit/cap_indentmgr.py:1224
+#: src/edit/cap_indentmgr.py:1227
 msgid "_Mixed Tabs & Spaces"
 msgstr "_Gemischte Tabs & Leerzeichen"
 
-#: src/edit/cap_indentmgr.py:1297
+#: src/edit/cap_indentmgr.py:1300
 msgid "(user-entered value)"
 msgstr "(vom Nutzer eingegebener Wert)"
 
-#: src/edit/cap_indentmgr.py:1299 src/edit/cap_indentmgr.py:1303
+#: src/edit/cap_indentmgr.py:1302 src/edit/cap_indentmgr.py:1306
 msgid "(from file contents)"
 msgstr "(aus Dateiinhalten)"
 
-#: src/edit/cap_indentmgr.py:1301 src/edit/cap_indentmgr.py:1305
+#: src/edit/cap_indentmgr.py:1304 src/edit/cap_indentmgr.py:1308
 msgid "(from preferences)"
 msgstr "(aus den Einstellungen)"
 
-#: src/edit/cap_indentmgr.py:1328
+#: src/edit/cap_indentmgr.py:1331
 msgid "<i>No active source editor</i>"
 msgstr "<i>Kein aktiver Source-Editor</i>"
 
@@ -875,8 +875,8 @@ msgstr "Datei-Eige_nschaften..."
 msgid "Build Command: %s"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:380 src/edit/prefs.py:234 src/edit/prefs.py:241
-#: src/edit/prefs.py:248 src/edit/prefs.py:699
+#: src/edit/cap_oscommands.py:380 src/edit/prefs.py:264 src/edit/prefs.py:271
+#: src/edit/prefs.py:278 src/edit/prefs.py:729
 msgid "Use Default"
 msgstr "Standard verwenden"
 
@@ -885,7 +885,8 @@ msgid "Enter a title for the command if a non-default title is desired."
 msgstr ""
 
 #: src/edit/cap_oscommands.py:397
-msgid "Use pseudo-tty"
+#, fuzzy
+msgid "Use Pseudo-TTY"
 msgstr "Pseudo-TTY benutzen"
 
 #: src/edit/cap_oscommands.py:398
@@ -895,7 +896,8 @@ msgid ""
 msgstr ""
 
 #: src/edit/cap_oscommands.py:404
-msgid "Line mode"
+#, fuzzy
+msgid "Line Mode"
 msgstr "Zeilenmodus"
 
 #: src/edit/cap_oscommands.py:405
@@ -909,7 +911,8 @@ msgid ""
 msgstr ""
 
 #: src/edit/cap_oscommands.py:416
-msgid "Auto-save files before execution"
+#, fuzzy
+msgid "Auto-save Files Before Execution"
 msgstr "Vor dem Ausführen automatisch speichern"
 
 #: src/edit/cap_oscommands.py:417
@@ -918,8 +921,8 @@ msgid ""
 "command."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:423 src/edit/cap_snippets.py:822
-#: src/edit/cap_snippets.py:1034
+#: src/edit/cap_oscommands.py:423 src/edit/cap_snippets.py:828
+#: src/edit/cap_snippets.py:1045
 msgid "Key Binding"
 msgstr "Tastenzuordnung"
 
@@ -928,7 +931,7 @@ msgid "Press the desired key sequence to bind to this command."
 msgstr ""
 
 #: src/edit/cap_oscommands.py:429
-msgid "Raise OS Commands when executed"
+msgid "Raise OS Commands When Executed"
 msgstr ""
 
 #: src/edit/cap_oscommands.py:430
@@ -1184,7 +1187,7 @@ msgstr "Sind Sie sicher, dass Sie den Befehl '%s löschen wollen?"
 msgid "_Delete Command"
 msgstr "Kommando _entfernen"
 
-#: src/edit/cap_oscommands.py:2320 src/edit/prefs.py:1058
+#: src/edit/cap_oscommands.py:2320 src/edit/prefs.py:1105
 msgid "Command"
 msgstr "Kommando"
 
@@ -1293,8 +1296,8 @@ msgstr "Neu: Benannter Einsprungspunkt..."
 msgid "C_opy"
 msgstr "_Kopieren"
 
-#: src/edit/cap_oscommands.py:3013 src/edit/editor.py:9712
-#: src/edit/editor.py:12866
+#: src/edit/cap_oscommands.py:3013 src/edit/editor.py:10066
+#: src/edit/editor.py:13248
 msgid "_Paste"
 msgstr "_Einfügen"
 
@@ -1326,223 +1329,247 @@ msgstr "Betriebssystem Befehle"
 msgid "Operating System Commands"
 msgstr "Betriebssystem Befehle"
 
-#: src/edit/cap_sassist.py:73
+#: src/edit/cap_sassist.py:76
 msgid "Symbol"
 msgstr "Symbol"
 
-#: src/edit/cap_sassist.py:75
+#: src/edit/cap_sassist.py:78
 msgid "Invoking"
 msgstr "Aufrufen"
 
-#: src/edit/cap_sassist.py:76
+#: src/edit/cap_sassist.py:79
 msgid "Python Keyword"
 msgstr "Python-Schlüsselwort"
 
-#: src/edit/cap_sassist.py:77
+#: src/edit/cap_sassist.py:80
 msgid "Completion"
 msgstr "Beendigung"
 
-#: src/edit/cap_sassist.py:78
+#: src/edit/cap_sassist.py:81
 msgid "Defining"
 msgstr "Definieren"
 
-#: src/edit/cap_sassist.py:81
+#: src/edit/cap_sassist.py:84
 msgid "Not Python code"
 msgstr "Kein Python-Code"
 
-#: src/edit/cap_sassist.py:82
+#: src/edit/cap_sassist.py:85
 msgid "No selected file"
 msgstr "Keine Datei ausgewählt"
 
-#: src/edit/cap_sassist.py:83
+#: src/edit/cap_sassist.py:86
 msgid "No selected value"
 msgstr "Kein Wert ausgewählt"
 
-#: src/edit/cap_sassist.py:84
+#: src/edit/cap_sassist.py:87
 msgid "No symbol at cursor"
 msgstr "Kein Symbol am Cursor"
 
-#: src/edit/cap_sassist.py:85
+#: src/edit/cap_sassist.py:88
 msgid "Introspection disabled"
 msgstr ""
 
-#: src/edit/cap_sassist.py:86
+#: src/edit/cap_sassist.py:89
 msgid "Invalid source code"
 msgstr "Ungültiger Source-Code"
 
-#: src/edit/cap_sassist.py:87
+#: src/edit/cap_sassist.py:90
 msgid "Cannot determine type"
 msgstr "Typ konnte nicht ermittelt werden"
 
-#: src/edit/cap_sassist.py:90
+#: src/edit/cap_sassist.py:93
 msgid "Likely type"
 msgstr "Wahrscheinliche Art"
 
-#: src/edit/cap_sassist.py:91
+#: src/edit/cap_sassist.py:94
 msgid "Type"
 msgstr "Typ"
 
-#: src/edit/cap_sassist.py:92
+#: src/edit/cap_sassist.py:95
 msgid "Runtime type"
 msgstr "Laufzeitart"
 
-#: src/edit/cap_sassist.py:307
-msgid "<i>Returns:</i> %s"
-msgstr "<i>Rückgabe:</i> %s"
-
-#: src/edit/cap_sassist.py:309
-msgid " <i>or</i> %s"
+#: src/edit/cap_sassist.py:327
+#, fuzzy
+msgid " <i>or</i> "
 msgstr " <i>oder</i> %s"
 
 #: src/edit/cap_sassist.py:327
+msgid "<i>Returns:</i> %s"
+msgstr "<i>Rückgabe:</i> %s"
+
+#: src/edit/cap_sassist.py:344
 msgid "Go to %s, line %s"
 msgstr "Gehe zu %s, Zeile %s"
 
-#: src/edit/cap_sassist.py:449
+#: src/edit/cap_sassist.py:466
 msgid "Source Assistant"
 msgstr "Source-Assistent"
 
-#: src/edit/cap_sassist.py:454
+#: src/edit/cap_sassist.py:471
 msgid "Source Symbol Point of Definition Information"
 msgstr "Informationen des Definitionspunktes des Source-Symbols"
 
-#: src/edit/cap_sassist.py:1803
+#: src/edit/cap_sassist.py:1890
 msgid "✔ PEP287"
 msgstr "✔ PEP287"
 
-#: src/edit/cap_sassist.py:1805
+#: src/edit/cap_sassist.py:1892
 msgid "✖ PEP287"
 msgstr "✖ PEP287"
 
-#: src/edit/cap_sassist.py:1821
+#: src/edit/cap_sassist.py:1908
 #, fuzzy
 msgid "Rewrapped"
 msgstr "Wrapped "
 
-#: src/edit/cap_sassist.py:1823
+#: src/edit/cap_sassist.py:1910
 msgid "Plain Text"
 msgstr "Normaler Text"
 
-#: src/edit/cap_sassist.py:2039
+#: src/edit/cap_sassist.py:2144
 msgid "a {}{} instance"
 msgstr ""
 
-#: src/edit/cap_sassist.py:2119
+#: src/edit/cap_sassist.py:2225
 msgid " of "
 msgstr ""
 
-#: src/edit/cap_sassist.py:2127
+#: src/edit/cap_sassist.py:2233
 msgid " attribute"
 msgstr ""
 
-#: src/edit/cap_sassist.py:2662
+#: src/edit/cap_sassist.py:2767
 msgid "Copy Text to Clipboard"
 msgstr "Text in die Zwischenablage kopieren"
 
-#: src/edit/cap_sassist.py:2663
+#: src/edit/cap_sassist.py:2768
 msgid "Copy HTML to Clipboard"
 msgstr "HTML in die Zwischenablage kopieren"
 
-#: src/edit/cap_sassist.py:2669
+#: src/edit/cap_sassist.py:2774
 msgid "Use PEP 287 for docstrings"
 msgstr "PEP 287 für docstrings benutzen"
 
-#: src/edit/cap_sassist.py:2676
+#: src/edit/cap_sassist.py:2781
 msgid "Show PEP 287 parse errors"
 msgstr "PEP 287 Fehler anzeigen"
 
-#: src/edit/cap_sassist.py:2688
+#: src/edit/cap_sassist.py:2793
 #, fuzzy
 msgid "PEP 287 parse error threshold"
 msgstr "PEP 287 Fehler anzeigen"
 
-#: src/edit/cap_sassist.py:2697
+#: src/edit/cap_sassist.py:2802
 msgid "Rewrap plain text docstrings"
 msgstr ""
 
-#: src/edit/cap_sassist.py:2706
+#: src/edit/cap_sassist.py:2811
 msgid "Always show docstrings"
 msgstr "Docstrings immer anzeigen"
 
-#: src/edit/cap_sassist.py:2713
+#: src/edit/cap_sassist.py:2818
 msgid "Show docstring type and validity"
 msgstr "Docstring Typ und Gültigkeit anzeigen"
 
-#: src/edit/cap_sassist.py:2727
+#: src/edit/cap_sassist.py:2832
 msgid "Smaller Font"
 msgstr "Kleinere Schriftart"
 
-#: src/edit/cap_sassist.py:2728
+#: src/edit/cap_sassist.py:2833
 msgid "Larger Font"
 msgstr "Größere Schriftart"
 
-#: src/edit/cap_sassist.py:2733
+#: src/edit/cap_sassist.py:2838
 msgid "Show Source Assistant Documentation"
 msgstr "Dokumentation des Source-Assistenten anzeigen"
 
-#: src/edit/cap_snippets.py:544 src/edit/cap_snippets.py:1758
+#: src/edit/cap_snippets.py:550 src/edit/cap_snippets.py:1809
 msgid "No Active Editor"
 msgstr "Kein aktiver Editor"
 
-#: src/edit/cap_snippets.py:545 src/edit/cap_snippets.py:1759
+#: src/edit/cap_snippets.py:551 src/edit/cap_snippets.py:1810
 msgid "Could not paste the selected snippet because there is no active editor"
 msgstr ""
 
-#: src/edit/cap_snippets.py:689 src/edit/cap_snippets.py:1688
+#: src/edit/cap_snippets.py:695 src/edit/cap_snippets.py:1739
 msgid "Snippets"
 msgstr "Schnipsel"
 
-#: src/edit/cap_snippets.py:694 src/edit/cap_snippets.py:956
+#: src/edit/cap_snippets.py:700 src/edit/cap_snippets.py:967
 msgid "Snippet Manager"
 msgstr "Schnipsel-Manager"
 
-#: src/edit/cap_snippets.py:701 src/edit/cap_snippets.py:764
+#: src/edit/cap_snippets.py:707 src/edit/cap_snippets.py:770
 msgid "Snippet Name"
 msgstr "Schnipsel-Name"
 
-#: src/edit/cap_snippets.py:726
+#: src/edit/cap_snippets.py:732
 msgid "Mime Type"
 msgstr "Mime-Typ"
 
-#: src/edit/cap_snippets.py:766
+#: src/edit/cap_snippets.py:772
 msgid "File Extension"
 msgstr "Datei-Erweiterung"
 
-#: src/edit/cap_snippets.py:769
+#: src/edit/cap_snippets.py:775
 msgid "Add Snippet"
 msgstr "Schnipsel hinzufügen"
 
-#: src/edit/cap_snippets.py:830
+#: src/edit/cap_snippets.py:836
 msgid "Assign Snippet Key Binding"
 msgstr ""
 
-#: src/edit/cap_snippets.py:974 src/edit/cap_snippets.py:987
+#: src/edit/cap_snippets.py:985 src/edit/cap_snippets.py:998
 msgid "Snippet manager state"
 msgstr "Zustand des Schnipsel-Managers"
 
-#: src/edit/cap_snippets.py:1034
+#: src/edit/cap_snippets.py:1045
 msgid "Context"
 msgstr "Kontext"
 
-#: src/edit/cap_snippets.py:1051
+#: src/edit/cap_snippets.py:1062
 msgid "Mime type: %s"
 msgstr "Mime-Typ: %s"
 
+#: src/edit/cap_snippets.py:1146
+#, fuzzy
+msgid "Cannot Add File Type"
+msgstr "Dateityp hinzufügen..."
+
+#: src/edit/cap_snippets.py:1147 src/edit/cap_snippets.py:1171
+#: src/edit/cap_snippets.py:1212 src/edit/cap_snippets.py:1499
+#: src/edit/cap_snippets.py:1600
+msgid ""
+"There are no snippets directories on the path.  Please add a directory or "
+"enable including default snippets from the Editor > Snippets preferences."
+msgstr ""
+
 #: src/edit/cap_snippets.py:1170
+#, fuzzy
+msgid "Cannot Remove File Type"
+msgstr "Dateityp '%s' entfernen"
+
+#: src/edit/cap_snippets.py:1197
 msgid "Remove all snippets of type %s?"
 msgstr "Alle Schnipsel vom Typ '%s' entfernen?"
 
-#: src/edit/cap_snippets.py:1171
+#: src/edit/cap_snippets.py:1198
 msgid ""
 "The directory %s contains some snippets.  Are you sure you want to move all "
 "of these snippets to the trash?"
 msgstr ""
 
-#: src/edit/cap_snippets.py:1174
+#: src/edit/cap_snippets.py:1201
 msgid "Remove Snippets"
 msgstr "Schnipsel entfernen"
 
-#: src/edit/cap_snippets.py:1185
+#: src/edit/cap_snippets.py:1211
+#, fuzzy
+msgid "Cannot Rename File Type"
+msgstr "Dateityp '%s' umbenennen"
+
+#: src/edit/cap_snippets.py:1220
 msgid ""
 "File Type Exists::The file type '%s' already exists.  Please rename or "
 "remove it first."
@@ -1550,60 +1577,60 @@ msgstr ""
 "Dateityp existiert::Der Dateityp '%s' existiert bereits.  Bitte erst "
 "umbenennen oder entfernen."
 
-#: src/edit/cap_snippets.py:1280
+#: src/edit/cap_snippets.py:1315
 msgid "Delete Existing Snippets?"
 msgstr "Vorhandene Schnipsel löschen?"
 
-#: src/edit/cap_snippets.py:1281
+#: src/edit/cap_snippets.py:1316
 msgid ""
 "Are you sure you want to delete your existing snippets and restore factory "
 "defaults?  Any changes you have made to snippets and any new snippets you "
 "have added will be lost."
 msgstr ""
 
-#: src/edit/cap_snippets.py:1285 src/edit/cap_snippets.py:1729
+#: src/edit/cap_snippets.py:1320 src/edit/cap_snippets.py:1780
 msgid "Restore Factory Defaults"
 msgstr "Werkseinstellungen wiederherstellen"
 
-#: src/edit/cap_snippets.py:1289
+#: src/edit/cap_snippets.py:1324
 msgid "Add Missing Default Snippets?"
 msgstr "Fehlende Schnipsel hinzufügen?"
 
-#: src/edit/cap_snippets.py:1290
+#: src/edit/cap_snippets.py:1325
 msgid ""
 "Are you sure you want to add missing default snippets?  This will restore "
 "any removed snippets but will not overwrite snippets you have changed and "
 "will not remove snippets you have added."
 msgstr ""
 
-#: src/edit/cap_snippets.py:1294 src/edit/cap_snippets.py:1726
+#: src/edit/cap_snippets.py:1329 src/edit/cap_snippets.py:1777
 msgid "Add Missing Default Snippets"
 msgstr "Fehlende Standard-Schnipsel hinzufügen"
 
-#: src/edit/cap_snippets.py:1331
+#: src/edit/cap_snippets.py:1366
 msgid "Could not read default snippet %s"
 msgstr "Konnte Standard-Schnipsel %s nicht lesen"
 
-#: src/edit/cap_snippets.py:1389
+#: src/edit/cap_snippets.py:1424
 msgid "Unable to copy default snippet %s"
 msgstr "Konnte Standard-Schnipsel %s nicht kopieren"
 
-#: src/edit/cap_snippets.py:1408
+#: src/edit/cap_snippets.py:1443
 msgid "Snippets Failed to Copy"
 msgstr "Schnipsel die nicht kopierten werden konnten"
 
-#: src/edit/cap_snippets.py:1409
+#: src/edit/cap_snippets.py:1444
 msgid ""
 "Some snippet files could not be copied, including the following.  Please "
 "check disk permissions and then try again with Add Missing Default Snippets "
 "from the Snippets tool's options menu:"
 msgstr ""
 
-#: src/edit/cap_snippets.py:1447
+#: src/edit/cap_snippets.py:1482
 msgid "Snippet already exists"
 msgstr "Schnipsel existiert bereits"
 
-#: src/edit/cap_snippets.py:1448
+#: src/edit/cap_snippets.py:1483
 msgid ""
 "The snippet '%s' already exists in %s.  Do you want to open the existing "
 "file?"
@@ -1611,23 +1638,33 @@ msgstr ""
 "Der Schnipsel '%s' ist bereits in Datei %s vorhanden.  Wollen Sie die "
 "vorhandene Datei öffnen?"
 
-#: src/edit/cap_snippets.py:1453
+#: src/edit/cap_snippets.py:1488
 msgid "Open Existing"
 msgstr "Vorhandene Öffnen"
 
-#: src/edit/cap_snippets.py:1530
+#: src/edit/cap_snippets.py:1498
+#, fuzzy
+msgid "Cannot Add Snippet"
+msgstr "Schnipsel hinzufügen"
+
+#: src/edit/cap_snippets.py:1573
 msgid "Remove Disk File?"
 msgstr "Datei auf Festplatte löschen?"
 
-#: src/edit/cap_snippets.py:1531
+#: src/edit/cap_snippets.py:1574
 msgid "Are you sure you want to move the snippet '%s' in %s to the trash?"
 msgstr "Wollen Sie den Schnipsel '%s' wirklich in den Papierkorb verschieben?"
 
-#: src/edit/cap_snippets.py:1533
+#: src/edit/cap_snippets.py:1576
 msgid "_Remove File"
 msgstr "Datei entfernen"
 
-#: src/edit/cap_snippets.py:1563
+#: src/edit/cap_snippets.py:1599
+#, fuzzy
+msgid "Cannot Change Snippet Context or Name"
+msgstr "Kontext des Schnipsel '%s' ändern"
+
+#: src/edit/cap_snippets.py:1614
 msgid ""
 "Existing Snippet::A snippet named '%s' already exists in context %s.  Please "
 "remove or rename it first."
@@ -1635,71 +1672,71 @@ msgstr ""
 "Vorhandener  Schnipsel::Ein Schnipsel mit dem Namen '%s' existiert bereits "
 "im Kontext %s.  Bitte erst entfernen oder umbenennen."
 
-#: src/edit/cap_snippets.py:1654
+#: src/edit/cap_snippets.py:1705
 msgid "Paste '%s' Into Current Editor"
 msgstr "'%s' in den aktuellen Editor einfügen"
 
-#: src/edit/cap_snippets.py:1655
+#: src/edit/cap_snippets.py:1706
 msgid "Paste '%s' Into New File"
 msgstr "'%s' in neue Datei einfügen"
 
-#: src/edit/cap_snippets.py:1659
+#: src/edit/cap_snippets.py:1710
 msgid "Add New Snippet..."
 msgstr "Neuen Schnipsel hinzufügen..."
 
-#: src/edit/cap_snippets.py:1663
+#: src/edit/cap_snippets.py:1714
 msgid "Edit Snippet '%s'"
 msgstr "Schnipsel '%s' bearbeiten"
 
-#: src/edit/cap_snippets.py:1664
+#: src/edit/cap_snippets.py:1715
 msgid "Rename Snippet '%s'..."
 msgstr "Schnipsel '%s' umbennen..."
 
-#: src/edit/cap_snippets.py:1665
+#: src/edit/cap_snippets.py:1716
 msgid "Duplicate Snippet '%s'..."
 msgstr "Schnipsel '%s' klonen..."
 
-#: src/edit/cap_snippets.py:1666
+#: src/edit/cap_snippets.py:1717
 msgid "Remove Snippet '%s'"
 msgstr "Schnipsel '%s' entfernen..."
 
-#: src/edit/cap_snippets.py:1670
+#: src/edit/cap_snippets.py:1721
 msgid "Change Snippet '%s' Context"
 msgstr "Kontext des Schnipsel '%s' ändern"
 
-#: src/edit/cap_snippets.py:1671
+#: src/edit/cap_snippets.py:1722
 msgid "Copy Snippet '%s' to Context"
 msgstr "Schnipsel '%s' zum Kontext kopieren"
 
-#: src/edit/cap_snippets.py:1675
+#: src/edit/cap_snippets.py:1726
 msgid "Assign Key Binding to '%s'..."
 msgstr ""
 
-#: src/edit/cap_snippets.py:1676
+#: src/edit/cap_snippets.py:1727
 msgid "Clear Key Binding for '%s'"
 msgstr ""
 
-#: src/edit/cap_snippets.py:1682 src/edit/cap_snippets.py:1732
+#: src/edit/cap_snippets.py:1733 src/edit/cap_snippets.py:1783
 msgid "Show Snippets Documentation"
 msgstr "Dokumentation der Schnipsel anzeigen"
 
-#: src/edit/cap_snippets.py:1709
+#: src/edit/cap_snippets.py:1760
 msgid "Add File Type..."
 msgstr "Dateityp hinzufügen..."
 
-#: src/edit/cap_snippets.py:1713
+#: src/edit/cap_snippets.py:1764
 msgid "Remove File Type '%s'"
 msgstr "Dateityp '%s' entfernen"
 
-#: src/edit/cap_snippets.py:1714
+#: src/edit/cap_snippets.py:1765
 msgid "Rename File Type '%s'"
 msgstr "Dateityp '%s' umbenennen"
 
-#: src/edit/cap_snippets.py:1724
+#: src/edit/cap_snippets.py:1775
 msgid "Reload All Snippets"
 msgstr "Alle Schnipsel neu laden"
 
-#: src/edit/cap_snippets.py:1738
+#: src/edit/cap_snippets.py:1789
 msgid "Snippet File Types"
 msgstr "Schnipsel Dateitypen"
 
@@ -1730,27 +1767,44 @@ msgstr "(n-l)"
 msgid " (r/p)"
 msgstr "(n-l)"
 
-#: src/edit/editor.py:2493
+#: src/edit/editor.py:1767
+msgid "PEP 8 whole-file reformat timed out.  Saving without reformatting."
+msgstr ""
+
+#: src/edit/editor.py:1769
+msgid "PEP 8 whole-file reformat failed.  Saving without reformatting."
+msgstr ""
+
+#: src/edit/editor.py:1771
+msgid ""
+"PEP 8 while-file reformat skipped.  Saving already PEP 8 compliant file."
+msgstr ""
+
+#: src/edit/editor.py:1773
+msgid "PEP 8 whole-file reformat completed before save."
+msgstr ""
+
+#: src/edit/editor.py:2547
 msgid "Entering Snippet: Tab key moves between fields"
 msgstr ""
 
-#: src/edit/editor.py:2859
+#: src/edit/editor.py:2913
 msgid "Editors state for %s"
 msgstr "Editor-Zustand für %s"
 
-#: src/edit/editor.py:2928
+#: src/edit/editor.py:2982
 msgid "Editor %s selection range"
 msgstr "Editor %s Auswahlbereich"
 
-#: src/edit/editor.py:2951
+#: src/edit/editor.py:3005
 msgid "Editor %s scroll position"
 msgstr "Editor %s Scroll-Position"
 
-#: src/edit/editor.py:2974
+#: src/edit/editor.py:3028
 msgid "Editor state for %s"
 msgstr "Editor-Status für %s"
 
-#: src/edit/editor.py:4610
+#: src/edit/editor.py:4665
 msgid ""
 "Failed to wrap text::Wrapping more than 10 lines of Python source that is "
 "not a comment or a doc string is currently not supported"
@@ -1758,76 +1812,119 @@ msgstr ""
 "Textumbruch gescheitert:  Umbrechen von mehr als 10 Zeilen von Python Source-"
 "Code userhalb Kommente und Strings ist nicht möglich."
 
-#: src/edit/editor.py:5229
+#: src/edit/editor.py:5320
 msgid "Could not find definition of '%s'"
 msgstr "Konnte Definition von '%s' nicht finden"
 
-#: src/edit/editor.py:5278
+#: src/edit/editor.py:5369
 msgid "Could not open definition of '%s'"
 msgstr "Konnte Definition von '%s' nicht öffnen"
 
-#: src/edit/editor.py:7035 src/edit/editor.py:7055
+#: src/edit/editor.py:7131 src/edit/editor.py:7151
 msgid "Search wrapped"
 msgstr "Suche umgebrochen"
 
-#: src/edit/editor.py:7762 src/edit/editor.py:13966
+#: src/edit/editor.py:7858 src/edit/editor.py:14348
 msgid "Auto-indented for context; use undo to restore indentation"
 msgstr ""
 "Automatisch eingerückt ensprechend des Kontextes; benutzen Sie Rückgängig um "
 "die Einrück wiederherzustellen"
 
 # HTK: Caret
-#: src/edit/editor.py:7776 src/edit/editor.py:13976
+#: src/edit/editor.py:7872 src/edit/editor.py:14358
 msgid "Auto-indented to caret; use undo to restore indentation"
 msgstr ""
 "Automatisch eingerückt ensprechend des Textcursors; benutzen Sie Rückgängig "
 "um die Einrück wiederherzustellen"
 
-#: src/edit/editor.py:8705
+#: src/edit/editor.py:8801
 msgid "appending to register '%s'"
 msgstr "an Register '%s' anhängen"
 
-#: src/edit/editor.py:8707
+#: src/edit/editor.py:8803
 msgid "register '%s'"
 msgstr "Register '%s'"
 
-#: src/edit/editor.py:8711
+#: src/edit/editor.py:8807
 msgid "Restarted macro record (%s)"
 msgstr "Makroaufzeichnung neu gestartet (%s)"
 
-#: src/edit/editor.py:8713
+#: src/edit/editor.py:8809
 msgid "Started macro record (%s)"
 msgstr "Makroaufzeichnung gestartet (%s)"
 
-#: src/edit/editor.py:8729
+#: src/edit/editor.py:8825
 msgid "Stopped macro record (register '%s')"
 msgstr "Makroaufzeichnung gestoppt (Register '%s')"
 
-#: src/edit/editor.py:8747
+#: src/edit/editor.py:8843
 msgid "Macro aborted::Macro register '%s' is undefined"
 msgstr "Makro abgebrochen::Makro-Register '%s' ist nicht definiert"
 
-#: src/edit/editor.py:8752
+#: src/edit/editor.py:8848
 msgid "Macro aborted::Macro aborted due to error in action "
 msgstr "Makro abgebrochen::Makro abgebrochen wegen Fehler in der Ausführung "
 
-#: src/edit/editor.py:8754
+#: src/edit/editor.py:8850
 msgid "Executed keyboard macro (register '%s')"
 msgstr "Tastatur-Makro ausgeführt (Register '%s')"
 
-#: src/edit/editor.py:9320
+#: src/edit/editor.py:8875
+msgid "Reached PEP 8 reformatting timeout.  No changes were made."
+msgstr ""
+
+#: src/edit/editor.py:8878
+msgid "The PEP 8 reformatter failed.  No changes were made."
+msgstr ""
+
+#: src/edit/editor.py:8881
+msgid "This file is already PEP 8 compliant.  No changes were made."
+msgstr ""
+
+#: src/edit/editor.py:8884
+msgid "Reformat for PEP 8 compliance was completed."
+msgstr ""
+
+#: src/edit/editor.py:8887
+#, fuzzy
+msgid "PEP8 Reformat Failed"
+msgstr "Drucken gescheitert"
+
+#: src/edit/editor.py:8897
+msgid "No changes were made.  The selection is already PEP 8 compliant."
+msgstr ""
+
+#: src/edit/editor.py:9237
+#, fuzzy
+msgid "Cannot PEP 8 Reformat File"
+msgstr "Kann nicht Binärdateien einfügen"
+
+#: src/edit/editor.py:9239
+msgid ""
+"This file cannot be reformatted for PEP 8 because remote read is pending."
+msgstr ""
+
+#: src/edit/editor.py:9241
+msgid "This file cannot be reformatted for PEP 8 because it is read-only."
+msgstr ""
+
+#: src/edit/editor.py:9276
+msgid "Locked editor for PEP 8 reformatting (timeout=%i seconds)"
+msgstr ""
+
+#: src/edit/editor.py:9667
 msgid "Cannot Convert"
 msgstr "Kann Nicht Umwandeln."
 
-#: src/edit/editor.py:9321
+#: src/edit/editor.py:9668
 msgid "Could not convert line endings because this file is read-only."
 msgstr "Kann nicht Zeilenenden umwandeln, da der Editortext nur lesbar ist"
 
-#: src/edit/editor.py:9429
+#: src/edit/editor.py:9783
 msgid "Auto-converted EOLs"
 msgstr "Zeilenenden Automatisch Umgewandelt"
 
-#: src/edit/editor.py:9430
+#: src/edit/editor.py:9784
 #, fuzzy
 msgid ""
 "The line-endings in %s were auto-converted from %s to %s, the project's "
@@ -1838,11 +1935,11 @@ msgstr ""
 "Projektes (%s) umgewandelt.  Sie können mit Projekt Eigenschaften diesen "
 "Stil oder die Richtlinie für Zeilenenden ändern."
 
-#: src/edit/editor.py:9453
+#: src/edit/editor.py:9807
 msgid "Line-ending Policy Violation"
 msgstr "Richtline für Zeilenenden verletzt"
 
-#: src/edit/editor.py:9454
+#: src/edit/editor.py:9808
 msgid ""
 "The file %s contains %s style line-endings but you have configured this "
 "project to prefer %s style line-endings.  Do you wish to convert the file "
@@ -1851,316 +1948,316 @@ msgstr ""
 "Die Zeilenenden des Dateis %s sind %s aber das Zeilenendengrundsatz des "
 "Projekts ist %s.  Wollen Sie die Datei jetzt umwandlen?"
 
-#: src/edit/editor.py:9710 src/edit/editor.py:12864
+#: src/edit/editor.py:10064 src/edit/editor.py:13246
 msgid "C_ut"
 msgstr "A_usschneiden"
 
-#: src/edit/editor.py:9711 src/edit/editor.py:12865
+#: src/edit/editor.py:10065 src/edit/editor.py:13247
 msgid "_Copy"
 msgstr "_Kopieren"
 
-#: src/edit/editor.py:9723
+#: src/edit/editor.py:10077
 msgid "_Goto definition"
 msgstr "_Gehe zur Definition"
 
 # HTK: Bessere Beschreibung?
-#: src/edit/editor.py:9724
+#: src/edit/editor.py:10078
 msgid "_Goto Definition in Other Split"
 msgstr "_Gehe zur Definition in anderer Teilung"
 
-#: src/edit/editor.py:9728
+#: src/edit/editor.py:10082
 msgid "Find Points of Use"
 msgstr "Verwendungspunkte finden"
 
-#: src/edit/editor.py:9729
+#: src/edit/editor.py:10083
 #, fuzzy
 msgid "Find Points of Use in Current File"
 msgstr "Verwendungspunkte finden"
 
-#: src/edit/editor.py:9735
+#: src/edit/editor.py:10089
 msgid "Re_factor"
 msgstr "Ü_berarbeiten"
 
-#: src/edit/editor.py:9738 src/edit/editor.py:9773
+#: src/edit/editor.py:10092 src/edit/editor.py:10127
 msgid "Toggle Bookmark"
 msgstr "Lesezeichen umschalten"
 
-#: src/edit/editor.py:9740
+#: src/edit/editor.py:10094
 msgid "Reanaly_ze File"
 msgstr "Datei neu anal_ysieren"
 
-#: src/edit/editor.py:9748
+#: src/edit/editor.py:10102
 msgid "Run Tests"
 msgstr "Tests starten"
 
-#: src/edit/editor.py:9749
+#: src/edit/editor.py:10103
 msgid "Debug Tests"
 msgstr "Tests debuggen"
 
-#: src/edit/editor.py:9752
+#: src/edit/editor.py:10106
 msgid "Debug This File"
 msgstr "Diese Datei debuggen"
 
-#: src/edit/editor.py:9753
+#: src/edit/editor.py:10107
 msgid "Debug To Here"
 msgstr "Bis hier debuggen"
 
-#: src/edit/editor.py:9756
+#: src/edit/editor.py:10110
 msgid "Move Program Counter Here"
 msgstr ""
 
-#: src/edit/editor.py:9758
+#: src/edit/editor.py:10112
 msgid "_Evaluate Selection in Python Shell"
 msgstr "Auswahl in Python-Shell b_ewerten"
 
-#: src/edit/editor.py:9760
+#: src/edit/editor.py:10114
 msgid "Evaluate Selection in Debug Probe"
 msgstr "Auswahl im Debug-Test bewerten"
 
-#: src/edit/editor.py:9762 src/edit/editor.py:9854
+#: src/edit/editor.py:10116 src/edit/editor.py:10208
 msgid "Add _Breakpoint"
 msgstr "_Haltepunkt hinzufügen"
 
-#: src/edit/editor.py:9763 src/edit/editor.py:9855
+#: src/edit/editor.py:10117 src/edit/editor.py:10209
 msgid "Remove _Breakpoint"
 msgstr "Halte_punkt entfernen"
 
-#: src/edit/editor.py:9766
+#: src/edit/editor.py:10120
 msgid "Enable Brea_kpoint"
 msgstr "Haltepun_kt aktivieren"
 
-#: src/edit/editor.py:9767
+#: src/edit/editor.py:10121
 msgid "Disable Brea_kpoint"
 msgstr "Haltepunkt de_aktivieren"
 
-#: src/edit/editor.py:9781
+#: src/edit/editor.py:10135
 msgid "Watch Selection in Debugger"
 msgstr "Auswahl im Debugger beobachten"
 
-#: src/edit/editor.py:9783
+#: src/edit/editor.py:10137
 msgid "Watch '%s' in Debugger"
 msgstr "'%s' im Debugger beobachten"
 
-#: src/edit/editor.py:9790
+#: src/edit/editor.py:10144
 msgid "Comment Out R_egion"
 msgstr "Be_reich auskommentieren"
 
-#: src/edit/editor.py:9791
+#: src/edit/editor.py:10145
 msgid "Uncomment out Re_gion"
 msgstr "_Kommentar im Bereich aufheben"
 
-#: src/edit/editor.py:9798
+#: src/edit/editor.py:10152
 msgid "_Indent"
 msgstr "Ein_rücken"
 
-#: src/edit/editor.py:9799
+#: src/edit/editor.py:10153
 msgid "Dede_nt"
 msgstr "Au_srücken"
 
-#: src/edit/editor.py:9800
+#: src/edit/editor.py:10154
 msgid "_Match Indent"
 msgstr "E_inrückung anpassen"
 
-#: src/edit/editor.py:9818
+#: src/edit/editor.py:10172
 msgid "Configure Menu..."
 msgstr "Menü konfigurieren..."
 
-#: src/edit/editor.py:9821
+#: src/edit/editor.py:10175
 msgid "P_roperties..."
 msgstr "Eige_nschaften..."
 
-#: src/edit/editor.py:9862
+#: src/edit/editor.py:10216
 msgid "Edit _Conditional Breakpoint"
 msgstr "_Bedingten Haltepunkt bearbeiten"
 
-#: src/edit/editor.py:9863
+#: src/edit/editor.py:10217
 msgid "Set _Conditional Breakpoint"
 msgstr "_Bedingten Haltepunkt setzen"
 
-#: src/edit/editor.py:9865
+#: src/edit/editor.py:10219
 msgid "Set _Temporary Breakpoint"
 msgstr "_Temporären Halte_punkt setzen"
 
-#: src/edit/editor.py:9868
+#: src/edit/editor.py:10222
 msgid "_Enable Breakpoint"
 msgstr "Haltepunkt _aktivieren"
 
-#: src/edit/editor.py:9869
+#: src/edit/editor.py:10223
 msgid "_Disable Breakpoint"
 msgstr "Haltepunkt _deaktivieren"
 
-#: src/edit/editor.py:9874
+#: src/edit/editor.py:10228
 msgid "Disable _All Breakpoints"
 msgstr "_Alle Haltepunkte deaktivieren"
 
-#: src/edit/editor.py:9878
+#: src/edit/editor.py:10232
 msgid "Enable _All Breakpoints"
 msgstr "_Alle Haltepunkte aktivieren"
 
-#: src/edit/editor.py:9881
+#: src/edit/editor.py:10235
 msgid "_Ignore Breakpoint"
 msgstr "Haltepunkt _ignorieren"
 
-#: src/edit/editor.py:9886
+#: src/edit/editor.py:10240
 msgid "_Remove All Breakpoints"
 msgstr "Alle Haltepunkte entfe_rnen"
 
-#: src/edit/editor.py:9898
+#: src/edit/editor.py:10252
 msgid "_Toggle Fold"
 msgstr "Falte _wechseln"
 
-#: src/edit/editor.py:9899
+#: src/edit/editor.py:10253
 msgid "_Collapse More"
 msgstr "Mehr _zusammenklappen"
 
-#: src/edit/editor.py:9900
+#: src/edit/editor.py:10254
 msgid "E_xpand More"
 msgstr "Mehr _erweitern"
 
-#: src/edit/editor.py:9901
+#: src/edit/editor.py:10255
 msgid "Colla_pse Completely"
 msgstr "Vollständig zusammen_klappen"
 
-#: src/edit/editor.py:9902
+#: src/edit/editor.py:10256
 msgid "Expand C_ompletely"
 msgstr "V_ollständig erweitern"
 
-#: src/edit/editor.py:9904
+#: src/edit/editor.py:10258
 msgid "Collapse A_ll Folds"
 msgstr "A_lle Falten zusammenklappen"
 
-#: src/edit/editor.py:9905
+#: src/edit/editor.py:10259
 msgid "Expand _All"
 msgstr "_Alle erweitern"
 
-#: src/edit/editor.py:9907
+#: src/edit/editor.py:10261
 msgid "Fold Python _Methods"
 msgstr "Python-_Methoden falten"
 
-#: src/edit/editor.py:9908
+#: src/edit/editor.py:10262
 msgid "Fold Python _Classes"
 msgstr "Python-_Klassen falten"
 
-#: src/edit/editor.py:9909
+#: src/edit/editor.py:10263
 msgid "Fold Python Classes and _Defs"
 msgstr "Python-Klassen und _Defs falten"
 
-#: src/edit/editor.py:10275
+#: src/edit/editor.py:10629
 msgid "Brace match: no match found"
 msgstr "Klammernsuche: Keine zusammenpassenden gefunden"
 
-#: src/edit/editor.py:10293
+#: src/edit/editor.py:10647
 msgid "Match at line %i: %s"
 msgstr "Übereinstimmung an Zeile %i: %s"
 
-#: src/edit/editor.py:10357
+#: src/edit/editor.py:10711
 msgid " (autosave restore)"
 msgstr ""
 
-#: src/edit/editor.py:10359
+#: src/edit/editor.py:10713
 msgid " (r/o on disk)"
 msgstr " (n-l auf Platte)"
 
-#: src/edit/editor.py:10361
+#: src/edit/editor.py:10715
 msgid "(r/o)"
 msgstr "(n-l)"
 
-#: src/edit/editor.py:10363
+#: src/edit/editor.py:10717
 msgid "(r/p)"
 msgstr ""
 
-#: src/edit/editor.py:10379
+#: src/edit/editor.py:10733
 msgid "INSERT"
 msgstr "EINFÜGEN"
 
-#: src/edit/editor.py:10383
+#: src/edit/editor.py:10737
 msgid "REPLACE"
 msgstr "ERSETZEN"
 
-#: src/edit/editor.py:10390
+#: src/edit/editor.py:10744
 msgid "VISUAL LINE"
 msgstr "SICHTBARE LINIE"
 
-#: src/edit/editor.py:10392
+#: src/edit/editor.py:10746
 msgid "SELECT LINE"
 msgstr "ZEILE AUSWÄHLEN"
 
-#: src/edit/editor.py:10395
+#: src/edit/editor.py:10749
 msgid "VISUAL BLOCK"
 msgstr "SICHTBARER BLOCK"
 
-#: src/edit/editor.py:10397
+#: src/edit/editor.py:10751
 msgid "SELECT BLOCK"
 msgstr "BLOCK AUSWÄHLEN"
 
-#: src/edit/editor.py:10400
+#: src/edit/editor.py:10754
 msgid "VISUAL"
 msgstr "SICHTBAR"
 
-#: src/edit/editor.py:10402
+#: src/edit/editor.py:10756
 msgid "SELECT"
 msgstr "AUSWÄHLEN"
 
-#: src/edit/editor.py:10408
+#: src/edit/editor.py:10762
 msgid "[Line Select] "
 msgstr "[Zeilenauswahl] "
 
-#: src/edit/editor.py:10410
+#: src/edit/editor.py:10764
 msgid "[Block Select] "
 msgstr "[Blockauswahl] "
 
-#: src/edit/editor.py:10412
+#: src/edit/editor.py:10766
 msgid "[Char Select] "
 msgstr "[Zeichenauswahl] "
 
-#: src/edit/editor.py:10416
+#: src/edit/editor.py:10770
 msgid "Field #%i | "
 msgstr "Feld #%i | "
 
-#: src/edit/editor.py:10418
+#: src/edit/editor.py:10772
 msgid "Block Entry | "
 msgstr ""
 
-#: src/edit/editor.py:10447
+#: src/edit/editor.py:10801
 msgid " Col "
 msgstr " Spalte "
 
-#: src/edit/editor.py:10449
+#: src/edit/editor.py:10803
 msgid " Cols "
 msgstr " Spalten "
 
-#: src/edit/editor.py:11351
+#: src/edit/editor.py:11733
 msgid "Failed to save portions of visual state for %s:"
 msgstr ""
 "Das Speichern von Teilen des visuellen Zustandes für %s ist fehlgeschlagen:"
 
-#: src/edit/editor.py:11380
+#: src/edit/editor.py:11762
 msgid "Restoring state after abandoning changes failed"
 msgstr ""
 "Zustand wiederherstellen, nachdem Verwerfen der Änderungen gescheitert ist"
 
-#: src/edit/editor.py:11543
+#: src/edit/editor.py:11925
 #, fuzzy
 msgid "Cannot insert file"
 msgstr "Kann nicht Binärdateien einfügen"
 
-#: src/edit/editor.py:11544
+#: src/edit/editor.py:11926
 msgid "The selected file could not be read."
 msgstr ""
 
-#: src/edit/editor.py:11554
+#: src/edit/editor.py:11936
 msgid "Cannot insert binary file"
 msgstr "Kann nicht Binärdateien einfügen"
 
-#: src/edit/editor.py:11555
+#: src/edit/editor.py:11937
 msgid "The selected file contains binary data -- insert file operation failed."
 msgstr "Das gewählte Datei enhält Binärdaten -- Einfügen gescheitert."
 
-#: src/edit/editor.py:11613
+#: src/edit/editor.py:11995
 msgid "Cannot decode command output"
 msgstr "Die Befehlsausgabe kann nicht dekodiert werden."
 
-#: src/edit/editor.py:11614
+#: src/edit/editor.py:11996
 msgid ""
 "The command output's encoding could not be determined -- insert command "
 "operation failed."
@@ -2168,62 +2265,62 @@ msgstr ""
 "Die Kodierung der Befehlsausgabe konnte nicht bestimmt werden -- Die "
 "Operation 'Befehl einfügen' ist fehlgeschlagen."
 
-#: src/edit/editor.py:11619
+#: src/edit/editor.py:12001
 msgid "Cannot insert binary data"
 msgstr "Binärdaten können nicht eingefügt werden"
 
-#: src/edit/editor.py:11620
+#: src/edit/editor.py:12002
 msgid "The command output binary data -- insert command operation failed."
 msgstr ""
 "Der Befehl hat Binärdaten ausgegeben -- Die Operation 'Befehl einfügen' ist "
 "fehlgeschlagen."
 
-#: src/edit/editor.py:11662
+#: src/edit/editor.py:12044
 msgid "Failed to Execute Command"
 msgstr "Das Ausführen des Befehls ist gescheitert"
 
-#: src/edit/editor.py:11663
+#: src/edit/editor.py:12045
 msgid ""
 "The command %s failed err=%s, status=%s -- insert command operation failed."
 msgstr ""
 "Der Befehl %s ist fehlgeschlagen err=%s, status=%s -- Die Operation 'Befehl "
 "einfügen' ist fehlgeschlagen."
 
-#: src/edit/editor.py:11677
+#: src/edit/editor.py:12059
 msgid "Command Timed Out"
 msgstr "Befehl abgebrochen"
 
-#: src/edit/editor.py:11678
+#: src/edit/editor.py:12060
 msgid "The command %s timed out -- insert command operation failed."
 msgstr ""
 "Der Befehl %s wurde abgebrochen -- Die Operation 'Befehl einfügen' ist "
 "fehlgeschlagen."
 
-#: src/edit/editor.py:11714
+#: src/edit/editor.py:12096
 msgid "Invalid line range (start after end)"
 msgstr ""
 
-#: src/edit/editor.py:11717
+#: src/edit/editor.py:12099
 msgid "Target cannot be within the range"
 msgstr ""
 
-#: src/edit/editor.py:11720
+#: src/edit/editor.py:12102
 msgid "Start line is outside of the file"
 msgstr ""
 
-#: src/edit/editor.py:11723
+#: src/edit/editor.py:12105
 msgid "End line is outside of the file"
 msgstr ""
 
-#: src/edit/editor.py:11726
+#: src/edit/editor.py:12108
 msgid "Target line is outside of the file"
 msgstr ""
 
-#: src/edit/editor.py:11912
+#: src/edit/editor.py:12294
 msgid "Disk file is newer"
 msgstr "Datei auf der Festplatte ist neuer"
 
-#: src/edit/editor.py:11931
+#: src/edit/editor.py:12313
 msgid ""
 "This file is newer on disk.  Do you want to edit anyway, cancel your edit, "
 "or abandon your changes and re-read from disk? "
@@ -2232,41 +2329,41 @@ msgstr ""
 "bearbeiten, abbrechen oder Ihre Änderungen verwerfen und erneut von der "
 "Festplatte lesen? "
 
-#: src/edit/editor.py:11936
+#: src/edit/editor.py:12318
 msgid "Con_figure Reloading"
 msgstr "Neu Laden kon_figurieren"
 
-#: src/edit/editor.py:11940
+#: src/edit/editor.py:12322
 #, fuzzy
 msgid "Com_pare to Disk"
 msgstr "E_rneut von der Festplatte lesen"
 
-#: src/edit/editor.py:11941
+#: src/edit/editor.py:12323
 msgid "_Edit Anyway"
 msgstr "Trotzdem B_earbeiten"
 
-#: src/edit/editor.py:11942
+#: src/edit/editor.py:12324
 msgid "_Cancel Edit"
 msgstr "Bearbeiten abbre_chen"
 
-#: src/edit/editor.py:11943
+#: src/edit/editor.py:12325
 msgid "_Reread from Disk"
 msgstr "E_rneut von der Festplatte lesen"
 
-#: src/edit/editor.py:15868 src/edit/editor.py:16048
+#: src/edit/editor.py:16254 src/edit/editor.py:16434
 msgid "  1 Selection"
 msgstr "  1 Auswahl"
 
-#: src/edit/editor.py:15886
+#: src/edit/editor.py:16272
 msgid "Selections"
 msgstr "Auswahlen"
 
-#: src/edit/editor.py:16046
+#: src/edit/editor.py:16432
 #, fuzzy
 msgid "  Rectangle Selection"
 msgstr "  1 Auswahl"
 
-#: src/edit/editor.py:16050
+#: src/edit/editor.py:16436
 #, fuzzy
 msgid "  {} Selections"
 msgstr " {} Auswahlen"
@@ -2283,7 +2380,7 @@ msgstr "Einrücken zum Anpassen"
 msgid "Move to Next Tab Stop"
 msgstr "Zum nächsten Tab-Stop bewegen"
 
-#: src/edit/indentutils.py:65 src/edit/prefs.py:472
+#: src/edit/indentutils.py:65 src/edit/prefs.py:502
 msgid "Indent Region"
 msgstr "Einrückungsbereich"
 
@@ -2351,23 +2448,23 @@ msgstr "%i Vorkommen ersetzt"
 msgid "Replace? (y or n):"
 msgstr "Ersetzen? (j oder n):"
 
-#: src/edit/prefs.py:39
+#: src/edit/prefs.py:40
 msgid "Default file extension for newly created files"
 msgstr "Voreingestellter Dateizusatz für neu erstellte Dateien"
 
-#: src/edit/prefs.py:42
+#: src/edit/prefs.py:43
 msgid "Line Feed \\n (Posix/Unix/OS X)"
 msgstr "Zeilenvorschub \\n (Posix/Unix/OS X)"
 
-#: src/edit/prefs.py:43
+#: src/edit/prefs.py:44
 msgid "Carriage Return \\r (Mac OS <= 9)"
 msgstr "Wagenrücklauf \\r (Mac OS <= 9)"
 
-#: src/edit/prefs.py:44
+#: src/edit/prefs.py:45
 msgid "Carriage Return and Line Feed \\r\\n (Windows)"
 msgstr "Wagenrücklauf und Zeilenvorschub \\r\\n (Windows)"
 
-#: src/edit/prefs.py:52
+#: src/edit/prefs.py:53
 #, fuzzy
 msgid ""
 "Default end-of-line to use.  Wing matches existing line endings in non-blank "
@@ -2379,70 +2476,70 @@ msgstr ""
 "in nicht-leeren Dateien abstimmt und die Einstellung nur verwendet, wenn "
 "eine Datei keine Zeilenende-Zeichen enthält."
 
-#: src/edit/prefs.py:60
+#: src/edit/prefs.py:61
 msgid ""
 "Selects the overall editor personality, optionally to emulate another "
 "commonly used editor."
 msgstr ""
 
-#: src/edit/prefs.py:62
+#: src/edit/prefs.py:63
 msgid "Wing"
 msgstr "Wing"
 
-#: src/edit/prefs.py:64
+#: src/edit/prefs.py:65
 msgid "Brief"
 msgstr "Brief"
 
-#: src/edit/prefs.py:65
+#: src/edit/prefs.py:66
 msgid "Eclipse"
 msgstr "Eclipse"
 
-#: src/edit/prefs.py:66
+#: src/edit/prefs.py:67
 msgid "Emacs"
 msgstr "Emacs"
 
-#: src/edit/prefs.py:67
+#: src/edit/prefs.py:68
 msgid "MATLAB"
 msgstr ""
 
-#: src/edit/prefs.py:68
+#: src/edit/prefs.py:69
 msgid "VI/VIM"
 msgstr "VI/VIM"
 
-#: src/edit/prefs.py:69
+#: src/edit/prefs.py:70
 msgid "Visual Studio"
 msgstr "Visual Studio"
 
-#: src/edit/prefs.py:73
+#: src/edit/prefs.py:74
 msgid "OS X"
 msgstr "OS X"
 
-#: src/edit/prefs.py:74
+#: src/edit/prefs.py:75
 msgid "XCode"
 msgstr "XCode"
 
-#: src/edit/prefs.py:83 src/edit/prefs.py:188 src/edit/prefs.py:258
-#: src/edit/prefs.py:979 src/edit/prefs.py:1141 src/edit/prefs.py:1159
+#: src/edit/prefs.py:84 src/edit/prefs.py:189 src/edit/prefs.py:288
+#: src/edit/prefs.py:1026 src/edit/prefs.py:1188 src/edit/prefs.py:1206
 msgid "Always"
 msgstr "Immer"
 
-#: src/edit/prefs.py:84
+#: src/edit/prefs.py:85
 msgid "In Python Only"
 msgstr "Nur in Python"
 
-#: src/edit/prefs.py:85 src/edit/prefs.py:190 src/edit/prefs.py:257
-#: src/edit/prefs.py:981 src/edit/prefs.py:1143 src/edit/prefs.py:1158
+#: src/edit/prefs.py:86 src/edit/prefs.py:191 src/edit/prefs.py:287
+#: src/edit/prefs.py:1028 src/edit/prefs.py:1190 src/edit/prefs.py:1205
 msgid "Never"
 msgstr "Niemals"
 
-#: src/edit/prefs.py:89
+#: src/edit/prefs.py:90
 #, fuzzy
 msgid ""
 "Select when to use indent analysis (examination of current file contents) in "
 "order to determine indentation type and size.  Either always in all files, "
 "only in Python files, or never.  When disabled, the Preferred Indent Style "
-"from Project Properties and Indent Size and Tab Size from preferences will "
-"be used."
+"from Project Properties and Default Indent Size and Default Tab Size from "
+"preferences will be used."
 msgstr ""
 "Bestimmt, wann die Einrückungsanalyse verwendet werden soll (Überprüfung der "
 "aktuellen Dateiinhalte), um die Tab-Größe und die Einrückungsgröße zu "
@@ -2450,7 +2547,7 @@ msgstr ""
 "niemals."
 
 # HTK: Caret
-#: src/edit/prefs.py:103
+#: src/edit/prefs.py:104
 #, fuzzy
 msgid ""
 "Defines the action of the Tab key, one of:  \"Default for Personality\" to "
@@ -2470,32 +2567,32 @@ msgstr ""
 "zu vergrößern oder \"Tab-Zeichen einfügen\", um ein Tab-Zeichen einzufügen "
 "(chr(9))."
 
-#: src/edit/prefs.py:119
+#: src/edit/prefs.py:120
 msgid "None/Disabled"
 msgstr "Keine/Deaktiviert"
 
-#: src/edit/prefs.py:120 src/edit/prefs.py:152
+#: src/edit/prefs.py:121 src/edit/prefs.py:153
 msgid "Spaces Only"
 msgstr "Nur Leerzeichen"
 
-#: src/edit/prefs.py:121 src/edit/prefs.py:152
+#: src/edit/prefs.py:122 src/edit/prefs.py:153
 msgid "Tabs Only"
 msgstr "Nur Tabs"
 
-#: src/edit/prefs.py:122
+#: src/edit/prefs.py:123
 msgid "Tabs and Spaces"
 msgstr "Tabs und Leerzeichen"
 
-#: src/edit/prefs.py:123
+#: src/edit/prefs.py:124
 msgid "Match File"
 msgstr ""
 
-#: src/edit/prefs.py:127
+#: src/edit/prefs.py:128
 msgid ""
 "Select type of indentation that Smart Tab will place at the end of a line."
 msgstr ""
 
-#: src/edit/prefs.py:132
+#: src/edit/prefs.py:133
 msgid ""
 "Set size of tabs, in spaces, used in new files.  Note that in Python files "
 "that contain mixed space and tab indentation, tab size is always forced to 8 "
@@ -2507,7 +2604,7 @@ msgstr ""
 "erfordert. Verwenden Sie den Einrückungsmanager, um Einrückungen in "
 "bestehenden Dateien zu ändern."
 
-#: src/edit/prefs.py:142
+#: src/edit/prefs.py:143
 msgid ""
 "Sets size of an indent, in spaces, used in new files.  This is overridden in "
 "non-empty files, according to the actual contents of the file.  In files "
@@ -2522,7 +2619,7 @@ msgstr ""
 "Vielfaches der Tabgröße wird.  Verwenden Sie den Einrückungsmanager, um "
 "Einrückungen in bestehenden Dateien zu ändern."
 
-#: src/edit/prefs.py:148
+#: src/edit/prefs.py:149
 #, fuzzy
 msgid ""
 "Set the style of indentation used in new files.  This is overridden in non-"
@@ -2536,11 +2633,11 @@ msgstr ""
 "Vielfaches der Tabgröße wird.  Verwenden Sie den Einrückungsmanager, um "
 "Einrückungen in bestehenden Dateien zu ändern."
 
-#: src/edit/prefs.py:153
+#: src/edit/prefs.py:154
 msgid "Mixed Tabs and Spaces"
 msgstr "Gemischte Tabs und Leerzeichen"
 
-#: src/edit/prefs.py:156
+#: src/edit/prefs.py:157
 #, fuzzy
 msgid ""
 "Set to show a warning dialog when opening a Python file that contains "
@@ -2554,51 +2651,51 @@ msgstr ""
 "Einrückungsstilen in einer Datei oder gemischte Tab- und Leerzeichen-"
 "Einrückung (welche in Python nicht empfehlenswert ist))."
 
-#: src/edit/prefs.py:163
+#: src/edit/prefs.py:164
 msgid "Show Warnings and Errors"
 msgstr "Warnungen und Fehler anzeigen"
 
-#: src/edit/prefs.py:164
+#: src/edit/prefs.py:165
 msgid "Show Errors only"
 msgstr "Nur Fehler anzeigen"
 
-#: src/edit/prefs.py:165
+#: src/edit/prefs.py:166
 msgid "Show No Indicators"
 msgstr ""
 
-#: src/edit/prefs.py:168
+#: src/edit/prefs.py:169
 msgid ""
 "Controls whether Wing will show error and/or warning indicators on the "
 "editor as red and yellow underlines.  When shown, hovering the mouse over "
 "the indicator shows the error or warning detail in a tooltip."
 msgstr ""
 
-#: src/edit/prefs.py:176
+#: src/edit/prefs.py:177
 msgid "Set to true to show whitespace with visible characters by default"
 msgstr ""
 "Auf wahr setzen, um Leeraum mit sichtbaren Zeichen standardmäßig anzuzeigen"
 
-#: src/edit/prefs.py:180
+#: src/edit/prefs.py:181
 msgid "Set to true to show indent guides by default"
 msgstr "Auf wahr setzen, um die Einrückungslinien standardmäßig anzuzeigen"
 
-#: src/edit/prefs.py:184
+#: src/edit/prefs.py:185
 msgid "Set to true to show end-of-line with visible characters by default"
 msgstr ""
 "Auf wahr setzen, um das Zeilenende mit sichtbaren Zeichen standardmäßig "
 "anzuzeigen"
 
-#: src/edit/prefs.py:189
+#: src/edit/prefs.py:190
 msgid "On new blank lines"
 msgstr "Auf neuen leeren Zeilen"
 
-#: src/edit/prefs.py:193
+#: src/edit/prefs.py:194
 msgid "Controls when Wing automatically indents when return or enter is typed."
 msgstr ""
 "Kontrolliert, wann Wing automatisch einrückt, wenn die Return- oder "
 "Eingabetaste gedrückt wird."
 
-#: src/edit/prefs.py:199
+#: src/edit/prefs.py:200
 #, fuzzy
 msgid ""
 "Controls whether Wing automatically converts indent style and size on text "
@@ -2607,7 +2704,7 @@ msgstr ""
 "Kontrolliert, wann Wing automatisch einrückt, wenn die Return- oder "
 "Eingabetaste gedrückt wird."
 
-#: src/edit/prefs.py:205
+#: src/edit/prefs.py:206
 #, fuzzy
 msgid ""
 "Controls whether Wing automatically adjusts indents after multi-line text is "
@@ -2617,7 +2714,45 @@ msgstr ""
 "Kontrolliert, wann Wing automatisch einrückt, wenn die Return- oder "
 "Eingabetaste gedrückt wird."
 
-#: src/edit/prefs.py:211
+#: src/edit/prefs.py:211 src/edit/prefs.py:694 src/edit/prefs.py:827
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: src/edit/prefs.py:212
+msgid "Lines After Edit"
+msgstr ""
+
+#: src/edit/prefs.py:213
+msgid "Whole Files Before Save"
+msgstr ""
+
+#: src/edit/prefs.py:216
+msgid ""
+"Controls when Wing automatically reformats code for PEP 8 compliance.  May "
+"be disabled, limited to only edited lines after the caret leaves that line, "
+"or performed on whole files when they are saved to disk."
+msgstr ""
+
+#: src/edit/prefs.py:224
+msgid ""
+"Whether to enforce line length during PEP 8 reformatting.  The length is "
+"specified with the Editor > Line Wrapping > Reformatting Column preference."
+msgstr ""
+
+#: src/edit/prefs.py:229
+msgid ""
+"Whether to reindent all lines during PEP 8 reformatting.  This affects only "
+"reformatting of whole files.  Lines in a selection are never reindented "
+"during reformatting."
+msgstr ""
+
+#: src/edit/prefs.py:235
+msgid ""
+"Number of seconds to wait for whole-file PEP 8 auto-formatting to complete "
+"before aborting the reformatting process."
+msgstr ""
+
+#: src/edit/prefs.py:241
 #, fuzzy
 msgid ""
 "Set the header format to use for printing.  This can be any text with any of "
@@ -2639,7 +2774,7 @@ msgstr ""
 "akutelle Zeit; %current-date% - aktuelles Datum, %page% - aktuelle Seite, "
 "die gedruckt wird"
 
-#: src/edit/prefs.py:225
+#: src/edit/prefs.py:255
 #, fuzzy
 msgid ""
 "Set the footer format to use for printing.  The values allowed are the same "
@@ -2648,28 +2783,28 @@ msgstr ""
 "(Nur Windows) Stellt das zum Drucken verwendete Fußzeilenformat ein. Die "
 "erlaubten Werte sind die gleichen wie die für das Kopfzeilen-Druckformat."
 
-#: src/edit/prefs.py:227
+#: src/edit/prefs.py:257
 msgid "Page %page%, last modified %file-date% %file-time%"
 msgstr "Seite %page%, zuletzt geändert %file-date% %file-time%"
 
-#: src/edit/prefs.py:231
+#: src/edit/prefs.py:261
 msgid "Font to use in print header."
 msgstr "Schriftart der gedruckte Kopfzeile"
 
-#: src/edit/prefs.py:234 src/edit/prefs.py:241 src/edit/prefs.py:248
-#: src/edit/prefs.py:700
+#: src/edit/prefs.py:264 src/edit/prefs.py:271 src/edit/prefs.py:278
+#: src/edit/prefs.py:730
 msgid "Use Selected Font/Size:"
 msgstr "Ausgewählte Schriftart/-größe verwenden:"
 
-#: src/edit/prefs.py:238
+#: src/edit/prefs.py:268
 msgid "Font to use in print footer."
 msgstr "Schriftart der gedruckte Fußzeile"
 
-#: src/edit/prefs.py:245
+#: src/edit/prefs.py:275
 msgid "Font to use when printing."
 msgstr "Schriftart für Ausdrucke"
 
-#: src/edit/prefs.py:252
+#: src/edit/prefs.py:282
 msgid ""
 "Number of seconds between last key press and when analysis is re-enabled if "
 "analysis is to be suspended while typing occurs.  If <= 0, analysis is not "
@@ -2679,7 +2814,7 @@ msgstr ""
 "dem die Analyse wieder aktiviert wird, falls die Analyse während des Tippens "
 "unterbrochen werden soll. Wenn <= 0 wird die Analyse nicht unterbrochen."
 
-#: src/edit/prefs.py:268
+#: src/edit/prefs.py:298
 #, fuzzy
 msgid ""
 "Controls whether or not the completer is always shown automatically during "
@@ -2692,11 +2827,11 @@ msgstr ""
 "während getippt wird.  Wenn deaktiviert benutzen Sie Vervollständiger "
 "Aufschlagen im Source Menü."
 
-#: src/edit/prefs.py:277 src/edit/prefs.py:358
+#: src/edit/prefs.py:307 src/edit/prefs.py:388
 msgid "After characters:"
 msgstr "Nach Zeichen:"
 
-#: src/edit/prefs.py:283
+#: src/edit/prefs.py:313
 msgid ""
 "Delay in seconds from last key press to wait before the auto-completer is "
 "shown. If 0.0, the auto-completer is shown immediately."
@@ -2705,7 +2840,7 @@ msgstr ""
 "Vervollständiger automatisch aufgeschlagen wird. Wenn 0.0, wird der Auto-"
 "Vervollständiger gleich aufgeschlagen."
 
-#: src/edit/prefs.py:288
+#: src/edit/prefs.py:318
 msgid ""
 "Timeout in seconds from last key press after which the auto-completer is "
 "automatically hidden. If 0.0, the auto-completer does not time out."
@@ -2714,7 +2849,7 @@ msgstr ""
 "Vervollständiger automatisch ausgeblendet wird. Wenn 0.0, wird der Auto-"
 "Vervollständiger nicht abgeschalten."
 
-#: src/edit/prefs.py:293
+#: src/edit/prefs.py:323
 msgid ""
 "When enabled, the Python auto-completer enters the completion automatically "
 "whenever a key other than a valid symbol name key is pressed.  Press a "
@@ -2723,51 +2858,51 @@ msgid ""
 "enter the completion into the editor."
 msgstr ""
 
-#: src/edit/prefs.py:300
+#: src/edit/prefs.py:330
 msgid "Tab"
 msgstr "Tab"
 
-#: src/edit/prefs.py:301
+#: src/edit/prefs.py:331
 msgid "Enter"
 msgstr "Eingabetaste"
 
-#: src/edit/prefs.py:302
+#: src/edit/prefs.py:332
 msgid "Space"
 msgstr "Leerzeichen"
 
-#: src/edit/prefs.py:303
+#: src/edit/prefs.py:333
 msgid "F1"
 msgstr "F1"
 
-#: src/edit/prefs.py:304
+#: src/edit/prefs.py:334
 msgid "F3"
 msgstr "F3"
 
-#: src/edit/prefs.py:305
+#: src/edit/prefs.py:335
 msgid "F10"
 msgstr "F10"
 
-#: src/edit/prefs.py:306
+#: src/edit/prefs.py:336
 msgid "F12"
 msgstr "F12"
 
-#: src/edit/prefs.py:307
+#: src/edit/prefs.py:337
 msgid "Period"
 msgstr "Punkt"
 
-#: src/edit/prefs.py:308
+#: src/edit/prefs.py:338
 msgid "Left paren"
 msgstr "Linke Klammer"
 
-#: src/edit/prefs.py:309
+#: src/edit/prefs.py:339
 msgid "Left bracket"
 msgstr "Linke eckige Klammer"
 
-#: src/edit/prefs.py:310
+#: src/edit/prefs.py:340
 msgid "Colon"
 msgstr "Doppelpunkt"
 
-#: src/edit/prefs.py:314
+#: src/edit/prefs.py:344
 #, fuzzy
 msgid ""
 "Controls which keys will enter selected completion value into the editor."
@@ -2776,19 +2911,19 @@ msgstr ""
 "Editor vervolöständigt.  Benutzen Sie die Umschalt und Strng Tasten während "
 "Klicken um mehrere werte gleichzeitig zu wählen."
 
-#: src/edit/prefs.py:319
+#: src/edit/prefs.py:349
 msgid "Insert at Cursor"
 msgstr "Am Cursor Einfügen"
 
-#: src/edit/prefs.py:320
+#: src/edit/prefs.py:350
 msgid "Replace Only Matching Symbols"
 msgstr "Nur übereinstimmende Symbole ersetzen"
 
-#: src/edit/prefs.py:321
+#: src/edit/prefs.py:351
 msgid "Replace Any Existing Symbol"
 msgstr "Alle existierende Symbole ersetzen"
 
-#: src/edit/prefs.py:325
+#: src/edit/prefs.py:355
 #, fuzzy
 msgid ""
 "Selects how completion is done in the editor:  Either insert the completion "
@@ -2800,7 +2935,7 @@ msgstr ""
 "Cursor einfach einfügen, oder existierendes Symbol vor und nach dem Cursor "
 "ersetzen."
 
-#: src/edit/prefs.py:333
+#: src/edit/prefs.py:363
 #, fuzzy
 msgid ""
 "Controls whether matching in the completer is case sensitive or not.  The "
@@ -2810,19 +2945,19 @@ msgstr ""
 "Kleinschreibung beachtet.  In jeden Fall wird die korrekte Groß- und "
 "Kleinschreibung wird immer am einfügen im Editors benutzt."
 
-#: src/edit/prefs.py:338
+#: src/edit/prefs.py:368
 msgid "The maximum number of lines to show in the auto-completer at once."
 msgstr ""
 
-#: src/edit/prefs.py:344
+#: src/edit/prefs.py:374
 msgid "Disable"
 msgstr "Deaktivieren"
 
-#: src/edit/prefs.py:345
+#: src/edit/prefs.py:375
 msgid "Enable"
 msgstr "Aktivieren"
 
-#: src/edit/prefs.py:349
+#: src/edit/prefs.py:379
 msgid ""
 "Controls whether or not use the completer in non-Python files, where it uses "
 "a simple word list generated from the existing contents of the file.  If "
@@ -2830,14 +2965,14 @@ msgid ""
 "be specified here.This value overrides any character threshold set above."
 msgstr ""
 
-#: src/edit/prefs.py:364
+#: src/edit/prefs.py:394
 msgid ""
 "Sets the minimum size of words to add to the completion list for non-Python "
 "files.  This affects only words found in the file, and not words included "
 "because they are keywords for that file type."
 msgstr ""
 
-#: src/edit/prefs.py:373
+#: src/edit/prefs.py:403
 msgid ""
 "Column at which text should be wrapped by commands that automatically "
 "rearrange text"
@@ -2845,18 +2980,18 @@ msgstr ""
 "Spalte, an der Text durch Befehle, die den Text automatisch neu anordnen, "
 "umgebrochen werden sollte"
 
-#: src/edit/prefs.py:382
+#: src/edit/prefs.py:412
 msgid "Shows or hides line numbers on the editor."
 msgstr "Zeilennummern im Editor ein- oder ausblenden"
 
-#: src/edit/prefs.py:386
+#: src/edit/prefs.py:416
 #, fuzzy
 msgid "Whether to enable folding source code."
 msgstr ""
 "Auf Wahr setzen, um strukturelles Falten im Quelltest zu aktivieren, Falsch "
 "zum deaktivieren"
 
-#: src/edit/prefs.py:390
+#: src/edit/prefs.py:420
 #, fuzzy
 msgid ""
 "Selects the mime types for which folding should be allowed when folding in "
@@ -2865,150 +3000,150 @@ msgstr ""
 "Auf eine Liste von Mime-Typen einstellen, für welche das Falten erlaubt sein "
 "sollte, wenn Falten im Allgemeinen aktiviert ist. "
 
-#: src/edit/prefs.py:399
+#: src/edit/prefs.py:429
 msgid "Above Expanded"
 msgstr "Oben Erweitert"
 
-#: src/edit/prefs.py:400
+#: src/edit/prefs.py:430
 msgid "Below Expanded"
 msgstr "Unten Erweitert"
 
-#: src/edit/prefs.py:401
+#: src/edit/prefs.py:431
 msgid "Above Collapsed"
 msgstr "Oben Zusammengeklappt"
 
-#: src/edit/prefs.py:402
+#: src/edit/prefs.py:432
 msgid "Below Collapsed"
 msgstr "Unten Zusammengeklappt"
 
-#: src/edit/prefs.py:403
+#: src/edit/prefs.py:433
 msgid "None"
 msgstr "Keine"
 
-#: src/edit/prefs.py:407
+#: src/edit/prefs.py:437
 msgid ""
 "Whether and how to show a line at a collapsed fold point.  Controls the "
 "position of the line and whether it is shown for collapsed or expanded fold "
 "points."
 msgstr ""
 
-#: src/edit/prefs.py:414
+#: src/edit/prefs.py:444
 msgid "Selects the type of indicators to draw at fold points."
 msgstr ""
 
-#: src/edit/prefs.py:415
+#: src/edit/prefs.py:445
 msgid "Arrows"
 msgstr "Pfeile"
 
-#: src/edit/prefs.py:415
+#: src/edit/prefs.py:445
 msgid "Plus/Minus"
 msgstr "Plus/Minus"
 
-#: src/edit/prefs.py:415
+#: src/edit/prefs.py:445
 msgid "Rounded Tree"
 msgstr "Gerundeter Baum"
 
-#: src/edit/prefs.py:416
+#: src/edit/prefs.py:446
 msgid "Square Tree"
 msgstr "Quadratischer Baum"
 
-#: src/edit/prefs.py:419
+#: src/edit/prefs.py:449
 msgid ""
 "Controls whether or not trailing white space after a block of code is folded "
 "up along with the block, for a more compact folded display."
 msgstr ""
 
-#: src/edit/prefs.py:426
+#: src/edit/prefs.py:456
 msgid "Color to use for the foreground of the fold indicators."
 msgstr ""
 
-#: src/edit/prefs.py:433
+#: src/edit/prefs.py:463
 msgid "Color to use for the background of the fold indicators."
 msgstr ""
 
-#: src/edit/prefs.py:440
+#: src/edit/prefs.py:470
 #, fuzzy
 msgid "Plain Underline"
 msgstr "Unterstreichen"
 
-#: src/edit/prefs.py:441
+#: src/edit/prefs.py:471
 #, fuzzy
 msgid "Thick Underline"
 msgstr "Unterstreichen"
 
-#: src/edit/prefs.py:442
+#: src/edit/prefs.py:472
 #, fuzzy
 msgid "Squiggly Underline"
 msgstr "Unterstreichen"
 
-#: src/edit/prefs.py:443
+#: src/edit/prefs.py:473
 #, fuzzy
 msgid "Plain Box"
 msgstr "Normaler Text"
 
-#: src/edit/prefs.py:444
+#: src/edit/prefs.py:474
 #, fuzzy
 msgid "Filled Box"
 msgstr "Gefüllter Block"
 
-#: src/edit/prefs.py:449
+#: src/edit/prefs.py:479
 msgid ""
 "Visual display style to use for code errors and warnings shown on the editor."
 msgstr ""
 
-#: src/edit/prefs.py:457
+#: src/edit/prefs.py:487
 #, fuzzy
 msgid "Color to use to indicate code errors in the editor."
 msgstr "Zeilennummern im Editor ein- oder ausblenden"
 
-#: src/edit/prefs.py:465
+#: src/edit/prefs.py:495
 msgid "Color to use to indicate code warnings in the editor."
 msgstr ""
 
-#: src/edit/prefs.py:473
+#: src/edit/prefs.py:503
 msgid "Outdent Region"
 msgstr "Ausrückungsbereich"
 
-#: src/edit/prefs.py:474
+#: src/edit/prefs.py:504
 msgid "Indent To Match"
 msgstr "Einrücken zum Anpassen"
 
-#: src/edit/prefs.py:475
+#: src/edit/prefs.py:505
 msgid "Comment out Region"
 msgstr "Bereich auskommentieren"
 
-#: src/edit/prefs.py:476
+#: src/edit/prefs.py:506
 msgid "Uncomment out Region"
 msgstr "Kommentar im Bereich aufheben"
 
-#: src/edit/prefs.py:479
+#: src/edit/prefs.py:509
 msgid "Always Select"
 msgstr "Immer auswählen"
 
-#: src/edit/prefs.py:480
+#: src/edit/prefs.py:510
 msgid "Retain Select"
 msgstr "Auswählen beibehalten"
 
-#: src/edit/prefs.py:481
+#: src/edit/prefs.py:511
 msgid "Never Select"
 msgstr "Niemals auswählen"
 
-#: src/edit/prefs.py:486
+#: src/edit/prefs.py:516
 msgid ""
 "This controls whether to retain selection in the editor after certain "
 "operations. The editor may always select the text that was operated on, only "
 "retain existing selections, or never select after the operation completes."
 msgstr ""
 
-#: src/edit/prefs.py:498
+#: src/edit/prefs.py:528
 msgid "Editor Action"
 msgstr "Editor-Aktion"
 
-#: src/edit/prefs.py:498
+#: src/edit/prefs.py:528
 msgid "Policy"
 msgstr "Richtlinie"
 
-#: src/edit/prefs.py:503
+#: src/edit/prefs.py:533
 #, fuzzy
 msgid ""
 "Enabled to automatically highlight the matching braces next to the cursor or "
@@ -3017,23 +3152,23 @@ msgstr ""
 "Auf Wahr setzen, um automatisch entsprechende Klammern neben dem Cursor "
 "hervorzuheben oder wenn sie getippt werden."
 
-#: src/edit/prefs.py:509
+#: src/edit/prefs.py:539
 msgid "The color used to highlight matching braces."
 msgstr ""
 
-#: src/edit/prefs.py:516
+#: src/edit/prefs.py:546
 msgid "The color used to highlight bad braces."
 msgstr ""
 
-#: src/edit/prefs.py:523
+#: src/edit/prefs.py:553
 msgid "The background color used to highlight matching braces."
 msgstr ""
 
-#: src/edit/prefs.py:530
+#: src/edit/prefs.py:560
 msgid "The background color used to highlight bad braces."
 msgstr ""
 
-#: src/edit/prefs.py:535
+#: src/edit/prefs.py:565
 msgid ""
 "Enable or disable Wing's auto-editing capability.  When enabled, a default "
 "set of individual auto-editing operations (such as auto-closing quotes and "
@@ -3042,73 +3177,71 @@ msgid ""
 "preferences."
 msgstr ""
 
-#: src/edit/prefs.py:547
+#: src/edit/prefs.py:577
 msgid ""
 "Enable to auto-close quotes, parenthesis, braces, comments, and so forth."
 msgstr ""
 
-#: src/edit/prefs.py:553
+#: src/edit/prefs.py:583
 msgid ""
 "Enable auto-entry of invocation arguments for a function or method call."
 msgstr ""
 
-#: src/edit/prefs.py:559
+#: src/edit/prefs.py:589
 msgid "Enable auto-wrapping of arguments during auto-invocation."
 msgstr ""
 
-#: src/edit/prefs.py:565
+#: src/edit/prefs.py:595
 msgid ""
 "Enable auto-invocation to occur automatically after a callable symbol is "
 "entered by the auto-completer."
 msgstr ""
 
-#: src/edit/prefs.py:571
+#: src/edit/prefs.py:601
 msgid "Enable placing quotes around a non-empty selection."
 msgstr ""
 
-#: src/edit/prefs.py:577
+#: src/edit/prefs.py:607
 msgid ""
 "Enable commenting out a non-empty selection when a comment character is "
 "pressed."
 msgstr ""
 
-#: src/edit/prefs.py:583
+#: src/edit/prefs.py:613
 msgid "Enable surrounding non-empty selection when a parenthesis is pressed."
 msgstr ""
 
-#: src/edit/prefs.py:589
+#: src/edit/prefs.py:619
 msgid ""
 "Enable creating a new block with a selected range of lines when colon is "
 "pressed."
 msgstr ""
 
-#: src/edit/prefs.py:595
+#: src/edit/prefs.py:625
 msgid "Enable auto-entering spaces around operators and punctuation."
 msgstr ""
 
-#: src/edit/prefs.py:601
+#: src/edit/prefs.py:631
 msgid "Enable auto-entering spaces after keywords."
 msgstr ""
 
-#: src/edit/prefs.py:607
+#: src/edit/prefs.py:637
 msgid ""
-"When auto-entering spaces is enabled, enforce PEP8 style spacing by "
+"When auto-entering spaces is enabled, enforce PEP 8 style spacing by "
 "preventing redundant spaces."
 msgstr ""
 
-#: src/edit/prefs.py:614
-msgid ""
-"When auto-entering spaces is enabled, also auto-enter spaces around \"=\" in "
-"argument lists."
+#: src/edit/prefs.py:645
+msgid "Override PEP 8 by adding spaces around = in argument lists."
 msgstr ""
 
-#: src/edit/prefs.py:621
+#: src/edit/prefs.py:651
 msgid ""
 "When auto-entering spaces is enabled, also auto-enter spaces around \":\" in "
 "type annotations."
 msgstr ""
 
-#: src/edit/prefs.py:628
+#: src/edit/prefs.py:658
 msgid ""
 "Auto-enter newline and auto-indent after typing a colon that starts a new "
 "Python block and indent following line or block of lines when colon is "
@@ -3116,55 +3249,50 @@ msgid ""
 "range of lines as the body, if colon is pressed on a non-empty selection."
 msgstr ""
 
-#: src/edit/prefs.py:638
+#: src/edit/prefs.py:668
 msgid ""
 "Automatically continue comments or strings in the form (\"\") or () after a "
 "newline is typed within the comment or string text"
 msgstr ""
 
-#: src/edit/prefs.py:645
+#: src/edit/prefs.py:675
 msgid ""
 "Automatically correct code when typing keys out of order. This handles cases "
 "such as x(.) -> x(). and x(:) -> x(): as well as auto-inserting . when "
 "missing"
 msgstr ""
 
-#: src/edit/prefs.py:660
+#: src/edit/prefs.py:690
 msgid "Control whether and how edge markers are shown in the editor."
 msgstr ""
 
-#: src/edit/prefs.py:663
+#: src/edit/prefs.py:693
 msgid "Column"
 msgstr "Spalte"
 
-#: src/edit/prefs.py:663
+#: src/edit/prefs.py:693
 msgid "Mode"
 msgstr "Modus"
 
-#: src/edit/prefs.py:663 src/edit/prefs.py:799
+#: src/edit/prefs.py:693 src/edit/prefs.py:829
 msgid "Color"
 msgstr "Farbe"
 
-#: src/edit/prefs.py:664
+#: src/edit/prefs.py:694
 msgid "Border"
 msgstr "Linie"
 
-#: src/edit/prefs.py:664 src/edit/prefs.py:717
-#: src/edit/syntaxformatting.py:147
+#: src/edit/prefs.py:694 src/edit/prefs.py:747 src/edit/syntaxformatting.py:147
 msgid "Background"
 msgstr "Hintergrund"
 
-#: src/edit/prefs.py:664 src/edit/prefs.py:797
-msgid "Disabled"
-msgstr "Deaktiviert"
-
-#: src/edit/prefs.py:675
+#: src/edit/prefs.py:705
 #, fuzzy
 msgid "Enable to wrap long source lines on the editor display."
 msgstr ""
 "Auf wahr setzen, um lange Source-Zeilen in der Editor-Ansicht umzubrechen."
 
-#: src/edit/prefs.py:695
+#: src/edit/prefs.py:725
 msgid ""
 "The base font and size to use for the source code editor, Python Shell, "
 "Debug Probe, Source Assistant, and other tools that display source code."
@@ -3173,11 +3301,11 @@ msgstr ""
 "Python-Shell, dem Debug-Test, Source-Assistent und anderen Werkzeugen, die "
 "Quelltext anzeigen."
 
-#: src/edit/prefs.py:699
+#: src/edit/prefs.py:729
 msgid "Match Display Font/Size"
 msgstr "Schriftart/-größe der Anzeige anpassen"
 
-#: src/edit/prefs.py:706
+#: src/edit/prefs.py:736
 msgid ""
 "Background color to use on the source editor, Python Shell, Debug Probe, "
 "Source Assistant, and other tools that display source code.  Foreground "
@@ -3189,21 +3317,21 @@ msgstr ""
 "anzeigen. Die Vordergrundfarben für den Text werden automatisch geändert, "
 "damit sie sich von der Hintergrundfarbe abheben."
 
-#: src/edit/prefs.py:715
+#: src/edit/prefs.py:745
 msgid "No marker"
 msgstr "Keine Markierung"
 
-#: src/edit/prefs.py:716
+#: src/edit/prefs.py:746
 msgid "Underline"
 msgstr "Unterstreichen"
 
-#: src/edit/prefs.py:722
+#: src/edit/prefs.py:752
 msgid ""
 "Visual display style to use for bookmarks:  Either an underline, a "
 "background color change, or no visible marker."
 msgstr ""
 
-#: src/edit/prefs.py:735
+#: src/edit/prefs.py:765
 msgid ""
 "Color to use on the source editor for differences during a diff/merge "
 "session.  The current mark is drawn in a lighter version of the same color.  "
@@ -3211,7 +3339,7 @@ msgid ""
 "color set in the Text Selection Color preference."
 msgstr ""
 
-#: src/edit/prefs.py:751
+#: src/edit/prefs.py:781
 msgid ""
 "Color to use on the source editor for already merged differences during a "
 "diff/merge session.  The current mark is drawn in a lighter version of the "
@@ -3219,18 +3347,18 @@ msgid ""
 "with the color set in the Text Selection Color preference."
 msgstr ""
 
-#: src/edit/prefs.py:767
+#: src/edit/prefs.py:797
 msgid ""
 "Color to use on the source editor to indicate the location of user-defined "
 "bookmarks."
 msgstr ""
 
-#: src/edit/prefs.py:776
+#: src/edit/prefs.py:806
 msgid "Show a confirmation dialog when deleting bookmarks"
 msgstr ""
 
 # HTK: Caret
-#: src/edit/prefs.py:782
+#: src/edit/prefs.py:812
 msgid ""
 "Width of the blinking insertion caret on the editor, in pixels.  Currently "
 "limited to a value between 1 and 3."
@@ -3239,49 +3367,49 @@ msgstr ""
 "einen Wert zwischen 1 und 3 begrenzt."
 
 # HTK: Caret
-#: src/edit/prefs.py:791
+#: src/edit/prefs.py:821
 msgid ""
 "Selects whether to highlight the line the caret is currently on. When "
 "enabled, a highlight color and alpha (transparency) can be set."
 msgstr ""
 
-#: src/edit/prefs.py:798
+#: src/edit/prefs.py:828
 msgid "Enabled"
 msgstr "Aktiviert"
 
-#: src/edit/prefs.py:799
+#: src/edit/prefs.py:829
 msgid "Transparency"
 msgstr "Transparenz"
 
 # HTK: Caret
-#: src/edit/prefs.py:807
+#: src/edit/prefs.py:837
 msgid "Selects the color to use for the editor caret."
 msgstr ""
 
 # HTK: Caret
-#: src/edit/prefs.py:815
+#: src/edit/prefs.py:845
 msgid ""
 "Sets the time in milliseconds between showing and hiding the caret when it "
 "is flashing; use 0 to disable flashing entirely"
 msgstr ""
 
-#: src/edit/prefs.py:821
+#: src/edit/prefs.py:851
 msgid "Always Use Current Split"
 msgstr "Immer aktuelle Teilung verwenden"
 
-#: src/edit/prefs.py:822
+#: src/edit/prefs.py:852
 msgid "Reuse Visible or Use Current Split"
 msgstr "Sichtbare oder aktuelle Teilung wieder verwenden"
 
-#: src/edit/prefs.py:823
+#: src/edit/prefs.py:853
 msgid "Reuse Visible or Use Adjacent Split"
 msgstr "Sichtbare wieder oder benachbarte Teilung verwenden"
 
-#: src/edit/prefs.py:824
+#: src/edit/prefs.py:854
 msgid "Always Use Adjacent Split"
 msgstr "Immer benachbarte Teilung verwenden"
 
-#: src/edit/prefs.py:829
+#: src/edit/prefs.py:859
 msgid ""
 "Policy for reusing splits in editors when new files are opened:  Either "
 "always open in current split, reuse already visible editor falling back on "
@@ -3296,7 +3424,7 @@ msgstr ""
 "benachbarte Teilung oder immer in benachbarter Teilung öffnen.  Dies hat nur "
 "Auswirkungen wenn mehr als eine Editor-Teilung sichtbar ist."
 
-#: src/edit/prefs.py:844
+#: src/edit/prefs.py:874
 msgid ""
 "Paste text into the editor from the clipboard when the middle mouse button "
 "is pressed. Disabling this is mainly useful for wheel mice with a soft wheel "
@@ -3306,7 +3434,7 @@ msgstr ""
 "gedrückt wird.  Diese Einstellung deaktivieren um probleme zu vermeiden mit "
 "Mausräder die auch als Mittelmaustaste dienen."
 
-#: src/edit/prefs.py:858
+#: src/edit/prefs.py:888
 msgid ""
 "Show indent mismatch warning dialog when user selects an indent style that "
 "is incompatible with existing file content.  This only applies to non-Python "
@@ -3316,7 +3444,7 @@ msgstr ""
 "existierende Einrückung im Datei passt.  Diese Einstellung wird nur für "
 "nicht-Python Dateien benutzt."
 
-#: src/edit/prefs.py:867
+#: src/edit/prefs.py:897
 msgid ""
 "Input method used for typing characters.  This is important primarily for "
 "non-Western European languages."
@@ -3324,27 +3452,29 @@ msgstr ""
 "Texteingabemethode.  Dieses wird haubtsächlich für nicht-West Europäische "
 "Sprachen benutzt."
 
-#: src/edit/prefs.py:873
+#: src/edit/prefs.py:903
 msgid "## Block Comment in Column 0"
 msgstr "## Block-Kommentar in Spalte 0"
 
-#: src/edit/prefs.py:874
-msgid "# PEP8 Style Comment in Column 0"
+#: src/edit/prefs.py:904
+#, fuzzy
+msgid "# PEP 8 Style Comment in Column 0"
 msgstr "# PEP8 Stil Kommentar in Spalte 0"
 
-#: src/edit/prefs.py:875
+#: src/edit/prefs.py:905
 msgid "# Indented Comment"
 msgstr "# Eingerückter Kommentar"
 
-#: src/edit/prefs.py:876
-msgid "# Indented PEP8 Style Comment"
+#: src/edit/prefs.py:906
+#, fuzzy
+msgid "# Indented PEP 8 Style Comment"
 msgstr "# Eingerückter PEP8 Stil Kommentar"
 
-#: src/edit/prefs.py:881
+#: src/edit/prefs.py:911
 msgid "Style of commenting to use when commenting out blocks of Python code."
 msgstr ""
 
-#: src/edit/prefs.py:888
+#: src/edit/prefs.py:918
 msgid ""
 "Formatting options for syntax coloring in editors.  Colors are relative to a "
 "white background and will be transformed if the background color is set to a "
@@ -3354,7 +3484,7 @@ msgstr ""
 "beziehen sich auf einen weißen Hintergrund und werden umgewandelt, wenn die "
 "Hintergrundfarbe nicht weiß ist."
 
-#: src/edit/prefs.py:899
+#: src/edit/prefs.py:930
 #, fuzzy
 msgid ""
 "Use default foreground colors for all text when printing.  This is necessary "
@@ -3365,72 +3495,72 @@ msgstr ""
 "an einen dunklen Hintergrund angepasst wurde. Als Hintergrundfarbe wird für "
 "das Drucken weiß angenommen."
 
-#: src/edit/prefs.py:907
+#: src/edit/prefs.py:938
 msgid ""
 "Controls whether to sort Find Symbol dialog alphabetically or in natural "
 "file order"
 msgstr ""
 
-#: src/edit/prefs.py:914
+#: src/edit/prefs.py:945
 msgid ""
 "Controls whether to include argument specs in the searchable text used in "
 "the Find Symbol dialog"
 msgstr ""
 
-#: src/edit/prefs.py:920
+#: src/edit/prefs.py:951
 msgid "Whether or not to include code snippets in the auto-completer."
 msgstr ""
 
-#: src/edit/prefs.py:927
+#: src/edit/prefs.py:974
 msgid ""
 "Automatically clear the OS Commands consoles each time the command is re-"
 "executed"
 msgstr ""
 
-#: src/edit/prefs.py:933
+#: src/edit/prefs.py:980
 msgid ""
 "Drop into Python shell after executing any Python file in the OS Commands "
 "tool"
 msgstr ""
 
-#: src/edit/prefs.py:939
+#: src/edit/prefs.py:986
 msgid ""
 "Wrap long output lines in OS Commands tool to fit within available display "
 "area."
 msgstr ""
 
-#: src/edit/prefs.py:944
+#: src/edit/prefs.py:991
 msgid "Console default (%s)"
 msgstr ""
 
-#: src/edit/prefs.py:949
+#: src/edit/prefs.py:996
 msgid ""
 "Default encoding of sub-process input/output when run in the OS Commands "
 "panel.  This can be overridden on a per-command basis, in each command's "
 "properties."
 msgstr ""
 
-#: src/edit/prefs.py:958
+#: src/edit/prefs.py:1005
 msgid "Highlight Python builtins"
 msgstr "Python-Builtins hervorheben"
 
-#: src/edit/prefs.py:963
+#: src/edit/prefs.py:1010
 msgid "Match Keyboard Personality"
 msgstr ""
 
-#: src/edit/prefs.py:964
+#: src/edit/prefs.py:1011
 msgid "If Upper Case Char is Typed"
 msgstr "Wenn ein Großbuchstabe getippt wird"
 
-#: src/edit/prefs.py:965
+#: src/edit/prefs.py:1012
 msgid "Always Case Sensitive"
 msgstr "Immer Groß-/Kleinschreibung beachten"
 
-#: src/edit/prefs.py:966
+#: src/edit/prefs.py:1013
 msgid "Always Case Insensitive"
 msgstr "Immer Groß-/Kleinschreibung ignorieren"
 
-#: src/edit/prefs.py:971
+#: src/edit/prefs.py:1018
 msgid ""
 "Whether or not mini-search is case sensitive.  May match the current "
 "keyboard personality's default, use case sensitive search only if an upper "
@@ -3438,182 +3568,182 @@ msgid ""
 "insensitively."
 msgstr ""
 
-#: src/edit/prefs.py:980
+#: src/edit/prefs.py:1027
 msgid "Whole Words Only"
 msgstr "Nur ganze Wörter"
 
-#: src/edit/prefs.py:984
+#: src/edit/prefs.py:1031
 msgid ""
 "Selects when to automatically highlight other occurrences of the current "
 "selection on the editor"
 msgstr ""
 
-#: src/edit/prefs.py:991
+#: src/edit/prefs.py:1038
 msgid ""
 "Disable to allow occurrences highlighting also where case does not match."
 msgstr ""
 
-#: src/edit/prefs.py:995
+#: src/edit/prefs.py:1042
 msgid "Rectangle"
 msgstr "Rechteck"
 
-#: src/edit/prefs.py:996
+#: src/edit/prefs.py:1043
 msgid "Filled Block"
 msgstr "Gefüllter Block"
 
-#: src/edit/prefs.py:1001
+#: src/edit/prefs.py:1048
 msgid ""
 "The style of indicator to use for highlighting other occurrences of the "
 "current selection on the editor."
 msgstr ""
 
-#: src/edit/prefs.py:1009
+#: src/edit/prefs.py:1056
 #, fuzzy
 msgid "The color used to indicate the current text selection on editable text."
 msgstr "Möchten Sie nur die aktuelle Auswahl im Editor drucken?"
 
-#: src/edit/prefs.py:1016
+#: src/edit/prefs.py:1063
 msgid "The maximum number of names allowed on a single symbol menu"
 msgstr ""
 
-#: src/edit/prefs.py:1021
+#: src/edit/prefs.py:1068
 msgid "Set this to allow scrolling the editor past the last line."
 msgstr ""
 
-#: src/edit/prefs.py:1025
+#: src/edit/prefs.py:1072
 msgid "Do Nothing"
 msgstr ""
 
-#: src/edit/prefs.py:1026
+#: src/edit/prefs.py:1073
 msgid "Copy Whole Line"
 msgstr "Ganze Zeile kopieren"
 
-#: src/edit/prefs.py:1027
+#: src/edit/prefs.py:1074
 msgid "Cut or Copy Whole Line"
 msgstr "Ganze Zeile kopieren oder ausschneiden"
 
-#: src/edit/prefs.py:1031
+#: src/edit/prefs.py:1078
 msgid ""
 "Controls whether or not to copy or cut the whole current line when there is "
 "no selection on the editor."
 msgstr ""
 
-#: src/edit/prefs.py:1039
+#: src/edit/prefs.py:1086
 msgid "Clipboard"
 msgstr "Zwischenablage"
 
-#: src/edit/prefs.py:1040
+#: src/edit/prefs.py:1087
 msgid "Navigation"
 msgstr "Navigation"
 
-#: src/edit/prefs.py:1041
+#: src/edit/prefs.py:1088
 msgid "Debug/Test"
 msgstr "Debuggen/Testen"
 
-#: src/edit/prefs.py:1042
+#: src/edit/prefs.py:1089
 msgid "Commenting"
 msgstr "Kommentieren"
 
-#: src/edit/prefs.py:1044
+#: src/edit/prefs.py:1091
 msgid "Revision Control"
 msgstr "Versionsverwaltung"
 
-#: src/edit/prefs.py:1045
+#: src/edit/prefs.py:1092
 msgid "Script-Defined Items"
 msgstr ""
 
-#: src/edit/prefs.py:1049
+#: src/edit/prefs.py:1096
 msgid ""
 "Controls which groups of menu items will be shown in the editor's context "
 "menu."
 msgstr ""
 
-#: src/edit/prefs.py:1056
+#: src/edit/prefs.py:1103
 msgid "Extra menu items to add to the editor context menu."
 msgstr ""
 
-#: src/edit/prefs.py:1058
+#: src/edit/prefs.py:1105
 msgid "Item Name"
 msgstr "Eintrag Name"
 
-#: src/edit/prefs.py:1063
+#: src/edit/prefs.py:1110
 msgid "Whether to add an eol at the end of the file when it is saved"
 msgstr ""
 
-#: src/edit/prefs.py:1068
+#: src/edit/prefs.py:1115
 msgid ""
 "Whether to allow font size zooming in the editor, using the mouse wheel, "
 "track pad, or zoom-in and zoom-out commands."
 msgstr ""
 
-#: src/edit/prefs.py:1074
+#: src/edit/prefs.py:1121
 msgid ""
 "The amount by which to zoom font sizes in or out in the Source Assistant."
 msgstr ""
 
-#: src/edit/prefs.py:1080
+#: src/edit/prefs.py:1127
 msgid "Default"
 msgstr "Standard"
 
-#: src/edit/prefs.py:1081
+#: src/edit/prefs.py:1128
 msgid "Top and Bottom"
 msgstr "Oben und unten"
 
-#: src/edit/prefs.py:1082
+#: src/edit/prefs.py:1129
 msgid "Side by Side"
 msgstr "Seite an Seite"
 
-#: src/edit/prefs.py:1085
+#: src/edit/prefs.py:1132
 msgid ""
 "The type of split to create with commands that display in other split.  The "
 "default is to split horizontally if the window width is greater than the "
 "height and to split vertically otherwise."
 msgstr ""
 
-#: src/edit/prefs.py:1113
+#: src/edit/prefs.py:1160
 msgid "Command-Click"
 msgstr "Kommando-Klick"
 
-#: src/edit/prefs.py:1114 src/edit/prefs.py:1117
+#: src/edit/prefs.py:1161 src/edit/prefs.py:1164
 msgid "Alt-Click"
 msgstr "Alt-Klick"
 
-#: src/edit/prefs.py:1116 src/edit/prefs.py:1119
+#: src/edit/prefs.py:1163 src/edit/prefs.py:1166
 msgid "Ctrl-Click"
 msgstr "Strg-Klick"
 
-#: src/edit/prefs.py:1120
+#: src/edit/prefs.py:1167
 msgid "Alt-Click or Meta-Click"
 msgstr "Alt-Klick oder Meta-Klick"
 
-#: src/edit/prefs.py:1142
+#: src/edit/prefs.py:1189
 msgid "If there are multiple selections"
 msgstr ""
 
-#: src/edit/prefs.py:1147
+#: src/edit/prefs.py:1194
 msgid "When to display multiple selections popup window"
 msgstr ""
 
-#: src/edit/prefs.py:1157
+#: src/edit/prefs.py:1204
 #, fuzzy
 msgid "On Dark Backgrounds"
 msgstr "Hintergrund"
 
-#: src/edit/prefs.py:1163
+#: src/edit/prefs.py:1210
 msgid ""
 "When to use a custom mouse cursor.  The color of the cursor will be the "
 "color of the caret."
 msgstr ""
 
-#: src/edit/prefs.py:1172
+#: src/edit/prefs.py:1219
 msgid "Bookmark categories that are shared with all projects."
 msgstr ""
 
-#: src/edit/printer.py:348
+#: src/edit/printer.py:347
 msgid "Print Failed"
 msgstr "Drucken gescheitert"
 
-#: src/edit/printer.py:349
+#: src/edit/printer.py:348
 msgid ""
 "Print aborted because no characters will fit on a page.  Please check the "
 "page margins and font sizes."
@@ -3637,26 +3767,26 @@ msgstr "Kursiv"
 msgid "EOL Filled"
 msgstr "EOL gefüllt"
 
-#: src/edit/utils.py:797
+#: src/edit/utils.py:802
 msgid "Return value:"
 msgstr "Rückgabe-Wert:"
 
-#: src/edit/utils.py:936
+#: src/edit/utils.py:941
 msgid "Copy"
 msgstr "Kopieren"
 
-#: src/edit/utils.py:979
+#: src/edit/utils.py:984
 #, fuzzy
 msgid "{} failed because text could not be copied to clipboard"
 msgstr ""
 "Ausschneiden fehlgeschlagen, da der Text nicht in die Zwischenablage kopiert "
 "werden kann"
 
-#: src/edit/utils.py:1044
+#: src/edit/utils.py:1049
 msgid "Cut"
 msgstr "Ausschneiden"
 
-#: src/edit/utils.py:1063
+#: src/edit/utils.py:1068
 msgid "Cut failed because text could not be copied to clipboard"
 msgstr ""
 "Ausschneiden fehlgeschlagen, da der Text nicht in die Zwischenablage kopiert "

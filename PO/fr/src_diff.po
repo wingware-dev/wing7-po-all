@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.0\n"
-"POT-Creation-Date: 2018-04-16 16:39+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2016-12-15 06:46+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez@protonmail.com>\n"
 "Language-Team: None\n"
@@ -16,8 +16,7 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: src/diff/diffpanel.py:52 src/diff/diffpanel.py:134
-#: src/diff/diffpanel.py:187
+#: src/diff/diffpanel.py:52 src/diff/diffpanel.py:134 src/diff/diffpanel.py:187
 msgid "Diff/Merge"
 msgstr "Diff/fusion"
 
@@ -58,9 +57,7 @@ msgstr "Comparaison échouée"
 msgid ""
 "Compare to repository failed:  You must save changes or revert to disk "
 "before comparing to the repository."
-msgstr ""
-"Comparaison au dépôt échouée : Vous devez enregistrer les modifications ou "
-"revenir sur XXX"
+msgstr "Comparaison au dépôt échouée : Vous devez enregistrer les modifications ou revenir sur XXX"
 
 #: src/diff/manager.py:260
 msgid "OK"
@@ -74,9 +71,7 @@ msgstr "Pas de différences trouvées"
 msgid ""
 "One or more diff/merge sessions are now empty because white space "
 "differences are being ignored."
-msgstr ""
-"Une ou plusieurs sessions de diff/fusion sont vides maintenant car les "
-"différences d'espaces blancs sont ignorées."
+msgstr "Une ou plusieurs sessions de diff/fusion sont vides maintenant car les différences d'espaces blancs sont ignorées."
 
 #: src/diff/manager.py:399 src/diff/manager.py:621
 msgid "Show White Space"
@@ -122,9 +117,7 @@ msgstr "La session contient seulement des modifications d'espaces blancs"
 msgid ""
 "This diff/merge session contains only white space changes but white space is "
 "being ignored."
-msgstr ""
-"Cette session de diff/fusion contient uniquement des modifications d'espaces "
-"blancs mais ceux-ci sont actuellement ignorés."
+msgstr "Cette session de diff/fusion contient uniquement des modifications d'espaces blancs mais ceux-ci sont actuellement ignorés."
 
 #: src/diff/manager.py:623
 msgid "Cancel"
@@ -139,10 +132,7 @@ msgid ""
 "The enclosing directories for this file do not exist but must be created "
 "before performing this merge.  Should Wing create the following directories "
 "or cancel the merge operation?"
-msgstr ""
-"Les répertoires inclus pour ce fichier n'existent pas mais doivent être "
-"créés avant d'effectuer cette fusion. Est-ce que Wing doit créer les "
-"répertoires suivants ou annuler l'opération de fusion ?"
+msgstr "Les répertoires inclus pour ce fichier n'existent pas mais doivent être créés avant d'effectuer cette fusion. Est-ce que Wing doit créer les répertoires suivants ou annuler l'opération de fusion ?"
 
 #: src/diff/manager.py:1060
 msgid "Create"
@@ -210,8 +200,7 @@ msgstr "N'a pas pu trouver un système de contrôle de version pour %s"
 
 #: src/diff/manager.py:2117
 msgid "Version control system determination still pending for %s"
-msgstr ""
-"Détermination du système de contrôle de version encore en attente pour %s"
+msgstr "Détermination du système de contrôle de version encore en attente pour %s"
 
 #: src/diff/manager.py:2208
 msgid "Could not obtain revision information from %s"
@@ -232,8 +221,7 @@ msgstr "Fichier du disque : %s"
 
 #: src/diff/manager.py:2360
 msgid "Version control system determination still in progress for %s"
-msgstr ""
-"Détermination du système de contrôle de version encore en progression pour %s"
+msgstr "Détermination du système de contrôle de version encore en progression pour %s"
 
 #: src/diff/manager.py:2369
 msgid "Fetching revision..."
@@ -248,10 +236,7 @@ msgid ""
 "Encoding Error::The encoding of the differences received from the version "
 "control system does not seem to match the file's encoding (%s).  "
 "Unidentifiable characters have been replaced with '?'"
-msgstr ""
-"Erreur d'encodage::L'encodage des différences reçues depuis le système de "
-"contrôle de révisions ne semble pas correspondre à l'encodage du fichier "
-"(%s). Les caractères non identifiables ont été remplacés avec '?'"
+msgstr "Erreur d'encodage::L'encodage des différences reçues depuis le système de contrôle de révisions ne semble pas correspondre à l'encodage du fichier (%s). Les caractères non identifiables ont été remplacés avec '?'"
 
 #: src/diff/manager.py:2478
 msgid "No differences::There are no differences in %s"
@@ -277,24 +262,18 @@ msgstr "Orientation des vues de différence/fusion : côte a côte ou haut/bas"
 msgid ""
 "Controls whether scrolling of the diff/merge editors is locked to "
 "synchronize the editor scroll positions."
-msgstr ""
-"Contrôle que le défilement des éditeurs de diff/fusion est verrouillé pour "
-"synchroniser les positions de défilement d'éditeur."
+msgstr "Contrôle que le défilement des éditeurs de diff/fusion est verrouillé pour synchroniser les positions de défilement d'éditeur."
 
 #: src/diff/prefs.py:38
 msgid ""
 "Controls whether differences will ignore changes that alter white space only."
-msgstr ""
-"Contrôle si les différences ignoreront les modifications qui altèrent "
-"uniquement des espaces blancs."
+msgstr "Contrôle si les différences ignoreront les modifications qui altèrent uniquement des espaces blancs."
 
 #: src/diff/prefs.py:43
 msgid ""
 "Controls whether to warn when changing white space filtering causes sessions "
 "to become empty of changes."
-msgstr ""
-"Contrôle l'avertissement lors du changement du filtrage d'espaces blancs qui "
-"provoque des sessions sans modifications."
+msgstr "Contrôle l'avertissement lors du changement du filtrage d'espaces blancs qui provoque des sessions sans modifications."
 
 #~ msgid "Name"
 #~ msgstr "Nom"

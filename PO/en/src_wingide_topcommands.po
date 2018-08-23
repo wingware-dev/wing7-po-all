@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-04-16 16:37+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:17+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:24GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "These are the high level application control commands."
 msgstr ""
 
-#: src/wingide/topcommands.py:185 src/wingide/topcommands.py:2782
+#: src/wingide/topcommands.py:185 src/wingide/topcommands.py:2783
 msgid " Constructor; fGuiMgr is invariant. "
 msgstr ""
 
@@ -714,7 +714,7 @@ msgstr ""
 msgid ""
 "Show the given document in PDF format by opening it from wingware.com.  Doc "
 "is one\n"
-"    of 'manual', 'intro', or 'howtos'."
+"    of 'manual' (default), 'intro', or 'howtos'."
 msgstr ""
 
 #: src/wingide/topcommands.py:2010
@@ -1026,39 +1026,39 @@ msgstr ""
 msgid "No matching bookmarks defined"
 msgstr ""
 
-#: src/wingide/topcommands.py:2569
+#: src/wingide/topcommands.py:2570
 msgid " Returns list of menu items for selecting bookmark category "
 msgstr ""
 
-#: src/wingide/topcommands.py:2582
+#: src/wingide/topcommands.py:2583
 msgid "Current Bookmark Category"
 msgstr ""
 
-#: src/wingide/topcommands.py:2593
+#: src/wingide/topcommands.py:2594
 msgid ""
 "Set a bookmark at current location on the editor using the next\n"
 "    key press as the name of the bookmark."
 msgstr ""
 
-#: src/wingide/topcommands.py:2602
+#: src/wingide/topcommands.py:2603
 msgid ""
 "Goto bookmark using single character name defined by\n"
 "    the next pressed key"
 msgstr ""
 
-#: src/wingide/topcommands.py:2615
+#: src/wingide/topcommands.py:2616
 msgid ""
 "Remove one or more bookmarks without confirmation (pass in space separated "
 "list of names)"
 msgstr ""
 
-#: src/wingide/topcommands.py:2620
+#: src/wingide/topcommands.py:2621
 msgid ""
 " Start internal profiling.  Profile information is collected for Wing's\n"
 "    internals until internal_profile_stop is executed."
 msgstr ""
 
-#: src/wingide/topcommands.py:2654
+#: src/wingide/topcommands.py:2655
 msgid ""
 " Stop internal profiling after earlier internal_profile_start command.\n"
 "    The profile can be found in the ide.log file or submitted to Wingware "
@@ -1066,297 +1066,297 @@ msgid ""
 "    part of the error log included with a bug report from the Help menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2666
+#: src/wingide/topcommands.py:2667
 msgid " Start logging information about keystroke processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2671
+#: src/wingide/topcommands.py:2672
 msgid " Stop logging information about keystroke processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2676
+#: src/wingide/topcommands.py:2677
 msgid "Restore the given named perspective."
 msgstr ""
 
-#: src/wingide/topcommands.py:2679 src/wingide/topcommands.py:2694
+#: src/wingide/topcommands.py:2680 src/wingide/topcommands.py:2695
 msgid "Invalid Perspective::The perspective '%s' does not exist"
 msgstr ""
 
-#: src/wingide/topcommands.py:2686
+#: src/wingide/topcommands.py:2687
 msgid ""
 " Update the perspective with the current state.  If no name is given,\n"
 "    the active perspective is used. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2703
+#: src/wingide/topcommands.py:2704
 msgid "Display the perspectives manager dialog"
 msgstr ""
 
-#: src/wingide/topcommands.py:2710
+#: src/wingide/topcommands.py:2711
 msgid "Enable auto-perspectives"
 msgstr ""
 
-#: src/wingide/topcommands.py:2722
+#: src/wingide/topcommands.py:2723
 msgid "Disable auto-perspectives"
 msgstr ""
 
-#: src/wingide/topcommands.py:2734
+#: src/wingide/topcommands.py:2735
 msgid "Load the given named file set"
 msgstr ""
 
-#: src/wingide/topcommands.py:2737
+#: src/wingide/topcommands.py:2738
 msgid "Invalid File Set::The named file set '%s' does not exist"
 msgstr ""
 
-#: src/wingide/topcommands.py:2744
+#: src/wingide/topcommands.py:2745
 msgid "Display the file set manager dialog"
 msgstr ""
 
-#: src/wingide/topcommands.py:2750
+#: src/wingide/topcommands.py:2751
 msgid "Create a new named file set with the currently open files"
 msgstr ""
 
-#: src/wingide/topcommands.py:2760
+#: src/wingide/topcommands.py:2761
 msgid "Create a new named file set with the currently selected files"
 msgstr ""
 
-#: src/wingide/topcommands.py:2769
+#: src/wingide/topcommands.py:2770
 msgid "Enter a new license code, replacing any existing license activation"
 msgstr ""
 
-#: src/wingide/topcommands.py:2775
+#: src/wingide/topcommands.py:2776
 msgid "Commands to dynamically generate menu items for the top level menus."
 msgstr ""
 
-#: src/wingide/topcommands.py:2793
+#: src/wingide/topcommands.py:2794
 msgid " Returns list of menu item definitions for all windows. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2800
+#: src/wingide/topcommands.py:2801
 msgid "Untitled"
 msgstr ""
 
-#: src/wingide/topcommands.py:2852
+#: src/wingide/topcommands.py:2853
 msgid ""
 "Return extra Help menu items to include if running on a trial license\n"
 "    or no license"
 msgstr ""
 
-#: src/wingide/topcommands.py:2858 src/wingide/topcommands.py:2884
+#: src/wingide/topcommands.py:2859 src/wingide/topcommands.py:2885
 msgid "Buy Now"
 msgstr ""
 
-#: src/wingide/topcommands.py:2863
+#: src/wingide/topcommands.py:2864
 msgid "Upgrade to Commercial Use Now"
 msgstr ""
 
-#: src/wingide/topcommands.py:2871
+#: src/wingide/topcommands.py:2872
 msgid "Buy Full-Featured Wing Pro"
 msgstr ""
 
-#: src/wingide/topcommands.py:2885
+#: src/wingide/topcommands.py:2886
 msgid "Enter License..."
 msgstr ""
 
-#: src/wingide/topcommands.py:2897
+#: src/wingide/topcommands.py:2898
 msgid ""
 " Returns list of menu item definitions for all documents in active\n"
 "    window. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2923
+#: src/wingide/topcommands.py:2924
 msgid "Wing Help"
 msgstr ""
 
-#: src/wingide/topcommands.py:2950 src/wingide/topcommands.py:2962
-#: src/wingide/topcommands.py:2976
+#: src/wingide/topcommands.py:2951 src/wingide/topcommands.py:2963
+#: src/wingide/topcommands.py:2977
 msgid " Debug loc; used to implement recent menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2955
+#: src/wingide/topcommands.py:2956
 msgid " Generates list of menu items for recent files menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2969
+#: src/wingide/topcommands.py:2970
 msgid " Generates list of menu items for recent projects menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2998 src/wingide/topcommands.py:3075
+#: src/wingide/topcommands.py:2999 src/wingide/topcommands.py:3076
 msgid " Generates list of menu items for recent debug menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3008
+#: src/wingide/topcommands.py:3009
 msgid ""
 "Generates a list of menu items for creating a new debug process,\n"
 "      if multi-process debugging is enabled"
 msgstr ""
 
-#: src/wingide/topcommands.py:3015
+#: src/wingide/topcommands.py:3016
 msgid "Start _New Process"
 msgstr ""
 
-#: src/wingide/topcommands.py:3016
+#: src/wingide/topcommands.py:3017
 msgid "Step _Into New Process"
 msgstr ""
 
-#: src/wingide/topcommands.py:3017
+#: src/wingide/topcommands.py:3018
 msgid "Run to C_ursor in New Process"
 msgstr ""
 
-#: src/wingide/topcommands.py:3019
+#: src/wingide/topcommands.py:3020
 msgid "_Continue All Processes"
 msgstr ""
 
-#: src/wingide/topcommands.py:3020
+#: src/wingide/topcommands.py:3021
 msgid "_Pause All Processes"
 msgstr ""
 
-#: src/wingide/topcommands.py:3021
+#: src/wingide/topcommands.py:3022
 msgid "_Restart All Processes"
 msgstr ""
 
-#: src/wingide/topcommands.py:3022
+#: src/wingide/topcommands.py:3023
 msgid "_Kill All Processes"
 msgstr ""
 
-#: src/wingide/topcommands.py:3028
+#: src/wingide/topcommands.py:3029
 msgid "_Attach to Process..."
 msgstr ""
 
-#: src/wingide/topcommands.py:3029
+#: src/wingide/topcommands.py:3030
 msgid "_Detach from Process"
 msgstr ""
 
-#: src/wingide/topcommands.py:3030
+#: src/wingide/topcommands.py:3031
 msgid "Detach from A_ll Processes"
 msgstr ""
 
-#: src/wingide/topcommands.py:3033
+#: src/wingide/topcommands.py:3034
 msgid "Pro_cesses"
 msgstr ""
 
-#: src/wingide/topcommands.py:3046
+#: src/wingide/topcommands.py:3047
 msgid " Generates list of menu items for named debug entry points. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3058 src/wingide/topcommands.py:3097
+#: src/wingide/topcommands.py:3059 src/wingide/topcommands.py:3098
 msgid "Manage Named Entry Points..."
 msgstr ""
 
-#: src/wingide/topcommands.py:3063
+#: src/wingide/topcommands.py:3064
 msgid " Execute loc; used to implement recent menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3087
+#: src/wingide/topcommands.py:3088
 msgid " Generates list of menu items to execute named entry points. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3103
+#: src/wingide/topcommands.py:3104
 msgid " Invoke script; used to implement recent menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3108
+#: src/wingide/topcommands.py:3109
 msgid " Returns label to use for script. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3120
+#: src/wingide/topcommands.py:3121
 msgid " Generates list of menu items for recent scripts menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3128
+#: src/wingide/topcommands.py:3129
 msgid ""
 " Create list of tool menu items.  If new_window is True, commands attached\n"
 "    to items will create new tool window. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3177 src/wingide/topcommands.py:3182
+#: src/wingide/topcommands.py:3178 src/wingide/topcommands.py:3183
 msgid " Returns list of menu items for the tools menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3187
+#: src/wingide/topcommands.py:3188
 msgid ""
 " Create the dock-specific tools menu items or empty list if not in single\n"
 "    window mode"
 msgstr ""
 
-#: src/wingide/topcommands.py:3194
+#: src/wingide/topcommands.py:3195
 msgid "Show _Horizontal Tool Area"
 msgstr ""
 
-#: src/wingide/topcommands.py:3195
+#: src/wingide/topcommands.py:3196
 msgid "Hide _Horizontal Tool Area"
 msgstr ""
 
-#: src/wingide/topcommands.py:3196
+#: src/wingide/topcommands.py:3197
 msgid "Show _Vertical Tool Area"
 msgstr ""
 
-#: src/wingide/topcommands.py:3197
+#: src/wingide/topcommands.py:3198
 msgid "Hide _Vertical Tool Area"
 msgstr ""
 
-#: src/wingide/topcommands.py:3198
+#: src/wingide/topcommands.py:3199
 msgid "_Move Vertical Tool Area to Right"
 msgstr ""
 
-#: src/wingide/topcommands.py:3199
+#: src/wingide/topcommands.py:3200
 msgid "_Move Vertical Tool Area to Left"
 msgstr ""
 
-#: src/wingide/topcommands.py:3200
+#: src/wingide/topcommands.py:3201
 msgid "Ma_ximize Editor Area"
 msgstr ""
 
-#: src/wingide/topcommands.py:3201
+#: src/wingide/topcommands.py:3202
 msgid "Un-ma_ximize Editor Area"
 msgstr ""
 
-#: src/wingide/topcommands.py:3202
+#: src/wingide/topcommands.py:3203
 msgid "Show Toolbar"
 msgstr ""
 
-#: src/wingide/topcommands.py:3203
+#: src/wingide/topcommands.py:3204
 msgid "Hide Toolbar"
 msgstr ""
 
-#: src/wingide/topcommands.py:3208
+#: src/wingide/topcommands.py:3209
 msgid ""
 " Create list of perspective menu items that call the given action with \n"
 "    the perspective name"
 msgstr ""
 
-#: src/wingide/topcommands.py:3247
+#: src/wingide/topcommands.py:3248
 msgid " Returns list of menu items for setting current perspective "
 msgstr ""
 
-#: src/wingide/topcommands.py:3253
+#: src/wingide/topcommands.py:3254
 msgid " Returns list of menu items for deleting perspectives "
 msgstr ""
 
-#: src/wingide/topcommands.py:3262
+#: src/wingide/topcommands.py:3263
 msgid " Returns list of menu items for selecting keyboard personality "
 msgstr ""
 
-#: src/wingide/topcommands.py:3287
+#: src/wingide/topcommands.py:3288
 msgid " Generates list of menu items for all named file sets. "
 msgstr ""
 
-#: src/wingide/topcommands.py:3293
+#: src/wingide/topcommands.py:3294
 msgid "Generates menu items for remote file open commands"
 msgstr ""
 
-#: src/wingide/topcommands.py:3302
+#: src/wingide/topcommands.py:3303
 msgid "Generates menu items for remote project open commands"
 msgstr ""
 
-#: src/wingide/topcommands.py:3311
+#: src/wingide/topcommands.py:3312
 msgid "Generates menu items for remote project save commands"
 msgstr ""
 
-#: src/wingide/topcommands.py:3320
+#: src/wingide/topcommands.py:3321
 msgid "Generates menu items for remote file save commands"
 msgstr ""
 
-#: src/wingide/topcommands.py:3329
+#: src/wingide/topcommands.py:3330
 msgid "Beep once"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_pysource\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-03-18 19:43+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -21,125 +21,97 @@ msgstr ""
 msgid "Analyze main file for sys.path changes"
 msgstr "Анализ основного файла для изменения sys.path"
 
-#: src/pysource/codewarn.py:60
+#: src/pysource/codewarn.py:61
 #, fuzzy
 msgid "Undefined attribute"
 msgstr "Неопределенное имя: %s"
 
-#: src/pysource/codewarn.py:61
+#: src/pysource/codewarn.py:62
 #, fuzzy
 msgid "Undefined name"
 msgstr "Неопределенное имя: %s"
 
-#: src/pysource/codewarn.py:62
+#: src/pysource/codewarn.py:63
 msgid "Import not found"
 msgstr ""
 
-#: src/pysource/codewarn.py:63
+#: src/pysource/codewarn.py:64
 msgid "Syntax error"
 msgstr ""
 
-#: src/pysource/codewarn.py:64
+#: src/pysource/codewarn.py:65
 msgid "Indent warning"
 msgstr ""
 
-#: src/pysource/codewarn.py:436
-msgid "Imported module not found: {}"
+#: src/pysource/codewarn.py:496
+msgid "Import not found: {}"
 msgstr ""
 
-#: src/pysource/codewarn.py:443
+#: src/pysource/codewarn.py:503
 msgid "Undefined name: %s"
 msgstr "Неопределенное имя: %s"
 
-#: src/pysource/codewarn.py:570
-msgid "Undefined attribute: %s, %s is probably %s"
-msgstr "Неопределенный атрибут: %s, %s возможно %s"
-
-#: src/pysource/codewarn.py:571
+#: src/pysource/codewarn.py:624 src/pysource/codewarn.py:626
 msgid " or "
 msgstr "или"
 
-#: src/pysource/codewarn.py:1050 src/pysource/codewarn.py:1056
-msgid "builtin {}"
+#: src/pysource/codewarn.py:629
+msgid "Attribute undefined: .%s of %s: %s"
 msgstr ""
 
-#: src/pysource/codewarn.py:1051
-msgid "the {} class"
+#: src/pysource/codewarn.py:1242
+msgid "class"
 msgstr ""
 
-#: src/pysource/codewarn.py:1058
-msgid "a {} instance"
+#: src/pysource/codewarn.py:1249
+msgid "module"
 msgstr ""
 
-#: src/pysource/codewarn.py:1060
-msgid "{} instances"
-msgstr ""
-
-#: src/pysource/codewarn.py:1064
-msgid " in {} module"
-msgstr ""
-
-#: src/pysource/codewarn.py:1069
-msgid "the {} module"
-msgstr ""
-
-#: src/pysource/codewarn.py:1076
-msgid "a builtin {} instance"
-msgstr ""
-
-#: src/pysource/codewarn.py:1078
-msgid "builtin {} instances"
-msgstr ""
-
-#: src/pysource/codewarn.py:1080
-msgid "the builtin {} class"
-msgstr ""
-
-#: src/pysource/llinecache.py:74
+#: src/pysource/llinecache.py:75
 msgid "Inconsistent indentation (not in units of indent size)"
 msgstr "Несогласованный отступ (не в единицах отступов)"
 
-#: src/pysource/llinecache.py:76
+#: src/pysource/llinecache.py:77
 msgid "This code will never be reached"
 msgstr "Этот код никогда не будет связан"
 
-#: src/pysource/llinecache.py:78
+#: src/pysource/llinecache.py:79
 msgid "Expected indentation to decrease"
 msgstr "Ожидаемый отступ для уменьшения"
 
-#: src/pysource/llinecache.py:80
+#: src/pysource/llinecache.py:81
 msgid "Expected indentation to increase"
 msgstr "Ожидаемый отступ для увеличения"
 
-#: src/pysource/llinecache.py:82
+#: src/pysource/llinecache.py:83
 msgid "Unexpected indentation decrease"
 msgstr "Неожиданное уменьшение отступов"
 
-#: src/pysource/llinecache.py:84
+#: src/pysource/llinecache.py:85
 msgid "Unexpected indentation increase"
 msgstr "Неожиданное увеличение отступа"
 
-#: src/pysource/llinecache.py:86
+#: src/pysource/llinecache.py:87
 msgid "Bad indentation level"
 msgstr "Плохой уровень отступов"
 
-#: src/pysource/llinecache.py:88
+#: src/pysource/llinecache.py:89
 msgid "Indentation error (unspecified)"
 msgstr "Ошибка отступов (неуказанная)"
 
-#: src/pysource/manager.py:223
+#: src/pysource/manager.py:228
 msgid "(Analyzing Files: pass 1, Q=%i) "
 msgstr "(Анализ файлов: проход 1, Q=%i) "
 
-#: src/pysource/manager.py:225
+#: src/pysource/manager.py:230
 msgid "(Analyzing Files: pass 2, Q=%i) "
 msgstr "(Анализ файлов: проход 2, Q=%i) "
 
-#: src/pysource/manager.py:227
+#: src/pysource/manager.py:232
 msgid "(Analyzing Files: %i pending remote inspections) "
 msgstr "(Анализ файлов: %i в ожидании удаленных проверок) "
 
-#: src/pysource/manager.py:1615
+#: src/pysource/manager.py:2532
 msgid ""
 "Scrape errors for %s:\n"
 "%s"
@@ -147,23 +119,23 @@ msgstr ""
 "Очистка ошибок для %s:\n"
 "%s"
 
-#: src/pysource/manager.py:1643
+#: src/pysource/manager.py:2560
 msgid "%s does not exist (scrape failed)"
 msgstr "%s не существует (ошибка очистки)"
 
-#: src/pysource/manager.py:1647
+#: src/pysource/manager.py:2564
 msgid "%s is empty (scrape failed; removing file now)"
 msgstr "%s пусто (ошибка очистки; удаление файла)"
 
-#: src/pysource/manager.py:1690
+#: src/pysource/manager.py:2607
 msgid "Scraping %s"
 msgstr "Очистка %s"
 
-#: src/pysource/manager.py:1700
+#: src/pysource/manager.py:2617
 msgid "Failed to scrape extension module %s: Python not found"
 msgstr "Не удалось очистить модуль расширения %s: Python не найден"
 
-#: src/pysource/manager.py:1718
+#: src/pysource/manager.py:2635
 msgid ""
 "Failed to start process to scrape extension module %s: could not find "
 "suitable rundir"
@@ -171,7 +143,7 @@ msgstr ""
 "Не удалось запустить процесс очистки модуля расширения %s: не удалось найти "
 "подходящий rundir"
 
-#: src/pysource/manager.py:1743
+#: src/pysource/manager.py:2660
 msgid ""
 "Failed to start process to scrape extension module %s: cannot encode "
 "arguments"
@@ -179,19 +151,19 @@ msgstr ""
 "Не удалось запустить процесс очистки модуля расширения %s: cannot encode "
 "arguments"
 
-#: src/pysource/manager.py:1750
+#: src/pysource/manager.py:2667
 msgid "Cache file is %s"
 msgstr "Файл кэша %s"
 
-#: src/pysource/manager.py:1759
+#: src/pysource/manager.py:2676
 msgid "Failed to start process to scrape extension module %s"
 msgstr "Не удалось запустить процесс очистки модуля расширения %s"
 
-#: src/pysource/manager.py:1764
+#: src/pysource/manager.py:2681
 msgid "Failed scraping API for %s"
 msgstr "Ошибка очистки API для %s"
 
-#: src/pysource/manager.py:1766
+#: src/pysource/manager.py:2683
 msgid "API scraping process for %s completed"
 msgstr "Процесс очистки API для %s завершен"
 
@@ -299,3 +271,6 @@ msgstr "Использовать docs.python.org"
 #: src/pysource/prefs.py:148
 msgid "Other:"
 msgstr "Другие:"
+
+#~ msgid "Undefined attribute: %s, %s is probably %s"
+#~ msgstr "Неопределенный атрибут: %s, %s возможно %s"

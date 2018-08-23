@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_pysource\n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2012-12-10 17:18+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
@@ -24,134 +24,99 @@ msgstr ""
 msgid "Analyze main file for sys.path changes"
 msgstr "Haupt-Datei auf Änderungen von sys.path analysieren"
 
-#: src/pysource/codewarn.py:60
+#: src/pysource/codewarn.py:61
 #, fuzzy
 msgid "Undefined attribute"
 msgstr "Undefinierter Name: %s"
 
-#: src/pysource/codewarn.py:61
+#: src/pysource/codewarn.py:62
 #, fuzzy
 msgid "Undefined name"
 msgstr "Undefinierter Name: %s"
 
-#: src/pysource/codewarn.py:62
+#: src/pysource/codewarn.py:63
 msgid "Import not found"
 msgstr ""
 
-#: src/pysource/codewarn.py:63
+#: src/pysource/codewarn.py:64
 msgid "Syntax error"
 msgstr ""
 
-#: src/pysource/codewarn.py:64
+#: src/pysource/codewarn.py:65
 msgid "Indent warning"
 msgstr ""
 
-#: src/pysource/codewarn.py:436
-msgid "Imported module not found: {}"
+#: src/pysource/codewarn.py:496
+msgid "Import not found: {}"
 msgstr ""
 
-#: src/pysource/codewarn.py:443
+#: src/pysource/codewarn.py:503
 msgid "Undefined name: %s"
 msgstr "Undefinierter Name: %s"
 
-#: src/pysource/codewarn.py:570
-msgid "Undefined attribute: %s, %s is probably %s"
-msgstr "Undefiniertes Attribut: %s, %s ist wahrscheinlich %s"
-
-#: src/pysource/codewarn.py:571
+#: src/pysource/codewarn.py:624 src/pysource/codewarn.py:626
 msgid " or "
 msgstr " oder "
 
-#: src/pysource/codewarn.py:1023 src/pysource/codewarn.py:1029
-msgid "builtin {}"
+#: src/pysource/codewarn.py:629
+msgid "Attribute undefined: .%s of %s: %s"
 msgstr ""
 
-#: src/pysource/codewarn.py:1024
-#, fuzzy
-msgid "the {} class"
-msgstr "Die %s Klasse"
+#: src/pysource/codewarn.py:1242
+msgid "class"
+msgstr ""
 
-#: src/pysource/codewarn.py:1031
+#: src/pysource/codewarn.py:1249
 #, fuzzy
-msgid "a {} instance"
-msgstr "Eine %s Instanz"
-
-#: src/pysource/codewarn.py:1033
-#, fuzzy
-msgid "{} instances"
-msgstr "Eine %s Instanz"
-
-#: src/pysource/codewarn.py:1037
-#, fuzzy
-msgid " in {} module"
+msgid "module"
 msgstr "Das %s Modul"
 
-#: src/pysource/codewarn.py:1042
-#, fuzzy
-msgid "the {} module"
-msgstr "Das %s Modul"
-
-#: src/pysource/codewarn.py:1049
-#, fuzzy
-msgid "a builtin {} instance"
-msgstr "Eine %s Instanz"
-
-#: src/pysource/codewarn.py:1051
-#, fuzzy
-msgid "builtin {} instances"
-msgstr "Eine %s Instanz"
-
-#: src/pysource/codewarn.py:1053
-#, fuzzy
-msgid "the builtin {} class"
-msgstr "Die %s Klasse"
-
-#: src/pysource/llinecache.py:74
+#: src/pysource/llinecache.py:75
 msgid "Inconsistent indentation (not in units of indent size)"
 msgstr ""
 "Inkonsistenten Einrückung (nicht in Einheiten von Einrückungsschritten)"
 
-#: src/pysource/llinecache.py:76
+#: src/pysource/llinecache.py:77
 msgid "This code will never be reached"
 msgstr "Dieser Code wird nie erreicht werden"
 
-#: src/pysource/llinecache.py:78
+#: src/pysource/llinecache.py:79
 msgid "Expected indentation to decrease"
 msgstr ""
 
-#: src/pysource/llinecache.py:80
+#: src/pysource/llinecache.py:81
 msgid "Expected indentation to increase"
 msgstr ""
 
-#: src/pysource/llinecache.py:82
+#: src/pysource/llinecache.py:83
 msgid "Unexpected indentation decrease"
 msgstr ""
 
-#: src/pysource/llinecache.py:84
+#: src/pysource/llinecache.py:85
 msgid "Unexpected indentation increase"
 msgstr ""
 
-#: src/pysource/llinecache.py:86
+#: src/pysource/llinecache.py:87
 msgid "Bad indentation level"
 msgstr "Ungültige Einrückungstiefe"
 
-#: src/pysource/llinecache.py:88
+#: src/pysource/llinecache.py:89
 msgid "Indentation error (unspecified)"
 msgstr "Einrückungsfehler (unspezifiziert)"
 
-#: src/pysource/manager.py:223
+#: src/pysource/manager.py:228
 msgid "(Analyzing Files: pass 1, Q=%i) "
 msgstr "(Analysiere Dateien: Durchgang 1, Q=%i) "
 
-#: src/pysource/manager.py:225
+#: src/pysource/manager.py:230
 msgid "(Analyzing Files: pass 2, Q=%i) "
 msgstr "(Analysiere Dateien: Durchgang 2, Q=%i) "
 
-#: src/pysource/manager.py:227
+#: src/pysource/manager.py:232
 msgid "(Analyzing Files: %i pending remote inspections) "
 msgstr ""
 
-#: src/pysource/manager.py:1586
+#: src/pysource/manager.py:2532
 msgid ""
 "Scrape errors for %s:\n"
 "%s"
@@ -159,47 +124,47 @@ msgstr ""
 "Fehler beim Instanziieren von %s:\n"
 "%s"
 
-#: src/pysource/manager.py:1614
+#: src/pysource/manager.py:2560
 msgid "%s does not exist (scrape failed)"
 msgstr "%s existiert nicht (Instanziieren gescheitert)"
 
-#: src/pysource/manager.py:1618
+#: src/pysource/manager.py:2564
 msgid "%s is empty (scrape failed; removing file now)"
 msgstr ""
 
-#: src/pysource/manager.py:1661
+#: src/pysource/manager.py:2607
 msgid "Scraping %s"
 msgstr ""
 
-#: src/pysource/manager.py:1671
+#: src/pysource/manager.py:2617
 msgid "Failed to scrape extension module %s: Python not found"
 msgstr ""
 
-#: src/pysource/manager.py:1689
+#: src/pysource/manager.py:2635
 msgid ""
 "Failed to start process to scrape extension module %s: could not find "
 "suitable rundir"
 msgstr ""
 
-#: src/pysource/manager.py:1714
+#: src/pysource/manager.py:2660
 msgid ""
 "Failed to start process to scrape extension module %s: cannot encode "
 "arguments"
 msgstr ""
 
-#: src/pysource/manager.py:1721
+#: src/pysource/manager.py:2667
 msgid "Cache file is %s"
 msgstr "Cache-Datei ist %s"
 
-#: src/pysource/manager.py:1730
+#: src/pysource/manager.py:2676
 msgid "Failed to start process to scrape extension module %s"
 msgstr ""
 
-#: src/pysource/manager.py:1735
+#: src/pysource/manager.py:2681
 msgid "Failed scraping API for %s"
 msgstr ""
 
-#: src/pysource/manager.py:1737
+#: src/pysource/manager.py:2683
 msgid "API scraping process for %s completed"
 msgstr ""
 
@@ -301,6 +266,37 @@ msgstr "docs.python.org benutzen"
 #: src/pysource/prefs.py:148
 msgid "Other:"
 msgstr "Andere:"
+
+#~ msgid "Undefined attribute: %s, %s is probably %s"
+#~ msgstr "Undefiniertes Attribut: %s, %s ist wahrscheinlich %s"
+
+#, fuzzy
+#~ msgid "the {} class"
+#~ msgstr "Die %s Klasse"
+
+#, fuzzy
+#~ msgid "a {} instance"
+#~ msgstr "Eine %s Instanz"
+
+#, fuzzy
+#~ msgid "{} instances"
+#~ msgstr "Eine %s Instanz"
+
+#, fuzzy
+#~ msgid "the {} module"
+#~ msgstr "Das %s Modul"
+
+#, fuzzy
+#~ msgid "a builtin {} instance"
+#~ msgstr "Eine %s Instanz"
+
+#, fuzzy
+#~ msgid "builtin {} instances"
+#~ msgstr "Eine %s Instanz"
+
+#, fuzzy
+#~ msgid "the builtin {} class"
+#~ msgstr "Die %s Klasse"
 
 #~ msgid "a %s literal"
 #~ msgstr "Ein %s Literal"

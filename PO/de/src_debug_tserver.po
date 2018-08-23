@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_debug_server\n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2016-12-19 20:56+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
@@ -52,147 +52,143 @@ msgstr "Warnung: Protokolldatei ist keine Datei:\n"
 msgid "Warning:  Logging disabled\n"
 msgstr "Warnung: Protokollierung deaktiviert\n"
 
-#: src/debug/tserver/dbginspect.py:54 src/debug/tserver/dbgserver.py:2906
-#: src/debug/tserver/dbgutils.py:443 src/debug/tserver/dbgutils.py:463
+#: src/debug/tserver/dbginspect.py:54 src/debug/tserver/dbgserver.py:2942
+#: src/debug/tserver/dbgutils.py:487 src/debug/tserver/dbgutils.py:507
 msgid "(truncated)"
 msgstr ""
 
-#: src/debug/tserver/dbginspect.py:920 src/debug/tserver/dbgutils.py:451
-#: src/debug/tserver/dbgutils.py:473 src/debug/tserver/dbgutils.py:2949
+#: src/debug/tserver/dbginspect.py:910 src/debug/tserver/dbgutils.py:495
+#: src/debug/tserver/dbgutils.py:517 src/debug/tserver/dbgutils.py:3069
 msgid "<opaque "
 msgstr "<unlesbar "
 
-#: src/debug/tserver/dbgserver.py:1176
+#: src/debug/tserver/dbgserver.py:1183
 msgid "<module>"
 msgstr "<Modul>"
 
-#: src/debug/tserver/dbgserver.py:1324
+#: src/debug/tserver/dbgserver.py:1331
 msgid "<error evaluating>"
 msgstr "<Fehler beim Bewerten>"
 
-#: src/debug/tserver/dbgserver.py:1897 src/debug/tserver/dbgserver.py:1935
+#: src/debug/tserver/dbgserver.py:1923 src/debug/tserver/dbgserver.py:1959
 msgid "<thread %i is running>"
 msgstr "<Thread %i läuft>"
 
-#: src/debug/tserver/dbgserver.py:1900 src/debug/tserver/dbgserver.py:1938
+#: src/debug/tserver/dbgserver.py:1926 src/debug/tserver/dbgserver.py:1962
 msgid "<invalid thread id %s or stack index %s>"
 msgstr "<ungültige Thread-id %s oder Stack-Index %s>"
 
-#: src/debug/tserver/dbgserver.py:1902 src/debug/tserver/dbgserver.py:1940
+#: src/debug/tserver/dbgserver.py:1928 src/debug/tserver/dbgserver.py:1964
 msgid "<invalid stack frame>"
 msgstr "<ungültiger Stack-Frame>"
 
-#: src/debug/tserver/dbgserver.py:1968 src/debug/tserver/dbgserver.py:1997
+#: src/debug/tserver/dbgserver.py:1992 src/debug/tserver/dbgserver.py:2021
 msgid "<sys.modules does not exist>"
 msgstr "<sys.modules existiert nicht>"
 
-#: src/debug/tserver/dbgserver.py:1971 src/debug/tserver/dbgserver.py:2003
+#: src/debug/tserver/dbgserver.py:1995 src/debug/tserver/dbgserver.py:2027
 msgid "<error accessing sys.modules>"
 msgstr "<Fehler beim Zugreifen auf sys.modules>"
 
-#: src/debug/tserver/dbgserver.py:2000
+#: src/debug/tserver/dbgserver.py:2024
 msgid "<no longer exists"
 msgstr "<existiert nicht mehr"
 
-#: src/debug/tserver/dbgserver.py:2048 src/debug/tserver/dbgserver.py:2101
+#: src/debug/tserver/dbgserver.py:2072 src/debug/tserver/dbgserver.py:2125
 msgid "<no longer exists>"
 msgstr "<existiert nicht mehr>"
 
-#: src/debug/tserver/dbgserver.py:2079 src/debug/tserver/dbgserver.py:4106
+#: src/debug/tserver/dbgserver.py:2103 src/debug/tserver/dbgserver.py:4183
 msgid "<parent too large>"
 msgstr "<parent zu lang>"
 
-#: src/debug/tserver/dbgserver.py:2081 src/debug/tserver/dbgserver.py:4108
+#: src/debug/tserver/dbgserver.py:2105 src/debug/tserver/dbgserver.py:4185
 msgid "<invalid parent type>"
 msgstr "<ungültiger übergeordneter Datentyp>"
 
-#: src/debug/tserver/dbgserver.py:2091 src/debug/tserver/dbgserver.py:2543
+#: src/debug/tserver/dbgserver.py:2115 src/debug/tserver/dbgserver.py:2579
 msgid "<value not found>"
 msgstr "<Wert nicht gefunden>"
 
-#: src/debug/tserver/dbgserver.py:2531
+#: src/debug/tserver/dbgserver.py:2567
 msgid "<thread is running>"
 msgstr "<Thread läuft>"
 
-#: src/debug/tserver/dbgserver.py:2533
+#: src/debug/tserver/dbgserver.py:2569
 msgid "<invalid context>"
 msgstr "<ungültiger Kontext>"
 
-#: src/debug/tserver/dbgserver.py:4114
+#: src/debug/tserver/dbgserver.py:4191
 msgid "<invalid path %s at pos=%i>"
 msgstr "<ungültiger Pfad %s an pos=%i>"
 
-#: src/debug/tserver/dbgutils.py:150
+#: src/debug/tserver/dbgutils.py:151
 msgid "<undefined>"
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:166
+#: src/debug/tserver/dbgutils.py:167
 msgid "at"
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:174
-msgid "dim=%sx%s>"
-msgstr ""
-
-#: src/debug/tserver/dbgutils.py:176
+#: src/debug/tserver/dbgutils.py:177
 msgid "len=%s>"
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:186 src/debug/tserver/dbgutils.py:2451
+#: src/debug/tserver/dbgutils.py:187 src/debug/tserver/dbgutils.py:2571
 #, fuzzy
 msgid "<error handling value>"
 msgstr "<Fehler beim Bewerten>"
 
-#: src/debug/tserver/dbgutils.py:188
+#: src/debug/tserver/dbgutils.py:189
 msgid "<timeout>"
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:196
+#: src/debug/tserver/dbgutils.py:197
 msgid "<huge "
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:216
+#: src/debug/tserver/dbgutils.py:217
 msgid "<long "
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:233
+#: src/debug/tserver/dbgutils.py:234
 #, fuzzy
 msgid "<opaque"
 msgstr "<unlesbar "
 
-#: src/debug/tserver/dbgutils.py:465
+#: src/debug/tserver/dbgutils.py:509
 msgid "<huge %s at %s; len=%i>"
 msgstr "<huge %s an %s; Länge=%i>"
 
-#: src/debug/tserver/dbgutils.py:653 src/debug/tserver/dbgutils.py:665
+#: src/debug/tserver/dbgutils.py:697 src/debug/tserver/dbgutils.py:709
 msgid ", pos "
 msgstr ", pos "
 
-#: src/debug/tserver/dbgutils.py:669
+#: src/debug/tserver/dbgutils.py:713
 msgid ", line "
 msgstr ", Zeile "
 
-#: src/debug/tserver/dbgutils.py:671
+#: src/debug/tserver/dbgutils.py:715
 msgid "SyntaxError: "
 msgstr "SyntaxFehler:"
 
-#: src/debug/tserver/dbgutils.py:699
+#: src/debug/tserver/dbgutils.py:743
 msgid "Error"
 msgstr "Fehler"
 
-#: src/debug/tserver/dbgutils.py:707
+#: src/debug/tserver/dbgutils.py:751
 msgid "Error: Wing was unable to pack up an exception message"
 msgstr "Fehler: Wing konnte Exception-Nachricht nicht zusammenpacken"
 
-#: src/debug/tserver/dbgutils.py:3258 src/debug/tserver/dbgutils.py:3274
+#: src/debug/tserver/dbgutils.py:3383 src/debug/tserver/dbgutils.py:3399
 msgid "Key"
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:3258 src/debug/tserver/dbgutils.py:3274
+#: src/debug/tserver/dbgutils.py:3383 src/debug/tserver/dbgutils.py:3399
 msgid "Value"
 msgstr ""
 
-#: src/debug/tserver/dbgutils.py:3269 src/debug/tserver/dbgutils.py:3296
+#: src/debug/tserver/dbgutils.py:3394 src/debug/tserver/dbgutils.py:3421
 msgid "Item"
 msgstr ""
 

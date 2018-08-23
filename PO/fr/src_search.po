@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.2.4\n"
-"POT-Creation-Date: 2018-04-16 16:39+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-04-23 02:50+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
@@ -268,39 +268,39 @@ msgstr "_Sensible à la casse"
 msgid "_Whole Words"
 msgstr "_Mots entiers"
 
-#: src/search/cap_batch.py:582 src/search/cap_batch.py:604
+#: src/search/cap_batch.py:580 src/search/cap_batch.py:602
 msgid "Search in files state"
 msgstr "État de recherche dans fichiers"
 
-#: src/search/cap_batch.py:925
+#: src/search/cap_batch.py:923
 msgid "Line %s: "
 msgstr "Ligne %s : "
 
-#: src/search/cap_batch.py:931
+#: src/search/cap_batch.py:929
 msgid "%s, line %i: "
 msgstr "%s, ligne %i : "
 
-#: src/search/cap_batch.py:954
+#: src/search/cap_batch.py:952
 msgid "File: %s\n"
 msgstr "Fichier : %s\n"
 
-#: src/search/cap_batch.py:1501 src/search/interactive.py:702
+#: src/search/cap_batch.py:1499 src/search/interactive.py:702
 msgid "Wrapped "
 msgstr "Retour à la ligne effectué "
 
-#: src/search/cap_batch.py:1504
+#: src/search/cap_batch.py:1502
 msgid "%sFile: %s"
 msgstr "%s Fichier : %s"
 
-#: src/search/cap_batch.py:1572
+#: src/search/cap_batch.py:1570
 msgid "Search Aborted"
 msgstr "Recherche annulée"
 
-#: src/search/cap_batch.py:1665
+#: src/search/cap_batch.py:1663
 msgid "Directory does not exist: \"%s\""
 msgstr "Le répertoire n'existe pas : \"%s\""
 
-#: src/search/cap_batch.py:1672
+#: src/search/cap_batch.py:1670
 msgid "Directory search not supported"
 msgstr "Recherche dans les répertoires non supportée"
 
@@ -391,15 +391,15 @@ msgstr "_Tout remplacer"
 msgid "_Cancel"
 msgstr "_Annuler"
 
-#: src/search/cap_batch.py:2103
+#: src/search/cap_batch.py:2106
 msgid "Filter '%s' is invalid"
 msgstr "Le filtre '%s' est invalide"
 
-#: src/search/cap_batch.py:2691 src/search/cap_batch.py:2698
+#: src/search/cap_batch.py:2694 src/search/cap_batch.py:2701
 msgid "Warning: Replace All"
 msgstr "Avertissement : Tout remplacer"
 
-#: src/search/cap_batch.py:2692
+#: src/search/cap_batch.py:2695
 msgid ""
 "You have set Replace All to operate directly on disk files (already open "
 "files will be changed only within Wing until they are saved to disk).\n"
@@ -417,7 +417,7 @@ msgstr ""
 "fortement de faire des copies de sauvegardes de tous vos fichiers, ou "
 "d'utiliser un système de contrôle de révision."
 
-#: src/search/cap_batch.py:2699
+#: src/search/cap_batch.py:2702
 msgid ""
 "You have set Replace All to open altered files into Wing.\n"
 "\n"
@@ -431,11 +431,11 @@ msgstr ""
 "des éditeurs individuels et ne pas altérer les fichiers du disque jusqu'à ce "
 "qu'ils soient sauvegardés."
 
-#: src/search/cap_batch.py:2742 src/search/cap_batch.py:2752
+#: src/search/cap_batch.py:2745 src/search/cap_batch.py:2755
 msgid "Search in Files"
 msgstr "Chercher dans fichiers"
 
-#: src/search/cap_batch.py:2757
+#: src/search/cap_batch.py:2760
 msgid "Multiple File Search and Replace"
 msgstr "Chercher dans plusieurs fichiers et remplacer"
 
@@ -613,62 +613,62 @@ msgstr "Échec pour trouver un éditeur pour remplacer"
 msgid "Replace OK"
 msgstr "Remplacement OK"
 
-#: src/search/common.py:505
+#: src/search/common.py:507
 msgid "Replacing %s"
 msgstr "En cours de remplacement %s"
 
-#: src/search/common.py:522 src/search/common.py:548
+#: src/search/common.py:524 src/search/common.py:547 src/search/common.py:699
 msgid "Replace Error: Could not read %s"
 msgstr "Erreur de remplacement : N'a pas pu lire %s"
 
-#: src/search/common.py:533
+#: src/search/common.py:535
 msgid "Replace Error: Could not convert %s to unicode"
 msgstr "Erreur de remplacement : N'a pas pu convertir %s vers unicode"
 
-#: src/search/common.py:573
+#: src/search/common.py:619
 msgid "Replace Error:  Could not write remote file %s"
 msgstr "Erreur de remplacement : N'a pas pu écrire le fichier distant %s"
 
-#: src/search/common.py:605
+#: src/search/common.py:651
 msgid "Replace Error:  Could not convert replaced %s to output encoding"
 msgstr ""
 "Erreur de remplacement : N'a pas pu convertir le remplacé %s vers l'encodage "
 "de sortie"
 
-#: src/search/common.py:625
+#: src/search/common.py:675
 msgid "Replace failed to open document %s"
 msgstr "Remplacement échoué pour ouvrir le document %s"
 
-#: src/search/common.py:660
+#: src/search/common.py:726
 msgid "Replaced %i matches in %s"
 msgstr "Remplacé %i correspondance(s) dans %s"
 
-#: src/search/common.py:668
+#: src/search/common.py:734
 msgid "Replaced %i matches in %i files"
 msgstr "Remplacé %i correspondance(s) dans %i fichiers"
 
 # Utilisé qu’avec %i = 1
-#: src/search/common.py:672
+#: src/search/common.py:738
 msgid "Replaced %i matches in %i file"
 msgstr "Remplacé %i correspondance(s) dans %i fichier"
 
-#: src/search/common.py:714
+#: src/search/common.py:780
 msgid "Replace Paused"
 msgstr "Remplacement en pause"
 
-#: src/search/common.py:720
+#: src/search/common.py:786
 msgid "Replace Continued"
 msgstr "Le remplacement continue"
 
-#: src/search/common.py:869 src/search/common.py:893
+#: src/search/common.py:933 src/search/common.py:957
 msgid "Search manager state"
 msgstr "État du gestionnaire de recherche"
 
-#: src/search/common.py:1053
+#: src/search/common.py:1117
 msgid "Skipping large file %s; size=%i; max=%i"
 msgstr "Saute le gros fichier %s ; taille=%i ; max=%i"
 
-#: src/search/common.py:1061
+#: src/search/common.py:1125
 msgid "Could not open %s"
 msgstr "Ne peut pas ouvrir %s"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_versioncontrol\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 16:43+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-03-17 11:00+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -100,12 +100,12 @@ msgid "Push entire branch"
 msgstr "Протолкнуть(Push) целую ветвь"
 
 #: src/versioncontrol/cap_bzr.py:380 src/versioncontrol/cap_git.py:972
-#: src/versioncontrol/cap_hg.py:506
+#: src/versioncontrol/cap_hg.py:509
 msgid "Push to"
 msgstr "Протолкнуть до"
 
 #: src/versioncontrol/cap_bzr.py:381 src/versioncontrol/cap_git.py:973
-#: src/versioncontrol/cap_hg.py:507
+#: src/versioncontrol/cap_hg.py:510
 msgid "_Push"
 msgstr "Протолкнуть"
 
@@ -300,27 +300,27 @@ msgstr "Удалить(Сбросить)"
 msgid "Don't Find Unregistered Files"
 msgstr "Не искать незарегистрированные файлы"
 
-#: src/versioncontrol/cap_hg.py:481
+#: src/versioncontrol/cap_hg.py:484
 msgid "Pull All Changes"
 msgstr "Втянуть(Pull) Все Изменения"
 
-#: src/versioncontrol/cap_hg.py:482
+#: src/versioncontrol/cap_hg.py:485
 msgid "Pull From"
 msgstr "Втянуть(Pull) из"
 
-#: src/versioncontrol/cap_hg.py:483
+#: src/versioncontrol/cap_hg.py:486
 msgid "Pull"
 msgstr "Втянуть(Pull)"
 
-#: src/versioncontrol/cap_hg.py:488
+#: src/versioncontrol/cap_hg.py:491
 msgid "Update"
 msgstr "Обновить"
 
-#: src/versioncontrol/cap_hg.py:505
+#: src/versioncontrol/cap_hg.py:508
 msgid "Push all changes"
 msgstr "Протолкнуть(Push ) все изменения"
 
-#: src/versioncontrol/cap_hg.py:571 src/versioncontrol/cap_hg.py:584
+#: src/versioncontrol/cap_hg.py:574 src/versioncontrol/cap_hg.py:587
 msgid "Cannot find single hg working directory root"
 msgstr "Не удается найти корневой рабочий каталог hg"
 
@@ -372,11 +372,11 @@ msgstr "Справка"
 msgid "Auto-refresh %s Status"
 msgstr "Автообновление %s Статус"
 
-#: src/versioncontrol/manager.py:769
+#: src/versioncontrol/manager.py:765
 msgid "No %s %s"
 msgstr "Нет %s %s"
 
-#: src/versioncontrol/manager.py:770
+#: src/versioncontrol/manager.py:766
 msgid ""
 "%(identifier)s does not support a %(name)s command. The files were "
 "%(past_tense)s on disk, but new files and directories were not added and "
@@ -386,11 +386,11 @@ msgstr ""
 "на диске, но новые файлы и каталоги не были добавлены и история управления "
 "версиями не была скопирована."
 
-#: src/versioncontrol/manager.py:776
+#: src/versioncontrol/manager.py:772
 msgid "OK"
 msgstr ""
 
-#: src/versioncontrol/manager.py:814
+#: src/versioncontrol/manager.py:810
 msgid "Failed to inspect remote files"
 msgstr "Не удалось проверить удаленные файлы"
 

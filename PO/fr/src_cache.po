@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-03-21 10:06+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-03-24 22:50+0100\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: C@li.org\n"
@@ -24,15 +24,15 @@ msgstr "Echec de lecture de %s : %s"
 msgid "Could Not Read %s"
 msgstr "Ne peut pas lire %s"
 
-#: src/cache/textcache.py:450
+#: src/cache/textcache.py:451
 msgid "Could not read file due to remote agent abort"
 msgstr "N’a pas pu lire le fichier à cause l’interruption de l’agent distant"
 
-#: src/cache/textcache.py:561
+#: src/cache/textcache.py:562
 msgid "Codec not found"
 msgstr "Codec non trouvé"
 
-#: src/cache/textcache.py:562
+#: src/cache/textcache.py:563
 msgid ""
 "Could not convert file %s when reading it -- the codec for the '%s' text "
 "encoding could not be found.  Trying default encoding '%s' instead."
@@ -41,11 +41,11 @@ msgstr ""
 "l'encodage de texte '%s' n'a pas pu être trouvé. Essayez plutôt l'encodage "
 "'%s'."
 
-#: src/cache/textcache.py:585
+#: src/cache/textcache.py:586
 msgid "Could not convert from encoding"
 msgstr "N'a pas pu convertir depuis l'encodage"
 
-#: src/cache/textcache.py:586
+#: src/cache/textcache.py:587
 msgid ""
 "Could not convert all characters in %s when reading it as a %s encoded "
 "file.  Replacing unmappable characters with ?'s so saving the file may "
@@ -60,11 +60,11 @@ msgstr ""
 "propriétés du fichiers, ou le re-ouvrir après avoir modifié sa préférence de "
 "Fichier / Encodage par défaut."
 
-#: src/cache/textcache.py:601
+#: src/cache/textcache.py:602
 msgid "Could not convert any characters in file"
 msgstr "N'a pas pu convertir de caractères dans le fichier"
 
-#: src/cache/textcache.py:602
+#: src/cache/textcache.py:603
 msgid ""
 "Failed to convert any characters in %s when reading it as a %s encoded "
 "file.  Reading it as a latin-1 encoded file instead which will probably "
@@ -77,11 +77,11 @@ msgstr ""
 "probablement résulter dans l’affichage de mauvais caractères. Vous pouvez "
 "souhaiter re-ouvrir le fichier en utilisant un autre encodage."
 
-#: src/cache/textcache.py:612
+#: src/cache/textcache.py:613
 msgid "Could not read file"
 msgstr "Ne peut pas lire le fichier"
 
-#: src/cache/textcache.py:613
+#: src/cache/textcache.py:614
 msgid ""
 "Read failed because characters could not be read in %s when reading it as a "
 "%s encoded file."
@@ -89,7 +89,7 @@ msgstr ""
 "La lecture a échoué à cause de caractères qui n’ont pas pu être lus dans %s "
 "en le lisant comme un fichier encodé %s."
 
-#: src/cache/textcache.py:772
+#: src/cache/textcache.py:773
 msgid ""
 "Unsupported encoding '%s' found in encoding comment -- Wing cannot write "
 "this file until the comment is changed"
@@ -97,18 +97,18 @@ msgstr ""
 "Encodage '%s' non supporté trouvé dans le commentaire d'encodage -- Wing ne "
 "peut pas écrire ce fichier tant que le commentaire n'est pas modifié"
 
-#: src/cache/textcache.py:823
+#: src/cache/textcache.py:824
 msgid "Could not convert text \"%s\" on line %d to the %s encoding"
 msgstr "N'a pas pu convertir le texte \"%s\" à la ligne %d dans l'encodage %s"
 
-#: src/cache/textcache.py:826
+#: src/cache/textcache.py:827
 msgid "Could not convert file contents to the %s encoding"
 msgstr "N'a pas pu convertir le contenu du fichier dans l'encodage %s"
 
-#: src/cache/textcache.py:907
+#: src/cache/textcache.py:908
 msgid "General write error"
 msgstr "Erreur d'écriture générale"
 
-#: src/cache/textcache.py:1072
+#: src/cache/textcache.py:1073
 msgid "Encoding of %s changed to %s"
 msgstr "Encodage de %s changé en %s"

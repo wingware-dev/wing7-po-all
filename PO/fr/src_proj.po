@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_proj\n"
-"POT-Creation-Date: 2018-04-16 16:39+EDT\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
 "PO-Revision-Date: 2018-04-23 02:34+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
@@ -337,7 +337,7 @@ msgid ""
 "May be enabled for all files or only files that are part of the project."
 msgstr ""
 
-#: src/proj/attribs.py:266 src/proj/properties.py:2717
+#: src/proj/attribs.py:266 src/proj/properties.py:2734
 msgid "Use Preference Setting"
 msgstr "Utiliser les paramètres des préférences"
 
@@ -419,21 +419,21 @@ msgid ""
 "the debug process."
 msgstr ""
 
-#: src/proj/cap_findsymbol.py:1069
+#: src/proj/cap_findsymbol.py:1117
 msgid "_Sort Alphabetically"
 msgstr "Trier Alphabétiquement"
 
-#: src/proj/cap_findsymbol.py:1071
+#: src/proj/cap_findsymbol.py:1119
 msgid "Sort items alphabetically rather than in the order found in the file"
 msgstr ""
 "Ranger les items alphabétiquement plutôt que dans l’ordre trouvé dans le "
 "fichier"
 
-#: src/proj/cap_findsymbol.py:1072
+#: src/proj/cap_findsymbol.py:1120
 msgid "Include _Args in Search"
 msgstr ""
 
-#: src/proj/cap_findsymbol.py:1074
+#: src/proj/cap_findsymbol.py:1122
 msgid "Include the text of function arguments in the text on which to search"
 msgstr ""
 
@@ -648,8 +648,8 @@ msgid "The following items could not be moved to the trash:"
 msgstr "Les éléments suivants ne peuvent pas être déplacés dans la corbeille :"
 
 #: src/proj/cap_panel.py:891 src/proj/cap_treepanel.py:636
-#: src/proj/manager.py:622 src/proj/newproject.py:669
-#: src/proj/newproject.py:789 src/proj/properties.py:619
+#: src/proj/manager.py:627 src/proj/newproject.py:673
+#: src/proj/newproject.py:793 src/proj/properties.py:619
 msgid "OK"
 msgstr "OK"
 
@@ -745,9 +745,9 @@ msgstr ""
 msgid "_Move Selected Directories to Trash"
 msgstr "_Déplacer les répertoires sélectionnés vers la corbeille"
 
-#: src/proj/cap_panel.py:932 src/proj/manager.py:1782 src/proj/manager.py:1815
+#: src/proj/cap_panel.py:932 src/proj/manager.py:1857 src/proj/manager.py:1890
 #: src/proj/properties.py:2158 src/proj/properties.py:2257
-#: src/proj/properties.py:2562
+#: src/proj/properties.py:2579
 msgid "_Cancel"
 msgstr "_Annuler"
 
@@ -781,8 +781,8 @@ msgstr "Copier le(s) fichier(s) sélectionné(s) ?"
 msgid "Are you sure you want to copy the following items to %s ?"
 msgstr "Êtes-vous sûr de vouloir copier les éléments suivants vers %s ?"
 
-#: src/proj/cap_treepanel.py:637 src/proj/manager.py:422
-#: src/proj/newproject.py:670 src/proj/newproject.py:1061
+#: src/proj/cap_treepanel.py:637 src/proj/manager.py:427
+#: src/proj/newproject.py:674 src/proj/newproject.py:1066
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -802,21 +802,21 @@ msgstr "fichier de débogage principal"
 msgid ". (project home directory)"
 msgstr ". (répertoire du projet initial)"
 
-#: src/proj/manager.py:101
+#: src/proj/manager.py:102
 msgid "Choose file to create"
 msgstr "Choisir le fichier à créer"
 
-#: src/proj/manager.py:104
+#: src/proj/manager.py:105
 msgid "Select file to add to project"
 msgstr "Sélectionnez un fichier à ajouter au projet"
 
-#: src/proj/manager.py:188
+#: src/proj/manager.py:189
 msgid ""
 "Remote Inspect Failed::The selected directory %s remote inspect failed and "
 "has not been added to the project"
 msgstr ""
 
-#: src/proj/manager.py:193
+#: src/proj/manager.py:194
 #, fuzzy
 msgid ""
 "Does not Exist::The selected directory %s does not exist and has not been "
@@ -824,41 +824,41 @@ msgid ""
 msgstr ""
 "Le répertoire d'instance Zope 2 '%s' n'existe pas ou n'est pas un répertoire"
 
-#: src/proj/manager.py:214
+#: src/proj/manager.py:219
 msgid "Select Directory to Remove"
 msgstr "Sélectionner le répertoire à enlever"
 
-#: src/proj/manager.py:252
+#: src/proj/manager.py:257
 msgid "Invalid selection"
 msgstr "Sélection invalide"
 
-#: src/proj/manager.py:253
+#: src/proj/manager.py:258
 msgid "Sorry, %s is not a directory."
 msgstr "Désolé, %s n'est pas un répertoire."
 
-#: src/proj/manager.py:353 src/proj/manager.py:369
+#: src/proj/manager.py:358 src/proj/manager.py:374
 msgid "Cannot Copy Files"
 msgstr "Impossible de copier les fichiers"
 
-#: src/proj/manager.py:354
+#: src/proj/manager.py:359
 msgid "%s::Remote inspect of %s failed."
 msgstr ""
 
-#: src/proj/manager.py:370 src/proj/manager.py:381
+#: src/proj/manager.py:375 src/proj/manager.py:386
 msgid "%s::The directory %s already exists.  Please remove or rename it first."
 msgstr ""
 "%s::Le répertoire %s existe déjà. Veuillez le retirer ou le renommer en "
 "premier."
 
-#: src/proj/manager.py:380
+#: src/proj/manager.py:385
 msgid "Cannot Move Files"
 msgstr "Impossible de déplacer les fichiers"
 
-#: src/proj/manager.py:398
+#: src/proj/manager.py:403
 msgid "Replace existing files?"
 msgstr "Remplacer les fichiers existant ?"
 
-#: src/proj/manager.py:399
+#: src/proj/manager.py:404
 msgid ""
 "The following files already exist.  Do you want to replace the selected "
 "files?"
@@ -866,23 +866,23 @@ msgstr ""
 "Le(s) fichier(s) suivant(s) existe(nt) déjà. Voulez vous remplacer le(s) "
 "fichier(s) sélectionné(s) ?"
 
-#: src/proj/manager.py:421
+#: src/proj/manager.py:426
 msgid "Replace the Selected Files"
 msgstr "Remplacer le(s) fichier(s) sélectionné(s)"
 
-#: src/proj/manager.py:555
+#: src/proj/manager.py:560
 msgid "Could not inspect remote target file"
 msgstr ""
 
-#: src/proj/manager.py:559
+#: src/proj/manager.py:564
 msgid "Target file already exists"
 msgstr "Le fichier cible existe déjà"
 
-#: src/proj/manager.py:606
+#: src/proj/manager.py:611
 msgid "Could not Move"
 msgstr "N'a pas pu déplacer"
 
-#: src/proj/manager.py:607
+#: src/proj/manager.py:612
 msgid ""
 "Some of the selected items could not be moved on disk.  Please check their "
 "permissions and try again."
@@ -890,11 +890,11 @@ msgstr ""
 "Certains des éléments sélectionnés ne pourront pas être déplacés sur le "
 "disque. Veuillez vérifier leurs permissions et essayer de nouveau."
 
-#: src/proj/manager.py:610
+#: src/proj/manager.py:615
 msgid "Could not Copy"
 msgstr "N'a pas pu copier"
 
-#: src/proj/manager.py:611
+#: src/proj/manager.py:616
 msgid ""
 "Some of the selected items could not be copied on disk.  Please check their "
 "permissions and try again."
@@ -902,27 +902,40 @@ msgstr ""
 "Certains des éléments sélectionnés ne pourront pas être copiés sur le "
 "disque. Veuillez vérifier leurs permissions et essayer de nouveau."
 
-#: src/proj/manager.py:619
+#: src/proj/manager.py:624
 msgid "Errors:"
 msgstr "Erreurs :"
 
-#: src/proj/manager.py:998
+#: src/proj/manager.py:1010
 msgid "Open Project"
 msgstr "Ouvrir un projet"
 
-#: src/proj/manager.py:999
+#: src/proj/manager.py:1011
 msgid "Select project to open"
 msgstr "Sélectionner un projet à ouvrir"
 
-#: src/proj/manager.py:1026
+#: src/proj/manager.py:1028
+msgid "Could not open project::Remote project open timed out"
+msgstr ""
+
+#: src/proj/manager.py:1049
+msgid "Waiting for Remote Host"
+msgstr ""
+
+#: src/proj/manager.py:1052
+msgid ""
+"Waiting for remote host to open remotely stored project... %i seconds left"
+msgstr ""
+
+#: src/proj/manager.py:1112
 msgid "Converting project..."
 msgstr "Convertit le projet..."
 
-#: src/proj/manager.py:1037
+#: src/proj/manager.py:1123
 msgid "Project Conversion Options"
 msgstr "Options de Conversion du projet"
 
-#: src/proj/manager.py:1038
+#: src/proj/manager.py:1124
 #, fuzzy
 msgid ""
 "Would you like to convert this project to use the new auto-updating "
@@ -945,49 +958,35 @@ msgstr ""
 "Vous pourrez modifier les contenus du projet après modification dans chacun "
 "des cas. Le projet converti sera ouvert comme un nouveau projet sans titre."
 
-#: src/proj/manager.py:1049
+#: src/proj/manager.py:1135
 msgid "Use Auto-Updating Project"
 msgstr "Utiliser l'auto-mise à jour du projet"
 
-#: src/proj/manager.py:1050
+#: src/proj/manager.py:1136
 msgid "Use Static Project"
 msgstr "Utiliser un projet Statique"
 
-#: src/proj/manager.py:1059
+#: src/proj/manager.py:1145
 msgid "Creating project instance..."
 msgstr "Création d'une instance de projet..."
 
-#: src/proj/manager.py:1073
+#: src/proj/manager.py:1159
 msgid "Close prior project..."
 msgstr "Fermeture du projet antérieur..."
 
-#: src/proj/manager.py:1076
+#: src/proj/manager.py:1162
 msgid "Project opened"
 msgstr "Projet ouvert"
 
-#: src/proj/manager.py:1079
+#: src/proj/manager.py:1165
 msgid "Reading project..."
 msgstr "Lit le projet..."
 
-#: src/proj/manager.py:1085 src/proj/manager.py:1106
+#: src/proj/manager.py:1181
 msgid "Failed to load project"
 msgstr "Le chargement du projet a échoué"
 
-#: src/proj/manager.py:1086
-msgid ""
-"Could not open project file '%s': it is a shared (two-file) project  for use "
-"with revision control and cannot be read by Wing Personal."
-msgstr ""
-"N'a pas pu ouvrir le fichier projet '%s' : c'est un projet (deux-fichiers) "
-"partagé pour utiliser avec un contrôle de révision et ne peut pas être lu "
-"avec Wing Personal."
-
-#: src/proj/manager.py:1088 src/proj/manager.py:1110 src/proj/project.py:1715
-#: src/proj/properties.py:3309
-msgid "_OK"
-msgstr "_OK"
-
-#: src/proj/manager.py:1107
+#: src/proj/manager.py:1182
 msgid ""
 "Could not open project file '%s': it may be unreadable or  in an invalid "
 "file format.  Try opening it from the File menu to  inspect the contents of "
@@ -997,19 +996,24 @@ msgstr ""
 "format de fichiers invalide. Essayez de l'ouvrir depuis le menu Fichier pour "
 "inspecter le contenu du fichier."
 
-#: src/proj/manager.py:1128
+#: src/proj/manager.py:1185 src/proj/project.py:1720
+#: src/proj/properties.py:3326
+msgid "_OK"
+msgstr "_OK"
+
+#: src/proj/manager.py:1203
 msgid "Failed to save portions of visual state:"
 msgstr "Échec pour enregistrer des portions d'état visuel :"
 
-#: src/proj/manager.py:1181
+#: src/proj/manager.py:1256
 msgid "Creating GUI..."
 msgstr "Création de l'Interface Graphique Utilisateur..."
 
-#: src/proj/manager.py:1185
+#: src/proj/manager.py:1260
 msgid "Update command GUI..."
 msgstr ""
 
-#: src/proj/manager.py:1216
+#: src/proj/manager.py:1291
 #, fuzzy
 msgid ""
 "Converted version %s project::This Wing version %s project file has been "
@@ -1021,7 +1025,7 @@ msgstr ""
 "Wing a été convertie à Wing 4.x en mise à jour automatique du format de "
 "fichier projet. Vous pourriez vouloir TRIM"
 
-#: src/proj/manager.py:1222
+#: src/proj/manager.py:1297
 #, fuzzy
 msgid ""
 "Converted version %s project::This Wing version %s project file has been "
@@ -1037,7 +1041,7 @@ msgstr ""
 "projet sous un nouveau nom de fichier, depuis que les fichiers projet Wing 4."
 "x ne peuvent pas être ouverts avec des versions plus anciennes de Wing."
 
-#: src/proj/manager.py:1228
+#: src/proj/manager.py:1303
 #, fuzzy
 msgid ""
 "Converted version %s project::This Wing version %s project file has been "
@@ -1050,31 +1054,31 @@ msgstr ""
 "sous un nouveau nom de fichier, car les fichiers projet Wing 4.x ne peuvent "
 "pas être ouverts avec des versions plus anciennes de Wing."
 
-#: src/proj/manager.py:1360
+#: src/proj/manager.py:1435
 msgid "Save Project As"
 msgstr "Enregistrer le projet Comme"
 
-#: src/proj/manager.py:1781
+#: src/proj/manager.py:1856
 msgid "_Open Selected"
 msgstr "Ouvrir la _sélection"
 
-#: src/proj/manager.py:1784
+#: src/proj/manager.py:1859
 msgid "Select Project File to Open"
 msgstr "Sélectionner un fichier projet à ouvrir"
 
-#: src/proj/manager.py:1814
+#: src/proj/manager.py:1889
 msgid "_Goto Definition"
 msgstr "Aller à la définition"
 
-#: src/proj/manager.py:1817
+#: src/proj/manager.py:1892
 msgid "Find Symbol in Project"
 msgstr "Trouver un symbole dans le projet"
 
-#: src/proj/manager.py:1936
+#: src/proj/manager.py:2011
 msgid "Enter fragments separated by spaces:"
 msgstr "Entrer des fragments séparés par des espaces :"
 
-#: src/proj/manager.py:2016
+#: src/proj/manager.py:2091
 #, fuzzy
 msgid "Match on _Full Path"
 msgstr "_Chemin Python"
@@ -1100,7 +1104,11 @@ msgstr "Connecter à un hôte distant (via SSH)"
 msgid "Connect to Vagrant"
 msgstr ""
 
-#: src/proj/newproject.py:100
+#: src/proj/newproject.py:81
+msgid "Connect to WSL"
+msgstr ""
+
+#: src/proj/newproject.py:101
 msgid ""
 "The type of project you wish to create.  Some project types prompt for "
 "different initial values."
@@ -1108,7 +1116,7 @@ msgstr ""
 "Le type de projet que vous souhaitez créer. Certains types de projet "
 "demandent des valeurs initiales différentes."
 
-#: src/proj/newproject.py:109
+#: src/proj/newproject.py:110
 msgid ""
 "The primary source directory to add to the project.  Other directories can "
 "be added later in the Project tool."
@@ -1116,133 +1124,133 @@ msgstr ""
 "Le répertoire source primaire à ajouter au projet. D’autres répertoires "
 "pourront être ajoutés plus tard dans l’outil Projet."
 
-#: src/proj/newproject.py:115
+#: src/proj/newproject.py:116
 msgid "This can be changed later in Project Properties."
 msgstr "Cela peut être changé plus tard dans les propriétés du projet."
 
-#: src/proj/newproject.py:118
+#: src/proj/newproject.py:119
 msgid "The Python executable to use with this project."
 msgstr "L'exécutable Python à utiliser avec ce projet."
 
-#: src/proj/newproject.py:120
+#: src/proj/newproject.py:121
 msgid "The python.exe to use with this project."
 msgstr "Le python.exe à utiliser avec ce projet."
 
-#: src/proj/newproject.py:121
+#: src/proj/newproject.py:122
 msgid "The virtualenv Python to use with this project."
 msgstr ""
 
-#: src/proj/newproject.py:159
+#: src/proj/newproject.py:160
 msgid "Python Executable"
 msgstr "Exécutable Python"
 
-#: src/proj/newproject.py:204
+#: src/proj/newproject.py:205
 msgid "Project Created"
 msgstr "Projet Créé"
 
-#: src/proj/newproject.py:205
+#: src/proj/newproject.py:206
 msgid "A new untitled project has been created.  You can now:"
 msgstr "Un nouveau projet a été créé. Vous pouvez maintenant :"
 
-#: src/proj/newproject.py:206
+#: src/proj/newproject.py:207
 msgid "Drag files and directories onto the Project tool"
 msgstr "Faites glisser fichiers et répertoires sur l’outil de Projet"
 
-#: src/proj/newproject.py:207
+#: src/proj/newproject.py:208
 msgid "Configure Project Properties from the Project menu"
 msgstr "Configurer les propriétés du projet depuis le menu Projet"
 
-#: src/proj/newproject.py:208
+#: src/proj/newproject.py:209
 msgid "Save the project to disk"
 msgstr "Enregistrer le projet sur le disque"
 
-#: src/proj/newproject.py:241 src/proj/properties.py:2966
+#: src/proj/newproject.py:242 src/proj/properties.py:2983
 msgid "Add Directory"
 msgstr "Ajouter un répertoire"
 
-#: src/proj/newproject.py:242
+#: src/proj/newproject.py:243
 msgid "Project Properties"
 msgstr "Propriétés du projet"
 
-#: src/proj/newproject.py:243
+#: src/proj/newproject.py:244
 msgid "Save Now"
 msgstr "Enregistrer maintenant"
 
-#: src/proj/newproject.py:244
+#: src/proj/newproject.py:245
 msgid "Save Later"
 msgstr "Enregistrer plus tard"
 
-#: src/proj/newproject.py:264
+#: src/proj/newproject.py:265
 msgid "Virtualenv Python"
 msgstr ""
 
-#: src/proj/newproject.py:311
+#: src/proj/newproject.py:313
 #, fuzzy
 msgid "Store Project File on Remote Host"
 msgstr "Sélectionner un fichier projet à ouvrir"
 
-#: src/proj/newproject.py:336
+#: src/proj/newproject.py:338
 msgid ""
 "Please choose a different Identifier to avoid overwriting the existing but "
 "different shared host configuration %s"
 msgstr ""
 
-#: src/proj/newproject.py:375
+#: src/proj/newproject.py:377
 msgid "Remote Project Created"
 msgstr "Projet distant créé"
 
-#: src/proj/newproject.py:376
+#: src/proj/newproject.py:378
 msgid "Add files and directories from the remote host"
 msgstr "Ajouter des fichiers et répertoires depuis l'hôte distant"
 
-#: src/proj/newproject.py:396
+#: src/proj/newproject.py:398
 msgid "Save Remote Project"
 msgstr "Enregistrer le projet distant"
 
-#: src/proj/newproject.py:397
+#: src/proj/newproject.py:399
 msgid "Select the location to store the new project."
 msgstr "Sélectionnez l'emplacement où enregistrer le nouveau projet."
 
-#: src/proj/newproject.py:421 src/proj/newproject.py:1016
+#: src/proj/newproject.py:423 src/proj/newproject.py:1021
 #, fuzzy
 msgid "Project Setup Complete"
 msgstr "Projet ouvert"
 
-#: src/proj/newproject.py:422
+#: src/proj/newproject.py:424
 msgid ""
 "Your project has been configured.  Next you'll need to install Wing's remote "
 "agent on the remote host."
 msgstr ""
 
-#: src/proj/newproject.py:430 src/proj/newproject.py:1029
+#: src/proj/newproject.py:432 src/proj/newproject.py:1034
 msgid "Install Remote Agent"
 msgstr "Installer un agent distant"
 
-#: src/proj/newproject.py:475
+#: src/proj/newproject.py:477
 msgid "Source Directory"
 msgstr "Répertoire source"
 
-#: src/proj/newproject.py:489
+#: src/proj/newproject.py:491
 msgid "The given source directory does not exist or is not a directory"
 msgstr "Le répertoire source donné n'existe pas ou n'est pas un répertoire"
 
-#: src/proj/newproject.py:509
+#: src/proj/newproject.py:511
 msgid "Scanning Directory"
 msgstr "Scanner le répertoire"
 
-#: src/proj/newproject.py:513
+#: src/proj/newproject.py:515
 msgid "Scanning the disk for project files.  Please wait."
 msgstr "Scanne le disque pour les fichiers projet. Veuillez patienter."
 
-#: src/proj/newproject.py:587 src/proj/properties.py:2075
+#: src/proj/newproject.py:589 src/proj/properties.py:2075
 msgid "Zope2 Instance Home"
 msgstr "Instance principale Zope2"
 
-#: src/proj/newproject.py:590 src/proj/properties.py:2077
+#: src/proj/newproject.py:592 src/proj/properties.py:2077
 msgid "Zope2 Host (if remote)"
 msgstr "Hôte Zope2 (si distant)"
 
-#: src/proj/newproject.py:658
+#: src/proj/newproject.py:662
 msgid ""
 "Choose project type.  These values can be changed later with Project "
 "Properties in the Project menu:"
@@ -1250,124 +1258,124 @@ msgstr ""
 "Choisir le type de projet. Ces valeurs peuvent être changées plus tard dans "
 "les propriétés du projet dans le menu Projet:"
 
-#: src/proj/newproject.py:668
+#: src/proj/newproject.py:672
 msgid "Show Documentation"
 msgstr "Afficher la documentation"
 
-#: src/proj/newproject.py:673
+#: src/proj/newproject.py:677
 msgid "New Project"
 msgstr "Nouveau projet"
 
-#: src/proj/newproject.py:683
+#: src/proj/newproject.py:687
 msgid "Show this dialog when creating projects"
 msgstr "Afficher cette boite de dialogue lors de la création de projets"
 
-#: src/proj/newproject.py:733
+#: src/proj/newproject.py:737
 msgid "_New Project"
 msgstr "_Nouveau projet"
 
-#: src/proj/newproject.py:785
+#: src/proj/newproject.py:789
 msgid "Invalid Values"
 msgstr "Valeurs invalides"
 
-#: src/proj/newproject.py:786
+#: src/proj/newproject.py:790
 msgid "Some values are invalid:"
 msgstr "Certaines valeurs sont invalides :"
 
-#: src/proj/newproject.py:888
+#: src/proj/newproject.py:892
 #, fuzzy
 msgid "Add files and directories from the vagrant box"
 msgstr "Ajouter des fichiers et répertoires depuis l'hôte distant"
 
-#: src/proj/newproject.py:891
+#: src/proj/newproject.py:895
 msgid "The existing Vagrant project directory on the local host"
 msgstr ""
 
-#: src/proj/newproject.py:904
+#: src/proj/newproject.py:908
 #, fuzzy
 msgid "Vagrant Project Directory"
 msgstr "Répertoire du projet initial"
 
-#: src/proj/newproject.py:917
+#: src/proj/newproject.py:921
 #, fuzzy
 msgid "The selected Vagrant Project Directory %s does not exist"
 msgstr "Le répertoire du projet initial '%s' n'existe pas"
 
-#: src/proj/newproject.py:921
+#: src/proj/newproject.py:925
 msgid "Vagrantfile not found in %s"
 msgstr ""
 
-#: src/proj/newproject.py:927
+#: src/proj/newproject.py:931
 msgid "Could not run 'vagrant ssh-config': failed to start"
 msgstr ""
 
-#: src/proj/newproject.py:930
+#: src/proj/newproject.py:934
 msgid "Could not run 'vagrant ssh-config': timed out"
 msgstr ""
 
-#: src/proj/newproject.py:946
+#: src/proj/newproject.py:950
 msgid "SSH Port from 'vagrant ssh-config' is not an integer: %s"
 msgstr ""
 
-#: src/proj/newproject.py:950
+#: src/proj/newproject.py:954
 msgid "SSH private key from 'vagrant ssh-config' does not exist: %s"
 msgstr ""
 
-#: src/proj/newproject.py:954
+#: src/proj/newproject.py:958
 msgid "Empty User line from 'vagrant ssh-config'"
 msgstr ""
 
-#: src/proj/newproject.py:958
+#: src/proj/newproject.py:962
 msgid "Empty HostName line from 'vagrant ssh-config'"
 msgstr ""
 
-#: src/proj/newproject.py:961
+#: src/proj/newproject.py:965
 msgid ""
 "Could not obtain the necessary data from 'vagrant ssh-config'.  Have you run "
 "'vagrant up' in %s?"
 msgstr ""
 
-#: src/proj/newproject.py:1017
+#: src/proj/newproject.py:1022
 msgid ""
 "Your project has been configured.  Next you'll need to install Wing's remote "
 "agent on the Vagrant box."
 msgstr ""
 
-#: src/proj/newproject.py:1052
+#: src/proj/newproject.py:1057
 msgid ""
 "Please try converting again with puttygen.  Canceling will leave the project "
 "partially configured but unsaved."
 msgstr ""
 
-#: src/proj/newproject.py:1060
+#: src/proj/newproject.py:1065
 msgid "Retry puttygen"
 msgstr ""
 
-#: src/proj/newproject.py:1066
+#: src/proj/newproject.py:1071
 msgid "Could Not Convert Key"
 msgstr "N'a pas pu convertir la clé"
 
-#: src/proj/newproject.py:1067
+#: src/proj/newproject.py:1072
 msgid ""
 "Could not convert the Vagrant private key to PuTTY format because puttygen."
 "exe failed to start.  It must be installed in the same directory as plink."
 "exe."
 msgstr ""
 
-#: src/proj/newproject.py:1078
+#: src/proj/newproject.py:1083
 #, fuzzy
 msgid "Could Not Find Converted Key"
 msgstr "N'a pas pu convertir l'encodage"
 
-#: src/proj/newproject.py:1079
+#: src/proj/newproject.py:1084
 msgid "Could not find the converted key file \"%s\"."
 msgstr ""
 
-#: src/proj/newproject.py:1098
+#: src/proj/newproject.py:1103
 msgid "Private Key Conversion"
 msgstr "Conversion de la clé privée"
 
-#: src/proj/newproject.py:1099
+#: src/proj/newproject.py:1104
 msgid ""
 "Vagrant's private key needs to be manually converted for PuTTY.  Continue to "
 "start puttygen with the private key loaded.  Then use Save Private Key in "
@@ -1376,7 +1384,7 @@ msgid ""
 "continue setting up your project."
 msgstr ""
 
-#: src/proj/newproject.py:1105
+#: src/proj/newproject.py:1110
 msgid "Start puttygen"
 msgstr ""
 
@@ -1488,11 +1496,11 @@ msgstr "Commande de construction"
 msgid "Launch Config"
 msgstr "Lancer configurations"
 
-#: src/proj/project.py:1320
+#: src/proj/project.py:1325
 msgid "New Project #%d.wpr"
 msgstr "Nouveau projet #%d.wpr"
 
-#: src/proj/project.py:1675
+#: src/proj/project.py:1680
 msgid ""
 "\n"
 "\n"
@@ -1502,7 +1510,7 @@ msgstr ""
 "\n"
 "Projet verrouillé par : hostname=%s, user=%s, process_id=%s."
 
-#: src/proj/project.py:1677
+#: src/proj/project.py:1682
 msgid ""
 "\n"
 "\n"
@@ -1512,11 +1520,11 @@ msgstr ""
 "\n"
 "Note : N'a pas pu lire le fichier verrou. Raison : %s"
 
-#: src/proj/project.py:1679
+#: src/proj/project.py:1684
 msgid "Project Opened Read-Only"
 msgstr "Projet ouvert en Lecture seule"
 
-#: src/proj/project.py:1680
+#: src/proj/project.py:1685
 msgid ""
 "This project is already open in another instance of Wing so has been opened "
 "read-only.  Use Save Project As to save any changes to another project "
@@ -1529,14 +1537,14 @@ msgstr ""
 "verrou est aussi possible mais pourra perdre des données du projet écrites "
 "dans l'autre instance de Wing. %s"
 
-#: src/proj/project.py:1690
+#: src/proj/project.py:1695
 msgid ""
 "Failed to Override Lock::The lock could not be overridden for remote file %s"
 msgstr ""
 "Écrasement du verrou échoué::Le verrou n'a pas pu être écrasé. Veuillez "
 "vérifier si le fichier verrouillé %s est en lecture seule."
 
-#: src/proj/project.py:1693
+#: src/proj/project.py:1698
 msgid ""
 "Failed to Override Lock::The lock could not be overridden.  Please check "
 "whether the lock file %s is read-only."
@@ -1544,38 +1552,42 @@ msgstr ""
 "Écrasement du verrou échoué::Le verrou n'a pas pu être écrasé. Veuillez "
 "vérifier si le fichier verrouillé %s est en lecture seule."
 
-#: src/proj/project.py:1706
+#: src/proj/project.py:1711
 msgid "Choose Other Project..."
 msgstr "Choisir un autre projet…"
 
-#: src/proj/project.py:1714
+#: src/proj/project.py:1719
 msgid "O_pen Other"
 msgstr "Ouvrir les autres"
 
-#: src/proj/project.py:1716
+#: src/proj/project.py:1721
 msgid "O_verride Lock"
 msgstr "Écraser le Verrou"
 
-#: src/proj/project.py:1825
+#: src/proj/project.py:1829
+msgid "Remote project open canceled or timed out for %s"
+msgstr ""
+
+#: src/proj/project.py:1835
 msgid "Could not open project::Failed to open remote project file"
 msgstr ""
 
-#: src/proj/project.py:1855
+#: src/proj/project.py:1865
 msgid ""
 "Could not open project::Cannot open version 1.0 projects from a remote "
 "location"
 msgstr ""
 
-#: src/proj/project.py:1915
+#: src/proj/project.py:1925
 msgid ""
 "Could not open project::Failed to open user branch of remote project file"
 msgstr ""
 
-#: src/proj/project.py:1933
+#: src/proj/project.py:1943
 msgid "Could not read per-user project data in '%s'"
 msgstr "N'a pas pu lire les données projet par-utilisateur dans '%s'"
 
-#: src/proj/project.py:1938
+#: src/proj/project.py:1948
 msgid ""
 "Could not open per-user project data in '%s': it may be unreadable or  in an "
 "invalid file format.  Try opening it from the File menu to  inspect the "
@@ -1585,16 +1597,16 @@ msgstr ""
 "être illisible ou dans un format de fichier invalide. Essayez de les ouvrir "
 "depuis le menu Fichier pour inspecter le contenu du fichier."
 
-#: src/proj/project.py:2090
+#: src/proj/project.py:2100
 #, fuzzy
 msgid "Project Write Failed::Failed to write remote project file %s: "
 msgstr "Échec de l'écriture d'une partie du fichier projet: "
 
-#: src/proj/project.py:2122 src/proj/project.py:2146
+#: src/proj/project.py:2132 src/proj/project.py:2156
 msgid "General write error"
 msgstr "Erreur d'écriture générale"
 
-#: src/proj/project.py:2152
+#: src/proj/project.py:2162
 msgid ""
 "Unexpected failure to save project file %s: Please submit a bug report from "
 "the Help menu."
@@ -1602,15 +1614,15 @@ msgstr ""
 "Erreur imprévue pour enregistrer le fichier projet %s : Veuillez envoyer un "
 "Retour de bugs depuis le menu Aide."
 
-#: src/proj/project.py:2158
+#: src/proj/project.py:2168
 msgid "Failed to write parts of the project file: "
 msgstr "Échec de l'écriture d'une partie du fichier projet: "
 
-#: src/proj/project.py:2590
+#: src/proj/project.py:2605
 msgid "Cannot add Unsaved Files"
 msgstr "Impossible d'ajouter des fichiers non sauvegardés"
 
-#: src/proj/project.py:2591
+#: src/proj/project.py:2606
 msgid ""
 "Sorry, you cannot add an unsaved file.  Please save the file before adding "
 "it to the project."
@@ -1779,7 +1791,7 @@ msgid "Edit the selected Launch Configuration"
 msgstr "Éditer le lancement de configuration sélectionné"
 
 #: src/proj/properties.py:399 src/proj/properties.py:560
-#: src/proj/properties.py:3324
+#: src/proj/properties.py:3341
 msgid "_Edit"
 msgstr "_Éditer"
 
@@ -1788,7 +1800,7 @@ msgid "Create and use a new Launch Configuration"
 msgstr "Créer et utiliser un nouveau lancement de configuration"
 
 #: src/proj/properties.py:400 src/proj/properties.py:561
-#: src/proj/properties.py:3325
+#: src/proj/properties.py:3342
 msgid "_New"
 msgstr "_Nouveau"
 
@@ -1801,7 +1813,7 @@ msgstr ""
 "ou supprimer des lancements de configurations."
 
 #: src/proj/properties.py:401 src/proj/properties.py:562
-#: src/proj/properties.py:3326
+#: src/proj/properties.py:3343
 msgid "_Manage"
 msgstr "Gérer"
 
@@ -2155,11 +2167,11 @@ msgstr "Déboguer les process enfants"
 msgid "View/edit Debug Child Processes preference"
 msgstr "Voir/éditer l'affichage des préférences des espaces"
 
-#: src/proj/properties.py:1866 src/proj/properties.py:2692
+#: src/proj/properties.py:1866 src/proj/properties.py:2709
 msgid "None"
 msgstr "None"
 
-#: src/proj/properties.py:1872 src/proj/properties.py:2703
+#: src/proj/properties.py:1872 src/proj/properties.py:2720
 msgid "Unbuffered (-u)"
 msgstr "Sans tampon (-u)"
 
@@ -2180,11 +2192,11 @@ msgid "Analyze main debug file for sys.path changes"
 msgstr ""
 "Analyser le fichier de débogage principal pour les modifications de sys.path"
 
-#: src/proj/properties.py:1923 src/proj/properties.py:2824
+#: src/proj/properties.py:1923 src/proj/properties.py:2841
 msgid "_Debug/Execute"
 msgstr "_Déboguer/Exécuter"
 
-#: src/proj/properties.py:1925 src/proj/properties.py:2834
+#: src/proj/properties.py:1925 src/proj/properties.py:2851
 msgid "_Debug"
 msgstr "_Déboguer"
 
@@ -2391,11 +2403,11 @@ msgstr ""
 "cette option si vous utilisez un système de contrôle de révision qui se fie "
 "aux permissions de fichier pour bloquer."
 
-#: src/proj/properties.py:2508
+#: src/proj/properties.py:2525
 msgid "Could not convert encoding"
 msgstr "N'a pas pu convertir l'encodage"
 
-#: src/proj/properties.py:2509
+#: src/proj/properties.py:2526
 msgid ""
 "Encoding of this file cannot be set here because the file contains a comment "
 "specifying '%s' encoding.  Please edit the comment instead."
@@ -2404,15 +2416,15 @@ msgstr ""
 "commentaire '%s' spécifiant l'encodage. Veuillez plutôt éditer ce "
 "commentaire."
 
-#: src/proj/properties.py:2536
+#: src/proj/properties.py:2553
 msgid "Reload file with new encoding?"
 msgstr "Recharger avec un nouvel encodage ?"
 
-#: src/proj/properties.py:2538 src/proj/properties.py:2542
+#: src/proj/properties.py:2555 src/proj/properties.py:2559
 msgid "\"set by preference\""
 msgstr "\"affecté par les préférences\""
 
-#: src/proj/properties.py:2545
+#: src/proj/properties.py:2562
 msgid ""
 "You have changed the encoding of this file from %s to %s.  Would you like to "
 "discard changes and reload the file now using the new encoding, or just save "
@@ -2427,147 +2439,147 @@ msgstr ""
 "recharger si le fichier n'a pas été ouvert correctement avec l'ancien "
 "encodage."
 
-#: src/proj/properties.py:2558
+#: src/proj/properties.py:2575
 msgid "Abandon Changes?"
 msgstr "Abandon des modifications ?"
 
-#: src/proj/properties.py:2559
+#: src/proj/properties.py:2576
 msgid ""
 "Do you really want to abandon your changes and reread this file from disk?"
 msgstr ""
 "Voulez vous vraiment abandonner vos modifications et relire ce fichier "
 "depuis le disque ?"
 
-#: src/proj/properties.py:2561
+#: src/proj/properties.py:2578
 msgid "_Abandon Changes"
 msgstr "_Abandon des modifications"
 
-#: src/proj/properties.py:2571
+#: src/proj/properties.py:2588
 msgid "Reload Now"
 msgstr "Recharger maintenant"
 
-#: src/proj/properties.py:2572
+#: src/proj/properties.py:2589
 msgid "Do Not Reload"
 msgstr "Ne pas recharger"
 
-#: src/proj/properties.py:2573
+#: src/proj/properties.py:2590
 msgid "Cancel Encoding Change"
 msgstr "Annuler le changement d'encodage"
 
-#: src/proj/properties.py:2607
+#: src/proj/properties.py:2624
 msgid "File Properties: %s"
 msgstr "Propriétés du fichier : %s"
 
-#: src/proj/properties.py:2730
+#: src/proj/properties.py:2747
 msgid "Set by Encoding Comment (%s)"
 msgstr "Affecté par le commentaire d'encodage (%s)"
 
-#: src/proj/properties.py:2744 src/proj/properties.py:2748
+#: src/proj/properties.py:2761 src/proj/properties.py:2765
 msgid "Plain Text"
 msgstr "Texte plein"
 
-#: src/proj/properties.py:2749
+#: src/proj/properties.py:2766
 msgid "By File Name (%s)"
 msgstr "Par nom de fichier (%s)"
 
-#: src/proj/properties.py:2754
+#: src/proj/properties.py:2771
 msgid "File Type"
 msgstr "Type du fichier"
 
-#: src/proj/properties.py:2756
+#: src/proj/properties.py:2773
 msgid "Encoding"
 msgstr "Encodage"
 
-#: src/proj/properties.py:2758
+#: src/proj/properties.py:2775
 msgid "View/edit Default Text Encoding preference"
 msgstr "Voir/éditer les préférences d'encodage du texte par défaut"
 
-#: src/proj/properties.py:2762
+#: src/proj/properties.py:2779
 msgid "Line Ending Style"
 msgstr "Style de fin de ligne"
 
-#: src/proj/properties.py:2764
+#: src/proj/properties.py:2781
 msgid "Indent Style"
 msgstr "Style d'indent"
 
-#: src/proj/properties.py:2766
+#: src/proj/properties.py:2783
 msgid "Convert Indents"
 msgstr "Convertir les indents"
 
-#: src/proj/properties.py:2767
+#: src/proj/properties.py:2784
 msgid "Display the indentation conversion tool"
 msgstr "Afficher l'outil de conversion d'indentation"
 
-#: src/proj/properties.py:2771
+#: src/proj/properties.py:2788
 msgid "Read-only on Disk"
 msgstr "Lecture seule sur le disque"
 
-#: src/proj/properties.py:2780
+#: src/proj/properties.py:2797
 msgid "Show White Space"
 msgstr "Afficher les espaces blancs"
 
-#: src/proj/properties.py:2782
+#: src/proj/properties.py:2799
 msgid "View/edit Show Whitespace preference"
 msgstr "Voir/éditer l'affichage des préférences des espaces"
 
-#: src/proj/properties.py:2785
+#: src/proj/properties.py:2802
 msgid "Show EOL"
 msgstr "Afficher les fin de ligne"
 
-#: src/proj/properties.py:2787
+#: src/proj/properties.py:2804
 msgid "View/edit Show EOL preference"
 msgstr "Voir/éditer l'affichage des préférences de fin de lignes"
 
-#: src/proj/properties.py:2790
+#: src/proj/properties.py:2807
 msgid "Show Indent Guides"
 msgstr "Afficher les guides d'indents"
 
-#: src/proj/properties.py:2792
+#: src/proj/properties.py:2809
 msgid "View/edit Show Indent Guides preference"
 msgstr "Voir/éditer Afficher les préférences des guides d'indent"
 
-#: src/proj/properties.py:2795
+#: src/proj/properties.py:2812
 msgid "Ignore Indent Errors"
 msgstr "Ignorer les erreurs d'indents"
 
-#: src/proj/properties.py:2797
+#: src/proj/properties.py:2814
 msgid "Ignore EOL Errors"
 msgstr "Ignorer les erreurs de fin de ligne"
 
-#: src/proj/properties.py:2799
+#: src/proj/properties.py:2816
 msgid "Ensure Ending EOL"
 msgstr "Assurer les fins EOL"
 
-#: src/proj/properties.py:2801
+#: src/proj/properties.py:2818
 #, fuzzy
 msgid "View/edit Ensure Ending EOL When Saving preference"
 msgstr "Voir/éditer les préférences de fin de ligne"
 
-#: src/proj/properties.py:2813
+#: src/proj/properties.py:2830
 msgid "_File Attributes"
 msgstr "Attibuts du _fichier"
 
-#: src/proj/properties.py:2818
+#: src/proj/properties.py:2835
 msgid "_Editor"
 msgstr "_Éditeur"
 
-#: src/proj/properties.py:2829
+#: src/proj/properties.py:2846
 msgid "_Environment"
 msgstr "_Environnement"
 
-#: src/proj/properties.py:2910
+#: src/proj/properties.py:2927
 msgid "Debug: %s"
 msgstr "Déboguer : %s"
 
-#: src/proj/properties.py:2936
+#: src/proj/properties.py:2953
 msgid "Name of directory"
 msgstr "Nom du répertoire"
 
-#: src/proj/properties.py:2938
+#: src/proj/properties.py:2955
 msgid "Check this to scan all sub-directories recursively."
 msgstr "Cocher ceci pour scanner tous les sous-répertoires récursivement."
 
-#: src/proj/properties.py:2940
+#: src/proj/properties.py:2957
 msgid ""
 "The filter that specifies which of the directory's files should be included "
 "in the project.  This should be an fnmatch/glob style pattern (such as '*' "
@@ -2575,7 +2587,7 @@ msgid ""
 "button to configure Filters."
 msgstr ""
 
-#: src/proj/properties.py:2946
+#: src/proj/properties.py:2963
 msgid ""
 "Whether to show files matching the Hidden and Temporary file filter.  When "
 "checked, those files are not included in the project.  When unchecked, all "
@@ -2583,7 +2595,7 @@ msgid ""
 "the Hidden and Temporary file filter in preferences."
 msgstr ""
 
-#: src/proj/properties.py:2952
+#: src/proj/properties.py:2969
 msgid ""
 "Check this to watch for changes on disk and update the project view to "
 "reflect any changes to files existing on disk.  When unchecked, the "
@@ -2591,85 +2603,85 @@ msgid ""
 "directory and selecting Rescan Directory."
 msgstr ""
 
-#: src/proj/properties.py:2954
+#: src/proj/properties.py:2971
 msgid "The name of the directory."
 msgstr "Le nom du répertoire"
 
-#: src/proj/properties.py:2956
+#: src/proj/properties.py:2973
 msgid ""
 "Files and directories located within this directory that have been manually "
 "removed or excluded from display in the project.  Use the Clear Excludes "
 "button to remove all excludes for this directory."
 msgstr ""
 
-#: src/proj/properties.py:2968
+#: src/proj/properties.py:2985
 msgid "Directory Properties"
 msgstr "Propriétés du répertoire"
 
-#: src/proj/properties.py:2995
+#: src/proj/properties.py:3012
 msgid "No Excludes"
 msgstr "Pas d'exclusions"
 
-#: src/proj/properties.py:2996
+#: src/proj/properties.py:3013
 msgid "Hidden and Temporary files"
 msgstr "Fichiers cachés et temporaires"
 
-#: src/proj/properties.py:3005 src/proj/properties.py:3014
-#: src/proj/properties.py:3022
+#: src/proj/properties.py:3022 src/proj/properties.py:3031
+#: src/proj/properties.py:3039
 msgid "Directory"
 msgstr "Répertoire"
 
-#: src/proj/properties.py:3030
+#: src/proj/properties.py:3047
 msgid "Include"
 msgstr "Inclure"
 
-#: src/proj/properties.py:3038
+#: src/proj/properties.py:3055
 msgid "Exclude"
 msgstr "Exclure"
 
-#: src/proj/properties.py:3045
+#: src/proj/properties.py:3062
 msgid "Recursive"
 msgstr "Récursif"
 
-#: src/proj/properties.py:3047
+#: src/proj/properties.py:3064
 msgid "Watch for external changes"
 msgstr "Surveiller les modifications externes"
 
-#: src/proj/properties.py:3055
+#: src/proj/properties.py:3072
 msgid "Clear Excludes"
 msgstr "Effacer les exclusions"
 
-#: src/proj/properties.py:3056
+#: src/proj/properties.py:3073
 msgid "Immediately clear all exclusions for this directory"
 msgstr "Nettoyer immédiatement toutes les exclusions pour ce répertoire"
 
-#: src/proj/properties.py:3139
+#: src/proj/properties.py:3156
 msgid "No files or subdirectories excluded"
 msgstr "Aucun fichier ou sous-répertoire exclu"
 
-#: src/proj/properties.py:3141
+#: src/proj/properties.py:3158
 msgid "%s files or subdirectories excluded"
 msgstr "%s fichiers ou sous-répertoires exclus"
 
-#: src/proj/properties.py:3209
+#: src/proj/properties.py:3226
 #, fuzzy
 msgid "Remote Inspect Failed"
 msgstr "Projet distant créé"
 
-#: src/proj/properties.py:3210
+#: src/proj/properties.py:3227
 msgid "Could not show file dialog because remote inspect of %s failed"
 msgstr ""
 
-#: src/proj/properties.py:3284
+#: src/proj/properties.py:3301
 msgid "The following referenced environment variables were undefined: "
 msgstr ""
 "Les variables d'environnement référencées suivantes étaient indéfinies : "
 
-#: src/proj/properties.py:3288
+#: src/proj/properties.py:3305
 msgid "Invalid Properties"
 msgstr "Propriétés invalides"
 
-#: src/proj/properties.py:3288
+#: src/proj/properties.py:3305
 msgid ""
 "Some values are invalid:\n"
 "\n"
@@ -2677,7 +2689,7 @@ msgstr ""
 "Certaines valeurs sont invalides :\n"
 "\n"
 
-#: src/proj/properties.py:3292
+#: src/proj/properties.py:3309
 msgid ""
 "\n"
 "Some warnings were also encountered:\n"
@@ -2687,7 +2699,7 @@ msgstr ""
 "Quelques avertissements ont aussi été détectés :\n"
 "\n"
 
-#: src/proj/properties.py:3295
+#: src/proj/properties.py:3312
 msgid ""
 "\n"
 "Please correct the values and try again.\n"
@@ -2695,7 +2707,7 @@ msgstr ""
 "\n"
 "Veuillez corriger ces valeurs et essayer à nouveau.\n"
 
-#: src/proj/properties.py:3300
+#: src/proj/properties.py:3317
 msgid ""
 "\n"
 "Some property warnings were encountered:\n"
@@ -2705,19 +2717,19 @@ msgstr ""
 "Quelques avertissements de propriétés ont été détectés :\n"
 "\n"
 
-#: src/proj/properties.py:3310
+#: src/proj/properties.py:3327
 msgid "Properties Warnings"
 msgstr "Avertissements des propriétés"
 
-#: src/proj/properties.py:3324
+#: src/proj/properties.py:3341
 msgid "Edit the selected remote host configuration"
 msgstr "Éditer le lancement de configuration distant sélectionné"
 
-#: src/proj/properties.py:3325
+#: src/proj/properties.py:3342
 msgid "Create and use a new remote host configuration"
 msgstr "Créer et utiliser une nouvelle configuration d’hôte distant"
 
-#: src/proj/properties.py:3326
+#: src/proj/properties.py:3343
 #, fuzzy
 msgid ""
 "Show the remote host configuration manager to add, edit, or delete named "
@@ -2726,9 +2738,17 @@ msgstr ""
 "Afficher le gestionnaire de point d'entrée nommé pour ajouter, éditer, ou "
 "supprimer des point d'entrée nommés."
 
-#: src/proj/properties.py:3362
+#: src/proj/properties.py:3379
 msgid "Create Remote Host Configuration"
 msgstr "Créer une configuration d’hôte distant"
+
+#~ msgid ""
+#~ "Could not open project file '%s': it is a shared (two-file) project  for "
+#~ "use with revision control and cannot be read by Wing Personal."
+#~ msgstr ""
+#~ "N'a pas pu ouvrir le fichier projet '%s' : c'est un projet (deux-"
+#~ "fichiers) partagé pour utiliser avec un contrôle de révision et ne peut "
+#~ "pas être lu avec Wing Personal."
 
 #~ msgid ""
 #~ "Python executable '%s' is a Python file.  It should be a Python "

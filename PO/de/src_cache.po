@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_cache\n"
-"POT-Creation-Date: 2018-03-21 10:06+EDT\n"
-"PO-Revision-Date: 2018-04-18 12:29+0200\n"
+"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"PO-Revision-Date: 2016-12-14 18:53+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -17,26 +17,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: pygettext.py 1.4\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: src/cache/textcache.py:383
 msgid "Failed to read %s:  %s"
-msgstr "Lesen von %s fehlgeschlagen: %s"
+msgstr ""
 
 #: src/cache/textcache.py:385
+#, fuzzy
 msgid "Could Not Read %s"
-msgstr "%s konnte nicht gelesen werden"
+msgstr "Datei konnte nicht gelesen werden"
 
-#: src/cache/textcache.py:450
+#: src/cache/textcache.py:451
 msgid "Could not read file due to remote agent abort"
 msgstr ""
 "Datei konnte nicht gelesen werden durch einen Abbruch des Remote-Agenten"
 
-#: src/cache/textcache.py:561
+#: src/cache/textcache.py:562
 msgid "Codec not found"
 msgstr "Codec nicht gefunden"
 
-#: src/cache/textcache.py:562
+#: src/cache/textcache.py:563
 msgid ""
 "Could not convert file %s when reading it -- the codec for the '%s' text "
 "encoding could not be found.  Trying default encoding '%s' instead."
@@ -44,11 +45,11 @@ msgstr ""
 "Konnte Datei %s nicht umwandeln - der Codec für Text Kodierung '%s' wurde "
 "nicht gefunden.  Standardkodierung '%s' wird statt dessen versucht."
 
-#: src/cache/textcache.py:585
+#: src/cache/textcache.py:586
 msgid "Could not convert from encoding"
 msgstr "Konnte nicht von der Kodierung umwandeln"
 
-#: src/cache/textcache.py:586
+#: src/cache/textcache.py:587
 msgid ""
 "Could not convert all characters in %s when reading it as a %s encoded "
 "file.  Replacing unmappable characters with ?'s so saving the file may "
@@ -64,11 +65,11 @@ msgstr ""
 "Einstellung Dateien / Standard-Kodierung anzupassen und dann die Datei "
 "erneut zu öffnen."
 
-#: src/cache/textcache.py:601
+#: src/cache/textcache.py:602
 msgid "Could not convert any characters in file"
 msgstr "Es konnten keine Zeichen in der Datei umgewandelt werden"
 
-#: src/cache/textcache.py:602
+#: src/cache/textcache.py:603
 msgid ""
 "Failed to convert any characters in %s when reading it as a %s encoded "
 "file.  Reading it as a latin-1 encoded file instead which will probably "
@@ -84,11 +85,11 @@ msgstr ""
 "Einstellung Dateien / Standard-Kodierung anzupassen und dann die Datei "
 "erneut zu öffnen."
 
-#: src/cache/textcache.py:612
+#: src/cache/textcache.py:613
 msgid "Could not read file"
 msgstr "Datei konnte nicht gelesen werden"
 
-#: src/cache/textcache.py:613
+#: src/cache/textcache.py:614
 msgid ""
 "Read failed because characters could not be read in %s when reading it as a "
 "%s encoded file."
@@ -96,7 +97,7 @@ msgstr ""
 "Das Lesen ist fehlgeschlagen, da die Zeichen in %s beim Einlesen als %s "
 "kodierte Datei nicht gelesen werden konnten."
 
-#: src/cache/textcache.py:772
+#: src/cache/textcache.py:773
 msgid ""
 "Unsupported encoding '%s' found in encoding comment -- Wing cannot write "
 "this file until the comment is changed"
@@ -104,18 +105,18 @@ msgstr ""
 "Nicht unterstützte Kodierung '%s' wurde im Kommentar gefunden -- Wing kann "
 "die Datei nicht speichern, bis die Kodierung im Kommentar geändert wurde"
 
-#: src/cache/textcache.py:823
+#: src/cache/textcache.py:824
 msgid "Could not convert text \"%s\" on line %d to the %s encoding"
 msgstr "Konnte den Text \"%s\" in Zeile %d nicht in die Kodierung %s umwandeln"
 
-#: src/cache/textcache.py:826
+#: src/cache/textcache.py:827
 msgid "Could not convert file contents to the %s encoding"
 msgstr "Konnte die Dateiinhalte nicht in die Kodierung %s umwandeln"
 
-#: src/cache/textcache.py:907
+#: src/cache/textcache.py:908
 msgid "General write error"
 msgstr "Allgemeiner Schreibfehler"
 
-#: src/cache/textcache.py:1072
+#: src/cache/textcache.py:1073
 msgid "Encoding of %s changed to %s"
 msgstr "Die Kodierung von %s wurde in %s geändert"
