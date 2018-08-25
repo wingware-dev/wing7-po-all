@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
 "POT-Creation-Date: 2018-08-23 14:16+EDT\n"
-"PO-Revision-Date: 2018-04-23 02:32+0200\n"
+"PO-Revision-Date: 2018-08-25 22:49+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
 "Language: fr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: src/process/abstract.py:279
 msgid "License missing required %s"
@@ -41,15 +41,14 @@ msgid "an unknown product"
 msgstr "un produit inconnu"
 
 #: src/process/abstract.py:433
-#, fuzzy
 msgid ""
 "Your license is for %s, but you are currently running %s.  Please download "
 "the correct product from https://wingware.com/downloads or upgrade your "
 "license at https://wingware.com/store/upgrade"
 msgstr ""
 "Votre licence est pour %s, mais vous utilisez actuellement %s. Veuillez "
-"télécharger le produit correct depuis http://wingware.com/downloads ou "
-"mettre à jour votre licence sur https://wingware.com/store/upgrade"
+"télécharger le produit correct depuis https://wingware.com/downloads ou "
+"mettre-à-jour votre licence sur https://wingware.com/store/upgrade"
 
 #: src/process/abstract.py:449
 msgid "Request code should start with R"
@@ -244,13 +243,12 @@ msgid "The free license you are using will expire in %s days."
 msgstr "La licence gratuite que vous utilisez va expirer dans %s jours."
 
 #: src/process/wingctl.py:479
-#, fuzzy
 msgid ""
 "If you still qualify for a free license, you may reapply at https://wingware."
 "com/store/free."
 msgstr ""
 "Si vous êtes toujours éligibles pour une licence gratuite, vous pouvez "
-"resoumettre une demande à l'adresse http://wingware.com/store/free."
+"resoumettre une demande à l'adresse https://wingware.com/store/free."
 
 #: src/process/wingctl.py:481
 msgid "Otherwise, please purchase a license at %s"
@@ -362,18 +360,16 @@ msgid "License Activated"
 msgstr "Licence activée"
 
 #: src/process/wingctl.py:765
-#, fuzzy
 msgid ""
 "License activation succeeded.  Your license is valid for another %s days.  "
 "Thanks for using Wing Pro!"
 msgstr ""
 "Activation de la licence réussie. Votre licence est valide pour encore %s "
-"days. Merci d'utiliser Wing !"
+"jours. Merci d'utiliser Wing Pro !"
 
 #: src/process/wingctl.py:770
-#, fuzzy
 msgid "License activation succeeded.  Thanks for using Wing Pro!"
-msgstr "Activation de la licence réussie. Merci d'utiliser Wing !"
+msgstr "Activation de la licence réussie. Merci d'utiliser Wing Pro !"
 
 #: src/process/wingctl.py:777
 msgid "Unexpected License Activation Error"
@@ -562,13 +558,12 @@ msgid "Activate License"
 msgstr "Activer la licence"
 
 #: src/process/wingctl.py:1147
-#, fuzzy
 msgid ""
 "Or:  Activate manually at https://wingware.com/activate.  You will need your "
 "license id %s and request code %s.  Then enter the provided activation key "
 "here:"
 msgstr ""
-"Ou : activer manuellement sur http://wingware.com/activate. Vous aurez "
+"Ou : activer manuellement sur https://wingware.com/activate. Vous aurez "
 "besoin de votre numéro de licence %s et votre code de requête %s. Puis "
 "entrez ici la clé d'activation fournie :"
 
@@ -577,12 +572,11 @@ msgid "Opening Browser"
 msgstr "Ouverture du navigateur"
 
 #: src/process/wingctl.py:1199
-#, fuzzy
 msgid ""
 "Click OK to open https://wingware.com/store in a web browser.  Once you have "
 "purchased a license, return here to activate it."
 msgstr ""
-"Cliquer sur OK pour ouvrir http://wingware.com/store dans un navigateur "
+"Cliquer sur OK pour ouvrir https://wingware.com/store dans un navigateur "
 "internet. Une fois que vous avez acheté une licence, revenez ici pour "
 "l'activer."
 
@@ -732,7 +726,6 @@ msgid "Internal error (invalid request code)"
 msgstr "Erreur interne (code de requête invalide)"
 
 #: src/process/wingctl.py:1738
-#, fuzzy
 msgid ""
 "You have exceeded the allowed number of trial licenses on this machine. "
 "Please email your license id %s to support@wingware.com if you need more "
@@ -744,10 +737,9 @@ msgstr ""
 "Veuillez envoyer un email de votre id %s de licence à support@wingware.com "
 "si vous avez besoin de plus de temps.\n"
 "\n"
-"Désolé pour le dérangement, et merci d'essayer Wing !"
+"Désolé pour le dérangement, et merci d'essayer Wing Pro !"
 
 #: src/process/wingctl.py:1742
-#, fuzzy
 msgid ""
 "You have exceeded your allowed number of license activations. You can "
 "increase activation limits at https://wingware.com/license or by emailing "
@@ -756,11 +748,11 @@ msgid ""
 "Sorry for the inconvenience and thanks for using Wing Pro!"
 msgstr ""
 "Vous avez dépassé votre nombre d'activations de licences autorisé. Vous "
-"pouvez augmentez vos limites d'activation sur http://wingware.com/license ou "
-"en envoyant un email avec votre numéro de licence %s à support@wingware."
+"pouvez augmenter vos limites d'activation sur https://wingware.com/license "
+"ou en envoyant un email avec votre numéro de licence %s à support@wingware."
 "com.\n"
 "\n"
-"Désolé pour le désagrément et merci d'utiliser Wing !"
+"Désolé pour le désagrément et merci d'utiliser Wing Pro !"
 
 #: src/process/wingctl.py:1748
 msgid "That license has expired.  Please contact sales@wingware.com."

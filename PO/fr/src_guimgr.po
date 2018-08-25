@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: src_guimgr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-23 14:16+EDT\n"
-"PO-Revision-Date: 2018-04-23 02:31+0200\n"
+"PO-Revision-Date: 2018-08-25 23:03+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: support@ingeniweb.com\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: src/guimgr/attribs.py:86
@@ -850,7 +850,7 @@ msgstr "P_lugins..."
 
 #: src/guimgr/constants.py:384
 msgid "Pre_ferences..."
-msgstr "Pré_férences"
+msgstr "Préférences…"
 
 #: src/guimgr/constants.py:388
 msgid "Enclose with ()"
@@ -894,16 +894,15 @@ msgstr "Changer la casse de la première lettre"
 
 #: src/guimgr/constants.py:405
 msgid "Reformat File for PEP 8"
-msgstr ""
+msgstr "Reformater le fichier pour PEP 8"
 
 #: src/guimgr/constants.py:406
 msgid "Reformat Selection for PEP 8"
-msgstr ""
+msgstr "Reformater la sélection pour PEP 8"
 
 #: src/guimgr/constants.py:408
-#, fuzzy
 msgid "Configure Auto-Formatting..."
-msgstr "Configurer l'auto-édition..."
+msgstr "Configurer l'auto-formattage…"
 
 #: src/guimgr/constants.py:412
 msgid "_Rename Symbol"
@@ -978,9 +977,8 @@ msgid "Find Points of _Use"
 msgstr "Trouver des points d'_utilisation"
 
 #: src/guimgr/constants.py:437
-#, fuzzy
 msgid "Find Points of _Use in Current File"
-msgstr "Trouver des points d'_utilisation"
+msgstr "Trouver les points d'utilisation dans le fichier actuel"
 
 #: src/guimgr/constants.py:438
 msgid "_Find Symbol"
@@ -1023,9 +1021,8 @@ msgid "Pre_vious Bookmark in Current File"
 msgstr "Signet précédent dans le fichier actuel"
 
 #: src/guimgr/constants.py:452
-#, fuzzy
 msgid "Show Bookmar_ks Tool"
-msgstr "Afficher les _signets"
+msgstr "Afficher l’outil de signets"
 
 #: src/guimgr/constants.py:455
 msgid "_Indentation"
@@ -1141,7 +1138,7 @@ msgstr "Changer la casse"
 
 #: src/guimgr/constants.py:490
 msgid "PEP 8"
-msgstr ""
+msgstr "PEP 8"
 
 #: src/guimgr/constants.py:492
 msgid "Show _Python Environment..."
@@ -1189,7 +1186,7 @@ msgstr "Ajouter un nouveau f_ichier"
 
 #: src/guimgr/constants.py:512
 msgid "Remove Selected _Entry"
-msgstr "Enlever l'_entrée sélectionnée "
+msgstr "Enlever l'entrée sélectionnée "
 
 #: src/guimgr/constants.py:514
 msgid "Show Current File in Project Tool"
@@ -1868,13 +1865,12 @@ msgid "Wing Help"
 msgstr "Aide Wing"
 
 #: src/guimgr/document.py:980
-#, fuzzy
 msgid ""
 "Could not find document section %s:  Please report this error to "
 "bugs@wingware.com"
 msgstr ""
 "Impossible de trouver la section %s du document : Veuillez rapporter cette "
-"erreur à bugs@wingware.com."
+"erreur à bugs@wingware.com"
 
 #: src/guimgr/document.py:981
 msgid "Could not find document"
@@ -2242,7 +2238,7 @@ msgstr "Ajouter des répertoires au projet ?"
 
 #: src/guimgr/guimanager.py:2787
 msgid "Please select directories to add to the project:"
-msgstr "Veuillez sélectionner les répertoires à ajouter au projet"
+msgstr "Veuillez sélectionner les répertoires à ajouter au projet :"
 
 #: src/guimgr/guimanager.py:2793
 msgid "Add Selected Dirs"
@@ -2682,7 +2678,7 @@ msgstr "Visite précédente dans l'historique"
 
 #: src/guimgr/multieditor.py:1272
 msgid "Code warnings"
-msgstr ""
+msgstr "Avertissements de code"
 
 #: src/guimgr/multieditor.py:1274
 msgid "Diff/Merge session options"
@@ -2702,11 +2698,11 @@ msgstr "Options de Vue du document"
 
 #: src/guimgr/multieditor.py:1294
 msgid "No warnings"
-msgstr ""
+msgstr "Pas d’avertissements"
 
 #: src/guimgr/multieditor.py:1296
 msgid "Code Warnings:"
-msgstr ""
+msgstr "Avertissements de code :"
 
 #: src/guimgr/multieditor.py:1324
 msgid "More..."
@@ -3076,11 +3072,10 @@ msgid "Use Selected Font/Size:"
 msgstr "Utiliser la police/taille sélectionnée :"
 
 #: src/guimgr/prefs.py:195
-#, fuzzy
 msgid ""
 "Controls whether the color palette is used throughout the user interface"
 msgstr ""
-"Contrôle si la palette de l’éditeur est utilisée pour toute l’interface "
+"Contrôle si la palette de couleur est utilisée pour toute l’interface "
 "utilisateur"
 
 #: src/guimgr/prefs.py:206
@@ -3732,7 +3727,7 @@ msgstr ""
 
 #: src/guimgr/savemanager.py:183
 msgid "  (Host unavailable)"
-msgstr ""
+msgstr " (Hôte non disponible)"
 
 #: src/guimgr/savemanager.py:186
 msgid "  (Write failed)"
@@ -3820,9 +3815,8 @@ msgid "Failed to write %s.  Save to another file?"
 msgstr "L'écriture de %s a échouée. Enregistrer dans un autre fichier ?"
 
 #: src/guimgr/savemanager.py:655
-#, fuzzy
 msgid "Disk file no longer exists"
-msgstr "Le fichier du disque est plus récent"
+msgstr "Le fichier du disque n’existe plus"
 
 #: src/guimgr/savemanager.py:656
 #, fuzzy
@@ -3844,9 +3838,8 @@ msgid "Another _File"
 msgstr "Un autre _fichier"
 
 #: src/guimgr/savemanager.py:664
-#, fuzzy
 msgid "Disk file is older"
-msgstr "Le fichier du disque est plus récent"
+msgstr "Le fichier du disque est plus ancien"
 
 #: src/guimgr/savemanager.py:665
 #, fuzzy
@@ -3959,7 +3952,7 @@ msgstr "L'écriture de %s a échouée. Enregistrer dans un autre fichier ?"
 
 #: src/guimgr/savemanager.py:789
 msgid "Failed to Save As"
-msgstr "Échec de la fonction \"Enregistrer sous\""
+msgstr "Échec d’\"Enregistrer sous\""
 
 #: src/guimgr/savemanager.py:790
 msgid "Failed to write %s. You have closed the editor window!"

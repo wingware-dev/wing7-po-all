@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: src_wingide\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-23 14:16+EDT\n"
-"PO-Revision-Date: 2018-08-12 08:00+0200\n"
+"PO-Revision-Date: 2018-08-25 22:36+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: support@ingeniweb.com\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: src/wingide/aboutbox.py:43
@@ -35,9 +35,8 @@ msgid "Version"
 msgstr "Version"
 
 #: src/wingide/aboutbox.py:115
-#, fuzzy
 msgid "Release Type"
-msgstr "Date de distribution"
+msgstr "Type de distribution"
 
 #: src/wingide/aboutbox.py:116
 msgid "Release Date"
@@ -100,7 +99,7 @@ msgstr "Nouvelles mises a jour !"
 
 #: src/wingide/aboutbox.py:160
 msgid "_Version"
-msgstr "_Version"
+msgstr "Version"
 
 #: src/wingide/aboutbox.py:165
 msgid "License Number"
@@ -180,11 +179,11 @@ msgstr "Renouveler la licence"
 
 #: src/wingide/aboutbox.py:246
 msgid "_License"
-msgstr "_Licence"
+msgstr "Licence"
 
 #: src/wingide/aboutbox.py:261
 msgid "_Credits"
-msgstr "_Crédits"
+msgstr "Crédits"
 
 #: src/wingide/aboutbox.py:274
 msgid "Close"
@@ -199,10 +198,8 @@ msgid "Revert to %s?"
 msgstr ""
 
 #: src/wingide/aboutbox.py:307
-#, fuzzy
 msgid "Are you sure you want to revert to version %s?"
-msgstr ""
-"Êtes-vous sûr de vouloir annuler tous les modifications non sauvegardées ?"
+msgstr "Êtes-vous sûr de vouloir revenir à la version %s ?"
 
 #: src/wingide/aboutbox.py:328
 msgid "Revert"
@@ -216,11 +213,11 @@ msgstr "Annuler"
 #: src/wingide/updatemgr.py:807 src/wingide/wingapp.py:1957
 #: src/wingide/wingapp.py:1978
 msgid "_OK"
-msgstr "_OK"
+msgstr "OK"
 
 #: src/wingide/updatemgr.py:91
 msgid "Skipping update check -- done too recently"
-msgstr "Saute la vérification des mises a jour -- effectué trop récemment"
+msgstr "Saute la vérification des mises-à-jour -- effectué trop récemment"
 
 #: src/wingide/updatemgr.py:142 src/wingide/updatemgr.py:929
 #: src/wingide/updatemgr.py:941
@@ -229,7 +226,7 @@ msgstr "OK"
 
 #: src/wingide/updatemgr.py:153
 msgid "Finding Updates"
-msgstr "Recherche de mises a jour"
+msgstr "Recherche de mises-à-jour"
 
 #: src/wingide/updatemgr.py:154
 msgid "Submitting update request. Please wait:"
@@ -241,7 +238,7 @@ msgstr "Démarrage de la vérification de mises a jour..."
 
 #: src/wingide/updatemgr.py:164
 msgid "Submitting usage stats..."
-msgstr ""
+msgstr "Envoi des statistiques d’utilisation…"
 
 #: src/wingide/updatemgr.py:180
 msgid "Connecting to wingware.com"
@@ -272,7 +269,7 @@ msgstr "Envoi de stats"
 
 #: src/wingide/updatemgr.py:267
 msgid "Checking for Updates"
-msgstr "Recherche de mises a jour"
+msgstr "Recherche de mises-à-jour"
 
 #: src/wingide/updatemgr.py:292
 msgid "Waiting for Reply"
@@ -303,7 +300,7 @@ msgstr ""
 
 #: src/wingide/updatemgr.py:344
 msgid "No Updates Available"
-msgstr "Pas de mises a jour disponibles"
+msgstr "Pas de mises-à-jour disponibles"
 
 #: src/wingide/updatemgr.py:350
 #, fuzzy
@@ -333,19 +330,19 @@ msgstr "Afficher les détails"
 
 #: src/wingide/updatemgr.py:362
 msgid "Support+Upgrades Expired"
-msgstr "Support+mises a niveau expirés"
+msgstr "Support+mises-à-niveau expirés"
 
 #: src/wingide/updatemgr.py:363
 msgid "Renew _Support+Upgrades"
-msgstr "Renouveller _Support+mises a niveau"
+msgstr "Renouveler Support+mises-à-niveau"
 
 #: src/wingide/updatemgr.py:366
 msgid "Support+Upgrades Expiring Soon"
-msgstr "Support+mises a niveau bientôt à expiration"
+msgstr "Support+mises-à-niveau bientôt à expiration"
 
 #: src/wingide/updatemgr.py:367
 msgid "Extend _Support+Upgrades"
-msgstr "Étendre _Support+mises a niveau"
+msgstr "Étendre Support+mises-à-niveau"
 
 #: src/wingide/updatemgr.py:370
 msgid "No Support+Upgrades Subscription"
@@ -353,7 +350,7 @@ msgstr "Pas d’abonnement de Support+mises a niveau"
 
 #: src/wingide/updatemgr.py:371
 msgid "Add _Support+Upgrades"
-msgstr "Ajouter _Support+mises a niveau"
+msgstr "Ajouter Support+mises-à-niveau"
 
 #: src/wingide/updatemgr.py:383 src/wingide/updatemgr.py:565
 #: src/wingide/updatemgr.py:666 src/wingide/wingapp.py:1958
@@ -362,7 +359,7 @@ msgstr "Annuler"
 
 #: src/wingide/updatemgr.py:388
 msgid "_Automatically show this reminder"
-msgstr "_Afficher automatiquement ce rappel"
+msgstr "Afficher automatiquement ce rappel"
 
 #: src/wingide/updatemgr.py:404
 msgid "Note: %s"
@@ -390,11 +387,11 @@ msgstr "Résumé des modifications :"
 
 #: src/wingide/updatemgr.py:606
 msgid "Automatically check for updates"
-msgstr "Vérification automatique de mises a jour"
+msgstr "Vérification automatique de mises-à-jour"
 
 #: src/wingide/updatemgr.py:669
 msgid "Installing Updates"
-msgstr "Installation des mises a jour"
+msgstr "Installation des mises-à-jour"
 
 #: src/wingide/updatemgr.py:694
 msgid "Downloading update to %s"
@@ -417,9 +414,8 @@ msgid "Downloading update (%d.2MB)"
 msgstr "Téléchargement de la mise-à-jour (%d.2MB)"
 
 #: src/wingide/updatemgr.py:767
-#, fuzzy
 msgid "Failed to download update"
-msgstr "Échec du téléchargement de la mise-à-jour %s"
+msgstr "Échec du téléchargement de la mise-à-jour"
 
 #: src/wingide/updatemgr.py:773
 msgid "Installing update"
@@ -431,7 +427,7 @@ msgstr ""
 
 #: src/wingide/updatemgr.py:791
 msgid "(%i of %i)"
-msgstr ""
+msgstr "(%i de %i)"
 
 #: src/wingide/updatemgr.py:808
 msgid "Update Failed"
@@ -442,14 +438,16 @@ msgid ""
 "The update could not be applied.  Errors were:\n"
 "\n"
 msgstr ""
+"La mise-à-jour n’a pas pu être appliquée. Les erreurs étaient :\n"
+"\n"
 
 #: src/wingide/updatemgr.py:827
 msgid "_Restart Now"
-msgstr "_Redémmarer maintenant"
+msgstr "Redémmarer maintenant"
 
 #: src/wingide/updatemgr.py:831
 msgid "_Continue Working"
-msgstr "_Continuer de travailler"
+msgstr "Continuer de travailler"
 
 #: src/wingide/updatemgr.py:835
 msgid "Validation Failed"
@@ -476,26 +474,24 @@ msgid "Revert Complete"
 msgstr "Installation terminée"
 
 #: src/wingide/updatemgr.py:845
-#, fuzzy
 msgid ""
 "Successfully reverted to version %s.  Please restart Wing to start using "
 "that version."
 msgstr ""
-"%i correctif(s) a(ont) été installé(s) avec succès. Veuillez redémarrer Wing "
-"maintenant."
+"Revenu avec succès à la version %s. Veuillez redémarrer Wing pour commencer "
+"à utiliser cette version."
 
 #: src/wingide/updatemgr.py:848
 msgid "Update Complete"
 msgstr "Mise-à-jour terminée"
 
 #: src/wingide/updatemgr.py:849
-#, fuzzy
 msgid ""
 "The update has been installed successfully.  Please restart Wing to start "
 "using the new version."
 msgstr ""
-"%i correctif(s) a(ont) été installé(s) avec succès. Veuillez redémarrer Wing "
-"maintenant."
+"La mise-à-jour a été installée avec succès. Veuillez redémarrer Wing pour "
+"commencer à utiliser cette version."
 
 #: src/wingide/updatemgr.py:878
 #, fuzzy
@@ -520,7 +516,7 @@ msgstr "Fichier de mise-à-jour invalide"
 
 #: src/wingide/updatemgr.py:928
 msgid "The selected file %s is not an update file"
-msgstr ""
+msgstr "Le fichier sélectionné %s n’est pas un fichier de mise-à-jour"
 
 #: src/wingide/updatemgr.py:938
 #, fuzzy
@@ -539,7 +535,7 @@ msgstr "Sélectionner les mises-à-jour"
 
 #: src/wingide/updatemgr.py:956
 msgid "Select the update file"
-msgstr ""
+msgstr "Sélectionner le fichier de mise-à-jour"
 
 #: src/wingide/updatemgr.py:970
 #, fuzzy
@@ -875,14 +871,12 @@ msgid "Beta"
 msgstr "Beta"
 
 #: src/wingide/wingapp.py:1793
-#, fuzzy
 msgid "Release Candidate"
-msgstr "Date de distribution"
+msgstr "Distribution admissible (RC)"
 
 #: src/wingide/wingapp.py:1795
-#, fuzzy
 msgid "Final Release"
-msgstr "Nouvelle distribution !"
+msgstr "Distribution finale"
 
 #: src/wingide/wingapp.py:1933
 msgid "Scanned %i Python installations"
