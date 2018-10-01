@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_guimgr\n"
 "POT-Creation-Date: 2018-08-23 14:16+EDT\n"
-"PO-Revision-Date: 2016-12-19 20:56+0100\n"
+"PO-Revision-Date: 2018-10-01 19:20+0200\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: pygettext.py 1.4\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: src/guimgr/attribs.py:86
 msgid ""
@@ -154,7 +154,7 @@ msgstr "Löschen..."
 
 #: src/guimgr/cap_filesets.py:693
 msgid "Set Key Binding..."
-msgstr "Tastenbelegung setzen"
+msgstr "Tastenbelegung setzen..."
 
 #: src/guimgr/cap_filesets.py:695
 msgid "Update with Currently Opened Files"
@@ -825,7 +825,7 @@ msgstr "Befehl über Name"
 
 #: src/guimgr/constants.py:381
 msgid "Configure P_ython..."
-msgstr "Python konfigurieren"
+msgstr "P_ython konfigurieren..."
 
 #: src/guimgr/constants.py:382 src/guimgr/initialprefs.py:44
 msgid "_Keyboard Personality"
@@ -881,16 +881,15 @@ msgstr "Groß-/Kleinschreibung des Symbols umschalten"
 
 #: src/guimgr/constants.py:405
 msgid "Reformat File for PEP 8"
-msgstr ""
+msgstr "Datei für PEP 8 neu formatieren"
 
 #: src/guimgr/constants.py:406
 msgid "Reformat Selection for PEP 8"
-msgstr ""
+msgstr "Auswahl für PEP 8 neu formatieren"
 
 #: src/guimgr/constants.py:408
-#, fuzzy
 msgid "Configure Auto-Formatting..."
-msgstr "Auto-Bearbeitung konfigurieren..."
+msgstr "Auto-Formatierung konfigurieren..."
 
 #: src/guimgr/constants.py:412
 msgid "_Rename Symbol"
@@ -910,19 +909,19 @@ msgstr "_Neue Variable einführen"
 
 #: src/guimgr/constants.py:417
 msgid "Symbol to _UpperCamelCase"
-msgstr ""
+msgstr "Symbol zu _UpperCamelCase"
 
 #: src/guimgr/constants.py:418
 msgid "Symbol to _lowerCamelCase"
-msgstr ""
+msgstr "Symbol zu _lowerCamelCase"
 
 #: src/guimgr/constants.py:419
 msgid "Symbol to under_scored_name"
-msgstr ""
+msgstr "Symbol zu under_scored_name"
 
 #: src/guimgr/constants.py:420
 msgid "Symbol to UNDER_SCORED_NAME"
-msgstr ""
+msgstr "Symbol zu UNDER_SCORED_NAME"
 
 #: src/guimgr/constants.py:424
 msgid "Re_wrap Text"
@@ -966,9 +965,8 @@ msgid "Find Points of _Use"
 msgstr "_Verwendungsstellen finden"
 
 #: src/guimgr/constants.py:437
-#, fuzzy
 msgid "Find Points of _Use in Current File"
-msgstr "_Verwendungsstellen finden"
+msgstr "_Verwendungsstellen in aktueller Datei finden"
 
 #: src/guimgr/constants.py:438
 msgid "_Find Symbol"
@@ -1011,8 +1009,7 @@ msgid "Pre_vious Bookmark in Current File"
 msgstr "_Vorheriges Lesezeichen in der aktuellen Datei"
 
 #: src/guimgr/constants.py:452
-#, fuzzy
-msgid "Show Bookmar_ks Tool"
+msgid "Show Bookmar_ks"
 msgstr "Lese_zeichen anzeigen"
 
 #: src/guimgr/constants.py:455
@@ -1129,7 +1126,7 @@ msgstr "Schreibweise ändern"
 
 #: src/guimgr/constants.py:490
 msgid "PEP 8"
-msgstr ""
+msgstr "PEP 8"
 
 #: src/guimgr/constants.py:492
 msgid "Show _Python Environment..."
@@ -1233,7 +1230,6 @@ msgid "P_ause"
 msgstr "Anhalten"
 
 #: src/guimgr/constants.py:544
-#, fuzzy
 msgid "S_top Debugging"
 msgstr "Debuggen _stoppen"
 
@@ -1422,14 +1418,12 @@ msgid "_Load Results..."
 msgstr "Ergebnisse _laden..."
 
 #: src/guimgr/constants.py:624
-#, fuzzy
 msgid "Next Tool"
-msgstr "Werkzeug einfügen"
+msgstr "Nächstes Werkzeug"
 
 #: src/guimgr/constants.py:625
-#, fuzzy
 msgid "Previous Tool"
-msgstr "Vorherige"
+msgstr "Vorheriges Werkzeug"
 
 #: src/guimgr/constants.py:627
 msgid "_Load Perspective"
@@ -1453,7 +1447,7 @@ msgstr "Standard-Wer_kzeugset wiederherstellen"
 
 #: src/guimgr/constants.py:636
 msgid "Start _Terminal"
-msgstr ""
+msgstr "_Terminal starten"
 
 #: src/guimgr/constants.py:641
 msgid "New _Document Window"
@@ -1528,18 +1522,16 @@ msgid "Wing _Tips..."
 msgstr "Wing _Tipps..."
 
 #: src/guimgr/constants.py:678
-#, fuzzy
 msgid "_Python Manual (HTML)..."
-msgstr "_Python-Handbuch (HTML)"
+msgstr "_Python-Handbuch (HTML)..."
 
 #: src/guimgr/constants.py:679
-#, fuzzy
 msgid "Python _Website..."
-msgstr "Python-_Webseite"
+msgstr "Python-_Webseite..."
 
 #: src/guimgr/constants.py:681
 msgid "Ask Questions..."
-msgstr ""
+msgstr "Fragen stellen..."
 
 #: src/guimgr/constants.py:682
 msgid "Submit _Feedback..."
@@ -1555,12 +1547,11 @@ msgstr "Te_chnischer Support..."
 
 #: src/guimgr/constants.py:686
 msgid "Check for _Updates..."
-msgstr "Nach _Updates suchen..."
+msgstr "Nach _Aktualisierungen suchen..."
 
 #: src/guimgr/constants.py:687
-#, fuzzy
 msgid "Apply Update..."
-msgstr "Vollen Pfad anhängen"
+msgstr "Aktualisierung anwenden..."
 
 #: src/guimgr/constants.py:688
 msgid "_About..."
@@ -1626,8 +1617,7 @@ msgstr "Wiederherstellen"
 msgid "Goto Definition"
 msgstr "Gehe zur Definition"
 
-#: src/guimgr/constants.py:766 src/guimgr/document.py:809
-#: src/guimgr/prefs.py:531
+#: src/guimgr/constants.py:766 src/guimgr/document.py:809 src/guimgr/prefs.py:531
 msgid "Search"
 msgstr "Suchen"
 
@@ -1783,9 +1773,8 @@ msgid "Create Bookmark"
 msgstr "Lesezeichen erstellen"
 
 #: src/guimgr/constants.py:880
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "Lesezeichen erstellen"
+msgstr "Lesezeichen entfernen"
 
 #: src/guimgr/constants.py:883
 msgid "Goto Bookmark"
@@ -1836,9 +1825,8 @@ msgid "Close"
 msgstr "Schließen"
 
 #: src/guimgr/document.py:193
-#, fuzzy
 msgid "Table of Contents"
-msgstr "Inhalt"
+msgstr "Inhaltsverzeichnis"
 
 #: src/guimgr/document.py:194 src/guimgr/wingtips.py:243
 msgid "Wing Tips"
@@ -1862,13 +1850,12 @@ msgid "Wing Help"
 msgstr "Wing Hilfe"
 
 #: src/guimgr/document.py:980
-#, fuzzy
 msgid ""
 "Could not find document section %s:  Please report this error to "
 "bugs@wingware.com"
 msgstr ""
-"Dokumentenabschnitt %s wurde nicht gefunden: Bitte berichten Sie diesen "
-"Fehler an bugs@wingware.com."
+"Dokumentenabschnitt %s wurde nicht gefunden: Bitte melden Sie diesen "
+"Fehler an bugs@wingware.com"
 
 #: src/guimgr/document.py:981
 msgid "Could not find document"
@@ -2115,9 +2102,8 @@ msgid ""
 msgstr ""
 
 #: src/guimgr/guimanager.py:942
-#, fuzzy
 msgid "Installed updates: %s"
-msgstr "Installierte Patches: %s"
+msgstr "Installierte Aktualisierungen: %s"
 
 #: src/guimgr/guimanager.py:1107
 msgid "Cannot Open Remote File"
@@ -2215,7 +2201,7 @@ msgstr "Warten auf Antwort"
 
 #: src/guimgr/guimanager.py:2555
 msgid "Force Quit"
-msgstr ""
+msgstr "Beenden erzwingen"
 
 #: src/guimgr/guimanager.py:2774
 msgid "Add Directory to Project?"
@@ -2341,7 +2327,6 @@ msgid "Top"
 msgstr "Oben"
 
 #: src/guimgr/guimanager.py:3462
-#, fuzzy
 msgid "%sToolbox"
 msgstr "%sWerkzeugkasten"
 
@@ -2674,7 +2659,7 @@ msgstr ""
 
 #: src/guimgr/multieditor.py:1272
 msgid "Code warnings"
-msgstr ""
+msgstr "Code Warnungen"
 
 #: src/guimgr/multieditor.py:1274
 msgid "Diff/Merge session options"
@@ -2694,35 +2679,31 @@ msgstr "Optionen der Dokumentenansicht"
 
 #: src/guimgr/multieditor.py:1294
 msgid "No warnings"
-msgstr ""
+msgstr "Keine Warnungen"
 
 #: src/guimgr/multieditor.py:1296
 msgid "Code Warnings:"
-msgstr ""
+msgstr "Code Warnungen:"
 
 #: src/guimgr/multieditor.py:1324
-#, fuzzy
 msgid "More..."
-msgstr "Konfigurieren..."
+msgstr "Mehr..."
 
 #: src/guimgr/multieditor.py:1337
-#, fuzzy
 msgid "Update All Warnings in File"
-msgstr "Alles in der Datei hinzufügen"
+msgstr "Alle Warnungen in der Datei aktualisieren"
 
 #: src/guimgr/multieditor.py:1338
-#, fuzzy
 msgid "Remove All Warnings in File"
-msgstr "Lesezeichen in dieser Datei entfernen"
+msgstr "Alle Warnungen in der Datei entfernen"
 
 #: src/guimgr/multieditor.py:1340
 msgid "Show Code Warnings Tool"
-msgstr ""
+msgstr "Code Warnungs-Werkzeug anzeigen"
 
 #: src/guimgr/multieditor.py:1387
-#, fuzzy
 msgid "Bookmarks:"
-msgstr "Lesezeichen"
+msgstr "Lesezeichen:"
 
 #: src/guimgr/multieditor.py:2169
 msgid "General failure getting multi-editor visual state"
@@ -2776,7 +2757,7 @@ msgstr "Im Finder zeigen"
 
 #: src/guimgr/multieditor.py:3646
 msgid "Show Directory"
-msgstr "_Verzeichnis anzeigen..."
+msgstr "Verzeichnis anzeigen"
 
 #: src/guimgr/multieditor.py:3652
 msgid "Show in Project"
@@ -2838,7 +2819,7 @@ msgstr "Allgemeiner Fehler beim Setzen des geteilten Editor-Zustandes"
 
 #: src/guimgr/personality.py:172
 msgid "Could not read key map"
-msgstr "Short-Cut-Datei konnte nicht gelesen werden."
+msgstr "Tastaturbelegung kann nicht gelesen werden"
 
 #: src/guimgr/personality.py:173
 msgid ""
@@ -2852,9 +2833,8 @@ msgstr ""
 "Benutzeroberfläche / Fortgeschritten / Short-Cut-Datei."
 
 #: src/guimgr/prefs.py:36
-#, fuzzy
 msgid "Combined Toolbox and Editor Windows"
-msgstr "Kombinierte Werkzeugkasten und Editor-Fenster"
+msgstr "Kombinierte Werkzeugkasten- und Editor-Fenster"
 
 #: src/guimgr/prefs.py:37
 msgid "Separate Toolbox Windows"
@@ -2865,7 +2845,6 @@ msgid "One Window per Editor"
 msgstr "Ein Fenster pro Editor"
 
 #: src/guimgr/prefs.py:43
-#, fuzzy
 msgid ""
 "Policy to use for window creation:  Combined Toolbox and Editor mode places "
 "toolboxes into editor windows, Separate Toolbox mode creates separate "
@@ -3061,7 +3040,7 @@ msgstr ""
 msgid "The base font and size to use for the user interface's menus and labels"
 msgstr ""
 "Die Basis-Schriftart und -größe, die für die Menüs und Beschriftungen der "
-"Benutzeroberfläche verwendet werden."
+"Benutzeroberfläche verwendet werden"
 
 #: src/guimgr/prefs.py:179
 msgid "Use Default"
@@ -3072,13 +3051,10 @@ msgid "Use Selected Font/Size:"
 msgstr "Ausgewählte Schriftart/-größe verwenden:"
 
 #: src/guimgr/prefs.py:195
-#, fuzzy
 msgid ""
 "Controls whether the color palette is used throughout the user interface"
 msgstr ""
-"Kontrolliert ob Werkzeug-Tipps, die Hilfe-Informationen beinhalten, "
-"angezeigt werden, wenn der Nutzer die Maus über Bereiche der "
-"Benutzeroberfläche bewegt."
+"Steuert, ob die Farbpalette im überall in der Benutzeroberfläche verwendet wird"
 
 #: src/guimgr/prefs.py:206
 msgid ""
@@ -3176,7 +3152,7 @@ msgid ""
 "files are opened with \"open\" by default so this preference is rarely "
 "needed."
 msgstr ""
-"Nur Linux: Die verwendeten Befehle, um lokale Laufwerkdateien, die aus dem "
+"Nur Posix: Die verwendeten Befehle, um lokale Laufwerkdateien, die aus dem "
 "Hilfemenü ausgewählt sind, oder Projektdateien, die für die externe Anzeige "
 "ausgewählt sind, anzuzeigen oder zu bearbeiten. Dies ist eine Abbildung von "
 "Mime-Typen in einer Liste von Bildschirmbefehlen, jeder Bildschirmbefehl "
@@ -3211,7 +3187,7 @@ msgid ""
 "browser is used instead so this preference is ignored. On OS X, URLs are "
 "opened with \"open\" by default so this preference is rarely needed."
 msgstr ""
-"Nur Linux: Die verwendeten Befehle, um URLs anzuzeigen. Dies ist eine "
+"Nur Posix: Die verwendeten Befehle, um URLs anzuzeigen. Dies ist eine "
 "Abbildung von Protokolltypen in einer Liste von Bildschirmbefehlen, jeder "
 "Bildschirmbefehl wird im Auftrag der Liste getestet, bis einer funktioniert. "
 "Das Protokoll \"*\" kann genutzt werden, um ein generelles "
@@ -3618,7 +3594,6 @@ msgid " -- Editor has unsaved changes!"
 msgstr " -- Editor hat ungesicherte Änderungen!"
 
 #: src/guimgr/reloader.py:106
-#, fuzzy
 msgid ""
 "These edited items have also changed on disk.  Select those for which you "
 "want to discard your changes and reload from disk:"
@@ -3668,9 +3643,8 @@ msgid "Con_figure Reloading"
 msgstr "Neu Laden kon_figurieren"
 
 #: src/guimgr/reloader.py:152
-#, fuzzy
 msgid "_Compare to Disk"
-msgstr "Puffer mit gespeicherter Version vergleichen"
+msgstr "Mit gespeicherter Version _vergleichen"
 
 #: src/guimgr/savemanager.py:46
 msgid "Use System Default (%s)"
@@ -3714,7 +3688,7 @@ msgstr ""
 
 #: src/guimgr/savemanager.py:183
 msgid "  (Host unavailable)"
-msgstr ""
+msgstr "  (Host nicht verfügbar)"
 
 #: src/guimgr/savemanager.py:186
 msgid "  (Write failed)"
@@ -3801,19 +3775,17 @@ msgstr ""
 "Das Schreiben von %s ist fehlgeschlagen. In einer anderen Datei speichern?"
 
 #: src/guimgr/savemanager.py:655
-#, fuzzy
 msgid "Disk file no longer exists"
-msgstr "Datei auf der Festplatte ist neuer"
+msgstr "Datei auf der Festplatte ist nicht mehr vorhanden"
 
 #: src/guimgr/savemanager.py:656
-#, fuzzy
 msgid ""
 "File %s no longer exists on disk. Do you want to save your changes, select "
 "another file to save to, or cancel save?"
 msgstr ""
-"Datei %s ist auf der Festplatte neuer. Möchten Sie die Änderungen "
-"überschreiben, Ihre Änderungen verwerfen, neu laden, eine andere Zieldatei "
-"wählen oder Speichern abbrechen?"
+"Datei %s ist auf der Festplatte nicht mehr vorhanden. Möchten Sie Ihre "
+"Änderungen speichern, in eine andere Datei speichern oder das Speichern "
+"abbrechen?"
 
 #: src/guimgr/savemanager.py:658 src/guimgr/savemanager.py:675
 msgid "_Overwrite"
@@ -3825,39 +3797,35 @@ msgid "Another _File"
 msgstr "Andere _Datei"
 
 #: src/guimgr/savemanager.py:664
-#, fuzzy
 msgid "Disk file is older"
-msgstr "Datei auf der Festplatte ist neuer"
+msgstr "Datei auf der Festplatte ist älter"
 
 #: src/guimgr/savemanager.py:665
-#, fuzzy
 msgid ""
-"File %s is older on disk than when it was opened in the editor. Do you want "
-"to overwrite the file, abandon your changes and reload, select another file "
-"to save to, or cancel save?"
+"File %s is older on disk than when it was opened in the editor. Do you want to "
+"overwrite the file, abandon your changes and reload, select another file to "
+"save to, or cancel save?"
 msgstr ""
-"Datei %s ist auf der Festplatte neuer. Möchten Sie die Änderungen "
-"überschreiben, Ihre Änderungen verwerfen, neu laden, eine andere Zieldatei "
-"wählen oder Speichern abbrechen?"
+"Datei %s ist auf der Festplatte älter als beim Öffnen im Editor. Möchten Sie "
+"die Datei überschreiben, Ihre Änderungen verwerfen und neu laden, in eine "
+"andere Datei speichern oder das Speichern abbrechen?"
 
 #: src/guimgr/savemanager.py:670
 msgid "Disk file is newer"
 msgstr "Datei auf der Festplatte ist neuer"
 
 #: src/guimgr/savemanager.py:671
-#, fuzzy
 msgid ""
 "File %s is newer on disk. Do you want to overwrite changes, abandon your "
 "changes and reload, select another file to save to, or cancel save?"
 msgstr ""
-"Datei %s ist auf der Festplatte neuer. Möchten Sie die Änderungen "
-"überschreiben, Ihre Änderungen verwerfen, neu laden, eine andere Zieldatei "
-"wählen oder Speichern abbrechen?"
+"Datei %s ist neuer auf der Festplatte. Möchten Sie die Änderungen "
+"überschreiben, Ihre Änderungen verwerfen und neu laden, in eine andere Datei "
+"speichern oder das Speichern abbrechen?"
 
 #: src/guimgr/savemanager.py:674
-#, fuzzy
 msgid "Com_pare to Disk"
-msgstr "Puffer mit gespeicherter Version vergleichen"
+msgstr "Mit gespeicherter Version vergleichen"
 
 #: src/guimgr/savemanager.py:676
 msgid "_Abandon"
@@ -3876,9 +3844,8 @@ msgid ""
 msgstr ""
 
 #: src/guimgr/savemanager.py:692
-#, fuzzy
 msgid "_Save Now"
-msgstr "S_peichern"
+msgstr "_Jetzt speichern"
 
 #: src/guimgr/savemanager.py:702
 #, fuzzy
@@ -3897,7 +3864,7 @@ msgstr ""
 
 #: src/guimgr/savemanager.py:705
 msgid "_Try Again"
-msgstr ""
+msgstr "_Nochmal versuchen"
 
 #: src/guimgr/savemanager.py:714
 msgid "Different file format"
@@ -3905,15 +3872,15 @@ msgstr "Falsche Datei-Format"
 
 #: src/guimgr/savemanager.py:719
 msgid "File %s doesn't match the file format being written."
-msgstr "Datei %s passt nicht zum gewählten Format"
+msgstr "Datei %s passt nicht zum gewählten Format."
 
 #: src/guimgr/savemanager.py:721
 msgid ""
 " Do you want to write changes to this file, select another target file, or "
 "cancel the save?"
 msgstr ""
-"Möchten Sie die Änderungen überschreiben, eine andere Zieldatei wählen, oder "
-"Speichern abbrechen?"
+" Möchten Sie die Änderungen überschreiben, eine andere Zieldatei wählen, oder "
+"das Speichern abbrechen?"
 
 #: src/guimgr/savemanager.py:723
 msgid "O_verwrite"
@@ -3936,10 +3903,9 @@ msgid "_Save using Specified Encoding"
 msgstr "_Speichern mit der angegebenen Kodierung"
 
 #: src/guimgr/savemanager.py:765
-#, fuzzy
 msgid "Failed to write remote %s.  Save to another file?"
 msgstr ""
-"Das Schreiben von %s ist fehlgeschlagen. In einer anderen Datei speichern?"
+"Das Schreiben von entfernter %s ist fehlgeschlagen. In andere Datei speichern?"
 
 #: src/guimgr/savemanager.py:789
 msgid "Failed to Save As"
@@ -3994,6 +3960,10 @@ msgstr "Beim Starten anzeigen"
 #~ msgid "_Pause"
 #~ msgstr "A_nhalten"
 
+
+#~ msgid "_Pause"
+#~ msgstr "A_nhalten"
+
 #~ msgid "_Wingware Website..."
 #~ msgstr "_Wingware Webseite..."
 
@@ -4026,20 +3996,20 @@ msgstr "Beim Starten anzeigen"
 
 #, fuzzy
 #~ msgid ""
-#~ "Use the system-provided Qt library (requires Qt4 4.8 or later).  Wing "
-#~ "comes with its own private copy of the Qt libraries for which it is built "
-#~ "and tested.  Use the system Qt option to better integrate with the gnome "
-#~ "or other desktop environment, however on some systems this may result in "
+#~ "Use the system-provided Qt library (requires Qt4 4.8 or later).  Wing comes "
+#~ "with its own private copy of the Qt libraries for which it is built and "
+#~ "tested.  Use the system Qt option to better integrate with the gnome or "
+#~ "other desktop environment, however on some systems this may result in "
 #~ "random crashing or other bugs resulting from binary incompatibilities in "
 #~ "library versions.  This preference may be overridden on the command line "
 #~ "with the --system-qt and --private-qt command line options."
 #~ msgstr ""
 #~ "Die systemweite gtk-Bibliothek verwenden (erfordert gtk 2.2 oder höher). "
-#~ "Wing wird mit seiner eigenen Kopie der gtk-Bibliotheken geliefert, für "
-#~ "die es erstellt und getestet ist. Verwenden Sie die System-gtk-Option zur "
-#~ "besseren Integration mit gnome oder anderen Desktop-Umgebungen. Bei "
-#~ "einigen Systemen kann dies jedoch zu zufälligen Abstürzen oder anderen "
-#~ "Fehlern führen, die aus Binär-Inkompatibilitäten in Bibliotheksversionen "
+#~ "Wing wird mit seiner eigenen Kopie der gtk-Bibliotheken geliefert, für die "
+#~ "es erstellt und getestet ist. Verwenden Sie die System-gtk-Option zur "
+#~ "besseren Integration mit gnome oder anderen Desktop-Umgebungen. Bei einigen "
+#~ "Systemen kann dies jedoch zu zufälligen Abstürzen oder anderen Fehlern "
+#~ "führen, die aus Binär-Inkompatibilitäten in Bibliotheksversionen "
 #~ "resultieren. Diese Einstellung kann in der Command Line mit dem --system-"
 #~ "gtk und --private-gtk Command Line Optionen außer Kraft gesetzt werden."
 
@@ -4074,19 +4044,19 @@ msgstr "Beim Starten anzeigen"
 
 #~ msgid ""
 #~ "Please consider enabling the <literal>Fix Tiger Option Key</literal> Wing "
-#~ "IDE preference if you want to use the option key to enter foreign "
-#~ "language characters or characters that require a key other than Command, "
-#~ "Control, or Shift to be pressed.  This is needed because the X11 Server "
-#~ "shipped with Tiger (OS X 10.4) does not distinguish between option / alt "
-#~ "and what is known as the mode switch key."
+#~ "IDE preference if you want to use the option key to enter foreign language "
+#~ "characters or characters that require a key other than Command, Control, or "
+#~ "Shift to be pressed.  This is needed because the X11 Server shipped with "
+#~ "Tiger (OS X 10.4) does not distinguish between option / alt and what is "
+#~ "known as the mode switch key."
 #~ msgstr ""
-#~ "Wir empfehlen Ihnen, die Wing Einstellung <literal>Fehler der "
-#~ "Optionstaste in Tiger beheben</literal> zu aktivieren, wenn Sie die "
-#~ "Optionstaste für die Eingabe von Fremdsprachenzeichen oder Zeichen, die "
-#~ "das Betätigen einer Taste außer Command, Steuerung oder der Umschalttaste "
-#~ "erfordern, verwenden möchten. Dies ist erforderlich, da der X11 Server, "
-#~ "wenn es mit Tiger geliefert wird (OS X 10.4) nicht zwischen Option/Alt "
-#~ "und der als Mode Switch bekannten Taste unterscheidet."
+#~ "Wir empfehlen Ihnen, die Wing Einstellung <literal>Fehler der Optionstaste "
+#~ "in Tiger beheben</literal> zu aktivieren, wenn Sie die Optionstaste für die "
+#~ "Eingabe von Fremdsprachenzeichen oder Zeichen, die das Betätigen einer "
+#~ "Taste außer Command, Steuerung oder der Umschalttaste erfordern, verwenden "
+#~ "möchten. Dies ist erforderlich, da der X11 Server, wenn es mit Tiger "
+#~ "geliefert wird (OS X 10.4) nicht zwischen Option/Alt und der als Mode "
+#~ "Switch bekannten Taste unterscheidet."
 
 #, fuzzy
 #~ msgid ""
@@ -4099,8 +4069,8 @@ msgstr "Beim Starten anzeigen"
 #~ "literal> This X11 preference change will apply to all X11 applications."
 #~ msgstr ""
 #~ "Bitte deaktivieren Sie die Einstellung <literal>Tastenkombinationen unter "
-#~ "X11 aktivieren</literal>, indem Sie die Markierung des Kontrollkästchens "
-#~ "im Einstellungsdialog des X11 Servers (Eingabeabschnitt) aufheben (Sie "
+#~ "X11 aktivieren</literal>, indem Sie die Markierung des Kontrollkästchens im "
+#~ "Einstellungsdialog des X11 Servers (Eingabeabschnitt) aufheben (Sie "
 #~ "erreichen diesen Dialog über das X11 Menü im oberen Bereich des "
 #~ "Bildschirms).\n"
 #~ "\n"
@@ -4125,13 +4095,13 @@ msgstr "Beim Starten anzeigen"
 #~ "This document is non-transient and will remain open until closed "
 #~ "explicitly.  Click the stick pin icon to auto-close it when hidden."
 #~ msgstr ""
-#~ "Dieses Dokument ist nicht vorübergehend und wird solange geöffnet "
-#~ "bleiben, bis es ausdrücklich geschlossen wird. Klicken Sie auf das Stick-"
-#~ "Pin-Symbol, um es automatisch zu schließen, wenn es ausgeblendet wird."
+#~ "Dieses Dokument ist nicht vorübergehend und wird solange geöffnet bleiben, "
+#~ "bis es ausdrücklich geschlossen wird. Klicken Sie auf das Stick-Pin-Symbol, "
+#~ "um es automatisch zu schließen, wenn es ausgeblendet wird."
 
 #~ msgid ""
-#~ "This document is transient and will be closed when hidden.  Click the "
-#~ "stick pin icon to keep it open."
+#~ "This document is transient and will be closed when hidden.  Click the stick "
+#~ "pin icon to keep it open."
 #~ msgstr ""
 #~ "Dieses Dokument ist vorübergehend und wird geschlossen, wenn es "
 #~ "ausgeblendetwird. Klicken Sie auf das Stick-Pin-Symbol, um es offen zu "
@@ -4174,11 +4144,11 @@ msgstr "Beim Starten anzeigen"
 #~ "with the --system-gtk and --private-gtk command line options."
 #~ msgstr ""
 #~ "Die systemweite gtk-Bibliothek verwenden (erfordert gtk 2.2 oder höher). "
-#~ "Wing wird mit seiner eigenen Kopie der gtk-Bibliotheken geliefert, für "
-#~ "die es erstellt und getestet ist. Verwenden Sie die System-gtk-Option zur "
-#~ "besseren Integration mit gnome oder anderen Desktop-Umgebungen. Bei "
-#~ "einigen Systemen kann dies jedoch zu zufälligen Abstürzen oder anderen "
-#~ "Fehlern führen, die aus Binär-Inkompatibilitäten in Bibliotheksversionen "
+#~ "Wing wird mit seiner eigenen Kopie der gtk-Bibliotheken geliefert, für die "
+#~ "es erstellt und getestet ist. Verwenden Sie die System-gtk-Option zur "
+#~ "besseren Integration mit gnome oder anderen Desktop-Umgebungen. Bei einigen "
+#~ "Systemen kann dies jedoch zu zufälligen Abstürzen oder anderen Fehlern "
+#~ "führen, die aus Binär-Inkompatibilitäten in Bibliotheksversionen "
 #~ "resultieren. Diese Einstellung kann in der Command Line mit dem --system-"
 #~ "gtk und --private-gtk Command Line Optionen außer Kraft gesetzt werden."
 
@@ -4192,40 +4162,39 @@ msgstr "Beim Starten anzeigen"
 #~ msgstr "Beide Optionstasten"
 
 #~ msgid ""
-#~ "Use key for alt key in all X11 applications on OS X -- typically used "
-#~ "when using a non OS X keyboard layout on the Apple X11 server. The option "
-#~ "key should be used only if it's not needed to enter individual "
-#~ "characters. This will use xmodmap to set the global X11 key map to use "
-#~ "the specified key as the alt key modifier.  Turning this option off if it "
-#~ "was on previously will reset the option key back to mode_switch, which is "
-#~ "the Apple default setting. Non-default options will override any "
-#~ "externally set xmodmap setting so use with care if you've customized your "
-#~ "xmodmap."
+#~ "Use key for alt key in all X11 applications on OS X -- typically used when "
+#~ "using a non OS X keyboard layout on the Apple X11 server. The option key "
+#~ "should be used only if it's not needed to enter individual characters. This "
+#~ "will use xmodmap to set the global X11 key map to use the specified key as "
+#~ "the alt key modifier.  Turning this option off if it was on previously will "
+#~ "reset the option key back to mode_switch, which is the Apple default "
+#~ "setting. Non-default options will override any externally set xmodmap "
+#~ "setting so use with care if you've customized your xmodmap."
 #~ msgstr ""
 #~ "Taste als Alt-Taste in allen X11 Anwendungen in OS X verwenden - "
-#~ "normalerweise wird dies verwendet, wenn eine Tastatur ohne OS X Layout "
-#~ "auf dem Apple X11 Server verwendet wird. Die Optionstaste sollte nur "
-#~ "verwendet werden, wenn es nicht notwending ist Sonderzeichen einzugeben. "
-#~ "Dies wird xmodmap verwenden, um die globale X11 Tastenkombination zu "
-#~ "setzen, damit die angegebene Taste als Alt-Modifikator verwendet wird. "
-#~ "Das Ausschalten dieser Option, wenn sie zuvor angeschaltet war, wird die "
-#~ "Optionstaste auf mode_switch zurücksetzen, was die Apples "
-#~ "Standardeinstellung ist. Nicht-standardmäßige Einstellungen werden extern "
-#~ "gesetzte xmodmap Einstellungen überschreiben. Seien Sie daher vorsichtig, "
-#~ "wenn Sie Ihre xmodmap Datei angepasst haben."
+#~ "normalerweise wird dies verwendet, wenn eine Tastatur ohne OS X Layout auf "
+#~ "dem Apple X11 Server verwendet wird. Die Optionstaste sollte nur verwendet "
+#~ "werden, wenn es nicht notwending ist Sonderzeichen einzugeben. Dies wird "
+#~ "xmodmap verwenden, um die globale X11 Tastenkombination zu setzen, damit "
+#~ "die angegebene Taste als Alt-Modifikator verwendet wird. Das Ausschalten "
+#~ "dieser Option, wenn sie zuvor angeschaltet war, wird die Optionstaste auf "
+#~ "mode_switch zurücksetzen, was die Apples Standardeinstellung ist. Nicht-"
+#~ "standardmäßige Einstellungen werden extern gesetzte xmodmap Einstellungen "
+#~ "überschreiben. Seien Sie daher vorsichtig, wenn Sie Ihre xmodmap Datei "
+#~ "angepasst haben."
 
 #~ msgid ""
 #~ "Whether to fix the inability to use Mode_switch on Tiger (OS X 10.4). If "
 #~ "true, Wing will run xmodmap when it starts to remap the Mode_switch keys "
-#~ "(option, Alt Gr, and other composition keys on non-US keyboards) from "
-#~ "mod1 to mod5.  The xmodmap modifications will affect all X11 applications."
+#~ "(option, Alt Gr, and other composition keys on non-US keyboards) from mod1 "
+#~ "to mod5.  The xmodmap modifications will affect all X11 applications."
 #~ msgstr ""
 #~ "Bestimmt, ob die Unfähigkeit, Mode_switch in Tiger (OS X 10.4) zu "
 #~ "verwenden, behoben werden soll. Wenn dies auf wahr gesetzt ist, wird Wing "
 #~ "beim Starten xmodmap ausführen, um die Mode_switch Tasten (Option, Alt Gr "
-#~ "und andere Zusammensetzungstasten auf nicht-amerikanischen Tastaturen) "
-#~ "von mod1 auf mod5 neu einzustellen. Die Änderungen in xmodmap betreffen "
-#~ "alle X11 Anwendungen."
+#~ "und andere Zusammensetzungstasten auf nicht-amerikanischen Tastaturen) von "
+#~ "mod1 auf mod5 neu einzustellen. Die Änderungen in xmodmap betreffen alle "
+#~ "X11 Anwendungen."
 
 #~ msgid "Query X11"
 #~ msgstr "X11 abfragen"
@@ -4242,16 +4211,16 @@ msgstr "Beim Starten anzeigen"
 #~ "only preference."
 #~ msgstr ""
 #~ "Zeigt an, ob eine Apple-Taste in Gebrauch ist. Verwenden Sie die Option "
-#~ "'X11 abfragen', um die Einstellung des X11 Servers zu bestimmen, immer "
-#~ "wenn Wing ausgeführt wird. Diese Einstellung ist nur für OS X."
+#~ "'X11 abfragen', um die Einstellung des X11 Servers zu bestimmen, immer wenn "
+#~ "Wing ausgeführt wird. Diese Einstellung ist nur für OS X."
 
 #~ msgid ""
 #~ "Used internally to show information about osx keyboard issues to new "
 #~ "users.  Once turned off, it is never turned on again"
 #~ msgstr ""
-#~ "Wird intern verwendet, um Informationen über OS X Tastaturprobleme für "
-#~ "neue Benutzer anzuzeigen. Wenn die Option einmal ausgeschaltet ist, wird "
-#~ "sie nie wieder angeschaltet."
+#~ "Wird intern verwendet, um Informationen über OS X Tastaturprobleme für neue "
+#~ "Benutzer anzuzeigen. Wenn die Option einmal ausgeschaltet ist, wird sie nie "
+#~ "wieder angeschaltet."
 
 #~ msgid "Save Project As"
 #~ msgstr "Projekt speichern unter"
@@ -4270,13 +4239,13 @@ msgstr "Beim Starten anzeigen"
 #~ "\"xlarge\", or use \"default\" to select the system-wide settings."
 #~ msgstr ""
 #~ "Stellt die Größe der Werkzeugleistensymbole ein. Entweder \"klein\", "
-#~ "\"mittel\", \"groß\" oder\"extragroß\" oder verwenden Sie \"Standard\", "
-#~ "um die systemweiten Einstellungen zu wählen."
+#~ "\"mittel\", \"groß\" oder\"extragroß\" oder verwenden Sie \"Standard\", um "
+#~ "die systemweiten Einstellungen zu wählen."
 
 #~ msgid ""
-#~ "Select style of toolbar icons to use.  One of \"icon-only\", \"text-only"
-#~ "\", \"text-below\", \"text-right\", or use \"default\" to select the "
-#~ "system-wide settings."
+#~ "Select style of toolbar icons to use.  One of \"icon-only\", \"text-only\", "
+#~ "\"text-below\", \"text-right\", or use \"default\" to select the system-"
+#~ "wide settings."
 #~ msgstr ""
 #~ "Stil der zu verwendenden Werkzeugleistensymbole wählen. Entweder \"Nur "
 #~ "Symbole\", \"Nur Text\", \"Symbol un Text nach unten\", \"Symbol un Text "
@@ -4303,20 +4272,20 @@ msgstr "Beim Starten anzeigen"
 #~ msgid ""
 #~ "Please consider enabling the <literal>Fix Tiger Option Key</literal> "
 #~ "preference if you want to use the option key to enter foreign language "
-#~ "characters or characters that require a key other than command, control, "
-#~ "or shift to be pressed.  This is needed because the X11 shipped with "
-#~ "Tiger (OS X 10.4) does not distiguish between alt and what is known as "
-#~ "the mode switch key.\n"
+#~ "characters or characters that require a key other than command, control, or "
+#~ "shift to be pressed.  This is needed because the X11 shipped with Tiger (OS "
+#~ "X 10.4) does not distiguish between alt and what is known as the mode "
+#~ "switch key.\n"
 #~ "\n"
 #~ "This fix will apply to <literal>all</literal> X11 applications."
 #~ msgstr ""
 #~ "Wir empfehlen Ihnen, die Einstellung <literal>Fehler der Optionstaste in "
 #~ "Tiger beheben</literal> zu aktivieren, wenn Sie die Optionstaste für die "
 #~ "Eingabe von Fremdsprachenzeichen oder Zeichen, die das Betätigen einer "
-#~ "Taste außer Command, Steuerung oder der Umschalttaste erfordern, "
-#~ "verwenden möchten. Dies ist erforderlich, da X11, wenn es mit Tiger "
-#~ "geliefert wird (OS X 10.4) nicht zwischen Alt und der als Mode Switch "
-#~ "bekannten Taste unterscheidet.\n"
+#~ "Taste außer Command, Steuerung oder der Umschalttaste erfordern, verwenden "
+#~ "möchten. Dies ist erforderlich, da X11, wenn es mit Tiger geliefert wird "
+#~ "(OS X 10.4) nicht zwischen Alt und der als Mode Switch bekannten Taste "
+#~ "unterscheidet.\n"
 #~ "\n"
 #~ "Diese Fehlerbehebung wird auf <literal>alle</literal> X11-Anwendungen "
 #~ "angewendet."
@@ -4328,8 +4297,8 @@ msgstr "Beim Starten anzeigen"
 #~ "Controls whether or not Wing ignores unsaved files before a debug run, or "
 #~ "before a file or build process is executed."
 #~ msgstr ""
-#~ "Kontrolliert, ob Wing ungespeicherte Dateien vor einem Debug-Durchlauf "
-#~ "oder vor der Ausführung einer Datei oder eines Build-Prozesses ignoriert."
+#~ "Kontrolliert, ob Wing ungespeicherte Dateien vor einem Debug-Durchlauf oder "
+#~ "vor der Ausführung einer Datei oder eines Build-Prozesses ignoriert."
 
 #, fuzzy
 #~ msgid "_Comment Region Toggle"
@@ -4364,9 +4333,9 @@ msgstr "Beim Starten anzeigen"
 #~ "Importieren von Dateien in ein Projekt, berücksichtigt werden."
 
 #~ msgid ""
-#~ "Lists file types that should be omitted from multi-file operations such  "
-#~ "as searching and importing files into a project.  These are omitted even  "
-#~ "if the gui.include-file-types preference includes a matching wild card."
+#~ "Lists file types that should be omitted from multi-file operations such  as "
+#~ "searching and importing files into a project.  These are omitted even  if "
+#~ "the gui.include-file-types preference includes a matching wild card."
 #~ msgstr ""
 #~ "Listet die Dateitypen auf, die von Mehrdatei-Operationen, wie Suchen und "
 #~ "Importieren von Dateien in ein Projekt, ausgeschlossen werden sollten. "
@@ -4423,24 +4392,24 @@ msgstr "Beim Starten anzeigen"
 #~ msgstr "Umleitung zu wingide.com"
 
 #~ msgid ""
-#~ "Please make sure that your X11 server is configured to let Command keys "
-#~ "be processed by X11 programs and not by the X11 server.This is necessary "
-#~ "when using Wing's OS X keyboard personality. If you want the X11 server "
-#~ "to process Command keys, you must select a keyboard personality other "
-#~ "than OS X in Wing's preferences.\n"
+#~ "Please make sure that your X11 server is configured to let Command keys be "
+#~ "processed by X11 programs and not by the X11 server.This is necessary when "
+#~ "using Wing's OS X keyboard personality. If you want the X11 server to "
+#~ "process Command keys, you must select a keyboard personality other than OS "
+#~ "X in Wing's preferences.\n"
 #~ "\n"
-#~ "You may also need to alter Wing's Apple Keyboard preference for Wing's OS "
-#~ "X keyboard personality to work correctly.\n"
+#~ "You may also need to alter Wing's Apple Keyboard preference for Wing's OS X "
+#~ "keyboard personality to work correctly.\n"
 #~ "\n"
 #~ "<literal>Note:</literal> X11 preference changes apply to all X11 "
 #~ "applications."
 #~ msgstr ""
-#~ "Bitte vergewissern Sie sich, dass Ihr X11 Server so konfiguriert ist, "
-#~ "dass er Command-Tasten von X11 Programmen und nicht vom X11 Server "
-#~ "verarbeiten lässt. Dies ist erforderlich, wenn Sie Wing's OS X Tastatur-"
-#~ "Individualität verwenden. Wenn der X11 Server Command-Tasten verarbeiten "
-#~ "soll, müssen Sie in Wing's Einstellungen eine andere Tastatur-"
-#~ "Individualität als OS X auswählen.\n"
+#~ "Bitte vergewissern Sie sich, dass Ihr X11 Server so konfiguriert ist, dass "
+#~ "er Command-Tasten von X11 Programmen und nicht vom X11 Server verarbeiten "
+#~ "lässt. Dies ist erforderlich, wenn Sie Wing's OS X Tastatur-Individualität "
+#~ "verwenden. Wenn der X11 Server Command-Tasten verarbeiten soll, müssen Sie "
+#~ "in Wing's Einstellungen eine andere Tastatur-Individualität als OS X "
+#~ "auswählen.\n"
 #~ "\n"
 #~ "Es kann auch notwendig sein, dass Sie Wing's Apple Tastatur-Einstellungen "
 #~ "anpassen müssen, damit Wing's OS X Tastatur-Individualität richtig "
@@ -4458,13 +4427,10 @@ msgstr "Beim Starten anzeigen"
 #~ msgid "Previous Auto-Bookmark"
 #~ msgstr "Vorheriges Auto-Lesezeichen"
 
-#~ msgid ""
-#~ "Configures location of the tall panel area in the main display Window."
+#~ msgid "Configures location of the tall panel area in the main display Window."
 #~ msgstr ""
 #~ "Konfiguriert die Position des hohen Feldbereiches im Hauptanzeigefenster."
 
-#~ msgid ""
-#~ "Configures location of the wide panel area in the main display Window."
+#~ msgid "Configures location of the wide panel area in the main display Window."
 #~ msgstr ""
-#~ "Konfiguriert die Position des breiten Feldbereiches im "
-#~ "Hauptanzeigefenster."
+#~ "Konfiguriert die Position des breiten Feldbereiches im Hauptanzeigefenster."
