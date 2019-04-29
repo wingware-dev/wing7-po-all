@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_pysource\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
 "PO-Revision-Date: 2018-08-25 22:40+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
@@ -21,50 +21,6 @@ msgstr ""
 #: src/pysource/attribs.py:23
 msgid "Analyze main file for sys.path changes"
 msgstr "Analyser le fichier principal pour des modifications de sys.path"
-
-#: src/pysource/codewarn.py:61
-msgid "Undefined attribute"
-msgstr "Attribut indéfini"
-
-#: src/pysource/codewarn.py:62
-msgid "Undefined name"
-msgstr "Nom indéfini"
-
-#: src/pysource/codewarn.py:63
-msgid "Import not found"
-msgstr "Import non trouvé"
-
-#: src/pysource/codewarn.py:64
-msgid "Syntax error"
-msgstr "Erreur de syntaxe"
-
-#: src/pysource/codewarn.py:65
-msgid "Indent warning"
-msgstr ""
-
-#: src/pysource/codewarn.py:496
-msgid "Import not found: {}"
-msgstr "Import non trouvé : {}"
-
-#: src/pysource/codewarn.py:503
-msgid "Undefined name: %s"
-msgstr "Nom indéfini : %s"
-
-#: src/pysource/codewarn.py:624 src/pysource/codewarn.py:626
-msgid " or "
-msgstr " ou "
-
-#: src/pysource/codewarn.py:629
-msgid "Attribute undefined: .%s of %s: %s"
-msgstr ""
-
-#: src/pysource/codewarn.py:1242
-msgid "class"
-msgstr "classe"
-
-#: src/pysource/codewarn.py:1249
-msgid "module"
-msgstr "module"
 
 #: src/pysource/llinecache.py:75
 msgid "Inconsistent indentation (not in units of indent size)"
@@ -98,19 +54,16 @@ msgstr "Mauvais niveau d'identation"
 msgid "Indentation error (unspecified)"
 msgstr "Erreur d'indentation (non spécifiée)"
 
-#: src/pysource/manager.py:228
-msgid "(Analyzing Files: pass 1, Q=%i) "
+#: src/pysource/manager.py:232
+#, fuzzy
+msgid "(Analyzing Files: P{} S{} Q={}) "
 msgstr "(Analyse de fichiers : pass 1, Q=%i) "
 
-#: src/pysource/manager.py:230
-msgid "(Analyzing Files: pass 2, Q=%i) "
-msgstr "(Analyse de fichiers : pass 2, Q=%i) "
-
-#: src/pysource/manager.py:232
+#: src/pysource/manager.py:236
 msgid "(Analyzing Files: %i pending remote inspections) "
 msgstr ""
 
-#: src/pysource/manager.py:2532
+#: src/pysource/manager.py:669
 msgid ""
 "Scrape errors for %s:\n"
 "%s"
@@ -118,27 +71,41 @@ msgstr ""
 "Erreurs de lecture des infos internes pour %s :\n"
 "%s"
 
-#: src/pysource/manager.py:2560
+#: src/pysource/manager.py:697
 msgid "%s does not exist (scrape failed)"
 msgstr "%s n'existe pas (lecture des infos internes échouée)"
 
-#: src/pysource/manager.py:2564
+#: src/pysource/manager.py:701
 msgid "%s is empty (scrape failed; removing file now)"
 msgstr ""
 "%s est vide (lecture des infos internes échouée ; enlever le fichier "
 "maintenant)"
 
-#: src/pysource/manager.py:2607
+#: src/pysource/manager.py:719
 msgid "Scraping %s"
 msgstr "Lecture des infos internes de %s"
 
-#: src/pysource/manager.py:2617
+#: src/pysource/manager.py:729
 msgid "Failed to scrape extension module %s: Python not found"
 msgstr ""
 "Échec de lecture des infos internes du module d'extension %s : Python non "
 "trouvé"
 
-#: src/pysource/manager.py:2635
+#: src/pysource/manager.py:745
+#, fuzzy
+msgid "Failed to scrape extension module %s: Cannot create directory %s"
+msgstr ""
+"Échec de lecture des infos internes du module d'extension %s : Python non "
+"trouvé"
+
+#: src/pysource/manager.py:770
+#, fuzzy
+msgid "Timed out in remote scrape of extension module %s"
+msgstr ""
+"Échec du démarrage du processus de lecture des infos internes du module "
+"d'extension %s"
+
+#: src/pysource/manager.py:772 src/pysource/manager.py:811
 msgid ""
 "Failed to start process to scrape extension module %s: could not find "
 "suitable rundir"
@@ -146,7 +113,21 @@ msgstr ""
 "Échec du démarrage du processus de lecture des infos internes du module "
 "d'extension %s : n'a pas pu trouvé un rundir adéquat"
 
-#: src/pysource/manager.py:2660
+#: src/pysource/manager.py:775 src/pysource/manager.py:867
+msgid "Failed to start process to scrape extension module %s"
+msgstr ""
+"Échec du démarrage du processus de lecture des infos internes du module "
+"d'extension %s"
+
+#: src/pysource/manager.py:777 src/pysource/manager.py:872
+msgid "Failed scraping API for %s"
+msgstr "Échec de lecture des infos internes de l'API pour %s"
+
+#: src/pysource/manager.py:779 src/pysource/manager.py:874
+msgid "API scraping process for %s completed"
+msgstr "Processus de lecture des infos internes de l'API pour %s terminé"
+
+#: src/pysource/manager.py:851
 msgid ""
 "Failed to start process to scrape extension module %s: cannot encode "
 "arguments"
@@ -154,23 +135,9 @@ msgstr ""
 "Échec du démarrage du processus de lecture des infos internes du module "
 "d'extension %s : n'a pas pu encoder les arguments"
 
-#: src/pysource/manager.py:2667
+#: src/pysource/manager.py:858
 msgid "Cache file is %s"
 msgstr "Le fichier de cache est %s"
-
-#: src/pysource/manager.py:2676
-msgid "Failed to start process to scrape extension module %s"
-msgstr ""
-"Échec du démarrage du processus de lecture des infos internes du module "
-"d'extension %s"
-
-#: src/pysource/manager.py:2681
-msgid "Failed scraping API for %s"
-msgstr "Échec de lecture des infos internes de l'API pour %s"
-
-#: src/pysource/manager.py:2683
-msgid "API scraping process for %s completed"
-msgstr "Processus de lecture des infos internes de l'API pour %s terminé"
 
 #: src/pysource/prefs.py:28
 msgid ""
@@ -265,6 +232,36 @@ msgstr "Utiliser docs.python.org"
 #: src/pysource/prefs.py:148
 msgid "Other:"
 msgstr "Autre :"
+
+#~ msgid "Undefined attribute"
+#~ msgstr "Attribut indéfini"
+
+#~ msgid "Undefined name"
+#~ msgstr "Nom indéfini"
+
+#~ msgid "Import not found"
+#~ msgstr "Import non trouvé"
+
+#~ msgid "Syntax error"
+#~ msgstr "Erreur de syntaxe"
+
+#~ msgid "Import not found: {}"
+#~ msgstr "Import non trouvé : {}"
+
+#~ msgid "Undefined name: %s"
+#~ msgstr "Nom indéfini : %s"
+
+#~ msgid " or "
+#~ msgstr " ou "
+
+#~ msgid "class"
+#~ msgstr "classe"
+
+#~ msgid "module"
+#~ msgstr "module"
+
+#~ msgid "(Analyzing Files: pass 2, Q=%i) "
+#~ msgstr "(Analyse de fichiers : pass 2, Q=%i) "
 
 #~ msgid "Imported module not found: {}"
 #~ msgstr "Module importé non trouvé : {}"

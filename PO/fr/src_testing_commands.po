@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.0\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
 "PO-Revision-Date: 2016-11-20 18:21+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
 "Language-Team: None\n"
@@ -23,12 +23,15 @@ msgid ""
 "  or has keyboard focus."
 msgstr ""
 "Commandes disponibles globalement définies pour le gestionnaire de tests\n"
-"    unitaires. Ces commandes sont disponibles indépendament de la visibilité\n"
+"    unitaires. Ces commandes sont disponibles indépendament de la "
+"visibilité\n"
 "    du gestionnaire de test ou du focus du clavier."
 
 #: src/testing/commands.py:51
 msgid " Returns gtk widget; can return None, particularly when show is false "
-msgstr " Retourne le widget gtk ; peut retourner None, particulièrement quand show est faux"
+msgstr ""
+" Retourne le widget gtk ; peut retourner None, particulièrement quand show "
+"est faux"
 
 #: src/testing/commands.py:91
 msgid "Scan or re-scan the current editor file for unittests"
@@ -54,8 +57,10 @@ msgid ""
 "    locations can be a list of filenames or locations or a single filename "
 "or location."
 msgstr ""
-"Déboguer les tests dans l'éditeur actuel. Utilise le ou les fichiers donnés si locs\n"
-"   n'est pas None. Les emplacements peuvent être une liste de noms de fichiers\n"
+"Déboguer les tests dans l'éditeur actuel. Utilise le ou les fichiers donnés "
+"si locs\n"
+"   n'est pas None. Les emplacements peuvent être une liste de noms de "
+"fichiers\n"
 "   ou d'emplacements ou un simple nom de fichier ou un emplacement."
 
 #: src/testing/commands.py:132
@@ -80,7 +85,8 @@ msgstr ""
 
 #: src/testing/commands.py:186
 msgid " Debug the tests currently selected in the testing panel. "
-msgstr " Déboguer les tests sélectionnés actuellement dans le panneau de tests. "
+msgstr ""
+" Déboguer les tests sélectionnés actuellement dans le panneau de tests. "
 
 #: src/testing/commands.py:194
 msgid ""
@@ -164,7 +170,8 @@ msgid ""
 msgstr ""
 "Ajouter un ou des fichiers au jeu de tests unitaires. locs peut être\n"
 "    une liste de noms de fichiers ou d'emplacements ou un simple\n"
-"    nom de fichier ou emplacement. Ajoute le fichier actuel de l'éditeur si locs est None."
+"    nom de fichier ou emplacement. Ajoute le fichier actuel de l'éditeur si "
+"locs est None."
 
 #: src/testing/commands.py:357
 msgid " Save all test results to a file. "

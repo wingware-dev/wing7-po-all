@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_guimgr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
 "PO-Revision-Date: 2018-08-25 23:03+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: support@ingeniweb.com\n"
@@ -32,11 +32,11 @@ msgstr ""
 "\"debug\" dès qu'un débogage est lancé. La perspective précédente (\"edit\" "
 "par défaut) est restaurée après l'arrêt du débogage."
 
-#: src/guimgr/bootstrap.py:68
+#: src/guimgr/bootstrap.py:56
 msgid "Can't access %s"
 msgstr "Impossible d'accéder à %s"
 
-#: src/guimgr/bootstrap.py:69
+#: src/guimgr/bootstrap.py:57
 msgid ""
 "The user settings directory %s is read-only or cannot be accessed.  Wing "
 "cannot run without write access to this directory."
@@ -45,11 +45,11 @@ msgstr ""
 "pas accessible. Wing ne peut pas fonctionner sans accès en écriture à ce "
 "répertoire."
 
-#: src/guimgr/bootstrap.py:79
+#: src/guimgr/bootstrap.py:67
 msgid "Can't create %s"
 msgstr "Impossible de créer %s"
 
-#: src/guimgr/bootstrap.py:80
+#: src/guimgr/bootstrap.py:68
 msgid ""
 "Unable to create a %s directory because the disk is read-only or a file of "
 "the same name already exists.  Wing cannot run without write access to this "
@@ -68,7 +68,7 @@ msgid "Delete the selected file set"
 msgstr "Supprimer l'ensemble de fichiers sélectionné"
 
 #: src/guimgr/cap_filesets.py:420 src/guimgr/cap_perspectives.py:541
-#: src/guimgr/constants.py:745
+#: src/guimgr/constants.py:742
 msgid "New"
 msgstr "Nouveau"
 
@@ -85,13 +85,13 @@ msgid "_Load"
 msgstr "Ouvrir"
 
 #: src/guimgr/cap_filesets.py:446 src/guimgr/cap_perspectives.py:570
-#: src/guimgr/constants.py:251
+#: src/guimgr/constants.py:249
 msgid "_Close"
 msgstr "_Fermer"
 
 #: src/guimgr/cap_filesets.py:455 src/guimgr/cap_filesets.py:762
 #: src/guimgr/cap_perspectives.py:573 src/guimgr/cap_perspectives.py:1000
-#: src/guimgr/guimanager.py:4600
+#: src/guimgr/guimanager.py:4944
 msgid "Key Binding"
 msgstr "Raccourci clavier"
 
@@ -100,7 +100,7 @@ msgid "Shared"
 msgstr "Partagé"
 
 #: src/guimgr/cap_filesets.py:455 src/guimgr/cap_perspectives.py:573
-#: src/guimgr/prefs.py:561
+#: src/guimgr/prefs.py:565
 msgid "Name"
 msgstr "Nom"
 
@@ -125,15 +125,26 @@ msgstr ""
 "fichier '%s' existant ?"
 
 #: src/guimgr/cap_filesets.py:567 src/guimgr/cap_filesets.py:638
-#: src/guimgr/cap_perspectives.py:717 src/guimgr/cap_perspectives.py:734
-#: src/guimgr/savemanager.py:237
-msgid "OK"
-msgstr "OK"
+#: src/guimgr/cap_perspectives.py:353 src/guimgr/cap_perspectives.py:717
+#: src/guimgr/cap_perspectives.py:734 src/guimgr/cap_perspectives.py:855
+#: src/guimgr/cap_perspectives.py:868 src/guimgr/feedback.py:401
+#: src/guimgr/feedback.py:458 src/guimgr/messages.py:244
+#: src/guimgr/messages.py:968 src/guimgr/savemanager.py:428
+#: src/guimgr/savemanager.py:802
+msgid "_OK"
+msgstr "_OK"
 
 #: src/guimgr/cap_filesets.py:568 src/guimgr/cap_filesets.py:639
 #: src/guimgr/cap_perspectives.py:197 src/guimgr/cap_perspectives.py:735
-#: src/guimgr/guimanager.py:2779 src/guimgr/guimanager.py:2794
-msgid "Cancel"
+#: src/guimgr/cap_perspectives.py:869 src/guimgr/feedback.py:65
+#: src/guimgr/guimanager.py:995 src/guimgr/guimanager.py:3096
+#: src/guimgr/guimanager.py:3111 src/guimgr/messages.py:970
+#: src/guimgr/messages.py:984 src/guimgr/savemanager.py:294
+#: src/guimgr/savemanager.py:298 src/guimgr/savemanager.py:482
+#: src/guimgr/savemanager.py:671 src/guimgr/savemanager.py:689
+#: src/guimgr/savemanager.py:705 src/guimgr/savemanager.py:718
+#: src/guimgr/savemanager.py:736 src/guimgr/savemanager.py:751
+msgid "_Cancel"
 msgstr "Annuler"
 
 #: src/guimgr/cap_filesets.py:635
@@ -189,11 +200,13 @@ msgstr ""
 "pour la perspective %s avant de changer vers la perspective %s ?"
 
 #: src/guimgr/cap_perspectives.py:195
-msgid "Save State"
+#, fuzzy
+msgid "_Save State"
 msgstr "Enregistrer l'état"
 
 #: src/guimgr/cap_perspectives.py:196
-msgid "Abandon State"
+#, fuzzy
+msgid "_Abandon State"
 msgstr "Abandonner l'état"
 
 #: src/guimgr/cap_perspectives.py:336
@@ -227,14 +240,6 @@ msgid ""
 msgstr ""
 "La perspective en cours précédente '%s' a été sauvegardée et peut être "
 "restaurée depuis le menu Outils."
-
-#: src/guimgr/cap_perspectives.py:353 src/guimgr/cap_perspectives.py:855
-#: src/guimgr/cap_perspectives.py:868 src/guimgr/feedback.py:386
-#: src/guimgr/feedback.py:443 src/guimgr/messages.py:244
-#: src/guimgr/messages.py:960 src/guimgr/savemanager.py:421
-#: src/guimgr/savemanager.py:791
-msgid "_OK"
-msgstr "_OK"
 
 #: src/guimgr/cap_perspectives.py:532
 msgid "Create a new perspective"
@@ -312,16 +317,6 @@ msgstr ""
 "Êtes-vous sûr de vouloir effacer la perspective '%s' ? L'état stocké sera "
 "perdu."
 
-#: src/guimgr/cap_perspectives.py:869 src/guimgr/feedback.py:65
-#: src/guimgr/messages.py:962 src/guimgr/messages.py:976
-#: src/guimgr/savemanager.py:287 src/guimgr/savemanager.py:291
-#: src/guimgr/savemanager.py:475 src/guimgr/savemanager.py:660
-#: src/guimgr/savemanager.py:678 src/guimgr/savemanager.py:694
-#: src/guimgr/savemanager.py:707 src/guimgr/savemanager.py:725
-#: src/guimgr/savemanager.py:740
-msgid "_Cancel"
-msgstr "Annuler"
-
 #: src/guimgr/cap_perspectives.py:927
 msgid "_New..."
 msgstr "_Nouveau..."
@@ -360,1305 +355,1361 @@ msgstr ""
 "applique cette perspective et restaure l'état de l'interface graphique "
 "utilisateur qui lui est associé."
 
-#: src/guimgr/constants.py:119
+#: src/guimgr/commandbar.py:80
+msgid "_Dark Mode"
+msgstr ""
+
+#: src/guimgr/commandbar.py:81
+#, fuzzy
+msgid "_Presentation Mode"
+msgstr "Mode de sélection"
+
+#: src/guimgr/commandbar.py:113
+#, fuzzy
+msgid "Show _Menubar"
+msgstr "Afficher les numéros de l_ignes"
+
+#: src/guimgr/commandbar.py:116
+#, fuzzy
+msgid "Show _Toolbar"
+msgstr "Afficher les bulles d'aide"
+
+#: src/guimgr/commandbar.py:122 src/guimgr/constants.py:378
+#: src/guimgr/initialprefs.py:44
+msgid "_Keyboard Personality"
+msgstr "Personnalité du _clavier"
+
+#: src/guimgr/commandbar.py:123
+#, fuzzy
+msgid "Confi_gure Tab Key..."
+msgstr "Configurer la touche tabulation..."
+
+#: src/guimgr/commandbar.py:124
+#, fuzzy
+msgid "Custom Key _Bindings..."
+msgstr "Attribuer un raccourci clavier..."
+
+#: src/guimgr/commandbar.py:131
+#, fuzzy
+msgid "Configure Auto-_Completion..."
+msgstr "Configurer l'auto-formattage…"
+
+#: src/guimgr/commandbar.py:135
+#, fuzzy
+msgid "Configure Auto-_Editing..."
+msgstr "Configurer l'auto-édition..."
+
+#: src/guimgr/commandbar.py:139
+#, fuzzy
+msgid "Show _Line Numbers"
+msgstr "Afficher les numéros de l_ignes"
+
+#: src/guimgr/commandbar.py:141
+#, fuzzy
+msgid "Show _White Space"
+msgstr "Ignorer les espaces"
+
+#: src/guimgr/commandbar.py:143
+#, fuzzy
+msgid "Show _Indent Guides"
+msgstr "Afficher les numéros de l_ignes"
+
+#: src/guimgr/commandbar.py:148
+#, fuzzy
+msgid "Enable _Folding"
+msgstr "Activer l'auto-édition"
+
+#: src/guimgr/commandbar.py:153
+#, fuzzy
+msgid "_Other Preferences..."
+msgstr "_Préférences..."
+
+#: src/guimgr/constants.py:117
 msgid "Add Selection for Next Occurrence"
 msgstr "Ajouter la sélection de la prochaine occurence"
 
-#: src/guimgr/constants.py:120
+#: src/guimgr/constants.py:118
 msgid "Drop Current and Add Next Occurrence"
 msgstr "Laisser l’actuelle et ajouter la prochaine occurence"
 
-#: src/guimgr/constants.py:121
+#: src/guimgr/constants.py:119
 msgid "Drop Extra Selections"
 msgstr "Enlever les sélections supplémentaires"
 
-#: src/guimgr/constants.py:123
+#: src/guimgr/constants.py:121
 msgid "Add All in File"
 msgstr "Ajouter les sélections du fichier"
 
-#: src/guimgr/constants.py:124
+#: src/guimgr/constants.py:122
 msgid "Add All in Class"
 msgstr "Ajouter les sélections de la classe"
 
-#: src/guimgr/constants.py:125
+#: src/guimgr/constants.py:123
 msgid "Add All in Function / Method"
 msgstr "Ajouter les sélections de la fonction / méthode"
 
-#: src/guimgr/constants.py:126
+#: src/guimgr/constants.py:124
 msgid "Add All in Block"
 msgstr "Ajouter les sélections du bloc"
 
-#: src/guimgr/constants.py:128
+#: src/guimgr/constants.py:126
 #, fuzzy
 msgid "Add Next Wraps"
 msgstr "Ajouter la prochaine correspondance"
 
-#: src/guimgr/constants.py:130
+#: src/guimgr/constants.py:128
 msgid "Case-Sensitive Matching"
 msgstr "Correspondances sensibles à la casse"
 
-#: src/guimgr/constants.py:132
+#: src/guimgr/constants.py:130
 msgid "Match Whole Word"
 msgstr "Correspondance avec des mots entiers"
 
-#: src/guimgr/constants.py:136
+#: src/guimgr/constants.py:134
 msgid "Show Selections Window"
 msgstr "Afficher la fenêtre de sélections"
 
-#: src/guimgr/constants.py:137
+#: src/guimgr/constants.py:135
 msgid "Hide Selections Window"
 msgstr "Masquer la fenêtre de sélections"
 
-#: src/guimgr/constants.py:139
+#: src/guimgr/constants.py:137
 msgid "Configure Selections Window"
 msgstr "Configurer la fenêtre de sélections"
 
-#: src/guimgr/constants.py:150 src/guimgr/constants.py:152
+#: src/guimgr/constants.py:148 src/guimgr/constants.py:150
 msgid "Multiple Selections"
 msgstr "Sélections multiples"
 
-#: src/guimgr/constants.py:158
+#: src/guimgr/constants.py:156
 msgid "_File"
 msgstr "_Fichier"
 
-#: src/guimgr/constants.py:159
+#: src/guimgr/constants.py:157
 msgid "_Debug"
 msgstr "_Débogage"
 
-#: src/guimgr/constants.py:160
+#: src/guimgr/constants.py:158
 msgid "_Project"
 msgstr "_Projet"
 
-#: src/guimgr/constants.py:161
+#: src/guimgr/constants.py:159
 msgid "Testi_ng"
 msgstr "Tests"
 
-#: src/guimgr/constants.py:162
+#: src/guimgr/constants.py:160
 msgid "W_indow"
 msgstr "Fenêtre"
 
-#: src/guimgr/constants.py:163
+#: src/guimgr/constants.py:161
 msgid "_Recent"
 msgstr "_Récent"
 
-#: src/guimgr/constants.py:164
+#: src/guimgr/constants.py:162
 msgid "Debug _Recent"
 msgstr "Débogages _récents"
 
-#: src/guimgr/constants.py:165
+#: src/guimgr/constants.py:163
 msgid "Debug Named Entry Point"
 msgstr "Déboguer le point d'entrée nommé"
 
-#: src/guimgr/constants.py:166
+#: src/guimgr/constants.py:164
 msgid "Execute Re_cent"
 msgstr "Exécutions ré_centes"
 
-#: src/guimgr/constants.py:167
+#: src/guimgr/constants.py:165
 msgid "Execute Named Entry Point"
 msgstr "Exécuter le point d'entrée nommé"
 
-#: src/guimgr/constants.py:168
+#: src/guimgr/constants.py:166
 msgid "Recen_t"
 msgstr "Récent"
 
-#: src/guimgr/constants.py:169
+#: src/guimgr/constants.py:167
 msgid "New Panel Window"
 msgstr "Nouvelle fenêtre de panneau"
 
-#: src/guimgr/constants.py:183
+#: src/guimgr/constants.py:181
 msgid "Compare Files..."
 msgstr "Comparer les fichiers..."
 
-#: src/guimgr/constants.py:184
+#: src/guimgr/constants.py:182
 msgid "Compare Directories..."
 msgstr "Comparer les répertoires..."
 
-#: src/guimgr/constants.py:185
+#: src/guimgr/constants.py:183
 msgid "Compare Visible Files"
 msgstr "Comparer les fichiers visibles"
 
-#: src/guimgr/constants.py:186
+#: src/guimgr/constants.py:184
 msgid "Compare Buffer with Disk"
 msgstr "Comparer l'état actuel avec le fichier sauvegardé"
 
-#: src/guimgr/constants.py:187
+#: src/guimgr/constants.py:185
 msgid "Compare Recent"
 msgstr "Comparaisons récentes"
 
-#: src/guimgr/constants.py:191
+#: src/guimgr/constants.py:189
 msgid "Compare to Repository"
 msgstr "Comparer au dépôt"
 
-#: src/guimgr/constants.py:195 src/guimgr/constants.py:786
+#: src/guimgr/constants.py:193 src/guimgr/constants.py:783
 msgid "Next Difference"
 msgstr "Différence suivante"
 
-#: src/guimgr/constants.py:196 src/guimgr/constants.py:784
+#: src/guimgr/constants.py:194 src/guimgr/constants.py:781
 msgid "Previous Difference"
 msgstr "Différence précédente"
 
-#: src/guimgr/constants.py:198
+#: src/guimgr/constants.py:196
 msgid "Merge Change A->B"
 msgstr "Fusionner les modifications A->B"
 
-#: src/guimgr/constants.py:199
+#: src/guimgr/constants.py:197
 msgid "Merge Change B->A"
 msgstr "Fusionner les modifications B->A"
 
-#: src/guimgr/constants.py:204
+#: src/guimgr/constants.py:202
 msgid "Terminate Session"
 msgstr "Terminer la session"
 
-#: src/guimgr/constants.py:206
+#: src/guimgr/constants.py:204
 msgid "Lock Scrolling"
 msgstr "Verrouiller le défilement"
 
-#: src/guimgr/constants.py:209
+#: src/guimgr/constants.py:207
 msgid "Ignore Whitespace"
 msgstr "Ignorer les espaces"
 
-#: src/guimgr/constants.py:230
+#: src/guimgr/constants.py:228
 msgid "_New"
 msgstr "_Nouveau"
 
-#: src/guimgr/constants.py:231
+#: src/guimgr/constants.py:229
 msgid "_Open..."
 msgstr "_Ouvrir..."
 
-#: src/guimgr/constants.py:233
+#: src/guimgr/constants.py:231
 msgid "Open from _Project..."
 msgstr "Ouvrir un fichier du _projet..."
 
-#: src/guimgr/constants.py:234
+#: src/guimgr/constants.py:232
 msgid "Open from _Keyboard"
 msgstr "Ouvrir (saisie _clavier)"
 
-#: src/guimgr/constants.py:239
+#: src/guimgr/constants.py:237
 msgid "File Sets"
 msgstr "Ensembles de fichiers"
 
-#: src/guimgr/constants.py:240
+#: src/guimgr/constants.py:238
 msgid "Name Set of Open Files..."
 msgstr "Nommer l'ensemble de fichiers ouverts..."
 
-#: src/guimgr/constants.py:241
+#: src/guimgr/constants.py:239
 msgid "Name Set of Selected Files..."
 msgstr "Nommer l'ensemble de fichiers sélectionnés…"
 
-#: src/guimgr/constants.py:243
+#: src/guimgr/constants.py:241
 msgid "Manage File Sets..."
 msgstr "Gestion des ensembles de fichiers..."
 
-#: src/guimgr/constants.py:252
+#: src/guimgr/constants.py:250
 msgid "Clos_e All"
 msgstr "Tout fer_mer"
 
-#: src/guimgr/constants.py:253
+#: src/guimgr/constants.py:251
 msgid "Close O_thers"
 msgstr "Fermer tous les autres onglets"
 
-#: src/guimgr/constants.py:255
+#: src/guimgr/constants.py:253 src/guimgr/savemanager.py:669
 msgid "_Save"
 msgstr "_Enregistrer"
 
-#: src/guimgr/constants.py:256
+#: src/guimgr/constants.py:254
 msgid "Save _As..."
 msgstr "Enregistrer sous..."
 
-#: src/guimgr/constants.py:258
+#: src/guimgr/constants.py:256
 msgid "Save A_ll"
 msgstr "Tout enregistrer"
 
-#: src/guimgr/constants.py:260
+#: src/guimgr/constants.py:258
 msgid "Revert to _Disk"
 msgstr "Recharger"
 
-#: src/guimgr/constants.py:262
+#: src/guimgr/constants.py:260
 msgid "_Insert File..."
 msgstr "_Insérer un fichier..."
 
-#: src/guimgr/constants.py:264
+#: src/guimgr/constants.py:262
 msgid "_Print..."
 msgstr "Imprimer..."
 
-#: src/guimgr/constants.py:265
+#: src/guimgr/constants.py:263
 msgid "Pa_ge Setup..."
 msgstr "Mise en pa_ge..."
 
-#: src/guimgr/constants.py:269
+#: src/guimgr/constants.py:267
 msgid "_Quit"
 msgstr "_Quitter"
 
-#: src/guimgr/constants.py:281
-msgid "Enable Auto-Editing"
-msgstr "Activer l'auto-édition"
-
-#: src/guimgr/constants.py:284
+#: src/guimgr/constants.py:279
 msgid "Configure Auto-Editing..."
 msgstr "Configurer l'auto-édition..."
 
-#: src/guimgr/constants.py:288
+#: src/guimgr/constants.py:284
 msgid "Configure Tab Key..."
 msgstr "Configurer la touche tabulation..."
 
-#: src/guimgr/constants.py:292
+#: src/guimgr/constants.py:288
 msgid "_Undo"
 msgstr "Annuler"
 
-#: src/guimgr/constants.py:293
+#: src/guimgr/constants.py:289
 msgid "_Redo"
 msgstr "_Refaire"
 
-#: src/guimgr/constants.py:295
+#: src/guimgr/constants.py:291
 msgid "Cu_t"
 msgstr "Couper"
 
-#: src/guimgr/constants.py:296
+#: src/guimgr/constants.py:292
 msgid "_Copy"
 msgstr "_Copier"
 
-#: src/guimgr/constants.py:297
+#: src/guimgr/constants.py:293
 msgid "_Paste"
 msgstr "Coller"
 
-#: src/guimgr/constants.py:298
+#: src/guimgr/constants.py:294
 msgid "C_lear"
 msgstr "Effacer"
 
-#: src/guimgr/constants.py:299
+#: src/guimgr/constants.py:295
 msgid "C_opy Filenames"
 msgstr "C_opier les noms de fichiers"
 
-#: src/guimgr/constants.py:301
+#: src/guimgr/constants.py:297
 msgid "S_elect"
 msgstr "S_électionner"
 
-#: src/guimgr/constants.py:302
+#: src/guimgr/constants.py:298
 msgid "Select _All"
 msgstr "Tout _sélectionner"
 
-#: src/guimgr/constants.py:304
+#: src/guimgr/constants.py:300
 msgid "Select _More"
 msgstr "Sélectionner plus"
 
-#: src/guimgr/constants.py:305
+#: src/guimgr/constants.py:301
 msgid "Select _Less"
 msgstr "Sélectionner moins"
 
-#: src/guimgr/constants.py:307
+#: src/guimgr/constants.py:303
 #, fuzzy
 msgid "Select _Statement"
 msgstr "Sélectionner l'instruction"
 
-#: src/guimgr/constants.py:308
+#: src/guimgr/constants.py:304
 #, fuzzy
 msgid "Select _Next Statement"
 msgstr "Sélectionner l'instruction suivante"
 
-#: src/guimgr/constants.py:309
+#: src/guimgr/constants.py:305
 #, fuzzy
 msgid "Select _Previous Statement"
 msgstr "Sélectionner l'instruction précédente"
 
-#: src/guimgr/constants.py:311
+#: src/guimgr/constants.py:307
 msgid "Select _Block"
 msgstr "Sélectionner le _bloc"
 
-#: src/guimgr/constants.py:312
+#: src/guimgr/constants.py:308
 msgid "Select Ne_xt Block"
 msgstr "Sélectionner le bloc suivant"
 
-#: src/guimgr/constants.py:313
+#: src/guimgr/constants.py:309
 msgid "Select Pre_vious Block"
 msgstr "Sélectionner le bloc précédent"
 
-#: src/guimgr/constants.py:315
+#: src/guimgr/constants.py:311
 msgid "Select S_cope"
 msgstr "Sélectionner la portée"
 
-#: src/guimgr/constants.py:316
+#: src/guimgr/constants.py:312
 msgid "Select Nex_t Scope"
 msgstr "Sélectionner la portée suivante"
 
-#: src/guimgr/constants.py:317
+#: src/guimgr/constants.py:313
 msgid "Select Prev_ious Scope"
 msgstr "Sélectionner la portée précédente"
 
-#: src/guimgr/constants.py:319
+#: src/guimgr/constants.py:315
 msgid "S_election Mode"
 msgstr "Mode de sélection"
 
-#: src/guimgr/constants.py:320
+#: src/guimgr/constants.py:316
 msgid "_Characters"
 msgstr "_Caractères"
 
-#: src/guimgr/constants.py:321
+#: src/guimgr/constants.py:317
 msgid "_Line"
 msgstr "_Ligne"
 
-#: src/guimgr/constants.py:322
+#: src/guimgr/constants.py:318
 msgid "_Block"
 msgstr "_Bloc"
 
-#: src/guimgr/constants.py:324
+#: src/guimgr/constants.py:320
 msgid "Ca_ncel"
 msgstr "Annuler"
 
-#: src/guimgr/constants.py:330
+#: src/guimgr/constants.py:326
 msgid "_Multiple Selections"
 msgstr "Sélections _multiples"
 
-#: src/guimgr/constants.py:335
+#: src/guimgr/constants.py:331
 msgid "_Search and Replace"
 msgstr "Chercher et remplacer"
 
-#: src/guimgr/constants.py:336
+#: src/guimgr/constants.py:332
 msgid "_Search"
 msgstr "Chercher"
 
-#: src/guimgr/constants.py:337 src/guimgr/savemanager.py:474
+#: src/guimgr/constants.py:333 src/guimgr/savemanager.py:481
 msgid "_Replace"
 msgstr "_Remplacer"
 
-#: src/guimgr/constants.py:338
+#: src/guimgr/constants.py:334
 msgid "Search for Selection F_orward"
 msgstr "Chercher le texte sélectionné vers l'_avant"
 
-#: src/guimgr/constants.py:339
+#: src/guimgr/constants.py:335
 msgid "Search for Selection _Backward"
 msgstr "Chercher le texte sélectionné vers l'a_rrière"
 
-#: src/guimgr/constants.py:340
+#: src/guimgr/constants.py:336
 msgid "_Next Match"
 msgstr "Correspondance suivante"
 
-#: src/guimgr/constants.py:341
+#: src/guimgr/constants.py:337
 msgid "_Previous Match"
 msgstr "Correspondance _précédente"
 
-#: src/guimgr/constants.py:343
+#: src/guimgr/constants.py:339
 msgid "Search in _Files"
 msgstr "Chercher dans des _fichiers"
 
-#: src/guimgr/constants.py:344
+#: src/guimgr/constants.py:340
 msgid "R_eplace in Files"
 msgstr "R_emplacer dans des fichiers"
 
-#: src/guimgr/constants.py:346
+#: src/guimgr/constants.py:342
 msgid "Mini-searc_h"
 msgstr "Mini-recherc_he"
 
-#: src/guimgr/constants.py:347
+#: src/guimgr/constants.py:343
 msgid "_Forward"
 msgstr "Avant"
 
-#: src/guimgr/constants.py:348
+#: src/guimgr/constants.py:344
 msgid "_Backward"
 msgstr "Arrière"
 
-#: src/guimgr/constants.py:349
+#: src/guimgr/constants.py:345
 msgid "Selection For_ward"
 msgstr "Sélection vers l'avant"
 
-#: src/guimgr/constants.py:350
+#: src/guimgr/constants.py:346
 msgid "Selection Bac_kward"
 msgstr "Sélection vers l'arrière"
 
-#: src/guimgr/constants.py:351
+#: src/guimgr/constants.py:347
 msgid "Rege_x Forward"
 msgstr "E_xpression régulière vers l'avant"
 
-#: src/guimgr/constants.py:352
+#: src/guimgr/constants.py:348
 msgid "Regex Ba_ckward"
 msgstr "Expression régulière vers l'arrière"
 
-#: src/guimgr/constants.py:354
+#: src/guimgr/constants.py:350
 msgid "_Query/Replace"
 msgstr "Chercher/remplacer"
 
-#: src/guimgr/constants.py:355
+#: src/guimgr/constants.py:351
 msgid "Q_uery/Replace Regex"
 msgstr "Chercher/remplacer une expression _régulière"
 
-#: src/guimgr/constants.py:357
+#: src/guimgr/constants.py:353
 msgid "_Replace String"
 msgstr "Texte de _remplacement"
 
-#: src/guimgr/constants.py:358
+#: src/guimgr/constants.py:354
 msgid "R_eplace Regex"
 msgstr "Remplace une expression régulière"
 
-#: src/guimgr/constants.py:360
+#: src/guimgr/constants.py:356
 msgid "_Goto Line..."
 msgstr "_Aller à la ligne..."
 
-#: src/guimgr/constants.py:363
+#: src/guimgr/constants.py:359
 msgid "Show L_ine Numbers"
 msgstr "Afficher les numéros de l_ignes"
 
-#: src/guimgr/constants.py:364
+#: src/guimgr/constants.py:360
 msgid "Hide L_ine Numbers"
 msgstr "Masquer les numéros de li_gnes"
 
-#: src/guimgr/constants.py:366
+#: src/guimgr/constants.py:362
 msgid "Zoom"
 msgstr "Zoom"
 
-#: src/guimgr/constants.py:367
+#: src/guimgr/constants.py:363
 msgid "Zoom In"
 msgstr "Zoom avant"
 
-#: src/guimgr/constants.py:368
+#: src/guimgr/constants.py:364
 msgid "Zoom Out"
 msgstr "Zoom arrière"
 
-#: src/guimgr/constants.py:369
+#: src/guimgr/constants.py:365
 msgid "Reset Zoom"
 msgstr "Réinitialiser le zoom"
 
-#: src/guimgr/constants.py:373
+#: src/guimgr/constants.py:369
 msgid "Start _Macro Record"
 msgstr "Démarrer l'enregistrement de la _macro"
 
-#: src/guimgr/constants.py:374
+#: src/guimgr/constants.py:370
 msgid "Stop _Macro Record"
 msgstr "Arrêter l'enregistrement de la _macro"
 
-#: src/guimgr/constants.py:376
+#: src/guimgr/constants.py:372
 msgid "E_xecute Macro"
 msgstr "E_xécuter la macro"
 
-#: src/guimgr/constants.py:378
+#: src/guimgr/constants.py:374
 msgid "Reload All Scripts"
 msgstr "Recharger tous les scripts"
 
-#: src/guimgr/constants.py:379
+#: src/guimgr/constants.py:375
 msgid "Command by _Name"
 msgstr "Commande par _nom"
 
-#: src/guimgr/constants.py:381
+#: src/guimgr/constants.py:377
 msgid "Configure P_ython..."
 msgstr "Configurer P_ython..."
 
-#: src/guimgr/constants.py:382 src/guimgr/initialprefs.py:44
-msgid "_Keyboard Personality"
-msgstr "Personnalité du _clavier"
-
-#: src/guimgr/constants.py:383
+#: src/guimgr/constants.py:379
 msgid "P_lugins..."
 msgstr "P_lugins..."
 
-#: src/guimgr/constants.py:384
+#: src/guimgr/constants.py:380
 msgid "Pre_ferences..."
 msgstr "Préférences…"
 
-#: src/guimgr/constants.py:388
+#: src/guimgr/constants.py:384
 msgid "Enclose with ()"
 msgstr "Entourer avec ()"
 
-#: src/guimgr/constants.py:389
+#: src/guimgr/constants.py:385
 msgid "Enclose with []"
 msgstr "Entourer avec []"
 
-#: src/guimgr/constants.py:390
+#: src/guimgr/constants.py:386
 msgid "Enclose with {}"
 msgstr "Entourer avec {}"
 
-#: src/guimgr/constants.py:391
+#: src/guimgr/constants.py:387
 msgid "Enclose with ''"
 msgstr "Entourer avec ''"
 
-#: src/guimgr/constants.py:392
+#: src/guimgr/constants.py:388
 msgid "Enclose with \"\""
 msgstr "Entourer avec \"\""
 
-#: src/guimgr/constants.py:393
+#: src/guimgr/constants.py:389
 msgid "Enclose with <>"
 msgstr "Entourer avec <>"
 
-#: src/guimgr/constants.py:397
+#: src/guimgr/constants.py:393
 msgid "Change to Lower Case"
 msgstr "Transformer en minuscules"
 
-#: src/guimgr/constants.py:398
+#: src/guimgr/constants.py:394
 msgid "Change to Upper Case"
 msgstr "Transformer en capitales"
 
-#: src/guimgr/constants.py:399
+#: src/guimgr/constants.py:395
 msgid "Change to Title Case"
 msgstr "Transformer en titre"
 
-#: src/guimgr/constants.py:401
+#: src/guimgr/constants.py:397
 msgid "Toggle Symbol Case"
 msgstr "Changer la casse de la première lettre"
 
-#: src/guimgr/constants.py:405
+#: src/guimgr/constants.py:401
 msgid "Reformat File for PEP 8"
 msgstr "Reformater le fichier pour PEP 8"
 
-#: src/guimgr/constants.py:406
+#: src/guimgr/constants.py:402
 msgid "Reformat Selection for PEP 8"
 msgstr "Reformater la sélection pour PEP 8"
 
-#: src/guimgr/constants.py:408
+#: src/guimgr/constants.py:404
 msgid "Configure Auto-Formatting..."
 msgstr "Configurer l'auto-formattage…"
 
-#: src/guimgr/constants.py:412
+#: src/guimgr/constants.py:408
 msgid "_Rename Symbol"
 msgstr "_Renommer un symbole"
 
-#: src/guimgr/constants.py:413
+#: src/guimgr/constants.py:409
 msgid "_Move Symbol"
 msgstr "_Déplacer le symbole"
 
-#: src/guimgr/constants.py:414
+#: src/guimgr/constants.py:410
 msgid "E_xtract Function / Method"
 msgstr "Extraire une fonction / méthode"
 
-#: src/guimgr/constants.py:415
+#: src/guimgr/constants.py:411
 msgid "_Introduce Variable"
 msgstr "_Introduire une variable"
 
-#: src/guimgr/constants.py:417
+#: src/guimgr/constants.py:413
 msgid "Symbol to _UpperCamelCase"
 msgstr ""
 
-#: src/guimgr/constants.py:418
+#: src/guimgr/constants.py:414
 msgid "Symbol to _lowerCamelCase"
 msgstr ""
 
-#: src/guimgr/constants.py:419
+#: src/guimgr/constants.py:415
 msgid "Symbol to under_scored_name"
 msgstr ""
 
-#: src/guimgr/constants.py:420
+#: src/guimgr/constants.py:416
 msgid "Symbol to UNDER_SCORED_NAME"
 msgstr ""
 
-#: src/guimgr/constants.py:424
+#: src/guimgr/constants.py:420
 msgid "Re_wrap Text"
 msgstr "Passa_ge à la ligne du texte"
 
-#: src/guimgr/constants.py:425
+#: src/guimgr/constants.py:421
 msgid "_Match Braces"
 msgstr "_Correspondances d'accoldes"
 
-#: src/guimgr/constants.py:426
+#: src/guimgr/constants.py:422
 msgid "Insert _Tab Character"
 msgstr "Insérer un caractère _tabulation"
 
-#: src/guimgr/constants.py:427
+#: src/guimgr/constants.py:423
 msgid "_Show Auto-completer"
 msgstr "Afficher l'auto-compléteur"
 
-#: src/guimgr/constants.py:429
+#: src/guimgr/constants.py:425
 msgid "_Evaluate File in Python Shell"
 msgstr "_Évaluer le fichier dans le Shell Python"
 
-#: src/guimgr/constants.py:430
+#: src/guimgr/constants.py:426
 msgid "E_valuate Selection in Python Shell"
 msgstr "É_valuer la sélection dans le Shell Python"
 
-#: src/guimgr/constants.py:431
-msgid "E_valuate Selection in Debug Probe"
+#: src/guimgr/constants.py:427
+#, fuzzy
+msgid "E_valuate Selection in Debug Console"
 msgstr "É_valuer la sélection dans le Débogueur-Sonde"
 
-#: src/guimgr/constants.py:433
+#: src/guimgr/constants.py:429
 msgid "Toggle Block _Comment"
 msgstr "Basculer en bloc de _commentaires"
 
-#: src/guimgr/constants.py:435
+#: src/guimgr/constants.py:431
 msgid "_Goto Selected Symbol Defn"
 msgstr "_Aller à la définition du symbole sélectionné"
 
-#: src/guimgr/constants.py:436
+#: src/guimgr/constants.py:432
 msgid "Find Points of _Use"
 msgstr "Trouver des points d'_utilisation"
 
-#: src/guimgr/constants.py:437
+#: src/guimgr/constants.py:433
 msgid "Find Points of _Use in Current File"
 msgstr "Trouver les points d'utilisation dans le fichier actuel"
 
-#: src/guimgr/constants.py:438
+#: src/guimgr/constants.py:434
 msgid "_Find Symbol"
 msgstr "_Trouver un symbole"
 
-#: src/guimgr/constants.py:439
+#: src/guimgr/constants.py:435
 msgid "Find S_ymbol in Project"
 msgstr "Trouver un symbole dans le projet"
 
-#: src/guimgr/constants.py:441
+#: src/guimgr/constants.py:437
 msgid "Toggle _Bookmark"
 msgstr "_Basculement de signet"
 
-#: src/guimgr/constants.py:442
+#: src/guimgr/constants.py:438
 msgid "Set _Named Bookmark..."
 msgstr "Affecter un signet _nommé..."
 
-#: src/guimgr/constants.py:443
+#: src/guimgr/constants.py:439
 msgid "G_oto Bookmark..."
 msgstr "_Aller au signet..."
 
-#: src/guimgr/constants.py:444
+#: src/guimgr/constants.py:440
 msgid "Traverse Bookmarks"
 msgstr "Traverser les signets"
 
-#: src/guimgr/constants.py:445
+#: src/guimgr/constants.py:441
 msgid "_Next Bookmark"
 msgstr "Sig_net suivant"
 
-#: src/guimgr/constants.py:446
+#: src/guimgr/constants.py:442
 msgid "_Previous Bookmark"
 msgstr "Signet _précédent"
 
-#: src/guimgr/constants.py:447
+#: src/guimgr/constants.py:443
 msgid "Ne_xt Bookmark in Current File"
 msgstr "Signet suivant dans le fichier actuel"
 
-#: src/guimgr/constants.py:448
+#: src/guimgr/constants.py:444
 msgid "Pre_vious Bookmark in Current File"
 msgstr "Signet précédent dans le fichier actuel"
 
-#: src/guimgr/constants.py:452
+#: src/guimgr/constants.py:448
 msgid "Show Bookmar_ks Tool"
 msgstr "Afficher l’outil de signets"
 
-#: src/guimgr/constants.py:455
+#: src/guimgr/constants.py:451
 msgid "_Indentation"
 msgstr "_Indentation"
 
-#: src/guimgr/constants.py:456
+#: src/guimgr/constants.py:452
 msgid "In_dent Line(s) to Match"
 msgstr "Ajuster l'In_dentation des lignes"
 
-#: src/guimgr/constants.py:457
+#: src/guimgr/constants.py:453
 msgid "_Indent"
 msgstr "_Indenter"
 
-#: src/guimgr/constants.py:458
+#: src/guimgr/constants.py:454
 msgid "_Outdent"
 msgstr "_Désindenter"
 
-#: src/guimgr/constants.py:460
+#: src/guimgr/constants.py:456
 msgid "Indentation _Manager"
 msgstr "_Gestionnaire d'indentation"
 
-#: src/guimgr/constants.py:462
+#: src/guimgr/constants.py:458
 msgid "Line Editing"
 msgstr "Édition de ligne"
 
-#: src/guimgr/constants.py:463
+#: src/guimgr/constants.py:459
 msgid "New Line Above"
 msgstr "Nouvelle ligne au-dessus"
 
-#: src/guimgr/constants.py:464
+#: src/guimgr/constants.py:460
 msgid "New Line Below"
 msgstr "Nouvelle ligne en-dessous"
 
-#: src/guimgr/constants.py:466
+#: src/guimgr/constants.py:462
 msgid "Duplicate Lines Above"
 msgstr "Dupliquer les lignes au-dessus"
 
-#: src/guimgr/constants.py:467
+#: src/guimgr/constants.py:463
 msgid "Duplicate Lines Below"
 msgstr "Dupliquer les lignes en-dessous"
 
-#: src/guimgr/constants.py:468
+#: src/guimgr/constants.py:464
 msgid "Move Lines Up"
 msgstr "Déplacer les lignes en haut"
 
-#: src/guimgr/constants.py:469
+#: src/guimgr/constants.py:465
 msgid "Move Lines Down"
 msgstr "Déplacer les lignes en bas"
 
-#: src/guimgr/constants.py:471
+#: src/guimgr/constants.py:467
 msgid "Delete Lines"
 msgstr "Suppression des lignes"
 
-#: src/guimgr/constants.py:472
+#: src/guimgr/constants.py:468
 msgid "Swap Lines"
 msgstr "Inversion des lignes"
 
-#: src/guimgr/constants.py:474
+#: src/guimgr/constants.py:470
 msgid "Enclose"
 msgstr "Entourer"
 
-#: src/guimgr/constants.py:475
+#: src/guimgr/constants.py:471
 msgid "_Folding"
 msgstr "_Repliement"
 
-#: src/guimgr/constants.py:476
+#: src/guimgr/constants.py:472
 msgid "_Toggle Current Fold"
 msgstr "_Basculer le repliement actuel"
 
-#: src/guimgr/constants.py:477
+#: src/guimgr/constants.py:473
 msgid "_Collapse Current More"
 msgstr "_Réduire un niveau de plus"
 
-#: src/guimgr/constants.py:478
+#: src/guimgr/constants.py:474
 msgid "_Expand Current More"
 msgstr "_Développer un niveau de plus"
 
-#: src/guimgr/constants.py:479
+#: src/guimgr/constants.py:475
 msgid "C_ollapse Current Completely"
 msgstr "Réduire tous les sous blocs"
 
-#: src/guimgr/constants.py:480
+#: src/guimgr/constants.py:476
 msgid "E_xpand Current Completely"
 msgstr "Développer tous les sous blocs"
 
-#: src/guimgr/constants.py:481
+#: src/guimgr/constants.py:477
 msgid "Collapse _All"
 msgstr "Tout réduire"
 
-#: src/guimgr/constants.py:482
+#: src/guimgr/constants.py:478
 msgid "Ex_pand All"
 msgstr "Tout dévelo_pper"
 
-#: src/guimgr/constants.py:484
+#: src/guimgr/constants.py:480
 msgid "Fold Python _Methods"
 msgstr "Replier les _méthodes Python"
 
-#: src/guimgr/constants.py:485
+#: src/guimgr/constants.py:481
 msgid "Fold Python _Classes"
 msgstr "Replier les _classes Python"
 
-#: src/guimgr/constants.py:486
+#: src/guimgr/constants.py:482
 msgid "Fold Python Classes and _Defs"
 msgstr "Replier les classes Python et les _définitions"
 
-#: src/guimgr/constants.py:488
+#: src/guimgr/constants.py:484
 msgid "Difference and Merge"
 msgstr "Différences et fusion"
 
-#: src/guimgr/constants.py:489
+#: src/guimgr/constants.py:485
 msgid "Change Case"
 msgstr "Changer la casse"
 
-#: src/guimgr/constants.py:490
+#: src/guimgr/constants.py:486
 msgid "PEP 8"
 msgstr "PEP 8"
 
-#: src/guimgr/constants.py:492
+#: src/guimgr/constants.py:488
 msgid "Show _Python Environment..."
 msgstr "Afficher l'environnement _Python..."
 
-#: src/guimgr/constants.py:493
+#: src/guimgr/constants.py:489
 msgid "Current File P_roperties..."
 msgstr "P_ropriétés du fichier actuel..."
 
-#: src/guimgr/constants.py:498
+#: src/guimgr/constants.py:494
 msgid "_New Project..."
 msgstr "_Nouveau projet…"
 
-#: src/guimgr/constants.py:499
+#: src/guimgr/constants.py:495
 msgid "_Open Project..."
 msgstr "_Ouvrir un projet..."
 
-#: src/guimgr/constants.py:503
+#: src/guimgr/constants.py:499
 msgid "_Save Project"
 msgstr "_Enregistrer le projet"
 
-#: src/guimgr/constants.py:504
+#: src/guimgr/constants.py:500
 msgid "Save Project _As..."
 msgstr "S_auvegarder le projet sous..."
 
-#: src/guimgr/constants.py:506
+#: src/guimgr/constants.py:502
 msgid "_Close Project"
 msgstr "Fermer le projet"
 
-#: src/guimgr/constants.py:508
+#: src/guimgr/constants.py:504
 msgid "Add Existing _Directory..."
 msgstr "Ajouter un _répertoire existant..."
 
-#: src/guimgr/constants.py:509
+#: src/guimgr/constants.py:505
 msgid "Add C_urrent File"
 msgstr "Ajo_uter le fichier actuel"
 
-#: src/guimgr/constants.py:510
+#: src/guimgr/constants.py:506
 msgid "Add Existing _File..."
 msgstr "Ajouter un fichier existant..."
 
-#: src/guimgr/constants.py:511
+#: src/guimgr/constants.py:507
 msgid "Add New F_ile"
 msgstr "Ajouter un nouveau f_ichier"
 
-#: src/guimgr/constants.py:512
+#: src/guimgr/constants.py:508
 msgid "Remove Selected _Entry"
 msgstr "Enlever l'entrée sélectionnée "
 
-#: src/guimgr/constants.py:514
+#: src/guimgr/constants.py:510
 msgid "Show Current File in Project Tool"
 msgstr "Afficher le fichier actuel dans l'outil Projet"
 
-#: src/guimgr/constants.py:516
+#: src/guimgr/constants.py:512
 msgid "_Extensions"
 msgstr "_Extensions"
 
-#: src/guimgr/constants.py:517
+#: src/guimgr/constants.py:513
 msgid "_Configure Project for Django"
 msgstr "_Configurer le projet pour Django"
 
-#: src/guimgr/constants.py:518
+#: src/guimgr/constants.py:514
 msgid "Start _Django Project"
 msgstr "_Démarrer un projet Django"
 
-#: src/guimgr/constants.py:520
+#: src/guimgr/constants.py:516
 msgid "Remote _Hosts..."
 msgstr "_Hôtes distants…"
 
-#: src/guimgr/constants.py:521
+#: src/guimgr/constants.py:517
 msgid "_Launch Configurations..."
 msgstr "_Lancement des configurations..."
 
-#: src/guimgr/constants.py:522
+#: src/guimgr/constants.py:518
 msgid "Project P_roperties..."
 msgstr "Propriétés du projet..."
 
-#: src/guimgr/constants.py:527
+#: src/guimgr/constants.py:523
 msgid "_Start / Continue"
 msgstr "Démarrer / continuer"
 
-#: src/guimgr/constants.py:528
+#: src/guimgr/constants.py:524
 msgid "Debug _To Cursor"
 msgstr "Déboguer jusqu'au curseur"
 
-#: src/guimgr/constants.py:529
+#: src/guimgr/constants.py:525
 msgid "Debug Current _File"
 msgstr "Déboguer le _fichier actuel"
 
-#: src/guimgr/constants.py:537
+#: src/guimgr/constants.py:533
 msgid "_Attach to Process..."
 msgstr "_Attacher au processus..."
 
-#: src/guimgr/constants.py:538
+#: src/guimgr/constants.py:534
 msgid "Det_ach from Process"
 msgstr "Dét_acher du processus"
 
-#: src/guimgr/constants.py:543
+#: src/guimgr/constants.py:539
 msgid "P_ause"
 msgstr "Pause"
 
-#: src/guimgr/constants.py:544
+#: src/guimgr/constants.py:540
 msgid "S_top Debugging"
 msgstr "Arrêter le débogage"
 
-#: src/guimgr/constants.py:545
+#: src/guimgr/constants.py:541
 msgid "Restart Debu_gging"
 msgstr "Redémarrer le débogage"
 
-#: src/guimgr/constants.py:547
+#: src/guimgr/constants.py:543
 msgid "Step _Into"
 msgstr "Un pas en profondeur"
 
-#: src/guimgr/constants.py:548
+#: src/guimgr/constants.py:544
 msgid "Step Over _Instruction"
 msgstr "Un pas au delà de l’instruction"
 
-#: src/guimgr/constants.py:549
+#: src/guimgr/constants.py:545
 #, fuzzy
 msgid "Step _Over Statement"
 msgstr "Un pas au delà de la déclaration"
 
-#: src/guimgr/constants.py:550
+#: src/guimgr/constants.py:546
 msgid "Step Over _Block"
 msgstr "Un pas au delà du bloc"
 
-#: src/guimgr/constants.py:551
+#: src/guimgr/constants.py:547
 msgid "Step _Over"
 msgstr "Un pas en avant"
 
-#: src/guimgr/constants.py:552
+#: src/guimgr/constants.py:548
 msgid "Step O_ut"
 msgstr "Un pas en dehors"
 
-#: src/guimgr/constants.py:553
+#: src/guimgr/constants.py:549
 msgid "Step Out to He_re"
 msgstr "Passer en dehors d’Ici"
 
-#: src/guimgr/constants.py:555
+#: src/guimgr/constants.py:551
 msgid "U_p Stack"
 msgstr "En haut dans la pile"
 
-#: src/guimgr/constants.py:556
+#: src/guimgr/constants.py:552
 msgid "Dow_n Stack"
 msgstr "En bas dans la pile"
 
-#: src/guimgr/constants.py:557
+#: src/guimgr/constants.py:553
 msgid "S_how Original Position"
 msgstr "Afficher la position d’origine"
 
-#: src/guimgr/constants.py:559
+#: src/guimgr/constants.py:555
 msgid "Add _Breakpoint"
 msgstr "Ajouter un _point d'arrêt"
 
-#: src/guimgr/constants.py:560
+#: src/guimgr/constants.py:556
 msgid "Remove _Breakpoint"
 msgstr "Enlever le _point d'arrêt"
 
-#: src/guimgr/constants.py:561
+#: src/guimgr/constants.py:557
 msgid "Remo_ve All Breakpoints"
 msgstr "Enle_ver tous les points d'arrêts"
 
-#: src/guimgr/constants.py:562
+#: src/guimgr/constants.py:558
 msgid "Brea_kpoint Options"
 msgstr "Options des points d'arrêts"
 
-#: src/guimgr/constants.py:563
+#: src/guimgr/constants.py:559
 msgid "Set _Temporary Breakpoint"
 msgstr "Établir un point d'arrêt temporaire"
 
-#: src/guimgr/constants.py:564
+#: src/guimgr/constants.py:560
 msgid "Set _Conditional Breakpoint..."
 msgstr "Établir un point d'arrêt _conditionnel..."
 
-#: src/guimgr/constants.py:565
+#: src/guimgr/constants.py:561
 msgid "Edit Breakpoint C_ondition..."
 msgstr "Éditer la condition de point d'arrêt..."
 
-#: src/guimgr/constants.py:567
+#: src/guimgr/constants.py:563
 msgid "_Disable Breakpoint"
 msgstr "_Désactiver le point d'arrêt"
 
-#: src/guimgr/constants.py:568
+#: src/guimgr/constants.py:564
 msgid "_Enable Breakpoint"
 msgstr "Activer le point d'arrêt"
 
-#: src/guimgr/constants.py:569
+#: src/guimgr/constants.py:565
 msgid "Disable _All Breakpoints"
 msgstr "Désactiver tous les points d'arrêts"
 
-#: src/guimgr/constants.py:570
+#: src/guimgr/constants.py:566
 msgid "Enable _All Breakpoints"
 msgstr "_Activer tous les points d'arrêts"
 
-#: src/guimgr/constants.py:571
+#: src/guimgr/constants.py:567
 msgid "Set Breakpoint I_gnore Count..."
 msgstr "Établir un point d'arrêt avec compteur d’ignorance..."
 
-#: src/guimgr/constants.py:577
+#: src/guimgr/constants.py:573
 msgid "Named Entry Point_s..."
 msgstr "Point_s d'entrée nommés..."
 
-#: src/guimgr/constants.py:581
+#: src/guimgr/constants.py:577
 msgid "E_xecute Current File"
 msgstr "E_xécuter le fichier actuel"
 
-#: src/guimgr/constants.py:588
-msgid "Set Current as _Main Debug File"
+#: src/guimgr/constants.py:584
+#, fuzzy
+msgid "Set Current as _Main Entry Point"
 msgstr "Affecter comme fichier de _débogage principal"
 
-#: src/guimgr/constants.py:589
-msgid "Clear _Main Debug File"
-msgstr "Effacer le fichier _principal de débogage"
+#: src/guimgr/constants.py:585
+#, fuzzy
+msgid "Clear _Main Entry Point"
+msgstr "Déboguer le point d'entrée nommé"
 
-#: src/guimgr/constants.py:593
+#: src/guimgr/constants.py:589
 msgid "Clear Ignored Exceptions"
 msgstr "Effacer les exceptions ignorées"
 
-#: src/guimgr/constants.py:594
+#: src/guimgr/constants.py:590
 msgid "Clear Stored Value Errors"
 msgstr "Effacer les valeurs d'erreur stockées"
 
-#: src/guimgr/constants.py:596
+#: src/guimgr/constants.py:592
 msgid "Debug Environment..."
 msgstr "Environnement de débogage..."
 
-#: src/guimgr/constants.py:600
+#: src/guimgr/constants.py:596
 msgid "Run _All Tests"
 msgstr "L_ancer tous les tests"
 
-#: src/guimgr/constants.py:601
+#: src/guimgr/constants.py:597
 msgid "Run Tests in Current _File"
 msgstr "Lancer les tests dans le _fichier actuel"
 
-#: src/guimgr/constants.py:602
+#: src/guimgr/constants.py:598
 msgid "Run Tests at _Cursor"
 msgstr "Lancer les tests au _curseur"
 
-#: src/guimgr/constants.py:603
+#: src/guimgr/constants.py:599
 msgid "Run Fa_iled Tests"
 msgstr "Lancer les tests _échoués"
 
-#: src/guimgr/constants.py:604
+#: src/guimgr/constants.py:600
 msgid "Run T_ests Again"
 msgstr "Lancer les t_ests à nouveau"
 
-#: src/guimgr/constants.py:606
+#: src/guimgr/constants.py:602
 msgid "_Abort Running Tests"
 msgstr "_Abandonner les tests en cours"
 
-#: src/guimgr/constants.py:608
+#: src/guimgr/constants.py:604
 msgid "Debug _All Tests"
 msgstr "Déboguer _tous les tests"
 
-#: src/guimgr/constants.py:609
+#: src/guimgr/constants.py:605
 msgid "Debug Tests in Current _File"
 msgstr "Déboguer les tests dans le _fichier actuel"
 
-#: src/guimgr/constants.py:610
+#: src/guimgr/constants.py:606
 msgid "Debug Tests at _Cursor"
 msgstr "Déboguer les tests au _curseur"
 
-#: src/guimgr/constants.py:611
+#: src/guimgr/constants.py:607
 msgid "Debug Fa_iled Tests"
 msgstr "Déboguer les tests échoués"
 
-#: src/guimgr/constants.py:612
+#: src/guimgr/constants.py:608
 msgid "De_bug T_ests Again"
 msgstr "Déboguer les _tests à nouveau"
 
-#: src/guimgr/constants.py:614
+#: src/guimgr/constants.py:610
 msgid "Add Files from _Project..."
 msgstr "Ajouter les fichiers du projet..."
 
-#: src/guimgr/constants.py:615
+#: src/guimgr/constants.py:611
 msgid "Add Single Fi_le..."
 msgstr "Ajouter un seul fichier..."
 
-#: src/guimgr/constants.py:616
+#: src/guimgr/constants.py:612
 msgid "A_dd Current File"
 msgstr "Ajouter le fichier actuel"
 
-#: src/guimgr/constants.py:618
+#: src/guimgr/constants.py:614
 msgid "_Save All Results..."
 msgstr "_Enregistrer tous les résultats..."
 
-#: src/guimgr/constants.py:619
+#: src/guimgr/constants.py:615
 msgid "_Load Results..."
 msgstr "_Charger des résultats..."
 
-#: src/guimgr/constants.py:624
+#: src/guimgr/constants.py:620
 msgid "Next Tool"
 msgstr "Outil suivant"
 
-#: src/guimgr/constants.py:625
+#: src/guimgr/constants.py:621
 msgid "Previous Tool"
 msgstr "Outil précédent"
 
-#: src/guimgr/constants.py:627
+#: src/guimgr/constants.py:623
 msgid "_Load Perspective"
 msgstr "Charger une perspective"
 
-#: src/guimgr/constants.py:628
+#: src/guimgr/constants.py:624
 msgid "Enable Auto-Perspectives"
 msgstr "Activer les auto-perspectives"
 
-#: src/guimgr/constants.py:629
+#: src/guimgr/constants.py:625
 msgid "Disable Auto-Perspectives"
 msgstr "Désactiver les auto-perspectives"
 
-#: src/guimgr/constants.py:630
+#: src/guimgr/constants.py:626
 msgid "_Manage Perspectives..."
 msgstr "Gérer les _perspectives..."
 
-#: src/guimgr/constants.py:632
+#: src/guimgr/constants.py:628
 msgid "Restore Default T_ool Set"
 msgstr "Restaurer les outils par _défaut"
 
-#: src/guimgr/constants.py:636
+#: src/guimgr/constants.py:632
 msgid "Start _Terminal"
 msgstr "Démarrer le terminal"
 
-#: src/guimgr/constants.py:641
+#: src/guimgr/constants.py:637
 msgid "New _Document Window"
 msgstr "Nouvelle fenêtre de document"
 
-#: src/guimgr/constants.py:642
+#: src/guimgr/constants.py:638
 msgid "New _Tool Window"
 msgstr "Nouvelle fenêtre d’outil"
 
-#: src/guimgr/constants.py:644
+#: src/guimgr/constants.py:640
 msgid "_Next Window"
 msgstr "Fe_nêtre suivante"
 
-#: src/guimgr/constants.py:647
+#: src/guimgr/constants.py:643
 msgid "Ne_xt Document"
 msgstr "Document _suivant"
 
-#: src/guimgr/constants.py:648
+#: src/guimgr/constants.py:644
 msgid "Pre_vious Document"
 msgstr "Document _précédent"
 
-#: src/guimgr/constants.py:649
+#: src/guimgr/constants.py:645
 msgid "_Most Recent Document"
 msgstr "Docu_ment le plus récent"
 
-#: src/guimgr/constants.py:651
+#: src/guimgr/constants.py:647
 msgid "Move _Focus"
 msgstr "Déplacer le _focus"
 
-#: src/guimgr/constants.py:652
+#: src/guimgr/constants.py:648
 msgid "Next Visit in _History"
 msgstr "Visite suivante dans l’historique"
 
-#: src/guimgr/constants.py:653
+#: src/guimgr/constants.py:649
 msgid "Previous Visit in H_istory"
 msgstr "Visite précédente dans l’historique"
 
-#: src/guimgr/constants.py:664 src/guimgr/constants.py:669
+#: src/guimgr/constants.py:660
 msgid "Wing _Manual"
 msgstr "_Manuel Wing"
 
-#: src/guimgr/constants.py:665
+#: src/guimgr/constants.py:661
 msgid "Tut_orial"
 msgstr "Tut_oriel"
 
-#: src/guimgr/constants.py:666
+#: src/guimgr/constants.py:662
 msgid "_Quick Start Guide"
 msgstr "Guide de démarrage rapide"
 
-#: src/guimgr/constants.py:667 src/guimgr/constants.py:671
+#: src/guimgr/constants.py:663
 msgid "_How-Tos"
 msgstr "_Guides pratiques"
 
-#: src/guimgr/constants.py:668
-msgid "P_DF Documentation"
-msgstr "Documentation P_DF"
-
-#: src/guimgr/constants.py:670
-msgid "_Tutorial"
-msgstr "_Tutoriel"
-
-#: src/guimgr/constants.py:674
+#: src/guimgr/constants.py:671
 msgid "_Search Help"
 msgstr "_Chercher dans l'aide"
 
-#: src/guimgr/constants.py:675
+#: src/guimgr/constants.py:672
 msgid "Des_cribe Key..."
 msgstr "Décrire des touches (Raccourcis)…"
 
-#: src/guimgr/constants.py:676
+#: src/guimgr/constants.py:673
 msgid "Wing _Tips..."
 msgstr "_Conseils Wing..."
 
-#: src/guimgr/constants.py:678
+#: src/guimgr/constants.py:675
 msgid "_Python Manual (HTML)..."
 msgstr "Manuel Python (HTML)…"
 
-#: src/guimgr/constants.py:679
+#: src/guimgr/constants.py:676
 msgid "Python _Website..."
 msgstr "Site Python…"
 
-#: src/guimgr/constants.py:681
+#: src/guimgr/constants.py:678
 msgid "Ask Questions..."
 msgstr "Poser des questions…"
 
-#: src/guimgr/constants.py:682
+#: src/guimgr/constants.py:679
 msgid "Submit _Feedback..."
 msgstr "Soumettre un _retour d'expérience..."
 
-#: src/guimgr/constants.py:683
+#: src/guimgr/constants.py:680
 msgid "Submit _Bug Report..."
 msgstr "Soumettre un rapport de bug..."
 
-#: src/guimgr/constants.py:684
+#: src/guimgr/constants.py:681
 msgid "Technica_l Support..."
 msgstr "Support _technique..."
 
-#: src/guimgr/constants.py:686
+#: src/guimgr/constants.py:683
 msgid "Check for _Updates..."
 msgstr "Chercher des mises a jo_ur..."
 
-#: src/guimgr/constants.py:687
+#: src/guimgr/constants.py:684
 msgid "Apply Update..."
 msgstr "Applique la mise-à-jour…"
 
-#: src/guimgr/constants.py:688
+#: src/guimgr/constants.py:685
 msgid "_About..."
 msgstr "_À propos de..."
 
-#: src/guimgr/constants.py:695
+#: src/guimgr/constants.py:692
 msgid "_Edit"
 msgstr "_Éditer"
 
-#: src/guimgr/constants.py:696
+#: src/guimgr/constants.py:693
 msgid "_Source"
 msgstr "_Source"
 
-#: src/guimgr/constants.py:697
+#: src/guimgr/constants.py:694
 msgid "_Refactor"
 msgstr "_Refactoriser"
 
-#: src/guimgr/constants.py:701
+#: src/guimgr/constants.py:698
 msgid "_Tools"
 msgstr "Ou_tils"
 
-#: src/guimgr/constants.py:703
+#: src/guimgr/constants.py:700
 msgid "_Help"
 msgstr "Aide"
 
-#: src/guimgr/constants.py:746
+#: src/guimgr/constants.py:743
 msgid "Open..."
 msgstr "Ouvrir..."
 
-#: src/guimgr/constants.py:747
+#: src/guimgr/constants.py:744
 msgid "Save"
 msgstr "Enregistrer"
 
-#: src/guimgr/constants.py:747
+#: src/guimgr/constants.py:744
 msgid "Save the active document"
 msgstr "Enregistrer le document actuel"
 
-#: src/guimgr/constants.py:748
+#: src/guimgr/constants.py:745
 msgid "Save All"
 msgstr "Tout enregistrer"
 
-#: src/guimgr/constants.py:752
+#: src/guimgr/constants.py:749
 msgid "Cut"
 msgstr "Couper"
 
-#: src/guimgr/constants.py:753
+#: src/guimgr/constants.py:750
 msgid "Copy"
 msgstr "Copier"
 
-#: src/guimgr/constants.py:754
+#: src/guimgr/constants.py:751
 msgid "Paste"
 msgstr "Coller"
 
-#: src/guimgr/constants.py:756
+#: src/guimgr/constants.py:753
 msgid "Undo"
 msgstr "Annuler"
 
-#: src/guimgr/constants.py:757
+#: src/guimgr/constants.py:754
 msgid "Redo"
 msgstr "Refaire"
 
-#: src/guimgr/constants.py:762
+#: src/guimgr/constants.py:759
 msgid "Goto Definition"
 msgstr "Aller à la définition"
 
-#: src/guimgr/constants.py:766 src/guimgr/document.py:809
-#: src/guimgr/prefs.py:531
+#: src/guimgr/constants.py:763 src/guimgr/document.py:831
+#: src/guimgr/prefs.py:535
 msgid "Search"
 msgstr "Chercher"
 
-#: src/guimgr/constants.py:768
+#: src/guimgr/constants.py:765
 msgid "Execute Toolbar Search"
 msgstr "Exécuter la recherche de la barre d’outils"
 
-#: src/guimgr/constants.py:773
+#: src/guimgr/constants.py:770
 msgid "Indent"
 msgstr "Indenter"
 
-#: src/guimgr/constants.py:774
+#: src/guimgr/constants.py:771
 msgid "Indent the selected region one level"
 msgstr "Indenter la région sélectionnée d'un niveau"
 
-#: src/guimgr/constants.py:775
+#: src/guimgr/constants.py:772
 msgid "Dedent"
 msgstr "Désindenter"
 
-#: src/guimgr/constants.py:776
+#: src/guimgr/constants.py:773
 msgid "Un-indent the selected region one level"
 msgstr "Dés-indenter la région sélectionnée d'un niveau"
 
-#: src/guimgr/constants.py:777
+#: src/guimgr/constants.py:774
 msgid "Match Indent"
 msgstr "Ajuster l'indentation"
 
-#: src/guimgr/constants.py:778
+#: src/guimgr/constants.py:775
 msgid ""
 "Adjust selected region indent to match context, or one level higher if "
 "already matching"
@@ -1666,205 +1717,205 @@ msgstr ""
 "Ajuste l'indentation de la région sélectionnée au contexte, ou décale d'un "
 "niveau si elle est déjà adaptée"
 
-#: src/guimgr/constants.py:782 src/guimgr/constants.py:867
-#: src/guimgr/prefs.py:532
+#: src/guimgr/constants.py:779 src/guimgr/constants.py:864
+#: src/guimgr/prefs.py:536
 msgid "Diff/Merge"
 msgstr "Diff/fusion"
 
-#: src/guimgr/constants.py:783
+#: src/guimgr/constants.py:780
 msgid "Difference/Merge"
 msgstr "Différences/fusion"
 
-#: src/guimgr/constants.py:787
+#: src/guimgr/constants.py:784
 msgid "Merge A->B"
 msgstr "Fusionner A->B"
 
-#: src/guimgr/constants.py:788
+#: src/guimgr/constants.py:785
 msgid "Merge B->A"
 msgstr "Fusionner B->A"
 
-#: src/guimgr/constants.py:789
+#: src/guimgr/constants.py:786
 msgid "Cancel Diff/Merge Session"
 msgstr "Annuler la session de Diff/fusion"
 
-#: src/guimgr/constants.py:793
+#: src/guimgr/constants.py:790
 msgid "Python Environment"
 msgstr "Environnement Python"
 
-#: src/guimgr/constants.py:794
+#: src/guimgr/constants.py:791
 msgid "Project Properties"
 msgstr "Propriétés du projet"
 
-#: src/guimgr/constants.py:803
+#: src/guimgr/constants.py:800
 msgid "Run"
 msgstr "Démarrage"
 
-#: src/guimgr/constants.py:808 src/guimgr/constants.py:809
+#: src/guimgr/constants.py:805 src/guimgr/constants.py:806
 msgid "Break"
 msgstr "Sortir"
 
-#: src/guimgr/constants.py:811 src/guimgr/prefs.py:535
+#: src/guimgr/constants.py:808 src/guimgr/prefs.py:539
 msgid "Debug"
 msgstr "Débogage"
 
-#: src/guimgr/constants.py:814 src/guimgr/constants.py:829
+#: src/guimgr/constants.py:811 src/guimgr/constants.py:826
 msgid "Step Into"
 msgstr "Un pas en profondeur"
 
-#: src/guimgr/constants.py:818 src/guimgr/constants.py:835
+#: src/guimgr/constants.py:815 src/guimgr/constants.py:832
 msgid "Debug To Cursor"
 msgstr "Déboguer jusqu'au curseur"
 
-#: src/guimgr/constants.py:821
+#: src/guimgr/constants.py:818
 msgid "Stop"
 msgstr "Arrêter"
 
-#: src/guimgr/constants.py:825
+#: src/guimgr/constants.py:822
 msgid "Restart"
 msgstr "Redémarrage"
 
-#: src/guimgr/constants.py:826
+#: src/guimgr/constants.py:823
 msgid "Pause"
 msgstr "Pause"
 
-#: src/guimgr/constants.py:830
+#: src/guimgr/constants.py:827
 msgid "Step Over"
 msgstr "Un pas en avant"
 
-#: src/guimgr/constants.py:831
+#: src/guimgr/constants.py:828
 msgid "Step Out"
 msgstr "Un pas en dehors"
 
-#: src/guimgr/constants.py:843
+#: src/guimgr/constants.py:840
 msgid "Up Stack"
 msgstr "En haut dans la pile"
 
-#: src/guimgr/constants.py:844
+#: src/guimgr/constants.py:841
 msgid "Show Position"
 msgstr "Afficher la position"
 
-#: src/guimgr/constants.py:847
+#: src/guimgr/constants.py:844
 msgid "Down Stack"
 msgstr "En bas dans la pile"
 
-#: src/guimgr/constants.py:853
+#: src/guimgr/constants.py:850
 msgid "Run Tests"
 msgstr "Lancer les tests"
 
-#: src/guimgr/constants.py:854
+#: src/guimgr/constants.py:851
 msgid "Abort Tests"
 msgstr "Abandonner les tests"
 
-#: src/guimgr/constants.py:855
+#: src/guimgr/constants.py:852
 msgid "Run All Tests"
 msgstr "Lancer tous les tests"
 
-#: src/guimgr/constants.py:858
+#: src/guimgr/constants.py:855
 msgid "Debug Tests"
 msgstr "Déboguer les tests"
 
-#: src/guimgr/constants.py:859
+#: src/guimgr/constants.py:856
 msgid "Debug All Tests"
 msgstr "Déboguer tous les tests"
 
-#: src/guimgr/constants.py:865
+#: src/guimgr/constants.py:862
 msgid "Update"
 msgstr "Mise à jour"
 
-#: src/guimgr/constants.py:866
+#: src/guimgr/constants.py:863
 msgid "Commit"
 msgstr "Commit"
 
-#: src/guimgr/constants.py:868
+#: src/guimgr/constants.py:865
 msgid "View Diffs"
 msgstr "Voir les différences"
 
-#: src/guimgr/constants.py:869
+#: src/guimgr/constants.py:866
 msgid "Status"
 msgstr "Statuts"
 
-#: src/guimgr/constants.py:878
+#: src/guimgr/constants.py:875
 msgid "Create Bookmark"
 msgstr "Créer un signet"
 
-#: src/guimgr/constants.py:880
+#: src/guimgr/constants.py:877
 msgid "Remove Bookmark"
 msgstr "Enlever un signet"
 
-#: src/guimgr/constants.py:883
+#: src/guimgr/constants.py:880
 msgid "Goto Bookmark"
 msgstr "Aller au signet"
 
-#: src/guimgr/constants.py:884
+#: src/guimgr/constants.py:881
 msgid "Go to selected bookmark"
 msgstr "Aller au signet sélectionné"
 
-#: src/guimgr/constants.py:885
+#: src/guimgr/constants.py:882
 msgid "Previous Bookmark"
 msgstr "Signet précédent"
 
-#: src/guimgr/constants.py:887
+#: src/guimgr/constants.py:884
 msgid "Next Bookmark"
 msgstr "Signet suivant"
 
-#: src/guimgr/constants.py:893 src/guimgr/prefs.py:540
+#: src/guimgr/constants.py:890 src/guimgr/prefs.py:544
 msgid "Search in Files"
 msgstr "Chercher dans fichiers"
 
-#: src/guimgr/constants.py:894
+#: src/guimgr/constants.py:891
 msgid "Pause Search"
 msgstr "Suspendre la recherche"
 
-#: src/guimgr/constants.py:895
+#: src/guimgr/constants.py:892
 msgid "Previous Match"
 msgstr "Correspondance précédente"
 
-#: src/guimgr/constants.py:896
+#: src/guimgr/constants.py:893
 msgid "Next Match"
 msgstr "Correpondance suivante"
 
-#: src/guimgr/constants.py:1004 src/guimgr/document.py:803
+#: src/guimgr/constants.py:1001 src/guimgr/document.py:825
 msgid "Previous"
 msgstr "Précédent"
 
-#: src/guimgr/constants.py:1005 src/guimgr/document.py:804
+#: src/guimgr/constants.py:1002 src/guimgr/document.py:826
 msgid "Next"
 msgstr "Suivant"
 
-#: src/guimgr/constants.py:1006 src/guimgr/document.py:805
+#: src/guimgr/constants.py:1003 src/guimgr/document.py:827
 msgid "Contents"
 msgstr "Contenus"
 
-#: src/guimgr/constants.py:1007
+#: src/guimgr/constants.py:1004
 msgid "Close"
 msgstr "Fermer"
 
-#: src/guimgr/document.py:193
+#: src/guimgr/document.py:194
 msgid "Table of Contents"
 msgstr "Table des matières"
 
-#: src/guimgr/document.py:194 src/guimgr/wingtips.py:243
+#: src/guimgr/document.py:195 src/guimgr/wingtips.py:250
 msgid "Wing Tips"
 msgstr "Astuces Wing"
 
-#: src/guimgr/document.py:797
+#: src/guimgr/document.py:819
 msgid "Select from recently visited documents"
 msgstr "Sélectionner parmi les documents récemment visités"
 
-#: src/guimgr/document.py:802
+#: src/guimgr/document.py:824
 msgid "History"
 msgstr "Historique"
 
-#: src/guimgr/document.py:839
+#: src/guimgr/document.py:861
 msgid "Help"
 msgstr "Aide"
 
-#: src/guimgr/document.py:845 src/guimgr/document.py:896
-#: src/guimgr/guimanager.py:2398
+#: src/guimgr/document.py:867 src/guimgr/document.py:918
+#: src/guimgr/guimanager.py:2708
 msgid "Wing Help"
 msgstr "Aide Wing"
 
-#: src/guimgr/document.py:980
+#: src/guimgr/document.py:1002
 msgid ""
 "Could not find document section %s:  Please report this error to "
 "bugs@wingware.com"
@@ -1872,27 +1923,32 @@ msgstr ""
 "Impossible de trouver la section %s du document : Veuillez rapporter cette "
 "erreur à bugs@wingware.com"
 
-#: src/guimgr/document.py:981
+#: src/guimgr/document.py:1003
 msgid "Could not find document"
 msgstr "Impossible de trouver le document"
 
-#: src/guimgr/document.py:1057
+#: src/guimgr/document.py:1079 src/guimgr/wingtips.py:289
 msgid "Copy Text to Clipboard"
 msgstr "Copier le texte vers le presse-papier"
 
-#: src/guimgr/document.py:1058
+#: src/guimgr/document.py:1080 src/guimgr/wingtips.py:290
 msgid "Copy HTML to Clipboard"
 msgstr "Copier le HTML vers le presse-papier"
 
-#: src/guimgr/document.py:1060
+#: src/guimgr/document.py:1082 src/guimgr/wingtips.py:292
 msgid "Smaller Font"
 msgstr "Police plus petite"
 
-#: src/guimgr/document.py:1061
+#: src/guimgr/document.py:1083 src/guimgr/wingtips.py:293
 msgid "Larger Font"
 msgstr "Police plus grande"
 
-#: src/guimgr/document.py:1112 src/guimgr/document.py:1129
+#: src/guimgr/document.py:1085 src/guimgr/wingtips.py:295
+#, fuzzy
+msgid "Reset Font to Default"
+msgstr "Utiliser Windows par défaut"
+
+#: src/guimgr/document.py:1136 src/guimgr/document.py:1153
 msgid "Help view state"
 msgstr "Aide de l'état du visionneur"
 
@@ -1966,65 +2022,69 @@ msgstr "Objet : "
 msgid "Details: "
 msgstr "Détails : "
 
-#: src/guimgr/feedback.py:156
+#: src/guimgr/feedback.py:158
 msgid "Where did you hear about Wing?"
 msgstr "Où avez vous entendu parler de Wing ?"
 
-#: src/guimgr/feedback.py:162
+#: src/guimgr/feedback.py:160
+msgid "Please tell us why you chose Wing Pro:"
+msgstr ""
+
+#: src/guimgr/feedback.py:166
 msgid "If you want us to respond, please include a valid email address:"
 msgstr ""
 "Si vous souhaitez que nous vous répondions, veuillez inclure une adresse "
 "mail valide :"
 
-#: src/guimgr/feedback.py:171
+#: src/guimgr/feedback.py:175
 msgid "You can also do this later from the Help menu."
 msgstr "Vous pouvez aussi faire ça plus tard depuis le menu d'aide."
 
-#: src/guimgr/feedback.py:197
+#: src/guimgr/feedback.py:208
 msgid "Submitting"
 msgstr "Soumission"
 
-#: src/guimgr/feedback.py:198
+#: src/guimgr/feedback.py:209
 msgid "Submitting to wingware.com. Please wait"
 msgstr "Soumission à wingware.com. Veuillez patienter"
 
-#: src/guimgr/feedback.py:246
+#: src/guimgr/feedback.py:257
 msgid "Collecting Data"
 msgstr "Collecte de données"
 
-#: src/guimgr/feedback.py:285
+#: src/guimgr/feedback.py:300
 msgid "Nothing to Submit"
 msgstr "Rien à Soumettre"
 
-#: src/guimgr/feedback.py:286
+#: src/guimgr/feedback.py:301
 msgid "Nothing was entered in summary or detail."
 msgstr "Rien n'a été entré dans le sommaire ou dans les détails."
 
-#: src/guimgr/feedback.py:310
+#: src/guimgr/feedback.py:325
 msgid "Encoding Data"
 msgstr "Encodage des données"
 
-#: src/guimgr/feedback.py:326
+#: src/guimgr/feedback.py:341
 msgid "Creating Request"
 msgstr "Création de la requête"
 
-#: src/guimgr/feedback.py:334
+#: src/guimgr/feedback.py:349
 msgid "Opening Connection"
 msgstr "Ouverture de la connexion"
 
-#: src/guimgr/feedback.py:342
+#: src/guimgr/feedback.py:357
 msgid "Reading Reply"
 msgstr "Lecture de la réponse"
 
-#: src/guimgr/feedback.py:349
+#: src/guimgr/feedback.py:364
 msgid "Closing Connection"
 msgstr "Fermeture de la connexion"
 
-#: src/guimgr/feedback.py:355
+#: src/guimgr/feedback.py:370
 msgid "Submit Error"
 msgstr "Erreur de soumission"
 
-#: src/guimgr/feedback.py:356
+#: src/guimgr/feedback.py:371
 msgid ""
 "Received unexpected response.  There may be a network problem:\n"
 "\n"
@@ -2036,11 +2096,11 @@ msgstr ""
 "%s\n"
 "\n"
 
-#: src/guimgr/feedback.py:372
+#: src/guimgr/feedback.py:387
 msgid "Bug Report Submitted"
 msgstr "Rapport de bug envoyé"
 
-#: src/guimgr/feedback.py:373
+#: src/guimgr/feedback.py:388
 msgid ""
 "Thanks for your bug report.  It has been submitted to wingware.com and will "
 "be emailed to our software development staff."
@@ -2048,11 +2108,11 @@ msgstr ""
 "Merci pour votre rapport de bug. Il a été envoyé à wingware.com et sera "
 "transmis à notre équipe de développement logiciel."
 
-#: src/guimgr/feedback.py:377
+#: src/guimgr/feedback.py:392
 msgid "Feedback Submitted"
 msgstr "Retour d'expérience soumis"
 
-#: src/guimgr/feedback.py:378
+#: src/guimgr/feedback.py:393
 msgid ""
 "Thanks for your feedback.  It has been submitted to wingware.com and will be "
 "emailed to our software development staff."
@@ -2060,42 +2120,44 @@ msgstr ""
 "Merci pour votre retour d'expérience. Il a été soumis à wingware.com et sera "
 "transmis à notre équipe de développement."
 
-#: src/guimgr/feedback.py:414
-msgid "Continue Report"
+#: src/guimgr/feedback.py:429
+#, fuzzy
+msgid "Continue _Report"
 msgstr "Continuer le rapport"
 
-#: src/guimgr/feedback.py:415
-msgid "Cancel Report"
+#: src/guimgr/feedback.py:430
+#, fuzzy
+msgid "_Cancel Report"
 msgstr "Annuler le rapport"
 
-#: src/guimgr/feedback.py:419
+#: src/guimgr/feedback.py:434
 msgid "Cancel Bug Report?"
 msgstr "Annuler ce rapport de bug ?"
 
-#: src/guimgr/feedback.py:421
+#: src/guimgr/feedback.py:436
 msgid "Cancel Feedback?"
 msgstr "Annuler le retour d'expérience ?"
 
-#: src/guimgr/feedback.py:422
+#: src/guimgr/feedback.py:437
 msgid ""
 "Are you sure you want to cancel?  Any text you have entered will be lost."
 msgstr ""
 "Êtes-vous sûr de vouloir annuler ? Tout le texte que vous avez entré sera "
 "perdu."
 
-#: src/guimgr/guimanager.py:221
+#: src/guimgr/guimanager.py:222
 msgid "No Project"
 msgstr "Pas de projet"
 
-#: src/guimgr/guimanager.py:225
+#: src/guimgr/guimanager.py:226
 msgid " (r/o)"
 msgstr " (lecture seule)"
 
-#: src/guimgr/guimanager.py:592 src/guimgr/guimanager.py:604
+#: src/guimgr/guimanager.py:599 src/guimgr/guimanager.py:611
 msgid "Failed language change"
 msgstr "Le changement de langage a échoué"
 
-#: src/guimgr/guimanager.py:593
+#: src/guimgr/guimanager.py:600
 msgid ""
 "Failed to remove %s -- the language cannot be changed until this file can be "
 "removed."
@@ -2103,7 +2165,7 @@ msgstr ""
 "La suppression de %s a échoué -- le langage ne peut être modifié jusqu'à ce "
 "que ce fichier soit supprimé."
 
-#: src/guimgr/guimanager.py:605
+#: src/guimgr/guimanager.py:612
 msgid ""
 "Failed to write %s -- the language cannot be changed until this file can be "
 "written."
@@ -2111,7 +2173,7 @@ msgstr ""
 "L'écriture dans %s a échoué -- le langage ne peut être modifié jusqu'à ce "
 "que ce fichier soit écrit."
 
-#: src/guimgr/guimanager.py:810
+#: src/guimgr/guimanager.py:821
 msgid ""
 "The new font size may not apply successfully to all of the GUI until you "
 "restart Wing."
@@ -2119,172 +2181,250 @@ msgstr ""
 "La nouvelle taille de police ne s'appliquera peut être pas avec succès à "
 "toute l'Interface Utilisateur (GUI) jusqu'au redémarrage de Wing."
 
-#: src/guimgr/guimanager.py:942
+#: src/guimgr/guimanager.py:983
+msgid "Exit Presentation Mode?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:984
+msgid "Do you want to restart now to exit presentation mode?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:987
+msgid "Enter Presentation Mode?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:988
+msgid ""
+"Do you want to restart now to enter presentation mode with scaling factor "
+"%.1f?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:991
+msgid "Change _Scaling Factor..."
+msgstr ""
+
+#: src/guimgr/guimanager.py:994
+#, fuzzy
+msgid "_Restart"
+msgstr "Redémarrage"
+
+#: src/guimgr/guimanager.py:1046
+#, fuzzy
+msgid "Restart Wing?"
+msgstr "Redémarrer le débogage"
+
+#: src/guimgr/guimanager.py:1047
+msgid "Changing window and icon scale factor.  Do you want to restart now?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:1049 src/guimgr/guimanager.py:4759
+msgid "_Restart Now"
+msgstr "_Redémarrer maintenant"
+
+#: src/guimgr/guimanager.py:1050
+#, fuzzy
+msgid "_Keep Working"
+msgstr "_Continuer de travailler"
+
+#: src/guimgr/guimanager.py:1076
+msgid "Change scale factor?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:1081
+msgid ""
+"Based on inspection of your display, Wing recommends setting the icon and "
+"window scaling factor to {}.  Would you like to restart to change this?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:1084
+#, fuzzy
+msgid "_Show Preferences"
+msgstr "_Préférences..."
+
+#: src/guimgr/guimanager.py:1085
+#, fuzzy
+msgid "Change and _Restart"
+msgstr "Changer la casse"
+
+#: src/guimgr/guimanager.py:1086
+#, fuzzy
+msgid "_Keep Current Value"
+msgstr "E_xécuter le fichier actuel"
+
+#: src/guimgr/guimanager.py:1089
+#, fuzzy
+msgid "Don't show this dialog again"
+msgstr "Ne pas afficher cette note à nouveau"
+
+#: src/guimgr/guimanager.py:1199
 msgid "Installed updates: %s"
 msgstr "Mises-à-jours installées : %s"
 
-#: src/guimgr/guimanager.py:1107
+#: src/guimgr/guimanager.py:1367
 msgid "Cannot Open Remote File"
 msgstr "N'a pas pu ouvrir un fichier distant"
 
-#: src/guimgr/guimanager.py:1107
+#: src/guimgr/guimanager.py:1367
 msgid "This version of Wing cannot open remote files like %s"
 msgstr ""
 "Cette version de Wing ne peut pas ouvrir des fichiers distants comme %s"
 
-#: src/guimgr/guimanager.py:1135
+#: src/guimgr/guimanager.py:1395
 msgid "Document Open Failed"
 msgstr "Ouverture du document échouée"
 
-#: src/guimgr/guimanager.py:1135
+#: src/guimgr/guimanager.py:1395
 msgid "Failed to open document '%s'"
 msgstr "Impossible d'ouvrir le document '%s'"
 
-#: src/guimgr/guimanager.py:1718
+#: src/guimgr/guimanager.py:2010
 msgid "Could not show panel"
 msgstr "Impossible d'afficher le panneau"
 
-#: src/guimgr/guimanager.py:1719
+#: src/guimgr/guimanager.py:2011
 msgid "Could not display requested panel of type '%s' (unknown panel type)"
 msgstr ""
 "Impossible d'afficher le panneau demandé de type '%s' (type de panneau "
 "inconnu)"
 
-#: src/guimgr/guimanager.py:1893
+#: src/guimgr/guimanager.py:2190
 msgid "No Project Open"
 msgstr "Aucun projet ouvert"
 
-#: src/guimgr/guimanager.py:1896
+#: src/guimgr/guimanager.py:2193
 msgid "Wing Menu: %s"
 msgstr "Menu Wing : %s"
 
-#: src/guimgr/guimanager.py:2050
+#: src/guimgr/guimanager.py:2349
 msgid "The file to select"
 msgstr "Le fichier à sélectionner"
 
-#: src/guimgr/guimanager.py:2052
+#: src/guimgr/guimanager.py:2351
 msgid "Select file:"
 msgstr "Sélectionner un fichier :"
 
-#: src/guimgr/guimanager.py:2113
+#: src/guimgr/guimanager.py:2419
 msgid "General failure obtaining application-wide visual state"
 msgstr "Échec général en cherchant l'état visuel de l'application"
 
-#: src/guimgr/guimanager.py:2131
+#: src/guimgr/guimanager.py:2437
 msgid "No windows in application-wide state"
 msgstr "Pas de fenêtres dans l'état application-wide"
 
-#: src/guimgr/guimanager.py:2140
+#: src/guimgr/guimanager.py:2446
 msgid "Creating window"
 msgstr "Création de la fenêtre"
 
-#: src/guimgr/guimanager.py:2142
+#: src/guimgr/guimanager.py:2448
 msgid "Creating window #%i..."
 msgstr "Création de la fenêtre #%i..."
 
-#: src/guimgr/guimanager.py:2178
+#: src/guimgr/guimanager.py:2488
 msgid "Configuring window..."
 msgstr "Configuration de la fenêtre..."
 
-#: src/guimgr/guimanager.py:2180
+#: src/guimgr/guimanager.py:2490
 msgid "Configuring window (%i)..."
 msgstr "Configuration de la fenêtre (%i)..."
 
-#: src/guimgr/guimanager.py:2232
+#: src/guimgr/guimanager.py:2542
 msgid "Could not set tool window visual state:  No notebook view"
 msgstr ""
 "Impossible d'affecter l'état visuel de la fenêtre-outil : Pas de vue du bloc-"
 "note"
 
-#: src/guimgr/guimanager.py:2266
+#: src/guimgr/guimanager.py:2576
 msgid "General failure in setting application-wide state"
 msgstr "Échec général en affectant l'état visuel de l'application"
 
-#: src/guimgr/guimanager.py:2347
+#: src/guimgr/guimanager.py:2657
 msgid "Auto-Save Files Before Debug or Execute"
 msgstr "Auto-enregistrement des fichiers avant débogage ou Exécution"
 
-#: src/guimgr/guimanager.py:2402
+#: src/guimgr/guimanager.py:2712
 msgid "Default Project"
 msgstr "Projet par défaut"
 
-#: src/guimgr/guimanager.py:2539
+#: src/guimgr/guimanager.py:2856
 msgid "Waiting for remote agent to exit for: "
 msgstr ""
 
-#: src/guimgr/guimanager.py:2550
+#: src/guimgr/guimanager.py:2867
 msgid "Waiting for Remote Agent"
 msgstr "Attente de l’agent distant"
 
-#: src/guimgr/guimanager.py:2555
-msgid "Force Quit"
+#: src/guimgr/guimanager.py:2872
+#, fuzzy
+msgid "_Force Quit"
 msgstr "Forcer à quitter"
 
-#: src/guimgr/guimanager.py:2774
+#: src/guimgr/guimanager.py:3091
 msgid "Add Directory to Project?"
 msgstr "Ajouter un répertoire au projet ?"
 
-#: src/guimgr/guimanager.py:2775
+#: src/guimgr/guimanager.py:3092
 msgid "Would you like to add %s to your project?"
 msgstr "Voulez vous ajouter %s à votre projet ?"
 
-#: src/guimgr/guimanager.py:2778
-msgid "Add Directory"
+#: src/guimgr/guimanager.py:3095
+#, fuzzy
+msgid "_Add Directory"
 msgstr "Ajouter un répertoire"
 
-#: src/guimgr/guimanager.py:2786
+#: src/guimgr/guimanager.py:3103
 msgid "Add Directories to Project?"
 msgstr "Ajouter des répertoires au projet ?"
 
-#: src/guimgr/guimanager.py:2787
+#: src/guimgr/guimanager.py:3104
 msgid "Please select directories to add to the project:"
 msgstr "Veuillez sélectionner les répertoires à ajouter au projet :"
 
-#: src/guimgr/guimanager.py:2793
-msgid "Add Selected Dirs"
+#: src/guimgr/guimanager.py:3110
+#, fuzzy
+msgid "_Add Selected Dirs"
 msgstr "Ajouter les répertoires sélectionnés"
 
-#: src/guimgr/guimanager.py:2837 src/guimgr/guimanager.py:2893
+#: src/guimgr/guimanager.py:3154 src/guimgr/guimanager.py:3210
 msgid "Wing: %s (r/o)"
 msgstr "Wing : %s (l/s)"
 
-#: src/guimgr/guimanager.py:2839 src/guimgr/guimanager.py:2895
+#: src/guimgr/guimanager.py:3156 src/guimgr/guimanager.py:3212
 msgid "Wing: %s"
 msgstr "Wing : %s"
 
-#: src/guimgr/guimanager.py:2841 src/guimgr/guimanager.py:2897
+#: src/guimgr/guimanager.py:3158 src/guimgr/guimanager.py:3214
 msgid "Wing"
 msgstr "Wing"
 
-#: src/guimgr/guimanager.py:2972
+#: src/guimgr/guimanager.py:3289
 msgid "Failed to set panel window state:"
 msgstr "Échec en affectant l'état de la fenêtre :"
 
-#: src/guimgr/guimanager.py:3027
+#: src/guimgr/guimanager.py:3344
 msgid "Toolbox: %s: Wing"
 msgstr "Boîte à outils : %s : Wing"
 
-#: src/guimgr/guimanager.py:3029
+#: src/guimgr/guimanager.py:3346
 msgid "%s: %s: Wing"
 msgstr "%s : %s : Wing"
 
-#: src/guimgr/guimanager.py:3032
+#: src/guimgr/guimanager.py:3349
 msgid "Toolbox: Wing"
 msgstr "Boîte à outils : Wing"
 
-#: src/guimgr/guimanager.py:3034
+#: src/guimgr/guimanager.py:3351
 msgid "%s: Wing"
 msgstr "%s : Wing"
 
-#: src/guimgr/guimanager.py:3188
+#: src/guimgr/guimanager.py:3505
 msgid "Failed to save portions of visual state for %s:"
 msgstr "Échec en sauvegardant des portions de l'état visuel pour %s :"
 
-#: src/guimgr/guimanager.py:3204
+#: src/guimgr/guimanager.py:3521
 msgid "Really Restore Default Tools?"
 msgstr "Vraiment restaurer les outils par défaut ?"
 
-#: src/guimgr/guimanager.py:3209
+#: src/guimgr/guimanager.py:3526
 msgid ""
 "This command will close all currently open tools and restore the factory "
 "default tool set for the perspective '%s'.  Are you sure you want to do this?"
@@ -2293,7 +2433,7 @@ msgstr ""
 "la configuration d'usine de l'ensemble des outils par défaut pour la "
 "perspective '%s'. Êtes-vous sur de vouloir faire cela ?"
 
-#: src/guimgr/guimanager.py:3213
+#: src/guimgr/guimanager.py:3530
 msgid ""
 "This command will close all currently open tools and restore the factory "
 "default tool set for user-defined perspectives.  Are you sure you want to do "
@@ -2304,7 +2444,7 @@ msgstr ""
 "perspectives définies par l'utilisateur. Êtes-vous sur de vouloir faire "
 "cela ?"
 
-#: src/guimgr/guimanager.py:3217
+#: src/guimgr/guimanager.py:3534
 msgid ""
 "This command will close all currently open tools and restore the factory "
 "default tool set.  Are you sure you want to do this?"
@@ -2313,171 +2453,167 @@ msgstr ""
 "l'ensemble des outils de la configuration d'usine par défaut. Êtes-vous sur "
 "de vouloir faire cela ?"
 
-#: src/guimgr/guimanager.py:3220
+#: src/guimgr/guimanager.py:3537
 msgid "_Yes"
 msgstr "Oui"
 
-#: src/guimgr/guimanager.py:3221
+#: src/guimgr/guimanager.py:3538
 msgid "_No"
 msgstr "_Non"
 
-#: src/guimgr/guimanager.py:3323
+#: src/guimgr/guimanager.py:3640
 msgid " (named entry point)"
 msgstr " (point d'entrée nommé)"
 
-#: src/guimgr/guimanager.py:3431
+#: src/guimgr/guimanager.py:3748
 msgid "Left"
 msgstr "de gauche"
 
-#: src/guimgr/guimanager.py:3433
+#: src/guimgr/guimanager.py:3750
 msgid "Right"
 msgstr "de droite"
 
-#: src/guimgr/guimanager.py:3437
+#: src/guimgr/guimanager.py:3754
 msgid "Bottom"
 msgstr "du bas"
 
-#: src/guimgr/guimanager.py:3439
+#: src/guimgr/guimanager.py:3756
 msgid "Top"
 msgstr "du haut"
 
-#: src/guimgr/guimanager.py:3462
+#: src/guimgr/guimanager.py:3779
 msgid "%sToolbox"
 msgstr "Boîte à outils %s"
 
-#: src/guimgr/guimanager.py:3467 src/guimgr/guimanager.py:3470
+#: src/guimgr/guimanager.py:3784 src/guimgr/guimanager.py:3787
 msgid "%sToolbox Split #%i"
 msgstr "Division #%i de la boite à outils %s"
 
-#: src/guimgr/guimanager.py:3498
+#: src/guimgr/guimanager.py:3815
 msgid "Insert Tool"
 msgstr "Insérer un outil"
 
-#: src/guimgr/guimanager.py:3515 src/guimgr/multieditor.py:3589
+#: src/guimgr/guimanager.py:3832 src/guimgr/multieditor.py:3720
 msgid "New Window"
 msgstr "Nouvelle fenêtre"
 
-#: src/guimgr/guimanager.py:3535 src/guimgr/multieditor.py:3580
+#: src/guimgr/guimanager.py:3852 src/guimgr/multieditor.py:3711
 msgid "Window %s"
 msgstr "Fenêtre %s"
 
-#: src/guimgr/guimanager.py:3550 src/guimgr/multieditor.py:3613
+#: src/guimgr/guimanager.py:3867 src/guimgr/multieditor.py:3744
 msgid "Move %s to"
 msgstr "Déplacer %s vers"
 
-#: src/guimgr/guimanager.py:3559
+#: src/guimgr/guimanager.py:3876
 msgid "Remove %s"
 msgstr "Enlever %s"
 
-#: src/guimgr/guimanager.py:3565
+#: src/guimgr/guimanager.py:3882
 msgid "%s Key Binding"
 msgstr "Raccourci clavier %s"
 
-#: src/guimgr/guimanager.py:3566
+#: src/guimgr/guimanager.py:3883
 msgid "Key binding used to show the most recently accessed %s"
 msgstr ""
 "Raccourci clavier utilisé pour afficher l'élément accédé le plus récent %s"
 
-#: src/guimgr/guimanager.py:3568
+#: src/guimgr/guimanager.py:3885
 msgid "Set Key Binding for %s..."
 msgstr "Affecter un raccourci clavier pour %s..."
 
-#: src/guimgr/guimanager.py:3581
+#: src/guimgr/guimanager.py:3898
 msgid "Put Toolbox Back Into %s"
 msgstr "Remettre la boite à outils dans %s"
 
-#: src/guimgr/guimanager.py:3588
+#: src/guimgr/guimanager.py:3905
 msgid "Move Toolbox to Right"
 msgstr "Déplacer la boite à outils à droite"
 
-#: src/guimgr/guimanager.py:3589
+#: src/guimgr/guimanager.py:3906
 msgid "Move Toolbox to Left"
 msgstr "Déplacer la boite à outils à gauche"
 
-#: src/guimgr/guimanager.py:3590
+#: src/guimgr/guimanager.py:3907
 msgid "Move Toolbox to Top"
 msgstr "Déplacer la boite à outils en haut"
 
-#: src/guimgr/guimanager.py:3591
+#: src/guimgr/guimanager.py:3908
 msgid "Move Toolbox to Bottom"
 msgstr "Déplacer la boite à outils en bas"
 
-#: src/guimgr/guimanager.py:3602
+#: src/guimgr/guimanager.py:3919
 msgid "Move Toolbox to New Window"
 msgstr "Déplacer la boite à outils dans une nouvelle fenêtre"
 
-#: src/guimgr/guimanager.py:3610
+#: src/guimgr/guimanager.py:3927
 msgid "Move Toolbox Split #%i to New Window"
 msgstr ""
 "Déplacer la division #%i de la boite à outils vers une nouvelle fenêtre"
 
-#: src/guimgr/guimanager.py:3621
+#: src/guimgr/guimanager.py:3938
 msgid "Add Toolbox Split"
 msgstr "Ajouter une division de boite à outils"
 
-#: src/guimgr/guimanager.py:3625
+#: src/guimgr/guimanager.py:3942
 msgid "Remove Toolbox Split"
 msgstr "Enlever cette division de boite à outils"
 
-#: src/guimgr/guimanager.py:3631
+#: src/guimgr/guimanager.py:3948
 msgid "Hide Toolbox"
 msgstr "Masquer la boite à outils"
 
-#: src/guimgr/guimanager.py:3646
+#: src/guimgr/guimanager.py:3963
 msgid "Use Above and Below Splits"
 msgstr "Utiliser les divisions haut et bas"
 
-#: src/guimgr/guimanager.py:3648
+#: src/guimgr/guimanager.py:3965
 msgid "Use Side by Side Splits"
 msgstr "Utiliser les divisions côte à côte"
 
-#: src/guimgr/guimanager.py:3672
+#: src/guimgr/guimanager.py:3989
 msgid "Place Tabs at Bottom"
 msgstr "Placer les onglets en bas"
 
-#: src/guimgr/guimanager.py:3674
+#: src/guimgr/guimanager.py:3991
 msgid "Place Tabs at Top"
 msgstr "Placer les onglets en haut"
 
-#: src/guimgr/guimanager.py:3677
+#: src/guimgr/guimanager.py:3994
 msgid "Place Tabs at Right"
 msgstr "Placer les onglets à droite"
 
-#: src/guimgr/guimanager.py:3679
+#: src/guimgr/guimanager.py:3996
 msgid "Place Tabs at Left"
 msgstr "Placer les onglets à gauche"
 
-#: src/guimgr/guimanager.py:3694
+#: src/guimgr/guimanager.py:4011
 msgid "The window title (blank for internal default)"
 msgstr "Le titre de la fenêtre (vide par défaut)"
 
-#: src/guimgr/guimanager.py:3701
+#: src/guimgr/guimanager.py:4018
 msgid "Set Window Title..."
 msgstr "Affecter le titre de la fenêtre..."
 
-#: src/guimgr/guimanager.py:3710
+#: src/guimgr/guimanager.py:4027
 msgid "Keep Window on Top"
 msgstr "Garder la fenêtre au-dessus"
 
-#: src/guimgr/guimanager.py:4415
+#: src/guimgr/guimanager.py:4740
 msgid "Failed to set colors"
 msgstr "Impossible d'affecter les couleurs"
 
-#: src/guimgr/guimanager.py:4416
+#: src/guimgr/guimanager.py:4741
 msgid "Failed to set selected colors because the file %s could not be written"
 msgstr ""
 "Impossible d'affecter les couleurs sélectionnées parce que le fichier %s ne "
 "peut pas être écrit"
 
-#: src/guimgr/guimanager.py:4434
-msgid "_Restart Now"
-msgstr "_Redémarrer maintenant"
-
-#: src/guimgr/guimanager.py:4435
+#: src/guimgr/guimanager.py:4760
 msgid "_Continue Working"
 msgstr "_Continuer de travailler"
 
-#: src/guimgr/guimanager.py:4438
+#: src/guimgr/guimanager.py:4763
 msgid ""
 "Wing requires a restart to reinitialize its display to match the current "
 "display  preferences.  You may either quit now or continue working without "
@@ -2487,7 +2623,7 @@ msgstr ""
 "préférences d'affichage actuelles. Vous pouvez soit quitter maintenant soit "
 "continuer à travailler sans que toutes les préférences soient effectives."
 
-#: src/guimgr/guimanager.py:4444
+#: src/guimgr/guimanager.py:4769
 msgid "Restart for Display Changes"
 msgstr "Redémarrer pour les modifications d'affichage"
 
@@ -2531,35 +2667,35 @@ msgstr "Sélectionner les préférences initiales"
 msgid "Configuring window %i..."
 msgstr "Configuration de la fenêtre %i..."
 
-#: src/guimgr/keyboard.py:1032
+#: src/guimgr/keyboard.py:1069
 msgid "%s: Undefined key sequence"
 msgstr "%s : Séquence de touche indéfinie"
 
-#: src/guimgr/keyboard.py:1149
+#: src/guimgr/keyboard.py:1252
 msgid "Unavailable commands: %s"
 msgstr "Commande(s) indisponible(s) : %s"
 
-#: src/guimgr/keyboard.py:1508
+#: src/guimgr/keyboard.py:1620
 msgid "Failed to save portion of editor state for %s"
 msgstr "Échec pour enregistrer une partie de l'état de l'éditeur pour %s"
 
-#: src/guimgr/keyboard.py:1596
+#: src/guimgr/keyboard.py:1708
 msgid "Failed to restore portions of editor state for %s:"
 msgstr "Échec pour restaurer des portions de l'état de l'éditeur pour %s :"
 
-#: src/guimgr/keyboard.py:1933
+#: src/guimgr/keyboard.py:2045
 msgid "[not unique]"
 msgstr "[non unique]"
 
-#: src/guimgr/keyboard.py:1940
+#: src/guimgr/keyboard.py:2052
 msgid "[no match]"
 msgstr "[pas de correspondance]"
 
-#: src/guimgr/keyboard.py:2235
+#: src/guimgr/keyboard.py:2347
 msgid "Repeat: "
 msgstr "Répéter : "
 
-#: src/guimgr/keyboard.py:2328
+#: src/guimgr/keyboard.py:2440
 msgid "Count: "
 msgstr "Compter : "
 
@@ -2619,16 +2755,16 @@ msgstr "État visuel des messages"
 msgid "Show Messages:  "
 msgstr "Afficher les messages : "
 
-#: src/guimgr/multieditor.py:201
+#: src/guimgr/multieditor.py:222
 msgid "Failed to save portions of visual state for editor %s:"
 msgstr ""
 "Échec pour enregistrer des portions de l'état visuel pour l’éditeur %s :"
 
-#: src/guimgr/multieditor.py:712
+#: src/guimgr/multieditor.py:733
 msgid "Switch between open files"
 msgstr "Inversion entre les fichiers ouverts"
 
-#: src/guimgr/multieditor.py:926
+#: src/guimgr/multieditor.py:947
 msgid ""
 "This editor is locked and will not be used to open other files.  Click the "
 "lock icon to change modes."
@@ -2636,7 +2772,7 @@ msgstr ""
 "Cet éditeur est verrouillé et ne sera pas utilisé pour ouvrir d'autres "
 "fichiers. Cliquez sur l'icône de verrou pour le changer de mode."
 
-#: src/guimgr/multieditor.py:930
+#: src/guimgr/multieditor.py:951
 msgid ""
 "This file is sticky and will remain open until closed.  Click the stick pin "
 "icon to change modes."
@@ -2644,7 +2780,7 @@ msgstr ""
 "Ce fichier est permanent et restera ouvert jusqu'à ce qu'il soit fermé. "
 "Cliquez sur l'icône de la punaise pour changer de mode."
 
-#: src/guimgr/multieditor.py:935
+#: src/guimgr/multieditor.py:956
 msgid ""
 "This file is non-sticky and will auto-close when hidden.  Click the stick "
 "pin icon to change modes."
@@ -2652,193 +2788,204 @@ msgstr ""
 "Ce document est temporaire et sera fermé automatiquement lorsqu'il sera "
 "masqué. Cliquez sur l'icône de la punaise pour pour changer de mode."
 
-#: src/guimgr/multieditor.py:940
+#: src/guimgr/multieditor.py:961
 msgid "Right-click for menu of recently visited documents."
 msgstr "Clic-droit pour le menu des documents récemment visités."
 
-#: src/guimgr/multieditor.py:1163
+#: src/guimgr/multieditor.py:1110 src/guimgr/multieditor.py:1664
+#: src/guimgr/multieditor.py:2501
+#, fuzzy
+msgid "main entry point"
+msgstr " (point d'entrée nommé)"
+
+#: src/guimgr/multieditor.py:1189
 msgid "Configure..."
 msgstr "Configurer..."
 
-#: src/guimgr/multieditor.py:1247
+#: src/guimgr/multieditor.py:1273
 msgid "Next visit in history (%s)"
 msgstr "Visite suivante dans l'historique (%s)"
 
-#: src/guimgr/multieditor.py:1249
+#: src/guimgr/multieditor.py:1275
 msgid "Next visit in history"
 msgstr "Visite suivante dans l'historique"
 
-#: src/guimgr/multieditor.py:1253
+#: src/guimgr/multieditor.py:1279
 msgid "Previous visit in history (%s)"
 msgstr "Visite précédente dans l'historique (%s)"
 
-#: src/guimgr/multieditor.py:1255
+#: src/guimgr/multieditor.py:1281
 msgid "Previous visit in history"
 msgstr "Visite précédente dans l'historique"
 
-#: src/guimgr/multieditor.py:1272
+#: src/guimgr/multieditor.py:1298
 msgid "Code warnings"
 msgstr "Avertissements de code"
 
-#: src/guimgr/multieditor.py:1274
+#: src/guimgr/multieditor.py:1300
 msgid "Diff/Merge session options"
 msgstr "Options de la session de Diff/fusion"
 
-#: src/guimgr/multieditor.py:1276
+#: src/guimgr/multieditor.py:1302
 msgid "Navigate to bookmarks in this file"
 msgstr "Naviguer vers les signets dans ce fichier"
 
-#: src/guimgr/multieditor.py:1280
+#: src/guimgr/multieditor.py:1306
 msgid "Close Document"
 msgstr "Fermer le document"
 
-#: src/guimgr/multieditor.py:1282
+#: src/guimgr/multieditor.py:1308
 msgid "Document View Options"
 msgstr "Options de Vue du document"
 
-#: src/guimgr/multieditor.py:1294
+#: src/guimgr/multieditor.py:1320
 msgid "No warnings"
 msgstr "Pas d’avertissements"
 
-#: src/guimgr/multieditor.py:1296
+#: src/guimgr/multieditor.py:1322
 msgid "Code Warnings:"
 msgstr "Avertissements de code :"
 
-#: src/guimgr/multieditor.py:1324
+#: src/guimgr/multieditor.py:1350
 msgid "More..."
 msgstr "Plus…"
 
-#: src/guimgr/multieditor.py:1337
+#: src/guimgr/multieditor.py:1369
 #, fuzzy
 msgid "Update All Warnings in File"
 msgstr "Ajouter les sélections du fichier"
 
-#: src/guimgr/multieditor.py:1338
+#: src/guimgr/multieditor.py:1370
 #, fuzzy
-msgid "Remove All Warnings in File"
-msgstr "Enlever les signets dans ce fichier"
+msgid "Disable All Warnings in File"
+msgstr "Ajouter les sélections du fichier"
 
-#: src/guimgr/multieditor.py:1340
+#: src/guimgr/multieditor.py:1372
 msgid "Show Code Warnings Tool"
 msgstr ""
 
-#: src/guimgr/multieditor.py:1387
+#: src/guimgr/multieditor.py:1419
 msgid "Bookmarks:"
 msgstr "Signets :"
 
-#: src/guimgr/multieditor.py:2169
+#: src/guimgr/multieditor.py:2211
 msgid "General failure getting multi-editor visual state"
 msgstr "Erreur générale en récupérant l'état visuel du multi-éditeur"
 
-#: src/guimgr/multieditor.py:2208
+#: src/guimgr/multieditor.py:2263
 msgid "Current editor file"
 msgstr "Fichier de l'éditeur actuel"
 
-#: src/guimgr/multieditor.py:2227
+#: src/guimgr/multieditor.py:2282
 msgid "General failure setting multi-editor visual state"
 msgstr "Erreur générale en affectant l'état visuel du multi-éditeur"
 
-#: src/guimgr/multieditor.py:2680
+#: src/guimgr/multieditor.py:2743
 msgid "Could not open %s.  Please check the filename."
 msgstr "Impossible d'ouvrir %s. Veuillez vérifier le nom du fichier."
 
-#: src/guimgr/multieditor.py:2680
+#: src/guimgr/multieditor.py:2743
 msgid "File open failed"
 msgstr "Échec d'ouverture du fichier"
 
-#: src/guimgr/multieditor.py:3587
+#: src/guimgr/multieditor.py:3718
 msgid "Move %s to New Window"
 msgstr "Déplacer %s vers une nouvelle fenêtre"
 
-#: src/guimgr/multieditor.py:3622
+#: src/guimgr/multieditor.py:3753
 msgid "Close %s"
 msgstr "Fermer %s"
 
-#: src/guimgr/multieditor.py:3625
+#: src/guimgr/multieditor.py:3756
 msgid "Close Others"
 msgstr "Fermer les autres onglets"
 
-#: src/guimgr/multieditor.py:3628
+#: src/guimgr/multieditor.py:3759
 msgid "Close All"
 msgstr "Tout fermer"
 
-#: src/guimgr/multieditor.py:3635
+#: src/guimgr/multieditor.py:3766
 msgid "Copy File Path"
 msgstr "Copier le chemin du fichier"
 
-#: src/guimgr/multieditor.py:3642
+#: src/guimgr/multieditor.py:3773
 msgid "Show in Explorer"
 msgstr "Afficher dans l'Explorateur"
 
-#: src/guimgr/multieditor.py:3644
+#: src/guimgr/multieditor.py:3775
 msgid "Show in Finder"
 msgstr "Afficher dans le Finder"
 
-#: src/guimgr/multieditor.py:3646
+#: src/guimgr/multieditor.py:3777
 msgid "Show Directory"
 msgstr "Afficher le répertoire"
 
-#: src/guimgr/multieditor.py:3652
+#: src/guimgr/multieditor.py:3784
 msgid "Show in Project"
 msgstr "Afficher dans le projet"
 
-#: src/guimgr/multieditor.py:3656
+#: src/guimgr/multieditor.py:3789
+#, fuzzy
+msgid "Set as Main Entry Point"
+msgstr "Exécuter le point d'entrée nommé"
+
+#: src/guimgr/multieditor.py:3793
 msgid "Split Top and Bottom"
 msgstr "Diviser haut et bas"
 
-#: src/guimgr/multieditor.py:3657
+#: src/guimgr/multieditor.py:3794
 msgid "Split Side by Side"
 msgstr "Diviser côte à côte"
 
-#: src/guimgr/multieditor.py:3659
+#: src/guimgr/multieditor.py:3796
 msgid "Join all Splits"
 msgstr "Fusionner toutes les divisions"
 
-#: src/guimgr/multieditor.py:3664
+#: src/guimgr/multieditor.py:3801
 msgid "Show All Files in All Splits"
 msgstr "Afficher tous les fichiers dans toutes les divisions"
 
-#: src/guimgr/multieditor.py:3672
+#: src/guimgr/multieditor.py:3809
 msgid "Hide Notebook Tabs"
 msgstr "Masquer les onglets du bloc-note"
 
-#: src/guimgr/multieditor.py:3674
+#: src/guimgr/multieditor.py:3811
 msgid "Show Notebook Tabs"
 msgstr "Afficher les onglets du bloc-note"
 
-#: src/guimgr/multieditor.py:3678
+#: src/guimgr/multieditor.py:3815
 msgid "Keep Tabs Alphabetized"
 msgstr "Garder les onglets par ordre alphabétique"
 
-#: src/guimgr/multieditor.py:3683
+#: src/guimgr/multieditor.py:3820
 msgid "Add New Tabs on Left"
 msgstr "Ajouter de nouveaux onglets à gauche"
 
-#: src/guimgr/multieditor.py:3686
+#: src/guimgr/multieditor.py:3823
 msgid "Sort Symbol Menus Alphabetically"
 msgstr "Trier les menus de symboles alphabétiquement"
 
-#: src/guimgr/multieditor.py:3688
+#: src/guimgr/multieditor.py:3825
 msgid "Sort Symbol Menus in File Order"
 msgstr "Trier les menus de symboles dans l'ordre du fichier"
 
-#: src/guimgr/multieditor.py:3954
+#: src/guimgr/multieditor.py:4091
 msgid "General failure getting paned editor state"
 msgstr "Échec général en récupérant l'état de l'éditeur embarqué"
 
-#: src/guimgr/multieditor.py:3995
+#: src/guimgr/multieditor.py:4139
 msgid "Currently open editor files"
 msgstr "Fichiers actuellement ouvert dans l'éditeur"
 
-#: src/guimgr/multieditor.py:4015
+#: src/guimgr/multieditor.py:4159
 msgid "General failure setting paned editor state"
 msgstr "Échec général en affectant l'état de l'éditeur embarqué"
 
-#: src/guimgr/personality.py:172
+#: src/guimgr/personality.py:184
 msgid "Could not read key map"
 msgstr "Impossible de lire la disposition clavier"
 
-#: src/guimgr/personality.py:173
+#: src/guimgr/personality.py:185
 msgid ""
 "The key map file '%s' could not be found or is not readable. Attempting to "
 "fall back to internal defaults. Please restore the missing file or change "
@@ -2857,16 +3004,12 @@ msgstr "Fenêtres de boite à outils et d'éditeur combinées"
 msgid "Separate Toolbox Windows"
 msgstr "Fenêtres de boite à outils séparées"
 
-#: src/guimgr/prefs.py:38
-msgid "One Window per Editor"
-msgstr "Une fenêtre par éditeur"
-
-#: src/guimgr/prefs.py:43
+#: src/guimgr/prefs.py:48
+#, fuzzy
 msgid ""
 "Policy to use for window creation:  Combined Toolbox and Editor mode places "
-"toolboxes into editor windows, Separate Toolbox mode creates separate "
-"toolbox windows, and One Window per Editor mode also creates a new window "
-"for each file opened in an editor."
+"toolboxes into editor windows, and Separate Toolbox mode creates separate "
+"toolbox windows."
 msgstr ""
 "Politique à utiliser pour la création de fenêtre : le mode Boîtes à outils "
 "et éditeur combinés place les boîtes à outils dans les fenêtres d'éditeurs, "
@@ -2874,7 +3017,7 @@ msgstr ""
 "outils, et le mode Une fenêtre par éditeur crée aussi une nouvelle fenêtre "
 "pour chaque fichier ouvert dans un éditeur."
 
-#: src/guimgr/prefs.py:52
+#: src/guimgr/prefs.py:56
 msgid ""
 "Defines location of the keymap override file.  Use None for default "
 "according to configured editor personality.  See the Wing Manual for details "
@@ -2890,15 +3033,15 @@ msgstr ""
 "touches ; utiliser plutôt la préférence d'écrasement de correspondance de "
 "touches pour un meilleur suivi à travers les versions de Wing."
 
-#: src/guimgr/prefs.py:58
+#: src/guimgr/prefs.py:62
 msgid "Override with selected:"
 msgstr "Écraser avec la sélection :"
 
-#: src/guimgr/prefs.py:58
+#: src/guimgr/prefs.py:62
 msgid "Use Default for Personality"
 msgstr "Utiliser la personnalité par défaut"
 
-#: src/guimgr/prefs.py:62
+#: src/guimgr/prefs.py:66
 msgid ""
 "Override key bindings in the keymap.  To enter the key, place focus on the "
 "entry area and type the key combination desired.  The command is one of "
@@ -2916,15 +3059,15 @@ msgstr ""
 "utile lors de l'ajout de raccourcis clavier multi-touches qui sont en "
 "conflit avec ceux par défaut)."
 
-#: src/guimgr/prefs.py:69
+#: src/guimgr/prefs.py:73
 msgid "Key"
 msgstr "Touches"
 
-#: src/guimgr/prefs.py:69 src/guimgr/prefs.py:561
+#: src/guimgr/prefs.py:73 src/guimgr/prefs.py:565
 msgid "Command"
 msgstr "Commande"
 
-#: src/guimgr/prefs.py:77
+#: src/guimgr/prefs.py:81
 msgid ""
 "Rectangle to use for the IDE work area on screen.  All windows open within "
 "this area.  Format is (x, y, width, height), or use None for full screen."
@@ -2933,63 +3076,63 @@ msgstr ""
 "les fenêtres s'ouvriront dans cette zone. Le format est (x, y, largeur, "
 "hauteur), ou utilisez None pour le plein écran."
 
-#: src/guimgr/prefs.py:80
+#: src/guimgr/prefs.py:84
 msgid "Full Screen"
 msgstr "Plein écran"
 
-#: src/guimgr/prefs.py:80
+#: src/guimgr/prefs.py:84
 msgid "Height"
 msgstr "Hauteur"
 
-#: src/guimgr/prefs.py:80
+#: src/guimgr/prefs.py:84
 msgid "This Rectangle:"
 msgstr "Ce rectangle :"
 
-#: src/guimgr/prefs.py:80
+#: src/guimgr/prefs.py:84
 msgid "Width"
 msgstr "Largeur"
 
-#: src/guimgr/prefs.py:80
+#: src/guimgr/prefs.py:84
 msgid "X"
 msgstr "X"
 
-#: src/guimgr/prefs.py:80
+#: src/guimgr/prefs.py:84
 msgid "Y"
 msgstr "Y"
 
-#: src/guimgr/prefs.py:86
+#: src/guimgr/prefs.py:90
 msgid "Whether toolbar is shown in any window."
 msgstr "La barre d'outils est affichée dans toutes les fenêtres."
 
-#: src/guimgr/prefs.py:90
+#: src/guimgr/prefs.py:94
 msgid "Auto-Size"
 msgstr "Taille automatique"
 
-#: src/guimgr/prefs.py:91
+#: src/guimgr/prefs.py:95
 msgid "Tiny (Text Height)"
 msgstr "Mini (hauteur de texte)"
 
-#: src/guimgr/prefs.py:92
+#: src/guimgr/prefs.py:96
 msgid "Small"
 msgstr "Petite"
 
-#: src/guimgr/prefs.py:93
+#: src/guimgr/prefs.py:97
 msgid "Medium"
 msgstr "Moyenne"
 
-#: src/guimgr/prefs.py:94
+#: src/guimgr/prefs.py:98
 msgid "Large"
 msgstr "Grande"
 
-#: src/guimgr/prefs.py:95
+#: src/guimgr/prefs.py:99
 msgid "Extra Large"
 msgstr "Très grande"
 
-#: src/guimgr/prefs.py:96 src/guimgr/prefs.py:120
+#: src/guimgr/prefs.py:100 src/guimgr/prefs.py:124
 msgid "System Default"
 msgstr "Valeur par défaut"
 
-#: src/guimgr/prefs.py:100
+#: src/guimgr/prefs.py:104
 msgid ""
 "Sets size of the toolbar icons.  By default, adjusts according to available "
 "space."
@@ -2997,27 +3140,27 @@ msgstr ""
 "Fixe la taille des icônes de la barre d'outils. Par défaut, elle est ajustée "
 "en fonction de l'espace disponible."
 
-#: src/guimgr/prefs.py:115
+#: src/guimgr/prefs.py:119
 msgid "Adjust for Size"
 msgstr "Ajuster pour la taille"
 
-#: src/guimgr/prefs.py:116
+#: src/guimgr/prefs.py:120
 msgid "Icon Only"
 msgstr "Icônes seulement"
 
-#: src/guimgr/prefs.py:117
+#: src/guimgr/prefs.py:121
 msgid "Text Only"
 msgstr "Texte seulement"
 
-#: src/guimgr/prefs.py:118
+#: src/guimgr/prefs.py:122
 msgid "Icon and Text Below"
 msgstr "Icône et texte en dessous"
 
-#: src/guimgr/prefs.py:119
+#: src/guimgr/prefs.py:123
 msgid "Icon and Text to Side"
 msgstr "Icône et texte à côté"
 
-#: src/guimgr/prefs.py:132
+#: src/guimgr/prefs.py:136
 msgid ""
 "Select style of toolbar icons to use.  By default, adjusts according to "
 "available space."
@@ -3025,31 +3168,31 @@ msgstr ""
 "Sélectionner le style d'icônes de la barre d'outils à utiliser. Par défaut, "
 "il s'ajuste selon la place disponible."
 
-#: src/guimgr/prefs.py:137
+#: src/guimgr/prefs.py:141
 msgid "Primary color for icons"
 msgstr "Couleur primaire pour les icônes"
 
-#: src/guimgr/prefs.py:142
+#: src/guimgr/prefs.py:146
 msgid "Secondary color for icons"
 msgstr "Couleur secondaire pour les icônes"
 
-#: src/guimgr/prefs.py:147
+#: src/guimgr/prefs.py:151
 msgid "Tertiary color for icons"
 msgstr "Couleur tertiaire pour les icônes"
 
-#: src/guimgr/prefs.py:152
+#: src/guimgr/prefs.py:156
 msgid "Quaternary color for icons"
 msgstr "Couleur quaternaire pour les icônes"
 
-#: src/guimgr/prefs.py:157
+#: src/guimgr/prefs.py:161
 msgid "Quinary color for icons"
 msgstr "Couleur quinaire pour les icônes"
 
-#: src/guimgr/prefs.py:162
+#: src/guimgr/prefs.py:166
 msgid "Senary color for icons"
 msgstr "Couleur sénaire pour les icônes"
 
-#: src/guimgr/prefs.py:168
+#: src/guimgr/prefs.py:172
 msgid ""
 "Controls whether or not tooltips containing help are shown when the mouse "
 "hovers over areas of the user interface."
@@ -3057,28 +3200,28 @@ msgstr ""
 "Contrôle si les bulles d'aide sont affichées, ou non, lorsque la souris "
 "passe sur des zones de l'interface utilisateur."
 
-#: src/guimgr/prefs.py:176
+#: src/guimgr/prefs.py:180
 msgid "The base font and size to use for the user interface's menus and labels"
 msgstr ""
 "La police et taille de base à utiliser pour les menus et les labels de "
 "l'interface utilisateur"
 
-#: src/guimgr/prefs.py:179
+#: src/guimgr/prefs.py:183
 msgid "Use Default"
 msgstr "Utiliser par défaut"
 
-#: src/guimgr/prefs.py:179
+#: src/guimgr/prefs.py:183
 msgid "Use Selected Font/Size:"
 msgstr "Utiliser la police/taille sélectionnée :"
 
-#: src/guimgr/prefs.py:195
+#: src/guimgr/prefs.py:199
 msgid ""
 "Controls whether the color palette is used throughout the user interface"
 msgstr ""
 "Contrôle si la palette de couleur est utilisée pour toute l’interface "
 "utilisateur"
 
-#: src/guimgr/prefs.py:206
+#: src/guimgr/prefs.py:210
 #, fuzzy
 msgid ""
 "The color palette used by Wing.  All color preferences default to using "
@@ -3095,7 +3238,7 @@ msgstr ""
 "ajoutées au sous-répertoire 'palettes' du répertoire paramètres utilisateur "
 "(User Settings)."
 
-#: src/guimgr/prefs.py:218
+#: src/guimgr/prefs.py:222
 msgid ""
 "Controls whether project files are opened as project or as text when opened "
 "from the File menu.  This does not affect opening from the Project menu."
@@ -3104,31 +3247,31 @@ msgstr ""
 "lorsqu'ils sont ouverts depuis le menu Fichier. Cela n'affecte pas "
 "l'ouverture depuis le menu Projet."
 
-#: src/guimgr/prefs.py:223
+#: src/guimgr/prefs.py:227
 msgid "Maximum number of items to display in the Recent menus."
 msgstr "Nombre maximum d'éléments à afficher dans les menus Récent."
 
-#: src/guimgr/prefs.py:226
+#: src/guimgr/prefs.py:230
 msgid "Base Name Only"
 msgstr "Nom de base uniquement"
 
-#: src/guimgr/prefs.py:227
+#: src/guimgr/prefs.py:231
 msgid "Prepend Relative Path"
 msgstr "Ajouter le chemin relatif au début"
 
-#: src/guimgr/prefs.py:228
+#: src/guimgr/prefs.py:232
 msgid "Append Relative Path"
 msgstr "Ajouter le chemin relatif"
 
-#: src/guimgr/prefs.py:229
+#: src/guimgr/prefs.py:233
 msgid "Prepend Full Path"
 msgstr "Ajouter le chemin complet au début"
 
-#: src/guimgr/prefs.py:230
+#: src/guimgr/prefs.py:234
 msgid "Append Full Path"
 msgstr "Ajouter le chemin complet"
 
-#: src/guimgr/prefs.py:233
+#: src/guimgr/prefs.py:237
 #, fuzzy
 msgid ""
 "Format used for titles of source files:  Use Base Name Only to display just "
@@ -3147,16 +3290,16 @@ msgstr ""
 "complet, ou \"Ajouter le chemin complet\" pour ajouter le chemin complet "
 "après le nom de fichier de base."
 
-#: src/guimgr/prefs.py:245
+#: src/guimgr/prefs.py:249
 msgid ""
 "Show the remote host name in all basename-only filenames used in titles."
 msgstr ""
 
-#: src/guimgr/prefs.py:250
+#: src/guimgr/prefs.py:254
 msgid "Maximum size of files that Wing will try to open, in MB."
 msgstr "Taille maximum des fichiers que Wing essaiera d'ouvrir, en MB."
 
-#: src/guimgr/prefs.py:254
+#: src/guimgr/prefs.py:258
 msgid ""
 "Enable to always show the full path of a file name in the tooltips shown "
 "from the editor tabs and file selection menus.  When disabled, the "
@@ -3167,7 +3310,7 @@ msgstr ""
 "sélection de fichier. Si désactivé, le style de titre de source est utilisé "
 "à la place."
 
-#: src/guimgr/prefs.py:260
+#: src/guimgr/prefs.py:264
 msgid ""
 "Posix only: The commands used to display or edit local disk files selected "
 "from the Help menu or project files selected for external display.  This is "
@@ -3195,15 +3338,15 @@ msgstr ""
 "préférence est ignorée. Sur OS X, les fichiers sont ouverts avec « open » "
 "par défaut donc cette préférence est rarement nécessaire."
 
-#: src/guimgr/prefs.py:273
+#: src/guimgr/prefs.py:277
 msgid "Mime Type"
 msgstr "Type Mime"
 
-#: src/guimgr/prefs.py:273 src/guimgr/prefs.py:288
+#: src/guimgr/prefs.py:277 src/guimgr/prefs.py:292
 msgid "Display Commands"
 msgstr "Commandes d'affichage"
 
-#: src/guimgr/prefs.py:276
+#: src/guimgr/prefs.py:280
 msgid ""
 "Posix only: The commands used to display URLs.  This is a map from protocol "
 "type to a list of display commands; each display command is tried in order "
@@ -3228,11 +3371,11 @@ msgstr ""
 "ouvertes avec « open » par défaut donc cette préférence est rarement "
 "nécessaire."
 
-#: src/guimgr/prefs.py:288
+#: src/guimgr/prefs.py:292
 msgid "Protocol"
 msgstr "Protocole"
 
-#: src/guimgr/prefs.py:297
+#: src/guimgr/prefs.py:301
 msgid ""
 "Controls whether or not all edited files are saved without asking before a "
 "debug run, before starting unit tests, or before a file or build process is "
@@ -3243,7 +3386,7 @@ msgstr ""
 "unitaires, ou avant qu'un processus de fichier ou de construction soit "
 "exécuté."
 
-#: src/guimgr/prefs.py:305
+#: src/guimgr/prefs.py:309
 msgid ""
 "Controls whether or not Wing ignores files that were not saved before "
 "starting debug or that have changed since they were loaded by the debug "
@@ -3259,7 +3402,7 @@ msgstr ""
 "fonctionner proprement si des lignes ont bougé. Valider cette option "
 "désactive ces avertissements."
 
-#: src/guimgr/prefs.py:317
+#: src/guimgr/prefs.py:321
 msgid ""
 "Controls whether or not to set the foreground lock timeout on Windows, where "
 "normally Wing will be unable to bring source windows to front whenever the "
@@ -3273,7 +3416,7 @@ msgid ""
 "the user logs out."
 msgstr ""
 
-#: src/guimgr/prefs.py:335
+#: src/guimgr/prefs.py:339
 #, fuzzy
 msgid ""
 "Sets the timeout in seconds to use for typing, after which keys pressed are "
@@ -3286,13 +3429,13 @@ msgstr ""
 "lequel les touches pressées sont considérées comme un groupe séparé de "
 "caractères. C'est utilisé pour XXX"
 
-#: src/guimgr/prefs.py:350
+#: src/guimgr/prefs.py:354
 msgid "The color used to indicate the current text selection on editable text."
 msgstr ""
 "La couleur à utiliser pour indiquer la sélection de texte actuelle sur le "
 "texte éditable."
 
-#: src/guimgr/prefs.py:356
+#: src/guimgr/prefs.py:360
 msgid ""
 "Controls whether or not the Wing Tips tool is shown automatically at startup "
 "of the IDE."
@@ -3300,7 +3443,7 @@ msgstr ""
 "Contrôle si oui ou non l'outil de Conseils Wing est montré automatiquement "
 "au démarrage de l'IDE."
 
-#: src/guimgr/prefs.py:362
+#: src/guimgr/prefs.py:366
 msgid ""
 "Controls whether or not Wing shows tabs for switching between editors.  When "
 "false, a popup menu is used instead."
@@ -3308,15 +3451,15 @@ msgstr ""
 "Contrôle si Wing affiche, ou non, les onglets du bloc-note pour basculer "
 "entre éditeurs. Si désactivé, un menu popup est utilisé à la place."
 
-#: src/guimgr/prefs.py:368
+#: src/guimgr/prefs.py:372
 msgid "File Order"
 msgstr "Ordre des fichiers"
 
-#: src/guimgr/prefs.py:369
+#: src/guimgr/prefs.py:373
 msgid "Alphabetical Order"
 msgstr "Ordre alphabétique"
 
-#: src/guimgr/prefs.py:374
+#: src/guimgr/prefs.py:378
 msgid ""
 "Control preferred order in source index displays such as the editor browse "
 "menus.  Either sort in the order found in the file or alphabetical order."
@@ -3325,69 +3468,69 @@ msgstr ""
 "menus d'explorations de l'éditeur. Trie soit dans l'ordre trouvé dans le "
 "fichier ou par ordre alphabétique."
 
-#: src/guimgr/prefs.py:380
+#: src/guimgr/prefs.py:384
 msgid "Whether to show all open editors in a window in every split."
 msgstr ""
 "Afficher ou non tous les éditeurs ouvert dans une fenêtre dans chaque "
 "division."
 
-#: src/guimgr/prefs.py:385
+#: src/guimgr/prefs.py:389
 msgid "Whether to keep tabs in alphabetical order."
 msgstr "Garder, ou non, les onglets par ordre alphabétique."
 
-#: src/guimgr/prefs.py:390
+#: src/guimgr/prefs.py:394
 msgid "Whether to add new tabs on the left side instead on the right."
 msgstr ""
 
-#: src/guimgr/prefs.py:395
+#: src/guimgr/prefs.py:399
 msgid "All"
 msgstr "Tous"
 
-#: src/guimgr/prefs.py:396
+#: src/guimgr/prefs.py:400
 msgid "General"
 msgstr "Général"
 
-#: src/guimgr/prefs.py:397
+#: src/guimgr/prefs.py:401
 msgid "Debugger"
 msgstr "Débogueur"
 
-#: src/guimgr/prefs.py:398
+#: src/guimgr/prefs.py:402
 msgid "Editor"
 msgstr "Éditeur"
 
-#: src/guimgr/prefs.py:399
+#: src/guimgr/prefs.py:403
 msgid "Search Progress"
 msgstr "Recherche en cours"
 
-#: src/guimgr/prefs.py:400
+#: src/guimgr/prefs.py:404
 msgid "Browser"
 msgstr "Navigateur"
 
-#: src/guimgr/prefs.py:401
+#: src/guimgr/prefs.py:405
 msgid "Project Manager"
 msgstr "Gestionnaire de projet"
 
-#: src/guimgr/prefs.py:402
+#: src/guimgr/prefs.py:406
 msgid "Source Analysis"
 msgstr "Analyse de la source"
 
-#: src/guimgr/prefs.py:403
+#: src/guimgr/prefs.py:407
 msgid "Scripts"
 msgstr "Scripts"
 
-#: src/guimgr/prefs.py:407
+#: src/guimgr/prefs.py:411
 msgid "All Messages"
 msgstr "Tous les messages"
 
-#: src/guimgr/prefs.py:408
+#: src/guimgr/prefs.py:412
 msgid "Only Warnings and Errors"
 msgstr "Seulement les avertissements et les erreurs"
 
-#: src/guimgr/prefs.py:409
+#: src/guimgr/prefs.py:413
 msgid "Only Errors"
 msgstr "Seulement les erreurs"
 
-#: src/guimgr/prefs.py:417
+#: src/guimgr/prefs.py:421
 msgid ""
 "Controls the format and verbosity of messages shown to the user for each "
 "message domain in the message area.  Each domain specifies the format (in "
@@ -3403,33 +3546,33 @@ msgstr ""
 "message est laissé non spécifié, alors les configurations du domaine parent "
 "sont utilisées à la place (\"\" est le parent de tous les domaines)."
 
-#: src/guimgr/prefs.py:424
+#: src/guimgr/prefs.py:428
 msgid "Config"
 msgstr "Configuration"
 
-#: src/guimgr/prefs.py:424
+#: src/guimgr/prefs.py:428
 msgid "Domain"
 msgstr "Domaine"
 
-#: src/guimgr/prefs.py:426
+#: src/guimgr/prefs.py:430
 msgid "Format"
 msgstr "Format"
 
-#: src/guimgr/prefs.py:426
+#: src/guimgr/prefs.py:430
 msgid "Max Lines"
 msgstr "Lignes max"
 
-#: src/guimgr/prefs.py:426
+#: src/guimgr/prefs.py:430
 msgid "Minimum Level"
 msgstr "Niveau minimum"
 
-#: src/guimgr/prefs.py:432
+#: src/guimgr/prefs.py:436
 msgid "Whether feedback dialog is shown to user on quit."
 msgstr ""
 "Affichage, ou non, de la boîte de dialogue de retour d'experience à "
 "l'utilisateur lors de la sortie du programme."
 
-#: src/guimgr/prefs.py:436
+#: src/guimgr/prefs.py:440
 msgid ""
 "Used internally to avoid showing the feedback dialog on exit over and over "
 "again."
@@ -3437,7 +3580,7 @@ msgstr ""
 "Utilisé en interne pour éviter d'afficher la boite de dialogue de retour "
 "d'expérience à la fermeture encore et encore."
 
-#: src/guimgr/prefs.py:441
+#: src/guimgr/prefs.py:445
 msgid ""
 "Whether the error bug reporting dialog (also available from the Help menu) "
 "is shown automatically when an unexpected exception is encountered inside "
@@ -3447,7 +3590,7 @@ msgstr ""
 "(aussi accessible depuis le menu aide) quand une exception inattendue est "
 "rencontrée dans Wing."
 
-#: src/guimgr/prefs.py:447
+#: src/guimgr/prefs.py:451
 msgid ""
 "Used internally to remember which unexpected exceptions have already been "
 "reported so we only show error reporting dialog once for each."
@@ -3456,7 +3599,7 @@ msgstr ""
 "été rapportées ainsi nous affichons uniquement une boîte de dialogue "
 "rapportant les erreurs une fois par erreur."
 
-#: src/guimgr/prefs.py:453
+#: src/guimgr/prefs.py:457
 msgid ""
 "Maximum number of non-sticky (auto-closing) editors to keep open at one "
 "time, in addition to any that are visible on screen"
@@ -3464,29 +3607,29 @@ msgstr ""
 "Nombre maximum d'éditeurs temporaires (auto-fermés) à garder ouvert en même "
 "temps, en plus de ceux qui sont visibles à l'écran"
 
-#: src/guimgr/prefs.py:460
+#: src/guimgr/prefs.py:464
 msgid "Email address to use by default in the Feedback and Bug Report dialogs"
 msgstr ""
 "Adresse mail à utiliser par défaut dans les boites de dialogues de retour "
 "d'expériences et de rapport de bugs"
 
-#: src/guimgr/prefs.py:465
+#: src/guimgr/prefs.py:469
 msgid "Both Option keys"
 msgstr "Les deux touches Option"
 
-#: src/guimgr/prefs.py:466
+#: src/guimgr/prefs.py:470
 msgid "Left Option key"
 msgstr "Touche Option de gauche"
 
-#: src/guimgr/prefs.py:467
+#: src/guimgr/prefs.py:471
 msgid "Command keys"
 msgstr "Touches de commande"
 
-#: src/guimgr/prefs.py:468
+#: src/guimgr/prefs.py:472
 msgid "No Alt key"
 msgstr "Pas de touche Alt"
 
-#: src/guimgr/prefs.py:472
+#: src/guimgr/prefs.py:476
 msgid ""
 "Selects the key to use as the Alt- modifier in key bindings.  Note that the "
 "Option key is also used to enter characters, such as ® on US keyboards or ] "
@@ -3509,7 +3652,7 @@ msgstr ""
 "écrasera les raccourcis clavierpour les touches-Commandes pour la même "
 "touche."
 
-#: src/guimgr/prefs.py:485
+#: src/guimgr/prefs.py:489
 msgid ""
 "Specifies whether plain Alt keystrokes should be used only for accelerators. "
 "When enabled, Alt-key presses that could be for an accelerator will be used "
@@ -3526,7 +3669,7 @@ msgstr ""
 "Wing fonctionne avec un style d’affichage natif pour OS X, puisque dans ce "
 "cas les accélérateurs n’existent pas."
 
-#: src/guimgr/prefs.py:495
+#: src/guimgr/prefs.py:499
 msgid ""
 "Controls whether names are sorted case sensitively (with all caps preceding "
 "small letters) or case insensitively"
@@ -3534,7 +3677,7 @@ msgstr ""
 "Contrôle si les noms sont triés en étant sensibles à la casse (avec toutes "
 "les majuscules précédant les minuscules) ou insensible à la casse"
 
-#: src/guimgr/prefs.py:501
+#: src/guimgr/prefs.py:505
 msgid ""
 "Controls whether \"Search in Files\" dialog has an extra row of visible "
 "options as buttons."
@@ -3542,19 +3685,19 @@ msgstr ""
 "Contrôle si la boîte de dialogue \"Chercher dans fichiers\" a une ligne "
 "supplémentaire d'options visibles en boutons."
 
-#: src/guimgr/prefs.py:507
+#: src/guimgr/prefs.py:511
 msgid "Use Default for OS"
 msgstr "Utiliser la valeur par défaut pour l’OS"
 
-#: src/guimgr/prefs.py:508
+#: src/guimgr/prefs.py:512
 msgid "Use for Copy/Cut/Paste"
 msgstr "Utiliser pour copier/couper/Coller"
 
-#: src/guimgr/prefs.py:509
+#: src/guimgr/prefs.py:513
 msgid "Use for VI Native Actions"
 msgstr "Utiliser pour les actions natives de VI"
 
-#: src/guimgr/prefs.py:512
+#: src/guimgr/prefs.py:516
 msgid ""
 "Controls the behavior of the Ctrl-X/C/V key bindings in vi mode.  Either "
 "always use these for cut/copy/paste, use them for vi native actions such as "
@@ -3567,7 +3710,7 @@ msgstr ""
 "les paramètres par défaut du système (presse-papier sur win32 et d'autres "
 "commandes ailleurs)."
 
-#: src/guimgr/prefs.py:522
+#: src/guimgr/prefs.py:526
 msgid ""
 "Controls whether to automatically move keyboard focus from the editor to "
 "tools when they are revealed."
@@ -3575,58 +3718,69 @@ msgstr ""
 "Contrôle si le focus du clavier est automatiquement déplacé de l'éditeur "
 "vers les outils lorsqu'ils sont révélés."
 
-#: src/guimgr/prefs.py:528
+#: src/guimgr/prefs.py:532
 msgid "File Operations"
 msgstr "Opérations de fichiers"
 
-#: src/guimgr/prefs.py:529
+#: src/guimgr/prefs.py:533
 msgid "Clipboard"
 msgstr "Presse-papier"
 
-#: src/guimgr/prefs.py:530
+#: src/guimgr/prefs.py:534
 msgid "Selections"
 msgstr "Sélections"
 
-#: src/guimgr/prefs.py:533
+#: src/guimgr/prefs.py:537
 msgid "Indentation"
 msgstr "Indentation"
 
-#: src/guimgr/prefs.py:534
+#: src/guimgr/prefs.py:538
 msgid "Project Management"
 msgstr "Gestion de projet"
 
-#: src/guimgr/prefs.py:543
+#: src/guimgr/prefs.py:547
 msgid "Bookmarks"
 msgstr "Signets"
 
-#: src/guimgr/prefs.py:546
+#: src/guimgr/prefs.py:550
 msgid "Testing"
 msgstr "Tests"
 
-#: src/guimgr/prefs.py:549
+#: src/guimgr/prefs.py:553
 msgid "Version Control"
 msgstr "Contrôle de version"
 
-#: src/guimgr/prefs.py:552
+#: src/guimgr/prefs.py:556
 msgid "Controls which groups of tools will be shown in the toolbar."
 msgstr "Contrôle quel groupes d'outils seront affichés dans la barre d'outils."
 
-#: src/guimgr/prefs.py:559
+#: src/guimgr/prefs.py:563
 msgid "Extra items to add to the tool bar."
 msgstr "Éléments supplémentaires à ajouter dans la barre d'outils."
 
-#: src/guimgr/prefs.py:561
+#: src/guimgr/prefs.py:565
 msgid "Icon"
 msgstr "Icône"
 
-#: src/guimgr/prefs.py:567
+#: src/guimgr/prefs.py:571
 msgid "Quit application when last document window closes"
 msgstr "Quitter l’application quand la dernière fenêtre de document se ferme"
 
-#: src/guimgr/prefs.py:572
+#: src/guimgr/prefs.py:576
 msgid ""
 "Use key bindings from OS X / macOS keymap for keys not defined in currently "
 "selected keymap"
+msgstr ""
+
+#: src/guimgr/prefs.py:582
+msgid ""
+"Whether to show the menu bar in the window.  When this is False, a menu icon "
+"is added to the top right."
+msgstr ""
+
+#: src/guimgr/prefs.py:588
+msgid ""
+"Internal preference used to remember the last size of the Wing Tips window"
 msgstr ""
 
 #: src/guimgr/reloader.py:98
@@ -3684,15 +3838,15 @@ msgstr "Con_figurer le rechargement"
 msgid "_Compare to Disk"
 msgstr "Comparer au disque"
 
-#: src/guimgr/savemanager.py:46
+#: src/guimgr/savemanager.py:48
 msgid "Use System Default (%s)"
 msgstr "Utiliser les valeurs par défaut (%s)"
 
-#: src/guimgr/savemanager.py:48
+#: src/guimgr/savemanager.py:50
 msgid "Use Preference Setting (%s)"
 msgstr "Utiliser les paramètres des préférences (%s)"
 
-#: src/guimgr/savemanager.py:147
+#: src/guimgr/savemanager.py:149
 msgid ""
 "The file %s has been modified.\n"
 "Save it now?"
@@ -3700,7 +3854,7 @@ msgstr ""
 "Le fichier %s a été modifié.\n"
 "l'enregistrer maintenant ?"
 
-#: src/guimgr/savemanager.py:148
+#: src/guimgr/savemanager.py:150
 msgid ""
 "Save the following files?  The selected files will be saved.  You will be "
 "prompted to name any untitled files:"
@@ -3709,77 +3863,88 @@ msgstr ""
 "sera/seront sauvegardé(s). Vous serez sollicité pour renommer tout fichier "
 "sans nom :"
 
-#: src/guimgr/savemanager.py:171
+#: src/guimgr/savemanager.py:173
 msgid "  (Could not encode)"
 msgstr "  (N'a pas réussi à encoder)"
 
-#: src/guimgr/savemanager.py:174
+#: src/guimgr/savemanager.py:176
 msgid "  (Changing file format)"
 msgstr "  (Changement de format de fichier)"
 
-#: src/guimgr/savemanager.py:177
+#: src/guimgr/savemanager.py:179
 msgid "  (Disk file is newer)"
 msgstr "  (Le fichier du disque est plus récent)"
 
-#: src/guimgr/savemanager.py:180
+#: src/guimgr/savemanager.py:182
 msgid "  (Auto-save restore for unavailable host)"
 msgstr ""
 
-#: src/guimgr/savemanager.py:183
+#: src/guimgr/savemanager.py:185
 msgid "  (Host unavailable)"
 msgstr " (Hôte non disponible)"
 
-#: src/guimgr/savemanager.py:186
+#: src/guimgr/savemanager.py:188
 msgid "  (Write failed)"
 msgstr "  (Écriture échouée)"
 
-#: src/guimgr/savemanager.py:189
+#: src/guimgr/savemanager.py:191
 msgid "  (Remote write pending)"
 msgstr ""
 
-#: src/guimgr/savemanager.py:198 src/guimgr/savemanager.py:764
+#: src/guimgr/savemanager.py:200 src/guimgr/savemanager.py:775
 msgid "Failed to write remote file"
 msgstr "Échec d'écriture du fichier distant"
 
-#: src/guimgr/savemanager.py:199
+#: src/guimgr/savemanager.py:201
 #, fuzzy
 msgid "Failed to write remote file %s.  Exception was: %s - %s"
 msgstr ""
 "Échec d’inspection de l’emplacement distant %s avant d’enregistrer sous"
 
-#: src/guimgr/savemanager.py:231
+#: src/guimgr/savemanager.py:237
 msgid "Could Not Save Remote Files"
 msgstr "N’a pas pu enregistrer les fichiers distants"
 
-#: src/guimgr/savemanager.py:232
+#: src/guimgr/savemanager.py:238
+#, fuzzy
 msgid ""
-"Some remote files could not be saved within 5 seconds.  Please check the "
+"Some remote files could not be saved within {} seconds.  Please check the "
 "network and try again:"
 msgstr ""
 "Quelques fichiers distants n’ont pas pu être sauvegardés en 5 secondes. "
 "Veuillez vérifier votre réseau et essayer à nouveau :"
 
-#: src/guimgr/savemanager.py:283
+#: src/guimgr/savemanager.py:242
+msgid ""
+"The timeout for this is configured with the Network > Hung Connection "
+"Timeout preference."
+msgstr ""
+
+#: src/guimgr/savemanager.py:244
+msgid "OK"
+msgstr "OK"
+
+#: src/guimgr/savemanager.py:290
 msgid "Save Files?"
 msgstr "Enregistrer les fichiers ?"
 
-#: src/guimgr/savemanager.py:285 src/guimgr/savemanager.py:290
+#: src/guimgr/savemanager.py:292 src/guimgr/savemanager.py:297
 msgid "_Save Selected Files"
 msgstr "_Enregistrer le(s) fichier(s) sélectionné(s)"
 
-#: src/guimgr/savemanager.py:286 src/guimgr/savemanager.py:292
+#: src/guimgr/savemanager.py:293 src/guimgr/savemanager.py:299
 msgid "_Don't Save Any Files"
 msgstr "_Ne rien enregistrer"
 
-#: src/guimgr/savemanager.py:304 src/guimgr/savemanager.py:499
+#: src/guimgr/savemanager.py:311 src/guimgr/savemanager.py:506
 msgid "Save Document As"
 msgstr "Enregistrer le document sous"
 
-#: src/guimgr/savemanager.py:418
+#: src/guimgr/savemanager.py:425
 msgid "File is open"
 msgstr "Le fichier est ouvert"
 
-#: src/guimgr/savemanager.py:419
+#: src/guimgr/savemanager.py:426
 msgid ""
 "A file named '%s' is already open for editing.  Please choose a new file  "
 "name or close the file and choose save as again."
@@ -3788,60 +3953,56 @@ msgstr ""
 "nouveau nom de fichier ou fermez le fichier et choisissez de l'enregistrer "
 "sous à nouveau."
 
-#: src/guimgr/savemanager.py:458
+#: src/guimgr/savemanager.py:465
 #, fuzzy
 msgid "Save As Failed"
 msgstr "Enregistrer les fichiers ?"
 
-#: src/guimgr/savemanager.py:459
+#: src/guimgr/savemanager.py:466
 msgid "Failed to inspect remote location %s before save as"
 msgstr ""
 "Échec d’inspection de l’emplacement distant %s avant d’enregistrer sous"
 
-#: src/guimgr/savemanager.py:470
+#: src/guimgr/savemanager.py:477
 msgid "File exists"
 msgstr "Le fichier existe"
 
-#: src/guimgr/savemanager.py:471
+#: src/guimgr/savemanager.py:478
 msgid "A file named '%s' exists.  Do you want to replace it?"
 msgstr "Un fichier nommé '%s' existe. Voulez-vous le remplacer ?"
 
-#: src/guimgr/savemanager.py:637
+#: src/guimgr/savemanager.py:648
 msgid "Failed to write file"
 msgstr "Échec d'écriture du fichier"
 
-#: src/guimgr/savemanager.py:638
+#: src/guimgr/savemanager.py:649
 msgid "Failed to write %s.  Save to another file?"
 msgstr "L'écriture de %s a échouée. Enregistrer dans un autre fichier ?"
 
-#: src/guimgr/savemanager.py:655
+#: src/guimgr/savemanager.py:666
 msgid "Disk file no longer exists"
 msgstr "Le fichier du disque n’existe plus"
 
-#: src/guimgr/savemanager.py:656
+#: src/guimgr/savemanager.py:667
 #, fuzzy
 msgid ""
-"File %s no longer exists on disk. Do you want to save your changes, select "
-"another file to save to, or cancel save?"
+"File %s no longer exists on disk. Do you want to save your changes anyway, "
+"select another file to save to, or cancel save?"
 msgstr ""
 "Le fichier %s est plus récent sur le disque. Voulez-vous écraser les "
 "modifications, abandonner vos modifications et recharger, sélectionner un "
 "autre fichier cible, ou annuler l'enregistrement ?"
 
-#: src/guimgr/savemanager.py:658 src/guimgr/savemanager.py:675
-msgid "_Overwrite"
-msgstr "_Écraser"
-
-#: src/guimgr/savemanager.py:659 src/guimgr/savemanager.py:677
-#: src/guimgr/savemanager.py:693 src/guimgr/savemanager.py:706
+#: src/guimgr/savemanager.py:670 src/guimgr/savemanager.py:688
+#: src/guimgr/savemanager.py:704 src/guimgr/savemanager.py:717
 msgid "Another _File"
 msgstr "Un autre _fichier"
 
-#: src/guimgr/savemanager.py:664
+#: src/guimgr/savemanager.py:675
 msgid "Disk file is older"
 msgstr "Le fichier du disque est plus ancien"
 
-#: src/guimgr/savemanager.py:665
+#: src/guimgr/savemanager.py:676
 #, fuzzy
 msgid ""
 "File %s is older on disk than when it was opened in the editor. Do you want "
@@ -3852,11 +4013,11 @@ msgstr ""
 "modifications, abandonner vos modifications et recharger, sélectionner un "
 "autre fichier cible, ou annuler l'enregistrement ?"
 
-#: src/guimgr/savemanager.py:670
+#: src/guimgr/savemanager.py:681
 msgid "Disk file is newer"
 msgstr "Le fichier du disque est plus récent"
 
-#: src/guimgr/savemanager.py:671
+#: src/guimgr/savemanager.py:682
 #, fuzzy
 msgid ""
 "File %s is newer on disk. Do you want to overwrite changes, abandon your "
@@ -3866,20 +4027,24 @@ msgstr ""
 "modifications, abandonner vos modifications et recharger, sélectionner un "
 "autre fichier cible, ou annuler l'enregistrement ?"
 
-#: src/guimgr/savemanager.py:674
+#: src/guimgr/savemanager.py:685
 msgid "Com_pare to Disk"
 msgstr "Comparer au disque"
 
-#: src/guimgr/savemanager.py:676
+#: src/guimgr/savemanager.py:686
+msgid "_Overwrite"
+msgstr "_Écraser"
+
+#: src/guimgr/savemanager.py:687
 msgid "_Abandon"
 msgstr "_Abandonner"
 
-#: src/guimgr/savemanager.py:688
+#: src/guimgr/savemanager.py:699
 #, fuzzy
 msgid "Auto-Save Restore for Remote Host"
 msgstr "Auto-enregistrement des fichiers avant débogage ou Exécution"
 
-#: src/guimgr/savemanager.py:689
+#: src/guimgr/savemanager.py:700
 msgid ""
 "File %s was restored from auto-save while the remote host '%s' was "
 "unavailable.  You may need to switch projects to access the remote host "
@@ -3887,15 +4052,15 @@ msgid ""
 "cancel save?"
 msgstr ""
 
-#: src/guimgr/savemanager.py:692
+#: src/guimgr/savemanager.py:703
 msgid "_Save Now"
 msgstr "Enregistrer maintenant"
 
-#: src/guimgr/savemanager.py:702
+#: src/guimgr/savemanager.py:713
 msgid "Could Not Write to Remote Host"
 msgstr "N’a pas pu écrire sur l’hôte distant"
 
-#: src/guimgr/savemanager.py:703
+#: src/guimgr/savemanager.py:714
 #, fuzzy
 msgid ""
 "File %s could not be saved because host '%s' is unavailable.  Do you want to "
@@ -3905,19 +4070,19 @@ msgstr ""
 "modifications, abandonner vos modifications et recharger, sélectionner un "
 "autre fichier cible, ou annuler l'enregistrement ?"
 
-#: src/guimgr/savemanager.py:705
+#: src/guimgr/savemanager.py:716
 msgid "_Try Again"
 msgstr "Essayer à nouveau"
 
-#: src/guimgr/savemanager.py:714
+#: src/guimgr/savemanager.py:725
 msgid "Different file format"
 msgstr "Format de fichier différent"
 
-#: src/guimgr/savemanager.py:719
+#: src/guimgr/savemanager.py:730
 msgid "File %s doesn't match the file format being written."
 msgstr "Le fichier %s ne correspond pas au format de fichier écrit."
 
-#: src/guimgr/savemanager.py:721
+#: src/guimgr/savemanager.py:732
 msgid ""
 " Do you want to write changes to this file, select another target file, or "
 "cancel the save?"
@@ -3925,44 +4090,44 @@ msgstr ""
 " Voulez-vous écrire les modifications dans ce fichier, sélectionner un autre "
 "fichier cible, ou annuler l'enregistrement ?"
 
-#: src/guimgr/savemanager.py:723
+#: src/guimgr/savemanager.py:734
 msgid "O_verwrite"
 msgstr "E_craser"
 
-#: src/guimgr/savemanager.py:724
+#: src/guimgr/savemanager.py:735
 msgid "_Another File"
 msgstr "Un _autre fichier"
 
-#: src/guimgr/savemanager.py:732
+#: src/guimgr/savemanager.py:743
 msgid "Could not encode file contents"
 msgstr "Impossible d'encoder le contenu du fichier"
 
-#: src/guimgr/savemanager.py:737
+#: src/guimgr/savemanager.py:748
 msgid "Could not encode."
 msgstr "Impossible d'encoder."
 
-#: src/guimgr/savemanager.py:738
+#: src/guimgr/savemanager.py:749
 msgid "_Save using Specified Encoding"
 msgstr "_Enregistrer en utilisant un encodage spécifié"
 
-#: src/guimgr/savemanager.py:765
+#: src/guimgr/savemanager.py:776
 #, fuzzy
 msgid "Failed to write remote %s.  Save to another file?"
 msgstr "L'écriture de %s a échouée. Enregistrer dans un autre fichier ?"
 
-#: src/guimgr/savemanager.py:789
+#: src/guimgr/savemanager.py:800
 msgid "Failed to Save As"
 msgstr "Échec d’\"Enregistrer sous\""
 
-#: src/guimgr/savemanager.py:790
+#: src/guimgr/savemanager.py:801
 msgid "Failed to write %s. You have closed the editor window!"
 msgstr "Échec d'écriture de %s. Vous avez fermé la fenêtre de l'éditeur !"
 
-#: src/guimgr/savemanager.py:803
+#: src/guimgr/savemanager.py:814
 msgid "Conflicting Filenames"
 msgstr "Conflit de noms de fichier"
 
-#: src/guimgr/savemanager.py:804
+#: src/guimgr/savemanager.py:815
 msgid ""
 "The file %s is open in another editor.  Please specify another file name to "
 "save to."
@@ -3970,33 +4135,52 @@ msgstr ""
 "Le fichier %s est ouvert dans un autre éditeur. Veuillez spécifier un autre "
 "nom de fichier pour l'enregistrer."
 
-#: src/guimgr/toolbar_qt.py:866
+#: src/guimgr/toolbar_qt.py:882
 msgid "Icon Size"
 msgstr "Taille d'icône"
 
-#: src/guimgr/toolbar_qt.py:875
+#: src/guimgr/toolbar_qt.py:891
 msgid "Tool Style"
 msgstr "Style d'outil"
 
-#: src/guimgr/toolbar_qt.py:882
+#: src/guimgr/toolbar_qt.py:898
 msgid "Show Tool Tips"
 msgstr "Afficher les bulles d'aide"
 
-#: src/guimgr/toolbar_qt.py:892
+#: src/guimgr/toolbar_qt.py:908
 msgid "Hide this Group"
 msgstr "Masquer ce groupe"
 
-#: src/guimgr/toolbar_qt.py:905
+#: src/guimgr/toolbar_qt.py:921
 msgid "Groups Shown"
 msgstr "Groupes affichés"
 
-#: src/guimgr/toolbar_qt.py:909
+#: src/guimgr/toolbar_qt.py:925
 msgid "Customize Toolbar..."
 msgstr "Personnaliser la barre d'outils..."
 
 #: src/guimgr/wingtips.py:85
 msgid "Show at startup"
 msgstr "Afficher au démarrage"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
+
+#~ msgid "Clear _Main Debug File"
+#~ msgstr "Effacer le fichier _principal de débogage"
+
+#~ msgid "P_DF Documentation"
+#~ msgstr "Documentation P_DF"
+
+#~ msgid "_Tutorial"
+#~ msgstr "_Tutoriel"
+
+#, fuzzy
+#~ msgid "Remove All Warnings in File"
+#~ msgstr "Enlever les signets dans ce fichier"
+
+#~ msgid "One Window per Editor"
+#~ msgstr "Une fenêtre par éditeur"
 
 #~ msgid "_Pause"
 #~ msgstr "_Pause"
@@ -4132,9 +4316,6 @@ msgstr "Afficher au démarrage"
 #~ msgid "Please also"
 #~ msgstr "S'il vous plaît aussi"
 
-#~ msgid "Don't show this notice again"
-#~ msgstr "Ne pas afficher cette note à nouveau"
-
 #~ msgid ""
 #~ "This document is non-transient and will remain open until closed "
 #~ "explicitly.  Click the stick pin icon to auto-close it when hidden."
@@ -4149,9 +4330,6 @@ msgstr "Afficher au démarrage"
 #~ msgstr ""
 #~ "Ce document est temporaire et sera fermé lorsqu'il sera masqué. Cliquez "
 #~ "sur l'icône de la punaise pour le garder ouvert."
-
-#~ msgid "Use Windows Defaults"
-#~ msgstr "Utiliser Windows par défaut"
 
 #~ msgid "Use System Default Theme"
 #~ msgstr "Utiliser le Thème par défaut"

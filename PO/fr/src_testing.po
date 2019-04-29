@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.2.4\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
 "PO-Revision-Date: 2018-08-25 22:39+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
@@ -197,11 +197,13 @@ msgid "Are you sure you want to clear all the stored test results?"
 msgstr "Êtes-vous sûr de vouloir effacer tous les résultats de tests stockés ?"
 
 #: src/testing/cap_testinggui.py:1044
-msgid "Clear All"
+#, fuzzy
+msgid "Clear _All"
 msgstr "Tout effacer"
 
 #: src/testing/cap_testinggui.py:1045
-msgid "Cancel"
+#, fuzzy
+msgid "_Cancel"
 msgstr "Annuler"
 
 #: src/testing/cap_testinggui.py:1094
@@ -329,94 +331,109 @@ msgstr "Tests"
 msgid "Unit Tests"
 msgstr "Tests unitaires"
 
-#: src/testing/manager.py:879
+#: src/testing/manager.py:895
 msgid "Automatically Ignored Exceptions"
 msgstr "Exceptions automatiquement ignorées"
 
-#: src/testing/manager.py:880
+#: src/testing/manager.py:896
 msgid ""
-"I've automatically ignored some intermediate exception reports to get you "
-"directly to the exception in your pytest code.  These will be remembered in "
-"your project."
+"Wing has automatically ignored some intermediate exception reports to get "
+"you directly to the exception in your pytest code.  These will be remembered "
+"in your project."
 msgstr ""
 
-#: src/testing/manager.py:885
-msgid "OK"
+#: src/testing/manager.py:901
+#, fuzzy
+msgid "_OK"
 msgstr "OK"
 
 #: src/testing/proppanels.py:33
-msgid "Test file patterns"
-msgstr "Modèles de fichier de test"
-
-#: src/testing/proppanels.py:37
-msgid "Pattern Type"
-msgstr "Type de modèle"
-
-#: src/testing/proppanels.py:38
-msgid "Pattern"
-msgstr "Modèle"
-
-#: src/testing/proppanels.py:50
 msgid "Default Test Framework"
 msgstr "Framework de test par défaut"
 
-#: src/testing/proppanels.py:58 src/testing/proppanels.py:122
+#: src/testing/proppanels.py:37
+msgid "Test file patterns"
+msgstr "Modèles de fichier de test"
+
+#: src/testing/proppanels.py:41
+msgid "Pattern Type"
+msgstr "Type de modèle"
+
+#: src/testing/proppanels.py:42
+msgid "Pattern"
+msgstr "Modèle"
+
+#: src/testing/proppanels.py:60 src/testing/proppanels.py:185
 msgid "Environment"
 msgstr "Environnement"
 
-#: src/testing/proppanels.py:64
+#: src/testing/proppanels.py:66
 msgid "Process Model"
 msgstr "Modèle de process"
 
-#: src/testing/proppanels.py:68
+#: src/testing/proppanels.py:70
 msgid "Number of Processes"
 msgstr "Nombre de process"
 
-#: src/testing/proppanels.py:72
+#: src/testing/proppanels.py:74
 msgid "Run As Package Modules"
 msgstr ""
 
-#: src/testing/proppanels.py:77
+#: src/testing/proppanels.py:79
 msgid "Save In Project File"
 msgstr "Enregistrer dans le fichier projet"
 
-#: src/testing/proppanels.py:81 src/testing/proppanels.py:128
+#: src/testing/proppanels.py:83 src/testing/proppanels.py:192
 msgid "_Testing"
 msgstr "Tests"
 
-#: src/testing/proppanels.py:93
+#: src/testing/proppanels.py:138
+msgid "For Django you must add a test file pattern for manage.py"
+msgstr ""
+
+#: src/testing/proppanels.py:140
+msgid "Django testing will ignore test files other than manage.py"
+msgstr ""
+
+#: src/testing/proppanels.py:155
 msgid "Default (%s)"
 msgstr "Par défaut (%s)"
 
-#: src/testing/proppanels.py:97
+#: src/testing/proppanels.py:158
 msgid "Test Framework"
 msgstr "Framework de test"
 
-#: src/testing/proppanels.py:107
+#: src/testing/proppanels.py:170
 msgid "Use Project Setting and Run Args:"
 msgstr "Utiliser les paramètres du projet et lancer les arguments :"
 
-#: src/testing/proppanels.py:108
+#: src/testing/proppanels.py:171
 msgid ""
 "Use the testing configuration from Project Properties with the specified run "
 "arguments"
 msgstr ""
 
-#: src/testing/proppanels.py:110
+#: src/testing/proppanels.py:173
 msgid "Use Selected Launch Configuration:"
 msgstr "Utiliser le lancement de configuration sélectionné :"
 
-#: src/testing/proppanels.py:111
+#: src/testing/proppanels.py:174
 msgid "Select a custom launch configuration for testing this file"
 msgstr ""
 "Sélectionner un lancement de configuration personnalisé pour tester ce "
 "fichier"
 
-#: src/testing/proppanels.py:114
+#: src/testing/proppanels.py:177
 msgid ""
 "The environment to use when running this file as a unit test.  Either select "
 "a launch configuration, or use the given run arguments with the project-"
 "specified environment."
+msgstr ""
+
+#: src/testing/proppanels.py:209
+msgid ""
+"Setting testing framework to Django has not effect for files other than "
+"manage.py"
 msgstr ""
 
 #: src/testing/runtests.py:228
@@ -443,19 +460,19 @@ msgstr ""
 msgid "Test process aborted: some tests were not run"
 msgstr "Process de test interrompu : des tests n’ont pas été exécutés"
 
-#: src/testing/runtests.py:662 src/testing/runtests.py:666
+#: src/testing/runtests.py:664 src/testing/runtests.py:668
 msgid "Test process suddenly quit while running %s"
 msgstr "Le process de test a quitté soudainement durant l’exécution de %s"
 
-#: src/testing/runtests.py:664
+#: src/testing/runtests.py:666
 msgid " in %s"
 msgstr " dans %s"
 
-#: src/testing/runtests.py:674
+#: src/testing/runtests.py:676
 msgid "Could not execute test runner"
 msgstr ""
 
-#: src/testing/runtests.py:681
+#: src/testing/runtests.py:683
 msgid "Could not read any output from test runner"
 msgstr ""
 

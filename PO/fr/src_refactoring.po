@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.0\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
 "PO-Revision-Date: 2016-11-01 21:40+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
 "Language-Team: None\n"
@@ -16,225 +16,287 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: src/refactoring/cap_refactorgui.py:78
+#: src/refactoring/cap_refactorgui.py:81
 msgid "_Rename Symbol"
 msgstr "_Renommer le symbole"
 
-#: src/refactoring/cap_refactorgui.py:79
+#: src/refactoring/cap_refactorgui.py:82
 msgid "_Move Symbol"
 msgstr "_Déplacer le symbole"
 
-#: src/refactoring/cap_refactorgui.py:80
+#: src/refactoring/cap_refactorgui.py:83
 msgid "E_xtract Function / Method"
 msgstr "E_xtraire une fonction / méthode"
 
-#: src/refactoring/cap_refactorgui.py:81 src/refactoring/cap_refactorgui.py:619
+#: src/refactoring/cap_refactorgui.py:84
+#: src/refactoring/cap_refactorgui.py:774
 msgid "_Introduce Variable"
 msgstr "_Introduire une variable"
 
-#: src/refactoring/cap_refactorgui.py:83
+#: src/refactoring/cap_refactorgui.py:86
 msgid "Symbol to _lowerCamelCase"
 msgstr ""
 
-#: src/refactoring/cap_refactorgui.py:84
+#: src/refactoring/cap_refactorgui.py:87
 msgid "Symbol to _UpperCamelCase"
 msgstr ""
 
-#: src/refactoring/cap_refactorgui.py:85
+#: src/refactoring/cap_refactorgui.py:88
 msgid "Symbol to under_scored_name"
 msgstr ""
 
-#: src/refactoring/cap_refactorgui.py:86
+#: src/refactoring/cap_refactorgui.py:89
 msgid "Symbol to UNDER_SCORED_NAME"
 msgstr ""
 
-#: src/refactoring/cap_refactorgui.py:162
+#: src/refactoring/cap_refactorgui.py:165
 msgid "Select code to refactor in the editor and then use the Refactor menu"
 msgstr ""
 "Sélectionner le code à refactoriser dans l'éditeur puis utiliser le menu "
 "Refactoriser"
 
-#: src/refactoring/cap_refactorgui.py:174
+#: src/refactoring/cap_refactorgui.py:191
+msgid "Scan for Existing Names"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:194
 msgid "Show Refactoring Documentation"
 msgstr "Afficher la documentation de Refactorisation"
 
-#: src/refactoring/cap_refactorgui.py:409
-#: src/refactoring/cap_refactorgui.py:617
+#: src/refactoring/cap_refactorgui.py:502
+msgid "Name Already Exists"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:504
+msgid "The name %s is already defined in the top level scope."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:506
+msgid "The name %s is already defined in %s."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:508
+msgid "Name Masks Enclosing Scope"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:510
+msgid "The name %s is already defined in the enclosing top level scope."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:513
+msgid "The name %s is already defined in the enclosing scope %s."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:514
+msgid ""
+"Completing this operation will cause the existing uses of %s in %s to refer "
+"instead to the newly introduced symbol."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:520
+msgid "Scan for existing names"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:524
+msgid "_Cancel"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:543
+#: src/refactoring/cap_refactorgui.py:772
 msgid "_Name: "
 msgstr "_Nom : "
 
-#: src/refactoring/cap_refactorgui.py:412
+#: src/refactoring/cap_refactorgui.py:546
 msgid "_Toplevel Function"
 msgstr "_Fonction de haut-niveau"
 
-#: src/refactoring/cap_refactorgui.py:415
+#: src/refactoring/cap_refactorgui.py:549
 msgid "_Method"
 msgstr "Méthode"
 
-#: src/refactoring/cap_refactorgui.py:418
+#: src/refactoring/cap_refactorgui.py:552
 msgid "N_ested Function"
 msgstr "Fonction Imbriquée"
 
-#: src/refactoring/cap_refactorgui.py:426
+#: src/refactoring/cap_refactorgui.py:560
 msgid "E_xtract"
 msgstr "E_xtraire"
 
-#: src/refactoring/cap_refactorgui.py:428
-#: src/refactoring/cap_refactorgui.py:621
-#: src/refactoring/cap_refactorgui.py:1024
+#: src/refactoring/cap_refactorgui.py:562
+#: src/refactoring/cap_refactorgui.py:776
+#: src/refactoring/cap_refactorgui.py:1196
 msgid "_Revert"
 msgstr "_Revenir"
 
-#: src/refactoring/cap_refactorgui.py:462
-#: src/refactoring/cap_refactorgui.py:670
-#: src/refactoring/cap_refactorgui.py:942
-#: src/refactoring/cap_refactorgui.py:1108
+#: src/refactoring/cap_refactorgui.py:596
+#: src/refactoring/cap_refactorgui.py:825
+#: src/refactoring/cap_refactorgui.py:1109
+#: src/refactoring/cap_refactorgui.py:1284
 msgid "Revert all changes?"
 msgstr "Revenir sur toutes les modifications ?"
 
-#: src/refactoring/cap_refactorgui.py:463
-#: src/refactoring/cap_refactorgui.py:671
-#: src/refactoring/cap_refactorgui.py:943
-#: src/refactoring/cap_refactorgui.py:1109
+#: src/refactoring/cap_refactorgui.py:597
+#: src/refactoring/cap_refactorgui.py:826
+#: src/refactoring/cap_refactorgui.py:1110
+#: src/refactoring/cap_refactorgui.py:1285
 msgid "Other changes were made to files.  Revert them all?"
 msgstr ""
 "D'autres modifications ont été apportées aux fichiers. Revenir sur toutes "
 "celles-ci ?"
 
-#: src/refactoring/cap_refactorgui.py:520
+#: src/refactoring/cap_refactorgui.py:634
+#, fuzzy
+msgid "_Extract Anyway"
+msgstr "E_xtraire"
+
+#: src/refactoring/cap_refactorgui.py:675
 msgid "line %s"
 msgstr "ligne %s"
 
-#: src/refactoring/cap_refactorgui.py:522
+#: src/refactoring/cap_refactorgui.py:677
 msgid "lines %s through %s"
 msgstr "des lignes %s à %s"
 
-#: src/refactoring/cap_refactorgui.py:524
+#: src/refactoring/cap_refactorgui.py:679
 msgid "Extracting %s"
 msgstr "Extraction %s"
 
-#: src/refactoring/cap_refactorgui.py:549
+#: src/refactoring/cap_refactorgui.py:704
 msgid "Extract function / method"
 msgstr "Extraire une fonction / méthode"
 
-#: src/refactoring/cap_refactorgui.py:718
+#: src/refactoring/cap_refactorgui.py:857
+#, fuzzy
+msgid "_Introduce Anyway"
+msgstr "_Introduire une variable"
+
+#: src/refactoring/cap_refactorgui.py:879
 msgid "Introducing Variable for: %s"
 msgstr "Introduit une variable pour : %s"
 
-#: src/refactoring/cap_refactorgui.py:724
+#: src/refactoring/cap_refactorgui.py:885
 msgid "Introduce Variable"
 msgstr "Introduire une variable"
 
-#: src/refactoring/cap_refactorgui.py:812
+#: src/refactoring/cap_refactorgui.py:973
 msgid "Refresh"
 msgstr "Rafraîchir"
 
-#: src/refactoring/cap_refactorgui.py:814
+#: src/refactoring/cap_refactorgui.py:975
 msgid "Show Possible Uses"
 msgstr "Afficher les utilisations possibles"
 
-#: src/refactoring/cap_refactorgui.py:816
+#: src/refactoring/cap_refactorgui.py:977
 msgid "Show Unlikely Uses"
 msgstr "Afficher les utilisations improbables"
 
-#: src/refactoring/cap_refactorgui.py:822
+#: src/refactoring/cap_refactorgui.py:983
 msgid "Search Project Files"
 msgstr "Chercher dans les fichiers projets"
 
-#: src/refactoring/cap_refactorgui.py:824
+#: src/refactoring/cap_refactorgui.py:985
 msgid "Search for uses in all Python files in the project"
 msgstr ""
 "Rechercher les utilisations dans tous les fichiers Python dans le projet"
 
-#: src/refactoring/cap_refactorgui.py:828
+#: src/refactoring/cap_refactorgui.py:989
 msgid "Search Original File"
 msgstr "Chercher dans le fichier Original"
 
-#: src/refactoring/cap_refactorgui.py:830
+#: src/refactoring/cap_refactorgui.py:991
 msgid "Search for uses in the file where the symbol was selected"
 msgstr ""
 "Rechercher les utilisations dans le fichier où le symbole était sélectionné"
 
-#: src/refactoring/cap_refactorgui.py:845
+#: src/refactoring/cap_refactorgui.py:1006
 msgid "Searching..."
 msgstr "En recherche..."
 
-#: src/refactoring/cap_refactorgui.py:890
+#: src/refactoring/cap_refactorgui.py:1051
 msgid "New _Name: "
 msgstr "Nouveau _Nom : "
 
-#: src/refactoring/cap_refactorgui.py:892
+#: src/refactoring/cap_refactorgui.py:1053
 msgid "_Rename Checked"
 msgstr "_Renommage vérifié"
 
-#: src/refactoring/cap_refactorgui.py:896
+#: src/refactoring/cap_refactorgui.py:1057
 msgid "Revert"
 msgstr "Revenir"
 
-#: src/refactoring/cap_refactorgui.py:921
-#: src/refactoring/cap_refactorgui.py:936
+#: src/refactoring/cap_refactorgui.py:1087
+#: src/refactoring/cap_refactorgui.py:1103
 msgid "Rename in progress"
 msgstr "Renommage en cours"
 
-#: src/refactoring/cap_refactorgui.py:922
+#: src/refactoring/cap_refactorgui.py:1088
 msgid "Renaming %s to %s"
 msgstr "Renomme %s en %s"
 
-#: src/refactoring/cap_refactorgui.py:934
+#: src/refactoring/cap_refactorgui.py:1091
+#, fuzzy
+msgid "_Rename Anyway"
+msgstr "Renommer "
+
+#: src/refactoring/cap_refactorgui.py:1101
 msgid "Reverting renaming %s to %s"
 msgstr "Revenir sur le renommage de %s à %s"
 
-#: src/refactoring/cap_refactorgui.py:978
+#: src/refactoring/cap_refactorgui.py:1145
 msgid "Rename "
 msgstr "Renommer "
 
-#: src/refactoring/cap_refactorgui.py:984
+#: src/refactoring/cap_refactorgui.py:1151
 msgid "<module global scope>"
 msgstr "<portée du module global>"
 
-#: src/refactoring/cap_refactorgui.py:995
+#: src/refactoring/cap_refactorgui.py:1162
 msgid "Destination"
 msgstr "Destination"
 
-#: src/refactoring/cap_refactorgui.py:1005
+#: src/refactoring/cap_refactorgui.py:1176
 msgid "Destination File"
 msgstr "Fichier de Destination"
 
-#: src/refactoring/cap_refactorgui.py:1007
+#: src/refactoring/cap_refactorgui.py:1178
 msgid "_File: "
 msgstr "_Fichier : "
 
-#: src/refactoring/cap_refactorgui.py:1018
+#: src/refactoring/cap_refactorgui.py:1190
 msgid "_Scope:"
 msgstr "_Portée :"
 
-#: src/refactoring/cap_refactorgui.py:1020
+#: src/refactoring/cap_refactorgui.py:1192
 msgid "_Move & Update Checked"
 msgstr "_Déplacement & mise à jour vérifiés"
 
-#: src/refactoring/cap_refactorgui.py:1065 src/refactoring/utils.py:148
+#: src/refactoring/cap_refactorgui.py:1237 src/refactoring/utils.py:148
 msgid " in "
 msgstr " dans "
 
-#: src/refactoring/cap_refactorgui.py:1069
+#: src/refactoring/cap_refactorgui.py:1241
 msgid "moving %s to %s"
 msgstr "déplace %s vers %s"
 
-#: src/refactoring/cap_refactorgui.py:1090
-#: src/refactoring/cap_refactorgui.py:1102
+#: src/refactoring/cap_refactorgui.py:1264
+#: src/refactoring/cap_refactorgui.py:1278
 msgid "Move in progress"
 msgstr "Déplacement en cours"
 
-#: src/refactoring/cap_refactorgui.py:1101
+#: src/refactoring/cap_refactorgui.py:1266
+msgid "_Move Anyway"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1277
 msgid "Reverting "
 msgstr "En train de revenir "
 
-#: src/refactoring/cap_refactorgui.py:1157
+#: src/refactoring/cap_refactorgui.py:1333
 msgid "Move "
 msgstr "Déplacer "
 
-#: src/refactoring/cap_refactorgui.py:1196
-#: src/refactoring/cap_refactorgui.py:1201
+#: src/refactoring/cap_refactorgui.py:1372
+#: src/refactoring/cap_refactorgui.py:1377
 msgid "Refactoring"
 msgstr "Refactorisation"
 
@@ -243,6 +305,13 @@ msgid "Can't introduce variable because original expression is not valid"
 msgstr ""
 "Ne peut pas introduire de variable car l’expression originale n’est pas "
 "valide"
+
+#: src/refactoring/prefs.py:19
+msgid ""
+"Controls whether Wing will scan for existing uses of a target symbol before "
+"applying a refactoring operation.  When disabled, a rename or move may use "
+"the same name as an existing symbol."
+msgstr ""
 
 #: src/refactoring/utils.py:111
 msgid "module %s"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-03-21 10:15+EDT\n"
+"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
 "PO-Revision-Date: 2016-12-15 07:08+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez@protonmail.com>\n"
 "Language-Team: None\n"
@@ -73,7 +73,8 @@ msgstr ""
 "ssh://hostname/path/to/file"
 
 #: src/proj/commands.py:129 src/proj/commands.py:141 src/proj/commands.py:153
-msgid "OK"
+#, fuzzy
+msgid "_OK"
 msgstr "OK"
 
 #: src/proj/commands.py:137
@@ -129,7 +130,7 @@ msgstr " Ajouter le fichier actuellement ouvert le plus en avant au projet"
 msgid " Remove directory from project. "
 msgstr " Enlever le répertoire du projet"
 
-#: src/proj/commands.py:232 src/proj/commands.py:489
+#: src/proj/commands.py:232 src/proj/commands.py:496
 msgid " Remove currently selected file or package from the project "
 msgstr " Enlever le fichier actuellement sélectionné ou le paquet du projet"
 
@@ -179,27 +180,29 @@ msgstr ""
 "dans l'outil de projet -- le fichier %s n'est pas dans le projet"
 
 #: src/proj/commands.py:304
-msgid ""
-" Set current editor file as the main debug entry point for this project "
+#, fuzzy
+msgid " Set current editor file as the main entry point for this project "
 msgstr ""
 "  Affecter le fichier courant de l'éditeur comme point d'entrée principal de "
 "débogage pour ce projet"
 
 #: src/proj/commands.py:316
+#, fuzzy
 msgid ""
-" Clear main debug entry point to nothing, so that debugging runs the\n"
-"    file in the current editor by default "
+" Clear main entry point to nothing, so that debugging and execution starts "
+"with the\n"
+"    file in the current editor"
 msgstr ""
 " Effacer le point d’entrée principal de débogage principal à rien,\n"
 "   ainsi le débogage lance la fichier dans l’éditeur actuel par défaut "
 
-#: src/proj/commands.py:325
+#: src/proj/commands.py:329
 msgid ""
 " Store project single-user (one file) format, which can also be read by Wing "
 "Personal."
 msgstr ""
 
-#: src/proj/commands.py:333
+#: src/proj/commands.py:337
 msgid ""
 " Store project in sharable (two file) format.  The .wpr file can be checked "
 "into revision\n"
@@ -208,11 +211,11 @@ msgid ""
 "      cannot be read by Wing Personal."
 msgstr ""
 
-#: src/proj/commands.py:343
+#: src/proj/commands.py:347
 msgid "View or change project-wide properties"
 msgstr "Voir ou modifier les propriétés de l'ensemble du projet"
 
-#: src/proj/commands.py:354
+#: src/proj/commands.py:358
 msgid ""
 "View project properties for a particular file (current file if none\n"
 "    is given)"
@@ -220,64 +223,65 @@ msgstr ""
 "Voir les propriétés du projet pour un fichier particulier (le fichier\n"
 "    actuel si none est donné)"
 
-#: src/proj/commands.py:393
+#: src/proj/commands.py:397
 msgid "Show the project manager's directory properties dialog"
 msgstr ""
 "Afficher la boite de dialogue des propriétés du répertoire du gestionnaire "
 "de projets"
 
-#: src/proj/commands.py:406
+#: src/proj/commands.py:410
 msgid ""
 "Show the effective Python version and path for the current configuration"
 msgstr ""
 "Affiche la version effective de Python et le chemin pour la configuration "
 "actuelle"
 
-#: src/proj/commands.py:410 src/proj/commands.py:496
-msgid " Set selected file as the main debug file for this project "
+#: src/proj/commands.py:414 src/proj/commands.py:503
+#, fuzzy
+msgid " Set selected file as the main entry point for this project "
 msgstr ""
 " Établir le fichier sélectionné comme le fichier de débogage principal pour "
 "ce projet "
 
-#: src/proj/commands.py:417 src/proj/commands.py:503
+#: src/proj/commands.py:424 src/proj/commands.py:513
 msgid " Open files currently selected in the project manager "
 msgstr ""
 " Ouvrir le(s) fichier(s) sélectionné(s) actuellement dans le gestionnaire de "
 "projets"
 
-#: src/proj/commands.py:424 src/proj/commands.py:554
+#: src/proj/commands.py:431 src/proj/commands.py:564
 msgid " Open file currently selected in the project manager "
 msgstr ""
 " Ouvrir le fichier sélectionné actuellement dans le gestionnaire de projets"
 
-#: src/proj/commands.py:431 src/proj/commands.py:561
+#: src/proj/commands.py:438 src/proj/commands.py:571
 msgid " Browse file currently selected in the project manager "
 msgstr ""
 " Parcourir le fichier sélectionné actuellement dans le gestionnaire de "
 "projets"
 
-#: src/proj/commands.py:438 src/proj/commands.py:575
+#: src/proj/commands.py:445 src/proj/commands.py:585
 msgid " Start debugging the file currently selected in the project manager "
 msgstr ""
 " Démarrer le débogage du fichier sélectionné actuellement dans le "
 "gestionnaire de projets"
 
-#: src/proj/commands.py:445 src/proj/commands.py:582
+#: src/proj/commands.py:452 src/proj/commands.py:592
 msgid " Execute the file currently selected in the project manager "
 msgstr ""
 " Exécuter le fichier sélectionné actuellement dans le gestionnaire de projets"
 
-#: src/proj/commands.py:452 src/proj/commands.py:589
+#: src/proj/commands.py:459 src/proj/commands.py:599
 msgid "View project as directory tree from project file"
 msgstr ""
 "Voir le projet comme une arborescence de répertoires depuis le fichier projet"
 
-#: src/proj/commands.py:459 src/proj/commands.py:596
+#: src/proj/commands.py:466 src/proj/commands.py:606
 msgid "View project as flattened directory tree from project file"
 msgstr ""
 "Voir le projet comme une arborescence apaltie depuis le fichier du projet"
 
-#: src/proj/commands.py:473
+#: src/proj/commands.py:480
 msgid ""
 "Commands that are available only when the project view has the\n"
 "    keyboard focus."
@@ -285,33 +289,33 @@ msgstr ""
 "Commandes qui sont disponibles seulement quand la vue du \n"
 "    du projet a le focus sur le clavier."
 
-#: src/proj/commands.py:510
+#: src/proj/commands.py:520
 msgid "Rename the currently selected file or directory in the project view"
 msgstr ""
 "Renommer le fichier ou répertoire sélectionné actuellement dans la vue du "
 "projet"
 
-#: src/proj/commands.py:525
+#: src/proj/commands.py:535
 msgid "New name for the directory"
 msgstr "Nouveau nom pour le répertoire"
 
-#: src/proj/commands.py:526
+#: src/proj/commands.py:536
 msgid "New Directory Name"
 msgstr "Nouveau nom de répertoire"
 
-#: src/proj/commands.py:528
+#: src/proj/commands.py:538
 msgid "New name for the file"
 msgstr "Nouveau nom pour le fichier"
 
-#: src/proj/commands.py:529
+#: src/proj/commands.py:539
 msgid "New File Name"
 msgstr "Nouveau nom de fichier"
 
-#: src/proj/commands.py:544
+#: src/proj/commands.py:554
 msgid "Rename Selected Item in Project"
 msgstr "Renommer l’élément sélectionné dans Projet"
 
-#: src/proj/commands.py:547
+#: src/proj/commands.py:557
 msgid ""
 " Move the files and/or directories currently selected in the project\n"
 "      view to the trash or recycling bin "
@@ -319,7 +323,7 @@ msgstr ""
 " Déplacer les fichiers et/ou répertoires actuellement sélectionnés\n"
 "      dans la vue du projet vers la corbeille"
 
-#: src/proj/commands.py:568
+#: src/proj/commands.py:578
 msgid " Search in file or directory currently selected in the project manager "
 msgstr ""
 " Chercher dans le fichier ou répertoire sélectionné actuellement dans le "

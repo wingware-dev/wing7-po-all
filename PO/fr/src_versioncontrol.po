@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.2.4\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
 "PO-Revision-Date: 2017-01-10 20:56+0100\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
@@ -101,12 +101,12 @@ msgid "Push entire branch"
 msgstr "Pousser la branche entière"
 
 #: src/versioncontrol/cap_bzr.py:380 src/versioncontrol/cap_git.py:972
-#: src/versioncontrol/cap_hg.py:509
+#: src/versioncontrol/cap_hg.py:520
 msgid "Push to"
 msgstr "Pousser vers"
 
 #: src/versioncontrol/cap_bzr.py:381 src/versioncontrol/cap_git.py:973
-#: src/versioncontrol/cap_hg.py:510
+#: src/versioncontrol/cap_hg.py:521
 msgid "_Push"
 msgstr "_Pousser"
 
@@ -128,7 +128,7 @@ msgid "CVS Executable"
 msgstr "Exécutable CVS"
 
 #: src/versioncontrol/cap_cvs.py:110 src/versioncontrol/cap_hg.py:99
-#: src/versioncontrol/cap_perforce.py:440 src/versioncontrol/cap_svn.py:167
+#: src/versioncontrol/cap_perforce.py:444 src/versioncontrol/cap_svn.py:167
 msgid "Extra Global Arguments"
 msgstr "Arguments extra globaux"
 
@@ -298,43 +298,43 @@ msgstr "Pousser les modifications"
 msgid "Remo_ve"
 msgstr "Enle_ver"
 
-#: src/versioncontrol/cap_hg.py:100 src/versioncontrol/cap_perforce.py:441
+#: src/versioncontrol/cap_hg.py:100 src/versioncontrol/cap_perforce.py:445
 msgid "Don't Find Unregistered Files"
 msgstr "Ne trouve pas les fichiers non enregistrés"
 
-#: src/versioncontrol/cap_hg.py:484
+#: src/versioncontrol/cap_hg.py:495
 msgid "Pull All Changes"
 msgstr "Tirer toutes les modifications"
 
-#: src/versioncontrol/cap_hg.py:485
+#: src/versioncontrol/cap_hg.py:496
 msgid "Pull From"
 msgstr "Tirer De"
 
-#: src/versioncontrol/cap_hg.py:486
+#: src/versioncontrol/cap_hg.py:497
 msgid "Pull"
 msgstr "Tirer"
 
-#: src/versioncontrol/cap_hg.py:491
+#: src/versioncontrol/cap_hg.py:502
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: src/versioncontrol/cap_hg.py:508
+#: src/versioncontrol/cap_hg.py:519
 msgid "Push all changes"
 msgstr "Pousser toutes les modifications"
 
-#: src/versioncontrol/cap_hg.py:574 src/versioncontrol/cap_hg.py:587
+#: src/versioncontrol/cap_hg.py:585 src/versioncontrol/cap_hg.py:598
 msgid "Cannot find single hg working directory root"
 msgstr "N'a pas pu trouvé une seule racine de répertoire travaillant avec hg"
 
-#: src/versioncontrol/cap_perforce.py:427
+#: src/versioncontrol/cap_perforce.py:431
 msgid "Perforce Sync"
 msgstr "Synchronisation Perforce"
 
-#: src/versioncontrol/cap_perforce.py:428
+#: src/versioncontrol/cap_perforce.py:432
 msgid "Perforce"
 msgstr "Perforce"
 
-#: src/versioncontrol/cap_perforce.py:439
+#: src/versioncontrol/cap_perforce.py:443
 msgid "Perforce Executable"
 msgstr "Exécutable Perforce"
 
@@ -358,27 +358,27 @@ msgstr "Exécutable SVN"
 msgid "SVN Admin Executable"
 msgstr "Exécutable d'administration SVN"
 
-#: src/versioncontrol/manager.py:489
+#: src/versioncontrol/manager.py:501
 msgid "Tools"
 msgstr "Outils"
 
-#: src/versioncontrol/manager.py:489
+#: src/versioncontrol/manager.py:501
 msgid "Window"
 msgstr "Fenêtre"
 
-#: src/versioncontrol/manager.py:490
+#: src/versioncontrol/manager.py:502
 msgid "Help"
 msgstr "Aide"
 
-#: src/versioncontrol/manager.py:528
+#: src/versioncontrol/manager.py:540
 msgid "Auto-refresh %s Status"
 msgstr "Auto-rafraichissement des statuts %s"
 
-#: src/versioncontrol/manager.py:765
+#: src/versioncontrol/manager.py:809
 msgid "No %s %s"
 msgstr "Non %s %s"
 
-#: src/versioncontrol/manager.py:766
+#: src/versioncontrol/manager.py:810
 msgid ""
 "%(identifier)s does not support a %(name)s command. The files were "
 "%(past_tense)s on disk, but new files and directories were not added and "
@@ -389,11 +389,11 @@ msgstr ""
 "n'étaient pas ajoutés et l'historique du contrôle de version n'était pas "
 "copié."
 
-#: src/versioncontrol/manager.py:772
+#: src/versioncontrol/manager.py:816
 msgid "OK"
 msgstr "OK"
 
-#: src/versioncontrol/manager.py:810
+#: src/versioncontrol/manager.py:854
 msgid "Failed to inspect remote files"
 msgstr "Échec d'inspection des fichiers distants"
 
