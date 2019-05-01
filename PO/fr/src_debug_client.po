@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_debug_client\n"
 "POT-Creation-Date: 2019-04-29 15:43+EDT\n"
-"PO-Revision-Date: 2018-08-25 23:37+0200\n"
+"PO-Revision-Date: 2019-05-01 22:13+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.4\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: src/debug/client/attribs.py:35
 msgid "Breakpoints for a file"
@@ -118,8 +118,7 @@ msgstr ""
 #: src/debug/client/cap_launch.py:1050 src/debug/client/cap_launch.py:2100
 #: src/debug/client/cap_launch.py:2159 src/debug/client/cap_launch.py:2196
 #: src/debug/client/cap_launch.py:2554 src/debug/client/cap_remotegui.py:229
-#: src/debug/client/cap_remotegui.py:939
-#: src/debug/client/cap_remotegui.py:1012
+#: src/debug/client/cap_remotegui.py:939 src/debug/client/cap_remotegui.py:1012
 #: src/debug/client/cap_remotegui.py:1021
 #: src/debug/client/cap_remotegui.py:1079
 #: src/debug/client/cap_remotegui.py:1089
@@ -426,8 +425,7 @@ msgstr "Activer tous les points d'arrêts"
 msgid "Show Breakpoints Documentation"
 msgstr "Afficher la documentation des points d'arrêts"
 
-#: src/debug/client/cap_debugprobe.py:41
-#: src/debug/client/cap_debugprobe.py:225
+#: src/debug/client/cap_debugprobe.py:41 src/debug/client/cap_debugprobe.py:225
 #, fuzzy
 msgid "Debug Console"
 msgstr "Débogueur-Sonde"
@@ -1202,7 +1200,6 @@ msgstr ""
 "Aucun hôte distant n'a été configuré. Voulez-vous en rajouter un maintenant ?"
 
 #: src/debug/client/cap_remotegui.py:117
-#, fuzzy
 msgid "_Add Remote Host"
 msgstr "Ajouter un hôte distant"
 
@@ -1218,13 +1215,11 @@ msgstr ""
 "maintenant ?"
 
 #: src/debug/client/cap_remotegui.py:122
-#, fuzzy
 msgid "_Add Shared Remote Host"
 msgstr "Ajouter un hôte distant partagé"
 
 #: src/debug/client/cap_remotegui.py:134 src/debug/client/manager.py:2072
 #: src/debug/client/varmanager.py:400
-#, fuzzy
 msgid "_Show Documentation"
 msgstr "Afficher la documentation"
 
@@ -1251,8 +1246,7 @@ msgstr ""
 msgid "Installing Remote Agent: %s"
 msgstr "Installe l'agent distant : %s"
 
-#: src/debug/client/cap_remotegui.py:243
-#: src/debug/client/cap_remotegui.py:1261
+#: src/debug/client/cap_remotegui.py:243 src/debug/client/cap_remotegui.py:1261
 msgid "Please wait."
 msgstr "Veuillez patienter."
 
@@ -1380,7 +1374,6 @@ msgstr ""
 "d’hôte distant. Voulez-vous continuer ?"
 
 #: src/debug/client/cap_remotegui.py:1037
-#, fuzzy
 msgid "_Edit Remote Host"
 msgstr "Éditer l’hôte distant"
 
@@ -1557,12 +1550,10 @@ msgid "No output was received."
 msgstr "Aucune sortie n'a été reçue."
 
 #: src/debug/client/cap_remotegui.py:1480
-#, fuzzy
 msgid "Co_nfigure..."
 msgstr "Configurer..."
 
 #: src/debug/client/cap_remotegui.py:1481
-#, fuzzy
 msgid "_Install Remote Agent"
 msgstr "Installer un agent distant"
 
@@ -1632,12 +1623,10 @@ msgid ""
 msgstr ""
 
 #: src/debug/client/cap_remotegui.py:1678
-#, fuzzy
 msgid "_Update Remote Agent"
 msgstr "Mettre-à-jour l'agent distant"
 
 #: src/debug/client/cap_remotegui.py:1679
-#, fuzzy
 msgid "_Not Now"
 msgstr "Pas maintenant"
 
@@ -2784,9 +2773,8 @@ msgid "Show Integers as _Octal"
 msgstr "Afficher les entiers comme octal"
 
 #: src/debug/client/manager.py:2121
-#, fuzzy
 msgid "Show _Memory Addresses"
-msgstr "Afficher les process enfant"
+msgstr "Afficher les adresses mémoires"
 
 #: src/debug/client/manager.py:2124
 #, fuzzy
@@ -4151,11 +4139,11 @@ msgstr ""
 
 #: src/debug/client/runstate.py:2685
 msgid "; pid=%s"
-msgstr " ; pid=%s"
+msgstr "; pid=%s"
 
 #: src/debug/client/runstate.py:2687
 msgid "; host=%s, pid=%s"
-msgstr " ; hôte=%s, pid=%s"
+msgstr "; hôte=%s, pid=%s"
 
 #: src/debug/client/runstate.py:2696
 msgid "Debug process exited"
@@ -4795,7 +4783,6 @@ msgid "Textual display of debug data"
 msgstr ""
 
 #: src/debug/client/vartree.py:323
-#, fuzzy
 msgid "_Text"
 msgstr "Texte"
 

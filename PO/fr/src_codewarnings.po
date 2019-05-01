@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 5.0.0\n"
 "POT-Creation-Date: 2019-04-29 15:43+EDT\n"
-"PO-Revision-Date: 2018-08-25 23:28+0200\n"
+"PO-Revision-Date: 2019-05-01 22:11+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
 "Language: fr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: src/codewarnings/attribs.py:16
 msgid "Where to store code warnings configuration."
@@ -45,9 +45,8 @@ msgid "<i>Scanning for warnings...</i>"
 msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:465
-#, fuzzy
 msgid "<i>No warnings</i>"
-msgstr "<i>Pas un fichier Python</i>"
+msgstr "<i>Pas d’avertissements/i>"
 
 #: src/codewarnings/cap_warningspanel.py:523
 msgid "Line %s: %s"
@@ -66,20 +65,17 @@ msgid "Remove This Warning _Globally"
 msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:639
-#, fuzzy
 msgid "Remove _Selected Warning"
 msgstr "Enlever l’avertissement sélectionné"
 
 #: src/codewarnings/cap_warningspanel.py:640
-#, fuzzy
 msgid "Remove _Selected Warnings"
 msgstr "Enlever les avertissements sélectionnés"
 
 #: src/codewarnings/cap_warningspanel.py:674
 #: src/codewarnings/cap_warningspanel.py:707
-#, fuzzy
 msgid "Remove This Warning in {}"
-msgstr "Enlever tous les avertissements dans {}"
+msgstr "Enlever cet avertissement dans {}"
 
 #: src/codewarnings/cap_warningspanel.py:719
 #: src/codewarnings/cap_warningspanel.py:739
@@ -91,9 +87,8 @@ msgid "Remove Undefined Attribute {}{} Globally"
 msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:778
-#, fuzzy
 msgid "Remove All Undefined Attributes of {}"
-msgstr "Enlever tous les avertissements dans {}"
+msgstr "Enlever tous les attributs indéfinis de {}"
 
 #: src/codewarnings/cap_warningspanel.py:793
 msgid "Restore All Removed Warnings in {}"
@@ -182,9 +177,8 @@ msgid "Specific Scope"
 msgstr "Fichier spécifique"
 
 #: src/codewarnings/cap_warningspanel.py:1352
-#, fuzzy
 msgid "File: "
-msgstr "Fichier"
+msgstr "Fichier : "
 
 #: src/codewarnings/cap_warningspanel.py:1362
 msgid "Scope: "
@@ -224,9 +218,8 @@ msgid "File for Module Containing {}"
 msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:1549
-#, fuzzy
 msgid "Attribute Name"
-msgstr "Attribut"
+msgstr "Nom de l’attribut"
 
 #: src/codewarnings/cap_warningspanel.py:1565
 #, fuzzy
@@ -251,17 +244,14 @@ msgid "Warnings are being updated"
 msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:1710
-#, fuzzy
 msgid "_Options"
 msgstr "Options"
 
 #: src/codewarnings/cap_warningspanel.py:1718
-#, fuzzy
 msgid "_Warnings"
 msgstr "Avertissements"
 
 #: src/codewarnings/cap_warningspanel.py:1735
-#, fuzzy
 msgid "_Configuration"
 msgstr "Configuration"
 
@@ -271,11 +261,11 @@ msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:1805
 msgid "Select _All"
-msgstr ""
+msgstr "Tout sélectionner"
 
 #: src/codewarnings/cap_warningspanel.py:1806
 msgid "_Copy"
-msgstr ""
+msgstr "Copier"
 
 #: src/codewarnings/cap_warningspanel.py:1808
 msgid "C_lear Console"
@@ -283,15 +273,13 @@ msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:1810
 msgid "_Save a Copy..."
-msgstr ""
+msgstr "Enregistrer une copie…"
 
 #: src/codewarnings/cap_warningspanel.py:1822
-#, fuzzy
 msgid "_Update Current File"
 msgstr "Mettre-à-jour le fichier actuel"
 
 #: src/codewarnings/cap_warningspanel.py:1833
-#, fuzzy
 msgid "_Disable All Warnings for Current File"
 msgstr "Désactiver tous les avertissements pour le fichier actuel"
 
@@ -313,9 +301,8 @@ msgid "Show Indent _Warnings"
 msgstr "Avertissements de code"
 
 #: src/codewarnings/cap_warningspanel.py:1860
-#, fuzzy
 msgid "Overwrite Configuration?"
-msgstr "Masquer la configuration"
+msgstr "Ecraser la configuration ?"
 
 #: src/codewarnings/cap_warningspanel.py:1861
 msgid ""
@@ -325,13 +312,13 @@ msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:1864
 msgid "_Overwrite"
-msgstr ""
+msgstr "Ecraser"
 
 #: src/codewarnings/cap_warningspanel.py:1865
 #: src/codewarnings/cap_warningspanel.py:1946
 #: src/codewarnings/externalchecker.py:854
 msgid "_Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: src/codewarnings/cap_warningspanel.py:1875
 #, fuzzy
@@ -392,17 +379,16 @@ msgid "Clea_r"
 msgstr ""
 
 #: src/codewarnings/cap_warningspanel.py:1952
-#, fuzzy
 msgid "Clear Con_figuration..."
-msgstr "Masquer la configuration"
+msgstr "Effacer la configuration…"
 
 #: src/codewarnings/cap_warningspanel.py:1965
 msgid "_Show Console"
-msgstr ""
+msgstr "Afficher la consol"
 
 #: src/codewarnings/cap_warningspanel.py:1967
 msgid "_Hide Console"
-msgstr ""
+msgstr "Masquer la consoler"
 
 #: src/codewarnings/cap_warningspanel.py:2031
 msgid "Code Warnings"
@@ -414,19 +400,19 @@ msgstr "Avertissements & erreurs de code"
 
 #: src/codewarnings/codewarn.py:90
 msgid "Undefined attribute"
-msgstr ""
+msgstr "Attribut indéfini"
 
 #: src/codewarnings/codewarn.py:91
 msgid "Undefined name"
-msgstr ""
+msgstr "Nom indéfini"
 
 #: src/codewarnings/codewarn.py:92
 msgid "Import not found"
-msgstr ""
+msgstr "Import non trouvé"
 
 #: src/codewarnings/codewarn.py:93
 msgid "Syntax error"
-msgstr ""
+msgstr "Erreur de syntaxe"
 
 #: src/codewarnings/codewarn.py:94
 #, fuzzy
@@ -461,33 +447,31 @@ msgstr ""
 
 #: src/codewarnings/codewarn.py:698
 msgid "Import not found: {}"
-msgstr ""
+msgstr "Import non trouvé : {}"
 
 #: src/codewarnings/codewarn.py:705
 msgid "Undefined name: %s"
-msgstr ""
+msgstr "Nom indéfini : %s"
 
 #: src/codewarnings/codewarn.py:769 src/codewarnings/codewarn.py:771
 msgid " or "
-msgstr ""
+msgstr " ou "
 
 #: src/codewarnings/codewarn.py:774
 msgid "Attribute undefined: .%s of %s: %s"
-msgstr ""
+msgstr "Attribut indéfini : .%s de %s: %s"
 
 #: src/codewarnings/codewarn.py:1350
 msgid "Could not hide some code warnings"
 msgstr ""
 
 #: src/codewarnings/codewarn.py:1588
-#, fuzzy
 msgid "class"
-msgstr "Classe"
+msgstr "classe"
 
 #: src/codewarnings/codewarn.py:1595
-#, fuzzy
 msgid "module"
-msgstr "Module"
+msgstr "module"
 
 #: src/codewarnings/externalchecker.py:588
 msgid "Not running %s on %s -- file too large"
@@ -495,7 +479,7 @@ msgstr ""
 
 #: src/codewarnings/externalchecker.py:791
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: src/codewarnings/externalchecker.py:796
 msgid "Run after save"
@@ -511,7 +495,7 @@ msgstr ""
 
 #: src/codewarnings/externalchecker.py:809
 msgid "Command Line"
-msgstr ""
+msgstr "Ligne de commande"
 
 #: src/codewarnings/externalchecker.py:849
 msgid "External Code Checkers Configuration"
@@ -519,7 +503,7 @@ msgstr ""
 
 #: src/codewarnings/externalchecker.py:853 src/codewarnings/manager.py:148
 msgid "_OK"
-msgstr ""
+msgstr "OK"
 
 #: src/codewarnings/externalchecker.py:868
 msgid "Automatically save and run"

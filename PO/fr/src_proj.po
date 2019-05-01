@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_proj\n"
 "POT-Creation-Date: 2019-04-29 15:43+EDT\n"
-"PO-Revision-Date: 2018-08-25 22:43+0200\n"
+"PO-Revision-Date: 2019-05-01 22:02+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.4\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: src/proj/anastats.py:75
 #, fuzzy
@@ -874,7 +874,6 @@ msgstr ""
 "fichier(s) sélectionné(s) ?"
 
 #: src/proj/manager.py:436
-#, fuzzy
 msgid "_Replace the Selected Files"
 msgstr "Remplacer le(s) fichier(s) sélectionné(s)"
 
@@ -967,14 +966,12 @@ msgstr ""
 "des cas. Le projet converti sera ouvert comme un nouveau projet sans titre."
 
 #: src/proj/manager.py:1157
-#, fuzzy
 msgid "Use _Auto-Updating Project"
 msgstr "Utiliser l'auto-mise à jour du projet"
 
 #: src/proj/manager.py:1158
-#, fuzzy
 msgid "Use _Static Project"
-msgstr "Utiliser un projet Statique"
+msgstr "Utiliser un projet statique"
 
 #: src/proj/manager.py:1167
 msgid "Creating project instance..."
@@ -1047,16 +1044,15 @@ msgstr ""
 "x ne peuvent pas être ouverts avec des versions plus anciennes de Wing."
 
 #: src/proj/manager.py:1325
-#, fuzzy
 msgid ""
 "Converted version %s project::This Wing version %s project file has been "
 "converted to Wing %s.x project file format.  Please save it to a new file "
 "name, since Wing %s.x project files cannot be opened with older versions of "
 "Wing."
 msgstr ""
-"Version %s du projet convertie. Cette version %s de fichier projet de Wing a "
-"été convertie au format de fichier projet Wing 4.x. Veuillez l'enregistrer "
-"sous un nouveau nom de fichier, car les fichiers projet Wing 4.x ne peuvent "
+"Version convertie %s du projet. Cette version %s de fichier projet de Wing a "
+"été convertie au format de fichier projet Wing %s.x. Veuillez l'enregistrer "
+"sous un nouveau nom de fichier, car les fichiers projet Wing %s.x ne peuvent "
 "pas être ouverts avec des versions plus anciennes de Wing."
 
 #: src/proj/manager.py:1456
@@ -1172,22 +1168,18 @@ msgid "Save the project to disk"
 msgstr "Enregistrer le projet sur le disque"
 
 #: src/proj/newproject.py:248 src/proj/newproject.py:767
-#, fuzzy
 msgid "_Add Directory"
 msgstr "Ajouter un répertoire"
 
 #: src/proj/newproject.py:249 src/proj/newproject.py:766
-#, fuzzy
 msgid "_Project Properties"
 msgstr "Propriétés du projet"
 
 #: src/proj/newproject.py:250 src/proj/newproject.py:771
-#, fuzzy
 msgid "_Save Now"
 msgstr "Enregistrer maintenant"
 
 #: src/proj/newproject.py:251 src/proj/newproject.py:772
-#, fuzzy
 msgid "Save _Later"
 msgstr "Enregistrer plus tard"
 
@@ -1296,9 +1288,8 @@ msgid "Executing %s failed"
 msgstr ""
 
 #: src/proj/newproject.py:561
-#, fuzzy
 msgid "Executed:"
-msgstr "E_xécuter la sélection"
+msgstr "Exécuté :"
 
 #: src/proj/newproject.py:563
 msgid "Output received:"
@@ -1315,9 +1306,8 @@ msgid ""
 msgstr ""
 
 #: src/proj/newproject.py:724
-#, fuzzy
 msgid "Add other directories to the project"
-msgstr "La liste des répertoires dans le projet"
+msgstr "Ajouter d’autres répertoires au projet"
 
 #: src/proj/newproject.py:725
 #, fuzzy
@@ -1669,8 +1659,8 @@ msgstr ""
 msgid ""
 "Failed to Override Lock::The lock could not be overridden for remote file %s"
 msgstr ""
-"Écrasement du verrou échoué::Le verrou n'a pas pu être écrasé. Veuillez "
-"vérifier si le fichier verrouillé %s est en lecture seule."
+"Écrasement du verrou échoué::Le verrou n'a pas pu être écrasé pour le "
+"fichier distant %s"
 
 #: src/proj/project.py:1774
 msgid ""
@@ -2139,7 +2129,7 @@ msgid ""
 msgstr ""
 "L'entrée PYTHONPATH '%s' est un chemin partiel -- Nous recommandons "
 "fortement d'utiliser des chemins complets ici pour éviter des problèmes pour "
-"localiser les fichiers sources pour l'analyse et le débogage."
+"localiser les fichiers sources pour l'analyse et le débogage.  "
 
 #: src/proj/properties.py:1569
 #, fuzzy
@@ -2575,17 +2565,14 @@ msgid "_Abandon Changes"
 msgstr "_Abandon des modifications"
 
 #: src/proj/properties.py:2621
-#, fuzzy
 msgid "_Reload Now"
 msgstr "Recharger maintenant"
 
 #: src/proj/properties.py:2622
-#, fuzzy
 msgid "Do _Not Reload"
 msgstr "Ne pas recharger"
 
 #: src/proj/properties.py:2623
-#, fuzzy
 msgid "_Cancel Encoding Change"
 msgstr "Annuler le changement d'encodage"
 
@@ -2729,7 +2716,7 @@ msgstr ""
 
 #: src/proj/properties.py:3006
 msgid "The name of the directory."
-msgstr "Le nom du répertoire"
+msgstr "Le nom du répertoire."
 
 #: src/proj/properties.py:3008
 msgid ""
