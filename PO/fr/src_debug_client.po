@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_debug_client\n"
-"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
 "PO-Revision-Date: 2019-05-01 22:13+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
@@ -118,14 +118,15 @@ msgstr ""
 #: src/debug/client/cap_launch.py:1050 src/debug/client/cap_launch.py:2100
 #: src/debug/client/cap_launch.py:2159 src/debug/client/cap_launch.py:2196
 #: src/debug/client/cap_launch.py:2554 src/debug/client/cap_remotegui.py:229
-#: src/debug/client/cap_remotegui.py:939 src/debug/client/cap_remotegui.py:1012
-#: src/debug/client/cap_remotegui.py:1021
-#: src/debug/client/cap_remotegui.py:1079
-#: src/debug/client/cap_remotegui.py:1089
-#: src/debug/client/cap_remotegui.py:1314
-#: src/debug/client/cap_remotegui.py:1609
-#: src/debug/client/cap_remotegui.py:2186
-#: src/debug/client/cap_remotegui.py:2394 src/debug/client/manager.py:2074
+#: src/debug/client/cap_remotegui.py:943
+#: src/debug/client/cap_remotegui.py:1016
+#: src/debug/client/cap_remotegui.py:1025
+#: src/debug/client/cap_remotegui.py:1083
+#: src/debug/client/cap_remotegui.py:1093
+#: src/debug/client/cap_remotegui.py:1318
+#: src/debug/client/cap_remotegui.py:1613
+#: src/debug/client/cap_remotegui.py:2190
+#: src/debug/client/cap_remotegui.py:2398 src/debug/client/manager.py:2074
 #: src/debug/client/runstate.py:703 src/debug/client/runstate.py:1951
 #: src/debug/client/runstate.py:3857 src/debug/client/varmanager.py:401
 msgid "_OK"
@@ -235,12 +236,12 @@ msgstr "Valeur invalide"
 #: src/debug/client/cap_launch.py:946 src/debug/client/cap_launch.py:1051
 #: src/debug/client/cap_launch.py:2101 src/debug/client/cap_launch.py:2160
 #: src/debug/client/cap_launch.py:2555 src/debug/client/cap_remotegui.py:136
-#: src/debug/client/cap_remotegui.py:1038
-#: src/debug/client/cap_remotegui.py:1090
-#: src/debug/client/cap_remotegui.py:1319
-#: src/debug/client/cap_remotegui.py:1483
-#: src/debug/client/cap_remotegui.py:2187
-#: src/debug/client/cap_remotegui.py:2395 src/debug/client/interactive.py:1632
+#: src/debug/client/cap_remotegui.py:1042
+#: src/debug/client/cap_remotegui.py:1094
+#: src/debug/client/cap_remotegui.py:1323
+#: src/debug/client/cap_remotegui.py:1487
+#: src/debug/client/cap_remotegui.py:2191
+#: src/debug/client/cap_remotegui.py:2399 src/debug/client/interactive.py:1632
 #: src/debug/client/manager.py:2073 src/debug/client/runstate.py:2922
 #: src/debug/client/shell.py:1863
 msgid "_Cancel"
@@ -425,7 +426,8 @@ msgstr "Activer tous les points d'arrêts"
 msgid "Show Breakpoints Documentation"
 msgstr "Afficher la documentation des points d'arrêts"
 
-#: src/debug/client/cap_debugprobe.py:41 src/debug/client/cap_debugprobe.py:225
+#: src/debug/client/cap_debugprobe.py:41
+#: src/debug/client/cap_debugprobe.py:225
 #, fuzzy
 msgid "Debug Console"
 msgstr "Débogueur-Sonde"
@@ -744,23 +746,23 @@ msgid "Delete the selected launch configuration"
 msgstr "Supprimer le lancement de configuration sélectionné"
 
 #: src/debug/client/cap_launch.py:790 src/debug/client/cap_launch.py:1948
-#: src/debug/client/cap_remotegui.py:2025
-#: src/debug/client/cap_remotegui.py:2363
+#: src/debug/client/cap_remotegui.py:2029
+#: src/debug/client/cap_remotegui.py:2367
 msgid "New"
 msgstr "Nouveau"
 
 #: src/debug/client/cap_launch.py:791 src/debug/client/cap_launch.py:1949
-#: src/debug/client/cap_remotegui.py:2026
+#: src/debug/client/cap_remotegui.py:2030
 msgid "Duplicate"
 msgstr "Dupliquer"
 
 #: src/debug/client/cap_launch.py:792 src/debug/client/cap_launch.py:1950
-#: src/debug/client/cap_remotegui.py:2027
+#: src/debug/client/cap_remotegui.py:2031
 msgid "Edit"
 msgstr "Éditer"
 
 #: src/debug/client/cap_launch.py:793 src/debug/client/cap_launch.py:1951
-#: src/debug/client/cap_remotegui.py:2028
+#: src/debug/client/cap_remotegui.py:2032
 msgid "Delete"
 msgstr "Effacer"
 
@@ -769,7 +771,7 @@ msgid "Show _Docs..."
 msgstr "Afficher la _documentation…"
 
 #: src/debug/client/cap_launch.py:816 src/debug/client/cap_launch.py:1982
-#: src/debug/client/cap_remotegui.py:2055
+#: src/debug/client/cap_remotegui.py:2059
 msgid "_Close"
 msgstr "Fermer"
 
@@ -778,11 +780,11 @@ msgstr "Fermer"
 msgid "Name"
 msgstr "Nom"
 
-#: src/debug/client/cap_launch.py:819 src/debug/client/cap_remotegui.py:2058
+#: src/debug/client/cap_launch.py:819 src/debug/client/cap_remotegui.py:2062
 msgid "ID"
 msgstr "ID"
 
-#: src/debug/client/cap_launch.py:819 src/debug/client/cap_remotegui.py:2058
+#: src/debug/client/cap_launch.py:819 src/debug/client/cap_remotegui.py:2062
 msgid "Shared"
 msgstr "Partagé"
 
@@ -830,22 +832,22 @@ msgstr ""
 "ne peut pas être annulé."
 
 #: src/debug/client/cap_launch.py:1082 src/debug/client/cap_launch.py:2237
-#: src/debug/client/cap_remotegui.py:2307
+#: src/debug/client/cap_remotegui.py:2311
 msgid "_New..."
 msgstr "Nouveau..."
 
 #: src/debug/client/cap_launch.py:1083 src/debug/client/cap_launch.py:2238
-#: src/debug/client/cap_remotegui.py:2308
+#: src/debug/client/cap_remotegui.py:2312
 msgid "D_uplicate..."
 msgstr "Dupliquer..."
 
 #: src/debug/client/cap_launch.py:1084 src/debug/client/cap_launch.py:2239
-#: src/debug/client/cap_remotegui.py:2309
+#: src/debug/client/cap_remotegui.py:2313
 msgid "_Edit..."
 msgstr "Éditer..."
 
 #: src/debug/client/cap_launch.py:1085 src/debug/client/cap_launch.py:2240
-#: src/debug/client/cap_remotegui.py:2310
+#: src/debug/client/cap_remotegui.py:2314
 msgid "_Delete..."
 msgstr "Effacer..."
 
@@ -913,7 +915,7 @@ msgstr ""
 msgid "Build command '%s' could not be found by id or title"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1354 src/debug/client/cap_remotegui.py:2058
+#: src/debug/client/cap_launch.py:1354 src/debug/client/cap_remotegui.py:2062
 msgid "Python"
 msgstr "Python"
 
@@ -1022,7 +1024,7 @@ msgstr "Éditer le point d'entrée nommé sélectionné"
 msgid "Delete the selected named entry point"
 msgstr "Supprimer le point d'entrée nommé sélectionné"
 
-#: src/debug/client/cap_launch.py:1973 src/debug/client/cap_remotegui.py:2051
+#: src/debug/client/cap_launch.py:1973 src/debug/client/cap_remotegui.py:2055
 msgid "_Show Docs..."
 msgstr "Afficher la documentation..."
 
@@ -1246,7 +1248,8 @@ msgstr ""
 msgid "Installing Remote Agent: %s"
 msgstr "Installe l'agent distant : %s"
 
-#: src/debug/client/cap_remotegui.py:243 src/debug/client/cap_remotegui.py:1261
+#: src/debug/client/cap_remotegui.py:243
+#: src/debug/client/cap_remotegui.py:1265
 msgid "Please wait."
 msgstr "Veuillez patienter."
 
@@ -1292,37 +1295,37 @@ msgstr "N'a pas pu créé le lanceur de processus"
 msgid "Preparing Installation"
 msgstr "Préparation de l’installation"
 
-#: src/debug/client/cap_remotegui.py:586
+#: src/debug/client/cap_remotegui.py:590
 msgid "Configuring Installation"
 msgstr "Configuration de l’installation"
 
-#: src/debug/client/cap_remotegui.py:596
+#: src/debug/client/cap_remotegui.py:600
 msgid "Configuring wingdbstub.py"
 msgstr "Configure wingdbstub.py"
 
-#: src/debug/client/cap_remotegui.py:623
+#: src/debug/client/cap_remotegui.py:627
 msgid "Converting EOLs for remote host"
 msgstr "Converti les fins de lignes pour l’hôte distant"
 
-#: src/debug/client/cap_remotegui.py:639
+#: src/debug/client/cap_remotegui.py:643
 #, fuzzy
 msgid "Failed to transfer remote agent; could not determine cygpath (err={})"
 msgstr "Échec de transfert de l'agent distant (err={})"
 
-#: src/debug/client/cap_remotegui.py:646 src/debug/client/cap_remotegui.py:665
+#: src/debug/client/cap_remotegui.py:650 src/debug/client/cap_remotegui.py:669
 #, fuzzy
 msgid "Transferring remote agent (this may take a while)"
 msgstr "Transfert en cours de l’agent distant (partie {} de {})"
 
-#: src/debug/client/cap_remotegui.py:660
+#: src/debug/client/cap_remotegui.py:664
 msgid "Failed to transfer remote agent (err={})"
 msgstr "Échec de transfert de l'agent distant (err={})"
 
-#: src/debug/client/cap_remotegui.py:930
+#: src/debug/client/cap_remotegui.py:934
 msgid "Base Directory Changed"
 msgstr "Répertoire de base modifié"
 
-#: src/debug/client/cap_remotegui.py:931
+#: src/debug/client/cap_remotegui.py:935
 msgid ""
 "IMPORTANT:  You changed the Base Directory for host '%s'.  Wing will now "
 "interpret URLs for that host relative to %s.  For example %s now refers to "
@@ -1331,11 +1334,11 @@ msgid ""
 "change in the location of files on the remote host's disk."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1009
+#: src/debug/client/cap_remotegui.py:1013
 msgid "Save Files First"
 msgstr "Enregistrer les fichiers en premier"
 
-#: src/debug/client/cap_remotegui.py:1010
+#: src/debug/client/cap_remotegui.py:1014
 msgid ""
 "There are unsaved files open on this remote host.  Please save or close them "
 "before editing the remote host configuration."
@@ -1343,21 +1346,21 @@ msgstr ""
 "Il y a des fichiers non sauvegardés sur cet hôte distant. Veuillez les "
 "enregistrer ou les fermer avant d’éditer la configuration de l’hôte distant."
 
-#: src/debug/client/cap_remotegui.py:1018
+#: src/debug/client/cap_remotegui.py:1022
 msgid "Cannot Edit Remote Host"
 msgstr "Ne peut pas éditer l’hôte distant"
 
-#: src/debug/client/cap_remotegui.py:1019
+#: src/debug/client/cap_remotegui.py:1023
 msgid ""
 "This remote host configuration is being used to access the currently open "
 "project.  To edit it, please close the project first."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1029
+#: src/debug/client/cap_remotegui.py:1033
 msgid "Remote Host Is Being Used"
 msgstr "L’hôte distant Est Utilisé"
 
-#: src/debug/client/cap_remotegui.py:1030
+#: src/debug/client/cap_remotegui.py:1034
 msgid ""
 "This remote host is in use and editing its configuration will affect the "
 "following:"
@@ -1365,7 +1368,7 @@ msgstr ""
 "Cet hôte distant est en cours d'utilisation et la modification de sa "
 "configuration aura une incidence sur ce qui suit :"
 
-#: src/debug/client/cap_remotegui.py:1034
+#: src/debug/client/cap_remotegui.py:1038
 msgid ""
 "Wing will try to update these for the new remote host configuration.  Do you "
 "want to continue?"
@@ -1373,22 +1376,22 @@ msgstr ""
 "Wing va essayer de mettre à jour ceux-ci pour la nouvelle configuration "
 "d’hôte distant. Voulez-vous continuer ?"
 
-#: src/debug/client/cap_remotegui.py:1037
+#: src/debug/client/cap_remotegui.py:1041
 msgid "_Edit Remote Host"
 msgstr "Éditer l’hôte distant"
 
-#: src/debug/client/cap_remotegui.py:1072
+#: src/debug/client/cap_remotegui.py:1076
 msgid "Cannot Remove Remote Host"
 msgstr "Ne peut pas enlever l'hôte distant"
 
-#: src/debug/client/cap_remotegui.py:1073
+#: src/debug/client/cap_remotegui.py:1077
 msgid ""
 "This remote host configuration cannot be removed since it is used as follows:"
 msgstr ""
 "Cette configuration d’hôte distant ne peut pas être enlevée tant qu’elle est "
 "utilisée comme suit :"
 
-#: src/debug/client/cap_remotegui.py:1076
+#: src/debug/client/cap_remotegui.py:1080
 msgid ""
 "You must close files and/or reconfigure your project to avoid using this "
 "remote host before you can remove it."
@@ -1396,62 +1399,62 @@ msgstr ""
 "Vous devez fermer les fichiers et/ou reconfigurer votre projet pour éviter "
 "d’utiliser cet hôte distant avant de pouvoir l’enlever."
 
-#: src/debug/client/cap_remotegui.py:1086
+#: src/debug/client/cap_remotegui.py:1090
 msgid "Confirm Remote Host Deletion"
 msgstr "Confirmer la suppression l’hôte distant"
 
-#: src/debug/client/cap_remotegui.py:1087
+#: src/debug/client/cap_remotegui.py:1091
 msgid "Are you sure you want to delete remote host configuration '%s'?"
 msgstr ""
 "Êtes-vous sûr de vouloir supprimer la configuration pour cet hôte distant "
 "'%s' ?"
 
-#: src/debug/client/cap_remotegui.py:1099
+#: src/debug/client/cap_remotegui.py:1103
 msgid "The currently open project is stored on this remote host"
 msgstr "Le projet ouvert actuel est stocké sur cet hôte distant"
 
-#: src/debug/client/cap_remotegui.py:1101
+#: src/debug/client/cap_remotegui.py:1105
 msgid "The project's Python Executable is on this remote host"
 msgstr "L’exécutable Python du projet est sur cet hôte distant"
 
-#: src/debug/client/cap_remotegui.py:1103
+#: src/debug/client/cap_remotegui.py:1107
 msgid "Files and directories in the project are on this remote host"
 msgstr "Les fichiers et répertoire dans le projet sont sur cet hôte distant"
 
-#: src/debug/client/cap_remotegui.py:1105
+#: src/debug/client/cap_remotegui.py:1109
 msgid "Files on the remote host are open in the editor"
 msgstr "Les fichiers sur l'hôte distant sont ouvert dans l'éditeur"
 
-#: src/debug/client/cap_remotegui.py:1224
+#: src/debug/client/cap_remotegui.py:1228
 #, fuzzy
 msgid "Probing remote agent:"
 msgstr "Installe l'agent distant :"
 
-#: src/debug/client/cap_remotegui.py:1233
+#: src/debug/client/cap_remotegui.py:1237
 msgid "Initializing..."
 msgstr "Initialisation en cours..."
 
-#: src/debug/client/cap_remotegui.py:1236
+#: src/debug/client/cap_remotegui.py:1240
 msgid "Waiting for connection..."
 msgstr "En attente de connection…"
 
-#: src/debug/client/cap_remotegui.py:1241
+#: src/debug/client/cap_remotegui.py:1245
 msgid "Waiting ({} secs left)"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1244
+#: src/debug/client/cap_remotegui.py:1248
 msgid "Connected but not ready"
 msgstr "Connecté mais pas prêt"
 
-#: src/debug/client/cap_remotegui.py:1260
+#: src/debug/client/cap_remotegui.py:1264
 msgid "Probing %s"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1288
+#: src/debug/client/cap_remotegui.py:1292
 msgid "Missing Remote Host Configuration"
 msgstr "Configuration d’hôte distant Manquante"
 
-#: src/debug/client/cap_remotegui.py:1298
+#: src/debug/client/cap_remotegui.py:1302
 msgid ""
 "Some autosave files for a remote host were found.  To save those on the "
 "remote host, switch to the project that defines the remote host "
@@ -1459,7 +1462,7 @@ msgid ""
 "store the file somewhere else."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1303
+#: src/debug/client/cap_remotegui.py:1307
 msgid ""
 "There is no remote host configuration for host %s.  Do you want to create "
 "one?"
@@ -1467,29 +1470,29 @@ msgstr ""
 "Il n’y a pas de configuration d’hôte distant pour l’hôte %s. Voulez-vous en "
 "créer une ?"
 
-#: src/debug/client/cap_remotegui.py:1318
+#: src/debug/client/cap_remotegui.py:1322
 #, fuzzy
 msgid "_Create Host Config"
 msgstr "Créer une configuration d’hôte"
 
-#: src/debug/client/cap_remotegui.py:1365
+#: src/debug/client/cap_remotegui.py:1369
 msgid "Remote Agent Failed to Start"
 msgstr "Échec de démarrage de l'agent distant"
 
-#: src/debug/client/cap_remotegui.py:1366
+#: src/debug/client/cap_remotegui.py:1370
 #, fuzzy
 msgid "Connecting to host id %s failed."
 msgstr "Démarrage échoué"
 
-#: src/debug/client/cap_remotegui.py:1369
+#: src/debug/client/cap_remotegui.py:1373
 msgid "Remote Agent Failed to Install"
 msgstr "Échec d'Installation de l'agent distant"
 
-#: src/debug/client/cap_remotegui.py:1370
+#: src/debug/client/cap_remotegui.py:1374
 msgid "The remote agent could not be installed on host id %s."
 msgstr "L’agent distant ne peut pas être installé sur l’id d’hôte %s."
 
-#: src/debug/client/cap_remotegui.py:1416
+#: src/debug/client/cap_remotegui.py:1420
 msgid ""
 "It looks like you have never connected to this host.  Try it first from the "
 "command line to verify its identity:"
@@ -1497,23 +1500,23 @@ msgstr ""
 "Il semble que vous n’avais jamais été connecté à cette hôte. Essayer tout "
 "d’abord depuis la ligne de commande pour vérifier son identité :"
 
-#: src/debug/client/cap_remotegui.py:1419
+#: src/debug/client/cap_remotegui.py:1423
 msgid "The stored host identity does not match."
 msgstr "L'identité de l'hôte stocké ne correspond pas."
 
-#: src/debug/client/cap_remotegui.py:1421
+#: src/debug/client/cap_remotegui.py:1425
 msgid ""
 "You will need to try it once from the command line to accept the new "
 "identity:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1423
+#: src/debug/client/cap_remotegui.py:1427
 msgid ""
 "You will need to remove the old identity from ~/.ssh/known_hosts and then "
 "connect once from the command line once to accept the new identity:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1426
+#: src/debug/client/cap_remotegui.py:1430
 msgid ""
 "PuTTY is prompting for a login name.  Please add username@ to your Host Name "
 "in the remote host configuration.  Or, you can create a saved session for "
@@ -1521,14 +1524,14 @@ msgid ""
 "then save the session."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1430
+#: src/debug/client/cap_remotegui.py:1434
 msgid ""
 "Password-less remote login does not appear to be working.  Please see "
 "https://wingware.com/doc/proj/remote-hosts to configure access via an SSH "
 "user agent."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1434
+#: src/debug/client/cap_remotegui.py:1438
 #, fuzzy
 msgid ""
 "The Python Executable \"%s\" was not found on the remote host.  You may need "
@@ -1537,36 +1540,36 @@ msgstr ""
 "Il y a des fichiers non sauvegardés sur cet hôte distant. Veuillez les "
 "enregistrer ou les fermer avant d’éditer la configuration de l’hôte distant."
 
-#: src/debug/client/cap_remotegui.py:1437
+#: src/debug/client/cap_remotegui.py:1441
 msgid "The remote agent was not found.  Do you want to install it now?"
 msgstr "L'agent distant n'a été trouvé. Voulez-vous l'installer maintenant ?"
 
-#: src/debug/client/cap_remotegui.py:1440
+#: src/debug/client/cap_remotegui.py:1444
 msgid "Output received:"
 msgstr "Sortie reçue :"
 
-#: src/debug/client/cap_remotegui.py:1443
+#: src/debug/client/cap_remotegui.py:1447
 msgid "No output was received."
 msgstr "Aucune sortie n'a été reçue."
 
-#: src/debug/client/cap_remotegui.py:1480
+#: src/debug/client/cap_remotegui.py:1484
 msgid "Co_nfigure..."
 msgstr "Configurer..."
 
-#: src/debug/client/cap_remotegui.py:1481
+#: src/debug/client/cap_remotegui.py:1485
 msgid "_Install Remote Agent"
 msgstr "Installer un agent distant"
 
-#: src/debug/client/cap_remotegui.py:1482
+#: src/debug/client/cap_remotegui.py:1486
 #, fuzzy
 msgid "_Probe Again"
 msgstr "Essayer de nouveau"
 
-#: src/debug/client/cap_remotegui.py:1589
+#: src/debug/client/cap_remotegui.py:1593
 msgid "Remote Host is Ready"
 msgstr "Hôte distant Prêt"
 
-#: src/debug/client/cap_remotegui.py:1590
+#: src/debug/client/cap_remotegui.py:1594
 #, fuzzy
 msgid ""
 "Wing's remote agent for remote host identifier %s is up to date and working."
@@ -1574,132 +1577,132 @@ msgstr ""
 "L’agent distant Wing sur l’hôte %s est installé sur l’hôte %s à %s et "
 "fonctionne."
 
-#: src/debug/client/cap_remotegui.py:1593
+#: src/debug/client/cap_remotegui.py:1597
 msgid "Host Name:"
 msgstr "Nom d’hôte :"
 
-#: src/debug/client/cap_remotegui.py:1594
+#: src/debug/client/cap_remotegui.py:1598
 msgid "Version:"
 msgstr "Version :"
 
-#: src/debug/client/cap_remotegui.py:1597
+#: src/debug/client/cap_remotegui.py:1601
 msgid "OS:"
 msgstr "OS :"
 
-#: src/debug/client/cap_remotegui.py:1598
+#: src/debug/client/cap_remotegui.py:1602
 msgid "File System Encoding:"
 msgstr "Encodage du système de fichiers :"
 
-#: src/debug/client/cap_remotegui.py:1599
+#: src/debug/client/cap_remotegui.py:1603
 #, fuzzy
 msgid "Remote Agent Process ID:"
 msgstr "Port d’agent distant"
 
-#: src/debug/client/cap_remotegui.py:1604
+#: src/debug/client/cap_remotegui.py:1608
 msgid "Installation Directory:"
 msgstr "Répertoire d’installation :"
 
-#: src/debug/client/cap_remotegui.py:1605
+#: src/debug/client/cap_remotegui.py:1609
 msgid "Home Directory:"
 msgstr "Répertoire de base :"
 
-#: src/debug/client/cap_remotegui.py:1606
+#: src/debug/client/cap_remotegui.py:1610
 msgid "Base Directory:"
 msgstr "Répertoire de base :"
 
-#: src/debug/client/cap_remotegui.py:1658
+#: src/debug/client/cap_remotegui.py:1662
 msgid ""
 "Remote agent for %s (version %s) needs update; use Project > Remote Hosts"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1670
+#: src/debug/client/cap_remotegui.py:1674
 msgid "Update Remote Agent?"
 msgstr "Mettre-à-jour l'agent distant?"
 
-#: src/debug/client/cap_remotegui.py:1671
+#: src/debug/client/cap_remotegui.py:1675
 msgid ""
 "The remote agent's version (%s) does not match Wing's version (%s).  "
 "Updating the remote agent is recommended."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1678
+#: src/debug/client/cap_remotegui.py:1682
 msgid "_Update Remote Agent"
 msgstr "Mettre-à-jour l'agent distant"
 
-#: src/debug/client/cap_remotegui.py:1679
+#: src/debug/client/cap_remotegui.py:1683
 msgid "_Not Now"
 msgstr "Pas maintenant"
 
-#: src/debug/client/cap_remotegui.py:1689
+#: src/debug/client/cap_remotegui.py:1693
 msgid "Don't show this dialog again"
 msgstr "Ne plus afficher à nouveau cette boîte de dialogue"
 
-#: src/debug/client/cap_remotegui.py:1937
+#: src/debug/client/cap_remotegui.py:1941
 msgid "Open Local _File..."
 msgstr "Ouvrir un fichier local..."
 
-#: src/debug/client/cap_remotegui.py:1938
+#: src/debug/client/cap_remotegui.py:1942
 msgid "Open _Remote File..."
 msgstr "Ouvrir un fichier distant..."
 
-#: src/debug/client/cap_remotegui.py:1951
+#: src/debug/client/cap_remotegui.py:1955
 msgid "Sa_ve As Remote File..."
 msgstr "Enregistrer comme un fichier distant..."
 
-#: src/debug/client/cap_remotegui.py:1964
+#: src/debug/client/cap_remotegui.py:1968
 msgid "Open _Remote Project..."
 msgstr "Ouvrir un projet distant..."
 
-#: src/debug/client/cap_remotegui.py:1977
+#: src/debug/client/cap_remotegui.py:1981
 msgid "Sa_ve Project On Remote Host..."
 msgstr "Enregistrer le projet sur un hôte distant..."
 
-#: src/debug/client/cap_remotegui.py:2010
+#: src/debug/client/cap_remotegui.py:2014
 msgid "Create a new remote host"
 msgstr "Créer un nouvel hôte distant"
 
-#: src/debug/client/cap_remotegui.py:2013
+#: src/debug/client/cap_remotegui.py:2017
 msgid "Duplicate the selected remote host"
 msgstr "Dupliquer l’hôte distant sélectionné"
 
-#: src/debug/client/cap_remotegui.py:2016
+#: src/debug/client/cap_remotegui.py:2020
 msgid "Edit the selected remote host"
 msgstr "Éditer l’hôte distant sélectionné"
 
-#: src/debug/client/cap_remotegui.py:2019
+#: src/debug/client/cap_remotegui.py:2023
 msgid "Delete the selected remote host"
 msgstr "Supprimer l’hôte distant sélectionné"
 
-#: src/debug/client/cap_remotegui.py:2022
+#: src/debug/client/cap_remotegui.py:2026
 #, fuzzy
 msgid "Probe the selected remote host"
 msgstr "Supprimer l’hôte distant sélectionné"
 
-#: src/debug/client/cap_remotegui.py:2029
+#: src/debug/client/cap_remotegui.py:2033
 #, fuzzy
 msgid "Probe"
 msgstr "Débogueur-Sonde"
 
-#: src/debug/client/cap_remotegui.py:2058
+#: src/debug/client/cap_remotegui.py:2062
 msgid "Hostname"
 msgstr "Nom d’hôte"
 
-#: src/debug/client/cap_remotegui.py:2058
-#: src/debug/client/cap_remotegui.py:2613
+#: src/debug/client/cap_remotegui.py:2062
+#: src/debug/client/cap_remotegui.py:2617
 msgid "Base Directory"
 msgstr "Répertoire de base"
 
-#: src/debug/client/cap_remotegui.py:2113
+#: src/debug/client/cap_remotegui.py:2117
 msgid "Manage Remote Hosts"
 msgstr "Gérer les hôtes distants"
 
-#: src/debug/client/cap_remotegui.py:2183
-#: src/debug/client/cap_remotegui.py:2391
+#: src/debug/client/cap_remotegui.py:2187
+#: src/debug/client/cap_remotegui.py:2395
 msgid "Overwrite Existing Remote Host?"
 msgstr "Écraser l’hôte distant existant ?"
 
-#: src/debug/client/cap_remotegui.py:2184
-#: src/debug/client/cap_remotegui.py:2392
+#: src/debug/client/cap_remotegui.py:2188
+#: src/debug/client/cap_remotegui.py:2396
 msgid ""
 "Another configuration for that remote host already exists.  Are you sure you "
 "want to overwrite the existing remote host configuration '%s'?"
@@ -1707,60 +1710,60 @@ msgstr ""
 "Une autre configuration pour cet hôte distant existe déjà. Êtes-vous sûr de "
 "vouloir écraser la configuration existante pour cet hôte distant '%s' ?"
 
-#: src/debug/client/cap_remotegui.py:2312
+#: src/debug/client/cap_remotegui.py:2316
 #, fuzzy
 msgid "Probe Remote Agent..."
 msgstr "Installe l'agent distant :"
 
-#: src/debug/client/cap_remotegui.py:2313
+#: src/debug/client/cap_remotegui.py:2317
 #, fuzzy
 msgid "Install or Reinstall Remote Agent..."
 msgstr "Installer un agent distant"
 
-#: src/debug/client/cap_remotegui.py:2344
+#: src/debug/client/cap_remotegui.py:2348
 msgid "Remote Host: %s"
 msgstr "Hôte distant : %s"
 
-#: src/debug/client/cap_remotegui.py:2453
+#: src/debug/client/cap_remotegui.py:2457
 msgid "Recent Hosts"
 msgstr "Hôtes récents"
 
-#: src/debug/client/cap_remotegui.py:2537
+#: src/debug/client/cap_remotegui.py:2541
 msgid "General"
 msgstr "Général"
 
-#: src/debug/client/cap_remotegui.py:2539
+#: src/debug/client/cap_remotegui.py:2543
 msgid "Options"
 msgstr "Options"
 
-#: src/debug/client/cap_remotegui.py:2541
+#: src/debug/client/cap_remotegui.py:2545
 msgid "Advanced"
 msgstr "Avancé"
 
-#: src/debug/client/cap_remotegui.py:2562
+#: src/debug/client/cap_remotegui.py:2566
 msgid "Preference setting (%s)"
 msgstr "Paramètre de préférence (%s)"
 
-#: src/debug/client/cap_remotegui.py:2568
+#: src/debug/client/cap_remotegui.py:2572
 #, fuzzy
 msgid "Use Remote Host's Default"
 msgstr "Hôte distant Prêt"
 
-#: src/debug/client/cap_remotegui.py:2574
+#: src/debug/client/cap_remotegui.py:2578
 msgid "Identifier"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2575
+#: src/debug/client/cap_remotegui.py:2579
 msgid ""
 "The unique ID for this remote host configuration.  This is used in all "
 "references to resources on the remote host."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2582
+#: src/debug/client/cap_remotegui.py:2586
 msgid "Host Name"
 msgstr "Nom d’hôte"
 
-#: src/debug/client/cap_remotegui.py:2583
+#: src/debug/client/cap_remotegui.py:2587
 msgid ""
 "The remote host's DNS name or IP address.  This may include the user name in "
 "the form user@hostname or user@ipaddress."
@@ -1768,12 +1771,12 @@ msgstr ""
 "Le nom DNS ou l’adresse IP de l’hôte distant. Cela peut inclure le nom "
 "d’utilisateur sous la forme utilisateur@nomdhote ou utilisateur@adresseip."
 
-#: src/debug/client/cap_remotegui.py:2590
+#: src/debug/client/cap_remotegui.py:2594
 #, fuzzy
 msgid "Installation Directory"
 msgstr "Répertoire d’installation :"
 
-#: src/debug/client/cap_remotegui.py:2591
+#: src/debug/client/cap_remotegui.py:2595
 #, fuzzy
 msgid ""
 "The full path to where Wing's remote agent and debugger should be "
@@ -1782,20 +1785,20 @@ msgstr ""
 "Le chemin complet où l’agent distant de Wing et le débogueur sont installés "
 "ou devraient être installés."
 
-#: src/debug/client/cap_remotegui.py:2594
+#: src/debug/client/cap_remotegui.py:2598
 msgid "Automatic"
 msgstr "Automatique"
 
-#: src/debug/client/cap_remotegui.py:2595
+#: src/debug/client/cap_remotegui.py:2599
 #, fuzzy
 msgid "Specify Directory:"
 msgstr "Répertoire de base"
 
-#: src/debug/client/cap_remotegui.py:2599
+#: src/debug/client/cap_remotegui.py:2603
 msgid "Python Executable"
 msgstr "Executable Python"
 
-#: src/debug/client/cap_remotegui.py:2601
+#: src/debug/client/cap_remotegui.py:2605
 #, fuzzy
 msgid ""
 "The Python executable to run on the remote host, or the executable name to "
@@ -1806,7 +1809,7 @@ msgstr ""
 "Wing, ou le nom de l’exécutable à trouver sur le chemin, ou un blanc pour "
 "lancer ‘python’"
 
-#: src/debug/client/cap_remotegui.py:2615
+#: src/debug/client/cap_remotegui.py:2619
 msgid ""
 "The directory from which relative paths are based when referring to files on "
 "this host.  If this is blank, the user's home directory is used as the base "
@@ -1814,41 +1817,41 @@ msgid ""
 "directory"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2626
+#: src/debug/client/cap_remotegui.py:2630
 msgid "Forward X11"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2628
+#: src/debug/client/cap_remotegui.py:2632
 msgid ""
 "Enable this to forward X11 connections from the remote host to the local "
 "host."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2634
+#: src/debug/client/cap_remotegui.py:2638
 msgid "SSH Port"
 msgstr "Port SSH"
 
-#: src/debug/client/cap_remotegui.py:2636
+#: src/debug/client/cap_remotegui.py:2640
 msgid ""
 "The TCP/IP port to use for SSH.  If unspecified, the default port (22) will "
 "be used."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2638
+#: src/debug/client/cap_remotegui.py:2642
 #, fuzzy
 msgid "Use Default (22)"
 msgstr "Console par défaut (%s)"
 
-#: src/debug/client/cap_remotegui.py:2639
-#: src/debug/client/cap_remotegui.py:2661
+#: src/debug/client/cap_remotegui.py:2643
+#: src/debug/client/cap_remotegui.py:2665
 msgid "Use specified port:"
 msgstr "Utiliser un port spécifié :"
 
-#: src/debug/client/cap_remotegui.py:2643
+#: src/debug/client/cap_remotegui.py:2647
 msgid "Private Key"
 msgstr "Clé privée"
 
-#: src/debug/client/cap_remotegui.py:2645
+#: src/debug/client/cap_remotegui.py:2649
 msgid ""
 "The private key file to use for SSH into this host.  This must match the key "
 "format for your SSH implementation (OpenSSH or PuTTY).  If unspecified, the "
@@ -1856,19 +1859,19 @@ msgid ""
 "pageant for PuTTY)."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2649
+#: src/debug/client/cap_remotegui.py:2653
 msgid "Use SSH User Agent"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2650
+#: src/debug/client/cap_remotegui.py:2654
 msgid "Use private key file:"
 msgstr "Utiliser le fichier de clé privée :"
 
-#: src/debug/client/cap_remotegui.py:2654
+#: src/debug/client/cap_remotegui.py:2658
 msgid "Remote Agent Port"
 msgstr "Port d’agent distant"
 
-#: src/debug/client/cap_remotegui.py:2656
+#: src/debug/client/cap_remotegui.py:2660
 msgid ""
 "The TCP/IP port to use for the remote agent, on the remote end of the SSH "
 "tunnel.  If unspecified, a random port will be used but availability of that "
@@ -1878,15 +1881,15 @@ msgstr ""
 "tunnel SSH. Si non spécifié, un port aléatoire sera utilisé mais la "
 "disponibilité de ce port ne sera pas garantie."
 
-#: src/debug/client/cap_remotegui.py:2660
+#: src/debug/client/cap_remotegui.py:2664
 msgid "Use Random Port"
 msgstr "Utiliser un port aléatoire"
 
-#: src/debug/client/cap_remotegui.py:2665
+#: src/debug/client/cap_remotegui.py:2669
 msgid "Remote Debug Ports"
 msgstr "Ports de débogage distant"
 
-#: src/debug/client/cap_remotegui.py:2667
+#: src/debug/client/cap_remotegui.py:2671
 msgid ""
 "The lowest TCP/IP port to use for the debugger, on the remote end of the SSH "
 "tunnel.  If unspecified, a random port will be used but availability of that "
@@ -1894,30 +1897,30 @@ msgid ""
 "used.  One port is consumed for each active debug process and Python Shell."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2673
+#: src/debug/client/cap_remotegui.py:2677
 msgid "Use Random Ports"
 msgstr "Utiliser des ports Aléatoires"
 
-#: src/debug/client/cap_remotegui.py:2674
+#: src/debug/client/cap_remotegui.py:2678
 msgid "Start with this port:"
 msgstr "Commencer avec ce port :"
 
-#: src/debug/client/cap_remotegui.py:2678
+#: src/debug/client/cap_remotegui.py:2682
 msgid "File Encoding"
 msgstr "Encodage du fichier"
 
-#: src/debug/client/cap_remotegui.py:2679
+#: src/debug/client/cap_remotegui.py:2683
 #, fuzzy
 msgid "The default encoding to use for files on the remote host."
 msgstr ""
 "L’encodage à utiliser pour les E/S lors du débogage ou l’exécution de code "
 "sur l’hôte distant."
 
-#: src/debug/client/cap_remotegui.py:2685
+#: src/debug/client/cap_remotegui.py:2689
 msgid "I/O Encoding"
 msgstr "Encodage des E/S"
 
-#: src/debug/client/cap_remotegui.py:2686
+#: src/debug/client/cap_remotegui.py:2690
 msgid ""
 "The encoding to use for I/O when debugging or executing code on the remote "
 "host."
@@ -1925,15 +1928,15 @@ msgstr ""
 "L’encodage à utiliser pour les E/S lors du débogage ou l’exécution de code "
 "sur l’hôte distant."
 
-#: src/debug/client/cap_remotegui.py:2689
+#: src/debug/client/cap_remotegui.py:2693
 msgid "Show I/O Encoding Preference"
 msgstr "Afficher les préférences d'encodage des E/S"
 
-#: src/debug/client/cap_remotegui.py:2695
+#: src/debug/client/cap_remotegui.py:2699
 msgid "Use SSH Tunnel for username@localhost"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2697
+#: src/debug/client/cap_remotegui.py:2701
 msgid ""
 "Whether to use an SSH tunnel when connecting to the local host under a "
 "different user name.  This should be disabled when connecting to another "
@@ -1941,12 +1944,12 @@ msgid ""
 "like Vagrant."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2705
+#: src/debug/client/cap_remotegui.py:2709
 #, fuzzy
 msgid "2FA Card Selector"
 msgstr "Effacer la sélection"
 
-#: src/debug/client/cap_remotegui.py:2707
+#: src/debug/client/cap_remotegui.py:2711
 msgid ""
 "Card selector or other string to send to SSH at startup.  This is stored in "
 "plain text in the remote host configuration so should not be used for "
@@ -1955,20 +1958,20 @@ msgid ""
 "OpenSSH and not PuTTY."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2782
+#: src/debug/client/cap_remotegui.py:2786
 #, fuzzy
 msgid "You must specify an Identifier"
 msgstr "Vous devez spécifier un identifiant"
 
-#: src/debug/client/cap_remotegui.py:2784
+#: src/debug/client/cap_remotegui.py:2788
 msgid "Identifier 'localhost' is a reserved name"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2794
+#: src/debug/client/cap_remotegui.py:2798
 msgid "You must specify the remote host name or IP address."
 msgstr "Vous devez spécifier le nom d'hôte distant ou une adresse IP."
 
-#: src/debug/client/cap_remotegui.py:2799
+#: src/debug/client/cap_remotegui.py:2803
 #, fuzzy
 msgid "The private key file %s does not exist"
 msgstr "Le fichier de clé privée %s n'existe pas"

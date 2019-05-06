@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 5.0.0\n"
-"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:45+EDT\n"
 "PO-Revision-Date: 2019-05-01 22:11+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
@@ -316,7 +316,7 @@ msgstr "Ecraser"
 
 #: src/codewarnings/cap_warningspanel.py:1865
 #: src/codewarnings/cap_warningspanel.py:1946
-#: src/codewarnings/externalchecker.py:854
+#: src/codewarnings/externalchecker.py:933
 msgid "_Cancel"
 msgstr "Annuler"
 
@@ -473,39 +473,52 @@ msgstr "classe"
 msgid "module"
 msgstr "module"
 
-#: src/codewarnings/externalchecker.py:588
+#: src/codewarnings/externalchecker.py:628
 msgid "Not running %s on %s -- file too large"
 msgstr ""
 
-#: src/codewarnings/externalchecker.py:791
+#: src/codewarnings/externalchecker.py:833
 msgid "Enabled"
 msgstr "Activé"
 
-#: src/codewarnings/externalchecker.py:796
+#: src/codewarnings/externalchecker.py:838
 msgid "Run after save"
 msgstr ""
 
-#: src/codewarnings/externalchecker.py:799
+#: src/codewarnings/externalchecker.py:841
 msgid "Run after opening file"
 msgstr ""
 
-#: src/codewarnings/externalchecker.py:802
+#: src/codewarnings/externalchecker.py:844
 msgid "Maximum File Size (KB)"
 msgstr ""
 
-#: src/codewarnings/externalchecker.py:809
+#: src/codewarnings/externalchecker.py:851
 msgid "Command Line"
 msgstr "Ligne de commande"
 
-#: src/codewarnings/externalchecker.py:849
+#: src/codewarnings/externalchecker.py:862
+msgid "Include Pylint Errors"
+msgstr ""
+
+#: src/codewarnings/externalchecker.py:864
+#, fuzzy
+msgid "Include Pylint Warnings"
+msgstr "Avertissements de code"
+
+#: src/codewarnings/externalchecker.py:866
+msgid "Include Pylint Info"
+msgstr ""
+
+#: src/codewarnings/externalchecker.py:928
 msgid "External Code Checkers Configuration"
 msgstr ""
 
-#: src/codewarnings/externalchecker.py:853 src/codewarnings/manager.py:148
+#: src/codewarnings/externalchecker.py:932 src/codewarnings/manager.py:148
 msgid "_OK"
 msgstr "OK"
 
-#: src/codewarnings/externalchecker.py:868
+#: src/codewarnings/externalchecker.py:947
 msgid "Automatically save and run"
 msgstr ""
 
