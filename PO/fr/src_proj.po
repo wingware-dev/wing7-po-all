@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_proj\n"
 "POT-Creation-Date: 2019-04-29 15:43+EDT\n"
-"PO-Revision-Date: 2019-05-01 22:02+0200\n"
+"PO-Revision-Date: 2019-05-06 22:28+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1293,7 +1293,7 @@ msgstr "Exécuté :"
 
 #: src/proj/newproject.py:563
 msgid "Output received:"
-msgstr ""
+msgstr "Sortie reçue :"
 
 #: src/proj/newproject.py:721
 msgid "New Virtualenv Created"
@@ -1382,7 +1382,6 @@ msgstr ""
 "les propriétés du projet dans le menu Projet:"
 
 #: src/proj/newproject.py:1190
-#, fuzzy
 msgid "_Show Documentation"
 msgstr "Afficher la documentation"
 
@@ -1427,7 +1426,7 @@ msgstr "Le répertoire du projet initial '%s' n'existe pas"
 
 #: src/proj/newproject.py:1442
 msgid "Vagrantfile not found in %s"
-msgstr ""
+msgstr "Fichier Vagrant non trouvé dans %s"
 
 #: src/proj/newproject.py:1448
 msgid "Could not run 'vagrant ssh-config': failed to start"
@@ -1467,7 +1466,7 @@ msgstr ""
 
 #: src/proj/newproject.py:1580
 msgid "_Retry puttygen"
-msgstr ""
+msgstr "Réessayer puttygen"
 
 #: src/proj/newproject.py:1586
 msgid "Could Not Convert Key"
@@ -1504,7 +1503,7 @@ msgstr ""
 
 #: src/proj/newproject.py:1625
 msgid "Start puttygen"
-msgstr ""
+msgstr "Lancer puttygen"
 
 #: src/proj/prefs.py:19
 msgid ""
@@ -2331,9 +2330,8 @@ msgid "Project Type"
 msgstr "Type de projet"
 
 #: src/proj/properties.py:2049
-#, fuzzy
 msgid "Default File Encoding"
-msgstr "Encodage par défaut"
+msgstr "Encodage du fichier par défaut"
 
 #: src/proj/properties.py:2051
 msgid "View/edit Default Encoding Preference"
@@ -2678,9 +2676,8 @@ msgid "_Environment"
 msgstr "_Environnement"
 
 #: src/proj/properties.py:2962
-#, fuzzy
 msgid "Debug Environment: %s"
-msgstr "Environnement"
+msgstr "Environnement de débogage : %s"
 
 #: src/proj/properties.py:2988
 msgid "Name of directory"
