@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_cache\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2016-12-14 18:53+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
@@ -19,14 +19,29 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: src/cache/textcache.py:383
-msgid "Failed to read %s:  %s"
+#: src/cache/manager.py:54
+msgid "Some files failed to read from disk:"
+msgstr ""
+
+#: src/cache/manager.py:57
+msgid "Error"
+msgstr ""
+
+#: src/cache/manager.py:57
+msgid "File"
+msgstr ""
+
+#: src/cache/manager.py:65
+msgid "_OK"
+msgstr ""
+
+#: src/cache/manager.py:68
+msgid "Read Failure"
 msgstr ""
 
 #: src/cache/textcache.py:385
-#, fuzzy
-msgid "Could Not Read %s"
-msgstr "Datei konnte nicht gelesen werden"
+msgid "Failed to read %s:  %s"
+msgstr ""
 
 #: src/cache/textcache.py:451
 msgid "Could not read file due to remote agent abort"
@@ -113,10 +128,14 @@ msgstr "Konnte den Text \"%s\" in Zeile %d nicht in die Kodierung %s umwandeln"
 msgid "Could not convert file contents to the %s encoding"
 msgstr "Konnte die Dateiinhalte nicht in die Kodierung %s umwandeln"
 
-#: src/cache/textcache.py:908
+#: src/cache/textcache.py:909
 msgid "General write error"
 msgstr "Allgemeiner Schreibfehler"
 
-#: src/cache/textcache.py:1073
+#: src/cache/textcache.py:1074
 msgid "Encoding of %s changed to %s"
 msgstr "Die Kodierung von %s wurde in %s geändert"
+
+#, fuzzy
+#~ msgid "Could Not Read %s"
+#~ msgstr "Datei konnte nicht gelesen werden"

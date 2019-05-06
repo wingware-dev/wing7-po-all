@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_search\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2018-03-17 21:23+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -438,44 +438,44 @@ msgstr "Поиск в файлах"
 msgid "Multiple File Search and Replace"
 msgstr "Поиск и замена нескольких файлов"
 
-#: src/search/cap_usesgui.py:244
+#: src/search/cap_usesgui.py:258
 msgid "Possible match"
 msgstr "Возможные совпадения"
 
-#: src/search/cap_usesgui.py:245
+#: src/search/cap_usesgui.py:259
 msgid "Unlikely match"
 msgstr "Маловероятное совпадение"
 
-#: src/search/cap_usesgui.py:262
+#: src/search/cap_usesgui.py:276
 msgid "Whole file"
 msgstr "Весь файл"
 
-#: src/search/cap_usesgui.py:273
+#: src/search/cap_usesgui.py:287
 msgid "%s, line %s:"
 msgstr "%s, строка %s:"
 
-#: src/search/cap_usesgui.py:593
+#: src/search/cap_usesgui.py:607
 msgid "Searching..."
 msgstr "Поиск..."
 
-#: src/search/cap_usesgui.py:641
+#: src/search/cap_usesgui.py:655
 msgid "Refresh"
 msgstr "Обновить"
 
-#: src/search/cap_usesgui.py:643
+#: src/search/cap_usesgui.py:657
 msgid "Show Possible Uses"
 msgstr "Показать возможные способы использования"
 
-#: src/search/cap_usesgui.py:645
+#: src/search/cap_usesgui.py:659
 msgid "Show matches where either the match or the search symbol is undefined"
 msgstr ""
 "Показать совпадения, где символ совпадения или символ поиска не определен"
 
-#: src/search/cap_usesgui.py:647
+#: src/search/cap_usesgui.py:661
 msgid "Show Unlikely Uses"
 msgstr "Показать Маловероятное Использование"
 
-#: src/search/cap_usesgui.py:649
+#: src/search/cap_usesgui.py:663
 msgid ""
 "Show matches where definition of the match does not match the definition of "
 "the search symbol"
@@ -483,90 +483,90 @@ msgstr ""
 "Показывать совпадения, когда определение соответствия не соответствует "
 "определению символа поиска"
 
-#: src/search/cap_usesgui.py:656
+#: src/search/cap_usesgui.py:670
 msgid "Search Project Files"
 msgstr "Поиск файлов проекта"
 
-#: src/search/cap_usesgui.py:658
+#: src/search/cap_usesgui.py:672
 msgid "Search for uses in all Python files in the project"
 msgstr "Искать во всех Python файлы в проекте"
 
-#: src/search/cap_usesgui.py:662
+#: src/search/cap_usesgui.py:676
 msgid "Search Original File"
 msgstr "Поиск исходного файла"
 
-#: src/search/cap_usesgui.py:664
+#: src/search/cap_usesgui.py:678
 msgid "Search for uses in the file where the symbol was selected"
 msgstr "Поиск использования в файле, где был выбран символ"
 
-#: src/search/cap_usesgui.py:671
+#: src/search/cap_usesgui.py:685
 msgid "Points of use"
 msgstr "Пункты использования"
 
-#: src/search/cap_usesgui.py:687
+#: src/search/cap_usesgui.py:701
 msgid "Uses of module "
 msgstr "Использование модуля "
 
-#: src/search/cap_usesgui.py:689
+#: src/search/cap_usesgui.py:703
 msgid "Uses of "
 msgstr "Использование "
 
-#: src/search/cap_usesgui.py:694
+#: src/search/cap_usesgui.py:710
 msgid "All"
 msgstr ""
 
-#: src/search/cap_usesgui.py:698 src/search/cap_usesgui.py:700
+#: src/search/cap_usesgui.py:715 src/search/cap_usesgui.py:716
 msgid "in %s"
 msgstr ""
 
-#: src/search/cap_usesgui.py:703
+#: src/search/cap_usesgui.py:719
 #, fuzzy
 msgid "in Project Files"
 msgstr "Файлы проекта"
 
-#: src/search/cap_usesgui.py:720
+#: src/search/cap_usesgui.py:739
 msgid "Uses of module %s"
 msgstr "Использование модуля %s"
 
-#: src/search/cap_usesgui.py:733
+#: src/search/cap_usesgui.py:752
 #, fuzzy
 msgid "Uses of class %s (%s)"
 msgstr "Использование класса %s из %s"
 
-#: src/search/cap_usesgui.py:736
+#: src/search/cap_usesgui.py:755
 #, fuzzy
 msgid "Uses of method %s (%s)"
 msgstr "Использование метода %s из %s"
 
-#: src/search/cap_usesgui.py:739
+#: src/search/cap_usesgui.py:758
 #, fuzzy
 msgid "Uses of function %s (%s)"
 msgstr "Использование функции %s из %s"
 
-#: src/search/cap_usesgui.py:806
+#: src/search/cap_usesgui.py:825
 msgid "Previous Match"
 msgstr "Предыдущее совпадение"
 
-#: src/search/cap_usesgui.py:807
+#: src/search/cap_usesgui.py:826
 msgid "Next Match"
 msgstr "Следующее совпадение"
 
-#: src/search/cap_usesgui.py:813
+#: src/search/cap_usesgui.py:832
 msgid ""
 "Select a symbol in an editor and use Find Points of Use in the Source menu"
 msgstr ""
 "Выберите символ в редакторе и используйте «Найти точки использования» в меню "
 "«Источник»."
 
-#: src/search/cap_usesgui.py:821
+#: src/search/cap_usesgui.py:840
 msgid "Show Documentation"
 msgstr "Показать документацию"
 
-#: src/search/cap_usesgui.py:876
+#: src/search/cap_usesgui.py:897
 msgid "Uses"
 msgstr "Использует"
 
-#: src/search/cap_usesgui.py:881
+#: src/search/cap_usesgui.py:902
 msgid "Points of Use"
 msgstr "Точки использования"
 
@@ -659,15 +659,15 @@ msgstr "Замена приостановлена"
 msgid "Replace Continued"
 msgstr "Замена продолжена"
 
-#: src/search/common.py:933 src/search/common.py:957
+#: src/search/common.py:932 src/search/common.py:956
 msgid "Search manager state"
 msgstr "Состояние диспетчера поиска"
 
-#: src/search/common.py:1117
+#: src/search/common.py:1116
 msgid "Skipping large file %s; size=%i; max=%i"
 msgstr "Пропустить большой файл  %s; size=%i; max=%i"
 
-#: src/search/common.py:1125
+#: src/search/common.py:1124
 msgid "Could not open %s"
 msgstr "Не смог открыть %s"
 

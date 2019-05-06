@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_cache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2018-03-14 21:23+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,13 +17,29 @@ msgstr ""
 "X-Loco-Project-Id: 44100\n"
 "X-Loco-Api-Version: 1.0.18 20180307-1\n"
 
-#: src/cache/textcache.py:383
-msgid "Failed to read %s:  %s"
-msgstr "Не удалось прочитать %s: %s"
+#: src/cache/manager.py:54
+msgid "Some files failed to read from disk:"
+msgstr ""
+
+#: src/cache/manager.py:57
+msgid "Error"
+msgstr ""
+
+#: src/cache/manager.py:57
+msgid "File"
+msgstr ""
+
+#: src/cache/manager.py:65
+msgid "_OK"
+msgstr ""
+
+#: src/cache/manager.py:68
+msgid "Read Failure"
+msgstr ""
 
 #: src/cache/textcache.py:385
-msgid "Could Not Read %s"
-msgstr "Не смогли прочесть %s"
+msgid "Failed to read %s:  %s"
+msgstr "Не удалось прочитать %s: %s"
 
 #: src/cache/textcache.py:451
 msgid "Could not read file due to remote agent abort"
@@ -106,10 +122,13 @@ msgstr "Не удалось преобразовать текст '%s' в стр
 msgid "Could not convert file contents to the %s encoding"
 msgstr "Не удалось преобразовать содержимое файла в кодировку %s"
 
-#: src/cache/textcache.py:908
+#: src/cache/textcache.py:909
 msgid "General write error"
 msgstr "Общая ошибка записи"
 
-#: src/cache/textcache.py:1073
+#: src/cache/textcache.py:1074
 msgid "Encoding of %s changed to %s"
 msgstr "Кодировка %s изменена на %s"
+
+#~ msgid "Could Not Read %s"
+#~ msgstr "Не смогли прочесть %s"

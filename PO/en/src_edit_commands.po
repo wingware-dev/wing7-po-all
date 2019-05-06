@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-08-23 14:17+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:23GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: src/edit/commands.py:74
 msgid ""
 "Commands that only apply to editors when they have the keyboard focus.\n"
-"  These commands are also available for the Python Shell, Debug Probe, and\n"
+"  These commands are also available for the Python Shell, Debug Console, "
+"and\n"
 "  Debug I/O tools, which subclass the source editor, although some of the\n"
 "  commands are modified or disabled as appropriate in those contexts."
 msgstr ""
@@ -1541,11 +1542,15 @@ msgstr ""
 msgid "Run or debug the contents of the editor within the Python Shell"
 msgstr ""
 
-#: src/edit/commands.py:2306
+#: src/edit/commands.py:2295
+msgid "Save File to Run"
+msgstr ""
+
+#: src/edit/commands.py:2312
 msgid "Run the contents of the editor within the IPython Shell"
 msgstr ""
 
-#: src/edit/commands.py:2318
+#: src/edit/commands.py:2324
 msgid ""
 "Evaluate the current selection from the editor within the Python Shell\n"
 "    tool, optionally restarting the shell first. When whole_lines is set, "
@@ -1555,21 +1560,21 @@ msgid ""
 "    instead."
 msgstr ""
 
-#: src/edit/commands.py:2347
+#: src/edit/commands.py:2353
 msgid ""
-"Evaluate the current selection from the editor within the Debug Probe\n"
+"Evaluate the current selection from the editor within the Debug Console\n"
 "    tool. When whole_lines is set, the selection is rounded to whole lines\n"
 "    before evaluation. When unspecified (set to None), the setting from the\n"
 "    Shell's Option menu is used instead."
 msgstr ""
 
-#: src/edit/commands.py:2368
+#: src/edit/commands.py:2379
 msgid ""
 " Attempt to auto-justify the paragraph around the current start of\n"
 "    selection "
 msgstr ""
 
-#: src/edit/commands.py:2376
+#: src/edit/commands.py:2387
 msgid ""
 "Reformat the current file to comply with PEP 8 formatting conventions. "
 "Indentation\n"
@@ -1583,7 +1588,7 @@ msgid ""
 "preference."
 msgstr ""
 
-#: src/edit/commands.py:2384
+#: src/edit/commands.py:2395
 msgid ""
 "Reformat the current selection, or current line if there is no selection, to "
 "comply\n"
@@ -1591,440 +1596,450 @@ msgid ""
 "and end are given."
 msgstr ""
 
-#: src/edit/commands.py:2389
+#: src/edit/commands.py:2400
 msgid ""
 "Allow user to visit point of definition of a source symbol in the \n"
 "    current editor context by typing a fragment of the name"
 msgstr ""
 
-#: src/edit/commands.py:2400
+#: src/edit/commands.py:2411
 msgid "_Goto Definition"
 msgstr ""
 
-#: src/edit/commands.py:2401
+#: src/edit/commands.py:2412
 msgid "_Cancel"
 msgstr ""
 
-#: src/edit/commands.py:2403
+#: src/edit/commands.py:2414
 msgid "Find Symbol"
 msgstr ""
 
-#: src/edit/commands.py:2425
+#: src/edit/commands.py:2436
 msgid ""
 "Allow user to visit point of definition of a source symbol in the \n"
 "      any file in the project by typing a fragment of the name"
 msgstr ""
 
-#: src/edit/commands.py:2431
+#: src/edit/commands.py:2442
 msgid ""
 "Join together all lines in given selection (replace newlines with\n"
 "    the given delimiter (single space by default)"
 msgstr ""
 
-#: src/edit/commands.py:2437
+#: src/edit/commands.py:2448
 msgid ""
 "Join together specified number of lines after current line (replace\n"
 "    newlines with the given delimiter (single space by default)"
 msgstr ""
 
-#: src/edit/commands.py:2443
+#: src/edit/commands.py:2454
 msgid ""
 "Toggle the global auto-editing switch.  When enabled, the editor\n"
 "    performs the auto-edits that have been selected in the Editor >\n"
 "    Auto-Editing preferences group."
 msgstr ""
 
-#: src/edit/commands.py:2454
+#: src/edit/commands.py:2465
 msgid " Display the indentation manager for this editor file "
 msgstr ""
 
-#: src/edit/commands.py:2460
+#: src/edit/commands.py:2471
 msgid " Convert all lines with leading spaces to mixed tabs and spaces. "
 msgstr ""
 
-#: src/edit/commands.py:2469
+#: src/edit/commands.py:2480
 msgid " Convert all lines containing leading tabs to spaces only. "
 msgstr ""
 
-#: src/edit/commands.py:2478
+#: src/edit/commands.py:2489
 msgid " Convert all indentation to use tab characters only and no spaces "
 msgstr ""
 
-#: src/edit/commands.py:2487
+#: src/edit/commands.py:2498
 msgid ""
 " Force the indent style of the editor to mixed use of tabs and spaces, \n"
 "    regardless of the file contents "
 msgstr ""
 
-#: src/edit/commands.py:2496
+#: src/edit/commands.py:2507
 msgid ""
 " Force the indent style of the editor to use spaces only, regardless of file "
 "contents "
 msgstr ""
 
-#: src/edit/commands.py:2504
+#: src/edit/commands.py:2515
 msgid ""
 " Force the indent style of the editor to use tabs only, regardless of file "
 "contents "
 msgstr ""
 
-#: src/edit/commands.py:2512
+#: src/edit/commands.py:2523
 msgid ""
 " Force the indent style of the editor to match the indent style found in the "
 "majority\n"
 "    of the file "
 msgstr ""
 
-#: src/edit/commands.py:2521
+#: src/edit/commands.py:2532
 msgid ""
 " Check whether indents consistently use spaces or tabs throughout the file. "
 msgstr ""
 
-#: src/edit/commands.py:2532
+#: src/edit/commands.py:2543
 msgid " Toggle the current fold point "
 msgstr ""
 
-#: src/edit/commands.py:2540
+#: src/edit/commands.py:2551
 msgid " Collapse the current fold point "
 msgstr ""
 
-#: src/edit/commands.py:2548
+#: src/edit/commands.py:2559
 msgid " Expand the current fold point "
 msgstr ""
 
-#: src/edit/commands.py:2556
+#: src/edit/commands.py:2567
 msgid " Toggle the clicked fold point "
 msgstr ""
 
-#: src/edit/commands.py:2566
+#: src/edit/commands.py:2577
 msgid " Collapse the current fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2574
+#: src/edit/commands.py:2585
 msgid " Collapse the clicked fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2584
+#: src/edit/commands.py:2595
 msgid " Expand the current fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2592
+#: src/edit/commands.py:2603
 msgid " Expand the clicked fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2603
+#: src/edit/commands.py:2614
 msgid " Collapse the current fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2611
+#: src/edit/commands.py:2622
 msgid " Collapse the clicked fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2621
+#: src/edit/commands.py:2632
 msgid " Expand the current fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2629
+#: src/edit/commands.py:2640
 msgid " Expand the clicked fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2639
+#: src/edit/commands.py:2650
 msgid " Collapse all fold points in the current file "
 msgstr ""
 
-#: src/edit/commands.py:2647
+#: src/edit/commands.py:2658
 msgid " Expand all fold points in the current file "
 msgstr ""
 
-#: src/edit/commands.py:2658
+#: src/edit/commands.py:2669
 msgid "Print active editor document"
 msgstr ""
 
-#: src/edit/commands.py:2665
+#: src/edit/commands.py:2676
 msgid " Show printing page setup dialog "
 msgstr ""
 
-#: src/edit/commands.py:2676
+#: src/edit/commands.py:2687
 msgid " Force syntax highlighting for Python source"
 msgstr ""
 
-#: src/edit/commands.py:2679
+#: src/edit/commands.py:2690
 msgid " Force syntax highlighting for Cython source"
 msgstr ""
 
-#: src/edit/commands.py:2682
+#: src/edit/commands.py:2693
 msgid " Force syntax highlighting for C/C++ source"
 msgstr ""
 
-#: src/edit/commands.py:2685
+#: src/edit/commands.py:2696
 msgid " Force syntax highlighting for Java source "
 msgstr ""
 
-#: src/edit/commands.py:2688
+#: src/edit/commands.py:2699
 msgid " Force syntax highlighting for make files "
 msgstr ""
 
-#: src/edit/commands.py:2691
+#: src/edit/commands.py:2702
 msgid " Force syntax highlighting for DOS batch files "
 msgstr ""
 
-#: src/edit/commands.py:2694
+#: src/edit/commands.py:2705
 msgid " Force syntax highlighting for Visual Basic "
 msgstr ""
 
-#: src/edit/commands.py:2697
+#: src/edit/commands.py:2708
 msgid " Force syntax highlighting for HTML"
 msgstr ""
 
-#: src/edit/commands.py:2700
+#: src/edit/commands.py:2711
 msgid " Force syntax highlighting for properties files "
 msgstr ""
 
-#: src/edit/commands.py:2703
+#: src/edit/commands.py:2714
 msgid " Force syntax highlighting for error list format "
 msgstr ""
 
-#: src/edit/commands.py:2706
+#: src/edit/commands.py:2717
 msgid " Force syntax highlighting for MS IDL"
 msgstr ""
 
-#: src/edit/commands.py:2709
+#: src/edit/commands.py:2720
 msgid " Force syntax highlighting for SQL "
 msgstr ""
 
-#: src/edit/commands.py:2712
+#: src/edit/commands.py:2723
 msgid " Force syntax highlighting for XML files "
 msgstr ""
 
-#: src/edit/commands.py:2715
+#: src/edit/commands.py:2726
 msgid " Force syntax highlighting for XCode files "
 msgstr ""
 
-#: src/edit/commands.py:2718
+#: src/edit/commands.py:2729
 msgid " Force syntax highlighting for LaTeX "
 msgstr ""
 
-#: src/edit/commands.py:2721
+#: src/edit/commands.py:2732
 msgid " Force syntax highlighting for Lua "
 msgstr ""
 
-#: src/edit/commands.py:2724
+#: src/edit/commands.py:2735
 msgid " Force syntax highlighting for XP IDL "
 msgstr ""
 
-#: src/edit/commands.py:2727
+#: src/edit/commands.py:2738
 msgid " Force syntax highlighting for Javascript "
 msgstr ""
 
-#: src/edit/commands.py:2730
+#: src/edit/commands.py:2741
 msgid " Force syntax highlighting for RC file format "
 msgstr ""
 
-#: src/edit/commands.py:2733
+#: src/edit/commands.py:2744
 msgid " Force syntax highlighting for PL/SQL files"
 msgstr ""
 
-#: src/edit/commands.py:2736
+#: src/edit/commands.py:2747
 msgid " Force syntax highlighting for PHP source "
 msgstr ""
 
-#: src/edit/commands.py:2739
+#: src/edit/commands.py:2750
 msgid " Force syntax highlighting for Perl source "
 msgstr ""
 
-#: src/edit/commands.py:2742
+#: src/edit/commands.py:2753
 msgid " Force syntax highlighting for diff/cdiff files "
 msgstr ""
 
-#: src/edit/commands.py:2745
+#: src/edit/commands.py:2756
 msgid " Force syntax highlighting for Pascal source "
 msgstr ""
 
-#: src/edit/commands.py:2748
+#: src/edit/commands.py:2759
 msgid " Force syntax highlighting for Apache configuration file format "
 msgstr ""
 
-#: src/edit/commands.py:2751
+#: src/edit/commands.py:2762
 msgid " Force syntax highlighting for Avenue GIS language "
 msgstr ""
 
-#: src/edit/commands.py:2754
+#: src/edit/commands.py:2765
 msgid " Force syntax highlighting Ada source "
 msgstr ""
 
-#: src/edit/commands.py:2757
+#: src/edit/commands.py:2768
 msgid " Force syntax highlighting for Eiffel source "
 msgstr ""
 
-#: src/edit/commands.py:2760
+#: src/edit/commands.py:2771
 msgid " Force syntax highlighting for Lisp source "
 msgstr ""
 
-#: src/edit/commands.py:2763
+#: src/edit/commands.py:2774
 msgid " Force syntax highlighting for Ruby source "
 msgstr ""
 
-#: src/edit/commands.py:2766
+#: src/edit/commands.py:2777
 msgid " Force syntax highlighting for bash scripts "
 msgstr ""
 
-#: src/edit/commands.py:2769
+#: src/edit/commands.py:2780
 msgid " Force syntax highlighting for Bullant "
 msgstr ""
 
-#: src/edit/commands.py:2772
+#: src/edit/commands.py:2783
 msgid " Force syntax highlighting for TCL "
 msgstr ""
 
-#: src/edit/commands.py:2775
+#: src/edit/commands.py:2786
 msgid " Force syntax highlighting for CSS2 "
 msgstr ""
 
-#: src/edit/commands.py:2778
+#: src/edit/commands.py:2789
 msgid " Force syntax highlighting for QSS (Qt Style sheets) "
 msgstr ""
 
-#: src/edit/commands.py:2781
+#: src/edit/commands.py:2792
 msgid " Force syntax highlighting for SCSS formatted SASS"
 msgstr ""
 
-#: src/edit/commands.py:2784
+#: src/edit/commands.py:2795
 msgid " Force syntax highlighting for Less CSS extension language"
 msgstr ""
 
-#: src/edit/commands.py:2787
+#: src/edit/commands.py:2798
 msgid " Force syntax highlighting for HSS CSS extension language"
 msgstr ""
 
-#: src/edit/commands.py:2790
+#: src/edit/commands.py:2801
 msgid " Force syntax highlighting for Fortran "
 msgstr ""
 
-#: src/edit/commands.py:2793
+#: src/edit/commands.py:2804
 msgid " Force syntax highlighting for Matlab "
 msgstr ""
 
-#: src/edit/commands.py:2796
+#: src/edit/commands.py:2807
 msgid " Force syntax highlighting for Scriptol "
 msgstr ""
 
-#: src/edit/commands.py:2799
+#: src/edit/commands.py:2810
 msgid ""
 " Force syntax highlighting for POV ray tracer scene description language "
 msgstr ""
 
-#: src/edit/commands.py:2802
+#: src/edit/commands.py:2813
 msgid " Force syntax highlighting for EScript "
 msgstr ""
 
-#: src/edit/commands.py:2805
+#: src/edit/commands.py:2816
 msgid " Force syntax highlighting for LOUT typesetting language "
 msgstr ""
 
-#: src/edit/commands.py:2808
+#: src/edit/commands.py:2819
 msgid " Force syntax highlighting for MMIX assembly language "
 msgstr ""
 
-#: src/edit/commands.py:2811
+#: src/edit/commands.py:2822
 msgid " Force syntax highlighting for NSIS "
 msgstr ""
 
-#: src/edit/commands.py:2814
+#: src/edit/commands.py:2825
 msgid " Force syntax highlighting for Postscript "
 msgstr ""
 
-#: src/edit/commands.py:2817
+#: src/edit/commands.py:2828
 msgid " Force syntax highlighting for YAML "
 msgstr ""
 
-#: src/edit/commands.py:2820
+#: src/edit/commands.py:2831
 msgid " Force syntax highlighting for VXML "
 msgstr ""
 
-#: src/edit/commands.py:2823
+#: src/edit/commands.py:2834
 msgid " Force syntax highlighting for Masm assembly language "
 msgstr ""
 
-#: src/edit/commands.py:2826
+#: src/edit/commands.py:2837
 msgid " Force syntax highlighting for Baan "
 msgstr ""
 
-#: src/edit/commands.py:2829
+#: src/edit/commands.py:2840
 msgid " Force syntax highlighting for NNCrontab files "
 msgstr ""
 
-#: src/edit/commands.py:2832
+#: src/edit/commands.py:2843
 msgid " Force syntax highlighting for Mako template file "
 msgstr ""
 
-#: src/edit/commands.py:2835
+#: src/edit/commands.py:2846
 msgid " Force syntax highlighting for Django template file "
 msgstr ""
 
-#: src/edit/commands.py:2838
+#: src/edit/commands.py:2849
 msgid " Force syntax highlighting for R source file "
 msgstr ""
 
-#: src/edit/commands.py:2841
+#: src/edit/commands.py:2852
 msgid " Force syntax highlighting for Coffee Script source file "
 msgstr ""
 
-#: src/edit/commands.py:2844
+#: src/edit/commands.py:2855
 msgid " Force syntax highlighting for CMake file "
 msgstr ""
 
-#: src/edit/commands.py:2848
+#: src/edit/commands.py:2859
 msgid " Use no syntax highlighting "
 msgstr ""
 
-#: src/edit/commands.py:2851
+#: src/edit/commands.py:2862
 msgid " Use syntax highlighting appropriate to the file type "
 msgstr ""
 
-#: src/edit/commands.py:2857
+#: src/edit/commands.py:2868
 msgid " Toggles line wrapping preference for all editors "
 msgstr ""
 
-#: src/edit/commands.py:2863
+#: src/edit/commands.py:2874
 msgid " Set anchor in the visit history to go back to "
 msgstr ""
 
-#: src/edit/commands.py:2870
+#: src/edit/commands.py:2881
 msgid "Commands available when working either in the shell or editor"
 msgstr ""
 
-#: src/edit/commands.py:2877 src/edit/commands.py:2955
+#: src/edit/commands.py:2888 src/edit/commands.py:2971
 msgid "Constructor"
 msgstr ""
 
-#: src/edit/commands.py:2886
+#: src/edit/commands.py:2897
 msgid ""
-" Goto the definition of the source symbol that was last clicked on,\n"
-"    optionally showing the definition in another split if one is available\n"
-"    and other_split is True."
+" Goto the definition of the source symbol that was last clicked on. If\n"
+"    other_split is true, the definition will be displayed if a split other\n"
+"    than the current split; if other_split is false, it will be displayed "
+"in\n"
+"    the current editor; if other_split is not specified or None, the split "
+"to\n"
+"    be used is determined by the Split Reuse Policy preference value."
 msgstr ""
 
-#: src/edit/commands.py:2903
+#: src/edit/commands.py:2916
 msgid ""
-" Goto the definition of the selected source symbol, optionally showing the\n"
-"    definition in another split if one is available and other_split is True."
+" Goto the definition of the selected source symbol.  If other_split is\n"
+"    true, the definition will be displayed if a split other than the "
+"current\n"
+"    split; if other_split is false, it will be displayed in the current "
+"editor;\n"
+"    if other_split is not specified or None, the split to be used is "
+"determined\n"
+"    by the Split Reuse Policy preference value. "
 msgstr ""
 
-#: src/edit/commands.py:2919
+#: src/edit/commands.py:2935
 msgid "Get shell with focus or otherwise active editor"
 msgstr ""
 
-#: src/edit/commands.py:2948
+#: src/edit/commands.py:2964
 msgid "Commands for source assistant "
 msgstr ""
 
-#: src/edit/commands.py:2988
+#: src/edit/commands.py:3004
 msgid ""
 " Show the steps used to determine likely types in the source\n"
 "      assistant "
 msgstr ""
 
-#: src/edit/commands.py:2999
+#: src/edit/commands.py:3015
 msgid ""
 " Hide the steps used to determine likely types in the source\n"
 "      assistant "

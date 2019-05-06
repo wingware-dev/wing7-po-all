@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2004-02-23 15:25 EST\n"
 "Last-Translator: alexandr\n"
 "Language-Team: None\n"
@@ -146,8 +146,8 @@ msgstr ""
 
 #: src/guimgr/commands.py:307 src/guimgr/commands.py:357
 #: src/guimgr/commands.py:450 src/guimgr/commands.py:515
-#: src/guimgr/commands.py:674 src/guimgr/commands.py:790
-#: src/guimgr/commands.py:861
+#: src/guimgr/commands.py:687 src/guimgr/commands.py:811
+#: src/guimgr/commands.py:882
 msgid " Constructor"
 msgstr ""
 
@@ -229,19 +229,19 @@ msgstr ""
 msgid "Commands available only when the editor is in non-modal editing mode"
 msgstr ""
 
-#: src/guimgr/commands.py:456 src/guimgr/commands.py:541
+#: src/guimgr/commands.py:456 src/guimgr/commands.py:554
 msgid "Turn on auto-select mode character by character"
 msgstr ""
 
-#: src/guimgr/commands.py:466 src/guimgr/commands.py:546
+#: src/guimgr/commands.py:466 src/guimgr/commands.py:559
 msgid "Turn on auto-select mode line by line"
 msgstr ""
 
-#: src/guimgr/commands.py:476 src/guimgr/commands.py:551
+#: src/guimgr/commands.py:476 src/guimgr/commands.py:564
 msgid "Turn on auto-select block mode"
 msgstr ""
 
-#: src/guimgr/commands.py:486 src/guimgr/commands.py:695
+#: src/guimgr/commands.py:486 src/guimgr/commands.py:708
 msgid "Exit visual mode and return back to default mode"
 msgstr ""
 
@@ -251,25 +251,25 @@ msgid ""
 "  for VI bindings and possibly others)"
 msgstr ""
 
-#: src/guimgr/commands.py:525 src/guimgr/commands.py:700
+#: src/guimgr/commands.py:525 src/guimgr/commands.py:721
 msgid "Enter editor insert mode"
 msgstr ""
 
-#: src/guimgr/commands.py:530
+#: src/guimgr/commands.py:543
 msgid "Enter editor replace mode"
 msgstr ""
 
-#: src/guimgr/commands.py:535
+#: src/guimgr/commands.py:548
 msgid ""
 "Enter editor visual mode.  Unit should be one of 'char', 'line',\n"
 "    or 'block'."
 msgstr ""
 
-#: src/guimgr/commands.py:556
+#: src/guimgr/commands.py:569
 msgid "Turn on auto-select using previous mode and selection"
 msgstr ""
 
-#: src/guimgr/commands.py:562 src/guimgr/commands.py:706
+#: src/guimgr/commands.py:575 src/guimgr/commands.py:727
 msgid ""
 "Execute a VI command by name.  This implements \":\" commands for the\n"
 "    VI/Vim keyboard personality.  The following subset of VI/Vim : commands\n"
@@ -293,8 +293,8 @@ msgid ""
 "    "
 msgstr ""
 
-#: src/guimgr/commands.py:595 src/guimgr/commands.py:739
-#: src/guimgr/commands.py:817
+#: src/guimgr/commands.py:608 src/guimgr/commands.py:760
+#: src/guimgr/commands.py:838
 msgid ""
 "Perform vi mode ctrl-v action which either does a paste or does\n"
 "    start-select-block.  The default is to map ctrl-v to clipboard on\n"
@@ -302,7 +302,7 @@ msgid ""
 "    preference."
 msgstr ""
 
-#: src/guimgr/commands.py:608 src/guimgr/commands.py:752
+#: src/guimgr/commands.py:621 src/guimgr/commands.py:773
 msgid ""
 "Perform vi mode ctrl-x action which either does a cut or does\n"
 "    initiate-numeric-modified with the following digit key press. The "
@@ -312,7 +312,7 @@ msgid ""
 "    by the VI Mode Ctrl-X/C/V preference."
 msgstr ""
 
-#: src/guimgr/commands.py:627 src/guimgr/commands.py:771
+#: src/guimgr/commands.py:640 src/guimgr/commands.py:792
 msgid ""
 "Perform vi mode ctrl-c action which either does a copy or nothing if\n"
 "    ctrl-x/v/c are not being used for clipboard actions. The default\n"
@@ -321,7 +321,7 @@ msgid ""
 "    by the VI Mode Ctrl-X/C/V preference."
 msgstr ""
 
-#: src/guimgr/commands.py:637
+#: src/guimgr/commands.py:650
 msgid ""
 "Perform vi's :set action. The command is the portion after :set.  Currently\n"
 "    supports ic, noic, ai, noai, number or nu, nonumber or nonu, ro, noro, "
@@ -329,31 +329,35 @@ msgid ""
 "    nosm.  Multiple options can be specied in one call as for :set ic sm ai"
 msgstr ""
 
-#: src/guimgr/commands.py:667
+#: src/guimgr/commands.py:680
 msgid ""
 "Commands available only when the editor is in visual mode (used\n"
 "  for VI bindings and some others)"
 msgstr ""
 
-#: src/guimgr/commands.py:684 src/guimgr/commands.py:800
-#: src/guimgr/commands.py:867
+#: src/guimgr/commands.py:697 src/guimgr/commands.py:821
+#: src/guimgr/commands.py:888
 msgid "Enter editor browse mode"
 msgstr ""
 
-#: src/guimgr/commands.py:689
+#: src/guimgr/commands.py:702
 msgid ""
 "Alter type of editor visual mode or exit back to browse mode.  Unit should "
 "be \n"
 "    one of 'char', 'line', or 'block'."
 msgstr ""
 
-#: src/guimgr/commands.py:783
+#: src/guimgr/commands.py:713
+msgid "Select a text object based on the following key press"
+msgstr ""
+
+#: src/guimgr/commands.py:804
 msgid ""
 "Commands available only when editor is in insert mode (used \n"
 "  for VI bindings and possibly others)"
 msgstr ""
 
-#: src/guimgr/commands.py:830
+#: src/guimgr/commands.py:851
 msgid ""
 "Perform vi mode ctrl-x action which either does a cut or nothing \n"
 "    depending on whether ctrl-x/v/c are mapped to clipboard actions. The "
@@ -363,7 +367,7 @@ msgid ""
 "    by the VI Mode Ctrl-X/C/V preference."
 msgstr ""
 
-#: src/guimgr/commands.py:841
+#: src/guimgr/commands.py:862
 msgid ""
 "Perform vi mode ctrl-c action which either does a copy or enters browse\n"
 "    mode if ctrl-x/v/c are not being used for clipboard actions. The "
@@ -373,215 +377,215 @@ msgid ""
 "    by the VI Mode Ctrl-X/C/V preference."
 msgstr ""
 
-#: src/guimgr/commands.py:854
+#: src/guimgr/commands.py:875
 msgid ""
 "Commands available only when editor is in replace mode (used \n"
 "  for VI bindings and possibly others)"
 msgstr ""
 
-#: src/guimgr/commands.py:886
+#: src/guimgr/commands.py:907
 msgid ""
 "Commands for windows that contain dockable tool areas.  These\n"
 "  are available for the currently active window, if any."
 msgstr ""
 
-#: src/guimgr/commands.py:898
+#: src/guimgr/commands.py:919
 msgid "Show or minimize the horizontal tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:907
+#: src/guimgr/commands.py:928
 msgid "Show or minimize the vertical tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:943
+#: src/guimgr/commands.py:964
 msgid " Returns if panel window is in front of editor or dock window. "
 msgstr ""
 
-#: src/guimgr/commands.py:1023
+#: src/guimgr/commands.py:1044
 msgid "Show the horizontal tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:1031
+#: src/guimgr/commands.py:1052
 msgid "Minimize the horizontal tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:1039
+#: src/guimgr/commands.py:1060
 msgid "Show the vertical tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:1047
+#: src/guimgr/commands.py:1068
 msgid "Minimize the vertical tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:1055
+#: src/guimgr/commands.py:1076
 msgid "Hide the horizontal tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:1063
+#: src/guimgr/commands.py:1084
 msgid "Hide the vertical tool area"
 msgstr ""
 
-#: src/guimgr/commands.py:1071
+#: src/guimgr/commands.py:1092
 msgid ""
 "Hide both the vertical and horizontal tool areas and toolbar, saving "
 "previous\n"
 "    state so it can be restored later with exit_fullscreen"
 msgstr ""
 
-#: src/guimgr/commands.py:1089
+#: src/guimgr/commands.py:1110
 msgid "Restore previous non-fullscreen state of all tools and tool bar"
 msgstr ""
 
-#: src/guimgr/commands.py:1118
+#: src/guimgr/commands.py:1139
 msgid " Show toolbars in all document windows "
 msgstr ""
 
-#: src/guimgr/commands.py:1127
+#: src/guimgr/commands.py:1148
 msgid " Hide toolbars in all document windows "
 msgstr ""
 
-#: src/guimgr/commands.py:1136
+#: src/guimgr/commands.py:1157
 msgid " Display the tall toolbox on the left. "
 msgstr ""
 
-#: src/guimgr/commands.py:1147
+#: src/guimgr/commands.py:1168
 msgid " Display the tall toolbox on the right. "
 msgstr ""
 
-#: src/guimgr/commands.py:1159
+#: src/guimgr/commands.py:1180
 msgid ""
 "Commands for windows in general.  These are available for the currently \n"
 "  active window, if any."
 msgstr ""
 
-#: src/guimgr/commands.py:1171
+#: src/guimgr/commands.py:1192
 msgid ""
 "Move the keyboard focus forward within the Window to the next editable\n"
 "    area"
 msgstr ""
 
-#: src/guimgr/commands.py:1352
+#: src/guimgr/commands.py:1373
 msgid ""
 "Move focus to next or previous editor split, optionally wrapping when\n"
 "    the end is reached."
 msgstr ""
 
-#: src/guimgr/commands.py:1373
+#: src/guimgr/commands.py:1394
 msgid "Move focus to first editor split"
 msgstr ""
 
-#: src/guimgr/commands.py:1382
+#: src/guimgr/commands.py:1403
 msgid "Move focus to last editor split"
 msgstr ""
 
-#: src/guimgr/commands.py:1391
+#: src/guimgr/commands.py:1412
 msgid "Move focus to previous editor split"
 msgstr ""
 
-#: src/guimgr/commands.py:1398
+#: src/guimgr/commands.py:1419
 msgid ""
 "Move focus back to the current editor, out of any tool, if there is\n"
 "    an active editor."
 msgstr ""
 
-#: src/guimgr/commands.py:1411
+#: src/guimgr/commands.py:1432
 msgid "Show the next tool, starting with most recently shown tool"
 msgstr ""
 
-#: src/guimgr/commands.py:1436
+#: src/guimgr/commands.py:1457
 msgid "Show the previous tool, starting with the move recently shown tool"
 msgstr ""
 
-#: src/guimgr/commands.py:1472
+#: src/guimgr/commands.py:1493
 msgid ""
 "Commands available when the tool bar search entry area has the keyboard\n"
 "  focus."
 msgstr ""
 
-#: src/guimgr/commands.py:1485 src/guimgr/commands.py:1494
+#: src/guimgr/commands.py:1506 src/guimgr/commands.py:1515
 msgid " Cut selection "
 msgstr ""
 
-#: src/guimgr/commands.py:1503
+#: src/guimgr/commands.py:1524
 msgid " Paste from clipboard "
 msgstr ""
 
-#: src/guimgr/commands.py:1508
+#: src/guimgr/commands.py:1529
 msgid "Move forward one character"
 msgstr ""
 
-#: src/guimgr/commands.py:1512
+#: src/guimgr/commands.py:1533
 msgid "Move forward one character, extending the selection"
 msgstr ""
 
-#: src/guimgr/commands.py:1516
+#: src/guimgr/commands.py:1537
 msgid "Move forward one word"
 msgstr ""
 
-#: src/guimgr/commands.py:1520
+#: src/guimgr/commands.py:1541
 msgid "Move forward one word, extending the selection"
 msgstr ""
 
-#: src/guimgr/commands.py:1524
+#: src/guimgr/commands.py:1545
 msgid "Move backward one character"
 msgstr ""
 
-#: src/guimgr/commands.py:1528
+#: src/guimgr/commands.py:1549
 msgid "Move backward one character, extending the selection"
 msgstr ""
 
-#: src/guimgr/commands.py:1532
+#: src/guimgr/commands.py:1553
 msgid "Move backward one word"
 msgstr ""
 
-#: src/guimgr/commands.py:1536
+#: src/guimgr/commands.py:1557
 msgid "Move backward one word, extending the selection"
 msgstr ""
 
-#: src/guimgr/commands.py:1540
+#: src/guimgr/commands.py:1561
 msgid "Move to the beginning of the toolbar search entry"
 msgstr ""
 
-#: src/guimgr/commands.py:1544
+#: src/guimgr/commands.py:1565
 msgid ""
 "Move to the beginning of the toolbar search entry, extending the selection"
 msgstr ""
 
-#: src/guimgr/commands.py:1548
+#: src/guimgr/commands.py:1569
 msgid "Move to the end of the toolbar search entry"
 msgstr ""
 
-#: src/guimgr/commands.py:1552
+#: src/guimgr/commands.py:1573
 msgid "Move to the end of the toolbar search entry, extending the selection"
 msgstr ""
 
-#: src/guimgr/commands.py:1556
+#: src/guimgr/commands.py:1577
 msgid "Delete character in front of the cursor"
 msgstr ""
 
-#: src/guimgr/commands.py:1560
+#: src/guimgr/commands.py:1581
 msgid "Delete word in front of the cursor"
 msgstr ""
 
-#: src/guimgr/commands.py:1565
+#: src/guimgr/commands.py:1586
 msgid "Delete character behind the cursor"
 msgstr ""
 
-#: src/guimgr/commands.py:1569
+#: src/guimgr/commands.py:1590
 msgid "Delete word behind the cursor"
 msgstr ""
 
-#: src/guimgr/commands.py:1574 src/guimgr/commands.py:1772
+#: src/guimgr/commands.py:1595 src/guimgr/commands.py:1793
 msgid ""
 " Standard editor commands for use when a QLineEdit instance has the \n"
 "  focus. "
 msgstr ""
 
-#: src/guimgr/commands.py:1588 src/guimgr/commands.py:1786
+#: src/guimgr/commands.py:1609 src/guimgr/commands.py:1807
 msgid " Returns start, end of selection; when no selection, start == end "
 msgstr ""
 
-#: src/guimgr/commands.py:1812
+#: src/guimgr/commands.py:1833
 msgid ""
 " Returns start of line and start of line text for line the cursor is\n"
 "    on.  Assumes a block is a line. "

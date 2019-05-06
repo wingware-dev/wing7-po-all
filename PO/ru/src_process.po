@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_process\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2018-03-18 21:55+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -159,8 +159,8 @@ msgstr "Принимать"
 msgid "_Decline"
 msgstr "Снижение"
 
-#: src/process/wingctl.py:57 src/process/wingctl.py:1210
-#: src/process/wingctl.py:1226
+#: src/process/wingctl.py:57 src/process/wingctl.py:1213
+#: src/process/wingctl.py:1229
 msgid "_OK"
 msgstr ""
 
@@ -196,50 +196,51 @@ msgstr "Лицензия для версии %s: для запуска %s тре
 msgid "No valid license file was found.  The following errors occurred:"
 msgstr "Действительный файл лицензии не найден.  Произошли следующие ошибки:"
 
-#: src/process/wingctl.py:457
+#: src/process/wingctl.py:460
 msgid "Wing Pro Trial: %i Days Left"
 msgstr "Wing Pro Trial: %i Осталось дней"
 
-#: src/process/wingctl.py:459
-msgid "License Expiring: %i Days Left"
+#: src/process/wingctl.py:462
+#, fuzzy
+msgid "Wing Pro License Expiring: %i Days Left"
 msgstr "Срок действия лицензии истекает: Осталось %i Дней"
 
-#: src/process/wingctl.py:461
+#: src/process/wingctl.py:464
 msgid "If you are ready, please purchase a license at %s."
 msgstr "Если вы готовы, приобретите лицензию в %s."
 
-#: src/process/wingctl.py:462
+#: src/process/wingctl.py:465
 msgid "Thanks for using Wing Pro!"
 msgstr "Благодарим за использование Wing Pro!"
 
-#: src/process/wingctl.py:463
+#: src/process/wingctl.py:466
 msgid "_Purchase License"
 msgstr "Приобрести лицензию"
 
-#: src/process/wingctl.py:468
+#: src/process/wingctl.py:471
 msgid "This annual license will expire in %s days."
 msgstr "Эта годовая лицензия истекает в %s дней."
 
-#: src/process/wingctl.py:469
+#: src/process/wingctl.py:472
 msgid "You can renew at https://wingware.com/store/upgrade/license-ids=%s."
 msgstr ""
 "Вы можете продлить на https://wingware.com/store/upgrade/license-ids=%s."
 
-#: src/process/wingctl.py:470
+#: src/process/wingctl.py:473
 msgid ""
 "If you have already renewed, Wing failed to auto-activate the renewal and "
 "will try again later."
 msgstr ""
 
-#: src/process/wingctl.py:474
+#: src/process/wingctl.py:477
 msgid "_Renew License"
 msgstr "Продлить Лицензию"
 
-#: src/process/wingctl.py:478
+#: src/process/wingctl.py:481
 msgid "The free license you are using will expire in %s days."
 msgstr "Бесплатная лицензия, которую вы используете, истекает через %s дней."
 
-#: src/process/wingctl.py:479
+#: src/process/wingctl.py:482
 msgid ""
 "If you still qualify for a free license, you may reapply at https://wingware."
 "com/store/free."
@@ -247,15 +248,15 @@ msgstr ""
 "Если вы все еще имеете право на бесплатную лицензию, вы можете подать заявку "
 "на https://wingware.com/store/free."
 
-#: src/process/wingctl.py:481
+#: src/process/wingctl.py:484
 msgid "Otherwise, please purchase a license at %s"
 msgstr "В противном случае приобретите лицензию в %s"
 
-#: src/process/wingctl.py:486
+#: src/process/wingctl.py:489
 msgid "The trial license you are using will expire in %s days."
 msgstr "Срок действия используемой пробной лицензии истекает через %s дней."
 
-#: src/process/wingctl.py:488
+#: src/process/wingctl.py:491
 msgid ""
 "Otherwise, you can extend your trial twice for a total evaluation period of "
 "30 days.  For a longer trial please email support@wingware.com."
@@ -263,25 +264,25 @@ msgstr ""
 "В противном случае вы можете продлить пробную версию дважды на 30 дней.  Для "
 "более длительных испытаний, пожалуйста, напишите support@wingware.com."
 
-#: src/process/wingctl.py:509
+#: src/process/wingctl.py:512
 msgid "_Continue Working"
 msgstr "Продолжить работу"
 
-#: src/process/wingctl.py:614
+#: src/process/wingctl.py:617
 msgid "Expired Trial"
 msgstr "Истек срок действия пробной версии"
 
-#: src/process/wingctl.py:615
+#: src/process/wingctl.py:618
 msgid ""
 "The free trial period for Wing has ended.  Please purchase a license from %s"
 msgstr ""
 "Бесплатный пробный период для Wing закончился.  Приобретите лицензию у %s"
 
-#: src/process/wingctl.py:617 src/process/wingctl.py:1109
+#: src/process/wingctl.py:620 src/process/wingctl.py:1112
 msgid "No Valid License"
 msgstr "Нет действующей лицензии"
 
-#: src/process/wingctl.py:618
+#: src/process/wingctl.py:621
 msgid ""
 "Wing could not obtain a license for your Steam user ID.  Please try again or "
 "email sales@wingware.com for help.  If you do not own a license, please "
@@ -291,15 +292,15 @@ msgstr ""
 "Повторите попытку или напишите по адресу sales@wingware.com. Если у вас нет "
 "лицензии, пожалуйста, приобретите ее у %s"
 
-#: src/process/wingctl.py:628
+#: src/process/wingctl.py:631
 msgid "_Show Store"
 msgstr "Показать магазин"
 
-#: src/process/wingctl.py:629
+#: src/process/wingctl.py:632
 msgid "Just _Quit"
 msgstr "Просто Покинуть"
 
-#: src/process/wingctl.py:707
+#: src/process/wingctl.py:710
 msgid ""
 "Unable to create the required directory %s because the disk is read-only or "
 "a file of the same name already exists."
@@ -307,18 +308,18 @@ msgstr ""
 "Не удалось создать необходимый каталог %s, так как диск доступен только для "
 "чтения или файл с тем же именем уже существует."
 
-#: src/process/wingctl.py:736 src/process/wingctl.py:743
+#: src/process/wingctl.py:739 src/process/wingctl.py:746
 msgid "Failed to use activated license"
 msgstr "Не удалось использовать активированную лицензию"
 
-#: src/process/wingctl.py:737
+#: src/process/wingctl.py:740
 msgid ""
 "The following errors occurred while copying the license activation file into "
 "place:\n"
 "\n"
 msgstr "При копировании файла активации лицензии произошли следующие ошибки:"
 
-#: src/process/wingctl.py:744
+#: src/process/wingctl.py:747
 msgid ""
 "The following exception occurred while copying the license activation file "
 "into place:\n"
@@ -326,11 +327,11 @@ msgid ""
 msgstr ""
 "При копировании файла активации лицензии произошло следующее исключение:"
 
-#: src/process/wingctl.py:756
+#: src/process/wingctl.py:759
 msgid "Trial License Generated"
 msgstr "Созданная пробная лицензия"
 
-#: src/process/wingctl.py:757
+#: src/process/wingctl.py:760
 msgid ""
 "Your 10-day trial license has been created and activated.  If this is your "
 "first trial, you will be able to extend the license term twice for up to 30 "
@@ -344,11 +345,11 @@ msgstr ""
 "\n"
 "Спасибо, что попробовали Wing!"
 
-#: src/process/wingctl.py:764 src/process/wingctl.py:769
+#: src/process/wingctl.py:767 src/process/wingctl.py:772
 msgid "License Activated"
 msgstr "Лицензия активирована"
 
-#: src/process/wingctl.py:765
+#: src/process/wingctl.py:768
 msgid ""
 "License activation succeeded.  Your license is valid for another %s days.  "
 "Thanks for using Wing Pro!"
@@ -356,16 +357,16 @@ msgstr ""
 "Активация лицензии прошла успешно. Ваша лицензия действительна в течение "
 "следующих %s дней. Благодарим за использование Wing Pro!"
 
-#: src/process/wingctl.py:770
+#: src/process/wingctl.py:773
 msgid "License activation succeeded.  Thanks for using Wing Pro!"
 msgstr ""
 "Активация лицензии прошла успешно. Благодарим за использование Wing Pro!"
 
-#: src/process/wingctl.py:777
+#: src/process/wingctl.py:780
 msgid "Unexpected License Activation Error"
 msgstr "Неожиданная ошибка активации лицензии"
 
-#: src/process/wingctl.py:778
+#: src/process/wingctl.py:781
 msgid ""
 "A validated license was corrupted during copying.  Please send email to "
 "support@wingware.com"
@@ -373,23 +374,24 @@ msgstr ""
 "Во время копирования подтвержденная лицензия была повреждена. Пожалуйста, "
 "отправьте письмо по адресу support@wingware.com"
 
-#: src/process/wingctl.py:853
+#: src/process/wingctl.py:856
 msgid "Con_tinue"
 msgstr "Продолжать"
 
-#: src/process/wingctl.py:854 src/process/wingctl.py:1211
+#: src/process/wingctl.py:857 src/process/wingctl.py:1214
 msgid "_Cancel"
 msgstr "Отмена"
 
-#: src/process/wingctl.py:858
-msgid "No License Found"
+#: src/process/wingctl.py:861
+#, fuzzy
+msgid "Wing Pro: No License Found"
 msgstr "Не найдено ни одной лицензии"
 
-#: src/process/wingctl.py:860
+#: src/process/wingctl.py:863
 msgid "Purchase License"
 msgstr "Приобрести лицензию"
 
-#: src/process/wingctl.py:907
+#: src/process/wingctl.py:910
 msgid ""
 "Trial licenses can be obtained directly from Wing and last for 10 days.  "
 "When the license expires, you can renew it twice for a total of 30 days.  "
@@ -400,19 +402,19 @@ msgstr ""
 "дважды на 30 дней.  Пожалуйста, напишите support@wingware.com если Вам нужно "
 "больше времени."
 
-#: src/process/wingctl.py:912
+#: src/process/wingctl.py:915
 msgid "Obtain or extend a trial license"
 msgstr "Получение или продление пробной лицензии"
 
-#: src/process/wingctl.py:920
+#: src/process/wingctl.py:923
 msgid "Permanent and annual licenses can be purchased from wingware.com"
 msgstr "Постоянные и ежегодные лицензии можно приобрести у wingware.com"
 
-#: src/process/wingctl.py:923
+#: src/process/wingctl.py:926
 msgid "Purchase a license"
 msgstr "Приобрести лицензию"
 
-#: src/process/wingctl.py:936
+#: src/process/wingctl.py:939
 msgid ""
 "Wing requires that you activate each license before using it.  If you run "
 "out of activations, please email your license to sales@wingware.com."
@@ -421,11 +423,11 @@ msgstr ""
 "использованием.  Если у вас закончились активации, отправьте свою лицензию "
 "по электронной почте sales@wingware.com."
 
-#: src/process/wingctl.py:941
+#: src/process/wingctl.py:944
 msgid "Activate your pre-loaded license:"
 msgstr "Активация предварительно загруженной лицензии:"
 
-#: src/process/wingctl.py:943
+#: src/process/wingctl.py:946
 msgid ""
 "Activate a purchased license.\n"
 "Enter license id:"
@@ -433,7 +435,7 @@ msgstr ""
 "Активация приобретенной лицензии.\n"
 "Введите лицензионный код:"
 
-#: src/process/wingctl.py:950
+#: src/process/wingctl.py:953
 msgid ""
 "You can try Wing for a short period of time without any license.  At the end "
 "of the allocated time, this dialog will reappear and you will be given the "
@@ -445,11 +447,11 @@ msgstr ""
 "появится, и вам будет предоставлена ​​возможность начать пробную версию, "
 "приобрести лицензию или выйти из Wing после сохранения изменений."
 
-#: src/process/wingctl.py:955
+#: src/process/wingctl.py:958
 msgid "10 minute emergency session"
 msgstr "10-минутный аварийный сеанс"
 
-#: src/process/wingctl.py:958
+#: src/process/wingctl.py:961
 msgid ""
 "You have used up the time period during which Wing will run without any "
 "license.  You must now start a 30-day trial, purchase a license, or quit "
@@ -459,15 +461,15 @@ msgstr ""
 "лицензии. Теперь вы должны начать использовать 30-дневную пробную версию, "
 "приобрести лицензию или выйти после сохранения изменений."
 
-#: src/process/wingctl.py:963
+#: src/process/wingctl.py:966
 msgid "Exit after saving changes"
 msgstr "Выход после сохранения изменений"
 
-#: src/process/wingctl.py:995
+#: src/process/wingctl.py:998
 msgid "Choose your preferred method of license activation:"
 msgstr "Выберите предпочтительный способ активации лицензии:"
 
-#: src/process/wingctl.py:1002
+#: src/process/wingctl.py:1005
 msgid ""
 "This is the easiest way to activate your license.  Wing sends your license "
 "and your request code to our server to complete the activation process."
@@ -475,15 +477,15 @@ msgstr ""
 "Это самый простой способ активации вашей лицензии. Wing отправляет вашу "
 "лицензию и ваш код запроса на наш сервер, чтобы завершить процесс активации."
 
-#: src/process/wingctl.py:1007
+#: src/process/wingctl.py:1010
 msgid "Configure Proxy..."
 msgstr "Настройка Прокси..."
 
-#: src/process/wingctl.py:1013
+#: src/process/wingctl.py:1016
 msgid "Recommended: Connect Wing directly to wingware.com"
 msgstr "Рекомендуем: Подключить Wing прямо к wingware.com"
 
-#: src/process/wingctl.py:1019
+#: src/process/wingctl.py:1022
 msgid ""
 "If your machine does not have a network connection that can access port 80 "
 "(http) on wingware.com, you will need to activate your license manually by "
@@ -498,53 +500,53 @@ msgstr ""
 "напишите нам информацию по адресу support@wingware.com, и мы отправим вам "
 "код активации."
 
-#: src/process/wingctl.py:1034
+#: src/process/wingctl.py:1037
 msgid "Optional user identity to use for lost license recovery:"
 msgstr ""
 "Необязательный идентификатор пользователя для восстановления утерянной "
 "лицензии:"
 
-#: src/process/wingctl.py:1039
+#: src/process/wingctl.py:1042
 msgid "Email"
 msgstr ""
 
-#: src/process/wingctl.py:1039
+#: src/process/wingctl.py:1042
 msgid "Licensed user"
 msgstr "Лицензированный пользователь"
 
-#: src/process/wingctl.py:1039
+#: src/process/wingctl.py:1042
 msgid "Phone"
 msgstr "Телефон"
 
-#: src/process/wingctl.py:1105
+#: src/process/wingctl.py:1108
 msgid "To change to another license, you may now:"
 msgstr "Теперь вы можете перейти на другую лицензию:"
 
-#: src/process/wingctl.py:1106
+#: src/process/wingctl.py:1109
 msgid "Change License"
 msgstr "Change License"
 
-#: src/process/wingctl.py:1108
+#: src/process/wingctl.py:1111
 msgid "Wing is running without a valid license. You may now:"
 msgstr "Wing работает без действующей лицензии. Теперь вы можете:"
 
-#: src/process/wingctl.py:1140
+#: src/process/wingctl.py:1143
 msgid "Your trial license has been created.  To activate it you can:"
 msgstr "Ваша пробная лицензия была создана. Чтобы активировать её, вы можете:"
 
-#: src/process/wingctl.py:1141
+#: src/process/wingctl.py:1144
 msgid "Activate Trial License"
 msgstr "Активировать пробную лицензию"
 
-#: src/process/wingctl.py:1143
+#: src/process/wingctl.py:1146
 msgid "Please choose your preferred method of license activation:"
 msgstr "Выберите предпочтительный способ активации лицензии:"
 
-#: src/process/wingctl.py:1144
+#: src/process/wingctl.py:1147
 msgid "Activate License"
 msgstr "Активировать лицензию"
 
-#: src/process/wingctl.py:1147
+#: src/process/wingctl.py:1150
 msgid ""
 "Or:  Activate manually at https://wingware.com/activate.  You will need your "
 "license id %s and request code %s.  Then enter the provided activation key "
@@ -553,11 +555,11 @@ msgstr ""
 "Или: активировать вручную https://wingware.com/activate. Вам понадобится ваш "
 "ID лицензии и код запроса на %s. Введите ключ активации здесь:"
 
-#: src/process/wingctl.py:1198
+#: src/process/wingctl.py:1201
 msgid "Opening Browser"
 msgstr "Открытие браузера"
 
-#: src/process/wingctl.py:1199
+#: src/process/wingctl.py:1202
 msgid ""
 "Click OK to open https://wingware.com/store in a web browser.  Once you have "
 "purchased a license, return here to activate it."
@@ -565,11 +567,11 @@ msgstr ""
 "Нажмите OK, чтобы открыть https://wingware.com/store в веб-браузере.  После "
 "того, как Вы приобрели лицензию, вернитесь сюда, чтобы активировать ее."
 
-#: src/process/wingctl.py:1223
+#: src/process/wingctl.py:1226
 msgid "You cannot enter a trial license id here"
 msgstr "Здесь нельзя ввести идентификатор пробной лицензии"
 
-#: src/process/wingctl.py:1225
+#: src/process/wingctl.py:1228
 msgid ""
 "Invalid license id: %s. Please check and correct it.  Errors found were:\n"
 "\n"
@@ -580,13 +582,13 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/process/wingctl.py:1227 src/process/wingctl.py:1323
-#: src/process/wingctl.py:1370 src/process/wingctl.py:1600
-#: src/process/wingctl.py:1672
+#: src/process/wingctl.py:1230 src/process/wingctl.py:1326
+#: src/process/wingctl.py:1373 src/process/wingctl.py:1603
+#: src/process/wingctl.py:1675
 msgid "Invalid License ID"
 msgstr "Недопустимый ID лицензии"
 
-#: src/process/wingctl.py:1324
+#: src/process/wingctl.py:1327
 msgid ""
 "Invalid activation key: %s. Please check and correct it.  Errors found "
 "were:\n"
@@ -598,12 +600,12 @@ msgstr ""
 "\n"
 "%с"
 
-#: src/process/wingctl.py:1365
+#: src/process/wingctl.py:1368
 msgid "Invalid activation key: %s. Please check and correct it."
 msgstr "Неверный ключ активации: %s. Пожалуйста, проверьте и исправьте его."
 
-#: src/process/wingctl.py:1369 src/process/wingctl.py:1599
-#: src/process/wingctl.py:1671
+#: src/process/wingctl.py:1372 src/process/wingctl.py:1602
+#: src/process/wingctl.py:1674
 msgid ""
 "  Validation errors were:\n"
 "\n"
@@ -613,104 +615,121 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/process/wingctl.py:1465
+#: src/process/wingctl.py:1468
 msgid "Activating"
 msgstr "Активация"
 
-#: src/process/wingctl.py:1466
+#: src/process/wingctl.py:1469
 msgid "Submitting activation request. Please wait"
 msgstr "Отправка запроса активации. Пожалуйста, подождите"
 
-#: src/process/wingctl.py:1477
+#: src/process/wingctl.py:1480
 msgid "Connecting to wingware.com"
 msgstr "Подключение к wingware.com"
 
-#: src/process/wingctl.py:1481
+#: src/process/wingctl.py:1484
 msgid "Preparing activation"
 msgstr "Подготовка активации"
 
-#: src/process/wingctl.py:1549
+#: src/process/wingctl.py:1552
 msgid "Waiting for Reply"
 msgstr "Ожидание ответа"
 
-#: src/process/wingctl.py:1556
+#: src/process/wingctl.py:1559
 msgid "Reading Reply"
 msgstr "Чтение ответа"
 
-#: src/process/wingctl.py:1561
+#: src/process/wingctl.py:1564
 msgid "Could not obtain activation key"
 msgstr "Не удалось получить ключ активации"
 
-#: src/process/wingctl.py:1568
-msgid "Add Activations"
+#: src/process/wingctl.py:1571
+#, fuzzy
+msgid "_Add Activations"
 msgstr "Добавить активации"
 
-#: src/process/wingctl.py:1577
-msgid "Upgrade"
+#: src/process/wingctl.py:1580
+#, fuzzy
+msgid "_Upgrade"
 msgstr "Обновить"
 
-#: src/process/wingctl.py:1589
+#: src/process/wingctl.py:1592
 msgid "Validating Activation Key"
 msgstr "Проверка ключа активации"
 
-#: src/process/wingctl.py:1596 src/process/wingctl.py:1668
+#: src/process/wingctl.py:1599 src/process/wingctl.py:1671
 msgid ""
 "Internal activation error: %s. Please report this to support@wingware.com."
 msgstr ""
 "Внутренняя ошибка активации: %s. Пожалуйста, сообщите об этом "
 "support@wingware.com."
 
-#: src/process/wingctl.py:1608 src/process/wingctl.py:1680
+#: src/process/wingctl.py:1611 src/process/wingctl.py:1683
 msgid "Writing Activation File"
 msgstr "Запись файла активации"
 
-#: src/process/wingctl.py:1623 src/process/wingctl.py:1634
-#: src/process/wingctl.py:1639
+#: src/process/wingctl.py:1626 src/process/wingctl.py:1637
+#: src/process/wingctl.py:1642
 msgid "Invalid license"
 msgstr "Недействительная лицензия"
 
-#: src/process/wingctl.py:1624
+#: src/process/wingctl.py:1627
 msgid "The license code you provided is invalid for this product"
 msgstr "Предоставленный вами код лицензии недействителен для данного продукта"
 
-#: src/process/wingctl.py:1631
+#: src/process/wingctl.py:1634
 msgid "Validating License"
 msgstr "Проверка лицензии"
 
-#: src/process/wingctl.py:1635
+#: src/process/wingctl.py:1638
 msgid ""
 "The license code you provided is invalid -- please check it and try again"
 msgstr ""
 "Указанный вами код лицензии недействителен. -- проверьте его и повторите "
 "попытку."
 
-#: src/process/wingctl.py:1640
+#: src/process/wingctl.py:1643
 msgid "The license code you provided not valid for this operating system"
 msgstr ""
 "Код лицензии, который вы предоставили недействительно для этой операционной "
 "системы"
 
-#: src/process/wingctl.py:1647
+#: src/process/wingctl.py:1650
 msgid "Creating Activation"
 msgstr "Создание Активации"
 
-#: src/process/wingctl.py:1663
+#: src/process/wingctl.py:1666
 msgid "Validating Activation"
 msgstr "Проверка Активации"
 
-#: src/process/wingctl.py:1731
+#: src/process/wingctl.py:1739
 msgid "Internal error (missing field)"
 msgstr "Внутренняя ошибка (отсутствует поле)"
 
-#: src/process/wingctl.py:1733
+#: src/process/wingctl.py:1741
 msgid "Internal error (invalid license)"
 msgstr "Внутренняя ошибка (недействительная лицензия)"
 
-#: src/process/wingctl.py:1735
+#: src/process/wingctl.py:1743
 msgid "Internal error (invalid request code)"
 msgstr "Внутренняя ошибка (недопустимый код запроса)"
 
-#: src/process/wingctl.py:1738
+#: src/process/wingctl.py:1747
+#, fuzzy
+msgid ""
+"You have exceeded the allowed number of trial licenses on this machine. If "
+"you are working with a downloaded Linux VM, this may be due to other users "
+"of the same VM. Please email license %s to support@wingware.com for help.\n"
+"\n"
+"Sorry for the inconvenience, and thanks for trying Wing Pro!"
+msgstr ""
+"Вы превысили разрешенное количество пробных лицензий на этом компьютере. "
+"Если вам нужно больше времени, напишите свой идентификатор лицензии %s на "
+"адрес support@wingware.com.\n"
+"\n"
+"Извините за неудобства, и спасибо за использование Wing Pro!"
+
+#: src/process/wingctl.py:1752
 msgid ""
 "You have exceeded the allowed number of trial licenses on this machine. "
 "Please email your license id %s to support@wingware.com if you need more "
@@ -724,7 +743,7 @@ msgstr ""
 "\n"
 "Извините за неудобства, и спасибо за использование Wing Pro!"
 
-#: src/process/wingctl.py:1742
+#: src/process/wingctl.py:1756
 msgid ""
 "You have exceeded your allowed number of license activations. You can "
 "increase activation limits at https://wingware.com/license or by emailing "
@@ -738,12 +757,12 @@ msgstr ""
 "\n"
 "Извините за неудобства и спасибо за использование Wing Pro!"
 
-#: src/process/wingctl.py:1748
+#: src/process/wingctl.py:1762
 msgid "That license has expired.  Please contact sales@wingware.com."
 msgstr ""
 "Срок действия лицензии истек.  Пожалуйста, свяжитесь с sales@wingware.com."
 
-#: src/process/wingctl.py:1750
+#: src/process/wingctl.py:1764
 msgid ""
 "This annual license has expired.  Please renew at https://wingware.com/store/"
 "upgrade&license-id=%s"
@@ -751,7 +770,7 @@ msgstr ""
 "Срок действия этой годовой лицензии истек.  Пожалуйста, обновите на https://"
 "wingware.com/store/upgrade&license-id=%s"
 
-#: src/process/wingctl.py:1754
+#: src/process/wingctl.py:1768
 msgid ""
 "That license id %s cannot be activated on additional operating systems.  "
 "Please contact sales@wingware.com if you wish to upgrade your license."
@@ -760,14 +779,14 @@ msgstr ""
 "операционных системах.  Пожалуйста контактируйте sales@wingware.com если вы "
 "хотите обновить лицензию."
 
-#: src/process/wingctl.py:1758
+#: src/process/wingctl.py:1772
 msgid ""
 "We have no record of that license id %s.  Please check it and try again."
 msgstr ""
 "У нас нет записи об этом идентификаторе лицензии %s. Проверьте его и "
 "повторите попытку."
 
-#: src/process/wingctl.py:1764
+#: src/process/wingctl.py:1778
 msgid ""
 "Internal error (unexpected server return value).  This may indicate network "
 "problems such as a misconfigured proxy server."
@@ -776,7 +795,7 @@ msgstr ""
 "указывать на проблемы в сети, такие как неправильно настроенный прокси-"
 "сервер."
 
-#: src/process/wingctl.py:1768
+#: src/process/wingctl.py:1782
 msgid ""
 "That license id %s can only be activated on specially patched versions of "
 "Wing.  Please contact your vendor  or sales@wingware.com."
@@ -785,7 +804,7 @@ msgstr ""
 "исправленных версиях Wing.  Пожалуйста свяжитесь с Вашим поставщиком или "
 "sales@wingware.com."
 
-#: src/process/wingctl.py:1772
+#: src/process/wingctl.py:1786
 msgid ""
 "This license is not valid for this version of Wing.  Please upgrade at "
 "https://wingware.com/store/upgrade&license-id=%s"
@@ -793,11 +812,11 @@ msgstr ""
 "Эта лицензия не действительна для данной версии Wing.  Пожалуйста, обновите "
 "на https://wingware.com/store/upgrade&license-id=%s"
 
-#: src/process/wingctl.py:1776
+#: src/process/wingctl.py:1790
 msgid "Unknown activation error code %s"
 msgstr "Неизвестный код ошибки активации %s"
 
-#: src/process/wingctl.py:1784
+#: src/process/wingctl.py:1798
 msgid ""
 "Received an invalid activation key \"%s\" from the server.  This may "
 "indicate network problems such as a misconfigured proxy server.  Errors "
@@ -811,11 +830,11 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/process/wingctl.py:1808
+#: src/process/wingctl.py:1822
 msgid "License Agreement"
 msgstr "Лицензионное соглашение"
 
-#: src/process/wingctl.py:1818
+#: src/process/wingctl.py:1832
 msgid ""
 "Wing is licensed software.  Its use is subject to the terms and conditions "
 "of the following license agreement:"
@@ -823,7 +842,7 @@ msgstr ""
 "Wing - это лицензионное программное обеспечение. Его использование подпадает "
 "под действие условий лицензионного соглашения:"
 
-#: src/process/wingctl.py:1825
+#: src/process/wingctl.py:1839
 msgid ""
 "If you accept the terms of this license agreement, press 'Accept'.  "
 "Otherwise, press 'Decline.'"

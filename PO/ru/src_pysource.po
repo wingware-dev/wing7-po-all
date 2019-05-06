@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_pysource\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2018-03-18 19:43+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -20,52 +20,6 @@ msgstr ""
 #: src/pysource/attribs.py:23
 msgid "Analyze main file for sys.path changes"
 msgstr "Анализ основного файла для изменения sys.path"
-
-#: src/pysource/codewarn.py:61
-#, fuzzy
-msgid "Undefined attribute"
-msgstr "Неопределенное имя: %s"
-
-#: src/pysource/codewarn.py:62
-#, fuzzy
-msgid "Undefined name"
-msgstr "Неопределенное имя: %s"
-
-#: src/pysource/codewarn.py:63
-msgid "Import not found"
-msgstr ""
-
-#: src/pysource/codewarn.py:64
-msgid "Syntax error"
-msgstr ""
-
-#: src/pysource/codewarn.py:65
-msgid "Indent warning"
-msgstr ""
-
-#: src/pysource/codewarn.py:496
-msgid "Import not found: {}"
-msgstr ""
-
-#: src/pysource/codewarn.py:503
-msgid "Undefined name: %s"
-msgstr "Неопределенное имя: %s"
-
-#: src/pysource/codewarn.py:624 src/pysource/codewarn.py:626
-msgid " or "
-msgstr "или"
-
-#: src/pysource/codewarn.py:629
-msgid "Attribute undefined: .%s of %s: %s"
-msgstr ""
-
-#: src/pysource/codewarn.py:1242
-msgid "class"
-msgstr ""
-
-#: src/pysource/codewarn.py:1249
-msgid "module"
-msgstr ""
 
 #: src/pysource/llinecache.py:75
 msgid "Inconsistent indentation (not in units of indent size)"
@@ -99,19 +53,16 @@ msgstr "Плохой уровень отступов"
 msgid "Indentation error (unspecified)"
 msgstr "Ошибка отступов (неуказанная)"
 
-#: src/pysource/manager.py:228
-msgid "(Analyzing Files: pass 1, Q=%i) "
+#: src/pysource/manager.py:232
+#, fuzzy
+msgid "(Analyzing Files: P{} S{} Q={}) "
 msgstr "(Анализ файлов: проход 1, Q=%i) "
 
-#: src/pysource/manager.py:230
-msgid "(Analyzing Files: pass 2, Q=%i) "
-msgstr "(Анализ файлов: проход 2, Q=%i) "
-
-#: src/pysource/manager.py:232
+#: src/pysource/manager.py:236
 msgid "(Analyzing Files: %i pending remote inspections) "
 msgstr "(Анализ файлов: %i в ожидании удаленных проверок) "
 
-#: src/pysource/manager.py:2532
+#: src/pysource/manager.py:669
 msgid ""
 "Scrape errors for %s:\n"
 "%s"
@@ -119,23 +70,33 @@ msgstr ""
 "Очистка ошибок для %s:\n"
 "%s"
 
-#: src/pysource/manager.py:2560
+#: src/pysource/manager.py:697
 msgid "%s does not exist (scrape failed)"
 msgstr "%s не существует (ошибка очистки)"
 
-#: src/pysource/manager.py:2564
+#: src/pysource/manager.py:701
 msgid "%s is empty (scrape failed; removing file now)"
 msgstr "%s пусто (ошибка очистки; удаление файла)"
 
-#: src/pysource/manager.py:2607
+#: src/pysource/manager.py:719
 msgid "Scraping %s"
 msgstr "Очистка %s"
 
-#: src/pysource/manager.py:2617
+#: src/pysource/manager.py:729
 msgid "Failed to scrape extension module %s: Python not found"
 msgstr "Не удалось очистить модуль расширения %s: Python не найден"
 
-#: src/pysource/manager.py:2635
+#: src/pysource/manager.py:745
+#, fuzzy
+msgid "Failed to scrape extension module %s: Cannot create directory %s"
+msgstr "Не удалось очистить модуль расширения %s: Python не найден"
+
+#: src/pysource/manager.py:770
+#, fuzzy
+msgid "Timed out in remote scrape of extension module %s"
+msgstr "Не удалось запустить процесс очистки модуля расширения %s"
+
+#: src/pysource/manager.py:772 src/pysource/manager.py:811
 msgid ""
 "Failed to start process to scrape extension module %s: could not find "
 "suitable rundir"
@@ -143,7 +104,19 @@ msgstr ""
 "Не удалось запустить процесс очистки модуля расширения %s: не удалось найти "
 "подходящий rundir"
 
-#: src/pysource/manager.py:2660
+#: src/pysource/manager.py:775 src/pysource/manager.py:867
+msgid "Failed to start process to scrape extension module %s"
+msgstr "Не удалось запустить процесс очистки модуля расширения %s"
+
+#: src/pysource/manager.py:777 src/pysource/manager.py:872
+msgid "Failed scraping API for %s"
+msgstr "Ошибка очистки API для %s"
+
+#: src/pysource/manager.py:779 src/pysource/manager.py:874
+msgid "API scraping process for %s completed"
+msgstr "Процесс очистки API для %s завершен"
+
+#: src/pysource/manager.py:851
 msgid ""
 "Failed to start process to scrape extension module %s: cannot encode "
 "arguments"
@@ -151,21 +124,9 @@ msgstr ""
 "Не удалось запустить процесс очистки модуля расширения %s: cannot encode "
 "arguments"
 
-#: src/pysource/manager.py:2667
+#: src/pysource/manager.py:858
 msgid "Cache file is %s"
 msgstr "Файл кэша %s"
-
-#: src/pysource/manager.py:2676
-msgid "Failed to start process to scrape extension module %s"
-msgstr "Не удалось запустить процесс очистки модуля расширения %s"
-
-#: src/pysource/manager.py:2681
-msgid "Failed scraping API for %s"
-msgstr "Ошибка очистки API для %s"
-
-#: src/pysource/manager.py:2683
-msgid "API scraping process for %s completed"
-msgstr "Процесс очистки API для %s завершен"
 
 #: src/pysource/prefs.py:28
 msgid ""
@@ -271,6 +232,23 @@ msgstr "Использовать docs.python.org"
 #: src/pysource/prefs.py:148
 msgid "Other:"
 msgstr "Другие:"
+
+#, fuzzy
+#~ msgid "Undefined attribute"
+#~ msgstr "Неопределенное имя: %s"
+
+#, fuzzy
+#~ msgid "Undefined name"
+#~ msgstr "Неопределенное имя: %s"
+
+#~ msgid "Undefined name: %s"
+#~ msgstr "Неопределенное имя: %s"
+
+#~ msgid " or "
+#~ msgstr "или"
+
+#~ msgid "(Analyzing Files: pass 2, Q=%i) "
+#~ msgstr "(Анализ файлов: проход 2, Q=%i) "
 
 #~ msgid "Undefined attribute: %s, %s is probably %s"
 #~ msgstr "Неопределенный атрибут: %s, %s возможно %s"

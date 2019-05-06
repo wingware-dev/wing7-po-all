@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_diff\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2018-03-18 14:31+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,7 +17,8 @@ msgstr ""
 "X-Loco-Project-Id: 44348\n"
 "X-Loco-Api-Version: 1.0.19 20180317-1\n"
 
-#: src/diff/diffpanel.py:52 src/diff/diffpanel.py:134 src/diff/diffpanel.py:187
+#: src/diff/diffpanel.py:52 src/diff/diffpanel.py:134
+#: src/diff/diffpanel.py:187
 msgid "Diff/Merge"
 msgstr "Сравнение/Слияние"
 
@@ -62,7 +63,7 @@ msgstr ""
 "сохранить изменения или загрузить с диска."
 
 #: src/diff/manager.py:260
-msgid "OK"
+msgid "_OK"
 msgstr ""
 
 #: src/diff/manager.py:393
@@ -78,15 +79,18 @@ msgstr ""
 "пробелов игнорируются."
 
 #: src/diff/manager.py:399 src/diff/manager.py:621
-msgid "Show White Space"
+#, fuzzy
+msgid "_Show White Space"
 msgstr "Показать Пробел"
 
 #: src/diff/manager.py:400 src/diff/manager.py:622
-msgid "Continue"
+#, fuzzy
+msgid "_Continue"
 msgstr "Продолжать"
 
-#: src/diff/manager.py:404 src/diff/manager.py:627
-msgid "Don't show this message again"
+#: src/diff/manager.py:404
+#, fuzzy
+msgid "_Don't show this message again"
 msgstr "Не показывать это сообщение снова"
 
 #: src/diff/manager.py:468
@@ -109,7 +113,7 @@ msgstr "Сравнение каталогов..."
 msgid "Compare to File..."
 msgstr "Сравнение файлов..."
 
-#: src/diff/manager.py:604 src/diff/manager.py:1790 src/diff/manager.py:1849
+#: src/diff/manager.py:604 src/diff/manager.py:1791 src/diff/manager.py:1850
 msgid "There are no differences"
 msgstr "Нет никаких различий"
 
@@ -126,14 +130,19 @@ msgstr ""
 "игнорируются."
 
 #: src/diff/manager.py:623
-msgid "Cancel"
+#, fuzzy
+msgid "Ca_ncel"
 msgstr "Отмена"
 
-#: src/diff/manager.py:1050
+#: src/diff/manager.py:627
+msgid "Don't show this message again"
+msgstr "Не показывать это сообщение снова"
+
+#: src/diff/manager.py:1051
 msgid "Create Directories?"
 msgstr "Создать каталоги?"
 
-#: src/diff/manager.py:1051
+#: src/diff/manager.py:1052
 msgid ""
 "The enclosing directories for this file do not exist but must be created "
 "before performing this merge.  Should Wing create the following directories "
@@ -143,106 +152,108 @@ msgstr ""
 "перед выполнением этого слияния.  Следует ли Wing создать следующие каталоги "
 "или отменить операцию слияния?"
 
-#: src/diff/manager.py:1060
-msgid "Create"
+#: src/diff/manager.py:1061
+#, fuzzy
+msgid "_Create"
 msgstr "Создать"
 
-#: src/diff/manager.py:1061
-msgid "Cancel Merge"
+#: src/diff/manager.py:1062
+#, fuzzy
+msgid "Ca_ncel Merge"
 msgstr "Отмена Слияния"
 
-#: src/diff/manager.py:1364
+#: src/diff/manager.py:1365
 msgid "Line %s: Changed %s Lines%s"
 msgstr "Строка %s: Изменения %s Строки%s"
 
-#: src/diff/manager.py:1366
+#: src/diff/manager.py:1367
 msgid "Line %s: Deleted %s Lines%s"
 msgstr ""
 
-#: src/diff/manager.py:1368
+#: src/diff/manager.py:1369
 msgid "Line %s: Inserted %s Lines%s"
 msgstr ""
 
-#: src/diff/manager.py:1378
+#: src/diff/manager.py:1379
 msgid "Terminate Diff/Merge Session"
 msgstr "Завершить Сеанс Сравнения / Слияния"
 
-#: src/diff/manager.py:1383
+#: src/diff/manager.py:1384
 msgid "Lock Scrolling"
 msgstr "Блокировка прокрутки"
 
-#: src/diff/manager.py:1388
+#: src/diff/manager.py:1389
 msgid "Ignore Whitespace"
 msgstr "Игнорировать пробелы"
 
-#: src/diff/manager.py:1497 src/diff/manager.py:1541
+#: src/diff/manager.py:1498 src/diff/manager.py:1542
 msgid "Could not open one or both editors"
 msgstr "Не удалось открыть один или оба редактора"
 
-#: src/diff/manager.py:1560
+#: src/diff/manager.py:1561
 msgid "Revision"
 msgstr "Ревизия "
 
-#: src/diff/manager.py:1600 src/diff/manager.py:1604 src/diff/manager.py:2130
+#: src/diff/manager.py:1601 src/diff/manager.py:1605 src/diff/manager.py:2131
 msgid "%s does not exist"
 msgstr "%s не существует"
 
-#: src/diff/manager.py:1602 src/diff/manager.py:1606 src/diff/manager.py:2132
+#: src/diff/manager.py:1603 src/diff/manager.py:1607 src/diff/manager.py:2133
 msgid "%s is not a directory"
 msgstr "%s не является каталогом"
 
-#: src/diff/manager.py:1876 src/diff/manager.py:1879 src/diff/manager.py:2150
+#: src/diff/manager.py:1877 src/diff/manager.py:1880 src/diff/manager.py:2151
 msgid "%s is not a file"
 msgstr "%s не является файлом"
 
-#: src/diff/manager.py:1996
+#: src/diff/manager.py:1997
 msgid "Changes"
 msgstr "Изменения"
 
-#: src/diff/manager.py:1996
+#: src/diff/manager.py:1997
 msgid "Filename"
 msgstr "Имя файла"
 
-#: src/diff/manager.py:2115 src/diff/manager.py:2358
+#: src/diff/manager.py:2116 src/diff/manager.py:2359
 msgid "Could not find version control system for %s"
 msgstr "Не удалось найти систему управления версиями для %s"
 
-#: src/diff/manager.py:2117
+#: src/diff/manager.py:2118
 msgid "Version control system determination still pending for %s"
 msgstr "Определение системы управления версиями еще не выполнено для %s"
 
-#: src/diff/manager.py:2208
+#: src/diff/manager.py:2209
 msgid "Could not obtain revision information from %s"
 msgstr "Не удалось получить сведения о ревизии из %s"
 
-#: src/diff/manager.py:2229
+#: src/diff/manager.py:2230
 msgid "No Differences::There are no differences in directory %s"
 msgstr "Нет различий::Нет различий в каталоге %s"
 
-#: src/diff/manager.py:2244
+#: src/diff/manager.py:2245
 msgid ""
 "Remote Inspect Failed::Could not inspect remote files to compute differences"
 msgstr ""
 "Удаленная проверка не удалось:: Не удалось проверить удаленные файлы для "
 "определения различий"
 
-#: src/diff/manager.py:2275
+#: src/diff/manager.py:2276
 msgid "Disk File: %s"
 msgstr "Файл на диске: %s"
 
-#: src/diff/manager.py:2360
+#: src/diff/manager.py:2361
 msgid "Version control system determination still in progress for %s"
 msgstr "Определение системы управления версиями для %s продолжается"
 
-#: src/diff/manager.py:2369
+#: src/diff/manager.py:2370
 msgid "Fetching revision..."
 msgstr "Извлечение изменений ..."
 
-#: src/diff/manager.py:2393
+#: src/diff/manager.py:2394
 msgid "Failed to inspect %s"
 msgstr "Не удалось проверить % s"
 
-#: src/diff/manager.py:2421
+#: src/diff/manager.py:2422
 msgid ""
 "Encoding Error::The encoding of the differences received from the version "
 "control system does not seem to match the file's encoding (%s).  "
@@ -252,11 +263,11 @@ msgstr ""
 "версиями, не соответствует кодировке файла (%s).  Неидентифицируемые символы "
 "были заменены на '?'"
 
-#: src/diff/manager.py:2478
+#: src/diff/manager.py:2479
 msgid "No differences::There are no differences in %s"
 msgstr "Нет различий::Нет никаких различий в %s"
 
-#: src/diff/manager.py:2495
+#: src/diff/manager.py:2496
 msgid "%s rev %s -- %s"
 msgstr "%s изм %s -- %s"
 

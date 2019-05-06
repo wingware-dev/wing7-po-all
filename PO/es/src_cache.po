@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2018-08-23 14:17+EDT\n"
+"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
 "PO-Revision-Date: 2012-01-04 19:13-0600\n"
 "Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
 "Language-Team:  <C@li.org>\n"
@@ -16,12 +16,28 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: KBabel 0.9.5\n"
 
-#: src/cache/textcache.py:383
-msgid "Failed to read %s:  %s"
+#: src/cache/manager.py:54
+msgid "Some files failed to read from disk:"
+msgstr ""
+
+#: src/cache/manager.py:57
+msgid "Error"
+msgstr ""
+
+#: src/cache/manager.py:57
+msgid "File"
+msgstr ""
+
+#: src/cache/manager.py:65
+msgid "_OK"
+msgstr ""
+
+#: src/cache/manager.py:68
+msgid "Read Failure"
 msgstr ""
 
 #: src/cache/textcache.py:385
-msgid "Could Not Read %s"
+msgid "Failed to read %s:  %s"
 msgstr ""
 
 #: src/cache/textcache.py:451
@@ -88,10 +104,10 @@ msgstr ""
 msgid "Could not convert file contents to the %s encoding"
 msgstr ""
 
-#: src/cache/textcache.py:908
+#: src/cache/textcache.py:909
 msgid "General write error"
 msgstr ""
 
-#: src/cache/textcache.py:1073
+#: src/cache/textcache.py:1074
 msgid "Encoding of %s changed to %s"
 msgstr ""
