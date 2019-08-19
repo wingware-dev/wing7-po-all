@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2006-05-17 23:14 EDT\n"
 "Last-Translator: Claudia Walenzyk <support@wingide.com>\n"
 "Language-Team: None\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid "Pa_use"
 msgstr ""
 
-#: src/search/_widgets.py:300 src/search/interactive.py:715
+#: src/search/_widgets.py:300 src/search/interactive.py:720
 msgid "Wrapped Search Failed"
 msgstr ""
 
@@ -267,83 +267,87 @@ msgstr ""
 msgid "_Whole Words"
 msgstr ""
 
-#: src/search/cap_batch.py:580 src/search/cap_batch.py:602
+#: src/search/cap_batch.py:388
+msgid "Show Search in Files Documentation"
+msgstr ""
+
+#: src/search/cap_batch.py:585 src/search/cap_batch.py:607
 msgid "Search in files state"
 msgstr ""
 
-#: src/search/cap_batch.py:923
+#: src/search/cap_batch.py:928
 msgid "Line %s: "
 msgstr ""
 
-#: src/search/cap_batch.py:929
+#: src/search/cap_batch.py:934
 msgid "%s, line %i: "
 msgstr ""
 
-#: src/search/cap_batch.py:952
+#: src/search/cap_batch.py:957
 msgid "File: %s\n"
 msgstr ""
 
-#: src/search/cap_batch.py:1499 src/search/interactive.py:702
+#: src/search/cap_batch.py:1504 src/search/interactive.py:707
 msgid "Wrapped "
 msgstr ""
 
-#: src/search/cap_batch.py:1502
+#: src/search/cap_batch.py:1507
 msgid "%sFile: %s"
 msgstr ""
 
-#: src/search/cap_batch.py:1570
+#: src/search/cap_batch.py:1575
 msgid "Search Aborted"
 msgstr ""
 
-#: src/search/cap_batch.py:1663
+#: src/search/cap_batch.py:1668
 msgid "Directory does not exist: \"%s\""
 msgstr ""
 
-#: src/search/cap_batch.py:1670
+#: src/search/cap_batch.py:1675
 msgid "Directory search not supported"
 msgstr ""
 
-#: src/search/cap_batch.py:1700
+#: src/search/cap_batch.py:1705
 msgid "Search Starting"
 msgstr ""
 
-#: src/search/cap_batch.py:1779
+#: src/search/cap_batch.py:1784
 msgid "Found %i matches in %i files"
 msgstr ""
 
-#: src/search/cap_batch.py:1785
+#: src/search/cap_batch.py:1790
 msgid "Reading directory: "
 msgstr ""
 
-#: src/search/cap_batch.py:1789
+#: src/search/cap_batch.py:1794
 msgid "Searching remote files..."
 msgstr ""
 
-#: src/search/cap_batch.py:1812
+#: src/search/cap_batch.py:1817
 msgid "Scanning: "
 msgstr ""
 
-#: src/search/cap_batch.py:1822
+#: src/search/cap_batch.py:1827
 msgid "Search Paused"
 msgstr ""
 
-#: src/search/cap_batch.py:1826
+#: src/search/cap_batch.py:1831
 msgid "Search Continued"
 msgstr ""
 
-#: src/search/cap_batch.py:1857 src/search/interactive.py:493
+#: src/search/cap_batch.py:1862 src/search/interactive.py:498
 msgid "No search string"
 msgstr ""
 
-#: src/search/cap_batch.py:1890 src/search/interactive.py:323
+#: src/search/cap_batch.py:1895 src/search/interactive.py:328
 msgid "Could not replace:  No previous search match"
 msgstr ""
 
-#: src/search/cap_batch.py:1894
+#: src/search/cap_batch.py:1899
 msgid "Failed to display editor for replace"
 msgstr ""
 
-#: src/search/cap_batch.py:1949
+#: src/search/cap_batch.py:1954
 msgid ""
 "You have configured Replace All to open all altered files into Wing.\n"
 "\n"
@@ -353,7 +357,7 @@ msgid ""
 "Are you sure you want to do this?"
 msgstr ""
 
-#: src/search/cap_batch.py:1954
+#: src/search/cap_batch.py:1959
 msgid ""
 "You have configured Replace All to operate directly on disk files (already "
 "open files will be changed only within Wing and left unsaved).\n"
@@ -363,27 +367,27 @@ msgid ""
 "Are you sure you want to do this?"
 msgstr ""
 
-#: src/search/cap_batch.py:1960
+#: src/search/cap_batch.py:1965
 msgid "Confirm Replace All"
 msgstr ""
 
-#: src/search/cap_batch.py:1961
+#: src/search/cap_batch.py:1966
 msgid "_Replace All"
 msgstr ""
 
-#: src/search/cap_batch.py:1962
+#: src/search/cap_batch.py:1967
 msgid "_Cancel"
 msgstr ""
 
-#: src/search/cap_batch.py:2106
+#: src/search/cap_batch.py:2111
 msgid "Filter '%s' is invalid"
 msgstr ""
 
-#: src/search/cap_batch.py:2694 src/search/cap_batch.py:2701
+#: src/search/cap_batch.py:2699 src/search/cap_batch.py:2706
 msgid "Warning: Replace All"
 msgstr ""
 
-#: src/search/cap_batch.py:2695
+#: src/search/cap_batch.py:2700
 msgid ""
 "You have set Replace All to operate directly on disk files (already open "
 "files will be changed only within Wing until they are saved to disk).\n"
@@ -393,7 +397,7 @@ msgid ""
 "revision control system."
 msgstr ""
 
-#: src/search/cap_batch.py:2702
+#: src/search/cap_batch.py:2707
 msgid ""
 "You have set Replace All to open altered files into Wing.\n"
 "\n"
@@ -401,11 +405,11 @@ msgid ""
 "not alter disk files until saved."
 msgstr ""
 
-#: src/search/cap_batch.py:2745 src/search/cap_batch.py:2755
+#: src/search/cap_batch.py:2750 src/search/cap_batch.py:2760
 msgid "Search in Files"
 msgstr ""
 
-#: src/search/cap_batch.py:2760
+#: src/search/cap_batch.py:2765
 msgid "Multiple File Search and Replace"
 msgstr ""
 
@@ -568,7 +572,7 @@ msgstr ""
 msgid "Replace: "
 msgstr ""
 
-#: src/search/common.py:423 src/search/interactive.py:328
+#: src/search/common.py:423 src/search/interactive.py:333
 msgid "Failed to find editor for replace"
 msgstr ""
 
@@ -644,30 +648,34 @@ msgstr ""
 msgid "_Incremental"
 msgstr ""
 
-#: src/search/interactive.py:373
-msgid "Could not replace all: no search string"
+#: src/search/interactive.py:193
+msgid "Show Search Tool Documentation"
 msgstr ""
 
 #: src/search/interactive.py:378
-msgid "Could not replace all: no active document"
+msgid "Could not replace all: no search string"
 msgstr ""
 
 #: src/search/interactive.py:383
+msgid "Could not replace all: no active document"
+msgstr ""
+
+#: src/search/interactive.py:388
 msgid "Could not replace: document is readonly"
 msgstr ""
 
-#: src/search/interactive.py:706
+#: src/search/interactive.py:711
 msgid "Search Successful"
 msgstr ""
 
-#: src/search/interactive.py:717
+#: src/search/interactive.py:722
 msgid "Search Failed"
 msgstr ""
 
-#: src/search/interactive.py:802 src/search/interactive.py:813
+#: src/search/interactive.py:807 src/search/interactive.py:818
 msgid "Search"
 msgstr ""
 
-#: src/search/interactive.py:818
+#: src/search/interactive.py:823
 msgid "Interactive Search and Replace"
 msgstr ""

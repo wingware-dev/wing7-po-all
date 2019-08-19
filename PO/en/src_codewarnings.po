@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.4\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2011-09-18 19:04 EDT\n"
 "Last-Translator: Wingware <support@wingware.com>\n"
 "Language-Team: None\n"
@@ -15,442 +15,603 @@ msgstr ""
 "Content-Transfer-Encoding: text/plain\n"
 "Generated-By: pygettext.py 1.5\n"
 
-#: src/codewarnings/attribs.py:16
-msgid "Where to store code warnings configuration."
+#: src/codewarnings/attribs.py:15
+msgid "Where to store the code warnings configuration for this project."
 msgstr ""
 
 #: src/codewarnings/attribs.py:46
-msgid "Whether to display undefined name warnings."
+msgid "Show warnings on code uses undefined symbols."
 msgstr ""
 
 #: src/codewarnings/attribs.py:52
-msgid "Whether to display undefined attribute warnings."
+msgid ""
+"Show warnings on code that uses undefined class and instance attributes."
 msgstr ""
 
 #: src/codewarnings/attribs.py:58
-msgid "Whether to display import not found warnings."
+msgid ""
+"Show warnings for imported modules and packages that could not be found on "
+"the configured Python Path."
 msgstr ""
 
-#: src/codewarnings/attribs.py:64
-msgid "Whether to display indent warnings."
+#: src/codewarnings/attribs.py:75
+msgid ""
+"Show warnings for global variables that are unused within the file.  When "
+"this is disabled, warnings may still be shown if __all__ is set and does not "
+"include the unused global."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:455
-msgid "<i>Not a Python file</i>"
+#: src/codewarnings/attribs.py:83
+msgid ""
+"Show warnings for unused variables that are created by unpacking a tuple, "
+"for example 'a, b = value'.  When this is disabled, unused variable warnings "
+"are shown only if all of the unpacked variables are unused."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:463
-msgid "<i>Scanning for warnings...</i>"
+#: src/codewarnings/attribs.py:91
+msgid "Show warnings for imported symbols that are never used in the code."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:465
-msgid "<i>No warnings</i>"
+#: src/codewarnings/attribs.py:97
+msgid ""
+"Show warnings for function and method arguments that are never used in the "
+"code."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:523
-msgid "Line %s: %s"
+#: src/codewarnings/attribs.py:103
+msgid ""
+"Enables matching regular expressions to identify variables as intentionally "
+"unused, to avoid showing unused variable warnings."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:598
-msgid "Global Scope"
+#: src/codewarnings/attribs.py:111
+msgid ""
+"List of regular expressions that indicate a variable is intentionally "
+"unused.  The regular expressions must match the whole variable name."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:620
-msgid "_Goto Source"
+#: src/codewarnings/attribs.py:155
+msgid ""
+"List of regular expressions used in code comments to disable a specific type "
+"of warning in that scope.  The warning is disabled if the regular expression "
+"makes a case insensitive match with part of the comment text."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:634
-msgid "Remove This Warning _Globally"
+#: src/codewarnings/attribs.py:163
+msgid "Allow comments to disable warnings for a specific scope."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:639
-msgid "Remove _Selected Warning"
+#: src/codewarnings/attribs.py:169
+msgid "Show warnings within files found in the Python standard library."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:640
-msgid "Remove _Selected Warnings"
+#: src/codewarnings/attribs.py:175
+msgid "Show warnings within files installed into the site-packages directory."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:674
-#: src/codewarnings/cap_warningspanel.py:707
-msgid "Remove This Warning in {}"
+#: src/codewarnings/attribs.py:181
+msgid "Show warnings on incorrect, inconsistent, or suspicious indentation."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:719
-#: src/codewarnings/cap_warningspanel.py:739
-msgid "Remove All Warnings in {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:768
-msgid "Remove Undefined Attribute {}{} Globally"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:778
-msgid "Remove All Undefined Attributes of {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:793
-msgid "Restore All Removed Warnings in {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:798
-msgid "Restore All Removed Undefined Attribu_tes"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1095
-msgid "Edit Rule ..."
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1096
-msgid "Delete Rule"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1098
-msgid "Add New Rule ..."
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1148
-msgid "_Enable external checkers"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1159
-msgid "Con_figure"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1167
-msgid "Removed from current file:"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1182
-msgid "Removed from any file:"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1285
-msgid "Warnings"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1287
-msgid "global scope"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1296
-msgid "{} module"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1304
-msgid "{} class & instances"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1315
-msgid "All {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1317
-msgid "All {} in {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1322
-msgid "{}: {} in {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1324
-msgid "{}: {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1339
-msgid "Any File"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1340
-#: src/codewarnings/cap_warningspanel.py:1354
-msgid "Specific File"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1341
-msgid "Specific Scope"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1352
-msgid "File: "
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1362
-msgid "Scope: "
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1440
-msgid "Module Attribute"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1441
-msgid "Instance / Class Attribute"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1442
-msgid "Function Attribute"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1476
-#: src/codewarnings/cap_warningspanel.py:1543
-msgid "Module File"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1535
-msgid "Class Name for Instances"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1536
-msgid "Function / Method Name"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1546
-msgid "File for Module Containing {}"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1549
-msgid "Attribute Name"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1565
-msgid "Warning Kind"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1568
-msgid "Remove From"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1571
-#: src/codewarnings/cap_warningspanel.py:1633
-msgid "Code"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1582
-msgid "Warning(s) Removed"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1708
+#: src/codewarnings/cap_warningspanel.py:421
 msgid "Warnings are being updated"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1710
-msgid "_Options"
+#: src/codewarnings/cap_warningspanel.py:426
+msgid "<i>Not a Python file</i>"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1718
-msgid "_Warnings"
+#: src/codewarnings/cap_warningspanel.py:434
+msgid "<i>Scanning for warnings...</i>"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1735
-msgid "_Configuration"
+#: src/codewarnings/cap_warningspanel.py:436
+msgid "<i>No warnings</i>"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1772
-msgid "Co_nsole"
+#: src/codewarnings/cap_warningspanel.py:494
+msgid "Line %s: %s"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1805
-msgid "Select _All"
+#: src/codewarnings/cap_warningspanel.py:570
+msgid "Global Scope"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1806
-msgid "_Copy"
+#: src/codewarnings/cap_warningspanel.py:592
+msgid "_Goto Source"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1808
-msgid "C_lear Console"
+#: src/codewarnings/cap_warningspanel.py:605
+msgid "Disable _Selected Warning"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1810
-msgid "_Save a Copy..."
+#: src/codewarnings/cap_warningspanel.py:606
+msgid "Disable _Selected Warnings"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1822
-msgid "_Update Current File"
+#: src/codewarnings/cap_warningspanel.py:611
+msgid "Disable Warning in All Files"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1833
-msgid "_Disable All Warnings for Current File"
+#: src/codewarnings/cap_warningspanel.py:613
+msgid "Disable This Warning"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1842
-msgid "Show Undefined _Name Warnings"
+#: src/codewarnings/cap_warningspanel.py:665
+msgid "Disable This Warning in {}"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1844
-msgid "Show Undefined _Attribute Warnings"
+#: src/codewarnings/cap_warningspanel.py:679
+msgid "Disable This Warning in All Files"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1846
+#: src/codewarnings/cap_warningspanel.py:692
+msgid "Disable All Warnings in {}"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1040
+msgid "Edit Rule ..."
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1041
+msgid "Delete Rule"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1043
+msgid "Add New Rule ..."
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1087
+msgid "Warnings disabled in current file:"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1102
+msgid "Warnings disabled in any file:"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1175
+msgid "Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1177
+msgid "global scope"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1183
+msgid "all objects"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1195
+msgid "{} module"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1203
+msgid "{} class & instances"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1214
+msgid "All {}"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1216
+msgid "All {} in {}"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1221
+msgid "{}: {} in {}"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1223
+msgid "{}: {}"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1308
+msgid "Con_figure"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1377
+msgid "General"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1379
 msgid "Show _Import Not Found Warnings"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1848
+#: src/codewarnings/cap_warningspanel.py:1380
 msgid "Show Indent _Warnings"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1860
+#: src/codewarnings/cap_warningspanel.py:1385
+msgid "Undefined Symbols"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1387
+msgid "Show Undefined _Name Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1388
+msgid "Show Undefined _Attribute Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1393
+msgid "Unused Symbols"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1396
+msgid "Show I_mport Not Used Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1397
+msgid "Show _Variable Not Used Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1398
+msgid "Show _Argument Not Used Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1403
+msgid "External Checkers"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1405
+msgid "_Enable External Checkers"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1408
+#: src/codewarnings/cap_warningspanel.py:1545
+msgid "Advanced Configuration"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1457
+msgid "Always Show Globals Not Used in File"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1458
+msgid "Show Extra Unpacked Variables Not Used"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1459
+msgid "Use Regular Expressions to Identify Variables Intentionally Not Used"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1464
+msgid "Variables Not Used Configuration"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1467
+#: src/codewarnings/cap_warningspanel.py:1548
+#: src/codewarnings/externalchecker.py:932 src/codewarnings/manager.py:153
+msgid "_OK"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1468
+#: src/codewarnings/cap_warningspanel.py:1549
+#: src/codewarnings/cap_warningspanel.py:2160
+#: src/codewarnings/cap_warningspanel.py:2241
+#: src/codewarnings/externalchecker.py:933
+msgid "_Cancel"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1538
+msgid "Show Warnings in the Standard Library"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1539
+msgid "Show Warnings in site-packages"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1540
+msgid "Allow Comments to Disable Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1675
+msgid "Comment Regex"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1675
+msgid "Warning"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1686
+msgid "Any File"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1687
+#: src/codewarnings/cap_warningspanel.py:1701
+msgid "Specific File"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1688
+msgid "Specific Scope"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1699
+msgid "File: "
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1709
+msgid "Scope: "
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1787
+msgid "Module Attribute"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1788
+msgid "Instance / Class Attribute"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1789
+msgid "Function Attribute"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1790
+msgid "Attribute of Any Object"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1824
+#: src/codewarnings/cap_warningspanel.py:1898
+msgid "Module File"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1886
+msgid "Class Name for Instances"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1887
+msgid "Function / Method Name"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1902
+msgid "File for Module Containing {}"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1905
+msgid "Attribute Name"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1921
+msgid "Warning Kind"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1924
+msgid "Disable in"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1927
+#: src/codewarnings/cap_warningspanel.py:1989
+msgid "Code"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:1938
+msgid "Warning(s) Removed"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2054
+msgid "Warnings for Current File"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2058
+msgid "Configuration: Disabled Warnings"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2062
+msgid "Configuration: Defaults"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2088
+msgid "Console"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2115
+msgid "Select _All"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2116
+msgid "_Copy"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2118
+msgid "C_lear Console"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2120
+msgid "_Save a Copy..."
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2132
+msgid "_Update Current File"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2143
+msgid "_Disable All Warnings for Current File"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2155
 msgid "Overwrite Configuration?"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1861
+#: src/codewarnings/cap_warningspanel.py:2156
 msgid ""
 "The selected configuration file %s already exists.  Do you want to overwrite "
 "it with the current code warnings configuration?"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1864
+#: src/codewarnings/cap_warningspanel.py:2159
 msgid "_Overwrite"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1865
-#: src/codewarnings/cap_warningspanel.py:1946
-#: src/codewarnings/externalchecker.py:933
-msgid "_Cancel"
-msgstr ""
-
-#: src/codewarnings/cap_warningspanel.py:1875
+#: src/codewarnings/cap_warningspanel.py:2170
 msgid "Select Configuration File"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1891
+#: src/codewarnings/cap_warningspanel.py:2186
 msgid "Export Configuration to _File..."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1892
+#: src/codewarnings/cap_warningspanel.py:2187
 msgid "Export Configuration to _User Settings"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1899
+#: src/codewarnings/cap_warningspanel.py:2194
 msgid "Select Code Warnings Configuration File"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1924
+#: src/codewarnings/cap_warningspanel.py:2219
 msgid "Project File"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1926
+#: src/codewarnings/cap_warningspanel.py:2221
 msgid "User Settings"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1930
+#: src/codewarnings/cap_warningspanel.py:2225
 msgid "Selected File: %s"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1933
+#: src/codewarnings/cap_warningspanel.py:2228
 msgid "Select File..."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1935
+#: src/codewarnings/cap_warningspanel.py:2230
 msgid "Use _Configuration From"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1938
+#: src/codewarnings/cap_warningspanel.py:2233
 msgid "Clear Code Warnings Configuration?"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1940
+#: src/codewarnings/cap_warningspanel.py:2235
 msgid ""
 "Are you sure you want to clear the code warnings configuration to default "
 "settings?"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1943
+#: src/codewarnings/cap_warningspanel.py:2238
 msgid "This will discard %i rules and disable any external checkers."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1945
+#: src/codewarnings/cap_warningspanel.py:2240
 msgid "Clea_r"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1952
+#: src/codewarnings/cap_warningspanel.py:2246
 msgid "Clear Con_figuration..."
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1965
+#: src/codewarnings/cap_warningspanel.py:2259
 msgid "_Show Console"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:1967
+#: src/codewarnings/cap_warningspanel.py:2261
 msgid "_Hide Console"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:2031
+#: src/codewarnings/cap_warningspanel.py:2268
+msgid "Show Code Warnings Documentation"
+msgstr ""
+
+#: src/codewarnings/cap_warningspanel.py:2332
 msgid "Code Warnings"
 msgstr ""
 
-#: src/codewarnings/cap_warningspanel.py:2036
+#: src/codewarnings/cap_warningspanel.py:2337
 msgid "Code Warnings & Errors"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:90
+#: src/codewarnings/codewarn.py:96
 msgid "Undefined attribute"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:91
+#: src/codewarnings/codewarn.py:97
 msgid "Undefined name"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:92
+#: src/codewarnings/codewarn.py:98
 msgid "Import not found"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:93
-msgid "Syntax error"
-msgstr ""
-
-#: src/codewarnings/codewarn.py:94
-msgid "Indent warning"
-msgstr ""
-
-#: src/codewarnings/codewarn.py:95
-msgid "Mypy error"
-msgstr ""
-
-#: src/codewarnings/codewarn.py:96
-msgid "Mypy warning"
-msgstr ""
-
-#: src/codewarnings/codewarn.py:97
-msgid "Pep8 error"
-msgstr ""
-
-#: src/codewarnings/codewarn.py:98
-msgid "Pep8 warning"
-msgstr ""
-
 #: src/codewarnings/codewarn.py:99
-msgid "Pylint error"
+msgid "Variable not used"
 msgstr ""
 
 #: src/codewarnings/codewarn.py:100
+msgid "Import not used"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:101
+msgid "Argument not used"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:102
+msgid "Syntax error"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:103
+msgid "Indent warning"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:104
+msgid "Mypy error"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:105
+msgid "Mypy warning"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:106
+msgid "Pep8 error"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:107
+msgid "Pep8 warning"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:108
+msgid "Pylint error"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:109
 msgid "Pylint warning"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:698
+#: src/codewarnings/codewarn.py:1016
+msgid "Argument not used: {}"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:1065
 msgid "Import not found: {}"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:705
+#: src/codewarnings/codewarn.py:1069
+msgid "Import not used: %s"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:1076
 msgid "Undefined name: %s"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:769 src/codewarnings/codewarn.py:771
+#: src/codewarnings/codewarn.py:1079
+msgid "Variable not used: %s"
+msgstr ""
+
+#: src/codewarnings/codewarn.py:1135 src/codewarnings/codewarn.py:1137
 msgid " or "
 msgstr ""
 
-#: src/codewarnings/codewarn.py:774
+#: src/codewarnings/codewarn.py:1140
 msgid "Attribute undefined: .%s of %s: %s"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:1350
+#: src/codewarnings/codewarn.py:1842
 msgid "Could not hide some code warnings"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:1588
+#: src/codewarnings/codewarn.py:2084
 msgid "class"
 msgstr ""
 
-#: src/codewarnings/codewarn.py:1595
+#: src/codewarnings/codewarn.py:2091
 msgid "module"
 msgstr ""
 
@@ -494,19 +655,15 @@ msgstr ""
 msgid "External Code Checkers Configuration"
 msgstr ""
 
-#: src/codewarnings/externalchecker.py:932 src/codewarnings/manager.py:148
-msgid "_OK"
-msgstr ""
-
 #: src/codewarnings/externalchecker.py:947
 msgid "Automatically save and run"
 msgstr ""
 
-#: src/codewarnings/manager.py:142
+#: src/codewarnings/manager.py:147
 msgid "Export Failed"
 msgstr ""
 
-#: src/codewarnings/manager.py:143
+#: src/codewarnings/manager.py:148
 msgid "Some errors occurred while exporting the code warnings configuration:"
 msgstr ""
 

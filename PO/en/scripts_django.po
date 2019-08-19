@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.1\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2011-03-30 22:09 EDT\n"
 "Last-Translator: Wingware <support@wingware.com>\n"
 "Language-Team: None\n"
@@ -50,10 +50,10 @@ msgid ""
 "  is inactive"
 msgstr ""
 
-#: scripts/django.py:52 scripts/django.py:960 scripts/django.py:1043
-#: scripts/django.py:1056 scripts/django.py:1146 scripts/django.py:1190
-#: scripts/django.py:1233 scripts/django.py:1273 scripts/django.py:1281
-#: scripts/django.py:1294
+#: scripts/django.py:52 scripts/django.py:962 scripts/django.py:1045
+#: scripts/django.py:1058 scripts/django.py:1148 scripts/django.py:1192
+#: scripts/django.py:1235 scripts/django.py:1275 scripts/django.py:1283
+#: scripts/django.py:1296
 msgid "Djang_o"
 msgstr ""
 
@@ -194,7 +194,7 @@ msgid ""
 "%s"
 msgstr ""
 
-#: scripts/django.py:415 scripts/django.py:896
+#: scripts/django.py:415 scripts/django.py:898
 msgid ""
 "The command %s succeeded but printed unexpected output:\n"
 "\n"
@@ -325,134 +325,134 @@ msgid ""
 "Django project from scratch."
 msgstr ""
 
-#: scripts/django.py:639
+#: scripts/django.py:641
 msgid ""
 "Could not find django-admin.py for the selected Python.  Please set Python "
 "Executable in Project Properties, from the Project menu."
 msgstr ""
 
-#: scripts/django.py:644
+#: scripts/django.py:646
 msgid ""
 "Could not obtain Python Executable to use in Project Properties from %s. Set "
 "this manually if the default Python is not the one being used with Django."
 msgstr ""
 
-#: scripts/django.py:649
+#: scripts/django.py:651
 msgid "%s was set as the Python Executable in Project Properties"
 msgstr ""
 
-#: scripts/django.py:654
+#: scripts/django.py:656
 msgid "Django runserver"
 msgstr ""
 
-#: scripts/django.py:658
+#: scripts/django.py:660
 msgid "Launch Django"
 msgstr ""
 
-#: scripts/django.py:669
+#: scripts/django.py:671
 msgid "%s was set as main entry point with run arguments %s"
 msgstr ""
 
-#: scripts/django.py:672
+#: scripts/django.py:674
 msgid "enabled child process debugging in Project Properties (for auto-reload)"
 msgstr ""
 
-#: scripts/django.py:701
+#: scripts/django.py:703
 msgid ""
 "DJANGO_SITENAME and DJANGO_SETTINGS_MODULE environment variables were added "
 "to the project-wide environment"
 msgstr ""
 
-#: scripts/django.py:703
+#: scripts/django.py:705
 msgid "added directories %s and %s to the Python Path in Project Properties"
 msgstr ""
 
-#: scripts/django.py:705
+#: scripts/django.py:707
 msgid "Set PYTHONSTARTUP_CODE to initialize Django in the Python Shell"
 msgstr ""
 
-#: scripts/django.py:709
+#: scripts/django.py:711
 msgid ""
 "Could not enable template debug in Django settings -- this needs to be done "
 "manually before debugging Django templates with Wing."
 msgstr ""
 
-#: scripts/django.py:719
+#: scripts/django.py:721
 msgid "Failed to read %s to enable template debugging"
 msgstr ""
 
-#: scripts/django.py:787
+#: scripts/django.py:789
 msgid "Failed to write %s with template debug enabled"
 msgstr ""
 
-#: scripts/django.py:789
+#: scripts/django.py:791
 msgid ""
 "set option 'debug': True in TEMPLATES in the site's settings.py file so "
 "Wing's debugger can debug templates"
 msgstr ""
 
-#: scripts/django.py:793
+#: scripts/django.py:795
 msgid ""
 "Failed to update %s with template debug enabled (missing TEMPLATES section); "
 "falling back to using TEMPLATE_DEBUG"
 msgstr ""
 
-#: scripts/django.py:826
+#: scripts/django.py:828
 msgid "Failed to write %s with TEMPLATE_DEBUG enabled"
 msgstr ""
 
-#: scripts/django.py:828
+#: scripts/django.py:830
 msgid ""
 "set TEMPLATE_DEBUG = True in the site's settings.py file so Wing's debugger "
 "can debug templates"
 msgstr ""
 
-#: scripts/django.py:836
+#: scripts/django.py:838
 msgid "enabled Template Debugging in Project Properties"
 msgstr ""
 
-#: scripts/django.py:848
+#: scripts/django.py:850
 msgid "configured unit testing for Django"
 msgstr ""
 
-#: scripts/django.py:851
+#: scripts/django.py:853
 msgid "Django Configuration Complete"
 msgstr ""
 
-#: scripts/django.py:852
+#: scripts/django.py:854
 msgid "The project file has been configured for Django.  "
 msgstr ""
 
-#: scripts/django.py:860
+#: scripts/django.py:862
 msgid "Configure Project for Django"
 msgstr ""
 
-#: scripts/django.py:866
+#: scripts/django.py:868
 msgid "Could not find manage.py and/or settings.py in the project"
 msgstr ""
 
-#: scripts/django.py:872
+#: scripts/django.py:874
 msgid ""
 "Could not find Python.  Please set Python Executable in Project Properties, "
 "accessed from the Project menu"
 msgstr ""
 
-#: scripts/django.py:876
+#: scripts/django.py:878
 msgid ""
 "Start a new application within the current Django project and add it to "
 "the \n"
 "  INSTALLED_APPS list in the project's settings.py file."
 msgstr ""
 
-#: scripts/django.py:885 scripts/django.py:892
+#: scripts/django.py:887 scripts/django.py:894
 msgid "Failed to Start App"
 msgstr ""
 
-#: scripts/django.py:886
+#: scripts/django.py:888
 msgid "The Django app could not be created:  %s"
 msgstr ""
 
-#: scripts/django.py:894
+#: scripts/django.py:896
 msgid ""
 "The command %s failed with error code %i and output:\n"
 "\n"
@@ -461,288 +461,288 @@ msgid ""
 "%s"
 msgstr ""
 
-#: scripts/django.py:899
+#: scripts/django.py:901
 msgid "Created Django app %s in %s"
 msgstr ""
 
-#: scripts/django.py:904
+#: scripts/django.py:906
 msgid ""
 "Could not edit Django settings -- App %s needs to be added manually to "
 "INSTALLED_APPS"
 msgstr ""
 
-#: scripts/django.py:913
+#: scripts/django.py:915
 msgid "Unable to read %s to update INSTALLED_APPS"
 msgstr ""
 
-#: scripts/django.py:949
+#: scripts/django.py:951
 msgid "Unable to write %s to update INSTALLED_APPS"
 msgstr ""
 
-#: scripts/django.py:951
+#: scripts/django.py:953
 msgid "Added %s to INSTALLED_APPS in %s"
 msgstr ""
 
-#: scripts/django.py:953
+#: scripts/django.py:955
 msgid "The App was Created"
 msgstr ""
 
-#: scripts/django.py:954
+#: scripts/django.py:956
 msgid "The application was created.  "
 msgstr ""
 
-#: scripts/django.py:961
+#: scripts/django.py:963
 msgid "Start New Django Application"
 msgstr ""
 
-#: scripts/django.py:965
+#: scripts/django.py:967
 msgid "Run manage.py migrate (or syncdb in Django 1.6 and earlier)"
 msgstr ""
 
-#: scripts/django.py:969
+#: scripts/django.py:971
 msgid "Failed to Migrate DB"
 msgstr ""
 
-#: scripts/django.py:970
+#: scripts/django.py:972
 msgid "Could not migrate db:  %s"
 msgstr ""
 
-#: scripts/django.py:989
+#: scripts/django.py:991
 msgid "Could not sync the database: Sub-process timed out"
 msgstr ""
 
-#: scripts/django.py:991
+#: scripts/django.py:993
 msgid "Could not migrate the database: Sub-process timed out"
 msgstr ""
 
-#: scripts/django.py:994
+#: scripts/django.py:996
 msgid ""
 "Could not sync the database: Sub-process failed with exit_status=%s, errno=%s"
 msgstr ""
 
-#: scripts/django.py:996
+#: scripts/django.py:998
 msgid ""
 "Could not migrate the database: Sub-process failed with exit_status=%s, "
 "errno=%s"
 msgstr ""
 
-#: scripts/django.py:999
+#: scripts/django.py:1001
 msgid "Sync DB completed"
 msgstr ""
 
-#: scripts/django.py:1001
+#: scripts/django.py:1003
 msgid "Migrate DB completed"
 msgstr ""
 
-#: scripts/django.py:1009
+#: scripts/django.py:1011
 msgid "Sync DB completed with no errors or output"
 msgstr ""
 
-#: scripts/django.py:1011
+#: scripts/django.py:1013
 msgid "Migrate DB completed with no errors or output"
 msgstr ""
 
-#: scripts/django.py:1015
+#: scripts/django.py:1017
 msgid "Django Sync DB"
 msgstr ""
 
-#: scripts/django.py:1017
+#: scripts/django.py:1019
 msgid "Django Migrate DB"
 msgstr ""
 
-#: scripts/django.py:1044
+#: scripts/django.py:1046
 msgid "Migrate Database"
 msgstr ""
 
-#: scripts/django.py:1047
+#: scripts/django.py:1049
 msgid "Run manage.py unit tests in the Testing tool"
 msgstr ""
 
-#: scripts/django.py:1057
+#: scripts/django.py:1059
 msgid "Run Unit Tests"
 msgstr ""
 
-#: scripts/django.py:1060
+#: scripts/django.py:1062
 msgid "Run manage.py tests with output in a scratch buffer"
 msgstr ""
 
-#: scripts/django.py:1065
+#: scripts/django.py:1067
 msgid "Failed to run Django unit tests"
 msgstr ""
 
-#: scripts/django.py:1066
+#: scripts/django.py:1068
 msgid "Could not run Django :  %s"
 msgstr ""
 
-#: scripts/django.py:1070 scripts/django.py:1096 scripts/django.py:1101
+#: scripts/django.py:1072 scripts/django.py:1098 scripts/django.py:1103
 msgid "Django Unit Tests"
 msgstr ""
 
-#: scripts/django.py:1072
+#: scripts/django.py:1074
 msgid "Starting Django Unit Tests at %s:\n"
 msgstr ""
 
-#: scripts/django.py:1081
+#: scripts/django.py:1083
 msgid "Could not run Django unit tests: Sub-process timed out"
 msgstr ""
 
-#: scripts/django.py:1083
+#: scripts/django.py:1085
 msgid ""
 "Could not run Django unit tests: Sub-process failed with exit_status=%s, "
 "errno=%s"
 msgstr ""
 
-#: scripts/django.py:1085 scripts/django.py:1091
+#: scripts/django.py:1087 scripts/django.py:1093
 msgid "Django unit tests passed successfully"
 msgstr ""
 
-#: scripts/django.py:1093
+#: scripts/django.py:1095
 msgid "Django unit tests passed successfully with no output"
 msgstr ""
 
-#: scripts/django.py:1110
+#: scripts/django.py:1112
 msgid ""
 "Run manage.py sql for given app name and display the output in a\n"
 "  scratch buffer."
 msgstr ""
 
-#: scripts/django.py:1115 scripts/django.py:1135
+#: scripts/django.py:1117 scripts/django.py:1137
 msgid "Failed to Generate SQL"
 msgstr ""
 
-#: scripts/django.py:1116
+#: scripts/django.py:1118
 msgid "Could not generate SQL:  %s"
 msgstr ""
 
-#: scripts/django.py:1123 scripts/django.py:1142
+#: scripts/django.py:1125 scripts/django.py:1144
 msgid "Django SQL"
 msgstr ""
 
-#: scripts/django.py:1125
+#: scripts/django.py:1127
 msgid "This command is no longer used in Django 1.10+"
-msgstr ""
-
-#: scripts/django.py:1132 scripts/django.py:1176 scripts/django.py:1219
-#: scripts/django.py:1257
-msgid "Failed to start sub-process"
 msgstr ""
 
 #: scripts/django.py:1134 scripts/django.py:1178 scripts/django.py:1221
 #: scripts/django.py:1259
+msgid "Failed to start sub-process"
+msgstr ""
+
+#: scripts/django.py:1136 scripts/django.py:1180 scripts/django.py:1223
+#: scripts/django.py:1261
 msgid "Sub-process timed out"
 msgstr ""
 
-#: scripts/django.py:1136
+#: scripts/django.py:1138
 msgid "Could not generate SQL: %s"
 msgstr ""
 
-#: scripts/django.py:1147
+#: scripts/django.py:1149
 msgid "Generate SQL"
 msgstr ""
 
-#: scripts/django.py:1149 scripts/django.py:1193
+#: scripts/django.py:1151 scripts/django.py:1195
 msgid "Django App Name"
 msgstr ""
 
-#: scripts/django.py:1162
+#: scripts/django.py:1164
 msgid ""
 "Run manage.py makemigrations for given app name and display the output in a\n"
 "  scratch buffer."
 msgstr ""
 
-#: scripts/django.py:1167 scripts/django.py:1179
+#: scripts/django.py:1169 scripts/django.py:1181
 msgid "Failed to Make Migrations"
 msgstr ""
 
-#: scripts/django.py:1168 scripts/django.py:1180
+#: scripts/django.py:1170 scripts/django.py:1182
 msgid "Could not migrate app: %s"
 msgstr ""
 
-#: scripts/django.py:1186
+#: scripts/django.py:1188
 msgid "Django App Migration"
 msgstr ""
 
-#: scripts/django.py:1191
+#: scripts/django.py:1193
 msgid "Migrate App"
 msgstr ""
 
-#: scripts/django.py:1206
+#: scripts/django.py:1208
 msgid ""
 "Run manage.py showmigrations and display the output in a scratch buffer."
 msgstr ""
 
-#: scripts/django.py:1210 scripts/django.py:1222
+#: scripts/django.py:1212 scripts/django.py:1224
 msgid "Failed to Show Migrations"
 msgstr ""
 
-#: scripts/django.py:1211 scripts/django.py:1223
+#: scripts/django.py:1213 scripts/django.py:1225
 msgid "Could not show migrations: %s"
 msgstr ""
 
-#: scripts/django.py:1229
+#: scripts/django.py:1231
 msgid "Django Show Migrations"
 msgstr ""
 
-#: scripts/django.py:1234
+#: scripts/django.py:1236
 msgid "Show Migrations"
 msgstr ""
 
-#: scripts/django.py:1241
+#: scripts/django.py:1243
 msgid "Run manage.py check (or validate in Django 1.5 and earlier)"
 msgstr ""
 
-#: scripts/django.py:1245
+#: scripts/django.py:1247
 msgid "Failed to Validate"
 msgstr ""
 
-#: scripts/django.py:1246
+#: scripts/django.py:1248
 msgid "Could not validate:  %s"
 msgstr ""
 
-#: scripts/django.py:1260
+#: scripts/django.py:1262
 msgid "Could Not Validate"
 msgstr ""
 
-#: scripts/django.py:1261
+#: scripts/django.py:1263
 msgid "Could not validate: %s"
 msgstr ""
 
-#: scripts/django.py:1267
+#: scripts/django.py:1269
 msgid "Validate Succeeded"
 msgstr ""
 
-#: scripts/django.py:1267
+#: scripts/django.py:1269
 msgid "Validated with 0 errors found"
 msgstr ""
 
-#: scripts/django.py:1269
+#: scripts/django.py:1271
 msgid "Django Validate"
 msgstr ""
 
-#: scripts/django.py:1274
+#: scripts/django.py:1276
 msgid "Run Check"
 msgstr ""
 
-#: scripts/django.py:1277
+#: scripts/django.py:1279
 msgid "Show documentation for using Wing and Django together"
 msgstr ""
 
-#: scripts/django.py:1282
+#: scripts/django.py:1284
 msgid "Show Documentation"
 msgstr ""
 
-#: scripts/django.py:1285
+#: scripts/django.py:1287
 msgid ""
 "Show and restart the Python Shell tool, which works in the same\n"
 "  environment as \"manage.py shell\".  To show the tool without restarting\n"
 "  it, use the Tools menu."
 msgstr ""
 
-#: scripts/django.py:1295
+#: scripts/django.py:1297
 msgid "Restart Shell"
 msgstr ""
 
-#: scripts/django.py:1303
+#: scripts/django.py:1305
 msgid ""
 "Tracks whether the Django plugin should be enabled or not. Install\n"
 "  signals so plugin can activate or deactivate based on what project is "
@@ -750,62 +750,62 @@ msgid ""
 "  and what it contains."
 msgstr ""
 
-#: scripts/django.py:1324
+#: scripts/django.py:1326
 msgid "Connect to signals on project so plugin can enable when appropriate"
 msgstr ""
 
-#: scripts/django.py:1341
+#: scripts/django.py:1343
 msgid "Current project has changed"
 msgstr ""
 
-#: scripts/django.py:1346
+#: scripts/django.py:1348
 msgid "Project contents have changed (given files were added or removed)"
 msgstr ""
 
-#: scripts/django.py:1354
+#: scripts/django.py:1356
 msgid ""
 "Avoid constant scanning of project during file discovery; we scan\n"
 "    one second after the last project file update"
 msgstr ""
 
-#: scripts/django.py:1375
+#: scripts/django.py:1377
 msgid ""
 "Try to find key Django project files in the project.  Returns full path\n"
 "    to manage.py and settings.py (or settings package) or (None, None) if "
 "not found."
 msgstr ""
 
-#: scripts/django.py:1421
+#: scripts/django.py:1423
 msgid ""
 "Get the full path to the project directory.  The site-name is\n"
 "    os.path.basename() fo the path."
 msgstr ""
 
-#: scripts/django.py:1431
+#: scripts/django.py:1433
 msgid ""
 "Get a list of the app directories in the current project. Returns a\n"
 "    list of the full path to the app directory. The app name is\n"
 "    os.path.basename() of each path."
 msgstr ""
 
-#: scripts/django.py:1451
+#: scripts/django.py:1453
 msgid "Try to detect if this is a Django project, based on its contents"
 msgstr ""
 
-#: scripts/django.py:1460
+#: scripts/django.py:1462
 msgid ""
 "Set a callback to invoke when project files have been added so\n"
 "    that _IsDjangoProject returns true.  Used in bootstrapping a new\n"
 "    Django project."
 msgstr ""
 
-#: scripts/django.py:1470
+#: scripts/django.py:1472
 msgid ""
 "Plugin activator for Django.  Note this must call CAPIApplication."
 "EnablePlugin()\n"
 "  and return True to enable or False to disable initially"
 msgstr ""
 
-#: scripts/django.py:1477
+#: scripts/django.py:1479
 msgid "Django Extensions"
 msgstr ""

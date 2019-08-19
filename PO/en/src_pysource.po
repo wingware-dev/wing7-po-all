@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:24GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -52,69 +52,69 @@ msgstr ""
 msgid "Indentation error (unspecified)"
 msgstr ""
 
-#: src/pysource/manager.py:232
+#: src/pysource/manager.py:235
 msgid "(Analyzing Files: P{} S{} Q={}) "
 msgstr ""
 
-#: src/pysource/manager.py:236
+#: src/pysource/manager.py:239
 msgid "(Analyzing Files: %i pending remote inspections) "
 msgstr ""
 
-#: src/pysource/manager.py:669
+#: src/pysource/manager.py:672
 msgid ""
 "Scrape errors for %s:\n"
 "%s"
 msgstr ""
 
-#: src/pysource/manager.py:697
+#: src/pysource/manager.py:700
 msgid "%s does not exist (scrape failed)"
 msgstr ""
 
-#: src/pysource/manager.py:701
+#: src/pysource/manager.py:704
 msgid "%s is empty (scrape failed; removing file now)"
 msgstr ""
 
-#: src/pysource/manager.py:719
+#: src/pysource/manager.py:722
 msgid "Scraping %s"
 msgstr ""
 
-#: src/pysource/manager.py:729
+#: src/pysource/manager.py:732
 msgid "Failed to scrape extension module %s: Python not found"
 msgstr ""
 
-#: src/pysource/manager.py:745
+#: src/pysource/manager.py:748
 msgid "Failed to scrape extension module %s: Cannot create directory %s"
 msgstr ""
 
-#: src/pysource/manager.py:770
+#: src/pysource/manager.py:771
 msgid "Timed out in remote scrape of extension module %s"
 msgstr ""
 
-#: src/pysource/manager.py:772 src/pysource/manager.py:811
+#: src/pysource/manager.py:773 src/pysource/manager.py:813
 msgid ""
 "Failed to start process to scrape extension module %s: could not find "
 "suitable rundir"
 msgstr ""
 
-#: src/pysource/manager.py:775 src/pysource/manager.py:867
+#: src/pysource/manager.py:776 src/pysource/manager.py:869
 msgid "Failed to start process to scrape extension module %s"
 msgstr ""
 
-#: src/pysource/manager.py:777 src/pysource/manager.py:872
+#: src/pysource/manager.py:778 src/pysource/manager.py:874
 msgid "Failed scraping API for %s"
 msgstr ""
 
-#: src/pysource/manager.py:779 src/pysource/manager.py:874
+#: src/pysource/manager.py:780 src/pysource/manager.py:876
 msgid "API scraping process for %s completed"
 msgstr ""
 
-#: src/pysource/manager.py:851
+#: src/pysource/manager.py:853
 msgid ""
 "Failed to start process to scrape extension module %s: cannot encode "
 "arguments"
 msgstr ""
 
-#: src/pysource/manager.py:858
+#: src/pysource/manager.py:860
 msgid "Cache file is %s"
 msgstr ""
 
@@ -147,7 +147,7 @@ msgid ""
 "files that are not open."
 msgstr ""
 
-#: src/pysource/prefs.py:60
+#: src/pysource/prefs.py:62
 msgid ""
 "Enable to automatically load and introspect extension modules and other "
 "modules that cannot be statically analysed.  These modules are loaded in "
@@ -155,7 +155,7 @@ msgid ""
 "module's contents."
 msgstr ""
 
-#: src/pysource/prefs.py:91
+#: src/pysource/prefs.py:93
 msgid ""
 "This is a dictionary from module name to Python code that should be executed "
 "before attempting to load extension modules for scraping.  This is needed in "
@@ -164,15 +164,15 @@ msgid ""
 "configuration should be needed."
 msgstr ""
 
-#: src/pysource/prefs.py:126
+#: src/pysource/prefs.py:128
 msgid "Configuration Code"
 msgstr ""
 
-#: src/pysource/prefs.py:126
+#: src/pysource/prefs.py:128
 msgid "Module Name"
 msgstr ""
 
-#: src/pysource/prefs.py:131
+#: src/pysource/prefs.py:133
 msgid ""
 "Use slower, dotfile locking for sqllite databases to work around buggy "
 "remote file servers.  Only needed if the user cache directory is on a remote "
@@ -181,7 +181,7 @@ msgid ""
 "reasons."
 msgstr ""
 
-#: src/pysource/prefs.py:140
+#: src/pysource/prefs.py:142
 msgid ""
 "Prefix for Python Standard Library Documentation.  This should be in the "
 "form https://docs.python.org/library/ and Wing will append module and symbol "
@@ -189,10 +189,10 @@ msgid ""
 "run a local web server since # bookmarks do not work in file: URLs."
 msgstr ""
 
-#: src/pysource/prefs.py:147
+#: src/pysource/prefs.py:149
 msgid "Use docs.python.org"
 msgstr ""
 
-#: src/pysource/prefs.py:148
+#: src/pysource/prefs.py:150
 msgid "Other:"
 msgstr ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 6.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2016-06-08 17:19 EDT\n"
 "Last-Translator: Wingware <support@wingware.com>\n"
 "Language-Team: None\n"
@@ -52,28 +52,28 @@ msgstr ""
 msgid "%s File"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:822
+#: src/wingbase/remoteclient.py:830
 msgid "Missing remote host configuration for %s"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:1038
+#: src/wingbase/remoteclient.py:1046
 msgid ""
 "Remote server %s failed to connect (hostname=%s, winghome=%s, pyexec=%s)"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:1048
+#: src/wingbase/remoteclient.py:1056
 msgid "Remote server to %s is unused -- closing connection"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:1370
+#: src/wingbase/remoteclient.py:1378
 msgid "Reverse SSH tunnel startup timed out -- no output seen in >10 seconds"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:1559
+#: src/wingbase/remoteclient.py:1567
 msgid "Reverse tunnel to %s (%i<->%i) failed after %i retries"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:1564
+#: src/wingbase/remoteclient.py:1572
 msgid "Reverse tunnel to %s (%i<->%i) is unused -- closing connection"
 msgstr ""
 
@@ -121,54 +121,54 @@ msgstr ""
 msgid "Bad change type on line %i"
 msgstr ""
 
-#: src/wingbase/updateutils.py:444
+#: src/wingbase/updateutils.py:446
 msgid "Some unpatchable files changed:"
 msgstr ""
 
-#: src/wingbase/updateutils.py:448
+#: src/wingbase/updateutils.py:450
 msgid "No changes for the update"
 msgstr ""
 
-#: src/wingbase/updateutils.py:480
+#: src/wingbase/updateutils.py:482
 msgid "Could not create update tarfile:"
 msgstr ""
 
-#: src/wingbase/updateutils.py:571
+#: src/wingbase/updateutils.py:573
 msgid "Updates are corrupt and need to be removed and reinstalled"
 msgstr ""
 
-#: src/wingbase/updateutils.py:620
+#: src/wingbase/updateutils.py:622
 msgid "Failed to delete old busy update: %s"
 msgstr ""
 
-#: src/wingbase/updateutils.py:623
+#: src/wingbase/updateutils.py:625
 msgid "Possibly concurrent update/merge on %s"
 msgstr ""
 
-#: src/wingbase/updateutils.py:631
+#: src/wingbase/updateutils.py:633
 msgid "Renaming %s failed; skipping update merge"
 msgstr ""
 
-#: src/wingbase/updateutils.py:665
+#: src/wingbase/updateutils.py:667
 msgid "Failed to merge update directories: %s -> %s; aborting merge"
 msgstr ""
 
-#: src/wingbase/updateutils.py:835
+#: src/wingbase/updateutils.py:837
 msgid "Missing file: %s"
 msgstr ""
 
-#: src/wingbase/updateutils.py:839
+#: src/wingbase/updateutils.py:841
 msgid "Invalid Type: %s (expected file but found non-file)"
 msgstr ""
 
-#: src/wingbase/updateutils.py:841
+#: src/wingbase/updateutils.py:843
 msgid "Invalid Type: %s (expected directory but found non-directory)"
 msgstr ""
 
-#: src/wingbase/updateutils.py:846
+#: src/wingbase/updateutils.py:848
 msgid "Read failed:  %s"
 msgstr ""
 
-#: src/wingbase/updateutils.py:849
+#: src/wingbase/updateutils.py:851
 msgid "Changed file: %s"
 msgstr ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2010-11-24 23:48 EST\n"
 "Last-Translator: Wingware <support@wingware.com>\n"
 "Language-Team: None\n"
@@ -137,20 +137,22 @@ msgstr ""
 msgid "<i>no children</i>"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:793
-msgid "_Run"
-msgstr ""
-
-#: src/testing/cap_testinggui.py:793 src/testing/cap_testinggui.py:1341
+#: src/testing/cap_testinggui.py:793 src/testing/cap_testinggui.py:1344
 msgid "_Run Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:802
-msgid "_Debug"
+#: src/testing/cap_testinggui.py:793 src/testing/cap_testinggui.py:1345
+msgid "_Run"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:802
+#: src/testing/cap_testinggui.py:802 src/testing/cap_testinggui.py:1382
+#: src/testing/cap_testinggui.py:1405
 msgid "_Debug Tests"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:802 src/testing/cap_testinggui.py:1383
+#: src/testing/cap_testinggui.py:1406
+msgid "_Debug"
 msgstr ""
 
 #: src/testing/cap_testinggui.py:826
@@ -258,66 +260,54 @@ msgid "File Properties..."
 msgstr ""
 
 #: src/testing/cap_testinggui.py:1135
-msgid "Show Testing Documentation"
-msgstr ""
-
-#: src/testing/cap_testinggui.py:1138
 msgid "Select All"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1145
+#: src/testing/cap_testinggui.py:1142
 msgid "Copy Selected Text"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1149
+#: src/testing/cap_testinggui.py:1146
 msgid "Copy Failure Summary"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1153
+#: src/testing/cap_testinggui.py:1150
 msgid "Copy All Results"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1310
+#: src/testing/cap_testinggui.py:1156
+msgid "Show Testing Documentation"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:1313
 msgid "Completed tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1337
+#: src/testing/cap_testinggui.py:1340
 msgid "_Abort Tests"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1338
-msgid "Abort"
+#: src/testing/cap_testinggui.py:1341 src/testing/cap_testinggui.py:1401
+msgid "_Abort"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1342
-msgid "Run"
+#: src/testing/cap_testinggui.py:1389
+msgid "_Stop Debug"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1379 src/testing/cap_testinggui.py:1402
-msgid "Debug Tests"
+#: src/testing/cap_testinggui.py:1390
+msgid "_Stop"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1380 src/testing/cap_testinggui.py:1403
-msgid "Debug"
+#: src/testing/cap_testinggui.py:1400
+msgid "_Abort Debug"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1386
-msgid "Stop Debug"
-msgstr ""
-
-#: src/testing/cap_testinggui.py:1387 src/testing/cap_testinggui.py:1398
-msgid "Stop"
-msgstr ""
-
-#: src/testing/cap_testinggui.py:1397
-msgid "Abort Debug"
-msgstr ""
-
-#: src/testing/cap_testinggui.py:1529 src/testing/cap_testinggui.py:1539
+#: src/testing/cap_testinggui.py:1532 src/testing/cap_testinggui.py:1542
 msgid "Testing"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1544
+#: src/testing/cap_testinggui.py:1547
 msgid "Unit Tests"
 msgstr ""
 
@@ -423,42 +413,42 @@ msgid ""
 "manage.py"
 msgstr ""
 
-#: src/testing/runtests.py:228
+#: src/testing/runtests.py:220
 msgid "Starting local tests: %s"
 msgstr ""
 
-#: src/testing/runtests.py:270
+#: src/testing/runtests.py:262
 msgid "Starting tests on hostname %s: %s"
 msgstr ""
 
-#: src/testing/runtests.py:315
+#: src/testing/runtests.py:307
 msgid "Debugging local tests: %s"
 msgstr ""
 
-#: src/testing/runtests.py:338 src/testing/runtests.py:390
+#: src/testing/runtests.py:330 src/testing/runtests.py:382
 msgid "Could not start debug process"
 msgstr ""
 
-#: src/testing/runtests.py:360
+#: src/testing/runtests.py:352
 msgid "Debugging tests on hostname %s: %s"
 msgstr ""
 
-#: src/testing/runtests.py:415
+#: src/testing/runtests.py:407
 msgid "Test process aborted: some tests were not run"
 msgstr ""
 
-#: src/testing/runtests.py:664 src/testing/runtests.py:668
+#: src/testing/runtests.py:653 src/testing/runtests.py:657
 msgid "Test process suddenly quit while running %s"
 msgstr ""
 
-#: src/testing/runtests.py:666
+#: src/testing/runtests.py:655
 msgid " in %s"
 msgstr ""
 
-#: src/testing/runtests.py:676
+#: src/testing/runtests.py:665
 msgid "Could not execute test runner"
 msgstr ""
 
-#: src/testing/runtests.py:683
+#: src/testing/runtests.py:672
 msgid "Could not read any output from test runner"
 msgstr ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:23GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -148,43 +148,43 @@ msgstr ""
 msgid "Options to use when adding selections"
 msgstr ""
 
-#: src/edit/cap_autocomplete.py:2005
+#: src/edit/cap_autocomplete.py:2051
 msgid "(symbol)"
 msgstr ""
 
-#: src/edit/cap_autocomplete.py:2016
+#: src/edit/cap_autocomplete.py:2062
 msgid "(snippet)"
 msgstr ""
 
-#: src/edit/cap_autocomplete.py:4074
+#: src/edit/cap_autocomplete.py:4129
 msgid "_Sort Alphabetically"
 msgstr ""
 
-#: src/edit/cap_autocomplete.py:4076
+#: src/edit/cap_autocomplete.py:4131
 msgid "Sort items alphabetically rather than in the order found in the file"
 msgstr ""
 
-#: src/edit/cap_autocomplete.py:4078
+#: src/edit/cap_autocomplete.py:4133
 msgid "Include _Args in Search"
 msgstr ""
 
-#: src/edit/cap_autocomplete.py:4080
+#: src/edit/cap_autocomplete.py:4135
 msgid "Include the text of function arguments in the text on which to search"
 msgstr ""
 
-#: src/edit/cap_autoeditor.py:1521
+#: src/edit/cap_autoeditor.py:1539
 msgid "Press : again to indent following block instead"
 msgstr ""
 
-#: src/edit/cap_autoeditor.py:1569
+#: src/edit/cap_autoeditor.py:1587
 msgid "Press : again to select another possible indent"
 msgstr ""
 
-#: src/edit/cap_autoeditor.py:1586
+#: src/edit/cap_autoeditor.py:1604
 msgid "Press : again to indent following line"
 msgstr ""
 
-#: src/edit/cap_autoeditor.py:2473
+#: src/edit/cap_autoeditor.py:2515
 msgid "Entering Invocation: Tab key moves between arguments"
 msgstr ""
 
@@ -216,8 +216,8 @@ msgstr ""
 msgid "Remove Bookmark"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:159 src/edit/cap_indentmgr.py:289
-#: src/edit/cap_oscommands.py:2314 src/edit/cap_snippets.py:1202
+#: src/edit/cap_bookmarks.py:159 src/edit/cap_indentmgr.py:291
+#: src/edit/cap_oscommands.py:2315 src/edit/cap_snippets.py:1202
 #: src/edit/cap_snippets.py:1321 src/edit/cap_snippets.py:1330
 #: src/edit/cap_snippets.py:1499 src/edit/cap_snippets.py:1587
 msgid "_Cancel"
@@ -315,7 +315,7 @@ msgid "Title"
 msgstr ""
 
 #: src/edit/cap_bookmarks.py:1076 src/edit/cap_oscommands.py:440
-#: src/edit/cap_oscommands.py:2354
+#: src/edit/cap_oscommands.py:2355
 msgid "Shared"
 msgstr ""
 
@@ -336,11 +336,11 @@ msgid "Could Not Delete"
 msgstr ""
 
 #: src/edit/cap_bookmarks.py:1330 src/edit/cap_snippets.py:1453
-#: src/edit/editor.py:9196
+#: src/edit/editor.py:9206
 msgid "_OK"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1362 src/edit/cap_oscommands.py:2951
+#: src/edit/cap_bookmarks.py:1362 src/edit/cap_oscommands.py:2967
 msgid "_New..."
 msgstr ""
 
@@ -437,7 +437,8 @@ msgstr ""
 msgid "Import Bookmarks"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1798 src/edit/cap_oscommands.py:2326
+#: src/edit/cap_bookmarks.py:1798 src/edit/cap_indentmgr.py:1160
+#: src/edit/cap_oscommands.py:2327
 msgid "_Options"
 msgstr ""
 
@@ -449,7 +450,7 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:1806 src/edit/editor.py:11107
+#: src/edit/cap_bookmarks.py:1806 src/edit/editor.py:11117
 msgid "Line"
 msgstr ""
 
@@ -493,110 +494,110 @@ msgstr ""
 msgid "_Import Bookmarks..."
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:2055
+#: src/edit/cap_bookmarks.py:2058
 msgid "_Confirm Bookmark Deletion"
 msgstr ""
 
-#: src/edit/cap_bookmarks.py:2058
+#: src/edit/cap_bookmarks.py:2061
 msgid "Show Bookmarking _Documentation"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:263
+#: src/edit/cap_indentmgr.py:265
 msgid "Indent Style Mismatch"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:264
+#: src/edit/cap_indentmgr.py:266
 msgid ""
 "You may convert indentation with the Indentation tool, use indentation that "
 "matches the file, or ignore this and continue with your selected indent "
 "style."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:267
+#: src/edit/cap_indentmgr.py:269
 msgid ""
 "Warning:  The indent style you have chosen does not match the existing "
 "content of the file.  This will introduce inconsistent indentation into the "
 "file.  %s"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:280
+#: src/edit/cap_indentmgr.py:282
 msgid "_Ignore and Use Spaces Only"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:282
+#: src/edit/cap_indentmgr.py:284
 msgid "_Ignore and Use Tabs Only"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:284
+#: src/edit/cap_indentmgr.py:286
 msgid "Con_vert Indentation"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:287
+#: src/edit/cap_indentmgr.py:289
 msgid "_Match File (%s)"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:291
+#: src/edit/cap_indentmgr.py:293
 msgid "_Don't show this notice again"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:316
+#: src/edit/cap_indentmgr.py:318
 msgid "Cannot convert because a macro is being recorded"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:321 src/edit/cap_indentmgr.py:373
+#: src/edit/cap_indentmgr.py:323 src/edit/cap_indentmgr.py:375
 msgid "Cannot convert because the editor text is read-only"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:335 src/edit/cap_indentmgr.py:358
+#: src/edit/cap_indentmgr.py:337 src/edit/cap_indentmgr.py:360
 msgid "This file can be converted.  Select the desired indent size above."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:336
+#: src/edit/cap_indentmgr.py:338
 msgid ""
 "Wing will indent using spaces according to the selected indent size and will "
 "replace any %s space(s) found in an indent with one tab.\n"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:339
+#: src/edit/cap_indentmgr.py:341
 msgid ""
 "\n"
 "Tab size of 8 is required in this case because the Python interpreter "
 "expects tabs in mixed indentation to be equivalent to eight spaces.\n"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:349 src/edit/cap_indentmgr.py:368
+#: src/edit/cap_indentmgr.py:351 src/edit/cap_indentmgr.py:370
 msgid "Cannot convert indents because a macro is being recorded"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:359
+#: src/edit/cap_indentmgr.py:361
 msgid "Wing will convert all indentation in the file to use only spaces."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:377
+#: src/edit/cap_indentmgr.py:379
 msgid "Wing can convert this file."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:378
+#: src/edit/cap_indentmgr.py:380
 msgid "Wing will place one tab per indentation level found in the file."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:742
+#: src/edit/cap_indentmgr.py:744
 msgid "_Convert..."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:743 src/edit/editor.py:10130
+#: src/edit/cap_indentmgr.py:745 src/edit/editor.py:10140
 msgid "Do_n't Convert"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:744 src/edit/editor.py:10131
+#: src/edit/cap_indentmgr.py:746 src/edit/editor.py:10141
 msgid "_Don't ask about this file again"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:755
+#: src/edit/cap_indentmgr.py:757
 msgid "Suspicious Indentation in File"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:757
+#: src/edit/cap_indentmgr.py:759
 msgid ""
 "The file %s contains indentation with %s.  It may appear incorrectly in some "
 "editors and may contain unexpected errors in block structure. Total indents "
@@ -604,192 +605,204 @@ msgid ""
 "of indent."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:766
+#: src/edit/cap_indentmgr.py:768
 msgid "Ne_ver ask for any file"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:797
+#: src/edit/cap_indentmgr.py:799
 msgid "Indentation Policy Violation"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:799
+#: src/edit/cap_indentmgr.py:801
 msgid ""
 "The file %s contains indentation with %s and you have configured your "
 "project to require %s indents.  Total indents = %s.  If you wish, you can "
 "convert this file with the indentation manager."
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:829
+#: src/edit/cap_indentmgr.py:831
 msgid "tabs and spaces"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:831
+#: src/edit/cap_indentmgr.py:833
 msgid "spaces only"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:833
+#: src/edit/cap_indentmgr.py:835
 msgid "tabs only"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:835
+#: src/edit/cap_indentmgr.py:837
 msgid "no indents"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:841
+#: src/edit/cap_indentmgr.py:843
 msgid " (with indent errors)"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:843
+#: src/edit/cap_indentmgr.py:845
 msgid " (with indent warnings)"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:935 src/edit/prefs.py:1107
+#: src/edit/cap_indentmgr.py:937 src/edit/prefs.py:1107
 msgid "Indentation"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:940
+#: src/edit/cap_indentmgr.py:942
 msgid "Source Code Indent Analysis and Conversion"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:964 src/edit/editor.py:10129
+#: src/edit/cap_indentmgr.py:966 src/edit/editor.py:10139
 msgid "_Convert"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:992 src/edit/cap_indentmgr.py:1039
+#: src/edit/cap_indentmgr.py:994 src/edit/cap_indentmgr.py:1041
 msgid "None.\n"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:993 src/edit/cap_indentmgr.py:1040
+#: src/edit/cap_indentmgr.py:995 src/edit/cap_indentmgr.py:1042
 msgid ""
 "Availability:\n"
 "\n"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:995 src/edit/cap_indentmgr.py:1042
+#: src/edit/cap_indentmgr.py:997 src/edit/cap_indentmgr.py:1044
 msgid ""
 "Action:\n"
 "\n"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1074
+#: src/edit/cap_indentmgr.py:1076
 msgid "Convert"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1156
+#: src/edit/cap_indentmgr.py:1163
 msgid "File:"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1164
+#: src/edit/cap_indentmgr.py:1171
 msgid "Status:"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1178
+#: src/edit/cap_indentmgr.py:1185
 msgid "Counts:"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1188 src/edit/cap_indentmgr.py:1201
+#: src/edit/cap_indentmgr.py:1195 src/edit/cap_indentmgr.py:1208
 msgid "(from existing contents)"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1194
+#: src/edit/cap_indentmgr.py:1201
 msgid "T_ab size:"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1207
+#: src/edit/cap_indentmgr.py:1214
 msgid "_Indent size:"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1212
+#: src/edit/cap_indentmgr.py:1219
 msgid "Conversions:"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1221
+#: src/edit/cap_indentmgr.py:1228
 msgid "_Spaces Only"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1223
+#: src/edit/cap_indentmgr.py:1230
 msgid "_Tabs Only"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1225
+#: src/edit/cap_indentmgr.py:1232
 msgid "_Mixed Tabs & Spaces"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1298
+#: src/edit/cap_indentmgr.py:1305
 msgid "(user-entered value)"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1300 src/edit/cap_indentmgr.py:1304
+#: src/edit/cap_indentmgr.py:1307 src/edit/cap_indentmgr.py:1311
 msgid "(from file contents)"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1302 src/edit/cap_indentmgr.py:1306
+#: src/edit/cap_indentmgr.py:1309 src/edit/cap_indentmgr.py:1313
 msgid "(from preferences)"
 msgstr ""
 
-#: src/edit/cap_indentmgr.py:1329
+#: src/edit/cap_indentmgr.py:1336
 msgid "<i>No active source editor</i>"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:45 src/edit/cap_openfiles.py:50
-#: src/edit/cap_openfiles.py:100 src/edit/cap_openfiles.py:298
+#: src/edit/cap_indentmgr.py:1506
+msgid "Configure Indentation Defaults..."
+msgstr ""
+
+#: src/edit/cap_indentmgr.py:1512
+msgid "Show Indentation Tool Documentation"
+msgstr ""
+
+#: src/edit/cap_openfiles.py:44 src/edit/cap_openfiles.py:49
+#: src/edit/cap_openfiles.py:99 src/edit/cap_openfiles.py:300
 msgid "Open Files"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:115 src/edit/cap_openfiles.py:126
+#: src/edit/cap_openfiles.py:114 src/edit/cap_openfiles.py:125
 msgid "Open files state"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:181
+#: src/edit/cap_openfiles.py:179
 msgid "[main entry point]"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:262
+#: src/edit/cap_openfiles.py:260
 msgid "Goto File"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:264
+#: src/edit/cap_openfiles.py:262
 msgid "Save"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:265
+#: src/edit/cap_openfiles.py:263
 msgid "Close Selected"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:266
+#: src/edit/cap_openfiles.py:264
 msgid "Close Others"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:282
+#: src/edit/cap_openfiles.py:283
 msgid "Select All"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:283
+#: src/edit/cap_openfiles.py:284
 msgid "Select None"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:285
+#: src/edit/cap_openfiles.py:286
 msgid "Name Open File Set..."
 msgstr ""
 
-#: src/edit/cap_openfiles.py:286
+#: src/edit/cap_openfiles.py:287
 msgid "Name Selected File Set..."
 msgstr ""
 
-#: src/edit/cap_openfiles.py:287
+#: src/edit/cap_openfiles.py:288
 msgid "Open File Set"
 msgstr ""
 
-#: src/edit/cap_openfiles.py:288
+#: src/edit/cap_openfiles.py:289
 msgid "Manage File Sets..."
 msgstr ""
 
-#: src/edit/cap_openfiles.py:290
+#: src/edit/cap_openfiles.py:291
 msgid "Set as Main Entry Point"
 msgstr ""
 
 #: src/edit/cap_openfiles.py:292
 msgid "File Properties..."
+msgstr ""
+
+#: src/edit/cap_openfiles.py:294
+msgid "Show Documentation"
 msgstr ""
 
 #: src/edit/cap_oscommands.py:280
@@ -1073,175 +1086,179 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2049 src/edit/cap_oscommands.py:2053
-#: src/edit/cap_oscommands.py:2061
+#: src/edit/cap_oscommands.py:2050 src/edit/cap_oscommands.py:2054
+#: src/edit/cap_oscommands.py:2062
 msgid "Terminal"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2207 src/edit/cap_oscommands.py:2226
+#: src/edit/cap_oscommands.py:2208 src/edit/cap_oscommands.py:2227
 msgid "OS Commands state"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2302
+#: src/edit/cap_oscommands.py:2303
 msgid "Delete Build Command?"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2303
+#: src/edit/cap_oscommands.py:2304
 msgid ""
 "This command is used as a build command in this project.  If you delete it, "
 "the build command will also be deleted.  Are you sure you want to delete it?"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2307
+#: src/edit/cap_oscommands.py:2308
 msgid "Delete Command?"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2308
+#: src/edit/cap_oscommands.py:2309
 msgid "Are you sure you want to delete command %s?"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2313
+#: src/edit/cap_oscommands.py:2314
 msgid "_Delete Command"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2354 src/edit/prefs.py:1122
+#: src/edit/cap_oscommands.py:2355 src/edit/prefs.py:1122
 msgid "Command"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2471 src/edit/cap_oscommands.py:2940
-#: src/edit/cap_oscommands.py:3052
+#: src/edit/cap_oscommands.py:2474 src/edit/cap_oscommands.py:2956
+#: src/edit/cap_oscommands.py:3068
 msgid "_Terminate %s"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2472 src/edit/cap_oscommands.py:2941
-#: src/edit/cap_oscommands.py:3053
+#: src/edit/cap_oscommands.py:2475 src/edit/cap_oscommands.py:2957
+#: src/edit/cap_oscommands.py:3069
 msgid "_Restart %s"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2474 src/edit/cap_oscommands.py:2943
-#: src/edit/cap_oscommands.py:3055
+#: src/edit/cap_oscommands.py:2477 src/edit/cap_oscommands.py:2959
+#: src/edit/cap_oscommands.py:3071
 msgid "_Execute %s"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2477
+#: src/edit/cap_oscommands.py:2480
 msgid "_New: Command Line..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2478
+#: src/edit/cap_oscommands.py:2481
 msgid "_New: Python File..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2480
+#: src/edit/cap_oscommands.py:2483
 msgid "_New: Named Entry Point..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2482 src/edit/cap_oscommands.py:2953
+#: src/edit/cap_oscommands.py:2486 src/edit/cap_oscommands.py:2906
+msgid "Start Terminal"
+msgstr ""
+
+#: src/edit/cap_oscommands.py:2489 src/edit/cap_oscommands.py:2969
 msgid "E_dit %s..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2483 src/edit/cap_oscommands.py:2954
+#: src/edit/cap_oscommands.py:2490 src/edit/cap_oscommands.py:2970
 msgid "Re_move %s"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2486
+#: src/edit/cap_oscommands.py:2493
 msgid "_Hide Toolbox"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2488
+#: src/edit/cap_oscommands.py:2495
 msgid "_Show Toolbox"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2490
+#: src/edit/cap_oscommands.py:2497
 msgid "_Clear Console"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2493
+#: src/edit/cap_oscommands.py:2500
 msgid "A_uto-clear Consoles"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2494
+#: src/edit/cap_oscommands.py:2501
 msgid ""
 "Automatically clear past history from a console when a process is started/"
 "restarted"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2495
+#: src/edit/cap_oscommands.py:2502
 msgid "Python Prompt after Execution"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2496
+#: src/edit/cap_oscommands.py:2503
 msgid ""
 "When executing Python files, remain at the Python prompt after the file has "
 "finished executing, rather than terminating Python.  This is the same as the "
 "-i command line option for Python."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2499
+#: src/edit/cap_oscommands.py:2506
 msgid "Wrap Long Lines"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2500
+#: src/edit/cap_oscommands.py:2507
 msgid "Wrap long output lines to fit in available display area."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2502
+#: src/edit/cap_oscommands.py:2509
 msgid "Show OS Commands Documentation"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2684
+#: src/edit/cap_oscommands.py:2691
 msgid "Process terminated with an exit code of %s\n"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2707
+#: src/edit/cap_oscommands.py:2714
 msgid "Process failed to start"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2882 src/edit/cap_oscommands.py:2947
+#: src/edit/cap_oscommands.py:2889 src/edit/cap_oscommands.py:2963
 msgid "New: Command Line..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2883 src/edit/cap_oscommands.py:2948
+#: src/edit/cap_oscommands.py:2890 src/edit/cap_oscommands.py:2964
 msgid "New: Python File..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:2890 src/edit/cap_oscommands.py:2949
+#: src/edit/cap_oscommands.py:2897 src/edit/cap_oscommands.py:2965
 msgid "New: Named Entry Point..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3057
+#: src/edit/cap_oscommands.py:3073
 msgid "C_opy"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3058 src/edit/editor.py:10406
-#: src/edit/editor.py:13879
+#: src/edit/cap_oscommands.py:3074 src/edit/editor.py:10416
+#: src/edit/editor.py:13889
 msgid "_Paste"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3059
+#: src/edit/cap_oscommands.py:3075
 msgid "C_lear Console"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3063
+#: src/edit/cap_oscommands.py:3079
 msgid "Send Ctrl-_C (SIGINT)"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3064
+#: src/edit/cap_oscommands.py:3080
 msgid "Send Ctrl-_D (EOF)"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3065
+#: src/edit/cap_oscommands.py:3081
 msgid "Send Ctrl-_Z (SIGSTOP)"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3070
+#: src/edit/cap_oscommands.py:3086
 msgid "_Save a Copy..."
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3105
+#: src/edit/cap_oscommands.py:3121
 msgid "OS Commands"
 msgstr ""
 
-#: src/edit/cap_oscommands.py:3111
+#: src/edit/cap_oscommands.py:3127
 msgid "Operating System Commands"
 msgstr ""
 
@@ -1719,553 +1736,553 @@ msgstr ""
 msgid "Editor state for %s"
 msgstr ""
 
-#: src/edit/editor.py:4888
+#: src/edit/editor.py:4890
 msgid ""
 "Failed to wrap text::Wrapping more than 10 lines of Python source that is "
 "not a comment or a doc string is currently not supported"
 msgstr ""
 
-#: src/edit/editor.py:5545 src/edit/editor.py:5555
+#: src/edit/editor.py:5547 src/edit/editor.py:5557
 msgid "Could not find definition of '%s'"
 msgstr ""
 
-#: src/edit/editor.py:5589
+#: src/edit/editor.py:5591
 msgid "Could not open definition of '%s'"
 msgstr ""
 
-#: src/edit/editor.py:5592
+#: src/edit/editor.py:5594
 msgid "Could not open __init__.py file for package '{}'"
 msgstr ""
 
-#: src/edit/editor.py:5597
+#: src/edit/editor.py:5599
 msgid "Could not open file '{}'"
 msgstr ""
 
-#: src/edit/editor.py:5599
+#: src/edit/editor.py:5601
 msgid "Could not open file for module '{}'"
 msgstr ""
 
-#: src/edit/editor.py:7431 src/edit/editor.py:7451
+#: src/edit/editor.py:7439 src/edit/editor.py:7459
 msgid "Search wrapped"
 msgstr ""
 
-#: src/edit/editor.py:8158 src/edit/editor.py:14960
+#: src/edit/editor.py:8166 src/edit/editor.py:14970
 msgid "Auto-indented for context; use undo to restore indentation"
 msgstr ""
 
-#: src/edit/editor.py:8172 src/edit/editor.py:14970
+#: src/edit/editor.py:8180 src/edit/editor.py:14980
 msgid "Auto-indented to caret; use undo to restore indentation"
 msgstr ""
 
-#: src/edit/editor.py:9101
+#: src/edit/editor.py:9111
 msgid "appending to register '%s'"
 msgstr ""
 
-#: src/edit/editor.py:9103
+#: src/edit/editor.py:9113
 msgid "register '%s'"
 msgstr ""
 
-#: src/edit/editor.py:9107
+#: src/edit/editor.py:9117
 msgid "Restarted macro record (%s)"
 msgstr ""
 
-#: src/edit/editor.py:9109
+#: src/edit/editor.py:9119
 msgid "Started macro record (%s)"
 msgstr ""
 
-#: src/edit/editor.py:9125
+#: src/edit/editor.py:9135
 msgid "Stopped macro record (register '%s')"
 msgstr ""
 
-#: src/edit/editor.py:9143
+#: src/edit/editor.py:9153
 msgid "Macro aborted::Macro register '%s' is undefined"
 msgstr ""
 
-#: src/edit/editor.py:9148
+#: src/edit/editor.py:9158
 msgid "Macro aborted::Macro aborted due to error in action "
 msgstr ""
 
-#: src/edit/editor.py:9150
+#: src/edit/editor.py:9160
 msgid "Executed keyboard macro (register '%s')"
 msgstr ""
 
-#: src/edit/editor.py:9175
+#: src/edit/editor.py:9185
 msgid "Reached PEP 8 reformatting timeout.  No changes were made."
 msgstr ""
 
-#: src/edit/editor.py:9178
+#: src/edit/editor.py:9188
 msgid "The PEP 8 reformatter failed.  No changes were made."
 msgstr ""
 
-#: src/edit/editor.py:9181
+#: src/edit/editor.py:9191
 msgid "This file is already PEP 8 compliant.  No changes were made."
 msgstr ""
 
-#: src/edit/editor.py:9184
+#: src/edit/editor.py:9194
 msgid "Reformat for PEP 8 compliance was completed."
 msgstr ""
 
-#: src/edit/editor.py:9187
+#: src/edit/editor.py:9197
 msgid "PEP8 Reformat Failed"
 msgstr ""
 
-#: src/edit/editor.py:9192
+#: src/edit/editor.py:9202
 msgid "Change _Timeout"
 msgstr ""
 
-#: src/edit/editor.py:9208
+#: src/edit/editor.py:9218
 msgid "No changes were made.  The selection is already PEP 8 compliant."
 msgstr ""
 
-#: src/edit/editor.py:9548
+#: src/edit/editor.py:9558
 msgid "Cannot PEP 8 Reformat File"
 msgstr ""
 
-#: src/edit/editor.py:9550
+#: src/edit/editor.py:9560
 msgid ""
 "This file cannot be reformatted for PEP 8 because remote read is pending."
 msgstr ""
 
-#: src/edit/editor.py:9552
+#: src/edit/editor.py:9562
 msgid "This file cannot be reformatted for PEP 8 because it is read-only."
 msgstr ""
 
-#: src/edit/editor.py:9590
+#: src/edit/editor.py:9600
 msgid "Locked editor for PEP 8 reformatting (timeout=%i seconds)"
 msgstr ""
 
-#: src/edit/editor.py:9997
+#: src/edit/editor.py:10007
 msgid "Cannot Convert"
 msgstr ""
 
-#: src/edit/editor.py:9998
+#: src/edit/editor.py:10008
 msgid "Could not convert line endings because this file is read-only."
 msgstr ""
 
-#: src/edit/editor.py:10114
+#: src/edit/editor.py:10124
 msgid "Auto-converted EOLs"
 msgstr ""
 
-#: src/edit/editor.py:10115
+#: src/edit/editor.py:10125
 msgid ""
 "The line-endings in %s were auto-converted from %s to %s, the project's "
 "configured preferred line ending.  Use Project Properties to alter this "
 "value or change the conversion/warning policy."
 msgstr ""
 
-#: src/edit/editor.py:10138
+#: src/edit/editor.py:10148
 msgid "Line-ending Policy Violation"
 msgstr ""
 
-#: src/edit/editor.py:10139
+#: src/edit/editor.py:10149
 msgid ""
 "The file %s contains %s style line-endings but you have configured this "
 "project to prefer %s style line-endings.  Do you wish to convert the file "
 "now?"
 msgstr ""
 
-#: src/edit/editor.py:10404 src/edit/editor.py:13877
+#: src/edit/editor.py:10414 src/edit/editor.py:13887
 msgid "C_ut"
 msgstr ""
 
-#: src/edit/editor.py:10405 src/edit/editor.py:13878
+#: src/edit/editor.py:10415 src/edit/editor.py:13888
 msgid "_Copy"
 msgstr ""
 
-#: src/edit/editor.py:10417
+#: src/edit/editor.py:10427
 msgid "_Goto Definition"
 msgstr ""
 
-#: src/edit/editor.py:10418
+#: src/edit/editor.py:10428
 msgid "_Goto Definition in Other Split"
 msgstr ""
 
-#: src/edit/editor.py:10423
+#: src/edit/editor.py:10433
 msgid "Find Points of Use"
 msgstr ""
 
-#: src/edit/editor.py:10424
+#: src/edit/editor.py:10434
 msgid "Find Points of Use in Current File"
 msgstr ""
 
-#: src/edit/editor.py:10431
+#: src/edit/editor.py:10441
 msgid "Re_factor"
 msgstr ""
 
-#: src/edit/editor.py:10434 src/edit/editor.py:10469
+#: src/edit/editor.py:10444 src/edit/editor.py:10479
 msgid "Toggle Bookmark"
 msgstr ""
 
-#: src/edit/editor.py:10436
+#: src/edit/editor.py:10446
 msgid "Reanaly_ze File"
 msgstr ""
 
-#: src/edit/editor.py:10444
+#: src/edit/editor.py:10454
 msgid "Run Tests"
 msgstr ""
 
-#: src/edit/editor.py:10445
+#: src/edit/editor.py:10455
 msgid "Debug Tests"
 msgstr ""
 
-#: src/edit/editor.py:10448
+#: src/edit/editor.py:10458
 msgid "Debug This File"
 msgstr ""
 
-#: src/edit/editor.py:10449
+#: src/edit/editor.py:10459
 msgid "Debug To Here"
 msgstr ""
 
-#: src/edit/editor.py:10452
+#: src/edit/editor.py:10462
 msgid "Move Program Counter Here"
 msgstr ""
 
-#: src/edit/editor.py:10454
+#: src/edit/editor.py:10464
 msgid "_Evaluate Selection in Python Shell"
 msgstr ""
 
-#: src/edit/editor.py:10456
+#: src/edit/editor.py:10466
 msgid "Evaluate Selection in Debug Console"
 msgstr ""
 
-#: src/edit/editor.py:10458 src/edit/editor.py:10550
+#: src/edit/editor.py:10468 src/edit/editor.py:10560
 msgid "Add _Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10459 src/edit/editor.py:10551
+#: src/edit/editor.py:10469 src/edit/editor.py:10561
 msgid "Remove _Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10462
+#: src/edit/editor.py:10472
 msgid "Enable Brea_kpoint"
 msgstr ""
 
-#: src/edit/editor.py:10463
+#: src/edit/editor.py:10473
 msgid "Disable Brea_kpoint"
 msgstr ""
 
-#: src/edit/editor.py:10477
+#: src/edit/editor.py:10487
 msgid "Watch Selection in Debugger"
 msgstr ""
 
-#: src/edit/editor.py:10479
+#: src/edit/editor.py:10489
 msgid "Watch '%s' in Debugger"
 msgstr ""
 
-#: src/edit/editor.py:10486
+#: src/edit/editor.py:10496
 msgid "Comment Out R_egion"
 msgstr ""
 
-#: src/edit/editor.py:10487
+#: src/edit/editor.py:10497
 msgid "Uncomment out Re_gion"
 msgstr ""
 
-#: src/edit/editor.py:10494
+#: src/edit/editor.py:10504
 msgid "_Indent"
 msgstr ""
 
-#: src/edit/editor.py:10495
+#: src/edit/editor.py:10505
 msgid "Dede_nt"
 msgstr ""
 
-#: src/edit/editor.py:10496
+#: src/edit/editor.py:10506
 msgid "_Match Indent"
 msgstr ""
 
-#: src/edit/editor.py:10514
+#: src/edit/editor.py:10524
 msgid "Configure Menu..."
 msgstr ""
 
-#: src/edit/editor.py:10517
+#: src/edit/editor.py:10527
 msgid "P_roperties..."
 msgstr ""
 
-#: src/edit/editor.py:10558
+#: src/edit/editor.py:10568
 msgid "Edit _Conditional Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10559
+#: src/edit/editor.py:10569
 msgid "Set _Conditional Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10561
+#: src/edit/editor.py:10571
 msgid "Set _Temporary Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10564
+#: src/edit/editor.py:10574
 msgid "_Enable Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10565
+#: src/edit/editor.py:10575
 msgid "_Disable Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10570
+#: src/edit/editor.py:10580
 msgid "Disable _All Breakpoints"
 msgstr ""
 
-#: src/edit/editor.py:10574
+#: src/edit/editor.py:10584
 msgid "Enable _All Breakpoints"
 msgstr ""
 
-#: src/edit/editor.py:10577
+#: src/edit/editor.py:10587
 msgid "_Ignore Breakpoint"
 msgstr ""
 
-#: src/edit/editor.py:10582
+#: src/edit/editor.py:10592
 msgid "_Remove All Breakpoints"
 msgstr ""
 
-#: src/edit/editor.py:10594
+#: src/edit/editor.py:10604
 msgid "_Toggle Fold"
 msgstr ""
 
-#: src/edit/editor.py:10595
+#: src/edit/editor.py:10605
 msgid "_Collapse More"
 msgstr ""
 
-#: src/edit/editor.py:10596
+#: src/edit/editor.py:10606
 msgid "E_xpand More"
 msgstr ""
 
-#: src/edit/editor.py:10597
+#: src/edit/editor.py:10607
 msgid "Colla_pse Completely"
 msgstr ""
 
-#: src/edit/editor.py:10598
+#: src/edit/editor.py:10608
 msgid "Expand C_ompletely"
 msgstr ""
 
-#: src/edit/editor.py:10600
+#: src/edit/editor.py:10610
 msgid "Collapse A_ll Folds"
 msgstr ""
 
-#: src/edit/editor.py:10601
+#: src/edit/editor.py:10611
 msgid "Expand _All"
 msgstr ""
 
-#: src/edit/editor.py:10603
+#: src/edit/editor.py:10613
 msgid "Fold Python _Methods"
 msgstr ""
 
-#: src/edit/editor.py:10604
+#: src/edit/editor.py:10614
 msgid "Fold Python _Classes"
 msgstr ""
 
-#: src/edit/editor.py:10605
+#: src/edit/editor.py:10615
 msgid "Fold Python Classes and _Defs"
 msgstr ""
 
-#: src/edit/editor.py:10976
+#: src/edit/editor.py:10986
 msgid "Brace match: no match found"
 msgstr ""
 
-#: src/edit/editor.py:10994
+#: src/edit/editor.py:11004
 msgid "Match at line %i: %s"
 msgstr ""
 
-#: src/edit/editor.py:11058
+#: src/edit/editor.py:11068
 msgid " (autosave restore)"
 msgstr ""
 
-#: src/edit/editor.py:11060
+#: src/edit/editor.py:11070
 msgid " (r/o on disk)"
 msgstr ""
 
-#: src/edit/editor.py:11062
+#: src/edit/editor.py:11072
 msgid "(r/o)"
 msgstr ""
 
-#: src/edit/editor.py:11064
+#: src/edit/editor.py:11074
 msgid "(r/p)"
 msgstr ""
 
-#: src/edit/editor.py:11080
+#: src/edit/editor.py:11090
 msgid "INSERT"
 msgstr ""
 
-#: src/edit/editor.py:11084
+#: src/edit/editor.py:11094
 msgid "REPLACE"
 msgstr ""
 
-#: src/edit/editor.py:11091
+#: src/edit/editor.py:11101
 msgid "VISUAL LINE"
 msgstr ""
 
-#: src/edit/editor.py:11093
+#: src/edit/editor.py:11103
 msgid "SELECT LINE"
 msgstr ""
 
-#: src/edit/editor.py:11096
+#: src/edit/editor.py:11106
 msgid "VISUAL BLOCK"
 msgstr ""
 
-#: src/edit/editor.py:11098
+#: src/edit/editor.py:11108
 msgid "SELECT BLOCK"
 msgstr ""
 
-#: src/edit/editor.py:11101
+#: src/edit/editor.py:11111
 msgid "VISUAL"
 msgstr ""
 
-#: src/edit/editor.py:11103
+#: src/edit/editor.py:11113
 msgid "SELECT"
 msgstr ""
 
-#: src/edit/editor.py:11109
+#: src/edit/editor.py:11119
 msgid "[Line Select] "
 msgstr ""
 
-#: src/edit/editor.py:11111
+#: src/edit/editor.py:11121
 msgid "[Block Select] "
 msgstr ""
 
-#: src/edit/editor.py:11113
+#: src/edit/editor.py:11123
 msgid "[Char Select] "
 msgstr ""
 
-#: src/edit/editor.py:11117
+#: src/edit/editor.py:11127
 msgid "Field #%i | "
 msgstr ""
 
-#: src/edit/editor.py:11119
+#: src/edit/editor.py:11129
 msgid "Block Entry | "
 msgstr ""
 
-#: src/edit/editor.py:11148
+#: src/edit/editor.py:11158
 msgid " Col "
 msgstr ""
 
-#: src/edit/editor.py:11150
+#: src/edit/editor.py:11160
 msgid " Cols "
 msgstr ""
 
-#: src/edit/editor.py:12132
+#: src/edit/editor.py:12142
 msgid "Failed to save portions of visual state for %s:"
 msgstr ""
 
-#: src/edit/editor.py:12161
+#: src/edit/editor.py:12171
 msgid "Restoring state after abandoning changes failed"
 msgstr ""
 
-#: src/edit/editor.py:12324
+#: src/edit/editor.py:12334
 msgid "Cannot insert file"
 msgstr ""
 
-#: src/edit/editor.py:12325
+#: src/edit/editor.py:12335
 msgid "The selected file could not be read."
 msgstr ""
 
-#: src/edit/editor.py:12335
+#: src/edit/editor.py:12345
 msgid "Cannot insert binary file"
 msgstr ""
 
-#: src/edit/editor.py:12336
+#: src/edit/editor.py:12346
 msgid "The selected file contains binary data -- insert file operation failed."
 msgstr ""
 
-#: src/edit/editor.py:12394
+#: src/edit/editor.py:12404
 msgid "Cannot decode command output"
 msgstr ""
 
-#: src/edit/editor.py:12395
+#: src/edit/editor.py:12405
 msgid ""
 "The command output's encoding could not be determined -- insert command "
 "operation failed."
 msgstr ""
 
-#: src/edit/editor.py:12400
+#: src/edit/editor.py:12410
 msgid "Cannot insert binary data"
 msgstr ""
 
-#: src/edit/editor.py:12401
+#: src/edit/editor.py:12411
 msgid "The command output binary data -- insert command operation failed."
 msgstr ""
 
-#: src/edit/editor.py:12443
+#: src/edit/editor.py:12453
 msgid "Failed to Execute Command"
 msgstr ""
 
-#: src/edit/editor.py:12444
+#: src/edit/editor.py:12454
 msgid ""
 "The command %s failed err=%s, status=%s -- insert command operation failed."
 msgstr ""
 
-#: src/edit/editor.py:12458
+#: src/edit/editor.py:12468
 msgid "Command Timed Out"
 msgstr ""
 
-#: src/edit/editor.py:12459
+#: src/edit/editor.py:12469
 msgid "The command %s timed out -- insert command operation failed."
 msgstr ""
 
-#: src/edit/editor.py:12495
+#: src/edit/editor.py:12505
 msgid "Invalid line range (start after end)"
 msgstr ""
 
-#: src/edit/editor.py:12498
+#: src/edit/editor.py:12508
 msgid "Target cannot be within the range"
 msgstr ""
 
-#: src/edit/editor.py:12501
+#: src/edit/editor.py:12511
 msgid "Start line is outside of the file"
 msgstr ""
 
-#: src/edit/editor.py:12504
+#: src/edit/editor.py:12514
 msgid "End line is outside of the file"
 msgstr ""
 
-#: src/edit/editor.py:12507
+#: src/edit/editor.py:12517
 msgid "Target line is outside of the file"
 msgstr ""
 
-#: src/edit/editor.py:12693
+#: src/edit/editor.py:12703
 msgid "Disk file is newer"
 msgstr ""
 
-#: src/edit/editor.py:12712
+#: src/edit/editor.py:12722
 msgid ""
 "This file is newer on disk.  Do you want to edit anyway, cancel your edit, "
 "or abandon your changes and re-read from disk? "
 msgstr ""
 
-#: src/edit/editor.py:12717
+#: src/edit/editor.py:12727
 msgid "Con_figure Reloading"
 msgstr ""
 
-#: src/edit/editor.py:12721
+#: src/edit/editor.py:12731
 msgid "Com_pare to Disk"
 msgstr ""
 
-#: src/edit/editor.py:12722
+#: src/edit/editor.py:12732
 msgid "_Edit Anyway"
 msgstr ""
 
-#: src/edit/editor.py:12723
+#: src/edit/editor.py:12733
 msgid "_Cancel Edit"
 msgstr ""
 
-#: src/edit/editor.py:12724
+#: src/edit/editor.py:12734
 msgid "_Reread from Disk"
 msgstr ""
 
-#: src/edit/editor.py:13038
+#: src/edit/editor.py:13048
 msgid "Invalid text object specification: %s"
 msgstr ""
 
-#: src/edit/editor.py:16881 src/edit/editor.py:17072
+#: src/edit/editor.py:16891 src/edit/editor.py:17082
 msgid "  1 Selection"
 msgstr ""
 
-#: src/edit/editor.py:16899
+#: src/edit/editor.py:16909
 msgid "Selections"
 msgstr ""
 
-#: src/edit/editor.py:17070
+#: src/edit/editor.py:17080
 msgid "  Rectangle Selection"
 msgstr ""
 
-#: src/edit/editor.py:17074
+#: src/edit/editor.py:17084
 msgid "  {} Selections"
 msgstr ""
 
@@ -2301,7 +2318,7 @@ msgstr ""
 msgid "_Python files"
 msgstr ""
 
-#: src/edit/manager.py:891
+#: src/edit/manager.py:957
 msgid "VI Mode Registers"
 msgstr ""
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:22GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -224,7 +224,9 @@ msgid ""
 "  * autopep8 by Hideo Hattori, Steven Myint, Bill Wendling, and "
 "contributors.\n"
 "  \n"
-"  * Icons from Crystal Clear by Everaldo and Tulliana-1.0 by M. Umut Pulat.\n"
+"  * Pygments by Georg Brandl, Armin Ronacher, Tim Hatch, and contributors.\n"
+"  \n"
+"  * getmac by Christopher Goes and contributors.\n"
 "  \n"
 "  * Positronic, Cherry Blossom, and Sun Steel color palettes by Daniel "
 "Hill.\n"
@@ -856,148 +858,144 @@ msgid ""
 msgstr ""
 
 #: src/mainprefs.py:732
+msgid "Automatically set scale factor based on screen dpi."
+msgstr ""
+
+#: src/mainprefs.py:737
 msgid ""
 "Whether to suggest per-screen scale factors at startup, based on inspection "
 "of font size on each attached display."
 msgstr ""
 
-#: src/mainprefs.py:738
+#: src/mainprefs.py:743
 msgid "Used internally to remember the most recently used dark mode"
 msgstr ""
 
-#: src/mainprefs.py:743
+#: src/mainprefs.py:748
 msgid "Used internally to select the most recently used light mode."
 msgstr ""
 
-#: src/premain.py:45
-msgid "Warning: A filename must follow the --prefs-file option"
-msgstr ""
-
-#: src/premain.py:49
-msgid "Warning: A prefs filename cannot begin with \"--\""
-msgstr ""
-
-#: src/premain.py:277
+#: src/premain.py:250
 msgid "alpha"
 msgstr ""
 
-#: src/premain.py:279
+#: src/premain.py:252
 msgid "beta"
 msgstr ""
 
-#: src/premain.py:281
+#: src/premain.py:254
 msgid "release candidate"
 msgstr ""
 
-#: src/premain.py:286
+#: src/premain.py:259
 msgid "Version %s.%s%s: "
 msgstr ""
 
-#: src/premain.py:597
+#: src/premain.py:570
 msgid "Top-level Commands"
 msgstr ""
 
-#: src/premain.py:599
+#: src/premain.py:572
 msgid "Project Manager Commands"
 msgstr ""
 
-#: src/premain.py:601
+#: src/premain.py:574
 msgid "Editor Commands"
 msgstr ""
 
-#: src/premain.py:603
+#: src/premain.py:576
 msgid "Search Manager Commands"
 msgstr ""
 
-#: src/premain.py:605
+#: src/premain.py:578
 msgid "Unit Testing Commands"
 msgstr ""
 
-#: src/premain.py:608
+#: src/premain.py:581
 msgid "Version Control Commands"
 msgstr ""
 
-#: src/premain.py:611
+#: src/premain.py:584
 msgid "Debugger Commands"
 msgstr ""
 
-#: src/premain.py:613
+#: src/premain.py:586
 msgid "Refactoring Commands"
 msgstr ""
 
-#: src/premain.py:616
+#: src/premain.py:589
 msgid "Source Browser Commands"
 msgstr ""
 
-#: src/premain.py:619
+#: src/premain.py:592
 msgid "Script-provided Add-on Commands"
 msgstr ""
 
-#: src/premain.py:651 src/premain.py:751
+#: src/premain.py:624 src/premain.py:724
 msgid "OS X"
 msgstr ""
 
-#: src/premain.py:754
+#: src/premain.py:727
 msgid "XCode"
 msgstr ""
 
-#: src/premain.py:855
+#: src/premain.py:828
 msgid "Preferences Dialog Path"
 msgstr ""
 
-#: src/premain.py:857
+#: src/premain.py:830
 msgid "Internal Name"
 msgstr ""
 
-#: src/premain.py:858
+#: src/premain.py:831
 msgid "Data Specification"
 msgstr ""
 
-#: src/premain.py:862
+#: src/premain.py:835
 msgid "Default Value"
 msgstr ""
 
-#: src/premain.py:888
+#: src/premain.py:861
 msgid "Core Preferences"
 msgstr ""
 
-#: src/premain.py:889
+#: src/premain.py:862
 msgid "User Interface Preferences"
 msgstr ""
 
-#: src/premain.py:890
+#: src/premain.py:863
 msgid "Editor Preferences"
 msgstr ""
 
-#: src/premain.py:894
+#: src/premain.py:867
 msgid "Diff/Merge Preferences"
 msgstr ""
 
-#: src/premain.py:897
+#: src/premain.py:870
 msgid "Project Manager Preferences"
 msgstr ""
 
-#: src/premain.py:898
+#: src/premain.py:871
 msgid "Debugger Preferences"
 msgstr ""
 
-#: src/premain.py:899
+#: src/premain.py:872
 msgid "Source Analysis Preferences"
 msgstr ""
 
-#: src/premain.py:903
+#: src/premain.py:876
 msgid "Code Warnings Preferences"
 msgstr ""
 
-#: src/premain.py:906
+#: src/premain.py:879
 msgid "Source Browser Preferences"
 msgstr ""
 
-#: src/premain.py:908
+#: src/premain.py:881
 msgid "Version Control Preferences"
 msgstr ""
 
-#: src/premain.py:910
+#: src/premain.py:883
 msgid "Internal Preferences"
 msgstr ""
 
@@ -1013,15 +1011,15 @@ msgstr ""
 msgid "Wing"
 msgstr ""
 
-#: src/startwing.py:584
+#: src/startwing.py:676
 msgid "Use console_%s to print a diagnostic log while running."
 msgstr ""
 
-#: src/startwing.py:587
+#: src/startwing.py:679
 msgid "--verbose                  Print a diagnostic log while running"
 msgstr ""
 
-#: src/startwing.py:590
+#: src/startwing.py:682
 msgid ""
 "Wing %(product)s Command Line Usage:\n"
 "\n"
@@ -1056,6 +1054,6 @@ msgid ""
 "For details see https://wingware.com/doc/install/command-line-usage  \n"
 msgstr ""
 
-#: src/startwing.py:970
+#: src/startwing.py:1064
 msgid "Fatal startup error:  Exiting Wing"
 msgstr ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:24GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -42,19 +42,19 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: src/proj/anastats.py:157
+#: src/proj/anastats.py:158
 msgid "Python Environment"
 msgstr ""
 
-#: src/proj/anastats.py:188
+#: src/proj/anastats.py:189
 msgid "<untitled>"
 msgstr ""
 
-#: src/proj/anastats.py:202
+#: src/proj/anastats.py:203
 msgid "<not found>"
 msgstr ""
 
-#: src/proj/anastats.py:213
+#: src/proj/anastats.py:214
 msgid ""
 "\n"
 "These settings are being determined by the configured environment for the "
@@ -62,7 +62,7 @@ msgid ""
 "\"%s\".  Use the button below to alter settings for that named entry point.\n"
 msgstr ""
 
-#: src/proj/anastats.py:216
+#: src/proj/anastats.py:217
 msgid ""
 "\n"
 "These settings are being determined by the configured environment for the "
@@ -70,7 +70,7 @@ msgid ""
 "%s.  Use the button below to alter settings for that file.\n"
 msgstr ""
 
-#: src/proj/anastats.py:219
+#: src/proj/anastats.py:220
 msgid ""
 "\n"
 "Since no main entry point is defined, these settings are being determined by "
@@ -399,246 +399,254 @@ msgstr ""
 msgid "List Files Before Directories"
 msgstr ""
 
-#: src/proj/cap_panel.py:197
-msgid "Project: %s%s [%i files / %i dirs]"
-msgstr ""
-
-#: src/proj/cap_panel.py:219
-msgid "Project"
-msgstr ""
-
-#: src/proj/cap_panel.py:225
-msgid "Project Manager"
-msgstr ""
-
-#: src/proj/cap_panel.py:385
-msgid "Project: <none>"
-msgstr ""
-
-#: src/proj/cap_panel.py:387
-msgid "Project: %s"
-msgstr ""
-
-#: src/proj/cap_panel.py:425 src/proj/cap_panel.py:437
-msgid "Project panel state"
-msgstr ""
-
-#: src/proj/cap_panel.py:456
-msgid "Directory P_roperties..."
-msgstr ""
-
-#: src/proj/cap_panel.py:464
-msgid "File P_roperties..."
-msgstr ""
-
-#: src/proj/cap_panel.py:481
-msgid "_Copy Filenames"
-msgstr ""
-
-#: src/proj/cap_panel.py:488
-msgid "Show in Explorer"
-msgstr ""
-
-#: src/proj/cap_panel.py:490
-msgid "Show in Finder"
-msgstr ""
-
-#: src/proj/cap_panel.py:492
-msgid "Show Directory"
-msgstr ""
-
-#: src/proj/cap_panel.py:494
-msgid "Open in External _Viewer"
-msgstr ""
-
-#: src/proj/cap_panel.py:495
-msgid "_Search in Selected"
-msgstr ""
-
-#: src/proj/cap_panel.py:498
-msgid "_Name Selected File Set..."
-msgstr ""
-
-#: src/proj/cap_panel.py:503
-msgid "_Debug Selected"
-msgstr ""
-
-#: src/proj/cap_panel.py:506
-msgid "E_xecute Selected"
-msgstr ""
-
-#: src/proj/cap_panel.py:509
-msgid "Set As Main Entry _Point"
-msgstr ""
-
-#: src/proj/cap_panel.py:511
-msgid "Clear Main Entry _Point"
-msgstr ""
-
-#: src/proj/cap_panel.py:530
-msgid "Re_move/Exclude From Project"
-msgstr ""
-
-#: src/proj/cap_panel.py:532
-msgid "_Add Existing File..."
-msgstr ""
-
-#: src/proj/cap_panel.py:533
-msgid "Add Existing D_irectory..."
-msgstr ""
-
-#: src/proj/cap_panel.py:535
-msgid "Res_can Directory"
-msgstr ""
-
-#: src/proj/cap_panel.py:542
-msgid "Dele_te"
-msgstr ""
-
-#: src/proj/cap_panel.py:544
-msgid "Move To _Trash"
-msgstr ""
-
-#: src/proj/cap_panel.py:551
-msgid "Renam_e..."
-msgstr ""
-
-#: src/proj/cap_panel.py:553
-msgid "_Create New File..."
-msgstr ""
-
-#: src/proj/cap_panel.py:554
-msgid "Create Ne_w Directory..."
-msgstr ""
-
-#: src/proj/cap_panel.py:555
-msgid "Create Ne_w Package..."
-msgstr ""
-
-#: src/proj/cap_panel.py:560
+#: src/proj/cap_panel.py:152
 msgid "Show Project _Documentation"
 msgstr ""
 
+#: src/proj/cap_panel.py:202
+msgid "Project: %s%s [%i files / %i dirs]"
+msgstr ""
+
+#: src/proj/cap_panel.py:224
+msgid "Project"
+msgstr ""
+
+#: src/proj/cap_panel.py:230
+msgid "Project Manager"
+msgstr ""
+
+#: src/proj/cap_panel.py:390
+msgid "Project: <none>"
+msgstr ""
+
+#: src/proj/cap_panel.py:392
+msgid "Project: %s"
+msgstr ""
+
+#: src/proj/cap_panel.py:430 src/proj/cap_panel.py:442
+msgid "Project panel state"
+msgstr ""
+
+#: src/proj/cap_panel.py:464
+msgid "Directory P_roperties..."
+msgstr ""
+
+#: src/proj/cap_panel.py:472
+msgid "File P_roperties..."
+msgstr ""
+
+#: src/proj/cap_panel.py:490 src/proj/cap_panel.py:492
+msgid "Open File"
+msgstr ""
+
+#: src/proj/cap_panel.py:494
+msgid "Open Files"
+msgstr ""
+
+#: src/proj/cap_panel.py:499
+msgid "_Copy Filenames"
+msgstr ""
+
+#: src/proj/cap_panel.py:506
+msgid "Show in Explorer"
+msgstr ""
+
+#: src/proj/cap_panel.py:508
+msgid "Show in Finder"
+msgstr ""
+
+#: src/proj/cap_panel.py:510
+msgid "Show Directory"
+msgstr ""
+
+#: src/proj/cap_panel.py:512
+msgid "Open in External _Viewer"
+msgstr ""
+
+#: src/proj/cap_panel.py:513
+msgid "_Search in Selected"
+msgstr ""
+
+#: src/proj/cap_panel.py:516
+msgid "_Name Selected File Set..."
+msgstr ""
+
+#: src/proj/cap_panel.py:521
+msgid "_Debug Selected"
+msgstr ""
+
+#: src/proj/cap_panel.py:524
+msgid "E_xecute Selected"
+msgstr ""
+
+#: src/proj/cap_panel.py:527
+msgid "Set As Main Entry _Point"
+msgstr ""
+
+#: src/proj/cap_panel.py:529
+msgid "Clear Main Entry _Point"
+msgstr ""
+
+#: src/proj/cap_panel.py:548
+msgid "Re_move/Exclude From Project"
+msgstr ""
+
+#: src/proj/cap_panel.py:550
+msgid "_Add Existing File..."
+msgstr ""
+
+#: src/proj/cap_panel.py:551
+msgid "Add Existing D_irectory..."
+msgstr ""
+
+#: src/proj/cap_panel.py:553
+msgid "Res_can Directory"
+msgstr ""
+
+#: src/proj/cap_panel.py:560
+msgid "Dele_te"
+msgstr ""
+
 #: src/proj/cap_panel.py:562
+msgid "Move To _Trash"
+msgstr ""
+
+#: src/proj/cap_panel.py:569
+msgid "Renam_e..."
+msgstr ""
+
+#: src/proj/cap_panel.py:571
+msgid "_Create New File..."
+msgstr ""
+
+#: src/proj/cap_panel.py:572
+msgid "Create Ne_w Directory..."
+msgstr ""
+
+#: src/proj/cap_panel.py:573
+msgid "Create Ne_w Package..."
+msgstr ""
+
+#: src/proj/cap_panel.py:579
 msgid "Configure Menu..."
 msgstr ""
 
-#: src/proj/cap_panel.py:588
+#: src/proj/cap_panel.py:605
 msgid "Project File"
 msgstr ""
 
-#: src/proj/cap_panel.py:609
+#: src/proj/cap_panel.py:627
 msgid "New name for the directory"
 msgstr ""
 
-#: src/proj/cap_panel.py:610
+#: src/proj/cap_panel.py:628
 msgid "New Directory Name"
 msgstr ""
 
-#: src/proj/cap_panel.py:612
+#: src/proj/cap_panel.py:630
 msgid "New name for the file"
 msgstr ""
 
-#: src/proj/cap_panel.py:613
+#: src/proj/cap_panel.py:631
 msgid "New File Name"
 msgstr ""
 
-#: src/proj/cap_panel.py:884
+#: src/proj/cap_panel.py:899
 msgid "Move to Trash Failed"
 msgstr ""
 
-#: src/proj/cap_panel.py:885
+#: src/proj/cap_panel.py:900
 msgid "The following items could not be moved to the trash:"
 msgstr ""
 
-#: src/proj/cap_panel.py:891 src/proj/manager.py:635 src/proj/manager.py:1207
+#: src/proj/cap_panel.py:906 src/proj/manager.py:635 src/proj/manager.py:1207
 #: src/proj/newproject.py:543 src/proj/newproject.py:776
 #: src/proj/newproject.py:1191 src/proj/project.py:1796
 #: src/proj/properties.py:3361
 msgid "_OK"
 msgstr ""
 
-#: src/proj/cap_panel.py:902
+#: src/proj/cap_panel.py:917
 msgid "Recycle Selected Files and Directories?"
 msgstr ""
 
-#: src/proj/cap_panel.py:903
+#: src/proj/cap_panel.py:918
 msgid ""
 "Are you sure you want to move the selected files, directories, and all "
 "contents of the directories to the recycling bin?"
 msgstr ""
 
-#: src/proj/cap_panel.py:904
+#: src/proj/cap_panel.py:919
 msgid "_Recycle Selected Files and Directories"
 msgstr ""
 
-#: src/proj/cap_panel.py:906
+#: src/proj/cap_panel.py:921
 msgid "Move Selected Files and Directories to Trash?"
 msgstr ""
 
-#: src/proj/cap_panel.py:907
+#: src/proj/cap_panel.py:922
 msgid ""
 "Are you sure you want to move the selected files, directories, and all "
 "contents of the directories to the trash?"
 msgstr ""
 
-#: src/proj/cap_panel.py:908
+#: src/proj/cap_panel.py:923
 msgid "_Move Selected Files and Directories to Trash"
 msgstr ""
 
-#: src/proj/cap_panel.py:911
+#: src/proj/cap_panel.py:926
 msgid "Recycle Selected Files?"
 msgstr ""
 
-#: src/proj/cap_panel.py:912
+#: src/proj/cap_panel.py:927
 msgid "Are you sure you want to move the selected files to the recycling bin?"
 msgstr ""
 
-#: src/proj/cap_panel.py:913
+#: src/proj/cap_panel.py:928
 msgid "_Recycle Selected Files"
 msgstr ""
 
-#: src/proj/cap_panel.py:915
+#: src/proj/cap_panel.py:930
 msgid "Move Selected Files to Trash?"
 msgstr ""
 
-#: src/proj/cap_panel.py:916
+#: src/proj/cap_panel.py:931
 msgid "Are you sure you want to move the selected files to the trash?"
 msgstr ""
 
-#: src/proj/cap_panel.py:917
+#: src/proj/cap_panel.py:932
 msgid "_Move Selected Files to Trash"
 msgstr ""
 
-#: src/proj/cap_panel.py:920
+#: src/proj/cap_panel.py:935
 msgid "Recycle Selected Directories?"
 msgstr ""
 
-#: src/proj/cap_panel.py:921
+#: src/proj/cap_panel.py:936
 msgid ""
 "Are you sure you want to move the selected directories and all files within "
 "them to the recycling bin?"
 msgstr ""
 
-#: src/proj/cap_panel.py:922
+#: src/proj/cap_panel.py:937
 msgid "_Recycle Selected Directories"
 msgstr ""
 
-#: src/proj/cap_panel.py:924
+#: src/proj/cap_panel.py:939
 msgid "Move Selected Directories to Trash?"
 msgstr ""
 
-#: src/proj/cap_panel.py:925
+#: src/proj/cap_panel.py:940
 msgid ""
 "Are you sure you want to move the selected directories and all files within "
 "them to the trash?"
 msgstr ""
 
-#: src/proj/cap_panel.py:926
+#: src/proj/cap_panel.py:941
 msgid "_Move Selected Directories to Trash"
 msgstr ""
 
-#: src/proj/cap_panel.py:932 src/proj/manager.py:437 src/proj/manager.py:1896
+#: src/proj/cap_panel.py:947 src/proj/manager.py:437 src/proj/manager.py:1896
 #: src/proj/manager.py:1929 src/proj/newproject.py:1192
 #: src/proj/newproject.py:1581 src/proj/properties.py:2191
 #: src/proj/properties.py:2290 src/proj/properties.py:2612
@@ -655,40 +663,40 @@ msgstr ""
 msgid "Failed to write parts of the user branch of the project file: "
 msgstr ""
 
-#: src/proj/cap_treepanel.py:604
+#: src/proj/cap_treepanel.py:609
 msgid "Move Selected Files?"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:605
+#: src/proj/cap_treepanel.py:610
 msgid "Are you sure you want to move the following items to %s ?"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:608
+#: src/proj/cap_treepanel.py:613
 msgid "Copy Selected Files?"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:609
+#: src/proj/cap_treepanel.py:614
 msgid "Are you sure you want to copy the following items to %s ?"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:615 src/proj/newproject.py:1315
+#: src/proj/cap_treepanel.py:620 src/proj/newproject.py:1315
 #: src/proj/properties.py:616
 msgid "OK"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:616
+#: src/proj/cap_treepanel.py:621
 msgid "Cancel"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:621
+#: src/proj/cap_treepanel.py:626
 msgid "_Don't show this dialog again"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:655 src/proj/cap_treepanel.py:656
+#: src/proj/cap_treepanel.py:660 src/proj/cap_treepanel.py:661
 msgid "main entry point"
 msgstr ""
 
-#: src/proj/cap_treepanel.py:693
+#: src/proj/cap_treepanel.py:698
 msgid ". (project home directory)"
 msgstr ""
 
