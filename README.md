@@ -63,7 +63,7 @@ up in the UI:
 	scripts_emacs_extensions.po
 	scripts_experimental.po
 	scripts_pylintpanel.po
-    scripts_brief.po
+	scripts_brief.po
 
 
 These contain strings that are mostly the docstrings for commands.  They are currently
@@ -90,9 +90,9 @@ These are currently unused or only contain error strings and can be entirely ski
 	
 	scripts_testapi.po
 	src_profile.po
-    src_docutils_*.po
-    src_external_*.po
-    src_parsetools.po
+	src_docutils_*.po
+	src_external_*.po
+	src_parsetools.po
 
 
 Starting a New Translation

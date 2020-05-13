@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_command\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 10:17+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2018-03-16 21:14+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,136 +17,136 @@ msgstr ""
 "X-Loco-Project-Id: 44280\n"
 "X-Loco-Api-Version: 1.0.18 20180307-1\n"
 
-#: src/command/argentry.py:150
+#: src/command/argentry.py:152
 msgid "Cannot execute %s: incorrect value for %s"
 msgstr "Невозможно выполнить %s: неверное значение для %s"
 
-#: src/command/commandmgr.py:150
+#: src/command/commandmgr.py:154
 msgid "%sarginfo[%s].doc not valid.  Using None."
 msgstr "%sarginfo[%s].doc недействительно.  Использовано None."
 
-#: src/command/commandmgr.py:157
+#: src/command/commandmgr.py:161
 msgid "%sarginfo[%s].type not valid.  Treating arg as small string."
 msgstr ""
 "%sarginfo[%s].type недействительно. Обработка arg как маленькая строка."
 
-#: src/command/commandmgr.py:164
+#: src/command/commandmgr.py:168
 msgid "%sarginfo[%s].formlet not valid.  Treating arg as small string."
 msgstr ""
 "%sarginfo[%s].formlet недействительно. Обработка arg как маленькая строка."
 
-#: src/command/commandmgr.py:197
+#: src/command/commandmgr.py:201
 msgid "Callable %s.arginfo[%s].%s failed.  Using default."
 msgstr ""
 "Вызов %s.arginfo[%s].%s неудачный.  Будет использовано значение по умолчанию."
 
-#: src/command/commandmgr.py:406
+#: src/command/commandmgr.py:413
 msgid "Command name is not a string"
 msgstr "Имя команды не является строкой"
 
-#: src/command/commandmgr.py:409
+#: src/command/commandmgr.py:416
 msgid "Command doc is not a None, string, or callable"
 msgstr "Документация Команды не является  строкой или вызовом"
 
-#: src/command/commandmgr.py:413
+#: src/command/commandmgr.py:420
 msgid "Command label is not a string or callable"
 msgstr "Метка команды не является строкой или вызовом"
 
-#: src/command/commandmgr.py:489
+#: src/command/commandmgr.py:496
 msgid "%sarginfo not dict or callable.  Using short string args."
 msgstr "%sarginfo не dict или вызов.  Использование коротких строк args."
 
-#: src/command/commandmgr.py:501
+#: src/command/commandmgr.py:508
 msgid "%sarginfo[%s]: %s not an arg name."
 msgstr "%sarginfo[%s]: %s не имя arg."
 
-#: src/command/commandmgr.py:510
+#: src/command/commandmgr.py:517
 msgid "%sarginfo[%s] not CArgInfo or callable"
 msgstr "%sarginfo[%s] не является CArgInfo или вызовом"
 
-#: src/command/commandmgr.py:519
+#: src/command/commandmgr.py:526
 msgid "%sarginfo[%s]: exception inspecting value"
 msgstr "%sarginfo[%s]: исключение при проверке значения"
 
-#: src/command/commandmgr.py:531
+#: src/command/commandmgr.py:538
 msgid "%sarginfo for %s not found.  Using short string."
 msgstr "%sarginfo для %s не найдено. Используя короткую строку."
 
-#: src/command/commandmgr.py:769
+#: src/command/commandmgr.py:776
 msgid "Error executing %s.available()"
 msgstr "Ошибка выполнения %s.available()"
 
-#: src/command/commandmgr.py:795 src/command/commandmgr.py:810
+#: src/command/commandmgr.py:802 src/command/commandmgr.py:817
 msgid "Tried to execute unavailable command %s"
 msgstr "Попытка выполнить недоступную команду %s"
 
-#: src/command/commandmgr.py:827
+#: src/command/commandmgr.py:834
 msgid "Error obtaining args for script %s"
 msgstr "Ошибка получения аргументов для скрипта %s"
 
-#: src/command/commandmgr.py:830
+#: src/command/commandmgr.py:837
 msgid "Error obtaining args for command %s"
 msgstr "Ошибка получения аргументов для команды %s"
 
-#: src/command/commandmgr.py:867
+#: src/command/commandmgr.py:874
 msgid "Error executing script %s"
 msgstr "Ошибка при выполнении скрипта %s"
 
-#: src/command/commandmgr.py:870
+#: src/command/commandmgr.py:877
 msgid "Error executing command %s"
 msgstr "Ошибка выполнения команды %s"
 
-#: src/command/commandmgr.py:944
+#: src/command/commandmgr.py:951
 msgid "Callable %s.arginfo raised an exception"
 msgstr "Вызываемый %s.arginfo вызвал исключение"
 
-#: src/command/commandmgr.py:951
+#: src/command/commandmgr.py:958
 msgid ""
 "Callable %s.arginfo returned invalid arginfo; treating args as short string"
 msgstr ""
 "Вызов % s.arginfo возвращает недопустимый arginfo; обработка аргументов как "
 "короткой строки"
 
-#: src/command/commandmgr.py:972
+#: src/command/commandmgr.py:979
 msgid "Default "
 msgstr "По умолчанию"
 
-#: src/command/commandmgr.py:975
+#: src/command/commandmgr.py:982
 msgid "%s: Callable default arginfo failed"
 msgstr "%s: Вызываемый по умолчанию arginfo не выполнен"
 
-#: src/command/commandmgr.py:993
+#: src/command/commandmgr.py:1000
 msgid "Callable %s.arginfo[%s] failed; treating arg as short string"
 msgstr "Вызов %s.arginfo [% s] не удался; обработка arg как короткая строка"
 
-#: src/command/commandmgr.py:1027
+#: src/command/commandmgr.py:1034
 msgid "Callable %s.label failed; using label derived from command name"
 msgstr ""
 "Вызов  %s.label ошибка; использование метки, производной от имени команды"
 
-#: src/command/commandmgr.py:1032
+#: src/command/commandmgr.py:1039
 msgid ""
 "Callable %s.label returned non-string; using label derived from command name"
 msgstr ""
 "Вызов %s.label вернул не-строку; использование метки, полученной из имени "
 "команды"
 
-#: src/command/commandmgr.py:1066
+#: src/command/commandmgr.py:1073
 msgid "Callable %s.doc failed; using ''"
 msgstr "Вызов %s.doc вернул ошибку; использование ''"
 
-#: src/command/commandmgr.py:1071
+#: src/command/commandmgr.py:1078
 msgid "Callable %s.doc returned non-string; using ''"
 msgstr "Вызов %s.doc вернул не строку; использование ''"
 
-#: src/command/commandmgr.py:1102
+#: src/command/commandmgr.py:1109
 msgid "Callable %s.flags returned non-dict; using {}"
 msgstr "Вызов %s.flags вернул non-dict; использование {}"
 
-#: src/command/commandmgr.py:1424
+#: src/command/commandmgr.py:1431
 msgid "* Error(s) loading %s.%s.%s:"
 msgstr "* Ошибка(и) загрузки %s.%s.%s:"
 
-#: src/command/commandmgr.py:1433
+#: src/command/commandmgr.py:1440
 msgid "Exception while loading %s.%s.%s"
 msgstr "Исключение при загрузке %s.%s.%s"

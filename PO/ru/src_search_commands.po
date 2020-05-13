@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_search_commands\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 10:01+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2018-03-16 16:27+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Loco-Project-Id: 44277\n"
 "X-Loco-Api-Version: 1.0.18 20180307-1\n"
 
-#: src/search/commands.py:38
+#: src/search/commands.py:46
 msgid ""
 "Globally available commands defined for the search manager.  These\n"
 "  commands are available regardless of whether a search manager is visible\n"
@@ -27,16 +27,16 @@ msgstr ""
 "  команды доступны независимо от того, является ли диспетчер поиска\n"
 "  видимым или имеет фокус клавиатуры."
 
-#: src/search/commands.py:51 src/search/commands.py:223
-#: src/search/commands.py:243
+#: src/search/commands.py:59 src/search/commands.py:231
+#: src/search/commands.py:251
 msgid " Bring up the search manager in search mode. "
 msgstr " Вызовите менеджер поиска в режиме поиска. "
 
-#: src/search/commands.py:56
+#: src/search/commands.py:64
 msgid " Search again using the search manager's current settings. "
 msgstr " Выполните поиск снова, используя текущие настройки менеджера поиска. "
 
-#: src/search/commands.py:82
+#: src/search/commands.py:90
 msgid ""
 " Search again using the search manager's current settings\n"
 "    in forward direction "
@@ -44,7 +44,7 @@ msgstr ""
 " Выполните поиск снова, используя текущие настройки\n"
 "    менеджера поиска в прямом направлении "
 
-#: src/search/commands.py:90
+#: src/search/commands.py:98
 msgid ""
 " Search again using the search manager's current settings\n"
 "    in backward direction "
@@ -52,19 +52,19 @@ msgstr ""
 " Выполните поиск снова, используя текущие настройки\n"
 "    менеджера поиска в обратном направлении "
 
-#: src/search/commands.py:97
+#: src/search/commands.py:105
 msgid " Bring up the search manager in replace mode. "
 msgstr " Вызовите диспетчер поиска в режиме замены. "
 
-#: src/search/commands.py:102
+#: src/search/commands.py:110
 msgid " Replace current selection with the search manager. "
 msgstr " Заменить текущий выбор менеджером поиска. "
 
-#: src/search/commands.py:119
+#: src/search/commands.py:127
 msgid " Replace current selection and search again. "
 msgstr " Замените текущее выделение и выполните поиск снова. "
 
-#: src/search/commands.py:135
+#: src/search/commands.py:143
 msgid ""
 " Find view: one in the active document window is preferred and then one in "
 "a\n"
@@ -75,19 +75,19 @@ msgstr ""
 "     а затем один в плавающем окне.  Если 2 + удовлетворяют критериям,\n"
 "     возвращается последнее использованное для поиска "
 
-#: src/search/commands.py:209
+#: src/search/commands.py:217
 msgid " Get initial text to put in search field. "
 msgstr " Получить исходный текст, чтобы положить в поле поиска. "
 
-#: src/search/commands.py:294 src/search/commands.py:304
+#: src/search/commands.py:302 src/search/commands.py:312
 msgid " Search forward using current selection "
 msgstr " Поиск вперед с использованием текущего выделения "
 
-#: src/search/commands.py:310
+#: src/search/commands.py:318
 msgid " Search backward using current selection "
 msgstr " Поиск назад с использованием текущего выделения "
 
-#: src/search/commands.py:316
+#: src/search/commands.py:324
 msgid ""
 " Search on current selection using the Search in Files tool. The look_in "
 "argument gets\n"
@@ -106,26 +106,26 @@ msgstr ""
 "поиска,\n"
 "    если он указан"
 
-#: src/search/commands.py:327
+#: src/search/commands.py:335
 msgid " Move to the next found match in the Search in Files tool. "
 msgstr ""
 "Перейдите к следующему найденному совпадению в инструменте «Поиск в файлах». "
 
-#: src/search/commands.py:335
+#: src/search/commands.py:343
 msgid " Move to the previous found match in the Search in Files tool. "
 msgstr ""
 "Перейдите к предыдущему найденному совпадению в инструменте «Поиск в "
 "файлах». "
 
-#: src/search/commands.py:343
+#: src/search/commands.py:351
 msgid " Display search and replace in files tool. "
 msgstr " Display search and replace in files tool. "
 
-#: src/search/commands.py:350
+#: src/search/commands.py:358
 msgid " Pause the currently running batch search, if any "
 msgstr " Приостановить текущий пакетный поиск, если таковой имеется "
 
-#: src/search/commands.py:365
+#: src/search/commands.py:373
 msgid ""
 "Commands for a particular search manager instance.  These are only\n"
 "  available when the search manager has they keyboard focus."
@@ -133,7 +133,7 @@ msgstr ""
 "Команды для конкретного экземпляра диспетчера поиска.  Они доступны\n"
 "  только в том случае, если диспетчер поиска находится в фокусе клавиатуры."
 
-#: src/search/commands.py:397
+#: src/search/commands.py:405
 msgid ""
 "Place a forward tab at the current cursor position in search or replace\n"
 "    string"
@@ -141,18 +141,18 @@ msgstr ""
 "Поместите прямую вкладку в текущую позицию курсора в строке\n"
 "    поиска или замены"
 
-#: src/search/commands.py:416
+#: src/search/commands.py:424
 msgid " Cut selected text "
 msgstr "Вырезать выделенный текст "
 
-#: src/search/commands.py:425
+#: src/search/commands.py:433
 msgid " Copy selected text "
 msgstr "Копировать выделенный текст "
 
-#: src/search/commands.py:433
+#: src/search/commands.py:441
 msgid " Clear selected text "
 msgstr " Очистить выделенный текст "
 
-#: src/search/commands.py:441
+#: src/search/commands.py:449
 msgid " Paste text from clipboard "
 msgstr " Вставить текст из буфера обмена "

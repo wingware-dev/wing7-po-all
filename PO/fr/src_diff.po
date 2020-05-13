@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.0\n"
-"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:04+EDT\n"
 "PO-Revision-Date: 2019-05-06 22:38+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
@@ -16,43 +16,39 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#: src/diff/diffpanel.py:52 src/diff/diffpanel.py:134 src/diff/diffpanel.py:187
+#: src/diff/diffpanel.py:46 src/diff/diffpanel.py:128
 msgid "Diff/Merge"
 msgstr "Diff/fusion"
 
-#: src/diff/diffpanel.py:58
+#: src/diff/diffpanel.py:52
 msgid "Difference and Merge"
 msgstr "Différence et fusion"
 
-#: src/diff/diffpanel.py:113 src/diff/manager.py:816
+#: src/diff/diffpanel.py:107 src/diff/manager.py:816
 msgid "Wrapped to diff number %i"
 msgstr "Emballé au numéro de différence %i"
 
-#: src/diff/diffpanel.py:115 src/diff/manager.py:818
+#: src/diff/diffpanel.py:109 src/diff/manager.py:818
 msgid "Displaying diff number %i"
 msgstr "Affiche le numéro de différence %i"
 
-#: src/diff/diffpanel.py:157 src/diff/diffpanel.py:167
+#: src/diff/diffpanel.py:151 src/diff/diffpanel.py:161
 msgid "Diff/merge panel state"
 msgstr "État du panneau Diff/fusion"
 
-#: src/diff/diffpanel.py:180
-msgid "Dummy"
-msgstr "Factice"
-
-#: src/diff/diffutils.py:304
+#: src/diff/diffutils.py:299
 msgid "%s Lines"
 msgstr "%s lignes"
 
-#: src/diff/diffutils.py:306
+#: src/diff/diffutils.py:301
 msgid "Changed"
 msgstr "Modifié"
 
-#: src/diff/manager.py:256
+#: src/diff/manager.py:257
 msgid "Compare Failed"
 msgstr "Comparaison échouée"
 
-#: src/diff/manager.py:257
+#: src/diff/manager.py:258
 #, fuzzy
 msgid ""
 "Compare to repository failed:  You must save changes or revert to disk "
@@ -61,7 +57,7 @@ msgstr ""
 "Comparaison au dépôt échouée : Vous devez enregistrer les modifications ou "
 "revenir sur XXX"
 
-#: src/diff/manager.py:260
+#: src/diff/manager.py:261
 msgid "_OK"
 msgstr "OK"
 
@@ -109,7 +105,7 @@ msgstr "Comparer au répertoire..."
 msgid "Compare to File..."
 msgstr "Comparer au fichier..."
 
-#: src/diff/manager.py:604 src/diff/manager.py:1791 src/diff/manager.py:1850
+#: src/diff/manager.py:604 src/diff/manager.py:1824 src/diff/manager.py:1883
 msgid "There are no differences"
 msgstr "Il n'y a pas de différences"
 
@@ -155,98 +151,98 @@ msgstr "Créer"
 msgid "Ca_ncel Merge"
 msgstr "Annuler la fusion"
 
-#: src/diff/manager.py:1365
+#: src/diff/manager.py:1370
 msgid "Line %s: Changed %s Lines%s"
 msgstr "Ligne %s : %s ligne(s) modifiée(s)%s"
 
-#: src/diff/manager.py:1367
+#: src/diff/manager.py:1372
 msgid "Line %s: Deleted %s Lines%s"
 msgstr "Ligne %s : %s ligne(s) supprimée(s)%s"
 
-#: src/diff/manager.py:1369
+#: src/diff/manager.py:1374
 msgid "Line %s: Inserted %s Lines%s"
 msgstr "Ligne %s : %s ligne(s) Insérée(s)%s"
 
-#: src/diff/manager.py:1379
+#: src/diff/manager.py:1384
 msgid "Terminate Diff/Merge Session"
 msgstr "Terminer la session de Diff/fusion"
 
-#: src/diff/manager.py:1384
+#: src/diff/manager.py:1389
 msgid "Lock Scrolling"
 msgstr "Bloquer le défilement"
 
-#: src/diff/manager.py:1389
+#: src/diff/manager.py:1394
 msgid "Ignore Whitespace"
 msgstr "Ignorer les espaces blancs"
 
-#: src/diff/manager.py:1498 src/diff/manager.py:1542
+#: src/diff/manager.py:1503 src/diff/manager.py:1547
 msgid "Could not open one or both editors"
 msgstr "N'a pas pu ouvrir un ou les deux éditeurs"
 
-#: src/diff/manager.py:1561
+#: src/diff/manager.py:1587
 msgid "Revision"
 msgstr "Révision"
 
-#: src/diff/manager.py:1601 src/diff/manager.py:1605 src/diff/manager.py:2131
+#: src/diff/manager.py:1634 src/diff/manager.py:1638 src/diff/manager.py:2177
 msgid "%s does not exist"
 msgstr "%s n'existe pas"
 
-#: src/diff/manager.py:1603 src/diff/manager.py:1607 src/diff/manager.py:2133
+#: src/diff/manager.py:1636 src/diff/manager.py:1640 src/diff/manager.py:2179
 msgid "%s is not a directory"
 msgstr "%s n'est pas un répertoire"
 
-#: src/diff/manager.py:1877 src/diff/manager.py:1880 src/diff/manager.py:2151
+#: src/diff/manager.py:1910 src/diff/manager.py:1913 src/diff/manager.py:2197
 msgid "%s is not a file"
 msgstr "%s n'est pas un fichier"
 
-#: src/diff/manager.py:1997
+#: src/diff/manager.py:2045
 msgid "Changes"
 msgstr "Modifications"
 
-#: src/diff/manager.py:1997
+#: src/diff/manager.py:2045
 msgid "Filename"
 msgstr "Nom de fichier"
 
-#: src/diff/manager.py:2116 src/diff/manager.py:2359
+#: src/diff/manager.py:2162 src/diff/manager.py:2433
 msgid "Could not find version control system for %s"
 msgstr "N'a pas pu trouver un système de contrôle de version pour %s"
 
-#: src/diff/manager.py:2118
+#: src/diff/manager.py:2164
 msgid "Version control system determination still pending for %s"
 msgstr ""
 "Détermination du système de contrôle de version encore en attente pour %s"
 
-#: src/diff/manager.py:2209
+#: src/diff/manager.py:2255
 msgid "Could not obtain revision information from %s"
 msgstr "N'a pas pu obtenir d'information de révision depuis %s"
 
-#: src/diff/manager.py:2230
+#: src/diff/manager.py:2276
 msgid "No Differences::There are no differences in directory %s"
 msgstr "Pas de différences::Il n'y a pas de différences dans le répertoire %s"
 
-#: src/diff/manager.py:2245
+#: src/diff/manager.py:2291
 msgid ""
 "Remote Inspect Failed::Could not inspect remote files to compute differences"
 msgstr ""
 
-#: src/diff/manager.py:2276
+#: src/diff/manager.py:2322
 msgid "Disk File: %s"
 msgstr "Fichier du disque : %s"
 
-#: src/diff/manager.py:2361
+#: src/diff/manager.py:2435
 msgid "Version control system determination still in progress for %s"
 msgstr ""
 "Détermination du système de contrôle de version encore en progression pour %s"
 
-#: src/diff/manager.py:2370
+#: src/diff/manager.py:2444
 msgid "Fetching revision..."
 msgstr "Apporte la révision..."
 
-#: src/diff/manager.py:2394
+#: src/diff/manager.py:2468
 msgid "Failed to inspect %s"
 msgstr "Échec d'inspection de %s"
 
-#: src/diff/manager.py:2422
+#: src/diff/manager.py:2496
 msgid ""
 "Encoding Error::The encoding of the differences received from the version "
 "control system does not seem to match the file's encoding (%s).  "
@@ -256,27 +252,27 @@ msgstr ""
 "contrôle de révisions ne semble pas correspondre à l'encodage du fichier "
 "(%s). Les caractères non identifiables ont été remplacés avec '?'"
 
-#: src/diff/manager.py:2479
+#: src/diff/manager.py:2553
 msgid "No differences::There are no differences in %s"
 msgstr "Pas de différences::Il n'y a pas de différences dans %s"
 
-#: src/diff/manager.py:2496
+#: src/diff/manager.py:2570
 msgid "%s rev %s -- %s"
 msgstr "%s rev %s -- %s"
 
-#: src/diff/prefs.py:21
+#: src/diff/prefs.py:20
 msgid "Side by Side"
 msgstr "Côte à côte"
 
-#: src/diff/prefs.py:22
+#: src/diff/prefs.py:21
 msgid "Top and Bottom"
 msgstr "Haut et bas"
 
-#: src/diff/prefs.py:26
+#: src/diff/prefs.py:25
 msgid "Orientation of difference/merge views: Side-by-side or top/bottom"
 msgstr "Orientation des vues de différence/fusion : côte a côte ou haut/bas"
 
-#: src/diff/prefs.py:32
+#: src/diff/prefs.py:31
 msgid ""
 "Controls whether scrolling of the diff/merge editors is locked to "
 "synchronize the editor scroll positions."
@@ -284,20 +280,23 @@ msgstr ""
 "Contrôle que le défilement des éditeurs de diff/fusion est verrouillé pour "
 "synchroniser les positions de défilement d'éditeur."
 
-#: src/diff/prefs.py:38
+#: src/diff/prefs.py:37
 msgid ""
 "Controls whether differences will ignore changes that alter white space only."
 msgstr ""
 "Contrôle si les différences ignoreront les modifications qui altèrent "
 "uniquement des espaces blancs."
 
-#: src/diff/prefs.py:43
+#: src/diff/prefs.py:42
 msgid ""
 "Controls whether to warn when changing white space filtering causes sessions "
 "to become empty of changes."
 msgstr ""
 "Contrôle l'avertissement lors du changement du filtrage d'espaces blancs qui "
 "provoque des sessions sans modifications."
+
+#~ msgid "Dummy"
+#~ msgstr "Factice"
 
 #~ msgid "Name"
 #~ msgstr "Nom"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-08-19 07:57+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:01+EDT\n"
 "PO-Revision-Date: 2003-07-10 12:23GMT\n"
 "Last-Translator: \n"
 "Language-Team:  <C@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: KBabel 0.9.5\n"
 
-#: src/edit/commands.py:75
+#: src/edit/commands.py:84
 msgid ""
 "Commands that only apply to editors when they have the keyboard focus.\n"
 "  These commands are also available for the Python Shell, Debug Console, "
@@ -25,27 +25,27 @@ msgid ""
 "  commands are modified or disabled as appropriate in those contexts."
 msgstr ""
 
-#: src/edit/commands.py:98
+#: src/edit/commands.py:107
 msgid " Cut selected text "
 msgstr ""
 
-#: src/edit/commands.py:112
+#: src/edit/commands.py:121
 msgid " Copy selected text "
 msgstr ""
 
-#: src/edit/commands.py:124
+#: src/edit/commands.py:133
 msgid " Clear selected text "
 msgstr ""
 
-#: src/edit/commands.py:136
+#: src/edit/commands.py:145
 msgid " Paste text from clipboard "
 msgstr ""
 
-#: src/edit/commands.py:143
+#: src/edit/commands.py:152
 msgid "Set the register to use for subsequent cut/copy/paste operations"
 msgstr ""
 
-#: src/edit/commands.py:149
+#: src/edit/commands.py:158
 msgid ""
 "Cut or copy a specified number of characters or lines, or the current\n"
 "    selection. Set cut=1 to remove the range of text from the editor after\n"
@@ -53,11 +53,11 @@ msgid ""
 "    'char' or 'line' or 'sel' for current selection."
 msgstr ""
 
-#: src/edit/commands.py:159
+#: src/edit/commands.py:168
 msgid "Move the text spanned by the next cursor motion to a register"
 msgstr ""
 
-#: src/edit/commands.py:165
+#: src/edit/commands.py:174
 msgid ""
 " Paste text from register as before or after the current position. If\n"
 "    the register contains only lines, then the lines are pasted before or\n"
@@ -69,15 +69,15 @@ msgid ""
 "    place it after lines after paste completes."
 msgstr ""
 
-#: src/edit/commands.py:176
+#: src/edit/commands.py:185
 msgid " Undo last action "
 msgstr ""
 
-#: src/edit/commands.py:187
+#: src/edit/commands.py:196
 msgid " Redo last action "
 msgstr ""
 
-#: src/edit/commands.py:198
+#: src/edit/commands.py:207
 msgid ""
 " Kill rest of line from cursor to end of line, and place\n"
 "    it into the clipboard with any other contiguously removed\n"
@@ -85,57 +85,57 @@ msgid ""
 "    between the cursor and the end of the line. "
 msgstr ""
 
-#: src/edit/commands.py:205
+#: src/edit/commands.py:214
 msgid ""
 " Yank contents of kill buffer created with kill-line into\n"
 "    the edit buffer "
 msgstr ""
 
-#: src/edit/commands.py:216
+#: src/edit/commands.py:225
 msgid ""
 " Initiate incremental mini-search forward from the cursor position,\n"
 "    optionally entering the given search string "
 msgstr ""
 
-#: src/edit/commands.py:224
+#: src/edit/commands.py:233
 msgid ""
 " Initiate incremental regular expression mini-search forward from the\n"
 "    cursor position, optionally entering the given search string "
 msgstr ""
 
-#: src/edit/commands.py:231
+#: src/edit/commands.py:240
 msgid ""
 " Initiate incremental mini-search backward from the cursor position,\n"
 "    optionally entering the given search string "
 msgstr ""
 
-#: src/edit/commands.py:238
+#: src/edit/commands.py:247
 msgid ""
 " Initiate incremental regular expression mini-search backward from the\n"
 "    cursor position, optionally entering the given search string "
 msgstr ""
 
-#: src/edit/commands.py:245
+#: src/edit/commands.py:254
 msgid ""
 "Repeat the most recent isearch, using same string and regex/text.\n"
 "    Reverse direction when reverse is True."
 msgstr ""
 
-#: src/edit/commands.py:254
+#: src/edit/commands.py:263
 msgid ""
 " Initiate incremental mini-search forward from the cursor position,\n"
 "    using current selection as the search string.  Set persist=False to\n"
 "    do the search but end the interactive search session immediately."
 msgstr ""
 
-#: src/edit/commands.py:263
+#: src/edit/commands.py:272
 msgid ""
 " Initiate incremental mini-search backward from the cursor position,\n"
 "    using current selection as the search string.  Set persist=False to\n"
 "    do the search but end the interactive search session immediately."
 msgstr ""
 
-#: src/edit/commands.py:276
+#: src/edit/commands.py:285
 msgid ""
 "Search for the given character. Searches to right if dir > 0 and to\n"
 "    left if dir < 0. Optionally place cursor pos characters to left or "
@@ -146,81 +146,81 @@ msgid ""
 "    line."
 msgstr ""
 
-#: src/edit/commands.py:290
+#: src/edit/commands.py:299
 msgid "Search direction (>0 to right, <0 to left)"
 msgstr ""
 
-#: src/edit/commands.py:291
+#: src/edit/commands.py:300
 msgid "Direction: "
 msgstr ""
 
-#: src/edit/commands.py:292
+#: src/edit/commands.py:301
 msgid ""
 "Target cursor position relative to search target, negative to move to left"
 msgstr ""
 
-#: src/edit/commands.py:293
+#: src/edit/commands.py:302
 msgid "Target Pos: "
 msgstr ""
 
-#: src/edit/commands.py:294 src/edit/commands.py:313
+#: src/edit/commands.py:303 src/edit/commands.py:322
 msgid "Number of matches to traverse"
 msgstr ""
 
-#: src/edit/commands.py:295 src/edit/commands.py:314
+#: src/edit/commands.py:304 src/edit/commands.py:323
 msgid "Repeat: "
 msgstr ""
 
-#: src/edit/commands.py:296
+#: src/edit/commands.py:305
 msgid "Search only with current line"
 msgstr ""
 
-#: src/edit/commands.py:297
+#: src/edit/commands.py:306
 msgid "Single Line: "
 msgstr ""
 
-#: src/edit/commands.py:302
+#: src/edit/commands.py:311
 msgid ""
 "Repeat the last search_char operation, optionally in the opposite\n"
 "    direction."
 msgstr ""
 
-#: src/edit/commands.py:311
+#: src/edit/commands.py:320
 msgid "Change to opposite direction of search"
 msgstr ""
 
-#: src/edit/commands.py:312
+#: src/edit/commands.py:321
 msgid "Opposite: "
 msgstr ""
 
-#: src/edit/commands.py:322
+#: src/edit/commands.py:331
 msgid "Repeat the last editor command"
 msgstr ""
 
-#: src/edit/commands.py:326
+#: src/edit/commands.py:335
 msgid "Show the auto-completer for current cursor position"
 msgstr ""
 
-#: src/edit/commands.py:337
+#: src/edit/commands.py:346
 msgid ""
 " Match brace at current cursor position, selecting all text between\n"
 "    the two and hilighting the braces "
 msgstr ""
 
-#: src/edit/commands.py:345
+#: src/edit/commands.py:354
 msgid " Place a tab character at the current cursor position "
 msgstr ""
 
-#: src/edit/commands.py:351
+#: src/edit/commands.py:360
 msgid " Outdent line at current position "
 msgstr ""
 
-#: src/edit/commands.py:362
+#: src/edit/commands.py:371
 msgid ""
 "Implement the tab key, the action of which is configurable by preference"
 msgstr ""
 
-#: src/edit/commands.py:366
+#: src/edit/commands.py:375
 msgid ""
 "Implement smart handling of tab key.  The behavior varies by context\n"
 "    as follows:\n"
@@ -236,7 +236,7 @@ msgid ""
 "    "
 msgstr ""
 
-#: src/edit/commands.py:381
+#: src/edit/commands.py:390
 msgid ""
 "Send one or more keys to the editor. Send a string to enter each key in the "
 "string,\n"
@@ -252,42 +252,42 @@ msgid ""
 "    "
 msgstr ""
 
-#: src/edit/commands.py:417
+#: src/edit/commands.py:426
 msgid ""
 "Indent the current line or selected region to match indentation of \n"
 "    preceding non-blank line.  Set toggle=True to indent instead of one\n"
 "    level higher if already at the matching position."
 msgstr ""
 
-#: src/edit/commands.py:425
+#: src/edit/commands.py:434
 msgid ""
 " Indent to next indent stop from the current position.  Acts like indent "
 "command\n"
 "    if selection covers multiple lines. "
 msgstr ""
 
-#: src/edit/commands.py:431
+#: src/edit/commands.py:440
 msgid ""
 " Move to beginning of current line. When toggle is True, moves to the\n"
 "    end of the leading white space if already at the beginning of the line\n"
 "    (and vice versa)."
 msgstr ""
 
-#: src/edit/commands.py:437
+#: src/edit/commands.py:446
 msgid ""
 " Move to beginning of current line, adjusting the selection range to\n"
 "    the new position. When toggle is True, moves to the end of the leading\n"
 "    white space if already at the beginning of the line (and vice versa)."
 msgstr ""
 
-#: src/edit/commands.py:443
+#: src/edit/commands.py:452
 msgid ""
 " Move to end of the leading white space, if any, on the current line.\n"
 "    If toggle is True, moves to the beginning of the line if already at the\n"
 "    end of the leading white space (and vice versa)."
 msgstr ""
 
-#: src/edit/commands.py:449
+#: src/edit/commands.py:458
 msgid ""
 " Move to end of the leading white space, if any, on the current line,\n"
 "    adjusting the selection range to the new position.  If toggle is True,\n"
@@ -295,51 +295,51 @@ msgid ""
 "    white space (and vice versa)."
 msgstr ""
 
-#: src/edit/commands.py:456
+#: src/edit/commands.py:465
 msgid " Move to beginning of current wrapped line"
 msgstr ""
 
-#: src/edit/commands.py:460
+#: src/edit/commands.py:469
 msgid " Move to beginning of current wrapped line, extending selection"
 msgstr ""
 
-#: src/edit/commands.py:464
+#: src/edit/commands.py:473
 msgid " Move to first non-blank character at beginning of current wrapped line"
 msgstr ""
 
-#: src/edit/commands.py:468
+#: src/edit/commands.py:477
 msgid ""
 " Move to first non-blank character at beginning of current wrapped line,\n"
 "    extending selection"
 msgstr ""
 
-#: src/edit/commands.py:473
+#: src/edit/commands.py:482
 msgid " Move to end of current line"
 msgstr ""
 
-#: src/edit/commands.py:477
+#: src/edit/commands.py:486
 msgid ""
 " Move to end of current line, adjusting the selection range \n"
 "    to new position "
 msgstr ""
 
-#: src/edit/commands.py:482
+#: src/edit/commands.py:491
 msgid " Move to end of current wrapped line"
 msgstr ""
 
-#: src/edit/commands.py:486
+#: src/edit/commands.py:495
 msgid " Move to end of current wrapped line, extending selection"
 msgstr ""
 
-#: src/edit/commands.py:490
+#: src/edit/commands.py:499
 msgid " Move to middle of current wrapped line"
 msgstr ""
 
-#: src/edit/commands.py:494
+#: src/edit/commands.py:503
 msgid " Move to middle of current wrapped line, extending selection"
 msgstr ""
 
-#: src/edit/commands.py:498
+#: src/edit/commands.py:507
 msgid ""
 " Move to screen next line, optionally repositioning character within\n"
 "    line: 'same' to leave in same horizontal position, 'start' at start, "
@@ -347,7 +347,7 @@ msgid ""
 "    at end, or 'fnb' for first non-blank char."
 msgstr ""
 
-#: src/edit/commands.py:504
+#: src/edit/commands.py:513
 msgid ""
 " Move to next screen line, adjusting the selection range to new\n"
 "    position, optionally repositioning character within line: same' to "
@@ -357,7 +357,7 @@ msgid ""
 "    selection."
 msgstr ""
 
-#: src/edit/commands.py:512
+#: src/edit/commands.py:521
 msgid ""
 " Move to next screen line, adjusting the rectangular selection range to new\n"
 "    position, optionally repositioning character within line: same' to "
@@ -367,7 +367,7 @@ msgid ""
 "    first non-blank char."
 msgstr ""
 
-#: src/edit/commands.py:519
+#: src/edit/commands.py:528
 msgid ""
 " Move to previous screen line, optionally repositioning character\n"
 "    within line: same' to leave in same horizontal position, 'start' at "
@@ -375,7 +375,7 @@ msgid ""
 "    'end' at end, or 'fnb' for first non-blank char."
 msgstr ""
 
-#: src/edit/commands.py:525
+#: src/edit/commands.py:534
 msgid ""
 " Move to previous screen line, adjusting the selection range to new\n"
 "    position, optionally repositioning character within line: same' to "
@@ -385,7 +385,7 @@ msgid ""
 "    selection."
 msgstr ""
 
-#: src/edit/commands.py:533
+#: src/edit/commands.py:542
 msgid ""
 " Move to previous screen line, adjusting the rectangular selection range to "
 "new\n"
@@ -396,65 +396,65 @@ msgid ""
 "    first non-blank char."
 msgstr ""
 
-#: src/edit/commands.py:540
+#: src/edit/commands.py:549
 msgid ""
 " Move to next line in file, repositioning character within line:\n"
 "    'start' at start, 'end' at end, or 'fnb' for first non-blank char."
 msgstr ""
 
-#: src/edit/commands.py:545
+#: src/edit/commands.py:554
 msgid ""
 " Move to previous line in file, repositioning character within line:\n"
 "    'start' at start, 'end' at end, or 'fnb' for first non-blank char."
 msgstr ""
 
-#: src/edit/commands.py:550
+#: src/edit/commands.py:559
 msgid ""
 "Move to the next blank line in the file, if any.  If threshold>0 then a\n"
 "    line is considered blank if it contains less than that many characters\n"
 "    after leading and trailing whitespace are removed."
 msgstr ""
 
-#: src/edit/commands.py:556
+#: src/edit/commands.py:565
 msgid ""
 "Move to the previous blank line in the file, if any.  If threshold>0 then a\n"
 "    line is considered blank if it contains less than that many characters\n"
 "    after leading and trailing whitespace are removed."
 msgstr ""
 
-#: src/edit/commands.py:562
+#: src/edit/commands.py:571
 msgid " Move cursor forward one character "
 msgstr ""
 
-#: src/edit/commands.py:566
+#: src/edit/commands.py:575
 msgid ""
 " Move cursor forward one character, adjusting the selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:571
+#: src/edit/commands.py:580
 msgid ""
 " Move cursor forward one character, adjusting the rectangular selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:576
+#: src/edit/commands.py:585
 msgid " Move cursor backward one character "
 msgstr ""
 
-#: src/edit/commands.py:580
+#: src/edit/commands.py:589
 msgid ""
 " Move cursor backward one character, adjusting the selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:585
+#: src/edit/commands.py:594
 msgid ""
 " Move cursor backward one character, adjusting the rectangular selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:590
+#: src/edit/commands.py:599
 msgid ""
 "Move cursor forward one word. Optionally, provide a string that\n"
 "    contains the delimiters to define which characters are part of a word.\n"
@@ -463,7 +463,7 @@ msgid ""
 "    at start or end of the word."
 msgstr ""
 
-#: src/edit/commands.py:597
+#: src/edit/commands.py:606
 msgid ""
 "Move cursor forward one word, adjusting the selection range to new\n"
 "    position. Optionally, provide a string that contains the delimiters to\n"
@@ -471,7 +471,7 @@ msgid ""
 "    \"end\" to indicate whether cursor is placed at start or end of the word."
 msgstr ""
 
-#: src/edit/commands.py:604
+#: src/edit/commands.py:613
 msgid ""
 " Move cursor backward one word. Optionally, provide a string that\n"
 "    contains the delimiters to define which characters are part of a word.\n"
@@ -480,7 +480,7 @@ msgid ""
 "    start or end of the word."
 msgstr ""
 
-#: src/edit/commands.py:611
+#: src/edit/commands.py:620
 msgid ""
 " Move cursor backward one word, adjusting the selection range to new\n"
 "    position. Optionally, provide a string that contains the delimiters to\n"
@@ -488,67 +488,67 @@ msgid ""
 "    \"end\" to indicate whether cursor is placed at start or end of the word."
 msgstr ""
 
-#: src/edit/commands.py:618
+#: src/edit/commands.py:627
 msgid "Move cursor forward one paragraph (to next all-whitespace line)."
 msgstr ""
 
-#: src/edit/commands.py:622
+#: src/edit/commands.py:631
 msgid ""
 "Move cursor forward one paragraph (to next all-whitespace line),\n"
 "    adjusting the selection range to new position."
 msgstr ""
 
-#: src/edit/commands.py:627
+#: src/edit/commands.py:636
 msgid "Move cursor backward one paragraph (to next all-whitespace line)."
 msgstr ""
 
-#: src/edit/commands.py:631
+#: src/edit/commands.py:640
 msgid ""
 "Move cursor backward one paragraph (to next all-whitespace line),\n"
 "    adjusting the selection range to new position."
 msgstr ""
 
-#: src/edit/commands.py:636
+#: src/edit/commands.py:645
 msgid " Move cursor forward one page "
 msgstr ""
 
-#: src/edit/commands.py:640
+#: src/edit/commands.py:649
 msgid ""
 " Move cursor forward one page, adjusting the selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:645
+#: src/edit/commands.py:654
 msgid " Move cursor backward one page "
 msgstr ""
 
-#: src/edit/commands.py:649
+#: src/edit/commands.py:658
 msgid ""
 " Move cursor backward one page, adjusting the selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:654
+#: src/edit/commands.py:663
 msgid " Move cursor to start of document "
 msgstr ""
 
-#: src/edit/commands.py:658
+#: src/edit/commands.py:667
 msgid ""
 " Move cursor to start of document, adjusting the selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:663
+#: src/edit/commands.py:672
 msgid " Move cursor to end of document "
 msgstr ""
 
-#: src/edit/commands.py:667
+#: src/edit/commands.py:676
 msgid ""
 " Move cursor to end of document, adjusting the selection \n"
 "    range to new position "
 msgstr ""
 
-#: src/edit/commands.py:672
+#: src/edit/commands.py:681
 msgid ""
 " Set start of text marking for selection at current cursor\n"
 "    position.  Subsequently, all cursor move operations will automatically\n"
@@ -556,7 +556,7 @@ msgid ""
 "    defines what is selected: can be one of char, line, or block (rectangle)."
 msgstr ""
 
-#: src/edit/commands.py:679
+#: src/edit/commands.py:688
 msgid ""
 " Stop text marking for selection at current cursor position,\n"
 "    leaving the selection set as is.  Subsequent cursor move operations\n"
@@ -564,115 +564,115 @@ msgid ""
 "    Deselect immediately when deselect is True."
 msgstr ""
 
-#: src/edit/commands.py:686
+#: src/edit/commands.py:695
 msgid " Clear any pending move command action, as for VI mode"
 msgstr ""
 
-#: src/edit/commands.py:690
+#: src/edit/commands.py:699
 msgid ""
 "When currently marking text, this exchanges the current position\n"
 "    and mark ends of the current selection"
 msgstr ""
 
-#: src/edit/commands.py:695
+#: src/edit/commands.py:704
 msgid " Delete one character in front of the cursor "
 msgstr ""
 
-#: src/edit/commands.py:699
+#: src/edit/commands.py:708
 msgid ""
 " Delete one character in front of the cursor unless at end of line,\n"
 "    in which case delete backward.  Do nothing if the line is empty.  This \n"
 "    is VI style 'x' in browser mode."
 msgstr ""
 
-#: src/edit/commands.py:705
+#: src/edit/commands.py:714
 msgid ""
 " Delete one char in front of the cursor and enter insert mode (when\n"
 "    working in modal key bindings)"
 msgstr ""
 
-#: src/edit/commands.py:711
+#: src/edit/commands.py:720
 msgid " Delete one word in front of the cursor "
 msgstr ""
 
-#: src/edit/commands.py:715
+#: src/edit/commands.py:724
 msgid ""
 " Delete one word in front of the cursor and enter insert mode (when\n"
 "    working in modal key bindings)"
 msgstr ""
 
-#: src/edit/commands.py:721
+#: src/edit/commands.py:730
 msgid ""
 " Delete one character behind the cursor, or the current selection\n"
 "    if not empty. "
 msgstr ""
 
-#: src/edit/commands.py:726
+#: src/edit/commands.py:735
 msgid " Delete one word behind of the cursor "
 msgstr ""
 
-#: src/edit/commands.py:730
+#: src/edit/commands.py:739
 msgid ""
 "Delete the current line or lines when the selection spans multiple\n"
 "    lines or given repeat is > 1"
 msgstr ""
 
-#: src/edit/commands.py:735
+#: src/edit/commands.py:744
 msgid ""
 "Delete the current line or lines when the selection spans multiple\n"
 "    lines or given repeat is > 1.  Enters insert mode (when working with\n"
 "    modal key bindings)."
 msgstr ""
 
-#: src/edit/commands.py:742
+#: src/edit/commands.py:751
 msgid "Delete everything between the cursor and start of line"
 msgstr ""
 
-#: src/edit/commands.py:746
+#: src/edit/commands.py:755
 msgid "Delete everything between the cursor and end of line"
 msgstr ""
 
-#: src/edit/commands.py:750
+#: src/edit/commands.py:759
 msgid ""
 "Delete everything between the cursor and end of line and enter insert\n"
 "    move (when working in a modal editor key binding)"
 msgstr ""
 
-#: src/edit/commands.py:756
+#: src/edit/commands.py:765
 msgid ""
 "Delete given range of lines, copying them into given register (or\n"
 "    currently selected default register if register is None"
 msgstr ""
 
-#: src/edit/commands.py:761
+#: src/edit/commands.py:770
 msgid "Delete the text covered by the next cursor move command."
 msgstr ""
 
-#: src/edit/commands.py:765
+#: src/edit/commands.py:774
 msgid ""
 "Delete the text covered by the next cursor move command and then\n"
 "    enter insert mode (when working in a modal editor key binding)"
 msgstr ""
 
-#: src/edit/commands.py:771
+#: src/edit/commands.py:780
 msgid ""
 "Move the given range of lines to the given target line.  Moves to current\n"
 "    line if target_line is '.'."
 msgstr ""
 
-#: src/edit/commands.py:776
+#: src/edit/commands.py:785
 msgid ""
 "Copy the given range of lines to the given target line.  Copies to current\n"
 "    line if target_line is '.'."
 msgstr ""
 
-#: src/edit/commands.py:781
+#: src/edit/commands.py:790
 msgid ""
 "Swap the line at start of current selection with the line that follows it,\n"
 "    or the preceding line if previous is True."
 msgstr ""
 
-#: src/edit/commands.py:815
+#: src/edit/commands.py:824
 msgid ""
 "Duplicate the current line or lines. Places the duplicate on the line\n"
 "    following the selection if pos is 'below' or before the selection if it "
@@ -680,23 +680,23 @@ msgid ""
 "    'above'."
 msgstr ""
 
-#: src/edit/commands.py:847
+#: src/edit/commands.py:856
 msgid "Duplicate the current line or lines above the selection."
 msgstr ""
 
-#: src/edit/commands.py:851
+#: src/edit/commands.py:860
 msgid ""
 "Filter the lines covered by the next cursor move command\n"
 "    through an external command and replace the lines with the result"
 msgstr ""
 
-#: src/edit/commands.py:856
+#: src/edit/commands.py:865
 msgid ""
 "Filter the current selection through an external command and replace\n"
 "    the lines with the result"
 msgstr ""
 
-#: src/edit/commands.py:861
+#: src/edit/commands.py:870
 msgid ""
 "Filter a range of lines in the editor through an external command\n"
 "    and replace the lines with the result.  Filters the whole file by\n"
@@ -704,7 +704,7 @@ msgid ""
 "    output of the command if start_line and end_line are both -1."
 msgstr ""
 
-#: src/edit/commands.py:868
+#: src/edit/commands.py:877
 msgid ""
 "Enclose the selection or the rest of the current line when there is no\n"
 "    selection with the given start and end strings.  The caret is moved to "
@@ -712,64 +712,64 @@ msgid ""
 "    end of the enclosed text."
 msgstr ""
 
-#: src/edit/commands.py:874
+#: src/edit/commands.py:883
 msgid ""
 "Change case of the current selection, or character ahead of the cursor if\n"
 "    there is no selection, to upper case"
 msgstr ""
 
-#: src/edit/commands.py:879
+#: src/edit/commands.py:888
 msgid ""
 "Change case of the current selection, or character ahead of the cursor if\n"
 "    there is no selection, to lower case"
 msgstr ""
 
-#: src/edit/commands.py:884
+#: src/edit/commands.py:893
 msgid ""
 "Change case of the current selection, or character ahead of the cursor if\n"
 "    there is no selection, to title case (first letter of each word "
 "capitalized)"
 msgstr ""
 
-#: src/edit/commands.py:889
+#: src/edit/commands.py:898
 msgid ""
 "Change case of the current selection, or character ahead of the cursor if\n"
 "    there is no selection, so each letter is the opposite of its current case"
 msgstr ""
 
-#: src/edit/commands.py:894
+#: src/edit/commands.py:903
 msgid "Change case of text spanned by next cursor movement to upper case"
 msgstr ""
 
-#: src/edit/commands.py:898
+#: src/edit/commands.py:907
 msgid "Change case of text spanned by next cursor movement to lower case"
 msgstr ""
 
-#: src/edit/commands.py:902
+#: src/edit/commands.py:911
 msgid ""
 "Change case of text spanned by next cursor movement to title case\n"
 "    (first letter of each word capitalized)"
 msgstr ""
 
-#: src/edit/commands.py:907
+#: src/edit/commands.py:916
 msgid ""
 "Change case of text spanned by next cursor movement so each letter is\n"
 "    the opposite of its current case"
 msgstr ""
 
-#: src/edit/commands.py:912
+#: src/edit/commands.py:921
 msgid " Select all text in the editor "
 msgstr ""
 
-#: src/edit/commands.py:916
+#: src/edit/commands.py:925
 msgid " Select the current line or lines "
 msgstr ""
 
-#: src/edit/commands.py:920
+#: src/edit/commands.py:929
 msgid "Open the current line by inserting a newline after the caret"
 msgstr ""
 
-#: src/edit/commands.py:924
+#: src/edit/commands.py:933
 msgid ""
 " Place a new line at the current cursor position.  Override the auto-indent\n"
 "    preference by setting auto_indent to 'never' to avoid indent, 'always' "
@@ -777,59 +777,59 @@ msgid ""
 "    auto-indent, and 'blank-only' to auto-indent only on blank lines."
 msgstr ""
 
-#: src/edit/commands.py:931
+#: src/edit/commands.py:940
 msgid " Place a new line before the current line "
 msgstr ""
 
-#: src/edit/commands.py:935
+#: src/edit/commands.py:944
 msgid " Place a new line after the current line "
 msgstr ""
 
-#: src/edit/commands.py:939
+#: src/edit/commands.py:948
 msgid ""
 "Move the current line or lines up one line, optionally\n"
 "    indenting to match the new position"
 msgstr ""
 
-#: src/edit/commands.py:944
+#: src/edit/commands.py:953
 msgid ""
 "Move the current line or lines up down line, optionally\n"
 "    indenting to match the new position"
 msgstr ""
 
-#: src/edit/commands.py:949
+#: src/edit/commands.py:958
 msgid " Place a form feed character at the current cursor position "
 msgstr ""
 
-#: src/edit/commands.py:953
+#: src/edit/commands.py:962
 msgid " Scroll to current cursor position, if not already visible "
 msgstr ""
 
-#: src/edit/commands.py:957
+#: src/edit/commands.py:966
 msgid ""
 "Scroll to the top of the text in the editor.  Set move_caret to control\n"
 "    whether the the caret is moved."
 msgstr ""
 
-#: src/edit/commands.py:962
+#: src/edit/commands.py:971
 msgid ""
 "Scroll to the end of the text in the editor.  Set move_caret to control\n"
 "    whether the caret is moved."
 msgstr ""
 
-#: src/edit/commands.py:967
+#: src/edit/commands.py:976
 msgid " Scroll so cursor is centered on display "
 msgstr ""
 
-#: src/edit/commands.py:971
+#: src/edit/commands.py:980
 msgid " Scroll so cursor is centered at top of display "
 msgstr ""
 
-#: src/edit/commands.py:975
+#: src/edit/commands.py:984
 msgid " Scroll so cursor is centered at bottom of display "
 msgstr ""
 
-#: src/edit/commands.py:979
+#: src/edit/commands.py:988
 msgid ""
 " Scroll text up a page w/o moving cursor's relative position on screen.\n"
 "    Repeat is number of pages or if >0 and <1.0 then percent of screen.  Set "
@@ -839,7 +839,7 @@ msgid ""
 "    moved so the cursor remains on same screen line."
 msgstr ""
 
-#: src/edit/commands.py:986
+#: src/edit/commands.py:995
 msgid ""
 " Scroll text down a page w/o moving cursor's relative position on screen.\n"
 "    Repeat is number of pages or if >0 and <1.0 then percent of screen.  Set "
@@ -849,7 +849,7 @@ msgid ""
 "    moved so the cursor remains on same screen line."
 msgstr ""
 
-#: src/edit/commands.py:993
+#: src/edit/commands.py:1002
 msgid ""
 " Scroll text up a line w/o moving cursor's relative position on screen.\n"
 "    Repeat is number of lines or if >0 and <1.0 then percent of screen.  Set "
@@ -859,7 +859,7 @@ msgid ""
 "    moved so the cursor remains on same screen line."
 msgstr ""
 
-#: src/edit/commands.py:1000
+#: src/edit/commands.py:1009
 msgid ""
 " Scroll text down a line w/o moving cursor's relative position on screen.\n"
 "    Repeat is number of lines or if >0 and <1.0 then percent of screen.  Set "
@@ -869,186 +869,186 @@ msgid ""
 "    moved so the cursor remains on same screen line."
 msgstr ""
 
-#: src/edit/commands.py:1007
+#: src/edit/commands.py:1016
 msgid ""
 " Scroll text left a column w/o moving cursor's relative position on screen.\n"
 "    Repeat is number of columns or if >0 and <1.0 then percent of screen."
 msgstr ""
 
-#: src/edit/commands.py:1012
+#: src/edit/commands.py:1021
 msgid ""
 " Scroll text right a column w/o moving cursor's relative position on "
 "screen.\n"
 "    Repeat is number of columns or if >0 and <1.0 then percent of screen."
 msgstr ""
 
-#: src/edit/commands.py:1017
+#: src/edit/commands.py:1026
 msgid " Move cursor to center of display (without scrolling) "
 msgstr ""
 
-#: src/edit/commands.py:1021
+#: src/edit/commands.py:1030
 msgid ""
 " Move cursor to top of display (without scrolling), optionally\n"
 "    at an offset of given number of lines below top"
 msgstr ""
 
-#: src/edit/commands.py:1026
+#: src/edit/commands.py:1035
 msgid ""
 " Move cursor to bottom of display (without scrolling), optionally\n"
 "    at an offset of given number of lines before bottom"
 msgstr ""
 
-#: src/edit/commands.py:1031
+#: src/edit/commands.py:1040
 msgid " Turn on display of the current text selection "
 msgstr ""
 
-#: src/edit/commands.py:1035
+#: src/edit/commands.py:1044
 msgid " Turn off display of the current text selection "
 msgstr ""
 
-#: src/edit/commands.py:1039
+#: src/edit/commands.py:1048
 msgid " Cancel current editor command "
 msgstr ""
 
-#: src/edit/commands.py:1043
+#: src/edit/commands.py:1052
 msgid " Complete the current active autocompletion. "
 msgstr ""
 
-#: src/edit/commands.py:1051
+#: src/edit/commands.py:1060
 msgid " Cancel any active autocompletion. "
 msgstr ""
 
-#: src/edit/commands.py:1059
+#: src/edit/commands.py:1068
 msgid " Activate the 1st symbol menu for the editor. "
 msgstr ""
 
-#: src/edit/commands.py:1065
+#: src/edit/commands.py:1074
 msgid " Activate the 2nd symbol menu for the editor. "
 msgstr ""
 
-#: src/edit/commands.py:1071
+#: src/edit/commands.py:1080
 msgid " Activate the 3rd symbol menu for the editor. "
 msgstr ""
 
-#: src/edit/commands.py:1077
+#: src/edit/commands.py:1086
 msgid " Activate the 4th symbol menu for the editor. "
 msgstr ""
 
-#: src/edit/commands.py:1083
+#: src/edit/commands.py:1092
 msgid " Activate the 5th symbol menu for the editor. "
 msgstr ""
 
-#: src/edit/commands.py:1089
+#: src/edit/commands.py:1098
 msgid "Turn on profiling for the current source editor"
 msgstr ""
 
-#: src/edit/commands.py:1098
+#: src/edit/commands.py:1107
 msgid "Stop profiling and print stats to stdout"
 msgstr ""
 
-#: src/edit/commands.py:1107
+#: src/edit/commands.py:1116
 msgid "Copy the current lines(s) to clipboard"
 msgstr ""
 
-#: src/edit/commands.py:1112
+#: src/edit/commands.py:1121
 msgid " Cut the current line(s) to clipboard. "
 msgstr ""
 
-#: src/edit/commands.py:1117
+#: src/edit/commands.py:1126
 msgid ""
 " Cut the current selection or current line if there is no\n"
 "    selection.  The text is placed on the clipboard. "
 msgstr ""
 
-#: src/edit/commands.py:1123
+#: src/edit/commands.py:1132
 msgid ""
 " Copy the current selection or current line if there is no\n"
 "    selection.  The text is placed on the clipboard. "
 msgstr ""
 
-#: src/edit/commands.py:1129
+#: src/edit/commands.py:1138
 msgid " Rescan file for code analysis. "
 msgstr ""
 
-#: src/edit/commands.py:1139
+#: src/edit/commands.py:1148
 msgid " Strip trailing whitespace from each line. "
 msgstr ""
 
-#: src/edit/commands.py:1147
+#: src/edit/commands.py:1156
 msgid ""
 " Ensure the support object is created and set a history anchor unless \n"
 "    set_history_anchor arg is false. "
 msgstr ""
 
-#: src/edit/commands.py:1161
+#: src/edit/commands.py:1170
 msgid ""
 " Select more code on either the current line or larger multi-line\n"
 "    blocks. "
 msgstr ""
 
-#: src/edit/commands.py:1173
+#: src/edit/commands.py:1182
 msgid " Select less code; undoes the last select-more command "
 msgstr ""
 
-#: src/edit/commands.py:1183
+#: src/edit/commands.py:1192
 msgid " Select the statement the cursor is in. "
 msgstr ""
 
-#: src/edit/commands.py:1191
+#: src/edit/commands.py:1200
 msgid ""
 " Select the next statement.  Will ignore indented statements\n"
 "    under the current statements unless ignore_indented is False.\n"
 "    Specify a count of more than 1 to go forward multiple statements. "
 msgstr ""
 
-#: src/edit/commands.py:1201
+#: src/edit/commands.py:1210
 msgid ""
 " Select the previous statement.  Will ignore indented statements\n"
 "    under the current statements unless ignore_indented is False.\n"
 "    Specify a count of more than 1 to go back multiple statements. "
 msgstr ""
 
-#: src/edit/commands.py:1211
+#: src/edit/commands.py:1220
 msgid " Select the block the cursor is in. "
 msgstr ""
 
-#: src/edit/commands.py:1219
+#: src/edit/commands.py:1228
 msgid ""
 " Select the next block.  Will ignore indented blocks\n"
 "    under the current block unless ignore_indented is False.\n"
 "    Specify a count of more than 1 to go forward multiple blocks. "
 msgstr ""
 
-#: src/edit/commands.py:1229
+#: src/edit/commands.py:1238
 msgid ""
 " Select the previous block.  Will ignore indented blocks\n"
 "    under the current block unless ignore_indented is False.\n"
 "    Specify a count of more than 1 to go backward multiple blocks. "
 msgstr ""
 
-#: src/edit/commands.py:1239
+#: src/edit/commands.py:1248
 msgid " Select the scope the cursor is in. "
 msgstr ""
 
-#: src/edit/commands.py:1248
+#: src/edit/commands.py:1257
 msgid ""
 " Select the next scope.  Specify a count of more than 1 to go\n"
 "    forward multiple scopes.  If sibling_only is true, move only to other\n"
 "    scopes of the same parent. "
 msgstr ""
 
-#: src/edit/commands.py:1258
+#: src/edit/commands.py:1267
 msgid ""
 " Select the previous scope.  Specify a count of more than 1 to go\n"
 "    backward multiple scopes.  If sibling_only is true, move only to other\n"
 "    scopes of the same parent. "
 msgstr ""
 
-#: src/edit/commands.py:1268
+#: src/edit/commands.py:1277
 msgid " Goes to the method that is overridden by the current method "
 msgstr ""
 
-#: src/edit/commands.py:1303
+#: src/edit/commands.py:1312
 msgid ""
 " Add another selection containing the text of the current selection.\n"
 "      If skip_current is true, the current selection will be deselected.  "
@@ -1057,63 +1057,63 @@ msgid ""
 "      backwards if reverse is true. "
 msgstr ""
 
-#: src/edit/commands.py:1364
+#: src/edit/commands.py:1373
 msgid " Drop all exceptions except the main selection "
 msgstr ""
 
-#: src/edit/commands.py:1374
+#: src/edit/commands.py:1383
 msgid " Drop current selection when there's 2+ selections "
 msgstr ""
 
-#: src/edit/commands.py:1385
+#: src/edit/commands.py:1394
 msgid ""
 " Add an extra selection for all occurrences of the main selection text\n"
 "      in the file "
 msgstr ""
 
-#: src/edit/commands.py:1396
+#: src/edit/commands.py:1405
 msgid ""
 " Returns following for main selection: sel, txt, whole_words\n"
 "      If the txt of the main selection is not a whole word, whole_words\n"
 "      will be false; otherwise it will be the passed in whole_words arg "
 msgstr ""
 
-#: src/edit/commands.py:1423
+#: src/edit/commands.py:1432
 msgid ""
 " Get ordered list of all line ranges that are at least partially selected "
 msgstr ""
 
-#: src/edit/commands.py:1450
+#: src/edit/commands.py:1459
 msgid ""
 " Return set of all scopes (classes if cls is true; functions/methods\n"
 "      if func is true) that any selection is in "
 msgstr ""
 
-#: src/edit/commands.py:1487
+#: src/edit/commands.py:1496
 msgid ""
 " Add an extra selection for all occurrences of the main selection text\n"
 "      in classes that contain one or more selections "
 msgstr ""
 
-#: src/edit/commands.py:1504
+#: src/edit/commands.py:1513
 msgid ""
 " Add an extra selection for all occurrences of the main selection text\n"
 "      in functions / methods that contain one or more selections "
 msgstr ""
 
-#: src/edit/commands.py:1522
+#: src/edit/commands.py:1531
 msgid ""
 " Add selections in all scopes w/ selections.  If cls is true, class\n"
 "      scopes are added, if func is true, functions/methods are added. "
 msgstr ""
 
-#: src/edit/commands.py:1550
+#: src/edit/commands.py:1559
 msgid ""
 " Add an extra selection for all occurrences of the main selection text\n"
 "      in blocks that contain one or more selections "
 msgstr ""
 
-#: src/edit/commands.py:1585
+#: src/edit/commands.py:1594
 msgid ""
 " Add selection for all occurrences of txt between start and end\n"
 "      positions.  Doesn't add a selection that matches an existing "
@@ -1121,83 +1121,83 @@ msgid ""
 "      but allow overlapping selections "
 msgstr ""
 
-#: src/edit/commands.py:1662
+#: src/edit/commands.py:1671
 msgid ""
 " Toggle the value of the default flag for whether the selection add\n"
 "      commands match case or not when looking for additional occurrences "
 msgstr ""
 
-#: src/edit/commands.py:1668
+#: src/edit/commands.py:1677
 msgid ""
 " Toggle the value of the default flag for whether the selection add\n"
 "      commands only add whole words when looking for additional occurrences "
 msgstr ""
 
-#: src/edit/commands.py:1674
+#: src/edit/commands.py:1683
 msgid ""
 " Toggle the value of the default flag for whether the selection add\n"
 "      commands wrap when looking for additional occurrences "
 msgstr ""
 
-#: src/edit/commands.py:1680
+#: src/edit/commands.py:1689
 msgid ""
 " Show the selections popup; this overrides the preference setting\n"
 "      for the current file "
 msgstr ""
 
-#: src/edit/commands.py:1695
+#: src/edit/commands.py:1704
 msgid ""
 " Hide the selections popup; this overrides the preference setting\n"
 "      for the current file "
 msgstr ""
 
-#: src/edit/commands.py:1711
+#: src/edit/commands.py:1720
 msgid ""
 "Editor commands that act on the current (most recently active) source \n"
 "  editor, whether or not it currently has the keyboard focus."
 msgstr ""
 
-#: src/edit/commands.py:1768
+#: src/edit/commands.py:1777
 msgid "Raise editor window if necessary in this windowing mode"
 msgstr ""
 
-#: src/edit/commands.py:1778
+#: src/edit/commands.py:1787
 msgid ""
 " Initiate incremental mini-search query/replace from the cursor \n"
 "    position. "
 msgstr ""
 
-#: src/edit/commands.py:1786
+#: src/edit/commands.py:1795
 msgid "The search string"
 msgstr ""
 
-#: src/edit/commands.py:1789
+#: src/edit/commands.py:1798
 msgid "Search:"
 msgstr ""
 
-#: src/edit/commands.py:1790 src/edit/commands.py:1811
+#: src/edit/commands.py:1799 src/edit/commands.py:1820
 msgid "The replacement string"
 msgstr ""
 
-#: src/edit/commands.py:1793 src/edit/commands.py:1814
+#: src/edit/commands.py:1802 src/edit/commands.py:1823
 msgid "Replace:"
 msgstr ""
 
-#: src/edit/commands.py:1799
+#: src/edit/commands.py:1808
 msgid ""
 " Initiate incremental mini-search query/replace from the cursor \n"
 "    position.  The search string is treated as a regular expression."
 msgstr ""
 
-#: src/edit/commands.py:1807
+#: src/edit/commands.py:1816
 msgid "The search regular expression"
 msgstr ""
 
-#: src/edit/commands.py:1810
+#: src/edit/commands.py:1819
 msgid "Regex:"
 msgstr ""
 
-#: src/edit/commands.py:1819
+#: src/edit/commands.py:1828
 msgid ""
 " Initiate incremental mini-search query/replace within the given selection.\n"
 "    This is similar to query_replace but allows some additional options::\n"
@@ -1220,26 +1220,26 @@ msgid ""
 "    "
 msgstr ""
 
-#: src/edit/commands.py:1844
+#: src/edit/commands.py:1853
 msgid ""
 "Repeat the last query replace or range replace operation on the current "
 "line.\n"
 "    The first match is replaced without confirmation."
 msgstr ""
 
-#: src/edit/commands.py:1850
+#: src/edit/commands.py:1859
 msgid ""
 " Replace all occurrences of a string from the cursor position to \n"
 "    end of file. "
 msgstr ""
 
-#: src/edit/commands.py:1860
+#: src/edit/commands.py:1869
 msgid ""
 " Replace all occurrences of a string from the cursor position to \n"
 "    end of file.  The search string is treated as a regular expression."
 msgstr ""
 
-#: src/edit/commands.py:1868
+#: src/edit/commands.py:1877
 msgid ""
 "Replace num characters with given character.  Set line_mode to multiline to\n"
 "    allow replacing across lines, extend to replace on current line and then "
@@ -1249,74 +1249,74 @@ msgid ""
 "    current line after cursor position."
 msgstr ""
 
-#: src/edit/commands.py:1882
+#: src/edit/commands.py:1891
 msgid ""
 " Zoom in, increasing the text display size temporarily by one font size "
 msgstr ""
 
-#: src/edit/commands.py:1886
+#: src/edit/commands.py:1895
 msgid ""
 " Zoom out, increasing the text display size temporarily by one font size "
 msgstr ""
 
-#: src/edit/commands.py:1890
+#: src/edit/commands.py:1899
 msgid "Reset font zoom factor back to zero"
 msgstr ""
 
-#: src/edit/commands.py:1894
+#: src/edit/commands.py:1903
 msgid " Toggle status of overtyping mode "
 msgstr ""
 
-#: src/edit/commands.py:1898
+#: src/edit/commands.py:1907
 msgid " Turn on all special marks for displaying white space and end-of-line  "
 msgstr ""
 
-#: src/edit/commands.py:1908
+#: src/edit/commands.py:1917
 msgid " Turn off all special marks for displaying white space and end-of-line "
 msgstr ""
 
-#: src/edit/commands.py:1917
+#: src/edit/commands.py:1926
 msgid " Turn on special marks for displaying white space "
 msgstr ""
 
-#: src/edit/commands.py:1926
+#: src/edit/commands.py:1935
 msgid " Turn off special marks for displaying white space "
 msgstr ""
 
-#: src/edit/commands.py:1935
+#: src/edit/commands.py:1944
 msgid " Turn on special marks for displaying end-of-line chars "
 msgstr ""
 
-#: src/edit/commands.py:1944
+#: src/edit/commands.py:1953
 msgid " Turn off special marks for displaying end-of-line chars "
 msgstr ""
 
-#: src/edit/commands.py:1953
+#: src/edit/commands.py:1962
 msgid " Turn on special marks for displaying indent level "
 msgstr ""
 
-#: src/edit/commands.py:1962
+#: src/edit/commands.py:1971
 msgid " Turn off special marks for displaying indent level "
 msgstr ""
 
-#: src/edit/commands.py:1971
+#: src/edit/commands.py:1980
 msgid ""
 "Set editor to be readonly.  This cannot be done if the editor contains\n"
 "    any unsaved edits."
 msgstr ""
 
-#: src/edit/commands.py:1981
+#: src/edit/commands.py:1990
 msgid ""
 "Set editor to be writable.  This can be used to override the read-only\n"
 "    state used initially for editors displaying files that are read-only on "
 "disk."
 msgstr ""
 
-#: src/edit/commands.py:1991
+#: src/edit/commands.py:2000
 msgid " Save the current text file to disk "
 msgstr ""
 
-#: src/edit/commands.py:1997
+#: src/edit/commands.py:2006
 msgid " Close the current text file "
 msgstr ""
 
@@ -1574,11 +1574,39 @@ msgstr ""
 
 #: src/edit/commands.py:2396
 msgid ""
+"Evaluate the given code within the Python Shell tool, optionally restarting "
+"the\n"
+"    shell first. When invoking this command directly, only one line can be "
+"entered. To\n"
+"    enter multiple lines at once, invoke this command with CAPIApplication."
+"ExecuteCommand()\n"
+"    in the scripting API."
+msgstr ""
+
+#: src/edit/commands.py:2405
+msgid "Code to evaluate"
+msgstr ""
+
+#: src/edit/commands.py:2406
+msgid "Code: "
+msgstr ""
+
+#: src/edit/commands.py:2413
+msgid ""
+"Evaluate the given code within the Debug Console tool. When invoking this "
+"command\n"
+"    directly, only one line can be entered. To enter multiple lines at once, "
+"invoke this\n"
+"    command with CAPIApplication.ExecuteCommand() in the scripting API."
+msgstr ""
+
+#: src/edit/commands.py:2430
+msgid ""
 " Attempt to auto-justify the paragraph around the current start of\n"
 "    selection "
 msgstr ""
 
-#: src/edit/commands.py:2404
+#: src/edit/commands.py:2438
 msgid ""
 "Reformat the current file to comply with PEP 8 formatting conventions. "
 "Indentation\n"
@@ -1588,11 +1616,11 @@ msgid ""
 "lines is always\n"
 "    updated. The command will time out after the given number of seconds, or "
 "if timeout is\n"
-"    None the timeout configured with the Editor > PEP 8 > Reformat timeout "
-"preference."
+"    None the timeout configured with the Editor > Auto-formatting > Reformat "
+"Timeout preference."
 msgstr ""
 
-#: src/edit/commands.py:2412
+#: src/edit/commands.py:2446
 msgid ""
 "Reformat the current selection, or current line if there is no selection, to "
 "comply\n"
@@ -1600,413 +1628,446 @@ msgid ""
 "and end are given."
 msgstr ""
 
-#: src/edit/commands.py:2417
+#: src/edit/commands.py:2451
+msgid ""
+"Reformat the current file with Black, if installed in the active Python. "
+"The\n"
+"    command will time out after the given number of seconds, or if timeout "
+"is None the\n"
+"    timeout configured with the Editor > Auto-formatting > Reformat Timeout "
+"preference."
+msgstr ""
+
+#: src/edit/commands.py:2457
+msgid ""
+"Reformat the current selection, or current line if there is no selection "
+"with Black.\n"
+"    Reformats the given range if start and end are given."
+msgstr ""
+
+#: src/edit/commands.py:2462
+msgid ""
+"Reformat the current file with YAPF, if installed in the active Python. The\n"
+"    command will time out after the given number of seconds, or if timeout "
+"is None the\n"
+"    timeout configured with the Editor > Auto-formatting > Reformat Timeout "
+"preference."
+msgstr ""
+
+#: src/edit/commands.py:2468
+msgid ""
+"Reformat the current selection, or current line if there is no selection "
+"with YAPF.\n"
+"    Reformats the given range if start and end are given."
+msgstr ""
+
+#: src/edit/commands.py:2473
 msgid ""
 "Allow user to visit point of definition of a source symbol in the \n"
 "    current editor context by typing a fragment of the name"
 msgstr ""
 
-#: src/edit/commands.py:2428
+#: src/edit/commands.py:2484
 msgid "_Goto Definition"
 msgstr ""
 
-#: src/edit/commands.py:2429
+#: src/edit/commands.py:2485
 msgid "_Cancel"
 msgstr ""
 
-#: src/edit/commands.py:2431
+#: src/edit/commands.py:2487
 msgid "Find Symbol"
 msgstr ""
 
-#: src/edit/commands.py:2453
+#: src/edit/commands.py:2509
 msgid ""
 "Allow user to visit point of definition of a source symbol in the \n"
 "      any file in the project by typing a fragment of the name"
 msgstr ""
 
-#: src/edit/commands.py:2459
+#: src/edit/commands.py:2515
 msgid ""
 "Join together all lines in given selection (replace newlines with\n"
 "    the given delimiter (single space by default)"
 msgstr ""
 
-#: src/edit/commands.py:2465
+#: src/edit/commands.py:2521
 msgid ""
 "Join together specified number of lines after current line (replace\n"
 "    newlines with the given delimiter (single space by default)"
 msgstr ""
 
-#: src/edit/commands.py:2471
+#: src/edit/commands.py:2527
 msgid ""
 "Toggle the global auto-editing switch.  When enabled, the editor\n"
 "    performs the auto-edits that have been selected in the Editor >\n"
 "    Auto-Editing preferences group."
 msgstr ""
 
-#: src/edit/commands.py:2482
+#: src/edit/commands.py:2538
 msgid " Display the indentation manager for this editor file "
 msgstr ""
 
-#: src/edit/commands.py:2488
+#: src/edit/commands.py:2544
 msgid " Convert all lines with leading spaces to mixed tabs and spaces. "
 msgstr ""
 
-#: src/edit/commands.py:2497
+#: src/edit/commands.py:2553
 msgid " Convert all lines containing leading tabs to spaces only. "
 msgstr ""
 
-#: src/edit/commands.py:2506
+#: src/edit/commands.py:2562
 msgid " Convert all indentation to use tab characters only and no spaces "
 msgstr ""
 
-#: src/edit/commands.py:2515
+#: src/edit/commands.py:2571
 msgid ""
 " Force the indent style of the editor to mixed use of tabs and spaces, \n"
 "    regardless of the file contents "
 msgstr ""
 
-#: src/edit/commands.py:2524
+#: src/edit/commands.py:2580
 msgid ""
 " Force the indent style of the editor to use spaces only, regardless of file "
 "contents "
 msgstr ""
 
-#: src/edit/commands.py:2532
+#: src/edit/commands.py:2588
 msgid ""
 " Force the indent style of the editor to use tabs only, regardless of file "
 "contents "
 msgstr ""
 
-#: src/edit/commands.py:2540
+#: src/edit/commands.py:2596
 msgid ""
 " Force the indent style of the editor to match the indent style found in the "
 "majority\n"
 "    of the file "
 msgstr ""
 
-#: src/edit/commands.py:2549
+#: src/edit/commands.py:2605
 msgid ""
 " Check whether indents consistently use spaces or tabs throughout the file. "
 msgstr ""
 
-#: src/edit/commands.py:2560
+#: src/edit/commands.py:2616
 msgid " Toggle the current fold point "
 msgstr ""
 
-#: src/edit/commands.py:2568
+#: src/edit/commands.py:2624
 msgid " Collapse the current fold point "
 msgstr ""
 
-#: src/edit/commands.py:2576
+#: src/edit/commands.py:2632
 msgid " Expand the current fold point "
 msgstr ""
 
-#: src/edit/commands.py:2584
+#: src/edit/commands.py:2640
 msgid " Toggle the clicked fold point "
 msgstr ""
 
-#: src/edit/commands.py:2594
+#: src/edit/commands.py:2650
 msgid " Collapse the current fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2602
+#: src/edit/commands.py:2658
 msgid " Collapse the clicked fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2612
+#: src/edit/commands.py:2668
 msgid " Expand the current fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2620
+#: src/edit/commands.py:2676
 msgid " Expand the clicked fold point one more level "
 msgstr ""
 
-#: src/edit/commands.py:2631
+#: src/edit/commands.py:2687
 msgid " Collapse the current fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2639
+#: src/edit/commands.py:2695
 msgid " Collapse the clicked fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2649
+#: src/edit/commands.py:2705
 msgid " Expand the current fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2657
+#: src/edit/commands.py:2713
 msgid " Expand the clicked fold point completely "
 msgstr ""
 
-#: src/edit/commands.py:2667
+#: src/edit/commands.py:2723
 msgid " Collapse all fold points in the current file "
 msgstr ""
 
-#: src/edit/commands.py:2675
+#: src/edit/commands.py:2731
 msgid " Expand all fold points in the current file "
 msgstr ""
 
-#: src/edit/commands.py:2686
+#: src/edit/commands.py:2742
 msgid "Print active editor document"
 msgstr ""
 
-#: src/edit/commands.py:2693
+#: src/edit/commands.py:2749
 msgid " Show printing page setup dialog "
 msgstr ""
 
-#: src/edit/commands.py:2704
+#: src/edit/commands.py:2760
 msgid " Force syntax highlighting for Python source"
 msgstr ""
 
-#: src/edit/commands.py:2707
+#: src/edit/commands.py:2763
 msgid " Force syntax highlighting for Cython source"
 msgstr ""
 
-#: src/edit/commands.py:2710
+#: src/edit/commands.py:2766
 msgid " Force syntax highlighting for C/C++ source"
 msgstr ""
 
-#: src/edit/commands.py:2713
+#: src/edit/commands.py:2769
 msgid " Force syntax highlighting for Java source "
 msgstr ""
 
-#: src/edit/commands.py:2716
+#: src/edit/commands.py:2772
 msgid " Force syntax highlighting for make files "
 msgstr ""
 
-#: src/edit/commands.py:2719
+#: src/edit/commands.py:2775
 msgid " Force syntax highlighting for DOS batch files "
 msgstr ""
 
-#: src/edit/commands.py:2722
+#: src/edit/commands.py:2778
 msgid " Force syntax highlighting for Visual Basic "
 msgstr ""
 
-#: src/edit/commands.py:2725
+#: src/edit/commands.py:2781
 msgid " Force syntax highlighting for HTML"
 msgstr ""
 
-#: src/edit/commands.py:2728
+#: src/edit/commands.py:2784
 msgid " Force syntax highlighting for properties files "
 msgstr ""
 
-#: src/edit/commands.py:2731
+#: src/edit/commands.py:2787
 msgid " Force syntax highlighting for error list format "
 msgstr ""
 
-#: src/edit/commands.py:2734
+#: src/edit/commands.py:2790
 msgid " Force syntax highlighting for MS IDL"
 msgstr ""
 
-#: src/edit/commands.py:2737
+#: src/edit/commands.py:2793
 msgid " Force syntax highlighting for SQL "
 msgstr ""
 
-#: src/edit/commands.py:2740
+#: src/edit/commands.py:2796
 msgid " Force syntax highlighting for XML files "
 msgstr ""
 
-#: src/edit/commands.py:2743
+#: src/edit/commands.py:2799
 msgid " Force syntax highlighting for XCode files "
 msgstr ""
 
-#: src/edit/commands.py:2746
+#: src/edit/commands.py:2802
 msgid " Force syntax highlighting for LaTeX "
 msgstr ""
 
-#: src/edit/commands.py:2749
+#: src/edit/commands.py:2805
 msgid " Force syntax highlighting for Lua "
 msgstr ""
 
-#: src/edit/commands.py:2752
+#: src/edit/commands.py:2808
 msgid " Force syntax highlighting for XP IDL "
 msgstr ""
 
-#: src/edit/commands.py:2755
+#: src/edit/commands.py:2811
 msgid " Force syntax highlighting for Javascript "
 msgstr ""
 
-#: src/edit/commands.py:2758
+#: src/edit/commands.py:2814
 msgid " Force syntax highlighting for RC file format "
 msgstr ""
 
-#: src/edit/commands.py:2761
+#: src/edit/commands.py:2817
 msgid " Force syntax highlighting for PL/SQL files"
 msgstr ""
 
-#: src/edit/commands.py:2764
+#: src/edit/commands.py:2820
 msgid " Force syntax highlighting for PHP source "
 msgstr ""
 
-#: src/edit/commands.py:2767
+#: src/edit/commands.py:2823
 msgid " Force syntax highlighting for Perl source "
 msgstr ""
 
-#: src/edit/commands.py:2770
+#: src/edit/commands.py:2826
 msgid " Force syntax highlighting for diff/cdiff files "
 msgstr ""
 
-#: src/edit/commands.py:2773
+#: src/edit/commands.py:2829
 msgid " Force syntax highlighting for Pascal source "
 msgstr ""
 
-#: src/edit/commands.py:2776
+#: src/edit/commands.py:2832
 msgid " Force syntax highlighting for Apache configuration file format "
 msgstr ""
 
-#: src/edit/commands.py:2779
+#: src/edit/commands.py:2835
 msgid " Force syntax highlighting for Avenue GIS language "
 msgstr ""
 
-#: src/edit/commands.py:2782
+#: src/edit/commands.py:2838
 msgid " Force syntax highlighting Ada source "
 msgstr ""
 
-#: src/edit/commands.py:2785
+#: src/edit/commands.py:2841
 msgid " Force syntax highlighting for Eiffel source "
 msgstr ""
 
-#: src/edit/commands.py:2788
+#: src/edit/commands.py:2844
 msgid " Force syntax highlighting for Lisp source "
 msgstr ""
 
-#: src/edit/commands.py:2791
+#: src/edit/commands.py:2847
 msgid " Force syntax highlighting for Ruby source "
 msgstr ""
 
-#: src/edit/commands.py:2794
+#: src/edit/commands.py:2850
 msgid " Force syntax highlighting for bash scripts "
 msgstr ""
 
-#: src/edit/commands.py:2797
+#: src/edit/commands.py:2853
 msgid " Force syntax highlighting for Bullant "
 msgstr ""
 
-#: src/edit/commands.py:2800
+#: src/edit/commands.py:2856
 msgid " Force syntax highlighting for TCL "
 msgstr ""
 
-#: src/edit/commands.py:2803
+#: src/edit/commands.py:2859
 msgid " Force syntax highlighting for CSS2 "
 msgstr ""
 
-#: src/edit/commands.py:2806
+#: src/edit/commands.py:2862
 msgid " Force syntax highlighting for QSS (Qt Style sheets) "
 msgstr ""
 
-#: src/edit/commands.py:2809
+#: src/edit/commands.py:2865
 msgid " Force syntax highlighting for SCSS formatted SASS"
 msgstr ""
 
-#: src/edit/commands.py:2812
+#: src/edit/commands.py:2868
 msgid " Force syntax highlighting for Less CSS extension language"
 msgstr ""
 
-#: src/edit/commands.py:2815
+#: src/edit/commands.py:2871
 msgid " Force syntax highlighting for HSS CSS extension language"
 msgstr ""
 
-#: src/edit/commands.py:2818
+#: src/edit/commands.py:2874
 msgid " Force syntax highlighting for Fortran "
 msgstr ""
 
-#: src/edit/commands.py:2821
+#: src/edit/commands.py:2877
 msgid " Force syntax highlighting for Matlab "
 msgstr ""
 
-#: src/edit/commands.py:2824
+#: src/edit/commands.py:2880
 msgid " Force syntax highlighting for Scriptol "
 msgstr ""
 
-#: src/edit/commands.py:2827
+#: src/edit/commands.py:2883
 msgid ""
 " Force syntax highlighting for POV ray tracer scene description language "
 msgstr ""
 
-#: src/edit/commands.py:2830
+#: src/edit/commands.py:2886
 msgid " Force syntax highlighting for EScript "
 msgstr ""
 
-#: src/edit/commands.py:2833
+#: src/edit/commands.py:2889
 msgid " Force syntax highlighting for LOUT typesetting language "
 msgstr ""
 
-#: src/edit/commands.py:2836
+#: src/edit/commands.py:2892
 msgid " Force syntax highlighting for MMIX assembly language "
 msgstr ""
 
-#: src/edit/commands.py:2839
+#: src/edit/commands.py:2895
 msgid " Force syntax highlighting for NSIS "
 msgstr ""
 
-#: src/edit/commands.py:2842
+#: src/edit/commands.py:2898
 msgid " Force syntax highlighting for Postscript "
 msgstr ""
 
-#: src/edit/commands.py:2845
+#: src/edit/commands.py:2901
 msgid " Force syntax highlighting for YAML "
 msgstr ""
 
-#: src/edit/commands.py:2848
+#: src/edit/commands.py:2904
 msgid " Force syntax highlighting for VXML "
 msgstr ""
 
-#: src/edit/commands.py:2851
+#: src/edit/commands.py:2907
 msgid " Force syntax highlighting for Masm assembly language "
 msgstr ""
 
-#: src/edit/commands.py:2854
+#: src/edit/commands.py:2910
 msgid " Force syntax highlighting for Baan "
 msgstr ""
 
-#: src/edit/commands.py:2857
+#: src/edit/commands.py:2913
 msgid " Force syntax highlighting for NNCrontab files "
 msgstr ""
 
-#: src/edit/commands.py:2860
+#: src/edit/commands.py:2916
 msgid " Force syntax highlighting for Mako template file "
 msgstr ""
 
-#: src/edit/commands.py:2863
+#: src/edit/commands.py:2919
 msgid " Force syntax highlighting for Django template file "
 msgstr ""
 
-#: src/edit/commands.py:2866
+#: src/edit/commands.py:2922
 msgid " Force syntax highlighting for R source file "
 msgstr ""
 
-#: src/edit/commands.py:2869
+#: src/edit/commands.py:2925
 msgid " Force syntax highlighting for Coffee Script source file "
 msgstr ""
 
-#: src/edit/commands.py:2872
+#: src/edit/commands.py:2928
 msgid " Force syntax highlighting for CMake file "
 msgstr ""
 
-#: src/edit/commands.py:2876
+#: src/edit/commands.py:2932
 msgid " Use no syntax highlighting "
 msgstr ""
 
-#: src/edit/commands.py:2879
+#: src/edit/commands.py:2935
 msgid " Use syntax highlighting appropriate to the file type "
 msgstr ""
 
-#: src/edit/commands.py:2885
+#: src/edit/commands.py:2941
 msgid " Toggles line wrapping preference for all editors "
 msgstr ""
 
-#: src/edit/commands.py:2891
+#: src/edit/commands.py:2947
 msgid " Set anchor in the visit history to go back to "
 msgstr ""
 
-#: src/edit/commands.py:2898
+#: src/edit/commands.py:2954
 msgid "Commands available when working either in the shell or editor"
 msgstr ""
 
-#: src/edit/commands.py:2905 src/edit/commands.py:2988
+#: src/edit/commands.py:2961 src/edit/commands.py:3044
 msgid "Constructor"
 msgstr ""
 
-#: src/edit/commands.py:2914
+#: src/edit/commands.py:2970
 msgid ""
 " Goto the definition of the source symbol that was last clicked on. If\n"
 "    other_split is true, the definition will be displayed if a split other\n"
@@ -2017,7 +2078,7 @@ msgid ""
 "    be used is determined by the Split Reuse Policy preference value."
 msgstr ""
 
-#: src/edit/commands.py:2933
+#: src/edit/commands.py:2989
 msgid ""
 " Goto the definition of the selected source symbol.  If other_split is\n"
 "    true, the definition will be displayed if a split other than the "
@@ -2029,21 +2090,21 @@ msgid ""
 "    by the Split Reuse Policy preference value. "
 msgstr ""
 
-#: src/edit/commands.py:2952
+#: src/edit/commands.py:3008
 msgid "Get shell with focus or otherwise active editor"
 msgstr ""
 
-#: src/edit/commands.py:2981
+#: src/edit/commands.py:3037
 msgid "Commands for source assistant "
 msgstr ""
 
-#: src/edit/commands.py:3021
+#: src/edit/commands.py:3077
 msgid ""
 " Show the steps used to determine likely types in the source\n"
 "      assistant "
 msgstr ""
 
-#: src/edit/commands.py:3032
+#: src/edit/commands.py:3088
 msgid ""
 " Hide the steps used to determine likely types in the source\n"
 "      assistant "

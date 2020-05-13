@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 6.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:04+EDT\n"
 "PO-Revision-Date: 2016-11-28 20:57 EST\n"
 "Last-Translator: Wingware <support@wingware.com>\n"
 "Language-Team: None\n"
@@ -114,38 +114,38 @@ msgid ""
 "\n"
 msgstr ""
 
-#: scripts/pylintpanel.py:116
+#: scripts/pylintpanel.py:119
 msgid "Errors"
 msgstr ""
 
-#: scripts/pylintpanel.py:116
+#: scripts/pylintpanel.py:119
 msgid "Errors that must be fixed"
 msgstr ""
 
-#: scripts/pylintpanel.py:117
+#: scripts/pylintpanel.py:120
 msgid "Warnings"
 msgstr ""
 
-#: scripts/pylintpanel.py:117
+#: scripts/pylintpanel.py:120
 msgid "Warnings that could indicate problems"
 msgstr ""
 
-#: scripts/pylintpanel.py:118
+#: scripts/pylintpanel.py:121
 msgid "General informative messages"
 msgstr ""
 
-#: scripts/pylintpanel.py:118
+#: scripts/pylintpanel.py:121
 msgid "Info"
 msgstr ""
 
-#: scripts/pylintpanel.py:149
+#: scripts/pylintpanel.py:152
 msgid ""
 "\n"
 "    Get configuration option from configuration file\n"
 "    "
 msgstr ""
 
-#: scripts/pylintpanel.py:169
+#: scripts/pylintpanel.py:172
 msgid ""
 "\n"
 "    Edit and possibly create configuration file. Currently, this will just\n"
@@ -153,103 +153,103 @@ msgid ""
 "    "
 msgstr ""
 
-#: scripts/pylintpanel.py:213
+#: scripts/pylintpanel.py:216
 msgid ""
 "\n"
 "    Get full name and path of config file\n"
 "    "
 msgstr ""
 
-#: scripts/pylintpanel.py:250
+#: scripts/pylintpanel.py:253
 msgid "Show the pylint configuration file so it can be edited"
 msgstr ""
 
-#: scripts/pylintpanel.py:254
+#: scripts/pylintpanel.py:257
 msgid " Copies all results from the displayed pylint results list. "
 msgstr ""
 
-#: scripts/pylintpanel.py:277 scripts/pylintpanel.py:300
-#: scripts/pylintpanel.py:898
+#: scripts/pylintpanel.py:280 scripts/pylintpanel.py:303
+#: scripts/pylintpanel.py:901
 msgid "Line"
 msgstr ""
 
-#: scripts/pylintpanel.py:279 scripts/pylintpanel.py:302
-#: scripts/pylintpanel.py:898
+#: scripts/pylintpanel.py:282 scripts/pylintpanel.py:305
+#: scripts/pylintpanel.py:901
 msgid "Column"
 msgstr ""
 
-#: scripts/pylintpanel.py:290
+#: scripts/pylintpanel.py:293
 msgid " Copy the selected pylint results to the clipboard. "
 msgstr ""
 
-#: scripts/pylintpanel.py:309
+#: scripts/pylintpanel.py:312
 msgid " Copy the line number for the currently selected pylint result. "
 msgstr ""
 
-#: scripts/pylintpanel.py:323
+#: scripts/pylintpanel.py:326
 msgid " Copy the currently selected pylint result message. "
 msgstr ""
 
-#: scripts/pylintpanel.py:337
+#: scripts/pylintpanel.py:340
 msgid " Retrieves list of currently selected indexes "
 msgstr ""
 
-#: scripts/pylintpanel.py:349
+#: scripts/pylintpanel.py:352
 msgid "Execute pylint for the current editor"
 msgstr ""
 
-#: scripts/pylintpanel.py:362
+#: scripts/pylintpanel.py:365
 msgid ""
 "Execute pylint on all files in the package to which the\n"
 "  file in the current editor belongs"
 msgstr ""
 
-#: scripts/pylintpanel.py:391
+#: scripts/pylintpanel.py:394
 msgid "Show the Wing documentation section for the PyLint integration"
 msgstr ""
 
-#: scripts/pylintpanel.py:518
+#: scripts/pylintpanel.py:521
 msgid ""
 "PyLint panel configuration file not found. Choose \"Configure\" from the "
 "context menu to edit the configuration file.  You will need to install "
 "pylint separately."
 msgstr ""
 
-#: scripts/pylintpanel.py:518 scripts/pylintpanel.py:529
+#: scripts/pylintpanel.py:521 scripts/pylintpanel.py:532
 msgid "Error"
 msgstr ""
 
-#: scripts/pylintpanel.py:529
+#: scripts/pylintpanel.py:532
 msgid "Invalid values specified in configuration file"
 msgstr ""
 
-#: scripts/pylintpanel.py:536
+#: scripts/pylintpanel.py:539
 msgid "Updating for package %s"
 msgstr ""
 
-#: scripts/pylintpanel.py:539
+#: scripts/pylintpanel.py:542
 msgid "Updating for %s"
 msgstr ""
 
-#: scripts/pylintpanel.py:542
+#: scripts/pylintpanel.py:545
 msgid "Updating for %i items"
 msgstr ""
 
-#: scripts/pylintpanel.py:715
+#: scripts/pylintpanel.py:718
 msgid ""
 "Error executing PyLint:  Command failed with error=%s, status=%s; stderr:\n"
 "%s"
 msgstr ""
 
-#: scripts/pylintpanel.py:715
+#: scripts/pylintpanel.py:718
 msgid "PyLint Failed"
 msgstr ""
 
-#: scripts/pylintpanel.py:726
+#: scripts/pylintpanel.py:729
 msgid "PyLint Timed Out"
 msgstr ""
 
-#: scripts/pylintpanel.py:726
+#: scripts/pylintpanel.py:729
 msgid ""
 "PyLint timed out:  Command did not complete within timeout of %i seconds.  "
 "Right click on the PyLint tool to configure this value.  Output from "
@@ -258,108 +258,108 @@ msgid ""
 "%s"
 msgstr ""
 
-#: scripts/pylintpanel.py:754
+#: scripts/pylintpanel.py:757
 msgid "Panel definition for the project manager"
 msgstr ""
 
-#: scripts/pylintpanel.py:768
+#: scripts/pylintpanel.py:771
 msgid ""
 "Get (label, prefix, suffix) for the display label to use for the given\n"
 "    panel instance"
 msgstr ""
 
-#: scripts/pylintpanel.py:771 scripts/pylintpanel.py:965
+#: scripts/pylintpanel.py:774 scripts/pylintpanel.py:968
 msgid "PyLint"
 msgstr ""
 
-#: scripts/pylintpanel.py:774
+#: scripts/pylintpanel.py:777
 msgid "Get full title for the given panel instance"
 msgstr ""
 
-#: scripts/pylintpanel.py:776 scripts/pylintpanel.py:880
+#: scripts/pylintpanel.py:779 scripts/pylintpanel.py:883
 msgid "PyLint Panel"
 msgstr ""
 
-#: scripts/pylintpanel.py:791
+#: scripts/pylintpanel.py:794
 msgid "A single template manager view"
 msgstr ""
 
-#: scripts/pylintpanel.py:794
+#: scripts/pylintpanel.py:797
 msgid " Constructor "
 msgstr ""
 
-#: scripts/pylintpanel.py:878
+#: scripts/pylintpanel.py:881
 msgid " Returns the title of this view suitable for display. "
 msgstr ""
 
-#: scripts/pylintpanel.py:883
+#: scripts/pylintpanel.py:886
 msgid " Get the command map object for this view. "
 msgstr ""
 
-#: scripts/pylintpanel.py:898
+#: scripts/pylintpanel.py:901
 msgid "Full Path"
 msgstr ""
 
-#: scripts/pylintpanel.py:898
+#: scripts/pylintpanel.py:901
 msgid "Line Number"
 msgstr ""
 
-#: scripts/pylintpanel.py:898 scripts/pylintpanel.py:997
+#: scripts/pylintpanel.py:901 scripts/pylintpanel.py:1000
 msgid "Message"
 msgstr ""
 
-#: scripts/pylintpanel.py:926
+#: scripts/pylintpanel.py:929
 msgid "Construct popup menu for this object."
 msgstr ""
 
-#: scripts/pylintpanel.py:930
+#: scripts/pylintpanel.py:933
 msgid "Update"
 msgstr ""
 
-#: scripts/pylintpanel.py:931
+#: scripts/pylintpanel.py:934
 msgid "Update for Package"
 msgstr ""
 
-#: scripts/pylintpanel.py:936
+#: scripts/pylintpanel.py:939
 msgid "Update for %s"
 msgstr ""
 
-#: scripts/pylintpanel.py:939
+#: scripts/pylintpanel.py:942
 msgid "Update for Package %s"
 msgstr ""
 
-#: scripts/pylintpanel.py:944
+#: scripts/pylintpanel.py:947
 msgid "Copy All Info Messages"
 msgstr ""
 
-#: scripts/pylintpanel.py:946
+#: scripts/pylintpanel.py:949
 msgid "Copy All Warnings"
 msgstr ""
 
-#: scripts/pylintpanel.py:948
+#: scripts/pylintpanel.py:951
 msgid "Copy All Errors"
 msgstr ""
 
-#: scripts/pylintpanel.py:954
+#: scripts/pylintpanel.py:957
 msgid "Copy Selected Results"
 msgstr ""
 
-#: scripts/pylintpanel.py:955
+#: scripts/pylintpanel.py:958
 msgid "Copy Selected Line Number"
 msgstr ""
 
-#: scripts/pylintpanel.py:956
+#: scripts/pylintpanel.py:959
 msgid "Copy Selected Message"
 msgstr ""
 
-#: scripts/pylintpanel.py:958
+#: scripts/pylintpanel.py:961
 msgid "Configure..."
 msgstr ""
 
-#: scripts/pylintpanel.py:959
+#: scripts/pylintpanel.py:962
 msgid "Show PyLint Tool Documentation"
 msgstr ""
 
-#: scripts/pylintpanel.py:995
+#: scripts/pylintpanel.py:998
 msgid "Message: %s"
 msgstr ""

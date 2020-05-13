@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_testing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2018-03-18 11:10+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,34 +17,36 @@ msgstr ""
 "X-Loco-Project-Id: 44339\n"
 "X-Loco-Api-Version: 1.0.19 20180317-1\n"
 
-#: src/testing/attribs.py:25
+#: src/testing/attribs.py:27
 msgid "List of test files"
 msgstr "Список тестовых файлов"
 
-#: src/testing/attribs.py:29
+#: src/testing/attribs.py:31
 msgid "Glob / Wild Card"
 msgstr ""
 
-#: src/testing/attribs.py:30
+#: src/testing/attribs.py:32
 msgid "Regexp"
 msgstr "Регулярные выражения"
 
-#: src/testing/attribs.py:34
+#: src/testing/attribs.py:36
+#, fuzzy
 msgid ""
 "List of glob wildcard or regular expressions identifying project test "
-"files.  Project files whose full path matches one of the patterns will be "
-"considered  test files and automatically added to the Testing tool."
+"files.  Project files whose full path contains a sub-string that matches one "
+"of the patterns will be considered test files and automatically added to the "
+"Testing tool."
 msgstr ""
 "Список шаблонов glob или регулярных выражений, идентифицирующих файлы тестов "
 "проекта.  Файлы проекта, полный путь к которым совпадает с одним из "
 "шаблонов, будут считаться тестовыми файлами и автоматически добавлены в "
 "инструмент тестирования."
 
-#: src/testing/attribs.py:41
+#: src/testing/attribs.py:44
 msgid "Name of the unit testing framework"
 msgstr "Имя платформы модульного тестирования"
 
-#: src/testing/attribs.py:53
+#: src/testing/attribs.py:56
 msgid ""
 "The environment to use when running unit tests.  Either select a launch "
 "configuration, or use the given run arguments with the default environment "
@@ -54,15 +56,15 @@ msgstr ""
 "запуска или используйте заданные аргументы запуска в среде по умолчанию для "
 "проекта."
 
-#: src/testing/attribs.py:61
+#: src/testing/attribs.py:64
 msgid "Per-Module"
 msgstr ""
 
-#: src/testing/attribs.py:62
+#: src/testing/attribs.py:65
 msgid "Per-Package"
 msgstr ""
 
-#: src/testing/attribs.py:66
+#: src/testing/attribs.py:69
 #, fuzzy
 msgid ""
 "How many processes are spawned for each test run.  In the per-module model, "
@@ -77,28 +79,28 @@ msgstr ""
 "что различные настройки среды или аргументы запуска могут вызывать "
 "дополнительные процессы."
 
-#: src/testing/attribs.py:77
+#: src/testing/attribs.py:80
 msgid "Maximum number of testing processes to run at on time."
 msgstr "Максимальное число процессов тестирования, выполняемых одновременно."
 
-#: src/testing/attribs.py:82
+#: src/testing/attribs.py:85
 msgid "Last known test results"
 msgstr "Последние известные результаты теста"
 
-#: src/testing/attribs.py:90
+#: src/testing/attribs.py:93
 msgid "All Results"
 msgstr "Все результаты"
 
-#: src/testing/attribs.py:91
+#: src/testing/attribs.py:94
 msgid "All Results Without Output"
 msgstr "Все результаты без вывода"
 
-#: src/testing/attribs.py:92
+#: src/testing/attribs.py:95
 #, fuzzy
 msgid "No Results or Output"
 msgstr "Все результаты без вывода"
 
-#: src/testing/attribs.py:96
+#: src/testing/attribs.py:99
 msgid ""
 "Test results are stored in the user branch of the project file without "
 "output by default and then restored when the project is opened. This can be "
@@ -108,19 +110,19 @@ msgstr ""
 "без вывода по умолчанию, а затем восстанавливаются при открытии проекта. Это "
 "можно отключить или сохранить выходные данные вместе с результатами."
 
-#: src/testing/attribs.py:109
+#: src/testing/attribs.py:112
 msgid "Default for Testing Framework"
 msgstr "По умолчанию для Testing Framework"
 
-#: src/testing/attribs.py:110
+#: src/testing/attribs.py:113
 msgid "Run as Package Module if in Package Directory"
 msgstr "Запуск как Package Module если в Package Directory"
 
-#: src/testing/attribs.py:111
+#: src/testing/attribs.py:114
 msgid "Always Run as a Top-Level Module"
 msgstr "Всегда запускать как модуль верхнего уровня"
 
-#: src/testing/attribs.py:115
+#: src/testing/attribs.py:118
 msgid ""
 "Whether to run a file in a package directory as a package module. If the "
 "file is not run as a package module, it is run as a top-level script. The "
@@ -133,230 +135,231 @@ msgstr ""
 "платформы модульного тестирования, и движки тестов для некоторых платформ "
 "могут игнорировать этот параметр."
 
-#: src/testing/cap_testinggui.py:191 src/testing/cap_testinggui.py:262
+#: src/testing/attribs.py:128
+msgid "Whether to wrap output lines before displaying them"
+msgstr ""
+
+#: src/testing/attribs.py:134
+msgid "Column to wrap output lines on"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:212 src/testing/cap_testinggui.py:283
 msgid "Output"
 msgstr "Вывод"
 
-#: src/testing/cap_testinggui.py:214
+#: src/testing/cap_testinggui.py:235
 msgid "Chained Exception Cause:"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:216
+#: src/testing/cap_testinggui.py:237
 msgid "Chained Exception Context:"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:218
+#: src/testing/cap_testinggui.py:239
 msgid "Final Exception:"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:220
+#: src/testing/cap_testinggui.py:241
 msgid "Exception:"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:265
+#: src/testing/cap_testinggui.py:286
 msgid "Non-Python Output"
 msgstr "Вывод не-Python"
 
-#: src/testing/cap_testinggui.py:531
+#: src/testing/cap_testinggui.py:548
 msgid "<i>no children</i>"
 msgstr "<i>не потомок</i>"
 
-#: src/testing/cap_testinggui.py:793
-msgid "_Run"
-msgstr ""
-
-#: src/testing/cap_testinggui.py:793 src/testing/cap_testinggui.py:1341
+#: src/testing/cap_testinggui.py:814 src/testing/cap_testinggui.py:1372
 msgid "_Run Tests"
 msgstr "Выполнить Тест"
 
-#: src/testing/cap_testinggui.py:802
+#: src/testing/cap_testinggui.py:814 src/testing/cap_testinggui.py:1373
+msgid "_Run"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:823 src/testing/cap_testinggui.py:1410
+#: src/testing/cap_testinggui.py:1433
+msgid "_Debug Tests"
+msgstr "Отладить Тест"
+
+#: src/testing/cap_testinggui.py:823 src/testing/cap_testinggui.py:1411
+#: src/testing/cap_testinggui.py:1434
 #, fuzzy
 msgid "_Debug"
 msgstr "Отладить Тест"
 
-#: src/testing/cap_testinggui.py:802
-msgid "_Debug Tests"
-msgstr "Отладить Тест"
-
-#: src/testing/cap_testinggui.py:826
+#: src/testing/cap_testinggui.py:847
 msgid "Filter: "
 msgstr "Фильтр: "
 
-#: src/testing/cap_testinggui.py:928
+#: src/testing/cap_testinggui.py:949
 msgid "Succeeded"
 msgstr "Успешно"
 
-#: src/testing/cap_testinggui.py:930
+#: src/testing/cap_testinggui.py:951
 msgid "Failed"
 msgstr "Неудачно"
 
-#: src/testing/cap_testinggui.py:932
+#: src/testing/cap_testinggui.py:953
 msgid "Error"
 msgstr "Ошибка"
 
-#: src/testing/cap_testinggui.py:934
+#: src/testing/cap_testinggui.py:955
 msgid "Syntax Error"
 msgstr "Синтаксическая ошибка"
 
-#: src/testing/cap_testinggui.py:936
+#: src/testing/cap_testinggui.py:957
 msgid "Running"
 msgstr "Выполнить"
 
-#: src/testing/cap_testinggui.py:970
+#: src/testing/cap_testinggui.py:991
 msgid "No tests to run"
 msgstr "Нет тестов для запуска"
 
-#: src/testing/cap_testinggui.py:1042
+#: src/testing/cap_testinggui.py:1061
 msgid "Clear All Test Results?"
 msgstr "Очистить все результаты тестирования?"
 
-#: src/testing/cap_testinggui.py:1043
+#: src/testing/cap_testinggui.py:1062
 msgid "Are you sure you want to clear all the stored test results?"
 msgstr "Вы уверены, что хотите очистить все сохраненные результаты теста?"
 
-#: src/testing/cap_testinggui.py:1044
+#: src/testing/cap_testinggui.py:1063
 #, fuzzy
 msgid "Clear _All"
 msgstr "Очистить все"
 
-#: src/testing/cap_testinggui.py:1045
+#: src/testing/cap_testinggui.py:1064
 #, fuzzy
 msgid "_Cancel"
 msgstr "Отмена"
 
-#: src/testing/cap_testinggui.py:1094
+#: src/testing/cap_testinggui.py:1120
 msgid "Remove File"
 msgstr "Удалить файл"
 
-#: src/testing/cap_testinggui.py:1094
+#: src/testing/cap_testinggui.py:1120
 msgid "Remove Files"
 msgstr "Удалить файлы"
 
-#: src/testing/cap_testinggui.py:1102
+#: src/testing/cap_testinggui.py:1128
 msgid "Sort Tests Alphabetically"
 msgstr "Сортировать тесты по алфавиту"
 
-#: src/testing/cap_testinggui.py:1107
+#: src/testing/cap_testinggui.py:1133
 msgid "Sort Tests by Source Order"
 msgstr "Сортировать тесты по порядку источника"
 
-#: src/testing/cap_testinggui.py:1112 src/testing/cap_testinggui.py:1119
+#: src/testing/cap_testinggui.py:1138 src/testing/cap_testinggui.py:1145
 msgid "Goto Source"
 msgstr "Перейти к источнику"
 
-#: src/testing/cap_testinggui.py:1113
+#: src/testing/cap_testinggui.py:1139
 msgid "Run Test"
 msgstr "Выполнить Тест"
 
-#: src/testing/cap_testinggui.py:1114
+#: src/testing/cap_testinggui.py:1140
 msgid "Debug Test"
 msgstr "Отладка Теста"
 
-#: src/testing/cap_testinggui.py:1115
+#: src/testing/cap_testinggui.py:1141
 msgid "Run All Tests"
 msgstr "Выполнить Все Тесты"
 
-#: src/testing/cap_testinggui.py:1116
+#: src/testing/cap_testinggui.py:1142
 msgid "Clear All Results"
 msgstr "Очистить Все Результаты"
 
-#: src/testing/cap_testinggui.py:1120
+#: src/testing/cap_testinggui.py:1146
 msgid "Abort Tests"
 msgstr "Отменить Тесты"
 
-#: src/testing/cap_testinggui.py:1125
+#: src/testing/cap_testinggui.py:1151
 msgid "Expand All Failed Tests"
 msgstr "Развернуть Все Неудачные Тесты"
 
-#: src/testing/cap_testinggui.py:1126
+#: src/testing/cap_testinggui.py:1152
 msgid "Collapse All Tests"
 msgstr "Свернуть Все Тесты"
 
-#: src/testing/cap_testinggui.py:1129
+#: src/testing/cap_testinggui.py:1154
+msgid "Wrap Output Lines"
+msgstr ""
+
+#: src/testing/cap_testinggui.py:1157
 msgid "Add Files from Project..."
 msgstr "Добавить файлы из проекта ..."
 
-#: src/testing/cap_testinggui.py:1130
+#: src/testing/cap_testinggui.py:1158
 msgid "Add Single File..."
 msgstr "Добавить Один Файл..."
 
-#: src/testing/cap_testinggui.py:1133
+#: src/testing/cap_testinggui.py:1161
 msgid "File Properties..."
 msgstr "Свойства Файла..."
 
-#: src/testing/cap_testinggui.py:1135
-msgid "Show Testing Documentation"
-msgstr "Показать Документацию По Тестированию"
-
-#: src/testing/cap_testinggui.py:1138
+#: src/testing/cap_testinggui.py:1163
 msgid "Select All"
 msgstr "Выбрать все"
 
-#: src/testing/cap_testinggui.py:1145
+#: src/testing/cap_testinggui.py:1170
 msgid "Copy Selected Text"
 msgstr "Копировать Выделенный Текст"
 
-#: src/testing/cap_testinggui.py:1149
+#: src/testing/cap_testinggui.py:1174
 msgid "Copy Failure Summary"
 msgstr "Сводка Ошибок Копирования"
 
-#: src/testing/cap_testinggui.py:1153
+#: src/testing/cap_testinggui.py:1178
 msgid "Copy All Results"
 msgstr "Копировать Все Результаты"
 
-#: src/testing/cap_testinggui.py:1310
+#: src/testing/cap_testinggui.py:1184
+msgid "Show Testing Documentation"
+msgstr "Показать Документацию По Тестированию"
+
+#: src/testing/cap_testinggui.py:1341
 msgid "Completed tests"
 msgstr "Завершенные тесты"
 
-#: src/testing/cap_testinggui.py:1337
+#: src/testing/cap_testinggui.py:1368
 msgid "_Abort Tests"
 msgstr "Отменить Тесты"
 
-#: src/testing/cap_testinggui.py:1338
+#: src/testing/cap_testinggui.py:1369 src/testing/cap_testinggui.py:1429
 #, fuzzy
-msgid "Abort"
+msgid "_Abort"
 msgstr "Отменить Тесты"
 
-#: src/testing/cap_testinggui.py:1342
+#: src/testing/cap_testinggui.py:1417
 #, fuzzy
-msgid "Run"
-msgstr "Выполнить"
-
-#: src/testing/cap_testinggui.py:1379 src/testing/cap_testinggui.py:1402
-msgid "Debug Tests"
-msgstr "Отладка Тестов"
-
-#: src/testing/cap_testinggui.py:1380 src/testing/cap_testinggui.py:1403
-#, fuzzy
-msgid "Debug"
-msgstr "Отладка Теста"
-
-#: src/testing/cap_testinggui.py:1386
-#, fuzzy
-msgid "Stop Debug"
+msgid "_Stop Debug"
 msgstr "Прервать Отладку"
 
-#: src/testing/cap_testinggui.py:1387 src/testing/cap_testinggui.py:1398
-msgid "Stop"
+#: src/testing/cap_testinggui.py:1418
+msgid "_Stop"
 msgstr ""
 
-#: src/testing/cap_testinggui.py:1397
-msgid "Abort Debug"
+#: src/testing/cap_testinggui.py:1428
+#, fuzzy
+msgid "_Abort Debug"
 msgstr "Прервать Отладку"
 
-#: src/testing/cap_testinggui.py:1529 src/testing/cap_testinggui.py:1539
+#: src/testing/cap_testinggui.py:1560 src/testing/cap_testinggui.py:1570
 msgid "Testing"
 msgstr "Тестирование"
 
-#: src/testing/cap_testinggui.py:1544
+#: src/testing/cap_testinggui.py:1575
 msgid "Unit Tests"
 msgstr "Модульное тестирование"
 
-#: src/testing/manager.py:895
+#: src/testing/manager.py:924
 msgid "Automatically Ignored Exceptions"
 msgstr "Автоматически Игнорируемые Исключения"
 
-#: src/testing/manager.py:896
+#: src/testing/manager.py:925
 #, fuzzy
 msgid ""
 "Wing has automatically ignored some intermediate exception reports to get "
@@ -367,71 +370,75 @@ msgstr ""
 "исключениях, чтобы вы попали прямо в исключение из вашего кода pytest. Они "
 "будут представлены в вашем проекте."
 
-#: src/testing/manager.py:901
+#: src/testing/manager.py:930
 msgid "_OK"
 msgstr ""
 
-#: src/testing/proppanels.py:33
+#: src/testing/proppanels.py:36
 msgid "Default Test Framework"
 msgstr "Test Framework по умолчанию"
 
-#: src/testing/proppanels.py:37
+#: src/testing/proppanels.py:40
 msgid "Test file patterns"
 msgstr "Шаблоны тестовых файлов"
 
-#: src/testing/proppanels.py:41
+#: src/testing/proppanels.py:44
 msgid "Pattern Type"
 msgstr "Тип Шаблона"
 
-#: src/testing/proppanels.py:42
+#: src/testing/proppanels.py:45
 msgid "Pattern"
 msgstr "Шаблон"
 
-#: src/testing/proppanels.py:60 src/testing/proppanels.py:185
+#: src/testing/proppanels.py:55
+msgid "Output Wrap column"
+msgstr ""
+
+#: src/testing/proppanels.py:69 src/testing/proppanels.py:203
 msgid "Environment"
 msgstr "Окружение"
 
-#: src/testing/proppanels.py:66
+#: src/testing/proppanels.py:75
 msgid "Process Model"
 msgstr "Модель процесса"
 
-#: src/testing/proppanels.py:70
+#: src/testing/proppanels.py:79
 msgid "Number of Processes"
 msgstr "Число процессов"
 
-#: src/testing/proppanels.py:74
+#: src/testing/proppanels.py:83
 msgid "Run As Package Modules"
 msgstr "Запуск Пакета Модулей"
 
-#: src/testing/proppanels.py:79
+#: src/testing/proppanels.py:88
 msgid "Save In Project File"
 msgstr ""
 
-#: src/testing/proppanels.py:83 src/testing/proppanels.py:192
+#: src/testing/proppanels.py:92 src/testing/proppanels.py:210
 msgid "_Testing"
 msgstr "Тестирование"
 
-#: src/testing/proppanels.py:138
+#: src/testing/proppanels.py:156
 msgid "For Django you must add a test file pattern for manage.py"
 msgstr ""
 
-#: src/testing/proppanels.py:140
+#: src/testing/proppanels.py:158
 msgid "Django testing will ignore test files other than manage.py"
 msgstr ""
 
-#: src/testing/proppanels.py:155
+#: src/testing/proppanels.py:173
 msgid "Default (%s)"
 msgstr "По умолчанию (%s)"
 
-#: src/testing/proppanels.py:158
+#: src/testing/proppanels.py:176
 msgid "Test Framework"
 msgstr ""
 
-#: src/testing/proppanels.py:170
+#: src/testing/proppanels.py:188
 msgid "Use Project Setting and Run Args:"
 msgstr "Использовать Настройки Проекта и запускать Args:"
 
-#: src/testing/proppanels.py:171
+#: src/testing/proppanels.py:189
 msgid ""
 "Use the testing configuration from Project Properties with the specified run "
 "arguments"
@@ -439,16 +446,16 @@ msgstr ""
 "Использовать конфигурацию тестирования из свойств проекта с указанными "
 "аргументами запуска"
 
-#: src/testing/proppanels.py:173
+#: src/testing/proppanels.py:191
 msgid "Use Selected Launch Configuration:"
 msgstr "Использовать Выбранную Конфигурацию Запуска:"
 
-#: src/testing/proppanels.py:174
+#: src/testing/proppanels.py:192
 msgid "Select a custom launch configuration for testing this file"
 msgstr ""
 "Выберите пользовательскую конфигурацию запуска для тестирования этого файла"
 
-#: src/testing/proppanels.py:177
+#: src/testing/proppanels.py:195
 msgid ""
 "The environment to use when running this file as a unit test.  Either select "
 "a launch configuration, or use the given run arguments with the project-"
@@ -458,33 +465,33 @@ msgstr ""
 "Выберите конфигурацию запуска или используйте заданные аргументы запуска в "
 "среде, заданной для проекта."
 
-#: src/testing/proppanels.py:209
+#: src/testing/proppanels.py:227
 msgid ""
 "Setting testing framework to Django has not effect for files other than "
 "manage.py"
 msgstr ""
 
-#: src/testing/runtests.py:228
+#: src/testing/runtests.py:242
 msgid "Starting local tests: %s"
 msgstr "Запуск локальных тестов: %s"
 
-#: src/testing/runtests.py:270
+#: src/testing/runtests.py:284
 msgid "Starting tests on hostname %s: %s"
 msgstr "Запуск тестов на хосте %s: %s"
 
-#: src/testing/runtests.py:315
+#: src/testing/runtests.py:329
 msgid "Debugging local tests: %s"
 msgstr "Отладка локальных тестов: %s"
 
-#: src/testing/runtests.py:338 src/testing/runtests.py:390
+#: src/testing/runtests.py:352 src/testing/runtests.py:404
 msgid "Could not start debug process"
 msgstr "Не удалось запустить процесс отладки"
 
-#: src/testing/runtests.py:360
+#: src/testing/runtests.py:374
 msgid "Debugging tests on hostname %s: %s"
 msgstr "Отладка тестов на хосте %s: %s"
 
-#: src/testing/runtests.py:415
+#: src/testing/runtests.py:429
 msgid "Test process aborted: some tests were not run"
 msgstr "Процесс тестирования прерван: некоторые тесты не были выполнены"
 
@@ -503,6 +510,17 @@ msgstr "Не удалось запустить тестовый движок"
 #: src/testing/runtests.py:683
 msgid "Could not read any output from test runner"
 msgstr "Не удалось прочитать Выходные данные из тестового движка"
+
+#, fuzzy
+#~ msgid "Run"
+#~ msgstr "Выполнить"
+
+#~ msgid "Debug Tests"
+#~ msgstr "Отладка Тестов"
+
+#, fuzzy
+#~ msgid "Debug"
+#~ msgstr "Отладка Теста"
 
 #~ msgid "No Results"
 #~ msgstr "Нет результатов"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:04+EDT\n"
 "PO-Revision-Date: 2016-11-01 21:40+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
 "Language-Team: None\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: src/guimgr/commands.py:47
+#: src/guimgr/commands.py:54
 msgid ""
 "Commands for the documentation viewer that are available regardless\n"
 "  of where the focus is."
@@ -24,11 +24,11 @@ msgstr ""
 "Commandes pour le visionneur de documentation qui sont disponibles\n"
 "   où que soit le focus."
 
-#: src/guimgr/commands.py:60
+#: src/guimgr/commands.py:67
 msgid "Search all documentation. "
 msgstr "Chercher dans toute la documentation."
 
-#: src/guimgr/commands.py:75
+#: src/guimgr/commands.py:82
 msgid ""
 "Commands for the documentation viewer.  These are available when\n"
 "  the documentation viewer has the keyboard focus."
@@ -36,27 +36,27 @@ msgstr ""
 "Commandes pour le visionneur de documentation. Elles sont disponibles\n"
 "   quand le visionneur de documentation a le focus sur le clavier."
 
-#: src/guimgr/commands.py:93
+#: src/guimgr/commands.py:100
 msgid "Go back to prior page in the history of those that have been viewed"
 msgstr "Retourner à la page précédente dans l'historique des pages vues"
 
-#: src/guimgr/commands.py:100
+#: src/guimgr/commands.py:107
 msgid "Go forward to next page in the history of those that have been viewed"
 msgstr "Aller à la page suivante dans l'historique des pages vues"
 
-#: src/guimgr/commands.py:107
+#: src/guimgr/commands.py:114
 msgid "Go to the previous page in the current document"
 msgstr "Aller à la page précédente"
 
-#: src/guimgr/commands.py:114
+#: src/guimgr/commands.py:121
 msgid "Go to the next page in the current document"
 msgstr "Aller à la page suivante"
 
-#: src/guimgr/commands.py:121
+#: src/guimgr/commands.py:128
 msgid "Go to the document contents page"
 msgstr "Aller au sommaire"
 
-#: src/guimgr/commands.py:128
+#: src/guimgr/commands.py:135
 msgid ""
 " Initiate incremental mini-search forward from the cursor position,\n"
 "    optionally entering the given search string."
@@ -64,7 +64,7 @@ msgstr ""
 " Initier une mini-recherche incrémentale en avant à partir de la position\n"
 "   du curseur, optionellement en entrant la chaîne recherche donnée."
 
-#: src/guimgr/commands.py:138
+#: src/guimgr/commands.py:145
 msgid ""
 " Initiate incremental regular expression mini-search forward from the\n"
 "    cursor position, optionally entering the given search string."
@@ -73,7 +73,7 @@ msgstr ""
 "   à partir de la position du curseur, optionellement en entrant la chaîne\n"
 "   recherche donnée."
 
-#: src/guimgr/commands.py:147
+#: src/guimgr/commands.py:154
 msgid ""
 " Initiate incremental mini-search backward from the cursor position,\n"
 "    optionally entering the given search string."
@@ -81,7 +81,7 @@ msgstr ""
 " Initier une mini-recherche incrémentale en arrière à partir de la position\n"
 "   du curseur, optionellement en entrant la chaîne recherche donnée."
 
-#: src/guimgr/commands.py:156
+#: src/guimgr/commands.py:163
 msgid ""
 " Initiate incremental regular expression mini-search backward from the\n"
 "    cursor position, optionally entering the given search string."
@@ -90,7 +90,7 @@ msgstr ""
 "   à partir de la position du curseur, optionellement en entrant la chaîne\n"
 "   recherche donnée."
 
-#: src/guimgr/commands.py:165
+#: src/guimgr/commands.py:172
 msgid ""
 "Repeat the most recent isearch, using same string and regex/text.\n"
 "    Reverse direction when reverse is True."
@@ -98,7 +98,7 @@ msgstr ""
 "Répeter la isearch la plus récente, utilisant la même chaine et les mêmes\n"
 "   expressions régulières/text. Inverser la direction quand reverse est Vrai."
 
-#: src/guimgr/commands.py:181
+#: src/guimgr/commands.py:188
 msgid ""
 " Initiate incremental mini-search forward from the cursor position,\n"
 "    using current selection as the search string.  Set persist=False to \n"
@@ -111,7 +111,7 @@ msgstr ""
 "de\n"
 "   recherche interactive immédiatement."
 
-#: src/guimgr/commands.py:191
+#: src/guimgr/commands.py:198
 msgid ""
 " Initiate incremental mini-search backward from the cursor position,\n"
 "    using current selection as the search string.  Set persist=False to\n"
@@ -124,23 +124,23 @@ msgstr ""
 "de\n"
 "   recherche interactive immédiatement."
 
-#: src/guimgr/commands.py:212
+#: src/guimgr/commands.py:219
 msgid " Copy any selected text. "
 msgstr " Copier n'importe quel texte sélectionné."
 
-#: src/guimgr/commands.py:234
+#: src/guimgr/commands.py:241
 msgid "Increase documentation font size"
 msgstr "Augmenter la taille de police de la documentation"
 
-#: src/guimgr/commands.py:239
+#: src/guimgr/commands.py:246
 msgid "Decrease documentation font size"
 msgstr "Diminuer la taille de police de la documentation"
 
-#: src/guimgr/commands.py:244
+#: src/guimgr/commands.py:251
 msgid "Reset documentation font size to default"
 msgstr "Réinitialiser la taille de police de la documentation par défaut"
 
-#: src/guimgr/commands.py:253
+#: src/guimgr/commands.py:260
 msgid ""
 "Commands for the Wing Tips tool.  These are only available when the\n"
 "  tool is visible and has focus"
@@ -148,27 +148,27 @@ msgstr ""
 "Commandes pour l'outil de Conseils Wing. Elles sont disponibles \n"
 "   seulement quand l'outil est visible et a le focus"
 
-#: src/guimgr/commands.py:266
+#: src/guimgr/commands.py:273
 msgid "Go to the previous page in Wing Tips"
 msgstr "Aller à la page précédente des conseils Wing"
 
-#: src/guimgr/commands.py:273
+#: src/guimgr/commands.py:280
 msgid "Go to the next page in Wing Tips"
 msgstr "Aller à la page suivante dans les conseils Wing"
 
-#: src/guimgr/commands.py:280
+#: src/guimgr/commands.py:287
 msgid "Go to the Wing Tips contents page"
 msgstr "Aller à la page de contenus des conseils Wing"
 
-#: src/guimgr/commands.py:285
+#: src/guimgr/commands.py:292
 msgid "Go to a next unseen Wing Tips page"
 msgstr "Aller à une page suivante non vue des conseils Wing"
 
-#: src/guimgr/commands.py:290
+#: src/guimgr/commands.py:297
 msgid "Close the Wing Tips window"
 msgstr "Fermer la fenêtre de conseils Wing"
 
-#: src/guimgr/commands.py:299
+#: src/guimgr/commands.py:306
 msgid ""
 "Commands for a particular editor split, available when the editor\n"
 "  in that split has the keyboard focus.  Additional commands affecting\n"
@@ -180,46 +180,46 @@ msgstr ""
 "additionnelles\n"
 "   affectant le contenu de l'éditeur sont définies séparément."
 
-#: src/guimgr/commands.py:307 src/guimgr/commands.py:357
-#: src/guimgr/commands.py:450 src/guimgr/commands.py:515
-#: src/guimgr/commands.py:687 src/guimgr/commands.py:811
-#: src/guimgr/commands.py:882
+#: src/guimgr/commands.py:314 src/guimgr/commands.py:364
+#: src/guimgr/commands.py:457 src/guimgr/commands.py:522
+#: src/guimgr/commands.py:694 src/guimgr/commands.py:818
+#: src/guimgr/commands.py:889
 msgid " Constructor"
 msgstr " Constructeur"
 
-#: src/guimgr/commands.py:313
+#: src/guimgr/commands.py:320
 msgid " Activate the file menu for the editor. "
 msgstr " Activer le menu fichier pour l'éditeur."
 
-#: src/guimgr/commands.py:320
+#: src/guimgr/commands.py:327
 msgid "Move back in history to previous visited editor position"
 msgstr ""
 "Se déplacer en arrière dans l'historique vers la position d'éditeur visitée "
 "précédente"
 
-#: src/guimgr/commands.py:327
+#: src/guimgr/commands.py:334
 msgid "Move forward in history to next visited editor position"
 msgstr ""
 "Se déplacer en avant dans l'historique vers la position d'éditeur visitée "
 "suivante"
 
-#: src/guimgr/commands.py:334
+#: src/guimgr/commands.py:341
 msgid "Increase height of this split"
 msgstr "Augmenter la hauteur de cette division"
 
-#: src/guimgr/commands.py:338
+#: src/guimgr/commands.py:345
 msgid "Decrease height of this split"
 msgstr "Diminuer la hauteur de cette division"
 
-#: src/guimgr/commands.py:342
+#: src/guimgr/commands.py:349
 msgid "Increase width of this split"
 msgstr "Augmenter la largeur de cette division"
 
-#: src/guimgr/commands.py:346
+#: src/guimgr/commands.py:353
 msgid "Decrease width of this split"
 msgstr "Diminuer la largeur de cette division"
 
-#: src/guimgr/commands.py:350
+#: src/guimgr/commands.py:357
 msgid ""
 "Commands that control splitting up an editor panel.  These are available\n"
 "  when one split in the editor panel has the keyboard focus."
@@ -229,36 +229,36 @@ msgstr ""
 "focus\n"
 "    du clavier."
 
-#: src/guimgr/commands.py:363
+#: src/guimgr/commands.py:370
 msgid " Split current view horizontally. "
 msgstr " Diviser la vue actuelle horizontalement."
 
-#: src/guimgr/commands.py:371
+#: src/guimgr/commands.py:378
 msgid " Split current view horizontally and open selected file"
 msgstr ""
 " Diviser la vue actuelle horizontalement et ouvrir le fichier sélectionné"
 
-#: src/guimgr/commands.py:384
+#: src/guimgr/commands.py:391
 msgid "The file to select"
 msgstr "Fichier à sélectionner"
 
-#: src/guimgr/commands.py:389
+#: src/guimgr/commands.py:396
 msgid "Select file:"
 msgstr "Sélectionner un fichier :"
 
-#: src/guimgr/commands.py:394
+#: src/guimgr/commands.py:401
 msgid ""
 " Split current view vertically.  Create new editor in new view when new==1."
 msgstr ""
 " Diviser la vue actuelle verticalement. Créer un nouvel éditeur dans une "
 "nouvelle vue quand new==1."
 
-#: src/guimgr/commands.py:402
+#: src/guimgr/commands.py:409
 msgid " Split current view vertically and open selected file"
 msgstr ""
 " Diviser la vue actuelle verticalement et ouvrir le fichier sélectionné"
 
-#: src/guimgr/commands.py:412
+#: src/guimgr/commands.py:419
 #, fuzzy
 msgid ""
 " Unsplit all editors so there's only one.  Action specifies how to\n"
@@ -289,29 +289,29 @@ msgstr ""
 "    \n"
 "    "
 
-#: src/guimgr/commands.py:444
+#: src/guimgr/commands.py:451
 msgid "Commands available only when the editor is in non-modal editing mode"
 msgstr ""
 "Commandes disponibles seulement quand l'éditeur est en mode d'édition non-"
 "modale"
 
-#: src/guimgr/commands.py:456 src/guimgr/commands.py:554
+#: src/guimgr/commands.py:463 src/guimgr/commands.py:561
 msgid "Turn on auto-select mode character by character"
 msgstr "Activer le mode d'auto-sélection caractère par caractère"
 
-#: src/guimgr/commands.py:466 src/guimgr/commands.py:559
+#: src/guimgr/commands.py:473 src/guimgr/commands.py:566
 msgid "Turn on auto-select mode line by line"
 msgstr "Activer le mode d'auto-sélection ligne par ligne"
 
-#: src/guimgr/commands.py:476 src/guimgr/commands.py:564
+#: src/guimgr/commands.py:483 src/guimgr/commands.py:571
 msgid "Turn on auto-select block mode"
 msgstr "Activer le mode d'auto-sélection de bloc"
 
-#: src/guimgr/commands.py:486 src/guimgr/commands.py:708
+#: src/guimgr/commands.py:493 src/guimgr/commands.py:715
 msgid "Exit visual mode and return back to default mode"
 msgstr "Sortir du mode visuel et revenir au mode par défaut."
 
-#: src/guimgr/commands.py:508
+#: src/guimgr/commands.py:515
 msgid ""
 "Commands available only when the editor is in browse mode (used\n"
 "  for VI bindings and possibly others)"
@@ -319,15 +319,15 @@ msgstr ""
 "Commandes disponibles seulement quand l'éditeur est en mode explorateur\n"
 "   (utilisé pour les raccourcis VI et probablement d'autres)"
 
-#: src/guimgr/commands.py:525 src/guimgr/commands.py:721
+#: src/guimgr/commands.py:532 src/guimgr/commands.py:728
 msgid "Enter editor insert mode"
 msgstr "Entrer dans le mode d'insertion de l'éditeur"
 
-#: src/guimgr/commands.py:543
+#: src/guimgr/commands.py:550
 msgid "Enter editor replace mode"
 msgstr "Entrer dans le mode de remplacement de l'éditeur"
 
-#: src/guimgr/commands.py:548
+#: src/guimgr/commands.py:555
 msgid ""
 "Enter editor visual mode.  Unit should be one of 'char', 'line',\n"
 "    or 'block'."
@@ -336,12 +336,12 @@ msgstr ""
 "'line',\n"
 "    ou 'block'."
 
-#: src/guimgr/commands.py:569
+#: src/guimgr/commands.py:576
 msgid "Turn on auto-select using previous mode and selection"
 msgstr ""
 "Activer l'auto-sélection en utilisant le mode et la sélection précédents"
 
-#: src/guimgr/commands.py:575 src/guimgr/commands.py:727
+#: src/guimgr/commands.py:582 src/guimgr/commands.py:734
 msgid ""
 "Execute a VI command by name.  This implements \":\" commands for the\n"
 "    VI/Vim keyboard personality.  The following subset of VI/Vim : commands\n"
@@ -365,8 +365,8 @@ msgid ""
 "    "
 msgstr ""
 
-#: src/guimgr/commands.py:608 src/guimgr/commands.py:760
-#: src/guimgr/commands.py:838
+#: src/guimgr/commands.py:615 src/guimgr/commands.py:767
+#: src/guimgr/commands.py:845
 msgid ""
 "Perform vi mode ctrl-v action which either does a paste or does\n"
 "    start-select-block.  The default is to map ctrl-v to clipboard on\n"
@@ -379,7 +379,7 @@ msgstr ""
 "   Windows et OS X. Cela peut être ecrasé par la préférence du mode VI Ctrl-"
 "X/C/V."
 
-#: src/guimgr/commands.py:621 src/guimgr/commands.py:773
+#: src/guimgr/commands.py:628 src/guimgr/commands.py:780
 msgid ""
 "Perform vi mode ctrl-x action which either does a cut or does\n"
 "    initiate-numeric-modified with the following digit key press. The "
@@ -396,7 +396,7 @@ msgstr ""
 "ecrasé par la préférence\n"
 "   du mode VI Ctrl-X/C/V."
 
-#: src/guimgr/commands.py:640 src/guimgr/commands.py:792
+#: src/guimgr/commands.py:647 src/guimgr/commands.py:799
 msgid ""
 "Perform vi mode ctrl-c action which either does a copy or nothing if\n"
 "    ctrl-x/v/c are not being used for clipboard actions. The default\n"
@@ -411,7 +411,7 @@ msgstr ""
 "   sur Windows et OS X. Cela peut être ecrasé par la préférence du mode VI "
 "Ctrl-X/C/V."
 
-#: src/guimgr/commands.py:650
+#: src/guimgr/commands.py:657
 msgid ""
 "Perform vi's :set action. The command is the portion after :set.  Currently\n"
 "    supports ic, noic, ai, noai, number or nu, nonumber or nonu, ro, noro, "
@@ -419,7 +419,7 @@ msgid ""
 "    nosm.  Multiple options can be specied in one call as for :set ic sm ai"
 msgstr ""
 
-#: src/guimgr/commands.py:680
+#: src/guimgr/commands.py:687
 msgid ""
 "Commands available only when the editor is in visual mode (used\n"
 "  for VI bindings and some others)"
@@ -427,12 +427,12 @@ msgstr ""
 "Commandes uniquement disponibles quand l'éditeur est en mode\n"
 "   visuel (utilisé pour des raccourcis VI et quelques autres)"
 
-#: src/guimgr/commands.py:697 src/guimgr/commands.py:821
-#: src/guimgr/commands.py:888
+#: src/guimgr/commands.py:704 src/guimgr/commands.py:828
+#: src/guimgr/commands.py:895
 msgid "Enter editor browse mode"
 msgstr "Entrer le mode de naviguation de l'éditeur"
 
-#: src/guimgr/commands.py:702
+#: src/guimgr/commands.py:709
 msgid ""
 "Alter type of editor visual mode or exit back to browse mode.  Unit should "
 "be \n"
@@ -442,11 +442,11 @@ msgstr ""
 "explorateur. L'unité\n"
 "   doit être une de 'char', 'line', ou 'block'."
 
-#: src/guimgr/commands.py:713
+#: src/guimgr/commands.py:720
 msgid "Select a text object based on the following key press"
 msgstr ""
 
-#: src/guimgr/commands.py:804
+#: src/guimgr/commands.py:811
 msgid ""
 "Commands available only when editor is in insert mode (used \n"
 "  for VI bindings and possibly others)"
@@ -454,7 +454,7 @@ msgstr ""
 "Commandes uniquement disponibles quand l'éditeur est en mode\n"
 "   insertion (utilisé pour des raccourcis VI et quelques autres)"
 
-#: src/guimgr/commands.py:851
+#: src/guimgr/commands.py:858
 msgid ""
 "Perform vi mode ctrl-x action which either does a cut or nothing \n"
 "    depending on whether ctrl-x/v/c are mapped to clipboard actions. The "
@@ -471,7 +471,7 @@ msgstr ""
 "OS X.\n"
 "   Cela peut être ecrasé par la préférence du mode VI Ctrl-X/C/V."
 
-#: src/guimgr/commands.py:862
+#: src/guimgr/commands.py:869
 msgid ""
 "Perform vi mode ctrl-c action which either does a copy or enters browse\n"
 "    mode if ctrl-x/v/c are not being used for clipboard actions. The "
@@ -488,7 +488,7 @@ msgstr ""
 "OS X.\n"
 "   Cela peut être ecrasé par la préférence du mode VI Ctrl-X/C/V."
 
-#: src/guimgr/commands.py:875
+#: src/guimgr/commands.py:882
 msgid ""
 "Commands available only when editor is in replace mode (used \n"
 "  for VI bindings and possibly others)"
@@ -496,7 +496,7 @@ msgstr ""
 "Commandes uniquement disponibles quand l'éditeur est en mode\n"
 "   remplacement (utilisé pour des raccourcis VI et quelques autres)"
 
-#: src/guimgr/commands.py:907
+#: src/guimgr/commands.py:914
 #, fuzzy
 msgid ""
 "Commands for windows that contain dockable tool areas.  These\n"
@@ -505,43 +505,43 @@ msgstr ""
 "Commandes pour les fenêtres qui contiennent des zones d'outils DOCKABLE.\n"
 "   Elles sont disponibles pour la fenêtre active actuelle, si existante."
 
-#: src/guimgr/commands.py:919
+#: src/guimgr/commands.py:926
 msgid "Show or minimize the horizontal tool area"
 msgstr "Afficher ou minimiser la zone d'outils horizontale"
 
-#: src/guimgr/commands.py:928
+#: src/guimgr/commands.py:935
 msgid "Show or minimize the vertical tool area"
 msgstr "Afficher ou minimiser la zone d'outils verticale"
 
-#: src/guimgr/commands.py:964
+#: src/guimgr/commands.py:971
 msgid " Returns if panel window is in front of editor or dock window. "
 msgstr ""
 
-#: src/guimgr/commands.py:1044
+#: src/guimgr/commands.py:1051
 msgid "Show the horizontal tool area"
 msgstr "Afficher la zone d'outils horizontale"
 
-#: src/guimgr/commands.py:1052
+#: src/guimgr/commands.py:1059
 msgid "Minimize the horizontal tool area"
 msgstr "Minimiser la zone d'outils horizontale"
 
-#: src/guimgr/commands.py:1060
+#: src/guimgr/commands.py:1067
 msgid "Show the vertical tool area"
 msgstr "Afficher la zone d'outils verticale"
 
-#: src/guimgr/commands.py:1068
+#: src/guimgr/commands.py:1075
 msgid "Minimize the vertical tool area"
 msgstr "Minimiser la zone d'outils verticale"
 
-#: src/guimgr/commands.py:1076
+#: src/guimgr/commands.py:1083
 msgid "Hide the horizontal tool area"
 msgstr "Masquer la zone d'outils horizontale"
 
-#: src/guimgr/commands.py:1084
+#: src/guimgr/commands.py:1091
 msgid "Hide the vertical tool area"
 msgstr "Masquer la zone d'outils verticale"
 
-#: src/guimgr/commands.py:1092
+#: src/guimgr/commands.py:1099
 msgid ""
 "Hide both the vertical and horizontal tool areas and toolbar, saving "
 "previous\n"
@@ -552,29 +552,29 @@ msgstr ""
 "   l'état précédent ainsi il pourra être restauré plus tard avec "
 "exit_fullscreen"
 
-#: src/guimgr/commands.py:1110
+#: src/guimgr/commands.py:1117
 msgid "Restore previous non-fullscreen state of all tools and tool bar"
 msgstr ""
 "Restaurer l'état non-plein écran précédent de tous les outils et de la barre "
 "d'outils"
 
-#: src/guimgr/commands.py:1139
+#: src/guimgr/commands.py:1146
 msgid " Show toolbars in all document windows "
 msgstr " Afficher les barres d'outils dans toutes les fenêtres de document"
 
-#: src/guimgr/commands.py:1148
+#: src/guimgr/commands.py:1155
 msgid " Hide toolbars in all document windows "
 msgstr " Masquer les barres d'outils dans toutes les fenêtres de document"
 
-#: src/guimgr/commands.py:1157
+#: src/guimgr/commands.py:1164
 msgid " Display the tall toolbox on the left. "
 msgstr ""
 
-#: src/guimgr/commands.py:1168
+#: src/guimgr/commands.py:1175
 msgid " Display the tall toolbox on the right. "
 msgstr ""
 
-#: src/guimgr/commands.py:1180
+#: src/guimgr/commands.py:1187
 msgid ""
 "Commands for windows in general.  These are available for the currently \n"
 "  active window, if any."
@@ -582,7 +582,7 @@ msgstr ""
 "Commandes pour les fenêtres en général. Elles sont disponibles pour la \n"
 "  fenêtre active actuelle, si existante."
 
-#: src/guimgr/commands.py:1192
+#: src/guimgr/commands.py:1199
 msgid ""
 "Move the keyboard focus forward within the Window to the next editable\n"
 "    area"
@@ -590,7 +590,7 @@ msgstr ""
 "Déplacer le focus du clavier en avant dans la fenêtre vers la zone éditable\n"
 "   suivante"
 
-#: src/guimgr/commands.py:1373
+#: src/guimgr/commands.py:1380
 #, fuzzy
 msgid ""
 "Move focus to next or previous editor split, optionally wrapping when\n"
@@ -599,19 +599,19 @@ msgstr ""
 "Déplacer le focus vers la division suivante ou précédente de l'éditeur,\n"
 "   optionellement WRAPPING quand la fin est atteinte."
 
-#: src/guimgr/commands.py:1394
+#: src/guimgr/commands.py:1401
 msgid "Move focus to first editor split"
 msgstr "Déplacer le focus à la première division de l'éditeur"
 
-#: src/guimgr/commands.py:1403
+#: src/guimgr/commands.py:1410
 msgid "Move focus to last editor split"
 msgstr "Déplacer le focus à la dernière division de l'éditeur"
 
-#: src/guimgr/commands.py:1412
+#: src/guimgr/commands.py:1419
 msgid "Move focus to previous editor split"
 msgstr "Déplacer le focus à la division précédente de l'éditeur"
 
-#: src/guimgr/commands.py:1419
+#: src/guimgr/commands.py:1426
 msgid ""
 "Move focus back to the current editor, out of any tool, if there is\n"
 "    an active editor."
@@ -619,15 +619,15 @@ msgstr ""
 "Déplacer le focus du clavier en arrière dans l'éditeur actuel, en dehors\n"
 "   de tout outil, si il y a un éditeur actif."
 
-#: src/guimgr/commands.py:1432
+#: src/guimgr/commands.py:1439
 msgid "Show the next tool, starting with most recently shown tool"
 msgstr ""
 
-#: src/guimgr/commands.py:1457
+#: src/guimgr/commands.py:1464
 msgid "Show the previous tool, starting with the move recently shown tool"
 msgstr ""
 
-#: src/guimgr/commands.py:1493
+#: src/guimgr/commands.py:1500
 msgid ""
 "Commands available when the tool bar search entry area has the keyboard\n"
 "  focus."
@@ -635,84 +635,84 @@ msgstr ""
 "Commandes disponibles quand l'entrée de recherche de la barre d'outils a\n"
 "  le focus sur le clavier."
 
-#: src/guimgr/commands.py:1506 src/guimgr/commands.py:1515
+#: src/guimgr/commands.py:1513 src/guimgr/commands.py:1522
 msgid " Cut selection "
 msgstr " Couper la sélection "
 
-#: src/guimgr/commands.py:1524
+#: src/guimgr/commands.py:1531
 msgid " Paste from clipboard "
 msgstr " Coller du presse-papier"
 
-#: src/guimgr/commands.py:1529
+#: src/guimgr/commands.py:1536
 msgid "Move forward one character"
 msgstr "Se déplacer en avant d'un caractère"
 
-#: src/guimgr/commands.py:1533
+#: src/guimgr/commands.py:1540
 msgid "Move forward one character, extending the selection"
 msgstr "Se déplacer en avant d'un caractère, en étendant la sélection"
 
-#: src/guimgr/commands.py:1537
+#: src/guimgr/commands.py:1544
 msgid "Move forward one word"
 msgstr "Se déplacer en avant d'un mot"
 
-#: src/guimgr/commands.py:1541
+#: src/guimgr/commands.py:1548
 msgid "Move forward one word, extending the selection"
 msgstr "Se déplacer en avant d'un mot, en étendant la sélection"
 
-#: src/guimgr/commands.py:1545
+#: src/guimgr/commands.py:1552
 msgid "Move backward one character"
 msgstr "Se déplacer en arrière d'un caractère"
 
-#: src/guimgr/commands.py:1549
+#: src/guimgr/commands.py:1556
 msgid "Move backward one character, extending the selection"
 msgstr "Se déplacer en arrière d'un caractère, en étendant la sélection"
 
-#: src/guimgr/commands.py:1553
+#: src/guimgr/commands.py:1560
 msgid "Move backward one word"
 msgstr "Se déplacer en arrière d'un mot"
 
-#: src/guimgr/commands.py:1557
+#: src/guimgr/commands.py:1564
 msgid "Move backward one word, extending the selection"
 msgstr "Se déplacer en arrière d'un mot, en étendant la sélection"
 
-#: src/guimgr/commands.py:1561
+#: src/guimgr/commands.py:1568
 msgid "Move to the beginning of the toolbar search entry"
 msgstr "Se déplacer au début de l'entrée de recherche de la barre d'outils"
 
-#: src/guimgr/commands.py:1565
+#: src/guimgr/commands.py:1572
 msgid ""
 "Move to the beginning of the toolbar search entry, extending the selection"
 msgstr ""
 "Se déplacer au début de l'entrée de recherche de la barre d'outils, en "
 "étendant la sélection"
 
-#: src/guimgr/commands.py:1569
+#: src/guimgr/commands.py:1576
 msgid "Move to the end of the toolbar search entry"
 msgstr "Se déplacer à la fin de l'entrée de recherche de la barre d'outils"
 
-#: src/guimgr/commands.py:1573
+#: src/guimgr/commands.py:1580
 msgid "Move to the end of the toolbar search entry, extending the selection"
 msgstr ""
 "Se déplacer à la fin de l'entrée de recherche de la barre d'outils, en "
 "étendant la sélection"
 
-#: src/guimgr/commands.py:1577
+#: src/guimgr/commands.py:1584
 msgid "Delete character in front of the cursor"
 msgstr "Supprimer le caractère devant le curseur"
 
-#: src/guimgr/commands.py:1581
+#: src/guimgr/commands.py:1588
 msgid "Delete word in front of the cursor"
 msgstr "Supprimer le mot devant le curseur"
 
-#: src/guimgr/commands.py:1586
+#: src/guimgr/commands.py:1593
 msgid "Delete character behind the cursor"
 msgstr "Supprimer le caractère derrière le curseur"
 
-#: src/guimgr/commands.py:1590
+#: src/guimgr/commands.py:1597
 msgid "Delete word behind the cursor"
 msgstr "Supprimer le mot derrière le curseur"
 
-#: src/guimgr/commands.py:1595 src/guimgr/commands.py:1793
+#: src/guimgr/commands.py:1602 src/guimgr/commands.py:1800
 msgid ""
 " Standard editor commands for use when a QLineEdit instance has the \n"
 "  focus. "
@@ -720,11 +720,11 @@ msgstr ""
 " Commandes standard de l’éditeur à utiliser quand une instance QLineEdite\n"
 "    a le focus."
 
-#: src/guimgr/commands.py:1609 src/guimgr/commands.py:1807
+#: src/guimgr/commands.py:1616 src/guimgr/commands.py:1814
 msgid " Returns start, end of selection; when no selection, start == end "
 msgstr ""
 
-#: src/guimgr/commands.py:1833
+#: src/guimgr/commands.py:1840
 msgid ""
 " Returns start of line and start of line text for line the cursor is\n"
 "    on.  Assumes a block is a line. "

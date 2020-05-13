@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_guimgr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2018-03-05 09:10+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Loco-Project-Id: 43103\n"
 "X-Loco-Api-Version: 1.0.18 20180227-1\n"
 
-#: src/guimgr/attribs.py:86
+#: src/guimgr/attribs.py:88
 msgid ""
 "Set this to cause Wing to automatically change perspectives to \"debug\" "
 "whenever debugging is started.  The previous perspective (\"edit\" by "
@@ -27,11 +27,11 @@ msgstr ""
 "«отладки» при запуске отладки. Предыдущая перспектива («редактирование» по "
 "умолчанию) восстановится после прекращения отладки."
 
-#: src/guimgr/bootstrap.py:56
+#: src/guimgr/bootstrap.py:59
 msgid "Can't access %s"
 msgstr "Не удается получить доступ %s"
 
-#: src/guimgr/bootstrap.py:57
+#: src/guimgr/bootstrap.py:60
 msgid ""
 "The user settings directory %s is read-only or cannot be accessed.  Wing "
 "cannot run without write access to this directory."
@@ -39,11 +39,11 @@ msgstr ""
 "Каталог параметров пользователя %s доступен только для чтения или "
 "недоступен.  Wing не может работать без доступа на запись в этот каталог."
 
-#: src/guimgr/bootstrap.py:67
+#: src/guimgr/bootstrap.py:70
 msgid "Can't create %s"
 msgstr "Не удается создать %s"
 
-#: src/guimgr/bootstrap.py:68
+#: src/guimgr/bootstrap.py:71
 msgid ""
 "Unable to create a %s directory because the disk is read-only or a file of "
 "the same name already exists.  Wing cannot run without write access to this "
@@ -53,64 +53,64 @@ msgstr ""
 "или файл с тем же именем уже существует. Wing не может работать без "
 "разрешения записи в этот каталог."
 
-#: src/guimgr/cap_filesets.py:414
+#: src/guimgr/cap_filesets.py:417
 msgid "Create a new file set"
 msgstr "Создать новый набор файлов"
 
-#: src/guimgr/cap_filesets.py:417
+#: src/guimgr/cap_filesets.py:420
 msgid "Delete the selected file set"
 msgstr "Удалить выбранный набор файлов"
 
-#: src/guimgr/cap_filesets.py:420 src/guimgr/cap_perspectives.py:541
-#: src/guimgr/constants.py:742
+#: src/guimgr/cap_filesets.py:423 src/guimgr/cap_perspectives.py:544
+#: src/guimgr/constants.py:754
 msgid "New"
 msgstr "Новый"
 
-#: src/guimgr/cap_filesets.py:421 src/guimgr/cap_perspectives.py:543
+#: src/guimgr/cap_filesets.py:424 src/guimgr/cap_perspectives.py:546
 msgid "Delete"
 msgstr "Удалить"
 
-#: src/guimgr/cap_filesets.py:443 src/guimgr/cap_perspectives.py:565
+#: src/guimgr/cap_filesets.py:446 src/guimgr/cap_perspectives.py:568
 msgid "_Show Docs..."
 msgstr "Показать Docs..."
 
-#: src/guimgr/cap_filesets.py:445 src/guimgr/cap_perspectives.py:569
+#: src/guimgr/cap_filesets.py:448 src/guimgr/cap_perspectives.py:572
 msgid "_Load"
 msgstr "_Загрузить "
 
-#: src/guimgr/cap_filesets.py:446 src/guimgr/cap_perspectives.py:570
-#: src/guimgr/constants.py:249
+#: src/guimgr/cap_filesets.py:449 src/guimgr/cap_perspectives.py:573
+#: src/guimgr/constants.py:252
 msgid "_Close"
 msgstr "_Закрыть"
 
-#: src/guimgr/cap_filesets.py:455 src/guimgr/cap_filesets.py:762
-#: src/guimgr/cap_perspectives.py:573 src/guimgr/cap_perspectives.py:1000
-#: src/guimgr/guimanager.py:4944
+#: src/guimgr/cap_filesets.py:458 src/guimgr/cap_filesets.py:765
+#: src/guimgr/cap_perspectives.py:576 src/guimgr/cap_perspectives.py:1003
+#: src/guimgr/guimanager.py:5122
 msgid "Key Binding"
 msgstr "Привязка клавиш"
 
-#: src/guimgr/cap_filesets.py:455 src/guimgr/cap_perspectives.py:573
+#: src/guimgr/cap_filesets.py:458 src/guimgr/cap_perspectives.py:576
 msgid "Shared"
 msgstr "Общий"
 
-#: src/guimgr/cap_filesets.py:455 src/guimgr/cap_perspectives.py:573
-#: src/guimgr/prefs.py:565
+#: src/guimgr/cap_filesets.py:458 src/guimgr/cap_perspectives.py:576
+#: src/guimgr/prefs.py:568
 msgid "Name"
 msgstr "Название"
 
-#: src/guimgr/cap_filesets.py:476 src/guimgr/cap_perspectives.py:623
+#: src/guimgr/cap_filesets.py:479 src/guimgr/cap_perspectives.py:626
 msgid "Right click on the list for additional operations"
 msgstr "Щелкните правой кнопкой мыши по списку для дополнительных операций"
 
-#: src/guimgr/cap_filesets.py:489
+#: src/guimgr/cap_filesets.py:492
 msgid "Manage File Sets"
 msgstr "Управление наборами файлов"
 
-#: src/guimgr/cap_filesets.py:564
+#: src/guimgr/cap_filesets.py:567
 msgid "Replace Existing File Set?"
 msgstr "Заменить существующий набор файлов?"
 
-#: src/guimgr/cap_filesets.py:565
+#: src/guimgr/cap_filesets.py:568
 msgid ""
 "That fileset already exists.  Are you sure you want to replace the existing "
 "fileset '%s'?"
@@ -118,62 +118,62 @@ msgstr ""
 "Этот набор уже существует.  Вы уверены, что хотите заменить существующий "
 "набор файлов '%s'?"
 
-#: src/guimgr/cap_filesets.py:567 src/guimgr/cap_filesets.py:638
-#: src/guimgr/cap_perspectives.py:353 src/guimgr/cap_perspectives.py:717
-#: src/guimgr/cap_perspectives.py:734 src/guimgr/cap_perspectives.py:855
-#: src/guimgr/cap_perspectives.py:868 src/guimgr/feedback.py:401
-#: src/guimgr/feedback.py:458 src/guimgr/messages.py:244
-#: src/guimgr/messages.py:968 src/guimgr/savemanager.py:428
-#: src/guimgr/savemanager.py:802
+#: src/guimgr/cap_filesets.py:570 src/guimgr/cap_filesets.py:641
+#: src/guimgr/cap_perspectives.py:356 src/guimgr/cap_perspectives.py:720
+#: src/guimgr/cap_perspectives.py:737 src/guimgr/cap_perspectives.py:858
+#: src/guimgr/cap_perspectives.py:871 src/guimgr/feedback.py:405
+#: src/guimgr/feedback.py:462 src/guimgr/messages.py:246
+#: src/guimgr/messages.py:970 src/guimgr/savemanager.py:443
+#: src/guimgr/savemanager.py:836
 msgid "_OK"
 msgstr ""
 
-#: src/guimgr/cap_filesets.py:568 src/guimgr/cap_filesets.py:639
-#: src/guimgr/cap_perspectives.py:197 src/guimgr/cap_perspectives.py:735
-#: src/guimgr/cap_perspectives.py:869 src/guimgr/feedback.py:65
-#: src/guimgr/guimanager.py:995 src/guimgr/guimanager.py:3096
-#: src/guimgr/guimanager.py:3111 src/guimgr/messages.py:970
-#: src/guimgr/messages.py:984 src/guimgr/savemanager.py:294
-#: src/guimgr/savemanager.py:298 src/guimgr/savemanager.py:482
-#: src/guimgr/savemanager.py:671 src/guimgr/savemanager.py:689
-#: src/guimgr/savemanager.py:705 src/guimgr/savemanager.py:718
-#: src/guimgr/savemanager.py:736 src/guimgr/savemanager.py:751
+#: src/guimgr/cap_filesets.py:571 src/guimgr/cap_filesets.py:642
+#: src/guimgr/cap_perspectives.py:200 src/guimgr/cap_perspectives.py:738
+#: src/guimgr/cap_perspectives.py:872 src/guimgr/feedback.py:67
+#: src/guimgr/guimanager.py:409 src/guimgr/guimanager.py:423
+#: src/guimgr/guimanager.py:1109 src/guimgr/messages.py:972
+#: src/guimgr/messages.py:986 src/guimgr/savemanager.py:309
+#: src/guimgr/savemanager.py:313 src/guimgr/savemanager.py:497
+#: src/guimgr/savemanager.py:688 src/guimgr/savemanager.py:701
+#: src/guimgr/savemanager.py:719 src/guimgr/savemanager.py:734
+#: src/guimgr/savemanager.py:801 src/guimgr/savemanager.py:819
 msgid "_Cancel"
 msgstr "_Отмена"
 
-#: src/guimgr/cap_filesets.py:635
+#: src/guimgr/cap_filesets.py:638
 msgid "Confirm File Set Delete"
 msgstr "Подтвердить Удаление Набора Файлов"
 
-#: src/guimgr/cap_filesets.py:636
+#: src/guimgr/cap_filesets.py:639
 msgid "Are you sure you want to delete file set '%s'?"
 msgstr "Вы уверены, что хотите удалить набор файлов '%s'?"
 
-#: src/guimgr/cap_filesets.py:688
+#: src/guimgr/cap_filesets.py:691
 msgid "Open This File Set"
 msgstr "Открыть Этот Набор Файлов"
 
-#: src/guimgr/cap_filesets.py:690
+#: src/guimgr/cap_filesets.py:693
 msgid "New..."
 msgstr "Новый..."
 
-#: src/guimgr/cap_filesets.py:691
+#: src/guimgr/cap_filesets.py:694
 msgid "Delete..."
 msgstr "Удалить..."
 
-#: src/guimgr/cap_filesets.py:693
+#: src/guimgr/cap_filesets.py:696
 msgid "Set Key Binding..."
 msgstr "Установить привязку клавиш..."
 
-#: src/guimgr/cap_filesets.py:695
+#: src/guimgr/cap_filesets.py:698
 msgid "Update with Currently Opened Files"
 msgstr "Обновление текущих открытых файлов"
 
-#: src/guimgr/cap_filesets.py:745
+#: src/guimgr/cap_filesets.py:748
 msgid "File Set Key Binding"
 msgstr "Привязка Ключа Набору Файлов"
 
-#: src/guimgr/cap_filesets.py:763
+#: src/guimgr/cap_filesets.py:766
 msgid ""
 "The key binding to assign to the file set.  When pressed, this causes Wing "
 "to open all the files in the file set."
@@ -181,11 +181,11 @@ msgstr ""
 "Привязка ключа набору файлов .  При нажатии  заставит Wing открыть все файлы "
 "в наборе файлов."
 
-#: src/guimgr/cap_perspectives.py:191
+#: src/guimgr/cap_perspectives.py:194
 msgid "Save current GUI State?"
 msgstr "Сохранить текущее состояние GUI?"
 
-#: src/guimgr/cap_perspectives.py:192
+#: src/guimgr/cap_perspectives.py:195
 msgid ""
 "Do you want to save the current GUI state for the perspective %s before "
 "changing to perspective %s?"
@@ -193,21 +193,21 @@ msgstr ""
 "Вы хотите сохранить текущее состояние GUI для перспективы %s Перед переходом "
 "на перспективу %s?"
 
-#: src/guimgr/cap_perspectives.py:195
+#: src/guimgr/cap_perspectives.py:198
 #, fuzzy
 msgid "_Save State"
 msgstr "Сохранить состояние"
 
-#: src/guimgr/cap_perspectives.py:196
+#: src/guimgr/cap_perspectives.py:199
 #, fuzzy
 msgid "_Abandon State"
 msgstr "Отказ от состояния"
 
-#: src/guimgr/cap_perspectives.py:336
+#: src/guimgr/cap_perspectives.py:339
 msgid "Auto-Perspectives Enabled"
 msgstr "Авто-перспективы включены"
 
-#: src/guimgr/cap_perspectives.py:337
+#: src/guimgr/cap_perspectives.py:340
 msgid ""
 "Wing has turned on auto-perspectives for this project and has changed to the "
 "perspective '%s'."
@@ -215,11 +215,11 @@ msgstr ""
 "Wing включил авто-перспективы для этого проекта и изменил на перспективу "
 "'%s'."
 
-#: src/guimgr/cap_perspectives.py:341
+#: src/guimgr/cap_perspectives.py:344
 msgid "Auto-Perspectives Disabled"
 msgstr "Автоматические перспективы отключены"
 
-#: src/guimgr/cap_perspectives.py:342
+#: src/guimgr/cap_perspectives.py:345
 msgid ""
 "Wing has turned off auto-perspectives for this project and has changed to "
 "the default perspective 'user'."
@@ -227,7 +227,7 @@ msgstr ""
 "Wing отключил авто-перспективы для этого проекта и изменил на перспективу по "
 "умолчанию 'user'."
 
-#: src/guimgr/cap_perspectives.py:350
+#: src/guimgr/cap_perspectives.py:353
 msgid ""
 "The previously current perspective '%s' has been saved and can be restored "
 "from the Tools menu."
@@ -235,51 +235,51 @@ msgstr ""
 "Ранее существующая перспектива '%s' была сохранена и может быть "
 "восстановлена из меню «Инструменты»."
 
-#: src/guimgr/cap_perspectives.py:532
+#: src/guimgr/cap_perspectives.py:535
 msgid "Create a new perspective"
 msgstr "Создать новую перспективу"
 
-#: src/guimgr/cap_perspectives.py:535
+#: src/guimgr/cap_perspectives.py:538
 msgid "Duplicate the selected perspective"
 msgstr "Дублировать выбранную перспективу"
 
-#: src/guimgr/cap_perspectives.py:538
+#: src/guimgr/cap_perspectives.py:541
 msgid "Delete the selected perspective"
 msgstr "Удалить выбранную перспективу"
 
-#: src/guimgr/cap_perspectives.py:542
+#: src/guimgr/cap_perspectives.py:545
 msgid "Duplicate"
 msgstr "Дублировать"
 
-#: src/guimgr/cap_perspectives.py:567
+#: src/guimgr/cap_perspectives.py:570
 msgid "_Preferences..."
 msgstr "Настройки..."
 
-#: src/guimgr/cap_perspectives.py:573
+#: src/guimgr/cap_perspectives.py:576
 msgid "Auto-save"
 msgstr "Автосохранение"
 
-#: src/guimgr/cap_perspectives.py:573
+#: src/guimgr/cap_perspectives.py:576
 msgid "Style"
 msgstr "Стиль"
 
-#: src/guimgr/cap_perspectives.py:636
+#: src/guimgr/cap_perspectives.py:639
 msgid "Manage Perspectives"
 msgstr "Управление Перспективами"
 
-#: src/guimgr/cap_perspectives.py:714
+#: src/guimgr/cap_perspectives.py:717
 msgid "Cannot Rename Built-in Perspective"
 msgstr "Не удается  переименовать встроенную перспективу"
 
-#: src/guimgr/cap_perspectives.py:715
+#: src/guimgr/cap_perspectives.py:718
 msgid "The perspective '%s' is a built-in perspective and cannot be renamed."
 msgstr "Перспектива '%s' является встроенной и не может быть переименована."
 
-#: src/guimgr/cap_perspectives.py:731
+#: src/guimgr/cap_perspectives.py:734
 msgid "Overwrite Existing Perspective?"
 msgstr "Перезаписать существующую перспективу?"
 
-#: src/guimgr/cap_perspectives.py:732
+#: src/guimgr/cap_perspectives.py:735
 msgid ""
 "That perspective already exists.  Are you sure you want to overwrite the "
 "existing perspective '%s'?"
@@ -287,19 +287,19 @@ msgstr ""
 "Эта перспектива уже существует.  Вы действительно хотите перезаписать её "
 "'%s'?"
 
-#: src/guimgr/cap_perspectives.py:852
+#: src/guimgr/cap_perspectives.py:855
 msgid "Cannot Delete Built-in Perspective"
 msgstr "Нельзя удалить встроенную перспективу"
 
-#: src/guimgr/cap_perspectives.py:853
+#: src/guimgr/cap_perspectives.py:856
 msgid "The perspective '%s' is a built-in perspective and cannot be deleted."
 msgstr "Перспектива '%s' является встроенной и не может быть удалена."
 
-#: src/guimgr/cap_perspectives.py:864
+#: src/guimgr/cap_perspectives.py:867
 msgid "Confirm Perspective Delete"
 msgstr "Подтверждение удаления перспективы"
 
-#: src/guimgr/cap_perspectives.py:865
+#: src/guimgr/cap_perspectives.py:868
 msgid ""
 "Are you sure you want to delete perspective '%s'?  The stored state will be "
 "lost."
@@ -307,35 +307,35 @@ msgstr ""
 "Вы уверены, что хотите удалить перспективу '%s'?  Сохраненное состояние "
 "будет потеряно."
 
-#: src/guimgr/cap_perspectives.py:927
+#: src/guimgr/cap_perspectives.py:930
 msgid "_New..."
 msgstr "_Новый..."
 
-#: src/guimgr/cap_perspectives.py:928
+#: src/guimgr/cap_perspectives.py:931
 msgid "D_uplicate..."
 msgstr "_Дублировать..."
 
-#: src/guimgr/cap_perspectives.py:929
+#: src/guimgr/cap_perspectives.py:932
 msgid "_Delete..."
 msgstr "_Удалить..."
 
-#: src/guimgr/cap_perspectives.py:931
+#: src/guimgr/cap_perspectives.py:934
 msgid "Set _Key Binding..."
 msgstr "Установить привязку клавиш..."
 
-#: src/guimgr/cap_perspectives.py:933
+#: src/guimgr/cap_perspectives.py:936
 msgid "Update with _Current State"
 msgstr "Обновление Текущего состояния"
 
-#: src/guimgr/cap_perspectives.py:934
+#: src/guimgr/cap_perspectives.py:937
 msgid "_Restore Saved State"
 msgstr "Восстановить сохраненное состояние"
 
-#: src/guimgr/cap_perspectives.py:983
+#: src/guimgr/cap_perspectives.py:986
 msgid "Perspective Key Binding"
 msgstr "Перспектива Привязка клавиш"
 
-#: src/guimgr/cap_perspectives.py:1001
+#: src/guimgr/cap_perspectives.py:1004
 msgid ""
 "The key binding to assign to the perspective.  When pressed, this causes "
 "Wing to change to that perspective and restore the GUI state associated with "
@@ -344,1361 +344,1389 @@ msgstr ""
 "Привязка клавиш назначаемых перспективе.  При нажатии это заставляет Wing "
 "измениться на ту перспективу и восстановить состояние GUI, связанное с ней."
 
-#: src/guimgr/commandbar.py:80
+#: src/guimgr/commandbar.py:83
 msgid "_Dark Mode"
 msgstr ""
 
-#: src/guimgr/commandbar.py:81
+#: src/guimgr/commandbar.py:84
 #, fuzzy
 msgid "_Presentation Mode"
 msgstr "Режим выбора"
 
-#: src/guimgr/commandbar.py:113
+#: src/guimgr/commandbar.py:116
 #, fuzzy
 msgid "Show _Menubar"
 msgstr "Показать номера строк"
 
-#: src/guimgr/commandbar.py:116
+#: src/guimgr/commandbar.py:119
 #, fuzzy
 msgid "Show _Toolbar"
 msgstr "Показать подсказки"
 
-#: src/guimgr/commandbar.py:122 src/guimgr/constants.py:378
-#: src/guimgr/initialprefs.py:44
+#: src/guimgr/commandbar.py:125 src/guimgr/constants.py:381
+#: src/guimgr/initialprefs.py:48
 msgid "_Keyboard Personality"
 msgstr "_Личная Клавиатура"
 
-#: src/guimgr/commandbar.py:123
+#: src/guimgr/commandbar.py:126
 #, fuzzy
 msgid "Confi_gure Tab Key..."
 msgstr "Настроить клавишу TAB..."
 
-#: src/guimgr/commandbar.py:124
+#: src/guimgr/commandbar.py:127
 #, fuzzy
 msgid "Custom Key _Bindings..."
 msgstr "Установить привязку клавиш..."
 
-#: src/guimgr/commandbar.py:131
+#: src/guimgr/commandbar.py:134
 #, fuzzy
 msgid "Configure Auto-_Completion..."
 msgstr "Настройка авто-редактирования..."
 
-#: src/guimgr/commandbar.py:135
+#: src/guimgr/commandbar.py:138
 #, fuzzy
 msgid "Configure Auto-_Editing..."
 msgstr "Настройка авто-редактирования..."
 
-#: src/guimgr/commandbar.py:139
+#: src/guimgr/commandbar.py:142
 #, fuzzy
 msgid "Show _Line Numbers"
 msgstr "Показать номера строк"
 
-#: src/guimgr/commandbar.py:141
+#: src/guimgr/commandbar.py:144
 #, fuzzy
 msgid "Show _White Space"
 msgstr "Игнорировать пробелы"
 
-#: src/guimgr/commandbar.py:143
+#: src/guimgr/commandbar.py:146
 #, fuzzy
 msgid "Show _Indent Guides"
 msgstr "Показать номера строк"
 
-#: src/guimgr/commandbar.py:148
+#: src/guimgr/commandbar.py:151
 #, fuzzy
 msgid "Enable _Folding"
 msgstr "Включить авто-редактирование..."
 
-#: src/guimgr/commandbar.py:153
+#: src/guimgr/commandbar.py:156
 #, fuzzy
 msgid "_Other Preferences..."
 msgstr "Настройки..."
 
-#: src/guimgr/constants.py:117
+#: src/guimgr/constants.py:120
 msgid "Add Selection for Next Occurrence"
 msgstr "Добавить выделенное для следующего события"
 
-#: src/guimgr/constants.py:118
+#: src/guimgr/constants.py:121
 msgid "Drop Current and Add Next Occurrence"
 msgstr "Отбросить текущее и добавить следующее событие"
 
-#: src/guimgr/constants.py:119
+#: src/guimgr/constants.py:122
 msgid "Drop Extra Selections"
 msgstr "Отбросить Дополнительные Выбор"
 
-#: src/guimgr/constants.py:121
+#: src/guimgr/constants.py:124
 msgid "Add All in File"
 msgstr "Добавить все в файл"
 
-#: src/guimgr/constants.py:122
+#: src/guimgr/constants.py:125
 msgid "Add All in Class"
 msgstr "Добавить все в класс"
 
-#: src/guimgr/constants.py:123
+#: src/guimgr/constants.py:126
 msgid "Add All in Function / Method"
 msgstr "Добавить все в функцию / метод"
 
-#: src/guimgr/constants.py:124
+#: src/guimgr/constants.py:127
 msgid "Add All in Block"
 msgstr "Добавить все в блок"
 
-#: src/guimgr/constants.py:126
+#: src/guimgr/constants.py:129
 msgid "Add Next Wraps"
 msgstr "Добавить следующие обертки"
 
-#: src/guimgr/constants.py:128
+#: src/guimgr/constants.py:131
 msgid "Case-Sensitive Matching"
 msgstr "Сопоставление с учетом регистра"
 
-#: src/guimgr/constants.py:130
+#: src/guimgr/constants.py:133
 msgid "Match Whole Word"
 msgstr "Совпадение всего слова"
 
-#: src/guimgr/constants.py:134
+#: src/guimgr/constants.py:137
 msgid "Show Selections Window"
 msgstr "Показать окно выбора"
 
-#: src/guimgr/constants.py:135
+#: src/guimgr/constants.py:138
 msgid "Hide Selections Window"
 msgstr "Скрыть окно выбора"
 
-#: src/guimgr/constants.py:137
+#: src/guimgr/constants.py:140
 msgid "Configure Selections Window"
 msgstr "Настройка окна выбора"
 
-#: src/guimgr/constants.py:148 src/guimgr/constants.py:150
+#: src/guimgr/constants.py:151 src/guimgr/constants.py:153
 msgid "Multiple Selections"
 msgstr "Множественный выбор"
 
-#: src/guimgr/constants.py:156
+#: src/guimgr/constants.py:159
 msgid "_File"
 msgstr "_Файл"
 
-#: src/guimgr/constants.py:157
+#: src/guimgr/constants.py:160
 msgid "_Debug"
 msgstr "_Отладка"
 
-#: src/guimgr/constants.py:158
+#: src/guimgr/constants.py:161
 msgid "_Project"
 msgstr "Проект"
 
-#: src/guimgr/constants.py:159
+#: src/guimgr/constants.py:162
 msgid "Testi_ng"
 msgstr "Тестирование"
 
-#: src/guimgr/constants.py:160
+#: src/guimgr/constants.py:163
 msgid "W_indow"
 msgstr "Окно"
 
-#: src/guimgr/constants.py:161
+#: src/guimgr/constants.py:164
 msgid "_Recent"
 msgstr "_Последний"
 
-#: src/guimgr/constants.py:162
+#: src/guimgr/constants.py:165
 msgid "Debug _Recent"
 msgstr "Отладить _последний"
 
-#: src/guimgr/constants.py:163
+#: src/guimgr/constants.py:166
 msgid "Debug Named Entry Point"
 msgstr "Отладка именованной точки входа"
 
-#: src/guimgr/constants.py:164
+#: src/guimgr/constants.py:167
 msgid "Execute Re_cent"
 msgstr "Выполнить последний"
 
-#: src/guimgr/constants.py:165
+#: src/guimgr/constants.py:168
 msgid "Execute Named Entry Point"
 msgstr "Выполнить именованную точку входа"
 
-#: src/guimgr/constants.py:166
+#: src/guimgr/constants.py:169
 msgid "Recen_t"
 msgstr "Последний"
 
-#: src/guimgr/constants.py:167
+#: src/guimgr/constants.py:170
 msgid "New Panel Window"
 msgstr "Новое окно панели"
 
-#: src/guimgr/constants.py:181
+#: src/guimgr/constants.py:184
 msgid "Compare Files..."
 msgstr "Сравнение файлов..."
 
-#: src/guimgr/constants.py:182
+#: src/guimgr/constants.py:185
 msgid "Compare Directories..."
 msgstr "Сравнение папок..."
 
-#: src/guimgr/constants.py:183
+#: src/guimgr/constants.py:186
 msgid "Compare Visible Files"
 msgstr "Сравнить видимые файлы"
 
-#: src/guimgr/constants.py:184
+#: src/guimgr/constants.py:187
 msgid "Compare Buffer with Disk"
 msgstr "Сравнить буфер с диском"
 
-#: src/guimgr/constants.py:185
+#: src/guimgr/constants.py:188
 msgid "Compare Recent"
 msgstr "Сравнить последние"
 
-#: src/guimgr/constants.py:189
+#: src/guimgr/constants.py:192
 msgid "Compare to Repository"
 msgstr "Сравнить с репозиторием"
 
-#: src/guimgr/constants.py:193 src/guimgr/constants.py:783
+#: src/guimgr/constants.py:196 src/guimgr/constants.py:795
 msgid "Next Difference"
 msgstr "Следующая разница"
 
-#: src/guimgr/constants.py:194 src/guimgr/constants.py:781
+#: src/guimgr/constants.py:197 src/guimgr/constants.py:793
 msgid "Previous Difference"
 msgstr "Предыдущая разница"
 
-#: src/guimgr/constants.py:196
+#: src/guimgr/constants.py:199
 msgid "Merge Change A->B"
 msgstr "Слияние изменения A-> B"
 
-#: src/guimgr/constants.py:197
+#: src/guimgr/constants.py:200
 msgid "Merge Change B->A"
 msgstr "Слияние изменение B-> A"
 
-#: src/guimgr/constants.py:202
+#: src/guimgr/constants.py:205
 msgid "Terminate Session"
 msgstr "Завершить сеанс"
 
-#: src/guimgr/constants.py:204
+#: src/guimgr/constants.py:207
 msgid "Lock Scrolling"
 msgstr "Блокировка прокрутки"
 
-#: src/guimgr/constants.py:207
+#: src/guimgr/constants.py:210
 msgid "Ignore Whitespace"
 msgstr "Игнорировать пробелы"
 
-#: src/guimgr/constants.py:228
+#: src/guimgr/constants.py:231
 msgid "_New"
 msgstr "_Новый"
 
-#: src/guimgr/constants.py:229
+#: src/guimgr/constants.py:232
 msgid "_Open..."
 msgstr "_Открыть"
 
-#: src/guimgr/constants.py:231
+#: src/guimgr/constants.py:234
 msgid "Open from _Project..."
 msgstr "Открыть из _Project ..."
 
-#: src/guimgr/constants.py:232
+#: src/guimgr/constants.py:235
 msgid "Open from _Keyboard"
 msgstr "Открыть с _Клавиатуры"
 
-#: src/guimgr/constants.py:237
+#: src/guimgr/constants.py:240
 msgid "File Sets"
 msgstr "Набор файлов"
 
-#: src/guimgr/constants.py:238
+#: src/guimgr/constants.py:241
 msgid "Name Set of Open Files..."
 msgstr "Имя набора открытых файлов..."
 
-#: src/guimgr/constants.py:239
+#: src/guimgr/constants.py:242
 msgid "Name Set of Selected Files..."
 msgstr "Имя набора выбранных файлов..."
 
-#: src/guimgr/constants.py:241
+#: src/guimgr/constants.py:244
 msgid "Manage File Sets..."
 msgstr "Управление наборами файлов..."
 
-#: src/guimgr/constants.py:250
+#: src/guimgr/constants.py:253
 msgid "Clos_e All"
 msgstr "Закрыть вс_е"
 
-#: src/guimgr/constants.py:251
+#: src/guimgr/constants.py:254
 msgid "Close O_thers"
 msgstr "Закрыть Д_ругие"
 
-#: src/guimgr/constants.py:253 src/guimgr/savemanager.py:669
+#: src/guimgr/constants.py:256 src/guimgr/savemanager.py:799
 msgid "_Save"
 msgstr "_Сохранить"
 
-#: src/guimgr/constants.py:254
+#: src/guimgr/constants.py:257
 msgid "Save _As..."
 msgstr "Сохранить _Как..."
 
-#: src/guimgr/constants.py:256
+#: src/guimgr/constants.py:259
 msgid "Save A_ll"
 msgstr "Сохранить _Все"
 
-#: src/guimgr/constants.py:258
+#: src/guimgr/constants.py:261
 msgid "Revert to _Disk"
 msgstr "Вернуться к _Disk"
 
-#: src/guimgr/constants.py:260
+#: src/guimgr/constants.py:263
 msgid "_Insert File..."
 msgstr "_Вставить файл..."
 
-#: src/guimgr/constants.py:262
+#: src/guimgr/constants.py:265
 msgid "_Print..."
 msgstr "_Печать..."
 
-#: src/guimgr/constants.py:263
+#: src/guimgr/constants.py:266
 msgid "Pa_ge Setup..."
 msgstr "Па_раметры страницы..."
 
-#: src/guimgr/constants.py:267
+#: src/guimgr/constants.py:270
 msgid "_Quit"
 msgstr "В_ыход"
 
-#: src/guimgr/constants.py:279
+#: src/guimgr/constants.py:282
 msgid "Configure Auto-Editing..."
 msgstr "Настройка авто-редактирования..."
 
-#: src/guimgr/constants.py:284
+#: src/guimgr/constants.py:287
 msgid "Configure Tab Key..."
 msgstr "Настроить клавишу TAB..."
 
-#: src/guimgr/constants.py:288
+#: src/guimgr/constants.py:291
 msgid "_Undo"
 msgstr "_Отменить"
 
-#: src/guimgr/constants.py:289
+#: src/guimgr/constants.py:292
 msgid "_Redo"
 msgstr "_Повторить"
 
-#: src/guimgr/constants.py:291
+#: src/guimgr/constants.py:294
 msgid "Cu_t"
 msgstr "Выр_езать"
 
-#: src/guimgr/constants.py:292
+#: src/guimgr/constants.py:295
 msgid "_Copy"
 msgstr "_Копировать"
 
-#: src/guimgr/constants.py:293
+#: src/guimgr/constants.py:296
 msgid "_Paste"
 msgstr "_Вставить"
 
-#: src/guimgr/constants.py:294
+#: src/guimgr/constants.py:297
 msgid "C_lear"
 msgstr "Очистить"
 
-#: src/guimgr/constants.py:295
+#: src/guimgr/constants.py:298
 msgid "C_opy Filenames"
 msgstr "Копировать имя файла"
 
-#: src/guimgr/constants.py:297
+#: src/guimgr/constants.py:300
 msgid "S_elect"
 msgstr "Выбрать"
 
-#: src/guimgr/constants.py:298
+#: src/guimgr/constants.py:301
 msgid "Select _All"
 msgstr "Выбрать Все"
 
-#: src/guimgr/constants.py:300
+#: src/guimgr/constants.py:303
 msgid "Select _More"
 msgstr "Выбрать больше"
 
-#: src/guimgr/constants.py:301
+#: src/guimgr/constants.py:304
 msgid "Select _Less"
 msgstr "Выбрать меньше"
 
-#: src/guimgr/constants.py:303
+#: src/guimgr/constants.py:306
 msgid "Select _Statement"
 msgstr "Выбрать _Statement"
 
-#: src/guimgr/constants.py:304
+#: src/guimgr/constants.py:307
 msgid "Select _Next Statement"
 msgstr "Выбрать следующий  Statement"
 
-#: src/guimgr/constants.py:305
+#: src/guimgr/constants.py:308
 msgid "Select _Previous Statement"
 msgstr "Выбрать предыдущий  Statement"
 
-#: src/guimgr/constants.py:307
+#: src/guimgr/constants.py:310
 msgid "Select _Block"
 msgstr "Выбрать блок"
 
-#: src/guimgr/constants.py:308
+#: src/guimgr/constants.py:311
 msgid "Select Ne_xt Block"
 msgstr "Выбрать следующий блок"
 
-#: src/guimgr/constants.py:309
+#: src/guimgr/constants.py:312
 msgid "Select Pre_vious Block"
 msgstr "Выбрать предыдущий блок"
 
-#: src/guimgr/constants.py:311
+#: src/guimgr/constants.py:314
 msgid "Select S_cope"
 msgstr "Выбрать область"
 
-#: src/guimgr/constants.py:312
+#: src/guimgr/constants.py:315
 msgid "Select Nex_t Scope"
 msgstr "Выбрать следующуюобласть"
 
-#: src/guimgr/constants.py:313
+#: src/guimgr/constants.py:316
 msgid "Select Prev_ious Scope"
 msgstr "Выбрать предыдущую область"
 
-#: src/guimgr/constants.py:315
+#: src/guimgr/constants.py:318
 msgid "S_election Mode"
 msgstr "Режим выбора"
 
-#: src/guimgr/constants.py:316
+#: src/guimgr/constants.py:319
 msgid "_Characters"
 msgstr "_Символы"
 
-#: src/guimgr/constants.py:317
+#: src/guimgr/constants.py:320
 msgid "_Line"
 msgstr "Линия"
 
-#: src/guimgr/constants.py:318
+#: src/guimgr/constants.py:321
 msgid "_Block"
 msgstr "_Блок"
 
-#: src/guimgr/constants.py:320
+#: src/guimgr/constants.py:323
 msgid "Ca_ncel"
 msgstr "Отмена"
 
-#: src/guimgr/constants.py:326
+#: src/guimgr/constants.py:329
 msgid "_Multiple Selections"
 msgstr "Множественный выбор"
 
-#: src/guimgr/constants.py:331
+#: src/guimgr/constants.py:334
 msgid "_Search and Replace"
 msgstr "_Поиск и Замена"
 
-#: src/guimgr/constants.py:332
+#: src/guimgr/constants.py:335
 msgid "_Search"
 msgstr "_Поиск"
 
-#: src/guimgr/constants.py:333 src/guimgr/savemanager.py:481
+#: src/guimgr/constants.py:336 src/guimgr/savemanager.py:496
 msgid "_Replace"
 msgstr "_Замена"
 
-#: src/guimgr/constants.py:334
+#: src/guimgr/constants.py:337
 msgid "Search for Selection F_orward"
 msgstr "Поиск выбранного вперёд"
 
-#: src/guimgr/constants.py:335
+#: src/guimgr/constants.py:338
 msgid "Search for Selection _Backward"
 msgstr "Поиск выбранного назад"
 
-#: src/guimgr/constants.py:336
+#: src/guimgr/constants.py:339
 msgid "_Next Match"
 msgstr "_Следующее соответствие"
 
-#: src/guimgr/constants.py:337
+#: src/guimgr/constants.py:340
 msgid "_Previous Match"
 msgstr "_Предыдущие соответствие"
 
-#: src/guimgr/constants.py:339
+#: src/guimgr/constants.py:342
 msgid "Search in _Files"
 msgstr "Поиск в файлах"
 
-#: src/guimgr/constants.py:340
+#: src/guimgr/constants.py:343
 msgid "R_eplace in Files"
 msgstr "Заменить в файлах"
 
-#: src/guimgr/constants.py:342
+#: src/guimgr/constants.py:345
 msgid "Mini-searc_h"
 msgstr "Мини-поиск"
 
-#: src/guimgr/constants.py:343
+#: src/guimgr/constants.py:346
 msgid "_Forward"
 msgstr "_Вперед"
 
-#: src/guimgr/constants.py:344
+#: src/guimgr/constants.py:347
 msgid "_Backward"
 msgstr "_Назад"
 
-#: src/guimgr/constants.py:345
+#: src/guimgr/constants.py:348
 msgid "Selection For_ward"
 msgstr "Выбор вперед"
 
-#: src/guimgr/constants.py:346
+#: src/guimgr/constants.py:349
 msgid "Selection Bac_kward"
 msgstr "Выбор назад"
 
-#: src/guimgr/constants.py:347
+#: src/guimgr/constants.py:350
 msgid "Rege_x Forward"
 msgstr "Regex вперед"
 
-#: src/guimgr/constants.py:348
+#: src/guimgr/constants.py:351
 msgid "Regex Ba_ckward"
 msgstr "Regex назад"
 
-#: src/guimgr/constants.py:350
+#: src/guimgr/constants.py:353
 msgid "_Query/Replace"
 msgstr "Запрос/Замена"
 
-#: src/guimgr/constants.py:351
+#: src/guimgr/constants.py:354
 msgid "Q_uery/Replace Regex"
 msgstr "Запрос/Замена Regex"
 
-#: src/guimgr/constants.py:353
+#: src/guimgr/constants.py:356
 msgid "_Replace String"
 msgstr "Заменить строку"
 
-#: src/guimgr/constants.py:354
+#: src/guimgr/constants.py:357
 msgid "R_eplace Regex"
 msgstr "Заменить Regex"
 
-#: src/guimgr/constants.py:356
+#: src/guimgr/constants.py:359
 msgid "_Goto Line..."
 msgstr "_Перейти к строке..."
 
-#: src/guimgr/constants.py:359
+#: src/guimgr/constants.py:362
 msgid "Show L_ine Numbers"
 msgstr "Показать номера строк"
 
-#: src/guimgr/constants.py:360
+#: src/guimgr/constants.py:363
 msgid "Hide L_ine Numbers"
 msgstr "Скрыть номера строк"
 
-#: src/guimgr/constants.py:362
+#: src/guimgr/constants.py:365
 msgid "Zoom"
 msgstr "Масштаб"
 
-#: src/guimgr/constants.py:363
+#: src/guimgr/constants.py:366
 msgid "Zoom In"
 msgstr "Увеличить"
 
-#: src/guimgr/constants.py:364
+#: src/guimgr/constants.py:367
 msgid "Zoom Out"
 msgstr "Уменьшить"
 
-#: src/guimgr/constants.py:365
+#: src/guimgr/constants.py:368
 msgid "Reset Zoom"
 msgstr "Сброс масштаба"
 
-#: src/guimgr/constants.py:369
+#: src/guimgr/constants.py:372
 msgid "Start _Macro Record"
 msgstr "Запустить запись макроса"
 
-#: src/guimgr/constants.py:370
+#: src/guimgr/constants.py:373
 msgid "Stop _Macro Record"
 msgstr "Остановить запись макроса"
 
-#: src/guimgr/constants.py:372
+#: src/guimgr/constants.py:375
 msgid "E_xecute Macro"
 msgstr "Выполнить макрос"
 
-#: src/guimgr/constants.py:374
+#: src/guimgr/constants.py:377
 msgid "Reload All Scripts"
 msgstr "Перезагрузить все скрипты"
 
-#: src/guimgr/constants.py:375
+#: src/guimgr/constants.py:378
 msgid "Command by _Name"
 msgstr "Команда по имени"
 
-#: src/guimgr/constants.py:377
+#: src/guimgr/constants.py:380
 msgid "Configure P_ython..."
 msgstr "Настройка Python..."
 
-#: src/guimgr/constants.py:379
+#: src/guimgr/constants.py:382
 msgid "P_lugins..."
 msgstr "Плагины ..."
 
-#: src/guimgr/constants.py:380
+#: src/guimgr/constants.py:383
 msgid "Pre_ferences..."
 msgstr "Настройки..."
 
-#: src/guimgr/constants.py:384
+#: src/guimgr/constants.py:387
 msgid "Enclose with ()"
 msgstr "Заключить в ()"
 
-#: src/guimgr/constants.py:385
+#: src/guimgr/constants.py:388
 msgid "Enclose with []"
 msgstr "Заключить в []"
 
-#: src/guimgr/constants.py:386
+#: src/guimgr/constants.py:389
 msgid "Enclose with {}"
 msgstr "Заключить в {}"
 
-#: src/guimgr/constants.py:387
+#: src/guimgr/constants.py:390
 msgid "Enclose with ''"
 msgstr "Заключить в ''"
 
-#: src/guimgr/constants.py:388
+#: src/guimgr/constants.py:391
 msgid "Enclose with \"\""
 msgstr "Заключить в \"\""
 
-#: src/guimgr/constants.py:389
+#: src/guimgr/constants.py:392
 msgid "Enclose with <>"
 msgstr "Заключить в <>"
 
-#: src/guimgr/constants.py:393
+#: src/guimgr/constants.py:396
 msgid "Change to Lower Case"
 msgstr "Изменить на нижний регистр"
 
-#: src/guimgr/constants.py:394
+#: src/guimgr/constants.py:397
 msgid "Change to Upper Case"
 msgstr "Изменить на верхний регистр"
 
-#: src/guimgr/constants.py:395
+#: src/guimgr/constants.py:398
 msgid "Change to Title Case"
 msgstr "Изменение регистра заголовка"
 
-#: src/guimgr/constants.py:397
+#: src/guimgr/constants.py:400
 msgid "Toggle Symbol Case"
 msgstr "Переключить Регистр Символов"
 
-#: src/guimgr/constants.py:401
+#: src/guimgr/constants.py:404
 msgid "Reformat File for PEP 8"
 msgstr ""
 
-#: src/guimgr/constants.py:402
+#: src/guimgr/constants.py:405
 msgid "Reformat Selection for PEP 8"
 msgstr ""
 
-#: src/guimgr/constants.py:404
+#: src/guimgr/constants.py:407
+msgid "Reformat File with Black"
+msgstr ""
+
+#: src/guimgr/constants.py:408
+#, fuzzy
+msgid "Reformat Selection with Black"
+msgstr "Поиск выбранного назад"
+
+#: src/guimgr/constants.py:410
+msgid "Reformat File with YAPF"
+msgstr ""
+
+#: src/guimgr/constants.py:411
+msgid "Reformat Selection with YAPF"
+msgstr ""
+
+#: src/guimgr/constants.py:413
 #, fuzzy
 msgid "Configure Auto-Formatting..."
 msgstr "Настройка авто-редактирования..."
 
-#: src/guimgr/constants.py:408
+#: src/guimgr/constants.py:417
 msgid "_Rename Symbol"
 msgstr "Переименовать идентификатор "
 
-#: src/guimgr/constants.py:409
+#: src/guimgr/constants.py:418
 msgid "_Move Symbol"
 msgstr "Переместить идентификатор "
 
-#: src/guimgr/constants.py:410
+#: src/guimgr/constants.py:419
 msgid "E_xtract Function / Method"
 msgstr "Извлечь функцию / метод"
 
-#: src/guimgr/constants.py:411
+#: src/guimgr/constants.py:420
 msgid "_Introduce Variable"
 msgstr "_Ввести Переменную"
 
-#: src/guimgr/constants.py:413
+#: src/guimgr/constants.py:422
 msgid "Symbol to _UpperCamelCase"
 msgstr "Символ в UpperCamelCase"
 
-#: src/guimgr/constants.py:414
+#: src/guimgr/constants.py:423
 msgid "Symbol to _lowerCamelCase"
 msgstr "Символ в lowerCamelCase"
 
-#: src/guimgr/constants.py:415
+#: src/guimgr/constants.py:424
 msgid "Symbol to under_scored_name"
 msgstr "Символ в under_scored_name"
 
-#: src/guimgr/constants.py:416
+#: src/guimgr/constants.py:425
 msgid "Symbol to UNDER_SCORED_NAME"
 msgstr "Символ в UNDER_SCORED_NAME"
 
-#: src/guimgr/constants.py:420
+#: src/guimgr/constants.py:429
 msgid "Re_wrap Text"
 msgstr "Редактировать текст"
 
-#: src/guimgr/constants.py:421
+#: src/guimgr/constants.py:430
 msgid "_Match Braces"
 msgstr "Сравнить фигурные скобки"
 
-#: src/guimgr/constants.py:422
+#: src/guimgr/constants.py:431
 msgid "Insert _Tab Character"
 msgstr "Вставить символ _Tab"
 
-#: src/guimgr/constants.py:423
+#: src/guimgr/constants.py:432
 msgid "_Show Auto-completer"
 msgstr "Показать автозаполнение"
 
-#: src/guimgr/constants.py:425
+#: src/guimgr/constants.py:434
 msgid "_Evaluate File in Python Shell"
 msgstr "_Выполнить файл в Python Shell"
 
-#: src/guimgr/constants.py:426
+#: src/guimgr/constants.py:435
 msgid "E_valuate Selection in Python Shell"
 msgstr "Оценить выбранное в оболочке Python"
 
-#: src/guimgr/constants.py:427
+#: src/guimgr/constants.py:436
 #, fuzzy
 msgid "E_valuate Selection in Debug Console"
 msgstr "Оценить выбранное в Debug Probe"
 
-#: src/guimgr/constants.py:429
+#: src/guimgr/constants.py:438
 msgid "Toggle Block _Comment"
 msgstr "Включить Комментарий Блока"
 
-#: src/guimgr/constants.py:431
+#: src/guimgr/constants.py:440
 msgid "_Goto Selected Symbol Defn"
 msgstr "_Перейти к выбранному символу Defn"
 
-#: src/guimgr/constants.py:432
+#: src/guimgr/constants.py:441
 msgid "Find Points of _Use"
 msgstr "Поиск точек использования"
 
-#: src/guimgr/constants.py:433
+#: src/guimgr/constants.py:442
 #, fuzzy
 msgid "Find Points of _Use in Current File"
 msgstr "Поиск точек использования"
 
-#: src/guimgr/constants.py:434
+#: src/guimgr/constants.py:443
 msgid "_Find Symbol"
 msgstr "_Найти Символ"
 
-#: src/guimgr/constants.py:435
+#: src/guimgr/constants.py:444
 msgid "Find S_ymbol in Project"
 msgstr "Найти символ в проекте"
 
-#: src/guimgr/constants.py:437
+#: src/guimgr/constants.py:446
 msgid "Toggle _Bookmark"
 msgstr "Переключить закладку"
 
-#: src/guimgr/constants.py:438
+#: src/guimgr/constants.py:447
 msgid "Set _Named Bookmark..."
 msgstr "Установить именованную закладку..."
 
-#: src/guimgr/constants.py:439
+#: src/guimgr/constants.py:448
 msgid "G_oto Bookmark..."
 msgstr "Перейти к закладке..."
 
-#: src/guimgr/constants.py:440
+#: src/guimgr/constants.py:449
 msgid "Traverse Bookmarks"
 msgstr "Перемещение закладок"
 
-#: src/guimgr/constants.py:441
+#: src/guimgr/constants.py:450
 msgid "_Next Bookmark"
 msgstr "Следующая закладка"
 
-#: src/guimgr/constants.py:442
+#: src/guimgr/constants.py:451
 msgid "_Previous Bookmark"
 msgstr "Предыдущая закладка"
 
-#: src/guimgr/constants.py:443
+#: src/guimgr/constants.py:452
 msgid "Ne_xt Bookmark in Current File"
 msgstr "Следующая закладка в текущем файле"
 
-#: src/guimgr/constants.py:444
+#: src/guimgr/constants.py:453
 msgid "Pre_vious Bookmark in Current File"
 msgstr "Предыдущая закладка в текущем файле"
 
-#: src/guimgr/constants.py:448
+#: src/guimgr/constants.py:457
 #, fuzzy
 msgid "Show Bookmar_ks Tool"
 msgstr "Показать закладки"
 
-#: src/guimgr/constants.py:451
+#: src/guimgr/constants.py:460
 msgid "_Indentation"
 msgstr "_Абзац"
 
-#: src/guimgr/constants.py:452
+#: src/guimgr/constants.py:461
 msgid "In_dent Line(s) to Match"
 msgstr "Строка(и) отступа для соответствия"
 
-#: src/guimgr/constants.py:453
+#: src/guimgr/constants.py:462
 msgid "_Indent"
 msgstr "_Отступ"
 
-#: src/guimgr/constants.py:454
+#: src/guimgr/constants.py:463
 msgid "_Outdent"
 msgstr "Выступ"
 
-#: src/guimgr/constants.py:456
+#: src/guimgr/constants.py:465
 msgid "Indentation _Manager"
 msgstr "Диспетчер отступов"
 
-#: src/guimgr/constants.py:458
+#: src/guimgr/constants.py:467
 msgid "Line Editing"
 msgstr "Операции со строками"
 
-#: src/guimgr/constants.py:459
+#: src/guimgr/constants.py:468
 msgid "New Line Above"
 msgstr "Вставить новую строку перед текущей"
 
-#: src/guimgr/constants.py:460
+#: src/guimgr/constants.py:469
 msgid "New Line Below"
 msgstr "Вставить новую строку после текущей"
 
-#: src/guimgr/constants.py:462
+#: src/guimgr/constants.py:471
 msgid "Duplicate Lines Above"
 msgstr "Дублировать строку перед текущей"
 
-#: src/guimgr/constants.py:463
+#: src/guimgr/constants.py:472
 msgid "Duplicate Lines Below"
 msgstr "Дублировать строку после текущей"
 
-#: src/guimgr/constants.py:464
+#: src/guimgr/constants.py:473
 msgid "Move Lines Up"
 msgstr "Переместить строку вверх"
 
-#: src/guimgr/constants.py:465
+#: src/guimgr/constants.py:474
 msgid "Move Lines Down"
 msgstr "Переместить строку вниз"
 
-#: src/guimgr/constants.py:467
+#: src/guimgr/constants.py:476
 msgid "Delete Lines"
 msgstr "Удаление строк"
 
-#: src/guimgr/constants.py:468
+#: src/guimgr/constants.py:477
 msgid "Swap Lines"
 msgstr "Замена строк"
 
-#: src/guimgr/constants.py:470
+#: src/guimgr/constants.py:479
 msgid "Enclose"
 msgstr "Окружать"
 
-#: src/guimgr/constants.py:471
+#: src/guimgr/constants.py:480
 msgid "_Folding"
 msgstr "_Свернуть"
 
-#: src/guimgr/constants.py:472
+#: src/guimgr/constants.py:481
 msgid "_Toggle Current Fold"
 msgstr "Переключить текущую свертку блока"
 
-#: src/guimgr/constants.py:473
+#: src/guimgr/constants.py:482
 msgid "_Collapse Current More"
 msgstr "_Свернуть текущий блок"
 
-#: src/guimgr/constants.py:474
+#: src/guimgr/constants.py:483
 msgid "_Expand Current More"
 msgstr "_Развернуть текущий блок"
 
-#: src/guimgr/constants.py:475
+#: src/guimgr/constants.py:484
 msgid "C_ollapse Current Completely"
 msgstr "Свернуть Текущий полностью"
 
-#: src/guimgr/constants.py:476
+#: src/guimgr/constants.py:485
 msgid "E_xpand Current Completely"
 msgstr "Развернуть Текущий полностью"
 
-#: src/guimgr/constants.py:477
+#: src/guimgr/constants.py:486
 msgid "Collapse _All"
 msgstr "Свернуть Все"
 
-#: src/guimgr/constants.py:478
+#: src/guimgr/constants.py:487
 msgid "Ex_pand All"
 msgstr "Развернуть Все"
 
-#: src/guimgr/constants.py:480
+#: src/guimgr/constants.py:489
 msgid "Fold Python _Methods"
 msgstr "Сложить методы Python"
 
-#: src/guimgr/constants.py:481
+#: src/guimgr/constants.py:490
 msgid "Fold Python _Classes"
 msgstr "Сложить классы Python"
 
-#: src/guimgr/constants.py:482
+#: src/guimgr/constants.py:491
 msgid "Fold Python Classes and _Defs"
 msgstr "Сложите классы Python и defs"
 
-#: src/guimgr/constants.py:484
+#: src/guimgr/constants.py:493
 msgid "Difference and Merge"
 msgstr "Разница и слияние"
 
-#: src/guimgr/constants.py:485
+#: src/guimgr/constants.py:494
 msgid "Change Case"
 msgstr "Изменение регистра"
 
-#: src/guimgr/constants.py:486
-msgid "PEP 8"
+#: src/guimgr/constants.py:495
+msgid "Reformatting"
 msgstr ""
 
-#: src/guimgr/constants.py:488
+#: src/guimgr/constants.py:497
 msgid "Show _Python Environment..."
 msgstr "Показать среду Python..."
 
-#: src/guimgr/constants.py:489
+#: src/guimgr/constants.py:498
 msgid "Current File P_roperties..."
 msgstr "Свойства текущего файла..."
 
-#: src/guimgr/constants.py:494
+#: src/guimgr/constants.py:503
 msgid "_New Project..."
 msgstr "Новый проект..."
 
-#: src/guimgr/constants.py:495
+#: src/guimgr/constants.py:504
 msgid "_Open Project..."
 msgstr "Открыть проект..."
 
-#: src/guimgr/constants.py:499
+#: src/guimgr/constants.py:508
 msgid "_Save Project"
 msgstr "Сохранить проект"
 
-#: src/guimgr/constants.py:500
+#: src/guimgr/constants.py:509
 msgid "Save Project _As..."
 msgstr "Сохранить проект как..."
 
-#: src/guimgr/constants.py:502
+#: src/guimgr/constants.py:511
 msgid "_Close Project"
 msgstr "_Закрыть Проект"
 
-#: src/guimgr/constants.py:504
+#: src/guimgr/constants.py:513
 msgid "Add Existing _Directory..."
 msgstr "Добавить существующий каталог..."
 
-#: src/guimgr/constants.py:505
+#: src/guimgr/constants.py:514
 msgid "Add C_urrent File"
 msgstr "Добавить текущий файл"
 
-#: src/guimgr/constants.py:506
+#: src/guimgr/constants.py:515
 msgid "Add Existing _File..."
 msgstr "Добавить существующий файл..."
 
-#: src/guimgr/constants.py:507
+#: src/guimgr/constants.py:516
 msgid "Add New F_ile"
 msgstr "Добавить новый файл"
 
-#: src/guimgr/constants.py:508
+#: src/guimgr/constants.py:517
 msgid "Remove Selected _Entry"
 msgstr "Удалить выбранную запись"
 
-#: src/guimgr/constants.py:510
+#: src/guimgr/constants.py:519
 msgid "Show Current File in Project Tool"
 msgstr "Показать текущий файл в Project Tool"
 
-#: src/guimgr/constants.py:512
+#: src/guimgr/constants.py:521
 msgid "_Extensions"
 msgstr "_Расширения"
 
-#: src/guimgr/constants.py:513
+#: src/guimgr/constants.py:522
 msgid "_Configure Project for Django"
 msgstr "_Настроить проект для Django"
 
-#: src/guimgr/constants.py:514
+#: src/guimgr/constants.py:523
 msgid "Start _Django Project"
 msgstr "Запустить проект Django"
 
-#: src/guimgr/constants.py:516
+#: src/guimgr/constants.py:525
 msgid "Remote _Hosts..."
 msgstr "Удаленные узлы..."
 
-#: src/guimgr/constants.py:517
+#: src/guimgr/constants.py:526
 msgid "_Launch Configurations..."
 msgstr "_Конфигурации запуска..."
 
-#: src/guimgr/constants.py:518
+#: src/guimgr/constants.py:527
 msgid "Project P_roperties..."
 msgstr "Свойства проекта..."
 
-#: src/guimgr/constants.py:523
+#: src/guimgr/constants.py:532
 msgid "_Start / Continue"
 msgstr "Начать / продолжить"
 
-#: src/guimgr/constants.py:524
+#: src/guimgr/constants.py:533
 msgid "Debug _To Cursor"
 msgstr "Отладка до курсора"
 
-#: src/guimgr/constants.py:525
+#: src/guimgr/constants.py:534
 msgid "Debug Current _File"
 msgstr "Отладка текущего файла"
 
-#: src/guimgr/constants.py:533
+#: src/guimgr/constants.py:542
 msgid "_Attach to Process..."
 msgstr "_Присоединить к процессу..."
 
-#: src/guimgr/constants.py:534
+#: src/guimgr/constants.py:543
 msgid "Det_ach from Process"
 msgstr "Отключение от процесса"
 
-#: src/guimgr/constants.py:539
+#: src/guimgr/constants.py:548
 msgid "P_ause"
 msgstr "Пауза"
 
-#: src/guimgr/constants.py:540
+#: src/guimgr/constants.py:549
 msgid "S_top Debugging"
 msgstr "Остановить отладку"
 
-#: src/guimgr/constants.py:541
+#: src/guimgr/constants.py:550
 msgid "Restart Debu_gging"
 msgstr "Перезапустить отладку"
 
-#: src/guimgr/constants.py:543
+#: src/guimgr/constants.py:552
 msgid "Step _Into"
 msgstr "Шаг _Into"
 
-#: src/guimgr/constants.py:544
+#: src/guimgr/constants.py:553
 msgid "Step Over _Instruction"
 msgstr "Шаг Over _Instruction"
 
-#: src/guimgr/constants.py:545
+#: src/guimgr/constants.py:554
 msgid "Step _Over Statement"
 msgstr "Шаг _Over Statement"
 
-#: src/guimgr/constants.py:546
+#: src/guimgr/constants.py:555
 msgid "Step Over _Block"
 msgstr "Шаг Over _Block"
 
-#: src/guimgr/constants.py:547
+#: src/guimgr/constants.py:556
 msgid "Step _Over"
 msgstr "Шаг _Over"
 
-#: src/guimgr/constants.py:548
+#: src/guimgr/constants.py:557
 msgid "Step O_ut"
 msgstr "Шаг O_ut"
 
-#: src/guimgr/constants.py:549
+#: src/guimgr/constants.py:558
 msgid "Step Out to He_re"
 msgstr "Шаг из этого места на выход"
 
-#: src/guimgr/constants.py:551
+#: src/guimgr/constants.py:560
 msgid "U_p Stack"
 msgstr "Вверх по стеку"
 
-#: src/guimgr/constants.py:552
+#: src/guimgr/constants.py:561
 msgid "Dow_n Stack"
 msgstr "Вниз по стеку"
 
-#: src/guimgr/constants.py:553
+#: src/guimgr/constants.py:562
 msgid "S_how Original Position"
 msgstr "Показать исходную позицию"
 
-#: src/guimgr/constants.py:555
+#: src/guimgr/constants.py:564
 msgid "Add _Breakpoint"
 msgstr "Добавить точку останова"
 
-#: src/guimgr/constants.py:556
+#: src/guimgr/constants.py:565
 msgid "Remove _Breakpoint"
 msgstr "Удалить точку останова"
 
-#: src/guimgr/constants.py:557
+#: src/guimgr/constants.py:566
 msgid "Remo_ve All Breakpoints"
 msgstr "Удалить все точки останова"
 
-#: src/guimgr/constants.py:558
+#: src/guimgr/constants.py:567
 msgid "Brea_kpoint Options"
 msgstr "Параметры точки останова"
 
-#: src/guimgr/constants.py:559
+#: src/guimgr/constants.py:568
 msgid "Set _Temporary Breakpoint"
 msgstr "Установить временную точку останова"
 
-#: src/guimgr/constants.py:560
+#: src/guimgr/constants.py:569
 msgid "Set _Conditional Breakpoint..."
 msgstr "Установить условную точку останова..."
 
-#: src/guimgr/constants.py:561
+#: src/guimgr/constants.py:570
 msgid "Edit Breakpoint C_ondition..."
 msgstr "Изменить условие точки останова..."
 
-#: src/guimgr/constants.py:563
+#: src/guimgr/constants.py:572
 msgid "_Disable Breakpoint"
 msgstr "_Отключить Точку Останова"
 
-#: src/guimgr/constants.py:564
+#: src/guimgr/constants.py:573
 msgid "_Enable Breakpoint"
 msgstr "_Включить Точку Останова"
 
-#: src/guimgr/constants.py:565
+#: src/guimgr/constants.py:574
 msgid "Disable _All Breakpoints"
 msgstr "Отключить все точки останова"
 
-#: src/guimgr/constants.py:566
+#: src/guimgr/constants.py:575
 msgid "Enable _All Breakpoints"
 msgstr "Включить все точки останова"
 
-#: src/guimgr/constants.py:567
+#: src/guimgr/constants.py:576
 msgid "Set Breakpoint I_gnore Count..."
 msgstr "Установить счетчик игнорирования точки останова..."
 
-#: src/guimgr/constants.py:573
+#: src/guimgr/constants.py:582
 msgid "Named Entry Point_s..."
 msgstr "Именованные точки входа..."
 
-#: src/guimgr/constants.py:577
+#: src/guimgr/constants.py:586
 msgid "E_xecute Current File"
 msgstr "Выполнить текущий файл"
 
-#: src/guimgr/constants.py:584
+#: src/guimgr/constants.py:593
 #, fuzzy
 msgid "Set Current as _Main Entry Point"
 msgstr "Установить текущий в качестве основного файла отладки"
 
-#: src/guimgr/constants.py:585
+#: src/guimgr/constants.py:594
 #, fuzzy
 msgid "Clear _Main Entry Point"
 msgstr "Отладка именованной точки входа"
 
-#: src/guimgr/constants.py:589
+#: src/guimgr/constants.py:598
 msgid "Clear Ignored Exceptions"
 msgstr "Очистить игнорируемые исключения"
 
-#: src/guimgr/constants.py:590
+#: src/guimgr/constants.py:599
 msgid "Clear Stored Value Errors"
 msgstr "Очистить сохраненные значения ошибок"
 
-#: src/guimgr/constants.py:592
+#: src/guimgr/constants.py:600
+#, fuzzy
+msgid "Clear Stored Security Tokens"
+msgstr "Очистить сохраненные значения ошибок"
+
+#: src/guimgr/constants.py:602
 msgid "Debug Environment..."
 msgstr "Среда отладки..."
 
-#: src/guimgr/constants.py:596
+#: src/guimgr/constants.py:606
 msgid "Run _All Tests"
 msgstr "Выполнить все тесты"
 
-#: src/guimgr/constants.py:597
+#: src/guimgr/constants.py:607
 msgid "Run Tests in Current _File"
 msgstr "Выполненить тесты в текущем файле"
 
-#: src/guimgr/constants.py:598
+#: src/guimgr/constants.py:608
 msgid "Run Tests at _Cursor"
 msgstr "Выполненить тесты под курсором"
 
-#: src/guimgr/constants.py:599
+#: src/guimgr/constants.py:609
 msgid "Run Fa_iled Tests"
 msgstr "Запуск неудачных тестов"
 
-#: src/guimgr/constants.py:600
+#: src/guimgr/constants.py:610
 msgid "Run T_ests Again"
 msgstr "Повторное выполнение тестов"
 
-#: src/guimgr/constants.py:602
+#: src/guimgr/constants.py:612
 msgid "_Abort Running Tests"
 msgstr "_Прервать Выполнение Тестов"
 
-#: src/guimgr/constants.py:604
+#: src/guimgr/constants.py:614
 msgid "Debug _All Tests"
 msgstr "Отладка всех тестов"
 
-#: src/guimgr/constants.py:605
+#: src/guimgr/constants.py:615
 msgid "Debug Tests in Current _File"
 msgstr "Отладка тестов в текущем файле"
 
-#: src/guimgr/constants.py:606
+#: src/guimgr/constants.py:616
 msgid "Debug Tests at _Cursor"
 msgstr "Отладка тестов под курсоором"
 
-#: src/guimgr/constants.py:607
+#: src/guimgr/constants.py:617
 msgid "Debug Fa_iled Tests"
 msgstr "Отладка неудачных тестов"
 
-#: src/guimgr/constants.py:608
+#: src/guimgr/constants.py:618
 msgid "De_bug T_ests Again"
 msgstr "Повторная отладка тестов"
 
-#: src/guimgr/constants.py:610
+#: src/guimgr/constants.py:620
 msgid "Add Files from _Project..."
 msgstr "Добавить файлы из проекта..."
 
-#: src/guimgr/constants.py:611
+#: src/guimgr/constants.py:621
 msgid "Add Single Fi_le..."
 msgstr "Добавить один файл..."
 
-#: src/guimgr/constants.py:612
+#: src/guimgr/constants.py:622
 msgid "A_dd Current File"
 msgstr "Добавить текущий файл"
 
-#: src/guimgr/constants.py:614
+#: src/guimgr/constants.py:624
 msgid "_Save All Results..."
 msgstr "Сохранить все результаты..."
 
-#: src/guimgr/constants.py:615
+#: src/guimgr/constants.py:625
 msgid "_Load Results..."
 msgstr "_Загрузить Результаты..."
 
-#: src/guimgr/constants.py:620
+#: src/guimgr/constants.py:627
+#, fuzzy
+msgid "Configure Testing..."
+msgstr "Настройка авто-редактирования..."
+
+#: src/guimgr/constants.py:632
 #, fuzzy
 msgid "Next Tool"
 msgstr "Добавить инструмент"
 
-#: src/guimgr/constants.py:621
+#: src/guimgr/constants.py:633
 #, fuzzy
 msgid "Previous Tool"
 msgstr "Предыдущий"
 
-#: src/guimgr/constants.py:623
+#: src/guimgr/constants.py:635
 msgid "_Load Perspective"
 msgstr "_Загрузить Перспективу"
 
-#: src/guimgr/constants.py:624
+#: src/guimgr/constants.py:636
 msgid "Enable Auto-Perspectives"
 msgstr "Включить Auto-Perspectives"
 
-#: src/guimgr/constants.py:625
+#: src/guimgr/constants.py:637
 msgid "Disable Auto-Perspectives"
 msgstr "Отключить Auto-Perspectives"
 
-#: src/guimgr/constants.py:626
+#: src/guimgr/constants.py:638
 msgid "_Manage Perspectives..."
 msgstr "_Управление перспективами..."
 
-#: src/guimgr/constants.py:628
+#: src/guimgr/constants.py:640
 msgid "Restore Default T_ool Set"
 msgstr "Восстановить набор инструментов по умолчанию"
 
-#: src/guimgr/constants.py:632
+#: src/guimgr/constants.py:644
 msgid "Start _Terminal"
 msgstr "Пуск Терминала"
 
-#: src/guimgr/constants.py:637
+#: src/guimgr/constants.py:649
 msgid "New _Document Window"
 msgstr "Окно нового документа"
 
-#: src/guimgr/constants.py:638
+#: src/guimgr/constants.py:650
 msgid "New _Tool Window"
 msgstr "Новое окно инструмента"
 
-#: src/guimgr/constants.py:640
+#: src/guimgr/constants.py:652
 msgid "_Next Window"
 msgstr "Следующее окно"
 
-#: src/guimgr/constants.py:643
+#: src/guimgr/constants.py:655
 msgid "Ne_xt Document"
 msgstr "Следующий документ"
 
-#: src/guimgr/constants.py:644
+#: src/guimgr/constants.py:656
 msgid "Pre_vious Document"
 msgstr "Предыдущий документ"
 
-#: src/guimgr/constants.py:645
+#: src/guimgr/constants.py:657
 msgid "_Most Recent Document"
 msgstr "Последний документ"
 
-#: src/guimgr/constants.py:647
+#: src/guimgr/constants.py:659
 msgid "Move _Focus"
 msgstr "Переместить фокус"
 
-#: src/guimgr/constants.py:648
+#: src/guimgr/constants.py:660
 msgid "Next Visit in _History"
 msgstr "Следующий визит в историю"
 
-#: src/guimgr/constants.py:649
+#: src/guimgr/constants.py:661
 msgid "Previous Visit in H_istory"
 msgstr "Предыдущий визит в истории"
 
-#: src/guimgr/constants.py:660
+#: src/guimgr/constants.py:672
 msgid "Wing _Manual"
 msgstr "Wing _Руководство"
 
-#: src/guimgr/constants.py:661
+#: src/guimgr/constants.py:673
 msgid "Tut_orial"
 msgstr "У_чебник"
 
-#: src/guimgr/constants.py:662
+#: src/guimgr/constants.py:674
 msgid "_Quick Start Guide"
 msgstr "Инструкция по началу работы"
 
-#: src/guimgr/constants.py:663
+#: src/guimgr/constants.py:675
 msgid "_How-Tos"
 msgstr "_How-Tos"
 
-#: src/guimgr/constants.py:671
+#: src/guimgr/constants.py:683
 msgid "_Search Help"
 msgstr "Поиск в справке"
 
-#: src/guimgr/constants.py:672
+#: src/guimgr/constants.py:684
 msgid "Des_cribe Key..."
 msgstr "Описание ключа..."
 
-#: src/guimgr/constants.py:673
+#: src/guimgr/constants.py:685
 msgid "Wing _Tips..."
 msgstr "Wing _Подсказки..."
 
-#: src/guimgr/constants.py:675
-msgid "_Python Manual (HTML)..."
+#: src/guimgr/constants.py:687
+#, fuzzy
+msgid "_Python Manual..."
 msgstr "Python руководство (HTML)..."
 
-#: src/guimgr/constants.py:676
+#: src/guimgr/constants.py:688
 msgid "Python _Website..."
 msgstr "Python вебсайт..."
 
-#: src/guimgr/constants.py:678
+#: src/guimgr/constants.py:690
 msgid "Ask Questions..."
 msgstr "Задать вопросы..."
 
-#: src/guimgr/constants.py:679
+#: src/guimgr/constants.py:691
 msgid "Submit _Feedback..."
 msgstr "Отправить отзыв..."
 
-#: src/guimgr/constants.py:680
+#: src/guimgr/constants.py:692
 msgid "Submit _Bug Report..."
 msgstr "Отправить отчет об ошибке..."
 
-#: src/guimgr/constants.py:681
+#: src/guimgr/constants.py:693
 msgid "Technica_l Support..."
 msgstr "Техническая поддержка..."
 
-#: src/guimgr/constants.py:683
+#: src/guimgr/constants.py:695
 msgid "Check for _Updates..."
 msgstr "Проверка наличия обновлений..."
 
-#: src/guimgr/constants.py:684
+#: src/guimgr/constants.py:696
 msgid "Apply Update..."
 msgstr ""
 
-#: src/guimgr/constants.py:685
+#: src/guimgr/constants.py:697
 msgid "_About..."
 msgstr "_О программе..."
 
-#: src/guimgr/constants.py:692
+#: src/guimgr/constants.py:704
 msgid "_Edit"
 msgstr "_Правка"
 
-#: src/guimgr/constants.py:693
+#: src/guimgr/constants.py:705
 msgid "_Source"
 msgstr "_Источник"
 
-#: src/guimgr/constants.py:694
+#: src/guimgr/constants.py:706
 msgid "_Refactor"
 msgstr "_Рефакторинг"
 
-#: src/guimgr/constants.py:698
+#: src/guimgr/constants.py:710
 msgid "_Tools"
 msgstr "И_нструменты"
 
-#: src/guimgr/constants.py:700
+#: src/guimgr/constants.py:712
 msgid "_Help"
 msgstr "_Помощь"
 
-#: src/guimgr/constants.py:743
+#: src/guimgr/constants.py:755
 msgid "Open..."
 msgstr "Открыть..."
 
-#: src/guimgr/constants.py:744
+#: src/guimgr/constants.py:756
 msgid "Save"
 msgstr "Сохранить"
 
-#: src/guimgr/constants.py:744
+#: src/guimgr/constants.py:756
 msgid "Save the active document"
 msgstr "Сохранение активного документа"
 
-#: src/guimgr/constants.py:745
+#: src/guimgr/constants.py:757
 msgid "Save All"
 msgstr "Сохранить все"
 
-#: src/guimgr/constants.py:749
+#: src/guimgr/constants.py:761
 msgid "Cut"
 msgstr "Вырезать "
 
-#: src/guimgr/constants.py:750
+#: src/guimgr/constants.py:762
 msgid "Copy"
 msgstr "Копировать "
 
-#: src/guimgr/constants.py:751
+#: src/guimgr/constants.py:763
 msgid "Paste"
 msgstr "Вставить"
 
-#: src/guimgr/constants.py:753
+#: src/guimgr/constants.py:765
 msgid "Undo"
 msgstr "Отменить"
 
-#: src/guimgr/constants.py:754
+#: src/guimgr/constants.py:766
 msgid "Redo"
 msgstr "Повторить"
 
-#: src/guimgr/constants.py:759
+#: src/guimgr/constants.py:771
 msgid "Goto Definition"
 msgstr "Перейти к определению"
 
-#: src/guimgr/constants.py:763 src/guimgr/document.py:831
-#: src/guimgr/prefs.py:535
+#: src/guimgr/constants.py:775 src/guimgr/document.py:892
+#: src/guimgr/prefs.py:538
 msgid "Search"
 msgstr "Поиск"
 
-#: src/guimgr/constants.py:765
+#: src/guimgr/constants.py:777
 msgid "Execute Toolbar Search"
 msgstr "Найти панель инструментов"
 
-#: src/guimgr/constants.py:770
+#: src/guimgr/constants.py:782
 msgid "Indent"
 msgstr "Абзац "
 
-#: src/guimgr/constants.py:771
+#: src/guimgr/constants.py:783
 msgid "Indent the selected region one level"
 msgstr "Отступ выбранной области один уровень"
 
-#: src/guimgr/constants.py:772
+#: src/guimgr/constants.py:784
 msgid "Dedent"
 msgstr "Убрать абзац"
 
-#: src/guimgr/constants.py:773
+#: src/guimgr/constants.py:785
 msgid "Un-indent the selected region one level"
 msgstr "Отменить отступ выделенной области на один уровень"
 
-#: src/guimgr/constants.py:774
+#: src/guimgr/constants.py:786
 msgid "Match Indent"
 msgstr ""
 
-#: src/guimgr/constants.py:775
+#: src/guimgr/constants.py:787
 msgid ""
 "Adjust selected region indent to match context, or one level higher if "
 "already matching"
@@ -1706,207 +1734,207 @@ msgstr ""
 "Настройте отступ выбранной области в соответствии с контекстом или на один "
 "уровень выше, если он уже соответствует"
 
-#: src/guimgr/constants.py:779 src/guimgr/constants.py:864
-#: src/guimgr/prefs.py:536
+#: src/guimgr/constants.py:791 src/guimgr/constants.py:876
+#: src/guimgr/prefs.py:539
 msgid "Diff/Merge"
 msgstr "Сравнение/Слияние"
 
-#: src/guimgr/constants.py:780
+#: src/guimgr/constants.py:792
 msgid "Difference/Merge"
 msgstr "Разница/Слияние"
 
-#: src/guimgr/constants.py:784
+#: src/guimgr/constants.py:796
 msgid "Merge A->B"
 msgstr "Слияние A-> B"
 
-#: src/guimgr/constants.py:785
+#: src/guimgr/constants.py:797
 msgid "Merge B->A"
 msgstr "Слияние B-> A"
 
-#: src/guimgr/constants.py:786
+#: src/guimgr/constants.py:798
 msgid "Cancel Diff/Merge Session"
 msgstr "Отмена сеанса сравнения/слияния"
 
-#: src/guimgr/constants.py:790
+#: src/guimgr/constants.py:802
 msgid "Python Environment"
 msgstr "Среда Python"
 
-#: src/guimgr/constants.py:791
+#: src/guimgr/constants.py:803
 msgid "Project Properties"
 msgstr "Свойства проекта"
 
-#: src/guimgr/constants.py:800
+#: src/guimgr/constants.py:812
 msgid "Run"
 msgstr "Выполнить"
 
-#: src/guimgr/constants.py:805 src/guimgr/constants.py:806
+#: src/guimgr/constants.py:817 src/guimgr/constants.py:818
 msgid "Break"
 msgstr "Прервать"
 
-#: src/guimgr/constants.py:808 src/guimgr/prefs.py:539
+#: src/guimgr/constants.py:820 src/guimgr/prefs.py:542
 msgid "Debug"
 msgstr "Отладчик"
 
-#: src/guimgr/constants.py:811 src/guimgr/constants.py:826
+#: src/guimgr/constants.py:823 src/guimgr/constants.py:838
 msgid "Step Into"
 msgstr "Шаг в"
 
-#: src/guimgr/constants.py:815 src/guimgr/constants.py:832
+#: src/guimgr/constants.py:827 src/guimgr/constants.py:844
 msgid "Debug To Cursor"
 msgstr "Отладка до курсора"
 
-#: src/guimgr/constants.py:818
+#: src/guimgr/constants.py:830
 msgid "Stop"
 msgstr "Остановить"
 
-#: src/guimgr/constants.py:822
+#: src/guimgr/constants.py:834
 msgid "Restart"
 msgstr "Перезапустить"
 
-#: src/guimgr/constants.py:823
+#: src/guimgr/constants.py:835
 msgid "Pause"
 msgstr "Пауза"
 
-#: src/guimgr/constants.py:827
+#: src/guimgr/constants.py:839
 msgid "Step Over"
 msgstr "Шаг За"
 
-#: src/guimgr/constants.py:828
+#: src/guimgr/constants.py:840
 msgid "Step Out"
 msgstr "Выйти"
 
-#: src/guimgr/constants.py:840
+#: src/guimgr/constants.py:852
 msgid "Up Stack"
 msgstr "Вверх по стеку"
 
-#: src/guimgr/constants.py:841
+#: src/guimgr/constants.py:853
 msgid "Show Position"
 msgstr "Показать позицию"
 
-#: src/guimgr/constants.py:844
+#: src/guimgr/constants.py:856
 msgid "Down Stack"
 msgstr "Вниз стека"
 
-#: src/guimgr/constants.py:850
+#: src/guimgr/constants.py:862
 msgid "Run Tests"
 msgstr "Запуск тестов"
 
-#: src/guimgr/constants.py:851
+#: src/guimgr/constants.py:863
 msgid "Abort Tests"
 msgstr "Прервать тесты"
 
-#: src/guimgr/constants.py:852
+#: src/guimgr/constants.py:864
 msgid "Run All Tests"
 msgstr "Выполнить все тесты"
 
-#: src/guimgr/constants.py:855
+#: src/guimgr/constants.py:867
 msgid "Debug Tests"
 msgstr "Отладочные тесты"
 
-#: src/guimgr/constants.py:856
+#: src/guimgr/constants.py:868
 msgid "Debug All Tests"
 msgstr "Отладка всех тестов"
 
-#: src/guimgr/constants.py:862
+#: src/guimgr/constants.py:874
 msgid "Update"
 msgstr "Обновить"
 
-#: src/guimgr/constants.py:863
+#: src/guimgr/constants.py:875
 msgid "Commit"
 msgstr "Фиксировать "
 
-#: src/guimgr/constants.py:865
+#: src/guimgr/constants.py:877
 msgid "View Diffs"
 msgstr "Просмотр различий"
 
-#: src/guimgr/constants.py:866
+#: src/guimgr/constants.py:878
 msgid "Status"
 msgstr "Статус "
 
-#: src/guimgr/constants.py:875
+#: src/guimgr/constants.py:887
 msgid "Create Bookmark"
 msgstr "Создать закладку"
 
-#: src/guimgr/constants.py:877
+#: src/guimgr/constants.py:889
 #, fuzzy
 msgid "Remove Bookmark"
 msgstr "Создать закладку"
 
-#: src/guimgr/constants.py:880
+#: src/guimgr/constants.py:892
 msgid "Goto Bookmark"
 msgstr "Перейти к закладке"
 
-#: src/guimgr/constants.py:881
+#: src/guimgr/constants.py:893
 msgid "Go to selected bookmark"
 msgstr "Перейти к выбранной закладке"
 
-#: src/guimgr/constants.py:882
+#: src/guimgr/constants.py:894
 msgid "Previous Bookmark"
 msgstr "Предыдущая закладка"
 
-#: src/guimgr/constants.py:884
+#: src/guimgr/constants.py:896
 msgid "Next Bookmark"
 msgstr "Следующая закладка"
 
-#: src/guimgr/constants.py:890 src/guimgr/prefs.py:544
+#: src/guimgr/constants.py:902 src/guimgr/prefs.py:547
 msgid "Search in Files"
 msgstr "Поиск в файлах"
 
-#: src/guimgr/constants.py:891
+#: src/guimgr/constants.py:903
 msgid "Pause Search"
 msgstr "Приостановить поиск"
 
-#: src/guimgr/constants.py:892
+#: src/guimgr/constants.py:904
 msgid "Previous Match"
 msgstr "Предыдущее совпадение"
 
-#: src/guimgr/constants.py:893
+#: src/guimgr/constants.py:905
 msgid "Next Match"
 msgstr "Следующее совпадение"
 
-#: src/guimgr/constants.py:1001 src/guimgr/document.py:825
+#: src/guimgr/constants.py:1013 src/guimgr/document.py:886
 msgid "Previous"
 msgstr "Предыдущий"
 
-#: src/guimgr/constants.py:1002 src/guimgr/document.py:826
+#: src/guimgr/constants.py:1014 src/guimgr/document.py:887
 msgid "Next"
 msgstr "Следующий"
 
-#: src/guimgr/constants.py:1003 src/guimgr/document.py:827
+#: src/guimgr/constants.py:1015 src/guimgr/document.py:888
 msgid "Contents"
 msgstr "Оглавление"
 
-#: src/guimgr/constants.py:1004
+#: src/guimgr/constants.py:1016
 msgid "Close"
 msgstr "Закрыть"
 
-#: src/guimgr/document.py:194
+#: src/guimgr/document.py:196
 #, fuzzy
 msgid "Table of Contents"
 msgstr "Оглавление"
 
-#: src/guimgr/document.py:195 src/guimgr/wingtips.py:250
+#: src/guimgr/document.py:197 src/guimgr/wingtips.py:253
 msgid "Wing Tips"
 msgstr "Wing советы"
 
-#: src/guimgr/document.py:819
+#: src/guimgr/document.py:880
 msgid "Select from recently visited documents"
 msgstr "Выбрать из недавно полученных документов"
 
-#: src/guimgr/document.py:824
+#: src/guimgr/document.py:885
 msgid "History"
 msgstr "История"
 
-#: src/guimgr/document.py:861
+#: src/guimgr/document.py:922
 msgid "Help"
 msgstr "Справка"
 
-#: src/guimgr/document.py:867 src/guimgr/document.py:918
-#: src/guimgr/guimanager.py:2708
+#: src/guimgr/document.py:928 src/guimgr/document.py:979
+#: src/guimgr/guimanager.py:2865
 msgid "Wing Help"
 msgstr "Справка Wing"
 
-#: src/guimgr/document.py:1002
+#: src/guimgr/document.py:1072
 msgid ""
 "Could not find document section %s:  Please report this error to "
 "bugs@wingware.com"
@@ -1914,68 +1942,68 @@ msgstr ""
 "Не удалось найти раздел документа %s: сообщите об этой ошибке bugs@wingware."
 "com"
 
-#: src/guimgr/document.py:1003
+#: src/guimgr/document.py:1073
 msgid "Could not find document"
 msgstr "Не удалось найти документ"
 
-#: src/guimgr/document.py:1079 src/guimgr/wingtips.py:289
+#: src/guimgr/document.py:1149 src/guimgr/wingtips.py:292
 msgid "Copy Text to Clipboard"
 msgstr "Копировать текст в буфер обмена"
 
-#: src/guimgr/document.py:1080 src/guimgr/wingtips.py:290
+#: src/guimgr/document.py:1150 src/guimgr/wingtips.py:293
 msgid "Copy HTML to Clipboard"
 msgstr "Скопировать HTML в буфер обмена"
 
-#: src/guimgr/document.py:1082 src/guimgr/wingtips.py:292
+#: src/guimgr/document.py:1152 src/guimgr/wingtips.py:295
 msgid "Smaller Font"
 msgstr "Мелкий шрифт"
 
-#: src/guimgr/document.py:1083 src/guimgr/wingtips.py:293
+#: src/guimgr/document.py:1153 src/guimgr/wingtips.py:296
 msgid "Larger Font"
 msgstr "Крупный шрифт"
 
-#: src/guimgr/document.py:1085 src/guimgr/wingtips.py:295
+#: src/guimgr/document.py:1155 src/guimgr/wingtips.py:298
 #, fuzzy
 msgid "Reset Font to Default"
 msgstr "Использовать По Умолчанию"
 
-#: src/guimgr/document.py:1136 src/guimgr/document.py:1153
+#: src/guimgr/document.py:1206 src/guimgr/document.py:1223
 msgid "Help view state"
 msgstr "Состояние просмотра справки"
 
-#: src/guimgr/feedback.py:57
+#: src/guimgr/feedback.py:59
 msgid "Wing: Submit Bug Report"
 msgstr "Wing: Отправить Сообщение Об Ошибке"
 
-#: src/guimgr/feedback.py:60
+#: src/guimgr/feedback.py:62
 msgid "Wing: Please Send Feedback"
 msgstr "Wing: Пожалуйста, отправьте отзыв"
 
-#: src/guimgr/feedback.py:63
+#: src/guimgr/feedback.py:65
 msgid "_Do Later"
 msgstr "_Выполнить Позже"
 
-#: src/guimgr/feedback.py:70
+#: src/guimgr/feedback.py:72
 msgid "Configure Proxy..."
 msgstr "Настроить прокси..."
 
-#: src/guimgr/feedback.py:71
+#: src/guimgr/feedback.py:73
 msgid "_Submit Now"
 msgstr "_Отправить сейчас"
 
-#: src/guimgr/feedback.py:80
+#: src/guimgr/feedback.py:82
 msgid "Show this dialog on unexpected errors"
 msgstr "Показывать это диалоговое окно при непредвиденных ошибках"
 
-#: src/guimgr/feedback.py:88
+#: src/guimgr/feedback.py:90
 msgid "Show this dialog when quitting"
 msgstr "Показывать этот диалог при выходе"
 
-#: src/guimgr/feedback.py:96
+#: src/guimgr/feedback.py:98
 msgid "Include error log: %s (%i KB)"
 msgstr "Включить журнал ошибок: %s (%i КБ)"
 
-#: src/guimgr/feedback.py:121
+#: src/guimgr/feedback.py:123
 msgid ""
 "Please provide as much information as possible about what caused the bug "
 "that you are reporting."
@@ -1983,7 +2011,7 @@ msgstr ""
 "Пожалуйста, предоставьте как можно больше информации о том, что вызвало "
 "ошибку, о которой вы сообщаете."
 
-#: src/guimgr/feedback.py:124
+#: src/guimgr/feedback.py:126
 msgid ""
 "An unexpected error occurred.  Please submit this bug report to us, with as "
 "much additional information as possible about what caused the problem.\n"
@@ -1997,82 +2025,82 @@ msgstr ""
 "Извините за это неудобство -- отправка отчета поможет нам решить проблему "
 "быстрее."
 
-#: src/guimgr/feedback.py:130
+#: src/guimgr/feedback.py:132
 msgid ""
 "Please tell us what you think!  Your feedback drives our product development."
 msgstr ""
 "Пожалуйста, сообщите нам, что вы думаете!  Ваш отзыв поможет развитию нашего "
 "продукта."
 
-#: src/guimgr/feedback.py:136
+#: src/guimgr/feedback.py:138
 msgid "Summary: "
 msgstr "Резюме: "
 
-#: src/guimgr/feedback.py:143
+#: src/guimgr/feedback.py:145
 msgid "Details: "
 msgstr "Детали: "
 
-#: src/guimgr/feedback.py:158
+#: src/guimgr/feedback.py:160
 msgid "Where did you hear about Wing?"
 msgstr "Где вы узнали о Wing?"
 
-#: src/guimgr/feedback.py:160
+#: src/guimgr/feedback.py:162
 msgid "Please tell us why you chose Wing Pro:"
 msgstr ""
 
-#: src/guimgr/feedback.py:166
+#: src/guimgr/feedback.py:168
 msgid "If you want us to respond, please include a valid email address:"
 msgstr "Чтобы мы ответили, пожалуйста, укажите адрес электронной почты:"
 
-#: src/guimgr/feedback.py:175
+#: src/guimgr/feedback.py:177
 msgid "You can also do this later from the Help menu."
 msgstr "Вы также можете сделать это позже из меню Справка."
 
-#: src/guimgr/feedback.py:208
+#: src/guimgr/feedback.py:210
 msgid "Submitting"
 msgstr "Представления"
 
-#: src/guimgr/feedback.py:209
+#: src/guimgr/feedback.py:211
 msgid "Submitting to wingware.com. Please wait"
 msgstr "Отправка в wingware.com. Подождите"
 
-#: src/guimgr/feedback.py:257
+#: src/guimgr/feedback.py:259
 msgid "Collecting Data"
 msgstr "Сбор данных"
 
-#: src/guimgr/feedback.py:300
+#: src/guimgr/feedback.py:302
 msgid "Nothing to Submit"
 msgstr "Нечего посылать"
 
-#: src/guimgr/feedback.py:301
+#: src/guimgr/feedback.py:303
 msgid "Nothing was entered in summary or detail."
 msgstr "Ничего не было указано в резюме или деталях."
 
-#: src/guimgr/feedback.py:325
+#: src/guimgr/feedback.py:327
 msgid "Encoding Data"
 msgstr "Кодирование данных"
 
-#: src/guimgr/feedback.py:341
+#: src/guimgr/feedback.py:343
 msgid "Creating Request"
 msgstr "Создаем запрос"
 
-#: src/guimgr/feedback.py:349
+#: src/guimgr/feedback.py:351
 msgid "Opening Connection"
 msgstr "Открытие соединения"
 
-#: src/guimgr/feedback.py:357
+#: src/guimgr/feedback.py:359
 msgid "Reading Reply"
 msgstr "Чтение ответа"
 
-#: src/guimgr/feedback.py:364
+#: src/guimgr/feedback.py:366
 msgid "Closing Connection"
 msgstr "Закрытие соединения"
 
-#: src/guimgr/feedback.py:370
+#: src/guimgr/feedback.py:372
 msgid "Submit Error"
 msgstr "Ошибка отправки"
 
-#: src/guimgr/feedback.py:371
+#: src/guimgr/feedback.py:373
 msgid ""
 "Received unexpected response.  There may be a network problem:\n"
 "\n"
@@ -2084,11 +2112,11 @@ msgstr ""
 "%s\n"
 "\n"
 
-#: src/guimgr/feedback.py:387
+#: src/guimgr/feedback.py:389
 msgid "Bug Report Submitted"
 msgstr "Сообщение об ошибке отправлено"
 
-#: src/guimgr/feedback.py:388
+#: src/guimgr/feedback.py:390
 msgid ""
 "Thanks for your bug report.  It has been submitted to wingware.com and will "
 "be emailed to our software development staff."
@@ -2097,11 +2125,11 @@ msgstr ""
 "будет отправлена по электронной почте нашим сотрудникам по разработке "
 "программного обеспечения."
 
-#: src/guimgr/feedback.py:392
+#: src/guimgr/feedback.py:394
 msgid "Feedback Submitted"
 msgstr "Отзыв передан"
 
-#: src/guimgr/feedback.py:393
+#: src/guimgr/feedback.py:395
 msgid ""
 "Thanks for your feedback.  It has been submitted to wingware.com and will be "
 "emailed to our software development staff."
@@ -2109,44 +2137,70 @@ msgstr ""
 "Спасибо за ваш отзыв. Он был отправлен на wingware.com и будет отправлен по "
 "электронной почте нашему персоналу по разработке программного обеспечения."
 
-#: src/guimgr/feedback.py:429
+#: src/guimgr/feedback.py:433
 #, fuzzy
 msgid "Continue _Report"
 msgstr "Продолжить отчет"
 
-#: src/guimgr/feedback.py:430
+#: src/guimgr/feedback.py:434
 #, fuzzy
 msgid "_Cancel Report"
 msgstr "Отменить отчет"
 
-#: src/guimgr/feedback.py:434
+#: src/guimgr/feedback.py:438
 msgid "Cancel Bug Report?"
 msgstr "Отменить отчет об ошибке?"
 
-#: src/guimgr/feedback.py:436
+#: src/guimgr/feedback.py:440
 msgid "Cancel Feedback?"
 msgstr "Отменить отзыв?"
 
-#: src/guimgr/feedback.py:437
+#: src/guimgr/feedback.py:441
 msgid ""
 "Are you sure you want to cancel?  Any text you have entered will be lost."
 msgstr ""
 "Вы уверены, что хотите отменить?  Любой текст, который вы ввели, будут "
 "потеряны."
 
-#: src/guimgr/guimanager.py:222
+#: src/guimgr/guimanager.py:227
 msgid "No Project"
 msgstr "Нет проекта"
 
-#: src/guimgr/guimanager.py:226
+#: src/guimgr/guimanager.py:231
 msgid " (r/o)"
 msgstr ""
 
-#: src/guimgr/guimanager.py:599 src/guimgr/guimanager.py:611
+#: src/guimgr/guimanager.py:404
+msgid "Add Directory to Project?"
+msgstr "Добавить каталог в проект?"
+
+#: src/guimgr/guimanager.py:405
+msgid "Would you like to add %s to your project?"
+msgstr "Хотите добавить %s в свой проект?"
+
+#: src/guimgr/guimanager.py:408
+#, fuzzy
+msgid "_Add Directory"
+msgstr "Добавить каталог"
+
+#: src/guimgr/guimanager.py:415
+msgid "Add Directories to Project?"
+msgstr "Добавить каталоги в проект?"
+
+#: src/guimgr/guimanager.py:416
+msgid "Please select directories to add to the project:"
+msgstr "Выберите каталоги для добавления в проект:"
+
+#: src/guimgr/guimanager.py:422
+#, fuzzy
+msgid "_Add Selected Dirs"
+msgstr "Добавить выбранные Dirs"
+
+#: src/guimgr/guimanager.py:765 src/guimgr/guimanager.py:777
 msgid "Failed language change"
 msgstr "Ошибка смены языка"
 
-#: src/guimgr/guimanager.py:600
+#: src/guimgr/guimanager.py:766
 msgid ""
 "Failed to remove %s -- the language cannot be changed until this file can be "
 "removed."
@@ -2154,7 +2208,7 @@ msgstr ""
 "Не удалось удалить %s -- язык не может быть изменен до тех пор, пока этот "
 "файл не будет удален."
 
-#: src/guimgr/guimanager.py:612
+#: src/guimgr/guimanager.py:778
 msgid ""
 "Failed to write %s -- the language cannot be changed until this file can be "
 "written."
@@ -2162,7 +2216,7 @@ msgstr ""
 "Не удалось записать %s -- язык не может быть изменен до тех пор, пока этот "
 "файл не будет записан."
 
-#: src/guimgr/guimanager.py:821
+#: src/guimgr/guimanager.py:920
 msgid ""
 "The new font size may not apply successfully to all of the GUI until you "
 "restart Wing."
@@ -2170,248 +2224,227 @@ msgstr ""
 "Новый размер шрифта не может быть применнен ко всему GUI, пока вы не "
 "перезапустите Wing."
 
-#: src/guimgr/guimanager.py:983
+#: src/guimgr/guimanager.py:1097
 msgid "Exit Presentation Mode?"
 msgstr ""
 
-#: src/guimgr/guimanager.py:984
+#: src/guimgr/guimanager.py:1098
 msgid "Do you want to restart now to exit presentation mode?"
 msgstr ""
 
-#: src/guimgr/guimanager.py:987
+#: src/guimgr/guimanager.py:1101
 msgid "Enter Presentation Mode?"
 msgstr ""
 
-#: src/guimgr/guimanager.py:988
+#: src/guimgr/guimanager.py:1102
 msgid ""
 "Do you want to restart now to enter presentation mode with scaling factor "
 "%.1f?"
 msgstr ""
 
-#: src/guimgr/guimanager.py:991
+#: src/guimgr/guimanager.py:1105
 msgid "Change _Scaling Factor..."
 msgstr ""
 
-#: src/guimgr/guimanager.py:994
+#: src/guimgr/guimanager.py:1108
 #, fuzzy
 msgid "_Restart"
 msgstr "Перезапустить"
 
-#: src/guimgr/guimanager.py:1046
+#: src/guimgr/guimanager.py:1121 src/guimgr/guimanager.py:1173
 #, fuzzy
 msgid "Restart Wing?"
 msgstr "Перезапустить отладку"
 
-#: src/guimgr/guimanager.py:1047
-msgid "Changing window and icon scale factor.  Do you want to restart now?"
+#: src/guimgr/guimanager.py:1122
+msgid "Changing scale factor.  Do you want to restart now?"
 msgstr ""
 
-#: src/guimgr/guimanager.py:1049 src/guimgr/guimanager.py:4759
+#: src/guimgr/guimanager.py:1124 src/guimgr/guimanager.py:1176
+#: src/guimgr/guimanager.py:4855
 msgid "_Restart Now"
 msgstr "_Перезагрузить сейчас"
 
-#: src/guimgr/guimanager.py:1050
+#: src/guimgr/guimanager.py:1125 src/guimgr/guimanager.py:1177
 #, fuzzy
 msgid "_Keep Working"
 msgstr "_Продолжить Работу"
 
-#: src/guimgr/guimanager.py:1076
+#: src/guimgr/guimanager.py:1174
+msgid "Changing window and icon scale factor.  Do you want to restart now?"
+msgstr ""
+
+#: src/guimgr/guimanager.py:1203
 msgid "Change scale factor?"
 msgstr ""
 
-#: src/guimgr/guimanager.py:1081
+#: src/guimgr/guimanager.py:1208
 msgid ""
 "Based on inspection of your display, Wing recommends setting the icon and "
 "window scaling factor to {}.  Would you like to restart to change this?"
 msgstr ""
 
-#: src/guimgr/guimanager.py:1084
+#: src/guimgr/guimanager.py:1211
 #, fuzzy
 msgid "_Show Preferences"
 msgstr "Настройки..."
 
-#: src/guimgr/guimanager.py:1085
+#: src/guimgr/guimanager.py:1212
 #, fuzzy
 msgid "Change and _Restart"
 msgstr "Изменение регистра"
 
-#: src/guimgr/guimanager.py:1086
+#: src/guimgr/guimanager.py:1213
 #, fuzzy
 msgid "_Keep Current Value"
 msgstr "Выполнить текущий файл"
 
-#: src/guimgr/guimanager.py:1089
+#: src/guimgr/guimanager.py:1216
 #, fuzzy
 msgid "Don't show this dialog again"
 msgstr "Показывать этот диалог при выходе"
 
-#: src/guimgr/guimanager.py:1199
+#: src/guimgr/guimanager.py:1327
 #, fuzzy
 msgid "Installed updates: %s"
 msgstr "Установленные исправления: %s"
 
-#: src/guimgr/guimanager.py:1367
+#: src/guimgr/guimanager.py:1504
 msgid "Cannot Open Remote File"
 msgstr "Не удается открыть удаленный файл"
 
-#: src/guimgr/guimanager.py:1367
+#: src/guimgr/guimanager.py:1504
 msgid "This version of Wing cannot open remote files like %s"
 msgstr "Эта версия Wing не может открывать удаленные файлы, такие как %s"
 
-#: src/guimgr/guimanager.py:1395
+#: src/guimgr/guimanager.py:1532
 msgid "Document Open Failed"
 msgstr "Не удалось открыть документ"
 
-#: src/guimgr/guimanager.py:1395
+#: src/guimgr/guimanager.py:1532
 msgid "Failed to open document '%s'"
 msgstr "Не удалось открыть документ '%s'"
 
-#: src/guimgr/guimanager.py:2010
+#: src/guimgr/guimanager.py:2164
 msgid "Could not show panel"
 msgstr "Не удалось отобразить панель"
 
-#: src/guimgr/guimanager.py:2011
+#: src/guimgr/guimanager.py:2165
 msgid "Could not display requested panel of type '%s' (unknown panel type)"
 msgstr ""
 "Не удалось отобразить запрошенную панель типа '%s' (неизвестный тип панели)"
 
-#: src/guimgr/guimanager.py:2190
+#: src/guimgr/guimanager.py:2344
 msgid "No Project Open"
 msgstr "Нет открытого проекта"
 
-#: src/guimgr/guimanager.py:2193
+#: src/guimgr/guimanager.py:2347
 msgid "Wing Menu: %s"
 msgstr "Wing Menu: %s"
 
-#: src/guimgr/guimanager.py:2349
+#: src/guimgr/guimanager.py:2503
 msgid "The file to select"
 msgstr "Выбираемый файл"
 
-#: src/guimgr/guimanager.py:2351
+#: src/guimgr/guimanager.py:2505
 msgid "Select file:"
 msgstr "Выберите файл:"
 
-#: src/guimgr/guimanager.py:2419
+#: src/guimgr/guimanager.py:2573
 msgid "General failure obtaining application-wide visual state"
 msgstr "Общий сбой при получении визуального состояния на уровне приложения"
 
-#: src/guimgr/guimanager.py:2437
+#: src/guimgr/guimanager.py:2591
 msgid "No windows in application-wide state"
 msgstr "Нет окон в состоянии приложения"
 
-#: src/guimgr/guimanager.py:2446
+#: src/guimgr/guimanager.py:2600
 msgid "Creating window"
 msgstr "Создание окна"
 
-#: src/guimgr/guimanager.py:2448
+#: src/guimgr/guimanager.py:2602
 msgid "Creating window #%i..."
 msgstr "Создание окна #%i ..."
 
-#: src/guimgr/guimanager.py:2488
+#: src/guimgr/guimanager.py:2642
 msgid "Configuring window..."
 msgstr "Настройка окна..."
 
-#: src/guimgr/guimanager.py:2490
+#: src/guimgr/guimanager.py:2644
 msgid "Configuring window (%i)..."
 msgstr "Окно настройки (%i)..."
 
-#: src/guimgr/guimanager.py:2542
+#: src/guimgr/guimanager.py:2699
 msgid "Could not set tool window visual state:  No notebook view"
 msgstr ""
 "Не удалось установить визуальное состояние окна инструмента: No notebook view"
 
-#: src/guimgr/guimanager.py:2576
+#: src/guimgr/guimanager.py:2733
 msgid "General failure in setting application-wide state"
 msgstr "Общий сбой при настройке состояния приложения"
 
-#: src/guimgr/guimanager.py:2657
+#: src/guimgr/guimanager.py:2814
 msgid "Auto-Save Files Before Debug or Execute"
 msgstr "Автоматическое сохранение файлов перед отладкой или выполнением"
 
-#: src/guimgr/guimanager.py:2712
+#: src/guimgr/guimanager.py:2869
 msgid "Default Project"
 msgstr "Проект по умолчанию"
 
-#: src/guimgr/guimanager.py:2856
+#: src/guimgr/guimanager.py:3012
 msgid "Waiting for remote agent to exit for: "
 msgstr "Ожидание удаленного агента для выхода: "
 
-#: src/guimgr/guimanager.py:2867
+#: src/guimgr/guimanager.py:3023
 msgid "Waiting for Remote Agent"
 msgstr "Ожидание удаленного агента"
 
-#: src/guimgr/guimanager.py:2872
+#: src/guimgr/guimanager.py:3028
 #, fuzzy
 msgid "_Force Quit"
 msgstr "Принудительный выход"
 
-#: src/guimgr/guimanager.py:3091
-msgid "Add Directory to Project?"
-msgstr "Добавить каталог в проект?"
-
-#: src/guimgr/guimanager.py:3092
-msgid "Would you like to add %s to your project?"
-msgstr "Хотите добавить %s в свой проект?"
-
-#: src/guimgr/guimanager.py:3095
-#, fuzzy
-msgid "_Add Directory"
-msgstr "Добавить каталог"
-
-#: src/guimgr/guimanager.py:3103
-msgid "Add Directories to Project?"
-msgstr "Добавить каталоги в проект?"
-
-#: src/guimgr/guimanager.py:3104
-msgid "Please select directories to add to the project:"
-msgstr "Выберите каталоги для добавления в проект:"
-
-#: src/guimgr/guimanager.py:3110
-#, fuzzy
-msgid "_Add Selected Dirs"
-msgstr "Добавить выбранные Dirs"
-
-#: src/guimgr/guimanager.py:3154 src/guimgr/guimanager.py:3210
+#: src/guimgr/guimanager.py:3244 src/guimgr/guimanager.py:3300
 msgid "Wing: %s (r/o)"
 msgstr ""
 
-#: src/guimgr/guimanager.py:3156 src/guimgr/guimanager.py:3212
+#: src/guimgr/guimanager.py:3246 src/guimgr/guimanager.py:3302
 msgid "Wing: %s"
 msgstr ""
 
-#: src/guimgr/guimanager.py:3158 src/guimgr/guimanager.py:3214
+#: src/guimgr/guimanager.py:3248 src/guimgr/guimanager.py:3304
 msgid "Wing"
 msgstr ""
 
-#: src/guimgr/guimanager.py:3289
+#: src/guimgr/guimanager.py:3379
 msgid "Failed to set panel window state:"
 msgstr "Не удалось установить состояние окна панели:"
 
-#: src/guimgr/guimanager.py:3344
+#: src/guimgr/guimanager.py:3434
 msgid "Toolbox: %s: Wing"
 msgstr "Панель инструментов:: %s: Wing"
 
-#: src/guimgr/guimanager.py:3346
+#: src/guimgr/guimanager.py:3436
 msgid "%s: %s: Wing"
 msgstr ""
 
-#: src/guimgr/guimanager.py:3349
+#: src/guimgr/guimanager.py:3439
 msgid "Toolbox: Wing"
 msgstr "Панель инструментов: Wing"
 
-#: src/guimgr/guimanager.py:3351
+#: src/guimgr/guimanager.py:3441
 msgid "%s: Wing"
 msgstr ""
 
-#: src/guimgr/guimanager.py:3505
+#: src/guimgr/guimanager.py:3595
 msgid "Failed to save portions of visual state for %s:"
 msgstr "Не удалось сохранить части визуального состояния для% s:"
 
-#: src/guimgr/guimanager.py:3521
+#: src/guimgr/guimanager.py:3611
 msgid "Really Restore Default Tools?"
 msgstr "Действительно восстановить инструменты по умолчанию?"
 
-#: src/guimgr/guimanager.py:3526
+#: src/guimgr/guimanager.py:3616
 msgid ""
 "This command will close all currently open tools and restore the factory "
 "default tool set for the perspective '%s'.  Are you sure you want to do this?"
@@ -2420,7 +2453,7 @@ msgstr ""
 "восстановит заводские настройки по умолчанию для перспективы \"%s\". Вы "
 "уверены, что хотите это сделать?"
 
-#: src/guimgr/guimanager.py:3530
+#: src/guimgr/guimanager.py:3620
 msgid ""
 "This command will close all currently open tools and restore the factory "
 "default tool set for user-defined perspectives.  Are you sure you want to do "
@@ -2430,7 +2463,7 @@ msgstr ""
 "заводские настройки по умолчанию для пользовательских перспектив. Вы "
 "уверены, что хотите это сделать?"
 
-#: src/guimgr/guimanager.py:3534
+#: src/guimgr/guimanager.py:3624
 msgid ""
 "This command will close all currently open tools and restore the factory "
 "default tool set.  Are you sure you want to do this?"
@@ -2438,165 +2471,165 @@ msgstr ""
 "Эта команда закроет все открытые инструменты и восстановит заводские "
 "настройки по умолчанию. Вы уверены, что хотите это сделать?"
 
-#: src/guimgr/guimanager.py:3537
+#: src/guimgr/guimanager.py:3627
 msgid "_Yes"
 msgstr "_Да"
 
-#: src/guimgr/guimanager.py:3538
+#: src/guimgr/guimanager.py:3628
 msgid "_No"
 msgstr "_Нет"
 
-#: src/guimgr/guimanager.py:3640
+#: src/guimgr/guimanager.py:3730
 msgid " (named entry point)"
 msgstr "(именованная точка входа)"
 
-#: src/guimgr/guimanager.py:3748
+#: src/guimgr/guimanager.py:3838
 msgid "Left"
 msgstr "Влево"
 
-#: src/guimgr/guimanager.py:3750
+#: src/guimgr/guimanager.py:3840
 msgid "Right"
 msgstr "Вправо"
 
-#: src/guimgr/guimanager.py:3754
+#: src/guimgr/guimanager.py:3844
 msgid "Bottom"
 msgstr "Вниз"
 
-#: src/guimgr/guimanager.py:3756
+#: src/guimgr/guimanager.py:3846
 msgid "Top"
 msgstr "Вверх"
 
-#: src/guimgr/guimanager.py:3779
+#: src/guimgr/guimanager.py:3869
 msgid "%sToolbox"
 msgstr "%sПанель инструментов"
 
-#: src/guimgr/guimanager.py:3784 src/guimgr/guimanager.py:3787
+#: src/guimgr/guimanager.py:3874 src/guimgr/guimanager.py:3877
 msgid "%sToolbox Split #%i"
 msgstr "%sРазделение панели инструментов #%i"
 
-#: src/guimgr/guimanager.py:3815
+#: src/guimgr/guimanager.py:3905
 msgid "Insert Tool"
 msgstr "Добавить инструмент"
 
-#: src/guimgr/guimanager.py:3832 src/guimgr/multieditor.py:3720
+#: src/guimgr/guimanager.py:3922 src/guimgr/multieditor.py:3730
 msgid "New Window"
 msgstr "Новое окно"
 
-#: src/guimgr/guimanager.py:3852 src/guimgr/multieditor.py:3711
+#: src/guimgr/guimanager.py:3942 src/guimgr/multieditor.py:3721
 msgid "Window %s"
 msgstr "Окно %s"
 
-#: src/guimgr/guimanager.py:3867 src/guimgr/multieditor.py:3744
+#: src/guimgr/guimanager.py:3957 src/guimgr/multieditor.py:3754
 msgid "Move %s to"
 msgstr "Переместить %s в"
 
-#: src/guimgr/guimanager.py:3876
+#: src/guimgr/guimanager.py:3966
 msgid "Remove %s"
 msgstr "Удалить %s"
 
-#: src/guimgr/guimanager.py:3882
+#: src/guimgr/guimanager.py:3972
 msgid "%s Key Binding"
 msgstr "%s привязка клавиш"
 
-#: src/guimgr/guimanager.py:3883
+#: src/guimgr/guimanager.py:3973
 msgid "Key binding used to show the most recently accessed %s"
 msgstr "Ключ привязки, для  наиболее часто используемые %s"
 
-#: src/guimgr/guimanager.py:3885
+#: src/guimgr/guimanager.py:3975
 msgid "Set Key Binding for %s..."
 msgstr "Установить привязку клавиш для %s ..."
 
-#: src/guimgr/guimanager.py:3898
+#: src/guimgr/guimanager.py:3988
 msgid "Put Toolbox Back Into %s"
 msgstr "Вставить Toolbox обратно в %s"
 
-#: src/guimgr/guimanager.py:3905
+#: src/guimgr/guimanager.py:3995
 msgid "Move Toolbox to Right"
 msgstr "Переместить панель инструментов вправо"
 
-#: src/guimgr/guimanager.py:3906
+#: src/guimgr/guimanager.py:3996
 msgid "Move Toolbox to Left"
 msgstr "Переместить панель инструментов влево"
 
-#: src/guimgr/guimanager.py:3907
+#: src/guimgr/guimanager.py:3997
 msgid "Move Toolbox to Top"
 msgstr "Переместить панель инструментов вверх"
 
-#: src/guimgr/guimanager.py:3908
+#: src/guimgr/guimanager.py:3998
 msgid "Move Toolbox to Bottom"
 msgstr "Переместить панель инструментов вниз"
 
-#: src/guimgr/guimanager.py:3919
+#: src/guimgr/guimanager.py:4009
 msgid "Move Toolbox to New Window"
 msgstr "Переместить панель инструментов в новое окно"
 
-#: src/guimgr/guimanager.py:3927
+#: src/guimgr/guimanager.py:4017
 msgid "Move Toolbox Split #%i to New Window"
 msgstr "Переместить разделяемую панель инструментов #%i в новое окно"
 
-#: src/guimgr/guimanager.py:3938
+#: src/guimgr/guimanager.py:4028
 msgid "Add Toolbox Split"
 msgstr "Добавить разделение панели инструментов"
 
-#: src/guimgr/guimanager.py:3942
+#: src/guimgr/guimanager.py:4032
 msgid "Remove Toolbox Split"
 msgstr "Удалить разделение панели инструментов"
 
-#: src/guimgr/guimanager.py:3948
+#: src/guimgr/guimanager.py:4038
 msgid "Hide Toolbox"
 msgstr "Скрыть панель инструментов"
 
-#: src/guimgr/guimanager.py:3963
+#: src/guimgr/guimanager.py:4053
 msgid "Use Above and Below Splits"
 msgstr "Использовать разделение верх низ"
 
-#: src/guimgr/guimanager.py:3965
+#: src/guimgr/guimanager.py:4055
 msgid "Use Side by Side Splits"
 msgstr "Использовать боковое разделение"
 
-#: src/guimgr/guimanager.py:3989
+#: src/guimgr/guimanager.py:4079
 msgid "Place Tabs at Bottom"
 msgstr "Поместить вкладки внизу"
 
-#: src/guimgr/guimanager.py:3991
+#: src/guimgr/guimanager.py:4081
 msgid "Place Tabs at Top"
 msgstr "Поместить вкладки вверху"
 
-#: src/guimgr/guimanager.py:3994
+#: src/guimgr/guimanager.py:4084
 msgid "Place Tabs at Right"
 msgstr "Поместить вкладки справа"
 
-#: src/guimgr/guimanager.py:3996
+#: src/guimgr/guimanager.py:4086
 msgid "Place Tabs at Left"
 msgstr "Поместить вкладки слева"
 
-#: src/guimgr/guimanager.py:4011
+#: src/guimgr/guimanager.py:4101
 msgid "The window title (blank for internal default)"
 msgstr "Заголовок окна (пустой для внутреннего значения по умолчанию)"
 
-#: src/guimgr/guimanager.py:4018
+#: src/guimgr/guimanager.py:4108
 msgid "Set Window Title..."
 msgstr "Установить заголовок окна ..."
 
-#: src/guimgr/guimanager.py:4027
+#: src/guimgr/guimanager.py:4117
 msgid "Keep Window on Top"
 msgstr "Держать окно поверх"
 
-#: src/guimgr/guimanager.py:4740
+#: src/guimgr/guimanager.py:4836
 msgid "Failed to set colors"
 msgstr "Не удалось задать цвета"
 
-#: src/guimgr/guimanager.py:4741
+#: src/guimgr/guimanager.py:4837
 msgid "Failed to set selected colors because the file %s could not be written"
 msgstr ""
 "Не удалось установить выбранные цвета, потому что файл% s не может быть "
 "записан"
 
-#: src/guimgr/guimanager.py:4760
+#: src/guimgr/guimanager.py:4856
 msgid "_Continue Working"
 msgstr "_Продолжить Работу"
 
-#: src/guimgr/guimanager.py:4763
+#: src/guimgr/guimanager.py:4859
 msgid ""
 "Wing requires a restart to reinitialize its display to match the current "
 "display  preferences.  You may either quit now or continue working without "
@@ -2606,19 +2639,19 @@ msgstr ""
 "соответствии с текущими настройками отображения. Вы можете либо выйти, либо "
 "продолжить работу без всех примененных настроек."
 
-#: src/guimgr/guimanager.py:4769
+#: src/guimgr/guimanager.py:4865
 msgid "Restart for Display Changes"
 msgstr "Перезапуск для отображения изменений"
 
-#: src/guimgr/initialprefs.py:45
+#: src/guimgr/initialprefs.py:49
 msgid "_Tab Key Action"
 msgstr "_Tab Key Action"
 
-#: src/guimgr/initialprefs.py:48
+#: src/guimgr/initialprefs.py:52
 msgid "_Enable Auto-Editing"
 msgstr "_Включить авторедактирование"
 
-#: src/guimgr/initialprefs.py:51
+#: src/guimgr/initialprefs.py:55
 msgid ""
 "Please select your preferred editor behaviors.  Hover over the fields for "
 "additional documentation."
@@ -2626,7 +2659,7 @@ msgstr ""
 "Выберите предпочтительное поведение редактора.  Наведите курсор на поля для "
 "дополнительной документации."
 
-#: src/guimgr/initialprefs.py:53
+#: src/guimgr/initialprefs.py:57
 msgid ""
 "You can alter these settings later in Preferences or by using the Edit > "
 "Keyboard Personality menu."
@@ -2634,19 +2667,19 @@ msgstr ""
 "Вы можете изменить эти настройки позже в настройках или с помощью меню Edit "
 "> Keyboard Personality."
 
-#: src/guimgr/initialprefs.py:92
+#: src/guimgr/initialprefs.py:96
 msgid "Use Wing _Defaults"
 msgstr "Использовать Wing _Умолчания"
 
-#: src/guimgr/initialprefs.py:93
+#: src/guimgr/initialprefs.py:97
 msgid "Use _These Settings"
 msgstr "Использовать _Эти настройки"
 
-#: src/guimgr/initialprefs.py:97
+#: src/guimgr/initialprefs.py:101
 msgid "Select Initial Preferences"
 msgstr "Выберите начальные настройки"
 
-#: src/guimgr/initialprefs.py:109
+#: src/guimgr/initialprefs.py:113
 msgid "Configuring window %i..."
 msgstr "Настройка окна %i..."
 
@@ -2662,97 +2695,97 @@ msgstr "Недоступные команды: %s"
 msgid "Failed to save portion of editor state for %s"
 msgstr "Не удалось сохранить часть состояния редактора для %s"
 
-#: src/guimgr/keyboard.py:1712
+#: src/guimgr/keyboard.py:1713
 msgid "Failed to restore portions of editor state for %s:"
 msgstr "Не удалось восстановить части состояния редактора для %s:"
 
-#: src/guimgr/keyboard.py:2049
+#: src/guimgr/keyboard.py:2050
 msgid "[not unique]"
 msgstr "[не уникально]"
 
-#: src/guimgr/keyboard.py:2056
+#: src/guimgr/keyboard.py:2057
 msgid "[no match]"
 msgstr "[не совпадает]"
 
-#: src/guimgr/keyboard.py:2351
+#: src/guimgr/keyboard.py:2352
 msgid "Repeat: "
 msgstr "Повтор: "
 
-#: src/guimgr/keyboard.py:2444
+#: src/guimgr/keyboard.py:2445
 msgid "Count: "
 msgstr "Количество: "
 
-#: src/guimgr/messages.py:41
+#: src/guimgr/messages.py:43
 msgid "general"
 msgstr "общие сведения"
 
-#: src/guimgr/messages.py:42
+#: src/guimgr/messages.py:44
 msgid "editor"
 msgstr "редактор"
 
-#: src/guimgr/messages.py:43
+#: src/guimgr/messages.py:45
 msgid "debugger"
 msgstr "отладчик"
 
-#: src/guimgr/messages.py:44
+#: src/guimgr/messages.py:46
 msgid "search"
 msgstr "поиск"
 
-#: src/guimgr/messages.py:45
+#: src/guimgr/messages.py:47
 msgid "transient"
 msgstr "временный"
 
-#: src/guimgr/messages.py:46
+#: src/guimgr/messages.py:48
 msgid "scripts"
 msgstr "скрипты"
 
-#: src/guimgr/messages.py:47
+#: src/guimgr/messages.py:49
 msgid "project"
 msgstr "проект"
 
-#: src/guimgr/messages.py:48
+#: src/guimgr/messages.py:50
 msgid "browser"
 msgstr "браузер"
 
-#: src/guimgr/messages.py:49
+#: src/guimgr/messages.py:51
 msgid "analysis"
 msgstr "анализ"
 
-#: src/guimgr/messages.py:101
+#: src/guimgr/messages.py:103
 msgid "Messages"
 msgstr "Сообщения"
 
-#: src/guimgr/messages.py:106
+#: src/guimgr/messages.py:108
 msgid "Wing Sub-System Messages"
 msgstr "Сообщения подсистемы Wing"
 
-#: src/guimgr/messages.py:234
+#: src/guimgr/messages.py:236
 msgid "Error"
 msgstr "Ошибка"
 
-#: src/guimgr/messages.py:375 src/guimgr/messages.py:390
+#: src/guimgr/messages.py:377 src/guimgr/messages.py:392
 msgid "Messages visual state"
 msgstr "Визуальное состояние сообщений"
 
-#: src/guimgr/messages.py:413
+#: src/guimgr/messages.py:415
 msgid "Show Messages:  "
 msgstr "Показать сообщения:"
 
-#: src/guimgr/multieditor.py:222
+#: src/guimgr/multieditor.py:223
 msgid "Failed to save portions of visual state for editor %s:"
 msgstr "Не удалось сохранить часть визуального состояния для редактора %s:"
 
-#: src/guimgr/multieditor.py:733
+#: src/guimgr/multieditor.py:734
 msgid "Switch between open files"
 msgstr "Переключение между открытыми файлами"
 
-#: src/guimgr/multieditor.py:947
+#: src/guimgr/multieditor.py:948
 msgid ""
 "This editor is locked and will not be used to open other files.  Click the "
 "lock icon to change modes."
 msgstr "Переключение между открытыми файлами"
 
-#: src/guimgr/multieditor.py:951
+#: src/guimgr/multieditor.py:952
 msgid ""
 "This file is sticky and will remain open until closed.  Click the stick pin "
 "icon to change modes."
@@ -2760,7 +2793,7 @@ msgstr ""
 "Этот файл закреплен и будет оставаться открытым до закрытия.  Нажмите на "
 "значок булавки, чтобы изменить режимы."
 
-#: src/guimgr/multieditor.py:956
+#: src/guimgr/multieditor.py:957
 msgid ""
 "This file is non-sticky and will auto-close when hidden.  Click the stick "
 "pin icon to change modes."
@@ -2768,206 +2801,206 @@ msgstr ""
 "Этот файл не закреплен и будет автоматически закрываться при скрытии.  "
 "Нажмите на значок булавки, чтобы изменить режимы."
 
-#: src/guimgr/multieditor.py:961
+#: src/guimgr/multieditor.py:962
 msgid "Right-click for menu of recently visited documents."
 msgstr "Right-click для меню недавно просмотренных документов."
 
-#: src/guimgr/multieditor.py:1110 src/guimgr/multieditor.py:1664
-#: src/guimgr/multieditor.py:2501
+#: src/guimgr/multieditor.py:1111 src/guimgr/multieditor.py:1668
+#: src/guimgr/multieditor.py:2505
 #, fuzzy
 msgid "main entry point"
 msgstr "(именованная точка входа)"
 
-#: src/guimgr/multieditor.py:1189
+#: src/guimgr/multieditor.py:1190
 msgid "Configure..."
 msgstr "Настроить..."
 
-#: src/guimgr/multieditor.py:1273
+#: src/guimgr/multieditor.py:1277
 msgid "Next visit in history (%s)"
 msgstr "Следующий визит в историю (%s)"
 
-#: src/guimgr/multieditor.py:1275
+#: src/guimgr/multieditor.py:1279
 msgid "Next visit in history"
 msgstr "Следующий визит в историю"
 
-#: src/guimgr/multieditor.py:1279
+#: src/guimgr/multieditor.py:1283
 msgid "Previous visit in history (%s)"
 msgstr "Предыдущий визит в истории (%s)"
 
-#: src/guimgr/multieditor.py:1281
+#: src/guimgr/multieditor.py:1285
 msgid "Previous visit in history"
 msgstr "Предыдущий визит в истории"
 
-#: src/guimgr/multieditor.py:1298
+#: src/guimgr/multieditor.py:1302
 msgid "Code warnings"
 msgstr ""
 
-#: src/guimgr/multieditor.py:1300
+#: src/guimgr/multieditor.py:1304
 msgid "Diff/Merge session options"
 msgstr "Diff/Merge параметры"
 
-#: src/guimgr/multieditor.py:1302
+#: src/guimgr/multieditor.py:1306
 msgid "Navigate to bookmarks in this file"
 msgstr "Переход к закладкам в этом файле"
 
-#: src/guimgr/multieditor.py:1306
+#: src/guimgr/multieditor.py:1310
 msgid "Close Document"
 msgstr "Закрыть документ"
 
-#: src/guimgr/multieditor.py:1308
+#: src/guimgr/multieditor.py:1312
 msgid "Document View Options"
 msgstr "Параметры Просмотра Документа"
 
-#: src/guimgr/multieditor.py:1320
+#: src/guimgr/multieditor.py:1324
 msgid "No warnings"
 msgstr ""
 
-#: src/guimgr/multieditor.py:1322
+#: src/guimgr/multieditor.py:1326
 msgid "Code Warnings:"
 msgstr ""
 
-#: src/guimgr/multieditor.py:1350
+#: src/guimgr/multieditor.py:1354
 #, fuzzy
 msgid "More..."
 msgstr "Настроить..."
 
-#: src/guimgr/multieditor.py:1369
+#: src/guimgr/multieditor.py:1373
 #, fuzzy
 msgid "Update All Warnings in File"
 msgstr "Добавить все в файл"
 
-#: src/guimgr/multieditor.py:1370
+#: src/guimgr/multieditor.py:1374
 #, fuzzy
 msgid "Disable All Warnings in File"
 msgstr "Добавить все в файл"
 
-#: src/guimgr/multieditor.py:1372
+#: src/guimgr/multieditor.py:1376
 msgid "Show Code Warnings Tool"
 msgstr ""
 
-#: src/guimgr/multieditor.py:1419
+#: src/guimgr/multieditor.py:1423
 #, fuzzy
 msgid "Bookmarks:"
 msgstr "Закладки"
 
-#: src/guimgr/multieditor.py:2211
+#: src/guimgr/multieditor.py:2215
 msgid "General failure getting multi-editor visual state"
 msgstr "Общий сбой в multi-editor visual state"
 
-#: src/guimgr/multieditor.py:2263
+#: src/guimgr/multieditor.py:2267
 msgid "Current editor file"
 msgstr "Текущий файл редактора"
 
-#: src/guimgr/multieditor.py:2282
+#: src/guimgr/multieditor.py:2286
 msgid "General failure setting multi-editor visual state"
 msgstr "Общий сбой при установке multi-editor visual state"
 
-#: src/guimgr/multieditor.py:2743
+#: src/guimgr/multieditor.py:2747
 msgid "Could not open %s.  Please check the filename."
 msgstr "Не удалось открыть %s. Пожалуйста, проверьте Имя файла."
 
-#: src/guimgr/multieditor.py:2743
+#: src/guimgr/multieditor.py:2747
 msgid "File open failed"
 msgstr "Ошибка открытия файла"
 
-#: src/guimgr/multieditor.py:3718
+#: src/guimgr/multieditor.py:3728
 msgid "Move %s to New Window"
 msgstr "Переместить %s в новое окно"
 
-#: src/guimgr/multieditor.py:3753
+#: src/guimgr/multieditor.py:3763
 msgid "Close %s"
 msgstr "Закрыть %s"
 
-#: src/guimgr/multieditor.py:3756
+#: src/guimgr/multieditor.py:3766
 msgid "Close Others"
 msgstr "Закрыть Другие"
 
-#: src/guimgr/multieditor.py:3759
+#: src/guimgr/multieditor.py:3769
 msgid "Close All"
 msgstr "Закрыть Все"
 
-#: src/guimgr/multieditor.py:3766
+#: src/guimgr/multieditor.py:3776
 msgid "Copy File Path"
 msgstr "Копировать путь к файлу"
 
-#: src/guimgr/multieditor.py:3773
+#: src/guimgr/multieditor.py:3783
 msgid "Show in Explorer"
 msgstr "Показать в проводнике"
 
-#: src/guimgr/multieditor.py:3775
+#: src/guimgr/multieditor.py:3785
 msgid "Show in Finder"
 msgstr "Показать в поисковике"
 
-#: src/guimgr/multieditor.py:3777
+#: src/guimgr/multieditor.py:3787
 msgid "Show Directory"
 msgstr "Показать каталог"
 
-#: src/guimgr/multieditor.py:3784
+#: src/guimgr/multieditor.py:3794
 msgid "Show in Project"
 msgstr "Показать в проекте"
 
-#: src/guimgr/multieditor.py:3789
+#: src/guimgr/multieditor.py:3799
 #, fuzzy
 msgid "Set as Main Entry Point"
 msgstr "Выполнить именованную точку входа"
 
-#: src/guimgr/multieditor.py:3793
+#: src/guimgr/multieditor.py:3803
 msgid "Split Top and Bottom"
 msgstr "Split верх и низ"
 
-#: src/guimgr/multieditor.py:3794
+#: src/guimgr/multieditor.py:3804
 msgid "Split Side by Side"
 msgstr "Split Side by Side"
 
-#: src/guimgr/multieditor.py:3796
+#: src/guimgr/multieditor.py:3806
 msgid "Join all Splits"
 msgstr "Объединить все разбиения"
 
-#: src/guimgr/multieditor.py:3801
+#: src/guimgr/multieditor.py:3811
 msgid "Show All Files in All Splits"
 msgstr "Показать все файлы во всех сплитах"
 
-#: src/guimgr/multieditor.py:3809
+#: src/guimgr/multieditor.py:3819
 msgid "Hide Notebook Tabs"
 msgstr "Скрыть Вкладки "
 
-#: src/guimgr/multieditor.py:3811
+#: src/guimgr/multieditor.py:3821
 msgid "Show Notebook Tabs"
 msgstr "Показать Вкладки "
 
-#: src/guimgr/multieditor.py:3815
+#: src/guimgr/multieditor.py:3825
 msgid "Keep Tabs Alphabetized"
 msgstr "Держать Вкладки В Алфавитном Порядке"
 
-#: src/guimgr/multieditor.py:3820
+#: src/guimgr/multieditor.py:3830
 msgid "Add New Tabs on Left"
 msgstr "Добавить новые вкладки слева"
 
-#: src/guimgr/multieditor.py:3823
+#: src/guimgr/multieditor.py:3833
 msgid "Sort Symbol Menus Alphabetically"
 msgstr "Сортировать Меню Символов В Алфавитном Порядке"
 
-#: src/guimgr/multieditor.py:3825
+#: src/guimgr/multieditor.py:3835
 msgid "Sort Symbol Menus in File Order"
 msgstr "Сортировка символьных меню в порядке файлов"
 
-#: src/guimgr/multieditor.py:4091
+#: src/guimgr/multieditor.py:4101
 msgid "General failure getting paned editor state"
 msgstr "Общий сбой состояния редактора с панелями"
 
-#: src/guimgr/multieditor.py:4139
+#: src/guimgr/multieditor.py:4149
 msgid "Currently open editor files"
 msgstr "В данный момент открыты файлы редактора"
 
-#: src/guimgr/multieditor.py:4159
+#: src/guimgr/multieditor.py:4169
 msgid "General failure setting paned editor state"
 msgstr "Общие ошибки настройки состояния редактора с панелями"
 
-#: src/guimgr/personality.py:184
+#: src/guimgr/personality.py:187
 msgid "Could not read key map"
 msgstr "Не удалось прочитать карту ключей"
 
-#: src/guimgr/personality.py:185
+#: src/guimgr/personality.py:188
 msgid ""
 "The key map file '%s' could not be found or is not readable. Attempting to "
 "fall back to internal defaults. Please restore the missing file or change "
@@ -2977,15 +3010,15 @@ msgstr ""
 "внутренним значениям по умолчанию. Пожалуйста, восстановите отсутствующий "
 "файл или измените настройки User Interface / Advanced / Key Map File."
 
-#: src/guimgr/prefs.py:36
+#: src/guimgr/prefs.py:39
 msgid "Combined Toolbox and Editor Windows"
 msgstr "Комбинированные панели инструментов и редактора"
 
-#: src/guimgr/prefs.py:37
+#: src/guimgr/prefs.py:40
 msgid "Separate Toolbox Windows"
 msgstr "Отдельные окна инструментов"
 
-#: src/guimgr/prefs.py:48
+#: src/guimgr/prefs.py:51
 #, fuzzy
 msgid ""
 "Policy to use for window creation:  Combined Toolbox and Editor mode places "
@@ -2997,7 +3030,7 @@ msgstr ""
 "отдельные окна панели инструментов, а режим One Window for Editor создает "
 "новое окно для каждого файла, открытого в редакторе."
 
-#: src/guimgr/prefs.py:56
+#: src/guimgr/prefs.py:59
 msgid ""
 "Defines location of the keymap override file.  Use None for default "
 "according to configured editor personality.  See the Wing Manual for details "
@@ -3012,15 +3045,15 @@ msgstr ""
 "используйте вместо этого keymap-override для лучшего отслеживания версий "
 "Wing."
 
-#: src/guimgr/prefs.py:62
+#: src/guimgr/prefs.py:65
 msgid "Override with selected:"
 msgstr "Переопределить с выбранным:"
 
-#: src/guimgr/prefs.py:62
+#: src/guimgr/prefs.py:65
 msgid "Use Default for Personality"
 msgstr "Использовать по умолчанию для персонализации"
 
-#: src/guimgr/prefs.py:66
+#: src/guimgr/prefs.py:69
 msgid ""
 "Override key bindings in the keymap.  To enter the key, place focus on the "
 "entry area and type the key combination desired.  The command is one of "
@@ -3037,15 +3070,15 @@ msgstr ""
 "полезно при добавлении привязок с несколькими ключами, которые конфликтуют "
 "со значением по умолчанию)."
 
-#: src/guimgr/prefs.py:73
+#: src/guimgr/prefs.py:76
 msgid "Key"
 msgstr "Ключ"
 
-#: src/guimgr/prefs.py:73 src/guimgr/prefs.py:565
+#: src/guimgr/prefs.py:76 src/guimgr/prefs.py:568
 msgid "Command"
 msgstr "Команда"
 
-#: src/guimgr/prefs.py:81
+#: src/guimgr/prefs.py:84
 msgid ""
 "Rectangle to use for the IDE work area on screen.  All windows open within "
 "this area.  Format is (x, y, width, height), or use None for full screen."
@@ -3054,63 +3087,63 @@ msgstr ""
 "открываются в этой области.  Формат (x, y, ширина, высота), или использовать "
 "нет для полноэкранного."
 
-#: src/guimgr/prefs.py:84
+#: src/guimgr/prefs.py:87
 msgid "Full Screen"
 msgstr "Полноэкранный"
 
-#: src/guimgr/prefs.py:84
+#: src/guimgr/prefs.py:87
 msgid "Height"
 msgstr "Высота"
 
-#: src/guimgr/prefs.py:84
+#: src/guimgr/prefs.py:87
 msgid "This Rectangle:"
 msgstr "Этот прямоугольник:"
 
-#: src/guimgr/prefs.py:84
+#: src/guimgr/prefs.py:87
 msgid "Width"
 msgstr "Ширина"
 
-#: src/guimgr/prefs.py:84
+#: src/guimgr/prefs.py:87
 msgid "X"
 msgstr ""
 
-#: src/guimgr/prefs.py:84
+#: src/guimgr/prefs.py:87
 msgid "Y"
 msgstr ""
 
-#: src/guimgr/prefs.py:90
+#: src/guimgr/prefs.py:93
 msgid "Whether toolbar is shown in any window."
 msgstr "Отображается ли панель в любом окне."
 
-#: src/guimgr/prefs.py:94
+#: src/guimgr/prefs.py:97
 msgid "Auto-Size"
 msgstr "Авторазмер"
 
-#: src/guimgr/prefs.py:95
+#: src/guimgr/prefs.py:98
 msgid "Tiny (Text Height)"
 msgstr "Крошечный (Высота Текста)"
 
-#: src/guimgr/prefs.py:96
+#: src/guimgr/prefs.py:99
 msgid "Small"
 msgstr "Маленький"
 
-#: src/guimgr/prefs.py:97
+#: src/guimgr/prefs.py:100
 msgid "Medium"
 msgstr "Средний"
 
-#: src/guimgr/prefs.py:98
+#: src/guimgr/prefs.py:101
 msgid "Large"
 msgstr "Большой"
 
-#: src/guimgr/prefs.py:99
+#: src/guimgr/prefs.py:102
 msgid "Extra Large"
 msgstr "Очень большой"
 
-#: src/guimgr/prefs.py:100 src/guimgr/prefs.py:124
+#: src/guimgr/prefs.py:103 src/guimgr/prefs.py:127
 msgid "System Default"
 msgstr "Системный по умолчанию"
 
-#: src/guimgr/prefs.py:104
+#: src/guimgr/prefs.py:107
 msgid ""
 "Sets size of the toolbar icons.  By default, adjusts according to available "
 "space."
@@ -3118,27 +3151,27 @@ msgstr ""
 "Задает размер значков панели инструментов.  По умолчанию корректируется в "
 "соответствии с доступным пространством."
 
-#: src/guimgr/prefs.py:119
+#: src/guimgr/prefs.py:122
 msgid "Adjust for Size"
 msgstr "Отрегулировать размер"
 
-#: src/guimgr/prefs.py:120
+#: src/guimgr/prefs.py:123
 msgid "Icon Only"
 msgstr "Только Значок"
 
-#: src/guimgr/prefs.py:121
+#: src/guimgr/prefs.py:124
 msgid "Text Only"
 msgstr "Только текст"
 
-#: src/guimgr/prefs.py:122
+#: src/guimgr/prefs.py:125
 msgid "Icon and Text Below"
 msgstr "Значок и снизу текст"
 
-#: src/guimgr/prefs.py:123
+#: src/guimgr/prefs.py:126
 msgid "Icon and Text to Side"
 msgstr "Значок и текст сбоку"
 
-#: src/guimgr/prefs.py:136
+#: src/guimgr/prefs.py:139
 msgid ""
 "Select style of toolbar icons to use.  By default, adjusts according to "
 "available space."
@@ -3146,31 +3179,31 @@ msgstr ""
 "Выберите стиль значков панелей инструментов для использования. По умолчанию "
 "- корректируется в соответствии с доступным пространством."
 
-#: src/guimgr/prefs.py:141
+#: src/guimgr/prefs.py:144
 msgid "Primary color for icons"
 msgstr "Основной цвет значков"
 
-#: src/guimgr/prefs.py:146
+#: src/guimgr/prefs.py:149
 msgid "Secondary color for icons"
 msgstr "Вторичный цвет значков"
 
-#: src/guimgr/prefs.py:151
+#: src/guimgr/prefs.py:154
 msgid "Tertiary color for icons"
 msgstr "3-й цвет для значков"
 
-#: src/guimgr/prefs.py:156
+#: src/guimgr/prefs.py:159
 msgid "Quaternary color for icons"
 msgstr "4-й цвет для значков"
 
-#: src/guimgr/prefs.py:161
+#: src/guimgr/prefs.py:164
 msgid "Quinary color for icons"
 msgstr "5-й Цвет для значков"
 
-#: src/guimgr/prefs.py:166
+#: src/guimgr/prefs.py:169
 msgid "Senary color for icons"
 msgstr "6-й Цвет для значков"
 
-#: src/guimgr/prefs.py:172
+#: src/guimgr/prefs.py:175
 msgid ""
 "Controls whether or not tooltips containing help are shown when the mouse "
 "hovers over areas of the user interface."
@@ -3178,28 +3211,28 @@ msgstr ""
 "Определяет, отображаются ли подсказки, содержащие справку, при наведении "
 "указателя мыши на области пользовательского интерфейса."
 
-#: src/guimgr/prefs.py:180
+#: src/guimgr/prefs.py:183
 msgid "The base font and size to use for the user interface's menus and labels"
 msgstr ""
 "Базовый шрифт и размер, используемый для меню и меток пользовательского "
 "интерфейса"
 
-#: src/guimgr/prefs.py:183
+#: src/guimgr/prefs.py:186
 msgid "Use Default"
 msgstr "Использовать По Умолчанию"
 
-#: src/guimgr/prefs.py:183
+#: src/guimgr/prefs.py:186
 msgid "Use Selected Font/Size:"
 msgstr "Использовать выбранный шрифт/размер:"
 
-#: src/guimgr/prefs.py:199
+#: src/guimgr/prefs.py:202
 #, fuzzy
 msgid ""
 "Controls whether the color palette is used throughout the user interface"
 msgstr ""
 "Управляет использованием палитры редактора в пользовательском интерфейсе"
 
-#: src/guimgr/prefs.py:210
+#: src/guimgr/prefs.py:213
 #, fuzzy
 msgid ""
 "The color palette used by Wing.  All color preferences default to using "
@@ -3215,7 +3248,7 @@ msgstr ""
 "Дополнительные палитры можно определить и добавить в подкаталог 'palettes' "
 "каталога пользовательских настроек."
 
-#: src/guimgr/prefs.py:222
+#: src/guimgr/prefs.py:225
 msgid ""
 "Controls whether project files are opened as project or as text when opened "
 "from the File menu.  This does not affect opening from the Project menu."
@@ -3223,31 +3256,31 @@ msgstr ""
 "Определяет, будут ли файлы проекта открыты как проект или как текст при "
 "открытии из меню Файл.  Это не влияет на открытие из меню проект."
 
-#: src/guimgr/prefs.py:227
+#: src/guimgr/prefs.py:230
 msgid "Maximum number of items to display in the Recent menus."
 msgstr "Максимальное число элементов, отображаемых в последних меню."
 
-#: src/guimgr/prefs.py:230
+#: src/guimgr/prefs.py:233
 msgid "Base Name Only"
 msgstr "Только Базовое Имя"
 
-#: src/guimgr/prefs.py:231
+#: src/guimgr/prefs.py:234
 msgid "Prepend Relative Path"
 msgstr "Prepend Относительный Путь"
 
-#: src/guimgr/prefs.py:232
+#: src/guimgr/prefs.py:235
 msgid "Append Relative Path"
 msgstr "Добавить Относительный Путь"
 
-#: src/guimgr/prefs.py:233
+#: src/guimgr/prefs.py:236
 msgid "Prepend Full Path"
 msgstr "Prepend Полный Путь"
 
-#: src/guimgr/prefs.py:234
+#: src/guimgr/prefs.py:237
 msgid "Append Full Path"
 msgstr "Добавить Полный Путь"
 
-#: src/guimgr/prefs.py:237
+#: src/guimgr/prefs.py:240
 msgid ""
 "Format used for titles of source files:  Use Base Name Only to display just "
 "the file name, Prepend Relative Path to use partial relative path from the "
@@ -3264,18 +3297,18 @@ msgstr ""
 "полный путь для использования полного пути, или Добавить Полный Путь, чтобы "
 "добавить FullPath после имени файла."
 
-#: src/guimgr/prefs.py:249
+#: src/guimgr/prefs.py:252
 msgid ""
 "Show the remote host name in all basename-only filenames used in titles."
 msgstr ""
 "Показывать имя удаленного хоста во всех именах только для базового имени, "
 "используемых в заголовках."
 
-#: src/guimgr/prefs.py:254
+#: src/guimgr/prefs.py:257
 msgid "Maximum size of files that Wing will try to open, in MB."
 msgstr "Максимальный размер файлов, которые Wing попытается открыть, в MB."
 
-#: src/guimgr/prefs.py:258
+#: src/guimgr/prefs.py:261
 msgid ""
 "Enable to always show the full path of a file name in the tooltips shown "
 "from the editor tabs and file selection menus.  When disabled, the "
@@ -3286,7 +3319,7 @@ msgstr ""
 "этот параметр отключен, вместо него используется настроенный Стиль Заголовка "
 "Источника."
 
-#: src/guimgr/prefs.py:264
+#: src/guimgr/prefs.py:267
 msgid ""
 "Posix only: The commands used to display or edit local disk files selected "
 "from the Help menu or project files selected for external display.  This is "
@@ -3314,15 +3347,15 @@ msgstr ""
 "архивы раскрыны с 'Open' значением по умолчанию поэтому этоn параметр редко "
 "необходим."
 
-#: src/guimgr/prefs.py:277
+#: src/guimgr/prefs.py:280
 msgid "Mime Type"
 msgstr "Mime тип"
 
-#: src/guimgr/prefs.py:277 src/guimgr/prefs.py:292
+#: src/guimgr/prefs.py:280 src/guimgr/prefs.py:295
 msgid "Display Commands"
 msgstr "Команды Отображения"
 
-#: src/guimgr/prefs.py:280
+#: src/guimgr/prefs.py:283
 msgid ""
 "Posix only: The commands used to display URLs.  This is a map from protocol "
 "type to a list of display commands; each display command is tried in order "
@@ -3346,11 +3379,11 @@ msgstr ""
 "предпочтение игнорируется. В OS X URL-адреса открываются с помощью 'open' по "
 "умолчанию, поэтому это предпочтение редко требуется."
 
-#: src/guimgr/prefs.py:292
+#: src/guimgr/prefs.py:295
 msgid "Protocol"
 msgstr "Протокол"
 
-#: src/guimgr/prefs.py:301
+#: src/guimgr/prefs.py:304
 msgid ""
 "Controls whether or not all edited files are saved without asking before a "
 "debug run, before starting unit tests, or before a file or build process is "
@@ -3360,7 +3393,7 @@ msgstr ""
 "запуском отладки, перед запуском модульных тестов или до выполнения файла "
 "или процесса построения."
 
-#: src/guimgr/prefs.py:309
+#: src/guimgr/prefs.py:312
 msgid ""
 "Controls whether or not Wing ignores files that were not saved before "
 "starting debug or that have changed since they were loaded by the debug "
@@ -3375,7 +3408,7 @@ msgstr ""
 "должным образом, если линии перемещаются. Проверка этой опции отключает эти "
 "предупреждения."
 
-#: src/guimgr/prefs.py:321
+#: src/guimgr/prefs.py:324
 msgid ""
 "Controls whether or not to set the foreground lock timeout on Windows, where "
 "normally Wing will be unable to bring source windows to front whenever the "
@@ -3400,7 +3433,7 @@ msgstr ""
 "измененное значение будет сохраняться до тех пор, пока пользователь не "
 "выйдет из системы."
 
-#: src/guimgr/prefs.py:339
+#: src/guimgr/prefs.py:342
 msgid ""
 "Sets the timeout in seconds to use for typing, after which keys pressed are "
 "considered a separate group of characters.  This is used for typing-to-"
@@ -3414,13 +3447,13 @@ msgstr ""
 "таймаутом последующие клавиши добавляются к предыдущим, чтобы уточнить выбор "
 "во время навигации по клавиатуре."
 
-#: src/guimgr/prefs.py:354
+#: src/guimgr/prefs.py:357
 msgid "The color used to indicate the current text selection on editable text."
 msgstr ""
 "Цвет, используемый для обозначения текущего выделения текста в редактируемом "
 "тексте."
 
-#: src/guimgr/prefs.py:360
+#: src/guimgr/prefs.py:363
 msgid ""
 "Controls whether or not the Wing Tips tool is shown automatically at startup "
 "of the IDE."
@@ -3428,7 +3461,7 @@ msgstr ""
 "Определяет, отображается ли инструмент \"подсказки Wing\" автоматически при "
 "запуске среды IDE."
 
-#: src/guimgr/prefs.py:366
+#: src/guimgr/prefs.py:369
 msgid ""
 "Controls whether or not Wing shows tabs for switching between editors.  When "
 "false, a popup menu is used instead."
@@ -3437,15 +3470,15 @@ msgstr ""
 "переключении между редакторами.  Значении false означает, что вместо этого "
 "используется всплывающее меню."
 
-#: src/guimgr/prefs.py:372
+#: src/guimgr/prefs.py:375
 msgid "File Order"
 msgstr "Порядок файлов"
 
-#: src/guimgr/prefs.py:373
+#: src/guimgr/prefs.py:376
 msgid "Alphabetical Order"
 msgstr "Алфавитный порядок"
 
-#: src/guimgr/prefs.py:378
+#: src/guimgr/prefs.py:381
 msgid ""
 "Control preferred order in source index displays such as the editor browse "
 "menus.  Either sort in the order found in the file or alphabetical order."
@@ -3454,67 +3487,67 @@ msgstr ""
 "редактора.  Сортировка в порядке, указанном в файле, или в алфавитном "
 "порядке."
 
-#: src/guimgr/prefs.py:384
+#: src/guimgr/prefs.py:387
 msgid "Whether to show all open editors in a window in every split."
 msgstr "Показывать все открытые редакторы в окне каждого сплита."
 
-#: src/guimgr/prefs.py:389
+#: src/guimgr/prefs.py:392
 msgid "Whether to keep tabs in alphabetical order."
 msgstr "Следует ли держать вкладки в алфавитном порядке."
 
-#: src/guimgr/prefs.py:394
+#: src/guimgr/prefs.py:397
 msgid "Whether to add new tabs on the left side instead on the right."
 msgstr "Следует ли добавлять новые вкладки с левой стороны, а не справа."
 
-#: src/guimgr/prefs.py:399
+#: src/guimgr/prefs.py:402
 msgid "All"
 msgstr "Все"
 
-#: src/guimgr/prefs.py:400
+#: src/guimgr/prefs.py:403
 msgid "General"
 msgstr "Общие"
 
-#: src/guimgr/prefs.py:401
+#: src/guimgr/prefs.py:404
 msgid "Debugger"
 msgstr "Отладчик"
 
-#: src/guimgr/prefs.py:402
+#: src/guimgr/prefs.py:405
 msgid "Editor"
 msgstr "Ркдактор"
 
-#: src/guimgr/prefs.py:403
+#: src/guimgr/prefs.py:406
 msgid "Search Progress"
 msgstr "Ход поиска"
 
-#: src/guimgr/prefs.py:404
+#: src/guimgr/prefs.py:407
 msgid "Browser"
 msgstr "Браузер"
 
-#: src/guimgr/prefs.py:405
+#: src/guimgr/prefs.py:408
 msgid "Project Manager"
 msgstr "Менеджер проекта"
 
-#: src/guimgr/prefs.py:406
+#: src/guimgr/prefs.py:409
 msgid "Source Analysis"
 msgstr "Анализ исходных текстов"
 
-#: src/guimgr/prefs.py:407
+#: src/guimgr/prefs.py:410
 msgid "Scripts"
 msgstr "Скрипты"
 
-#: src/guimgr/prefs.py:411
+#: src/guimgr/prefs.py:414
 msgid "All Messages"
 msgstr "Все сообщения"
 
-#: src/guimgr/prefs.py:412
+#: src/guimgr/prefs.py:415
 msgid "Only Warnings and Errors"
 msgstr "Только предупреждения и ошибки"
 
-#: src/guimgr/prefs.py:413
+#: src/guimgr/prefs.py:416
 msgid "Only Errors"
 msgstr "Только ошибки"
 
-#: src/guimgr/prefs.py:421
+#: src/guimgr/prefs.py:424
 msgid ""
 "Controls the format and verbosity of messages shown to the user for each "
 "message domain in the message area.  Each domain specifies the format (in "
@@ -3530,31 +3563,31 @@ msgstr ""
 "указан, вместо него используются параметры родительского домена (\"\" "
 "является родительским для всех доменов)."
 
-#: src/guimgr/prefs.py:428
+#: src/guimgr/prefs.py:431
 msgid "Config"
 msgstr "Конфигурация"
 
-#: src/guimgr/prefs.py:428
+#: src/guimgr/prefs.py:431
 msgid "Domain"
 msgstr "Домен"
 
-#: src/guimgr/prefs.py:430
+#: src/guimgr/prefs.py:433
 msgid "Format"
 msgstr "Формат"
 
-#: src/guimgr/prefs.py:430
+#: src/guimgr/prefs.py:433
 msgid "Max Lines"
 msgstr "Максимальные линии"
 
-#: src/guimgr/prefs.py:430
+#: src/guimgr/prefs.py:433
 msgid "Minimum Level"
 msgstr "Минимальный уровень"
 
-#: src/guimgr/prefs.py:436
+#: src/guimgr/prefs.py:439
 msgid "Whether feedback dialog is shown to user on quit."
 msgstr "Отображается ли диалог обратной связи пользователю при выходе."
 
-#: src/guimgr/prefs.py:440
+#: src/guimgr/prefs.py:443
 msgid ""
 "Used internally to avoid showing the feedback dialog on exit over and over "
 "again."
@@ -3562,7 +3595,7 @@ msgstr ""
 "Используется внутри, чтобы избежать повторного отображения диалога обратной "
 "связи при выходе."
 
-#: src/guimgr/prefs.py:445
+#: src/guimgr/prefs.py:448
 msgid ""
 "Whether the error bug reporting dialog (also available from the Help menu) "
 "is shown automatically when an unexpected exception is encountered inside "
@@ -3571,7 +3604,7 @@ msgstr ""
 "Отображается ли диалоговое окно сообщения об ошибках (также доступно из меню "
 "Справка) автоматически при обнаружении неожиданного исключения внутри Wing."
 
-#: src/guimgr/prefs.py:451
+#: src/guimgr/prefs.py:454
 msgid ""
 "Used internally to remember which unexpected exceptions have already been "
 "reported so we only show error reporting dialog once for each."
@@ -3580,7 +3613,7 @@ msgstr ""
 "сообщены, поэтому мы показываем диалог отчетов об ошибках только один раз "
 "для каждого."
 
-#: src/guimgr/prefs.py:457
+#: src/guimgr/prefs.py:460
 msgid ""
 "Maximum number of non-sticky (auto-closing) editors to keep open at one "
 "time, in addition to any that are visible on screen"
@@ -3589,29 +3622,29 @@ msgstr ""
 "которые можно открыть одновременно, в дополнение к тем, которые видны на "
 "экране"
 
-#: src/guimgr/prefs.py:464
+#: src/guimgr/prefs.py:467
 msgid "Email address to use by default in the Feedback and Bug Report dialogs"
 msgstr ""
 "Адрес электронной почты для использования по умолчанию в диалоговом окне "
 "Обратная связь и ошибка"
 
-#: src/guimgr/prefs.py:469
+#: src/guimgr/prefs.py:472
 msgid "Both Option keys"
 msgstr "Оба варианта ключей"
 
-#: src/guimgr/prefs.py:470
+#: src/guimgr/prefs.py:473
 msgid "Left Option key"
 msgstr "Левая клавиша выбора"
 
-#: src/guimgr/prefs.py:471
+#: src/guimgr/prefs.py:474
 msgid "Command keys"
 msgstr "Командные клавиши"
 
-#: src/guimgr/prefs.py:472
+#: src/guimgr/prefs.py:475
 msgid "No Alt key"
 msgstr "Нет клавиши Alt "
 
-#: src/guimgr/prefs.py:476
+#: src/guimgr/prefs.py:479
 msgid ""
 "Selects the key to use as the Alt- modifier in key bindings.  Note that the "
 "Option key is also used to enter characters, such as ® on US keyboards or ] "
@@ -3632,7 +3665,7 @@ msgstr ""
 "Если для клавиши Alt используются клавиши Command, любые привязки Alt-клавиш "
 "будут переопределять привязки клавиш Command для ключевого ключа."
 
-#: src/guimgr/prefs.py:489
+#: src/guimgr/prefs.py:492
 msgid ""
 "Specifies whether plain Alt keystrokes should be used only for accelerators. "
 "When enabled, Alt-key presses that could be for an accelerator will be used "
@@ -3649,7 +3682,7 @@ msgstr ""
 "собственным стилем отображения OS X, поскольку в этом случае ускорители не "
 "существуют."
 
-#: src/guimgr/prefs.py:499
+#: src/guimgr/prefs.py:502
 msgid ""
 "Controls whether names are sorted case sensitively (with all caps preceding "
 "small letters) or case insensitively"
@@ -3657,7 +3690,7 @@ msgstr ""
 "Определяет, будут ли имена отсортированы с учетом регистра (со всеми "
 "заглавными , предшествующими мелким буквам) или без учета регистра"
 
-#: src/guimgr/prefs.py:505
+#: src/guimgr/prefs.py:508
 msgid ""
 "Controls whether \"Search in Files\" dialog has an extra row of visible "
 "options as buttons."
@@ -3665,19 +3698,19 @@ msgstr ""
 "Определяет, имеет ли диалоговое окно \"Поиск в файлах\" дополнительную "
 "строку видимых параметров в виде кнопок."
 
-#: src/guimgr/prefs.py:511
+#: src/guimgr/prefs.py:514
 msgid "Use Default for OS"
 msgstr "Использовать по умолчанию для OS"
 
-#: src/guimgr/prefs.py:512
+#: src/guimgr/prefs.py:515
 msgid "Use for Copy/Cut/Paste"
 msgstr "Использовать для копировать/вырезать/вставить"
 
-#: src/guimgr/prefs.py:513
+#: src/guimgr/prefs.py:516
 msgid "Use for VI Native Actions"
 msgstr "Использовать для VI собственных действий"
 
-#: src/guimgr/prefs.py:516
+#: src/guimgr/prefs.py:519
 msgid ""
 "Controls the behavior of the Ctrl-X/C/V key bindings in vi mode.  Either "
 "always use these for cut/copy/paste, use them for vi native actions such as "
@@ -3690,7 +3723,7 @@ msgstr ""
 "использовать по умолчанию системный (буфер обмена на Win32 и другие команды "
 "в других местах)."
 
-#: src/guimgr/prefs.py:526
+#: src/guimgr/prefs.py:529
 msgid ""
 "Controls whether to automatically move keyboard focus from the editor to "
 "tools when they are revealed."
@@ -3698,55 +3731,55 @@ msgstr ""
 "Контролирует, следует ли автоматически перемещать фокус клавиатуры из "
 "редактора в инструменты, когда они отображаются."
 
-#: src/guimgr/prefs.py:532
+#: src/guimgr/prefs.py:535
 msgid "File Operations"
 msgstr "Файловые операции"
 
-#: src/guimgr/prefs.py:533
+#: src/guimgr/prefs.py:536
 msgid "Clipboard"
 msgstr "Буфер"
 
-#: src/guimgr/prefs.py:534
+#: src/guimgr/prefs.py:537
 msgid "Selections"
 msgstr "Выбор"
 
-#: src/guimgr/prefs.py:537
+#: src/guimgr/prefs.py:540
 msgid "Indentation"
 msgstr "Отступ"
 
-#: src/guimgr/prefs.py:538
+#: src/guimgr/prefs.py:541
 msgid "Project Management"
 msgstr "Управление проектом"
 
-#: src/guimgr/prefs.py:547
+#: src/guimgr/prefs.py:550
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: src/guimgr/prefs.py:550
+#: src/guimgr/prefs.py:553
 msgid "Testing"
 msgstr "Тестирование"
 
-#: src/guimgr/prefs.py:553
+#: src/guimgr/prefs.py:556
 msgid "Version Control"
 msgstr "Контроль версий"
 
-#: src/guimgr/prefs.py:556
+#: src/guimgr/prefs.py:559
 msgid "Controls which groups of tools will be shown in the toolbar."
 msgstr "Управляет отображением групп инструментов на панели инструментов."
 
-#: src/guimgr/prefs.py:563
+#: src/guimgr/prefs.py:566
 msgid "Extra items to add to the tool bar."
 msgstr "Дополнительные элементы для добавления в панель инструментов."
 
-#: src/guimgr/prefs.py:565
+#: src/guimgr/prefs.py:568
 msgid "Icon"
 msgstr "Пиктограмма"
 
-#: src/guimgr/prefs.py:571
+#: src/guimgr/prefs.py:574
 msgid "Quit application when last document window closes"
 msgstr "Выход из приложения при закрытии последнего окна документа"
 
-#: src/guimgr/prefs.py:576
+#: src/guimgr/prefs.py:579
 msgid ""
 "Use key bindings from OS X / macOS keymap for keys not defined in currently "
 "selected keymap"
@@ -3754,22 +3787,57 @@ msgstr ""
 "Используйте привязки клавиш из клавиатуры OS X/macOS для ключей, не "
 "определенных в выбранной клавиатуре"
 
-#: src/guimgr/prefs.py:582
+#: src/guimgr/prefs.py:585
 msgid ""
 "Whether to show the menu bar in the window.  When this is False, a menu icon "
 "is added to the top right."
 msgstr ""
 
-#: src/guimgr/prefs.py:588
+#: src/guimgr/prefs.py:591
 msgid ""
 "Internal preference used to remember the last size of the Wing Tips window"
 msgstr ""
 
-#: src/guimgr/reloader.py:98
+#: src/guimgr/reloader.py:105
 msgid " -- Editor has unsaved changes!"
 msgstr "--Редактор имеет несохраненные изменения!"
 
-#: src/guimgr/reloader.py:106
+#: src/guimgr/reloader.py:116
+msgid ""
+"These files have been deleted on disk but have some unsaved changes in the "
+"editor. You can either keep changes in order to save them to disk later or "
+"discard changes and close the editor:"
+msgstr ""
+
+#: src/guimgr/reloader.py:119
+msgid "_Close without Saving"
+msgstr ""
+
+#: src/guimgr/reloader.py:120
+#, fuzzy
+msgid "_Keep Changes"
+msgstr "_Продолжить Работу"
+
+#: src/guimgr/reloader.py:122
+#, fuzzy
+msgid ""
+"These files have been deleted on disk but are open in an editor. Select "
+"those that you want to close:"
+msgstr ""
+"Эти неотредактированные элементы изменились на диске.  Выберите те, которые "
+"вы хотите обновить:"
+
+#: src/guimgr/reloader.py:124
+#, fuzzy
+msgid "Close Files"
+msgstr "Закрыть %s"
+
+#: src/guimgr/reloader.py:125
+#, fuzzy
+msgid "_Keep Open"
+msgstr "_Продолжить Работу"
+
+#: src/guimgr/reloader.py:128
 msgid ""
 "These edited items have also changed on disk.  Select those for which you "
 "want to discard your changes and reload from disk:"
@@ -3777,16 +3845,16 @@ msgstr ""
 "Эти элементы также были изменены на диске. Выберите те, для которых вы "
 "хотите отменить свои изменения и перезагрузить с диска:"
 
-#: src/guimgr/reloader.py:108 src/guimgr/reloader.py:114
+#: src/guimgr/reloader.py:130 src/guimgr/reloader.py:136
 msgid "Discard Changes & _Reload"
 msgstr "Отменить изменения и перезагрузить"
 
-#: src/guimgr/reloader.py:109 src/guimgr/reloader.py:115
-#: src/guimgr/reloader.py:121
+#: src/guimgr/reloader.py:131 src/guimgr/reloader.py:137
+#: src/guimgr/reloader.py:143
 msgid "_Don't Reload"
 msgstr "_Не перезагружать"
 
-#: src/guimgr/reloader.py:112
+#: src/guimgr/reloader.py:134
 msgid ""
 "These items, some with local edits, have changed on disk.  Select those "
 "which you want to reload from disk.  Any changes in the editor will be "
@@ -3796,7 +3864,7 @@ msgstr ""
 "Выберите те, которые вы хотите перезагрузить с диска.  Любые изменения в "
 "редакторе будут потеряны:"
 
-#: src/guimgr/reloader.py:118
+#: src/guimgr/reloader.py:140
 msgid ""
 "These unedited items have changed on disk.  Select those which you want to "
 "reload:"
@@ -3804,32 +3872,32 @@ msgstr ""
 "Эти неотредактированные элементы изменились на диске.  Выберите те, которые "
 "вы хотите обновить:"
 
-#: src/guimgr/reloader.py:120
+#: src/guimgr/reloader.py:142
 msgid "_Reload Selected"
 msgstr "_Перезагрузить выбранную"
 
-#: src/guimgr/reloader.py:125
+#: src/guimgr/reloader.py:147
 msgid "Confirm Reload"
 msgstr "Подтвердите перезагрузку"
 
-#: src/guimgr/reloader.py:148
+#: src/guimgr/reloader.py:171
 msgid "Con_figure Reloading"
 msgstr "Настройка перезагрузки"
 
-#: src/guimgr/reloader.py:152
+#: src/guimgr/reloader.py:176
 #, fuzzy
 msgid "_Compare to Disk"
 msgstr "Сравнить буфер с диском"
 
-#: src/guimgr/savemanager.py:48
+#: src/guimgr/savemanager.py:50
 msgid "Use System Default (%s)"
 msgstr "Использовать системную настройку (%s)"
 
-#: src/guimgr/savemanager.py:50
+#: src/guimgr/savemanager.py:52
 msgid "Use Preference Setting (%s)"
 msgstr "Использовать настройки предпочтений (%s)"
 
-#: src/guimgr/savemanager.py:149
+#: src/guimgr/savemanager.py:152
 msgid ""
 "The file %s has been modified.\n"
 "Save it now?"
@@ -3837,7 +3905,7 @@ msgstr ""
 "Файл %s был изменен.\n"
 "Сохранить сейчас?"
 
-#: src/guimgr/savemanager.py:150
+#: src/guimgr/savemanager.py:153
 msgid ""
 "Save the following files?  The selected files will be saved.  You will be "
 "prompted to name any untitled files:"
@@ -3845,49 +3913,58 @@ msgstr ""
 "Сохранить следующие файлы?  Выбранные файлы будут сохранены. Вам будет "
 "предложено назвать все файлы без названия:"
 
-#: src/guimgr/savemanager.py:173
+#: src/guimgr/savemanager.py:176
 msgid "  (Could not encode)"
 msgstr "  (Не удалось закодировать)"
 
-#: src/guimgr/savemanager.py:176
+#: src/guimgr/savemanager.py:179
 msgid "  (Changing file format)"
 msgstr "  (Изменение формата файла)"
 
-#: src/guimgr/savemanager.py:179
+#: src/guimgr/savemanager.py:183
 msgid "  (Disk file is newer)"
 msgstr "  (Файл на диске новее)"
 
-#: src/guimgr/savemanager.py:182
+#: src/guimgr/savemanager.py:185
+#, fuzzy
+msgid "  (Disk file no longer exists)"
+msgstr "Файл на диске новее"
+
+#: src/guimgr/savemanager.py:188
 msgid "  (Auto-save restore for unavailable host)"
 msgstr ""
 
-#: src/guimgr/savemanager.py:185
+#: src/guimgr/savemanager.py:191
 msgid "  (Host unavailable)"
 msgstr ""
 
-#: src/guimgr/savemanager.py:188
+#: src/guimgr/savemanager.py:194
 msgid "  (Write failed)"
 msgstr "  (Сбой при записи)"
 
-#: src/guimgr/savemanager.py:191
+#: src/guimgr/savemanager.py:197
 msgid "  (Remote write pending)"
 msgstr "  (Ожидание удаленной записи)"
 
-#: src/guimgr/savemanager.py:200 src/guimgr/savemanager.py:775
+#: src/guimgr/savemanager.py:212 src/guimgr/savemanager.py:761
 #, fuzzy
 msgid "Failed to write remote file"
 msgstr "Не удалось записать файл"
 
-#: src/guimgr/savemanager.py:201
+#: src/guimgr/savemanager.py:213
 #, fuzzy
 msgid "Failed to write remote file %s.  Exception was: %s - %s"
 msgstr "Не удалось проверить удаленное расположение %s перед сохранением как"
 
-#: src/guimgr/savemanager.py:237
+#: src/guimgr/savemanager.py:236
+msgid "File does not exist on disk"
+msgstr ""
+
+#: src/guimgr/savemanager.py:252
 msgid "Could Not Save Remote Files"
 msgstr "Не удалось сохранить удаленные файлы"
 
-#: src/guimgr/savemanager.py:238
+#: src/guimgr/savemanager.py:253
 #, fuzzy
 msgid ""
 "Some remote files could not be saved within {} seconds.  Please check the "
@@ -3896,37 +3973,37 @@ msgstr ""
 "Некоторые удаленные файлы не удалось сохранить в течение 5 секунд.  "
 "Проверьте сеть и повторите попытку:"
 
-#: src/guimgr/savemanager.py:242
+#: src/guimgr/savemanager.py:257
 msgid ""
 "The timeout for this is configured with the Network > Hung Connection "
 "Timeout preference."
 msgstr ""
 
-#: src/guimgr/savemanager.py:244
+#: src/guimgr/savemanager.py:259
 msgid "OK"
 msgstr ""
 
-#: src/guimgr/savemanager.py:290
+#: src/guimgr/savemanager.py:305
 msgid "Save Files?"
 msgstr "Сохранить файлы?"
 
-#: src/guimgr/savemanager.py:292 src/guimgr/savemanager.py:297
+#: src/guimgr/savemanager.py:307 src/guimgr/savemanager.py:312
 msgid "_Save Selected Files"
 msgstr "_Сохранить выбранные файлы"
 
-#: src/guimgr/savemanager.py:293 src/guimgr/savemanager.py:299
+#: src/guimgr/savemanager.py:308 src/guimgr/savemanager.py:314
 msgid "_Don't Save Any Files"
 msgstr "_Не сохранять файлы"
 
-#: src/guimgr/savemanager.py:311 src/guimgr/savemanager.py:506
+#: src/guimgr/savemanager.py:326 src/guimgr/savemanager.py:521
 msgid "Save Document As"
 msgstr "Сохранить документ как"
 
-#: src/guimgr/savemanager.py:425
+#: src/guimgr/savemanager.py:440
 msgid "File is open"
 msgstr "Файл уже открыт"
 
-#: src/guimgr/savemanager.py:426
+#: src/guimgr/savemanager.py:441
 msgid ""
 "A file named '%s' is already open for editing.  Please choose a new file  "
 "name or close the file and choose save as again."
@@ -3934,36 +4011,119 @@ msgstr ""
 "Файл с именем '%s' уже открыт для редактирования.  Выберите новое имя файла "
 "или закройте файл и снова выберите Сохранить как."
 
-#: src/guimgr/savemanager.py:465
+#: src/guimgr/savemanager.py:480
 msgid "Save As Failed"
 msgstr "Ошибка Сохранения"
 
-#: src/guimgr/savemanager.py:466
+#: src/guimgr/savemanager.py:481
 msgid "Failed to inspect remote location %s before save as"
 msgstr "Не удалось проверить удаленное расположение %s перед сохранением как"
 
-#: src/guimgr/savemanager.py:477
+#: src/guimgr/savemanager.py:492
 msgid "File exists"
 msgstr "Файл существует"
 
-#: src/guimgr/savemanager.py:478
+#: src/guimgr/savemanager.py:493
 msgid "A file named '%s' exists.  Do you want to replace it?"
 msgstr "Файл с именем '%s' существует.  Вы хотите заменить его?"
 
-#: src/guimgr/savemanager.py:648
+#: src/guimgr/savemanager.py:663
 msgid "Failed to write file"
 msgstr "Не удалось записать файл"
 
-#: src/guimgr/savemanager.py:649
+#: src/guimgr/savemanager.py:664
 msgid "Failed to write %s.  Save to another file?"
 msgstr "Не удалось записать %s. Сохранить в другом файле?"
 
-#: src/guimgr/savemanager.py:666
+#: src/guimgr/savemanager.py:682
+#, fuzzy
+msgid "Auto-Save Restore for Remote Host"
+msgstr "Автоматическое сохранение файлов перед отладкой или выполнением"
+
+#: src/guimgr/savemanager.py:683
+msgid ""
+"File %s was restored from auto-save while the remote host '%s' was "
+"unavailable.  You may need to switch projects to access the remote host "
+"configuration.  Do you want to save now, select another target file, or "
+"cancel save?"
+msgstr ""
+
+#: src/guimgr/savemanager.py:686
+#, fuzzy
+msgid "_Save Now"
+msgstr "_Сохранить"
+
+#: src/guimgr/savemanager.py:687 src/guimgr/savemanager.py:700
+#: src/guimgr/savemanager.py:800 src/guimgr/savemanager.py:818
+msgid "Another _File"
+msgstr "Другой файл"
+
+#: src/guimgr/savemanager.py:696
+#, fuzzy
+msgid "Could Not Write to Remote Host"
+msgstr "Не удалось сохранить удаленные файлы"
+
+#: src/guimgr/savemanager.py:697
+#, fuzzy
+msgid ""
+"File %s could not be saved because host '%s' is unavailable.  Do you want to "
+"try again, abandon your changes, select another target file, or cancel save?"
+msgstr ""
+"Файл %s является более новым на диске. Хотите перезаписать изменения, "
+"отказаться от изменений и перезагрузить, выбрать другой целевой файл или "
+"отменить сохранение?"
+
+#: src/guimgr/savemanager.py:699
+msgid "_Try Again"
+msgstr ""
+
+#: src/guimgr/savemanager.py:708
+msgid "Different file format"
+msgstr "Другой формат файла"
+
+#: src/guimgr/savemanager.py:713
+msgid "File %s doesn't match the file format being written."
+msgstr "Файл %s не соответствовать формату записываемого файла."
+
+#: src/guimgr/savemanager.py:715
+msgid ""
+" Do you want to write changes to this file, select another target file, or "
+"cancel the save?"
+msgstr ""
+" Вы хотите записать изменения в этот файл, выбрать другой целевой файл или "
+"отменить сохранение?"
+
+#: src/guimgr/savemanager.py:717
+msgid "O_verwrite"
+msgstr "Перезаписать"
+
+#: src/guimgr/savemanager.py:718
+msgid "_Another File"
+msgstr "_Другой файл"
+
+#: src/guimgr/savemanager.py:726
+msgid "Could not encode file contents"
+msgstr "Не удалось закодировать содержимое файла"
+
+#: src/guimgr/savemanager.py:731
+msgid "Could not encode."
+msgstr "Не удалось закодировать."
+
+#: src/guimgr/savemanager.py:732
+msgid "_Save using Specified Encoding"
+msgstr "_Сохранить с помощью указанной кодировки"
+
+#: src/guimgr/savemanager.py:762
+#, fuzzy
+msgid "Failed to write remote %s.  Save to another file?"
+msgstr "Не удалось записать %s. Сохранить в другом файле?"
+
+#: src/guimgr/savemanager.py:796
 #, fuzzy
 msgid "Disk file no longer exists"
 msgstr "Файл на диске новее"
 
-#: src/guimgr/savemanager.py:667
+#: src/guimgr/savemanager.py:797
 #, fuzzy
 msgid ""
 "File %s no longer exists on disk. Do you want to save your changes anyway, "
@@ -3973,17 +4133,12 @@ msgstr ""
 "отказаться от изменений и перезагрузить, выбрать другой целевой файл или "
 "отменить сохранение?"
 
-#: src/guimgr/savemanager.py:670 src/guimgr/savemanager.py:688
-#: src/guimgr/savemanager.py:704 src/guimgr/savemanager.py:717
-msgid "Another _File"
-msgstr "Другой файл"
-
-#: src/guimgr/savemanager.py:675
+#: src/guimgr/savemanager.py:805
 #, fuzzy
 msgid "Disk file is older"
 msgstr "Файл на диске новее"
 
-#: src/guimgr/savemanager.py:676
+#: src/guimgr/savemanager.py:806
 #, fuzzy
 msgid ""
 "File %s is older on disk than when it was opened in the editor. Do you want "
@@ -3994,11 +4149,11 @@ msgstr ""
 "отказаться от изменений и перезагрузить, выбрать другой целевой файл или "
 "отменить сохранение?"
 
-#: src/guimgr/savemanager.py:681
+#: src/guimgr/savemanager.py:811
 msgid "Disk file is newer"
 msgstr "Файл на диске новее"
 
-#: src/guimgr/savemanager.py:682
+#: src/guimgr/savemanager.py:812
 #, fuzzy
 msgid ""
 "File %s is newer on disk. Do you want to overwrite changes, abandon your "
@@ -4008,141 +4163,63 @@ msgstr ""
 "отказаться от изменений и перезагрузить, выбрать другой целевой файл или "
 "отменить сохранение?"
 
-#: src/guimgr/savemanager.py:685
+#: src/guimgr/savemanager.py:815
 #, fuzzy
 msgid "Com_pare to Disk"
 msgstr "Сравнить буфер с диском"
 
-#: src/guimgr/savemanager.py:686
+#: src/guimgr/savemanager.py:816
 msgid "_Overwrite"
 msgstr "_Перезаписать"
 
-#: src/guimgr/savemanager.py:687
+#: src/guimgr/savemanager.py:817
 msgid "_Abandon"
 msgstr "_Отказаться"
 
-#: src/guimgr/savemanager.py:699
-#, fuzzy
-msgid "Auto-Save Restore for Remote Host"
-msgstr "Автоматическое сохранение файлов перед отладкой или выполнением"
-
-#: src/guimgr/savemanager.py:700
-msgid ""
-"File %s was restored from auto-save while the remote host '%s' was "
-"unavailable.  You may need to switch projects to access the remote host "
-"configuration.  Do you want to save now, select another target file, or "
-"cancel save?"
-msgstr ""
-
-#: src/guimgr/savemanager.py:703
-#, fuzzy
-msgid "_Save Now"
-msgstr "_Сохранить"
-
-#: src/guimgr/savemanager.py:713
-#, fuzzy
-msgid "Could Not Write to Remote Host"
-msgstr "Не удалось сохранить удаленные файлы"
-
-#: src/guimgr/savemanager.py:714
-#, fuzzy
-msgid ""
-"File %s could not be saved because host '%s' is unavailable.  Do you want to "
-"try again, abandon your changes, select another target file, or cancel save?"
-msgstr ""
-"Файл %s является более новым на диске. Хотите перезаписать изменения, "
-"отказаться от изменений и перезагрузить, выбрать другой целевой файл или "
-"отменить сохранение?"
-
-#: src/guimgr/savemanager.py:716
-msgid "_Try Again"
-msgstr ""
-
-#: src/guimgr/savemanager.py:725
-msgid "Different file format"
-msgstr "Другой формат файла"
-
-#: src/guimgr/savemanager.py:730
-msgid "File %s doesn't match the file format being written."
-msgstr "Файл %s не соответствовать формату записываемого файла."
-
-#: src/guimgr/savemanager.py:732
-msgid ""
-" Do you want to write changes to this file, select another target file, or "
-"cancel the save?"
-msgstr ""
-" Вы хотите записать изменения в этот файл, выбрать другой целевой файл или "
-"отменить сохранение?"
-
-#: src/guimgr/savemanager.py:734
-msgid "O_verwrite"
-msgstr "Перезаписать"
-
-#: src/guimgr/savemanager.py:735
-msgid "_Another File"
-msgstr "_Другой файл"
-
-#: src/guimgr/savemanager.py:743
-msgid "Could not encode file contents"
-msgstr "Не удалось закодировать содержимое файла"
-
-#: src/guimgr/savemanager.py:748
-msgid "Could not encode."
-msgstr "Не удалось закодировать."
-
-#: src/guimgr/savemanager.py:749
-msgid "_Save using Specified Encoding"
-msgstr "_Сохранить с помощью указанной кодировки"
-
-#: src/guimgr/savemanager.py:776
-#, fuzzy
-msgid "Failed to write remote %s.  Save to another file?"
-msgstr "Не удалось записать %s. Сохранить в другом файле?"
-
-#: src/guimgr/savemanager.py:800
+#: src/guimgr/savemanager.py:834
 msgid "Failed to Save As"
 msgstr "Не удалось сохранить как"
 
-#: src/guimgr/savemanager.py:801
+#: src/guimgr/savemanager.py:835
 msgid "Failed to write %s. You have closed the editor window!"
 msgstr "Не удалось записать %s. Вы закрыли окно редактора!"
 
-#: src/guimgr/savemanager.py:814
+#: src/guimgr/savemanager.py:848
 msgid "Conflicting Filenames"
 msgstr "Конфликтующие имена файлов"
 
-#: src/guimgr/savemanager.py:815
+#: src/guimgr/savemanager.py:849
 msgid ""
 "The file %s is open in another editor.  Please specify another file name to "
 "save to."
 msgstr ""
 "Файл %s открыт в другом редакторе.  Укажите другое имя файла для сохранения."
 
-#: src/guimgr/toolbar_qt.py:882
+#: src/guimgr/toolbar_qt.py:885
 msgid "Icon Size"
 msgstr "Размер значка"
 
-#: src/guimgr/toolbar_qt.py:891
+#: src/guimgr/toolbar_qt.py:894
 msgid "Tool Style"
 msgstr "Инструмент Стиль"
 
-#: src/guimgr/toolbar_qt.py:898
+#: src/guimgr/toolbar_qt.py:901
 msgid "Show Tool Tips"
 msgstr "Показать подсказки"
 
-#: src/guimgr/toolbar_qt.py:908
+#: src/guimgr/toolbar_qt.py:911
 msgid "Hide this Group"
 msgstr "Скрыть эту группу"
 
-#: src/guimgr/toolbar_qt.py:921
+#: src/guimgr/toolbar_qt.py:924
 msgid "Groups Shown"
 msgstr "Отображаемые группы"
 
-#: src/guimgr/toolbar_qt.py:925
+#: src/guimgr/toolbar_qt.py:928
 msgid "Customize Toolbar..."
 msgstr "Настроить панель инструментов ..."
 
-#: src/guimgr/wingtips.py:85
+#: src/guimgr/wingtips.py:88
 msgid "Show at startup"
 msgstr "Показать при запуске"
 

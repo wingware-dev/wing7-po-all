@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2012-01-04 19:27-0600\n"
 "Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
 "Language-Team:  <C@li.org>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: KBabel 0.9.5\n"
 
-#: src/debug/client/attribs.py:35
+#: src/debug/client/attribs.py:39
 msgid "Breakpoints for a file"
 msgstr ""
 
-#: src/debug/client/attribs.py:39
+#: src/debug/client/attribs.py:43
 msgid "Exceptions ignored for a file"
 msgstr ""
 
-#: src/debug/client/attribs.py:43
+#: src/debug/client/attribs.py:47
 msgid "History list of commands in Python Shell"
 msgstr ""
 
-#: src/debug/client/attribs.py:47
+#: src/debug/client/attribs.py:51
 msgid "History list of commands in Debug Console"
 msgstr ""
 
-#: src/debug/client/attribs.py:51
+#: src/debug/client/attribs.py:55
 msgid "History list of expressions used in the evaluator"
 msgstr ""
 
-#: src/debug/client/attribs.py:55
+#: src/debug/client/attribs.py:59
 msgid "History list of expressions"
 msgstr ""
 
-#: src/debug/client/attribs.py:62
+#: src/debug/client/attribs.py:66
 msgid ""
 "Use $(ENV) to insert values from the environment or from the following "
 "special variables:  $(WING:FILENAME) for full path of current file, $(WING:"
@@ -48,12 +48,12 @@ msgid ""
 "current Python scope, $(WING:PROJECT) for full path of current project, "
 "$(WING:PROJECT_DIR) for the directory that contains the current project, "
 "$(WING:SELECTION) for the text selected on the current editor, and $(WING:"
-"PYTHON) forthe full path to the Python being used by the current project.  "
-"%s can be used as a short hand for $(WING:FILENAME).  These values will be "
-"empty if undefined or there is no current file. "
+"PYTHON) forthe Python being used by the current project.  %s can be used as "
+"a short hand for $(WING:FILENAME).  These values will be empty if undefined "
+"or there is no current file. "
 msgstr ""
 
-#: src/debug/client/attribs.py:72
+#: src/debug/client/attribs.py:76
 msgid ""
 "Command line arguments to use when executing or debugging.  Arguments can "
 "optionally be delimited by \"s or 's.  Use \\\" to add \" to an argument and "
@@ -62,120 +62,124 @@ msgid ""
 "argument."
 msgstr ""
 
-#: src/debug/client/attribs.py:88
+#: src/debug/client/attribs.py:92
 msgid "Used internally to save recently used run arguments"
 msgstr ""
 
-#: src/debug/client/attribs.py:96
+#: src/debug/client/attribs.py:102
+msgid "Whether to run file as a named module with python -m"
+msgstr ""
+
+#: src/debug/client/attribs.py:105
 msgid ""
 "Whether to show dialog before running file.  This may be overridden with the "
 "Debugger > Advanced > Auto-show Run Args Dialog preference."
 msgstr ""
 
-#: src/debug/client/bpmanager.py:125
+#: src/debug/client/bpmanager.py:129
 msgid "Breakpoint Insert Failed"
 msgstr ""
 
-#: src/debug/client/bpmanager.py:125
+#: src/debug/client/bpmanager.py:129
 msgid "Failed to insert breakpoint: "
 msgstr ""
 
-#: src/debug/client/bpmanager.py:669
+#: src/debug/client/bpmanager.py:704
 msgid "No code at the selected line"
 msgstr ""
 
-#: src/debug/client/bpmanager.py:706
+#: src/debug/client/bpmanager.py:741
 #, fuzzy
 msgid "Breakpoint Moved"
 msgstr "Administrador de puntos de ruptura"
 
-#: src/debug/client/bpmanager.py:707
+#: src/debug/client/bpmanager.py:742
 msgid ""
 "Wing moved your breakpoint to a line that will be reached by Python.  Not "
 "all physical lines of your code are executed by the interpreter, and "
 "statements like 'pass' are ignored in most contexts."
 msgstr ""
 
-#: src/debug/client/bpmanager.py:712 src/debug/client/cap_advbreak.py:358
-#: src/debug/client/cap_advbreak.py:453 src/debug/client/cap_launch.py:945
-#: src/debug/client/cap_launch.py:1050 src/debug/client/cap_launch.py:2100
-#: src/debug/client/cap_launch.py:2159 src/debug/client/cap_launch.py:2196
-#: src/debug/client/cap_launch.py:2554 src/debug/client/cap_remotegui.py:229
-#: src/debug/client/cap_remotegui.py:943
-#: src/debug/client/cap_remotegui.py:1016
-#: src/debug/client/cap_remotegui.py:1025
-#: src/debug/client/cap_remotegui.py:1083
-#: src/debug/client/cap_remotegui.py:1093
-#: src/debug/client/cap_remotegui.py:1318
-#: src/debug/client/cap_remotegui.py:1613
-#: src/debug/client/cap_remotegui.py:2190
-#: src/debug/client/cap_remotegui.py:2398 src/debug/client/manager.py:2074
-#: src/debug/client/runstate.py:703 src/debug/client/runstate.py:1951
-#: src/debug/client/runstate.py:3857 src/debug/client/varmanager.py:401
+#: src/debug/client/bpmanager.py:747 src/debug/client/cap_advbreak.py:360
+#: src/debug/client/cap_advbreak.py:455 src/debug/client/cap_launch.py:969
+#: src/debug/client/cap_launch.py:1074 src/debug/client/cap_launch.py:2153
+#: src/debug/client/cap_launch.py:2212 src/debug/client/cap_launch.py:2249
+#: src/debug/client/cap_launch.py:2727 src/debug/client/cap_remotegui.py:358
+#: src/debug/client/cap_remotegui.py:967
+#: src/debug/client/cap_remotegui.py:1040
+#: src/debug/client/cap_remotegui.py:1049
+#: src/debug/client/cap_remotegui.py:1122
+#: src/debug/client/cap_remotegui.py:1132
+#: src/debug/client/cap_remotegui.py:1363
+#: src/debug/client/cap_remotegui.py:1668
+#: src/debug/client/cap_remotegui.py:2308
+#: src/debug/client/cap_remotegui.py:2516 src/debug/client/manager.py:2213
+#: src/debug/client/runstate.py:781 src/debug/client/runstate.py:2109
+#: src/debug/client/runstate.py:4101 src/debug/client/varmanager.py:404
 msgid "_OK"
 msgstr "_Aceptar"
 
-#: src/debug/client/bpmanager.py:718 src/debug/client/interactive.py:1634
+#: src/debug/client/bpmanager.py:753 src/debug/client/interactive.py:1653
 #, fuzzy
 msgid "_Don't show this again"
 msgstr "No mostrar este mensaje de nuevo"
 
-#: src/debug/client/bpmanager.py:1327
+#: src/debug/client/bpmanager.py:1366
 msgid ""
 "No response from TrackBreaks:  Setting server side ID opportunistically "
 "during UpdateChangedBPs"
 msgstr ""
 
-#: src/debug/client/bpmanager.py:1327
+#: src/debug/client/bpmanager.py:1366
 msgid "TrackBreaks Failed"
 msgstr ""
 
-#: src/debug/client/callstack.py:64
+#: src/debug/client/callstack.py:62
 msgid "Call Stack"
 msgstr ""
 
-#: src/debug/client/callstack.py:69 src/debug/client/callstack.py:187
+#: src/debug/client/callstack.py:67 src/debug/client/callstack.py:185
 msgid "Debug Process Call Stack"
 msgstr ""
 
-#: src/debug/client/callstack.py:242
+#: src/debug/client/callstack.py:240
 msgid "Stack Frames"
 msgstr ""
 
-#: src/debug/client/callstack.py:284 src/debug/client/stackpanel.py:915
+#: src/debug/client/callstack.py:282 src/debug/client/stackpanel.py:928
 msgid "<thread is running>"
 msgstr ""
 
-#: src/debug/client/callstack.py:300 src/debug/client/stackpanel.py:949
+#: src/debug/client/callstack.py:298 src/debug/client/stackpanel.py:962
 msgid "Chained Exception Cause:"
 msgstr ""
 
-#: src/debug/client/callstack.py:302 src/debug/client/stackpanel.py:951
+#: src/debug/client/callstack.py:300 src/debug/client/stackpanel.py:964
 msgid "Chained Exception Context:"
 msgstr ""
 
-#: src/debug/client/callstack.py:307 src/debug/client/stackpanel.py:957
+#: src/debug/client/callstack.py:305 src/debug/client/stackpanel.py:970
 #, fuzzy
 msgid "Final Exception:"
 msgstr "Excepciones"
 
-#: src/debug/client/callstack.py:322
+#: src/debug/client/callstack.py:320
 msgid " pos %s-%s"
 msgstr ""
 
-#: src/debug/client/callstack.py:324
+#: src/debug/client/callstack.py:322
 msgid " line %s"
 msgstr ""
 
-#: src/debug/client/callstack.py:329 src/debug/client/stackpanel.py:980
+#: src/debug/client/callstack.py:327 src/debug/client/stackpanel.py:993
 msgid "prompt %i"
 msgstr ""
 
-#: src/debug/client/callstack.py:445 src/debug/client/excpanel.py:1025
+#: src/debug/client/callstack.py:443 src/debug/client/excpanel.py:1036
 msgid "Failed to select stack frame"
 msgstr ""
 
-#: src/debug/client/callstack.py:446 src/debug/client/excpanel.py:1026
+#: src/debug/client/callstack.py:444 src/debug/client/excpanel.py:1037
 msgid "Could not display selected stack frame"
 msgstr ""
 
@@ -203,58 +207,58 @@ msgstr ""
 msgid "Show Call Stack Documentation"
 msgstr ""
 
-#: src/debug/client/callstack.py:538 src/debug/client/cap_breakpanel.py:374
+#: src/debug/client/callstack.py:538 src/debug/client/cap_breakpanel.py:372
 msgid "Breakpoint Mgr"
 msgstr ""
 
-#: src/debug/client/cap_advbreak.py:321
+#: src/debug/client/cap_advbreak.py:323
 msgid "Cannot ignore breakpoint '%s' times"
 msgstr ""
 
-#: src/debug/client/cap_advbreak.py:321
+#: src/debug/client/cap_advbreak.py:323
 msgid "Invalid Value"
 msgstr "Valor no válido"
 
-#: src/debug/client/cap_advbreak.py:359 src/debug/client/cap_advbreak.py:454
-#: src/debug/client/cap_launch.py:946 src/debug/client/cap_launch.py:1051
-#: src/debug/client/cap_launch.py:2101 src/debug/client/cap_launch.py:2160
-#: src/debug/client/cap_launch.py:2555 src/debug/client/cap_remotegui.py:136
-#: src/debug/client/cap_remotegui.py:1042
-#: src/debug/client/cap_remotegui.py:1094
-#: src/debug/client/cap_remotegui.py:1323
-#: src/debug/client/cap_remotegui.py:1487
-#: src/debug/client/cap_remotegui.py:2191
-#: src/debug/client/cap_remotegui.py:2399 src/debug/client/interactive.py:1632
-#: src/debug/client/manager.py:2073 src/debug/client/runstate.py:2922
-#: src/debug/client/shell.py:1863
+#: src/debug/client/cap_advbreak.py:361 src/debug/client/cap_advbreak.py:456
+#: src/debug/client/cap_launch.py:970 src/debug/client/cap_launch.py:1075
+#: src/debug/client/cap_launch.py:2154 src/debug/client/cap_launch.py:2213
+#: src/debug/client/cap_launch.py:2728 src/debug/client/cap_remotegui.py:140
+#: src/debug/client/cap_remotegui.py:1077
+#: src/debug/client/cap_remotegui.py:1133
+#: src/debug/client/cap_remotegui.py:1368
+#: src/debug/client/cap_remotegui.py:1542
+#: src/debug/client/cap_remotegui.py:2309
+#: src/debug/client/cap_remotegui.py:2517 src/debug/client/interactive.py:1651
+#: src/debug/client/manager.py:2212 src/debug/client/runstate.py:3158
+#: src/debug/client/shell.py:1864
 msgid "_Cancel"
 msgstr "_Cancelar"
 
-#: src/debug/client/cap_advbreak.py:363
+#: src/debug/client/cap_advbreak.py:365
 msgid "Conditional Breakpoint"
 msgstr "Punto de interrupción condicional"
 
-#: src/debug/client/cap_advbreak.py:389
+#: src/debug/client/cap_advbreak.py:391
 msgid "Enter new breakpoint condition:"
 msgstr ""
 
-#: src/debug/client/cap_advbreak.py:458
+#: src/debug/client/cap_advbreak.py:460
 msgid "Ignore Breakpoint"
 msgstr "Ignorar punto de interrupción"
 
-#: src/debug/client/cap_advbreak.py:484
+#: src/debug/client/cap_advbreak.py:486
 msgid "Enter number of hits to ignore:"
 msgstr ""
 
-#: src/debug/client/cap_attach.py:140
+#: src/debug/client/cap_attach.py:141
 msgid "Could not attach"
 msgstr ""
 
-#: src/debug/client/cap_attach.py:140
+#: src/debug/client/cap_attach.py:141
 msgid "Could not attach to host %s, port %s: "
 msgstr ""
 
-#: src/debug/client/cap_attach.py:141
+#: src/debug/client/cap_attach.py:142
 msgid ""
 "The remote process is not accepting connections, or is not running.  This "
 "may be caused by a missing or incorrect wingdebugpw file.  The wingdebugpw "
@@ -263,555 +267,554 @@ msgid ""
 "py)."
 msgstr ""
 
-#: src/debug/client/cap_attach.py:287
+#: src/debug/client/cap_attach.py:288
 msgid "Both host and port must be filled in"
 msgstr ""
 
-#: src/debug/client/cap_attach.py:287 src/debug/client/cap_attach.py:293
+#: src/debug/client/cap_attach.py:288 src/debug/client/cap_attach.py:294
 msgid "Invalid Entry"
 msgstr ""
 
-#: src/debug/client/cap_attach.py:293
+#: src/debug/client/cap_attach.py:294
 msgid "Invalid (non-numeric) port number"
 msgstr ""
 
-#: src/debug/client/cap_attach.py:339
+#: src/debug/client/cap_attach.py:340
 msgid "Select a process to attach to:"
 msgstr ""
 
-#: src/debug/client/cap_attach.py:352
+#: src/debug/client/cap_attach.py:353
 msgid "Description"
 msgstr "Descripción"
 
-#: src/debug/client/cap_attach.py:352
+#: src/debug/client/cap_attach.py:353
 msgid "Host"
 msgstr "Servidor"
 
-#: src/debug/client/cap_attach.py:352
+#: src/debug/client/cap_attach.py:353
 msgid "Origin"
 msgstr "Origen"
 
-#: src/debug/client/cap_attach.py:352
+#: src/debug/client/cap_attach.py:353
 msgid "PID"
 msgstr "PID"
 
-#: src/debug/client/cap_attach.py:352 src/debug/client/prefs.py:154
+#: src/debug/client/cap_attach.py:353 src/debug/client/prefs.py:164
 msgid "Port"
 msgstr "Puerto"
 
-#: src/debug/client/cap_attach.py:369
+#: src/debug/client/cap_attach.py:370
 msgid "Prefs"
 msgstr "Preferencias"
 
-#: src/debug/client/cap_attach.py:371
+#: src/debug/client/cap_attach.py:372
 msgid "Wing"
 msgstr "Wing"
 
-#: src/debug/client/cap_attach.py:373
+#: src/debug/client/cap_attach.py:374
 msgid "External"
 msgstr "Externo"
 
-#: src/debug/client/cap_attach.py:384
+#: src/debug/client/cap_attach.py:385
 msgid "Host:"
 msgstr "Servidor:"
 
-#: src/debug/client/cap_attach.py:397
+#: src/debug/client/cap_attach.py:398
 msgid "Port:"
 msgstr "Puerto:"
 
-#: src/debug/client/cap_attach.py:421
+#: src/debug/client/cap_attach.py:422
 msgid "Attach"
 msgstr "Adjuntar"
 
-#: src/debug/client/cap_attach.py:424
+#: src/debug/client/cap_attach.py:425
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/debug/client/cap_attach.py:435
+#: src/debug/client/cap_attach.py:436
 msgid "Attach to Debug Process"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:58
+#: src/debug/client/cap_breakpanel.py:60
 msgid "Breakpoints"
 msgstr "Puntos de interrupción"
 
-#: src/debug/client/cap_breakpanel.py:63
+#: src/debug/client/cap_breakpanel.py:65
 msgid "Debug Breakpoint Manager"
 msgstr "Administrador de puntos de ruptura del depurador"
 
-#: src/debug/client/cap_breakpanel.py:148
+#: src/debug/client/cap_breakpanel.py:150
 msgid "Breakpoint Manager"
 msgstr "Administrador de puntos de ruptura"
 
-#: src/debug/client/cap_breakpanel.py:163
-#: src/debug/client/cap_breakpanel.py:174
+#: src/debug/client/cap_breakpanel.py:165
+#: src/debug/client/cap_breakpanel.py:176
 msgid "Breakpoint manager state"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:227
+#: src/debug/client/cap_breakpanel.py:229
 msgid "Condition"
 msgstr "Condición"
 
-#: src/debug/client/cap_breakpanel.py:227
+#: src/debug/client/cap_breakpanel.py:229
 msgid "Ignores"
 msgstr "Ignorados"
 
-#: src/debug/client/cap_breakpanel.py:227
+#: src/debug/client/cap_breakpanel.py:229
 msgid "Location"
 msgstr "Ubicación"
 
-#: src/debug/client/cap_breakpanel.py:227
+#: src/debug/client/cap_breakpanel.py:229
 msgid "Temporary"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:227 src/debug/client/prefs.py:604
+#: src/debug/client/cap_breakpanel.py:229 src/debug/client/prefs.py:619
 msgid "Enabled"
 msgstr "Activado"
 
-#: src/debug/client/cap_breakpanel.py:228
+#: src/debug/client/cap_breakpanel.py:230
 msgid "Hits"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:228
+#: src/debug/client/cap_breakpanel.py:230
 msgid "Ignores Left"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:290 src/debug/client/vartree.py:512
+#: src/debug/client/cap_breakpanel.py:288 src/debug/client/vartree.py:515
 msgid "%s, line %i"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:362
+#: src/debug/client/cap_breakpanel.py:360
 msgid "Show Breakpoint"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:363
+#: src/debug/client/cap_breakpanel.py:361
 msgid "Remove Breakpoint"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:365
+#: src/debug/client/cap_breakpanel.py:363
 msgid "Remove All Breakpoints"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:366
+#: src/debug/client/cap_breakpanel.py:364
 msgid "Disable _All Breakpoints"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:367
+#: src/debug/client/cap_breakpanel.py:365
 msgid "Enable _All Breakpoints"
 msgstr ""
 
-#: src/debug/client/cap_breakpanel.py:369
+#: src/debug/client/cap_breakpanel.py:367
 msgid "Show Breakpoints Documentation"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:41
-#: src/debug/client/cap_debugprobe.py:225
+#: src/debug/client/cap_debugprobe.py:42
+#: src/debug/client/cap_debugprobe.py:226
 #, fuzzy
 msgid "Debug Console"
 msgstr "Herramienta de sondeo"
 
-#: src/debug/client/cap_debugprobe.py:141
-#: src/debug/client/cap_debugprobe.py:166
+#: src/debug/client/cap_debugprobe.py:142
+#: src/debug/client/cap_debugprobe.py:167
 msgid "Cannot execute: no debug process"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:147
+#: src/debug/client/cap_debugprobe.py:148
 msgid "Cannot execute: debug process is busy"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:152
-#: src/debug/client/cap_ipythonshell.py:1036
-#: src/debug/client/interactive.py:1339 src/debug/client/interactive.py:1351
+#: src/debug/client/cap_debugprobe.py:153
+#: src/debug/client/cap_ipythonshell.py:1038
+#: src/debug/client/interactive.py:1358 src/debug/client/interactive.py:1370
 msgid "Waiting for keyboard input"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:154
+#: src/debug/client/cap_debugprobe.py:155
 msgid "Executing command.  Please wait for result."
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:158 src/debug/client/interactive.py:1345
+#: src/debug/client/cap_debugprobe.py:159 src/debug/client/interactive.py:1364
 msgid "Debugging recursively (R=%i).  Use arrow keys for history."
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:160
+#: src/debug/client/cap_debugprobe.py:161
 msgid ""
 "Commands run in current frame with debug enabled.  Use arrow keys for "
 "history."
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:162
+#: src/debug/client/cap_debugprobe.py:163
 msgid ""
 "Commands run in current frame without debug.  Use arrow keys for history."
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:164
+#: src/debug/client/cap_debugprobe.py:165
 msgid "Commands execute in current stack frame.  Use arrow keys for history."
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:168
+#: src/debug/client/cap_debugprobe.py:169
 msgid "Cannot execute: debug program is connecting"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:170
+#: src/debug/client/cap_debugprobe.py:171
 msgid "Cannot execute: debugger not ready or exiting"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:172
+#: src/debug/client/cap_debugprobe.py:173
 msgid "Cannot execute: unknown or invalid debug mode"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:230
+#: src/debug/client/cap_debugprobe.py:231
 msgid "Command Line for Probing Paused Debug Process Data"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:328
-#: src/debug/client/cap_ipythonshell.py:1404 src/debug/client/debugio.py:897
-#: src/debug/client/excpanel.py:564 src/debug/client/interactive.py:2742
-#: src/debug/client/shell.py:1248
+#: src/debug/client/cap_debugprobe.py:329
+#: src/debug/client/cap_ipythonshell.py:1406 src/debug/client/debugio.py:937
+#: src/debug/client/excpanel.py:569 src/debug/client/interactive.py:2818
+#: src/debug/client/shell.py:1249
 msgid "_Clear"
 msgstr "_Limpiar"
 
-#: src/debug/client/cap_debugprobe.py:329 src/debug/client/shell.py:1252
+#: src/debug/client/cap_debugprobe.py:330 src/debug/client/shell.py:1253
 msgid "_Save a Copy..."
 msgstr "_Guardar una copia…"
 
-#: src/debug/client/cap_debugprobe.py:331
-#: src/debug/client/cap_ipythonshell.py:1415 src/debug/client/debugio.py:900
-#: src/debug/client/interactive.py:2759
+#: src/debug/client/cap_debugprobe.py:332
+#: src/debug/client/cap_ipythonshell.py:1417 src/debug/client/debugio.py:940
+#: src/debug/client/interactive.py:2835
 msgid "_Wrap Lines"
 msgstr "A_juste de líneas"
 
-#: src/debug/client/cap_debugprobe.py:332
-#: src/debug/client/cap_ipythonshell.py:1416
-#: src/debug/client/interactive.py:2760
+#: src/debug/client/cap_debugprobe.py:333
+#: src/debug/client/cap_ipythonshell.py:1418
+#: src/debug/client/interactive.py:2836
 msgid "_Pretty Print"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:334
+#: src/debug/client/cap_debugprobe.py:335
 msgid "_Enable Auto-completion"
 msgstr "Activar &auto-completado"
 
-#: src/debug/client/cap_debugprobe.py:335 src/debug/client/interactive.py:2766
+#: src/debug/client/cap_debugprobe.py:336 src/debug/client/interactive.py:2842
 msgid "_Filter History by Entered Prefix"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:337
-#: src/debug/client/cap_ipythonshell.py:1420
-#: src/debug/client/interactive.py:2768
+#: src/debug/client/cap_debugprobe.py:338
+#: src/debug/client/cap_ipythonshell.py:1422
+#: src/debug/client/interactive.py:2844
 msgid "Evaluate Only W_hole Lines"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:341 src/debug/client/interactive.py:2751
+#: src/debug/client/cap_debugprobe.py:342 src/debug/client/interactive.py:2827
 #, fuzzy
 msgid "Enable _Debugging"
 msgstr "Guardar y _Parar el depurado"
 
-#: src/debug/client/cap_debugprobe.py:344 src/debug/client/interactive.py:2754
+#: src/debug/client/cap_debugprobe.py:345 src/debug/client/interactive.py:2830
 msgid "Enable Recursi_ve Prompt"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:347
+#: src/debug/client/cap_debugprobe.py:348
 msgid "Show Debug Console Doc_umentation"
 msgstr ""
 
-#: src/debug/client/cap_debugprobe.py:370
+#: src/debug/client/cap_debugprobe.py:371
 msgid "Could not find definition of '%s'"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:999
+#: src/debug/client/cap_ipythonshell.py:1001
 msgid "Kill current IPython session?"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1001
+#: src/debug/client/cap_ipythonshell.py:1003
 msgid "Disconnect from current IPython session?"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1023
+#: src/debug/client/cap_ipythonshell.py:1025
 msgid "debugging is disabled, use Options menu to start debugging"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1024
+#: src/debug/client/cap_ipythonshell.py:1026
 msgid "debugger is active"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1025
+#: src/debug/client/cap_ipythonshell.py:1027
 msgid "code is stopped in debugger, use the debug tools to work with it"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1030
+#: src/debug/client/cap_ipythonshell.py:1032
 msgid "Could not start IPython"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1032
-#: src/debug/client/interactive.py:1362
+#: src/debug/client/cap_ipythonshell.py:1034
+#: src/debug/client/interactive.py:1381
 msgid "Cannot execute: use Options -> Restart Shell to launch shell"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1034
-#: src/debug/client/interactive.py:1360
+#: src/debug/client/cap_ipythonshell.py:1036
+#: src/debug/client/interactive.py:1379
 msgid "Cannot execute: waiting for shell to restart"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1038
+#: src/debug/client/cap_ipythonshell.py:1040
 msgid "busy"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1038
+#: src/debug/client/cap_ipythonshell.py:1040
 msgid "idle"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1046
+#: src/debug/client/cap_ipythonshell.py:1048
 msgid "IPython: kernel is {}; {}"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1130
+#: src/debug/client/cap_ipythonshell.py:1132
 msgid "Cannot interrupt because kernel is not connected"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1132
+#: src/debug/client/cap_ipythonshell.py:1134
 msgid "Cannot interrupt because kernel was not launched by this process"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1249
+#: src/debug/client/cap_ipythonshell.py:1251
 msgid "IPython"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1254
+#: src/debug/client/cap_ipythonshell.py:1256
 msgid "IPython Shell"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1325
-#: src/debug/client/interactive.py:2650
+#: src/debug/client/cap_ipythonshell.py:1327
+#: src/debug/client/interactive.py:2720
 msgid "Evaluate _line %i from %s"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1327
-#: src/debug/client/interactive.py:2652
+#: src/debug/client/cap_ipythonshell.py:1329
+#: src/debug/client/interactive.py:2722
 msgid "Evaluate _lines %i-%i from %s"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1330
-#: src/debug/client/interactive.py:2655
+#: src/debug/client/cap_ipythonshell.py:1332
+#: src/debug/client/interactive.py:2725
 msgid "Evaluate _selection on line %i in %s"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1332
-#: src/debug/client/interactive.py:2657
+#: src/debug/client/cap_ipythonshell.py:1334
+#: src/debug/client/interactive.py:2727
 msgid "Evaluate _selection on lines %i-%i in %s"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1337
-#: src/debug/client/interactive.py:2662
+#: src/debug/client/cap_ipythonshell.py:1339
+#: src/debug/client/interactive.py:2732
 msgid "Evaluate _Selection"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1402
-#: src/debug/client/interactive.py:2741
+#: src/debug/client/cap_ipythonshell.py:1404
+#: src/debug/client/interactive.py:2817
 msgid "_Restart Shell"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1403
+#: src/debug/client/cap_ipythonshell.py:1405
 msgid "_Connect to Existing Kernel..."
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1405
-#: src/debug/client/interactive.py:2743
+#: src/debug/client/cap_ipythonshell.py:1407
+#: src/debug/client/interactive.py:2819
 msgid "Sa_ve a Copy..."
 msgstr "Guardar una copia"
 
-#: src/debug/client/cap_ipythonshell.py:1407
+#: src/debug/client/cap_ipythonshell.py:1409
 msgid "Send _Interrupt"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1408
-#: src/debug/client/cap_launch.py:1975 src/debug/client/runstate.py:2901
+#: src/debug/client/cap_ipythonshell.py:1410
+#: src/debug/client/cap_launch.py:2028 src/debug/client/runstate.py:3137
 msgid "_Debug"
 msgstr "_Depurar"
 
-#: src/debug/client/cap_ipythonshell.py:1410
-#: src/debug/client/interactive.py:2745
+#: src/debug/client/cap_ipythonshell.py:1412
+#: src/debug/client/interactive.py:2821
 msgid "_Evaluate %s"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1417
-#: src/debug/client/interactive.py:2757 src/debug/client/interactive.py:2765
+#: src/debug/client/cap_ipythonshell.py:1419
+#: src/debug/client/interactive.py:2833 src/debug/client/interactive.py:2841
 msgid "Enable Auto-_completion"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1418
+#: src/debug/client/cap_ipythonshell.py:1420
 msgid "_Filter history by entered prefix"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1422
-#: src/debug/client/interactive.py:2770
+#: src/debug/client/cap_ipythonshell.py:1424
+#: src/debug/client/interactive.py:2846
 msgid "_Auto-restart when Evaluate File"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1427
-#: src/debug/client/interactive.py:2779
+#: src/debug/client/cap_ipythonshell.py:1429
 msgid "_Launch Configuration"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1428
-#: src/debug/client/interactive.py:2780
+#: src/debug/client/cap_ipythonshell.py:1430
+#: src/debug/client/interactive.py:2857
 msgid "_Prompt on Stale Environment"
 msgstr ""
 
-#: src/debug/client/cap_ipythonshell.py:1431
+#: src/debug/client/cap_ipythonshell.py:1433
 msgid "Show IPython _Documentation"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:49
+#: src/debug/client/cap_launch.py:57
 msgid "Untitled"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:396
+#: src/debug/client/cap_launch.py:420
 msgid "Launch %s"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:398
+#: src/debug/client/cap_launch.py:422
 msgid "Untitled Launch Config"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:774
+#: src/debug/client/cap_launch.py:798
 msgid "Create Launch Configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:775
+#: src/debug/client/cap_launch.py:799
 msgid "Create a new launch configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:778
+#: src/debug/client/cap_launch.py:802
 msgid "Duplicate Launch Configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:779
+#: src/debug/client/cap_launch.py:803
 msgid "Duplicate the selected launch configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:782
+#: src/debug/client/cap_launch.py:806
 msgid "Edit Launch Configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:783
+#: src/debug/client/cap_launch.py:807
 msgid "Edit the selected launch configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:786
+#: src/debug/client/cap_launch.py:810
 msgid "Delete Launch Configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:787
+#: src/debug/client/cap_launch.py:811
 msgid "Delete the selected launch configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:790 src/debug/client/cap_launch.py:1948
-#: src/debug/client/cap_remotegui.py:2029
-#: src/debug/client/cap_remotegui.py:2367
+#: src/debug/client/cap_launch.py:814 src/debug/client/cap_launch.py:2001
+#: src/debug/client/cap_remotegui.py:2147
+#: src/debug/client/cap_remotegui.py:2485
 msgid "New"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:791 src/debug/client/cap_launch.py:1949
-#: src/debug/client/cap_remotegui.py:2030
+#: src/debug/client/cap_launch.py:815 src/debug/client/cap_launch.py:2002
+#: src/debug/client/cap_remotegui.py:2148
 msgid "Duplicate"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:792 src/debug/client/cap_launch.py:1950
-#: src/debug/client/cap_remotegui.py:2031
+#: src/debug/client/cap_launch.py:816 src/debug/client/cap_launch.py:2003
+#: src/debug/client/cap_remotegui.py:2149
 msgid "Edit"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:793 src/debug/client/cap_launch.py:1951
-#: src/debug/client/cap_remotegui.py:2032
+#: src/debug/client/cap_launch.py:817 src/debug/client/cap_launch.py:2004
+#: src/debug/client/cap_remotegui.py:2150
 msgid "Delete"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:814
+#: src/debug/client/cap_launch.py:838
 msgid "Show _Docs..."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:816 src/debug/client/cap_launch.py:1982
-#: src/debug/client/cap_remotegui.py:2059
+#: src/debug/client/cap_launch.py:840 src/debug/client/cap_launch.py:2035
+#: src/debug/client/cap_remotegui.py:2177
 msgid "_Close"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:819 src/debug/client/cap_launch.py:1463
-#: src/debug/client/cap_launch.py:1985
+#: src/debug/client/cap_launch.py:843 src/debug/client/cap_launch.py:1489
+#: src/debug/client/cap_launch.py:2038
 msgid "Name"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:819 src/debug/client/cap_remotegui.py:2062
+#: src/debug/client/cap_launch.py:843 src/debug/client/cap_remotegui.py:2180
 #, fuzzy
 msgid "ID"
 msgstr "PID"
 
-#: src/debug/client/cap_launch.py:819 src/debug/client/cap_remotegui.py:2062
+#: src/debug/client/cap_launch.py:843 src/debug/client/cap_remotegui.py:2180
 msgid "Shared"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:867
+#: src/debug/client/cap_launch.py:891
 msgid "Manage Launch Configurations"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:942
+#: src/debug/client/cap_launch.py:966
 msgid "Use Duplicate Launch Configuration Name?"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:943
+#: src/debug/client/cap_launch.py:967
 msgid ""
 "That launch configuration already exists.  Are you sure you want to create "
 "two launch configurations named '%s'?"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1027
+#: src/debug/client/cap_launch.py:1051
 msgid "Named Entry Point: "
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1035
+#: src/debug/client/cap_launch.py:1059
 msgid "File: "
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1037
+#: src/debug/client/cap_launch.py:1061
 msgid ""
 "This launch configuration is used by the following, which will revert to "
 "using project-wide settings if the launch configuration is removed:"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1046
+#: src/debug/client/cap_launch.py:1070
 msgid "Delete Launch Configuration?"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1047
+#: src/debug/client/cap_launch.py:1071
 msgid ""
 "Are you sure you want to delete launch configuration '%s'?  This cannot be "
 "undone."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1082 src/debug/client/cap_launch.py:2237
-#: src/debug/client/cap_remotegui.py:2311
+#: src/debug/client/cap_launch.py:1106 src/debug/client/cap_launch.py:2290
+#: src/debug/client/cap_remotegui.py:2429
 msgid "_New..."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1083 src/debug/client/cap_launch.py:2238
-#: src/debug/client/cap_remotegui.py:2312
+#: src/debug/client/cap_launch.py:1107 src/debug/client/cap_launch.py:2291
+#: src/debug/client/cap_remotegui.py:2430
 msgid "D_uplicate..."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1084 src/debug/client/cap_launch.py:2239
-#: src/debug/client/cap_remotegui.py:2313
+#: src/debug/client/cap_launch.py:1108 src/debug/client/cap_launch.py:2292
+#: src/debug/client/cap_remotegui.py:2431
 msgid "_Edit..."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1085 src/debug/client/cap_launch.py:2240
-#: src/debug/client/cap_remotegui.py:2314
+#: src/debug/client/cap_launch.py:1109 src/debug/client/cap_launch.py:2293
+#: src/debug/client/cap_remotegui.py:2432
 msgid "_Delete..."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1118
+#: src/debug/client/cap_launch.py:1142
 msgid "Launch Configuration: %s"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1239
+#: src/debug/client/cap_launch.py:1263
 msgid ""
 "Python Executable '%s' is a full path, which may not work if this launch "
 "configuration is shared to other machines or OSes.  You may want to use an "
@@ -819,13 +822,13 @@ msgid ""
 "or use the project setting and configure the project on each machine or OS."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1244
+#: src/debug/client/cap_launch.py:1268
 msgid ""
 "Remote Host '%s' is missing a configuration in this project.  This launch "
 "configuration will not work until one is added."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1262
+#: src/debug/client/cap_launch.py:1286
 msgid ""
 "Python Path entry '%s' is a partial path -- We recommend using full paths to "
 "avoid problems locating source files for analysis and debugging.  If this "
@@ -834,48 +837,48 @@ msgid ""
 "of the entry.  "
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1268
+#: src/debug/client/cap_launch.py:1292
 msgid ""
 "If you must use a partial path, be sure to set Initial Directory under the "
 "Python tab."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1272
+#: src/debug/client/cap_launch.py:1296
 msgid "Python Path entry '%s' is also a partial path"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1276
+#: src/debug/client/cap_launch.py:1300
 msgid ""
 "Python Path entry '%s' is a full path which may not work when this launch "
 "configuration is shared to another machine or OS.  Use an environment "
 "variable reference such as ${WING:PROJECT_DIR} as the first part of the path."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1282
+#: src/debug/client/cap_launch.py:1306
 msgid "Python Path entry '%s' is also a full path"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1286
+#: src/debug/client/cap_launch.py:1310
 msgid "Python Path entry '%s' does not exist"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1288
+#: src/debug/client/cap_launch.py:1312
 msgid "Python Path entry '%s' is not a directory"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1306
+#: src/debug/client/cap_launch.py:1330
 msgid "Build command '%s' could not be found by id or title"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1354 src/debug/client/cap_remotegui.py:2062
+#: src/debug/client/cap_launch.py:1378 src/debug/client/cap_remotegui.py:2180
 msgid "Python"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1355 src/debug/client/cap_launch.py:2362
+#: src/debug/client/cap_launch.py:1379 src/debug/client/cap_launch.py:2486
 msgid "Environment"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1384
+#: src/debug/client/cap_launch.py:1408
 msgid ""
 "Command line arguments to use when executing or debugging with this launch "
 "configuration.  Arguments can optionally be delimited by \"s or 's.  Use \\"
@@ -884,7 +887,7 @@ msgid ""
 "precede a \", ', or $ adds a \\ to an argument."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1393
+#: src/debug/client/cap_launch.py:1417
 msgid ""
 "The starting directory for the sub-process.  If unspecified, the directory "
 "for commands will be the location of the project's main entry point or the "
@@ -893,7 +896,7 @@ msgid ""
 "the environment and special variables."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1400
+#: src/debug/client/cap_launch.py:1424
 msgid ""
 "Environment variables to set before running this command.  Entries are in "
 "\"name=value\" format, one per line.  Use \"name=\" (without a value) to "
@@ -901,7 +904,7 @@ msgid ""
 "environment Wing inherits at startup is used."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1405
+#: src/debug/client/cap_launch.py:1429
 msgid ""
 "The Python executable or virtualenv Python to use.  This is typically the "
 "value of sys.executable (after import sys) in the Python installation or "
@@ -910,7 +913,7 @@ msgid ""
 "line or as found on the PATH (or registry on Windows)"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1408
+#: src/debug/client/cap_launch.py:1432
 msgid ""
 "The PYTHONPATH to set when using this launch configuration.  The path "
 "separator is \"%s\". The default uses the PYTHONPATH Wing inherited at "
@@ -919,340 +922,380 @@ msgid ""
 "or special variables such as $(WING:PROJECT_DIR) for the project directory."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1415
+#: src/debug/client/cap_launch.py:1439
 msgid ""
 "Arguments to pass to the Python interpreter when debugging.  The default is "
 "to use the value selected in Project Properties, or -u for unbuffered "
 "output.  Prompts for keyboard input may not appear without the -u option."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1422
+#: src/debug/client/cap_launch.py:1446
 msgid ""
 "Command to execute before launching.  If the launch configuration is shared "
 "to other projects, machines, or OSes the command must be given a title and a "
 "like-titled command must be created in each project or on each machine."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1456 src/debug/client/prefs.py:74
+#: src/debug/client/cap_launch.py:1479 src/debug/client/cap_remotegui.py:2695
+msgid "Activated Env"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:1484 src/debug/client/prefs.py:77
 msgid "Remote"
 msgstr "Remota"
 
-#: src/debug/client/cap_launch.py:1464
+#: src/debug/client/cap_launch.py:1490
 msgid "The name of the launch configuration"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1491
+#: src/debug/client/cap_launch.py:1509
+msgid "Command Line"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:1518
 msgid "Unbuffered (-u)"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1498
+#: src/debug/client/cap_launch.py:1525
 msgid "None"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1936
+#: src/debug/client/cap_launch.py:1989
 msgid "Create a new named entry point"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1939
+#: src/debug/client/cap_launch.py:1992
 msgid "Duplicate the selected named entry point"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1942
+#: src/debug/client/cap_launch.py:1995
 msgid "Edit the selected named entry point"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1945
+#: src/debug/client/cap_launch.py:1998
 msgid "Delete the selected named entry point"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1973 src/debug/client/cap_remotegui.py:2055
+#: src/debug/client/cap_launch.py:2026 src/debug/client/cap_remotegui.py:2173
 msgid "_Show Docs..."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1979
+#: src/debug/client/cap_launch.py:2032
 msgid "_Execute"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1985 src/debug/client/cap_launch.py:2544
+#: src/debug/client/cap_launch.py:2038 src/debug/client/cap_launch.py:2717
 msgid "Debug Key Binding"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:1985 src/debug/client/cap_launch.py:2547
+#: src/debug/client/cap_launch.py:2038 src/debug/client/cap_launch.py:2720
 msgid "Execute Key Binding"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2019
+#: src/debug/client/cap_launch.py:2072
 msgid "Right click on the list for additional operations"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2032
+#: src/debug/client/cap_launch.py:2085
 msgid "Manage Named Entry Points"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2097
+#: src/debug/client/cap_launch.py:2150
 msgid "Overwrite Existing Named Entry Point?"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2098
+#: src/debug/client/cap_launch.py:2151
 msgid ""
 "That named entry point already exists.  Are you sure you want to overwrite "
 "the existing named entry point '%s'?"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2156
+#: src/debug/client/cap_launch.py:2209
 msgid "Confirm Named Entry Point Deletion"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2157
+#: src/debug/client/cap_launch.py:2210
 msgid "Are you sure you want to delete named entry point '%s'?"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2193
+#: src/debug/client/cap_launch.py:2246
 msgid "Cannot Debug"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2194
+#: src/debug/client/cap_launch.py:2247
 msgid ""
 "Cannot debug the named entry point.  The maximum number of debug processes "
 "is already running."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2242
+#: src/debug/client/cap_launch.py:2295
 #, fuzzy
 msgid "_Set Debug Key Binding..."
 msgstr "Interrumpir/detener la depuración"
 
-#: src/debug/client/cap_launch.py:2243
+#: src/debug/client/cap_launch.py:2296
 msgid "Set E_xecute Key Binding..."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2274
+#: src/debug/client/cap_launch.py:2327
 msgid "Named Entry Point: %s"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2298 src/debug/client/runstate.py:2901
+#: src/debug/client/cap_launch.py:2354 src/debug/client/runstate.py:3137
 msgid "Debug"
 msgstr "Depurar"
 
-#: src/debug/client/cap_launch.py:2331
-msgid "Data"
-msgstr ""
-
-#: src/debug/client/cap_launch.py:2350
-msgid "Python File"
-msgstr ""
-
-#: src/debug/client/cap_launch.py:2351
-msgid "The Python file to launch"
+#: src/debug/client/cap_launch.py:2361
+msgid "_Python File"
 msgstr ""
 
 #: src/debug/client/cap_launch.py:2363
+#, fuzzy
+msgid "_Named Module"
+msgstr "Módulos"
+
+#: src/debug/client/cap_launch.py:2451
+msgid "Data"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:2470
+msgid "Python File"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:2471
+msgid "The Python file to launch"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:2481
+#, fuzzy
+msgid "Named Module"
+msgstr "Módulos"
+
+#: src/debug/client/cap_launch.py:2482
+msgid "The named module to launch with -m"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:2487
 msgid ""
 "The launch environment to use.  Either the project environment with "
 "specified run arguments, or a selected launch configuration."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2370
+#: src/debug/client/cap_launch.py:2496
 msgid "Whether to show this dialog before launching this entry point"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2449
+#: src/debug/client/cap_launch.py:2613
+msgid "You must specify a module name to run"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:2615
+msgid ""
+"The module name is not a dotted name. Each name must be a valid Python "
+"identifier"
+msgstr ""
+
+#: src/debug/client/cap_launch.py:2620
 msgid "You must specify a file to launch."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2456
+#: src/debug/client/cap_launch.py:2627
 msgid "The selected file does not exist."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2461
+#: src/debug/client/cap_launch.py:2632
 msgid ""
 "The selected file is not a Python file.  Use the OS Commands tool to launch "
 "non-Python files."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2470
+#: src/debug/client/cap_launch.py:2641
 msgid "(from project properties)"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2475
+#: src/debug/client/cap_launch.py:2646
 msgid "The selected launch configuration no longer exists."
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2499
+#: src/debug/client/cap_launch.py:2672
 msgid ""
 "The selected file is stored on remote host '%s' but the selected launch "
 "configuration %s is for a host '%s'"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2502
+#: src/debug/client/cap_launch.py:2675
 msgid ""
 "The selected file is stored on remote host '%s' but the selected launch "
 "configuration %s is for localhost"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2506
+#: src/debug/client/cap_launch.py:2679
 msgid ""
 "The selected file is stored on localhost but the selected launch "
 "configuration %s is for a remote host '%s'"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2575
+#: src/debug/client/cap_launch.py:2748
 msgid "The key binding assigned to initiate debug of the named entry point"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2577
+#: src/debug/client/cap_launch.py:2750
 msgid ""
 "The key binding assigned to initiate execution (without debugger) of the "
 "named entry point"
 msgstr ""
 
-#: src/debug/client/cap_launch.py:2579
+#: src/debug/client/cap_launch.py:2752
 msgid "Key Binding"
 msgstr ""
 
-#: src/debug/client/cap_modview.py:57
+#: src/debug/client/cap_modview.py:60
 msgid "Modules"
 msgstr "Módulos"
 
-#: src/debug/client/cap_modview.py:62
+#: src/debug/client/cap_modview.py:65
 msgid "Module-oriented Debug Data View (sys.modules)"
 msgstr ""
 
-#: src/debug/client/cap_modview.py:216 src/debug/client/cap_watch.py:474
-#: src/debug/client/debugio.py:616 src/debug/client/excpanel.py:497
-#: src/debug/client/interactive.py:2084 src/debug/client/stackpanel.py:1155
+#: src/debug/client/cap_modview.py:220
+msgid "Show Documentation"
+msgstr ""
+
+#: src/debug/client/cap_modview.py:221 src/debug/client/cap_watch.py:478
+#: src/debug/client/debugio.py:631 src/debug/client/excpanel.py:502
+#: src/debug/client/interactive.py:2120 src/debug/client/stackpanel.py:1170
 msgid "_Options"
 msgstr "_Opciones"
 
-#: src/debug/client/cap_remotegui.py:114
+#: src/debug/client/cap_remotegui.py:118
 msgid "No Remote Hosts"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:115
+#: src/debug/client/cap_remotegui.py:119
 msgid "No remote hosts have been configured.  Do you want to add one now?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:117
+#: src/debug/client/cap_remotegui.py:121
 #, fuzzy
 msgid "_Add Remote Host"
 msgstr "Remota"
 
-#: src/debug/client/cap_remotegui.py:119
+#: src/debug/client/cap_remotegui.py:123
 #, fuzzy
 msgid "No Shared Remote Hosts"
 msgstr "Remota"
 
-#: src/debug/client/cap_remotegui.py:120
+#: src/debug/client/cap_remotegui.py:124
 msgid ""
 "No shared remote hosts have been configured.  Do you want to add one now?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:122
+#: src/debug/client/cap_remotegui.py:126
 #, fuzzy
 msgid "_Add Shared Remote Host"
 msgstr "Remota"
 
-#: src/debug/client/cap_remotegui.py:134 src/debug/client/manager.py:2072
-#: src/debug/client/varmanager.py:400
+#: src/debug/client/cap_remotegui.py:138 src/debug/client/manager.py:2211
+#: src/debug/client/varmanager.py:403
 msgid "_Show Documentation"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:190
+#: src/debug/client/cap_remotegui.py:177 src/debug/client/cap_remotegui.py:644
+msgid "Preparing Installation"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:233
+msgid "Configuring Installation"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:242
+msgid "Configuring wingdbstub.py"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:268
+msgid "Converting EOLs for remote host"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:319
 msgid "Installing remote agent:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:199
+#: src/debug/client/cap_remotegui.py:328
 msgid "Timed out"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:225
+#: src/debug/client/cap_remotegui.py:354
 msgid "Failed to Install Remote Agent"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:226
+#: src/debug/client/cap_remotegui.py:355
 msgid ""
 "The remote agent could not be installed due to an unexpected error.  Please "
 "submit a bug report from the Help menu."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:242
+#: src/debug/client/cap_remotegui.py:371
 msgid "Installing Remote Agent: %s"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:243
-#: src/debug/client/cap_remotegui.py:1265
+#: src/debug/client/cap_remotegui.py:372
+#: src/debug/client/cap_remotegui.py:1310
 msgid "Please wait."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:315
+#: src/debug/client/cap_remotegui.py:441
 msgid "Failed to start command line: %s"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:316
+#: src/debug/client/cap_remotegui.py:442
 msgid "Check the Network > SSH Executable preference"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:339
+#: src/debug/client/cap_remotegui.py:465
 msgid "(truncated)"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:339 src/debug/client/cap_remotegui.py:341
+#: src/debug/client/cap_remotegui.py:465 src/debug/client/cap_remotegui.py:467
 msgid "Sub-process timed out"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:412
+#: src/debug/client/cap_remotegui.py:513
 msgid "Detecting Remote OS Type"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:428 src/debug/client/cap_remotegui.py:464
+#: src/debug/client/cap_remotegui.py:529 src/debug/client/cap_remotegui.py:565
 msgid "Could not determine OS type (err={})"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:477
+#: src/debug/client/cap_remotegui.py:578
 msgid "Detecting OS type"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:509 src/debug/client/cap_remotegui.py:523
+#: src/debug/client/cap_remotegui.py:617 src/debug/client/cap_remotegui.py:631
 msgid "Creating Installation Directory"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:518
+#: src/debug/client/cap_remotegui.py:626
 msgid "Could not create installation directory"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:536 src/debug/client/cap_remotegui.py:544
-msgid "Preparing Installation"
-msgstr ""
-
-#: src/debug/client/cap_remotegui.py:590
-msgid "Configuring Installation"
-msgstr ""
-
-#: src/debug/client/cap_remotegui.py:600
-msgid "Configuring wingdbstub.py"
-msgstr ""
-
-#: src/debug/client/cap_remotegui.py:627
-msgid "Converting EOLs for remote host"
-msgstr ""
-
-#: src/debug/client/cap_remotegui.py:643
+#: src/debug/client/cap_remotegui.py:666
 msgid "Failed to transfer remote agent; could not determine cygpath (err={})"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:650 src/debug/client/cap_remotegui.py:669
+#: src/debug/client/cap_remotegui.py:673 src/debug/client/cap_remotegui.py:692
 msgid "Transferring remote agent (this may take a while)"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:664
+#: src/debug/client/cap_remotegui.py:687
 msgid "Failed to transfer remote agent (err={})"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:934
+#: src/debug/client/cap_remotegui.py:958
 msgid "Base Directory Changed"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:935
+#: src/debug/client/cap_remotegui.py:959
 msgid ""
 "IMPORTANT:  You changed the Base Directory for host '%s'.  Wing will now "
 "interpret URLs for that host relative to %s.  For example %s now refers to "
@@ -1261,116 +1304,131 @@ msgid ""
 "change in the location of files on the remote host's disk."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1013
+#: src/debug/client/cap_remotegui.py:1037
 msgid "Save Files First"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1014
+#: src/debug/client/cap_remotegui.py:1038
 msgid ""
 "There are unsaved files open on this remote host.  Please save or close them "
 "before editing the remote host configuration."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1022
+#: src/debug/client/cap_remotegui.py:1046
 #, fuzzy
 msgid "Cannot Edit Remote Host"
 msgstr "Remota"
 
-#: src/debug/client/cap_remotegui.py:1023
+#: src/debug/client/cap_remotegui.py:1047
 msgid ""
 "This remote host configuration is being used to access the currently open "
 "project.  To edit it, please close the project first."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1033
+#: src/debug/client/cap_remotegui.py:1064
 msgid "Remote Host Is Being Used"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1034
+#: src/debug/client/cap_remotegui.py:1065
 msgid ""
 "This remote host is in use and editing its configuration will affect the "
 "following:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1038
-msgid ""
-"Wing will try to update these for the new remote host configuration.  Do you "
-"want to continue?"
+#: src/debug/client/cap_remotegui.py:1069
+msgid "Active processes in OS Commands will be terminated."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1041
+#: src/debug/client/cap_remotegui.py:1073
+msgid "Wing will try to update these for the new remote host configuration."
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:1074
+msgid "Do you want to continue?"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:1076
 #, fuzzy
 msgid "_Edit Remote Host"
 msgstr "Remota"
 
-#: src/debug/client/cap_remotegui.py:1076
+#: src/debug/client/cap_remotegui.py:1080
+#, fuzzy
+msgid "Don't show this warning again"
+msgstr "No mostrar este mensaje de nuevo"
+
+#: src/debug/client/cap_remotegui.py:1115
 msgid "Cannot Remove Remote Host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1077
+#: src/debug/client/cap_remotegui.py:1116
 msgid ""
 "This remote host configuration cannot be removed since it is used as follows:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1080
+#: src/debug/client/cap_remotegui.py:1119
 msgid ""
 "You must close files and/or reconfigure your project to avoid using this "
 "remote host before you can remove it."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1090
+#: src/debug/client/cap_remotegui.py:1129
 msgid "Confirm Remote Host Deletion"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1091
+#: src/debug/client/cap_remotegui.py:1130
 msgid "Are you sure you want to delete remote host configuration '%s'?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1103
+#: src/debug/client/cap_remotegui.py:1142
 msgid "The currently open project is stored on this remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1105
+#: src/debug/client/cap_remotegui.py:1144
 msgid "The project's Python Executable is on this remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1107
+#: src/debug/client/cap_remotegui.py:1146
 msgid "Files and directories in the project are on this remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1109
+#: src/debug/client/cap_remotegui.py:1148
 msgid "Files on the remote host are open in the editor"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1228
+#: src/debug/client/cap_remotegui.py:1150
+msgid "Processes on the remote host are running in OS Commands"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:1273
 msgid "Probing remote agent:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1237
+#: src/debug/client/cap_remotegui.py:1282
 msgid "Initializing..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1240
+#: src/debug/client/cap_remotegui.py:1285
 msgid "Waiting for connection..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1245
+#: src/debug/client/cap_remotegui.py:1290
 msgid "Waiting ({} secs left)"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1248
+#: src/debug/client/cap_remotegui.py:1293
 msgid "Connected but not ready"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1264
+#: src/debug/client/cap_remotegui.py:1309
 msgid "Probing %s"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1292
+#: src/debug/client/cap_remotegui.py:1337
 msgid "Missing Remote Host Configuration"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1302
+#: src/debug/client/cap_remotegui.py:1347
 msgid ""
 "Some autosave files for a remote host were found.  To save those on the "
 "remote host, switch to the project that defines the remote host "
@@ -1378,57 +1436,57 @@ msgid ""
 "store the file somewhere else."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1307
+#: src/debug/client/cap_remotegui.py:1352
 msgid ""
 "There is no remote host configuration for host %s.  Do you want to create "
 "one?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1322
+#: src/debug/client/cap_remotegui.py:1367
 msgid "_Create Host Config"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1369
+#: src/debug/client/cap_remotegui.py:1422
 #, fuzzy
 msgid "Remote Agent Failed to Start"
 msgstr "Falló al iniciar"
 
-#: src/debug/client/cap_remotegui.py:1370
+#: src/debug/client/cap_remotegui.py:1423
 #, fuzzy
 msgid "Connecting to host id %s failed."
 msgstr "Conexión fallida"
 
-#: src/debug/client/cap_remotegui.py:1373
+#: src/debug/client/cap_remotegui.py:1426
 msgid "Remote Agent Failed to Install"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1374
+#: src/debug/client/cap_remotegui.py:1427
 msgid "The remote agent could not be installed on host id %s."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1420
+#: src/debug/client/cap_remotegui.py:1471
 msgid ""
 "It looks like you have never connected to this host.  Try it first from the "
 "command line to verify its identity:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1423
+#: src/debug/client/cap_remotegui.py:1474
 msgid "The stored host identity does not match."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1425
+#: src/debug/client/cap_remotegui.py:1476
 msgid ""
 "You will need to try it once from the command line to accept the new "
 "identity:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1427
+#: src/debug/client/cap_remotegui.py:1478
 msgid ""
 "You will need to remove the old identity from ~/.ssh/known_hosts and then "
 "connect once from the command line once to accept the new identity:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1430
+#: src/debug/client/cap_remotegui.py:1481
 msgid ""
 "PuTTY is prompting for a login name.  Please add username@ to your Host Name "
 "in the remote host configuration.  Or, you can create a saved session for "
@@ -1436,274 +1494,287 @@ msgid ""
 "then save the session."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1434
+#: src/debug/client/cap_remotegui.py:1485
 msgid ""
 "Password-less remote login does not appear to be working.  Please see "
 "https://wingware.com/doc/proj/remote-hosts to configure access via an SSH "
 "user agent."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1438
+#: src/debug/client/cap_remotegui.py:1490
+msgid ""
+"Neither \"python3\" nor \"python\" were found on the remote host.  You may "
+"need to set Python Executable in your remote host configuration."
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:1493
 msgid ""
 "The Python Executable \"%s\" was not found on the remote host.  You may need "
 "to set this in the remote host configuration."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1441
+#: src/debug/client/cap_remotegui.py:1496
 msgid "The remote agent was not found.  Do you want to install it now?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1444
+#: src/debug/client/cap_remotegui.py:1499
 msgid "Output received:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1447
+#: src/debug/client/cap_remotegui.py:1502
 msgid "No output was received."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1484
+#: src/debug/client/cap_remotegui.py:1539
 #, fuzzy
 msgid "Co_nfigure..."
 msgstr "C_onfigurar..."
 
-#: src/debug/client/cap_remotegui.py:1485
+#: src/debug/client/cap_remotegui.py:1540
 msgid "_Install Remote Agent"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1486
+#: src/debug/client/cap_remotegui.py:1541
 #, fuzzy
 msgid "_Probe Again"
 msgstr "Herramienta de sondeo"
 
-#: src/debug/client/cap_remotegui.py:1593
+#: src/debug/client/cap_remotegui.py:1648
 msgid "Remote Host is Ready"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1594
+#: src/debug/client/cap_remotegui.py:1649
 msgid ""
 "Wing's remote agent for remote host identifier %s is up to date and working."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1597
+#: src/debug/client/cap_remotegui.py:1652
 #, fuzzy
 msgid "Host Name:"
 msgstr "Servidor"
 
-#: src/debug/client/cap_remotegui.py:1598
+#: src/debug/client/cap_remotegui.py:1653
 msgid "Version:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1601
+#: src/debug/client/cap_remotegui.py:1656
 msgid "OS:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1602
+#: src/debug/client/cap_remotegui.py:1657
 msgid "File System Encoding:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1603
+#: src/debug/client/cap_remotegui.py:1658
 #, fuzzy
 msgid "Remote Agent Process ID:"
 msgstr "Remota"
 
-#: src/debug/client/cap_remotegui.py:1608
+#: src/debug/client/cap_remotegui.py:1663
 msgid "Installation Directory:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1609
+#: src/debug/client/cap_remotegui.py:1664
 msgid "Home Directory:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1610
+#: src/debug/client/cap_remotegui.py:1665
 msgid "Base Directory:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1662
+#: src/debug/client/cap_remotegui.py:1724
 msgid ""
 "Remote agent for %s (version %s) needs update; use Project > Remote Hosts"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1674
+#: src/debug/client/cap_remotegui.py:1736
 msgid "Update Remote Agent?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1675
+#: src/debug/client/cap_remotegui.py:1737
 msgid ""
 "The remote agent's version (%s) does not match Wing's version (%s).  "
 "Updating the remote agent is recommended."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1682
+#: src/debug/client/cap_remotegui.py:1744
 msgid "_Update Remote Agent"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1683
+#: src/debug/client/cap_remotegui.py:1745
 msgid "_Not Now"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1693
+#: src/debug/client/cap_remotegui.py:1755
 #, fuzzy
 msgid "Don't show this dialog again"
 msgstr "No mostrar este mensaje de nuevo"
 
-#: src/debug/client/cap_remotegui.py:1941
+#: src/debug/client/cap_remotegui.py:2059
 msgid "Open Local _File..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1942
+#: src/debug/client/cap_remotegui.py:2060
 msgid "Open _Remote File..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1955
+#: src/debug/client/cap_remotegui.py:2073
 msgid "Sa_ve As Remote File..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1968
+#: src/debug/client/cap_remotegui.py:2086
 msgid "Open _Remote Project..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:1981
+#: src/debug/client/cap_remotegui.py:2099
 msgid "Sa_ve Project On Remote Host..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2014
+#: src/debug/client/cap_remotegui.py:2132
 msgid "Create a new remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2017
+#: src/debug/client/cap_remotegui.py:2135
 msgid "Duplicate the selected remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2020
+#: src/debug/client/cap_remotegui.py:2138
 msgid "Edit the selected remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2023
+#: src/debug/client/cap_remotegui.py:2141
 msgid "Delete the selected remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2026
+#: src/debug/client/cap_remotegui.py:2144
 msgid "Probe the selected remote host"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2033
+#: src/debug/client/cap_remotegui.py:2151
 #, fuzzy
 msgid "Probe"
 msgstr "Herramienta de sondeo"
 
-#: src/debug/client/cap_remotegui.py:2062
+#: src/debug/client/cap_remotegui.py:2180
 #, fuzzy
 msgid "Hostname"
 msgstr "Servidor"
 
-#: src/debug/client/cap_remotegui.py:2062
-#: src/debug/client/cap_remotegui.py:2617
+#: src/debug/client/cap_remotegui.py:2180
+#: src/debug/client/cap_remotegui.py:2744
 msgid "Base Directory"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2117
+#: src/debug/client/cap_remotegui.py:2235
 msgid "Manage Remote Hosts"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2187
-#: src/debug/client/cap_remotegui.py:2395
+#: src/debug/client/cap_remotegui.py:2305
+#: src/debug/client/cap_remotegui.py:2513
 msgid "Overwrite Existing Remote Host?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2188
-#: src/debug/client/cap_remotegui.py:2396
+#: src/debug/client/cap_remotegui.py:2306
+#: src/debug/client/cap_remotegui.py:2514
 msgid ""
 "Another configuration for that remote host already exists.  Are you sure you "
 "want to overwrite the existing remote host configuration '%s'?"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2316
+#: src/debug/client/cap_remotegui.py:2434
 msgid "Probe Remote Agent..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2317
+#: src/debug/client/cap_remotegui.py:2435
 msgid "Install or Reinstall Remote Agent..."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2348
+#: src/debug/client/cap_remotegui.py:2466
 msgid "Remote Host: %s"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2457
+#: src/debug/client/cap_remotegui.py:2575
 msgid "Recent Hosts"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2541
+#: src/debug/client/cap_remotegui.py:2659
 msgid "General"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2543
+#: src/debug/client/cap_remotegui.py:2661
 msgid "Options"
 msgstr "Opciones"
 
-#: src/debug/client/cap_remotegui.py:2545
+#: src/debug/client/cap_remotegui.py:2663
 msgid "Advanced"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2566
+#: src/debug/client/cap_remotegui.py:2684
 msgid "Preference setting (%s)"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2572
+#: src/debug/client/cap_remotegui.py:2690
 msgid "Use Remote Host's Default"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2578
+#: src/debug/client/cap_remotegui.py:2700
 msgid "Identifier"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2579
+#: src/debug/client/cap_remotegui.py:2701
 msgid ""
 "The unique ID for this remote host configuration.  This is used in all "
 "references to resources on the remote host."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2586
+#: src/debug/client/cap_remotegui.py:2708
 #, fuzzy
 msgid "Host Name"
 msgstr "Servidor"
 
-#: src/debug/client/cap_remotegui.py:2587
+#: src/debug/client/cap_remotegui.py:2709
 msgid ""
 "The remote host's DNS name or IP address.  This may include the user name in "
 "the form user@hostname or user@ipaddress."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2594
+#: src/debug/client/cap_remotegui.py:2716
 msgid "Installation Directory"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2595
+#: src/debug/client/cap_remotegui.py:2717
 msgid ""
 "The full path to where Wing's remote agent and debugger should be "
 "installed.  By default, the location is determined automatically."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2598
+#: src/debug/client/cap_remotegui.py:2720
 msgid "Automatic"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2599
+#: src/debug/client/cap_remotegui.py:2721
 msgid "Specify Directory:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2603
+#: src/debug/client/cap_remotegui.py:2725
 msgid "Python Executable"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2605
+#: src/debug/client/cap_remotegui.py:2727
 msgid ""
-"The Python executable to run on the remote host, or the executable name to "
-"find on the path, or blank to run 'python'.  If this is a partial path, it "
-"is relative to the Base Directory (defaults to the user's home directory)."
+"The Python executable to run on the remote host.  The default is to try "
+"'python3' and then 'python'.  When set to Command, this may be the "
+"executable name to find on the PATH, a full path, or a partial path that is "
+"relative to the Base Directory (which defaults to the user's home "
+"directory).  When set to Activated Env, the value is the command that "
+"activates a virtualenv or Anaconda environment on the remote host."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2619
+#: src/debug/client/cap_remotegui.py:2738
+msgid "Command"
+msgstr ""
+
+#: src/debug/client/cap_remotegui.py:2746
 msgid ""
 "The directory from which relative paths are based when referring to files on "
 "this host.  If this is blank, the user's home directory is used as the base "
@@ -1711,41 +1782,41 @@ msgid ""
 "directory"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2630
+#: src/debug/client/cap_remotegui.py:2757
 msgid "Forward X11"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2632
+#: src/debug/client/cap_remotegui.py:2759
 msgid ""
 "Enable this to forward X11 connections from the remote host to the local "
 "host."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2638
+#: src/debug/client/cap_remotegui.py:2765
 #, fuzzy
 msgid "SSH Port"
 msgstr "Puerto"
 
-#: src/debug/client/cap_remotegui.py:2640
+#: src/debug/client/cap_remotegui.py:2767
 msgid ""
 "The TCP/IP port to use for SSH.  If unspecified, the default port (22) will "
 "be used."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2642
+#: src/debug/client/cap_remotegui.py:2769
 msgid "Use Default (22)"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2643
-#: src/debug/client/cap_remotegui.py:2665
+#: src/debug/client/cap_remotegui.py:2770
+#: src/debug/client/cap_remotegui.py:2792
 msgid "Use specified port:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2647
+#: src/debug/client/cap_remotegui.py:2774
 msgid "Private Key"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2649
+#: src/debug/client/cap_remotegui.py:2776
 msgid ""
 "The private key file to use for SSH into this host.  This must match the key "
 "format for your SSH implementation (OpenSSH or PuTTY).  If unspecified, the "
@@ -1753,34 +1824,34 @@ msgid ""
 "pageant for PuTTY)."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2653
+#: src/debug/client/cap_remotegui.py:2780
 msgid "Use SSH User Agent"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2654
+#: src/debug/client/cap_remotegui.py:2781
 msgid "Use private key file:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2658
+#: src/debug/client/cap_remotegui.py:2785
 msgid "Remote Agent Port"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2660
+#: src/debug/client/cap_remotegui.py:2787
 msgid ""
 "The TCP/IP port to use for the remote agent, on the remote end of the SSH "
 "tunnel.  If unspecified, a random port will be used but availability of that "
 "port is not guaranteed."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2664
+#: src/debug/client/cap_remotegui.py:2791
 msgid "Use Random Port"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2669
+#: src/debug/client/cap_remotegui.py:2796
 msgid "Remote Debug Ports"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2671
+#: src/debug/client/cap_remotegui.py:2798
 msgid ""
 "The lowest TCP/IP port to use for the debugger, on the remote end of the SSH "
 "tunnel.  If unspecified, a random port will be used but availability of that "
@@ -1788,42 +1859,42 @@ msgid ""
 "used.  One port is consumed for each active debug process and Python Shell."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2677
+#: src/debug/client/cap_remotegui.py:2804
 msgid "Use Random Ports"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2678
+#: src/debug/client/cap_remotegui.py:2805
 msgid "Start with this port:"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2682
+#: src/debug/client/cap_remotegui.py:2809
 #, fuzzy
 msgid "File Encoding"
 msgstr "C_onfigurar..."
 
-#: src/debug/client/cap_remotegui.py:2683
+#: src/debug/client/cap_remotegui.py:2810
 msgid "The default encoding to use for files on the remote host."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2689
+#: src/debug/client/cap_remotegui.py:2816
 msgid "I/O Encoding"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2690
+#: src/debug/client/cap_remotegui.py:2817
 msgid ""
 "The encoding to use for I/O when debugging or executing code on the remote "
 "host."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2693
+#: src/debug/client/cap_remotegui.py:2820
 msgid "Show I/O Encoding Preference"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2699
+#: src/debug/client/cap_remotegui.py:2826
 msgid "Use SSH Tunnel for username@localhost"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2701
+#: src/debug/client/cap_remotegui.py:2828
 msgid ""
 "Whether to use an SSH tunnel when connecting to the local host under a "
 "different user name.  This should be disabled when connecting to another "
@@ -1831,11 +1902,11 @@ msgid ""
 "like Vagrant."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2709
+#: src/debug/client/cap_remotegui.py:2836
 msgid "2FA Card Selector"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2711
+#: src/debug/client/cap_remotegui.py:2838
 msgid ""
 "Card selector or other string to send to SSH at startup.  This is stored in "
 "plain text in the remote host configuration so should not be used for "
@@ -1844,297 +1915,299 @@ msgid ""
 "OpenSSH and not PuTTY."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2786
+#: src/debug/client/cap_remotegui.py:2930
 msgid "You must specify an Identifier"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2788
+#: src/debug/client/cap_remotegui.py:2932
 msgid "Identifier 'localhost' is a reserved name"
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2798
+#: src/debug/client/cap_remotegui.py:2942
 msgid "You must specify the remote host name or IP address."
 msgstr ""
 
-#: src/debug/client/cap_remotegui.py:2803
+#: src/debug/client/cap_remotegui.py:2947
 msgid "The private key file %s does not exist"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:47
+#: src/debug/client/cap_watch.py:49
 msgid "Cannot evaluate: no debug program"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:49
+#: src/debug/client/cap_watch.py:51
 msgid "Cannot evaluate: debug program is running"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:51
+#: src/debug/client/cap_watch.py:53
 msgid "Right-click for option menu"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:53
+#: src/debug/client/cap_watch.py:55
 msgid "Cannot evaluate: debugger not ready"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:55
+#: src/debug/client/cap_watch.py:57
 msgid "Cannot evaluate: unknown or invalid debug mode"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:82
+#: src/debug/client/cap_watch.py:84
 msgid "Watch"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:87
+#: src/debug/client/cap_watch.py:89
 msgid "Watch Debug Data Values and Expressions"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:108
+#: src/debug/client/cap_watch.py:110
 msgid "No reference value selected"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:114
+#: src/debug/client/cap_watch.py:116
 msgid "No value found"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:120
+#: src/debug/client/cap_watch.py:122
 msgid "No reference to track"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:131
+#: src/debug/client/cap_watch.py:133
 msgid "No parent reference to track"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:134
+#: src/debug/client/cap_watch.py:136
 msgid "No parent found"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:137
+#: src/debug/client/cap_watch.py:139
 msgid "No parent value found"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:150
+#: src/debug/client/cap_watch.py:152
 msgid "No symbolic path found"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:166
+#: src/debug/client/cap_watch.py:168
 msgid "Value not in module scope"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:190
+#: src/debug/client/cap_watch.py:192
 msgid "Invalid watch style"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:212 src/debug/client/cap_watch.py:494
-#: src/debug/client/cap_watch.py:584 src/debug/client/varframe.py:145
-#: src/debug/client/varframe.py:157 src/debug/client/vartree.py:232
-#: src/debug/client/varutils.py:1081
+#: src/debug/client/cap_watch.py:214 src/debug/client/cap_watch.py:497
+#: src/debug/client/cap_watch.py:587 src/debug/client/varframe.py:147
+#: src/debug/client/varframe.py:159 src/debug/client/vartree.py:235
+#: src/debug/client/varutils.py:1086
 msgid "Value"
 msgstr "Valor"
 
-#: src/debug/client/cap_watch.py:212 src/debug/client/vartree.py:232
-#: src/debug/client/varutils.py:1081
+#: src/debug/client/cap_watch.py:214 src/debug/client/vartree.py:235
+#: src/debug/client/varutils.py:1086
 msgid "Variable"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:329
+#: src/debug/client/cap_watch.py:331
 msgid "Watch tool tree state"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:339 src/debug/client/cap_watch.py:377
+#: src/debug/client/cap_watch.py:341 src/debug/client/cap_watch.py:379
 msgid "Watch tool state"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:362
+#: src/debug/client/cap_watch.py:364
 msgid "Debug %s watch on %s"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:364
+#: src/debug/client/cap_watch.py:366
 msgid "Debug %s watch on %s: %s"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:374
+#: src/debug/client/cap_watch.py:376
 msgid "Debug watch tree state"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:485
-msgid "Add Expression"
-msgstr "Agregar expresión"
-
-#: src/debug/client/cap_watch.py:487
-msgid "Clear Selected"
+#: src/debug/client/cap_watch.py:476
+msgid "Show Watch Tool Documentation"
 msgstr ""
 
 #: src/debug/client/cap_watch.py:488
-msgid "Clear All"
-msgstr "Limpiar Todo"
+msgid "Add Expression"
+msgstr "Agregar expresión"
 
 #: src/debug/client/cap_watch.py:490
-msgid "Use Tree View"
+msgid "Clear Selected"
 msgstr ""
 
 #: src/debug/client/cap_watch.py:491
-msgid "Use Combo View"
+msgid "Clear All"
+msgstr "Limpiar Todo"
+
+#: src/debug/client/cap_watch.py:493
+msgid "Use Tree View"
 msgstr ""
 
 #: src/debug/client/cap_watch.py:494
+msgid "Use Combo View"
+msgstr ""
+
+#: src/debug/client/cap_watch.py:497
 msgid "Watching"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:542
+#: src/debug/client/cap_watch.py:545
 msgid ""
 "Cannot edit sub-value name::Only top-level watch point names can be edited"
 msgstr ""
 
-#: src/debug/client/cap_watch.py:547
+#: src/debug/client/cap_watch.py:550
 msgid "Cannot edit watchpoint name::Only expressions can be edited"
 msgstr ""
 
-#: src/debug/client/debugio.py:358
+#: src/debug/client/debugio.py:369
 msgid "Debug I/O"
 msgstr ""
 
-#: src/debug/client/debugio.py:363
+#: src/debug/client/debugio.py:374
 msgid "Debug Process I/O"
 msgstr ""
 
-#: src/debug/client/debugio.py:608
+#: src/debug/client/debugio.py:622
 msgid "Close current buffer"
 msgstr ""
 
-#: src/debug/client/debugio.py:821 src/debug/client/debugio.py:833
-#: src/debug/client/stackpanel.py:132 src/debug/client/varutils.py:38
-#: src/debug/client/varutils.py:1030
+#: src/debug/client/debugio.py:862 src/debug/client/debugio.py:871
+#: src/debug/client/stackpanel.py:135 src/debug/client/varutils.py:40
+#: src/debug/client/varutils.py:1035
 msgid "No debug process"
 msgstr ""
 
-#: src/debug/client/debugio.py:824
+#: src/debug/client/debugio.py:865
 msgid "Debug process terminated"
 msgstr ""
 
-#: src/debug/client/debugio.py:827
-msgid ""
-"Redirected I/O is disabled on Windows 98 & ME; See external console for "
-"debug I/O"
-msgstr ""
-
-#: src/debug/client/debugio.py:835
+#: src/debug/client/debugio.py:873
 msgid "Debug I/O appears in context where process was launched"
 msgstr ""
 
-#: src/debug/client/debugio.py:838
+#: src/debug/client/debugio.py:876
 msgid "See external console for debug I/O"
 msgstr ""
 
-#: src/debug/client/debugio.py:842
+#: src/debug/client/debugio.py:880
 msgid "Debug I/O (stdin, stdout, stderr) appears below"
 msgstr ""
 
-#: src/debug/client/debugio.py:901
+#: src/debug/client/debugio.py:941
 msgid "_Auto-Clear When Debug Starts"
 msgstr ""
 
-#: src/debug/client/debugio.py:905
+#: src/debug/client/debugio.py:945
 msgid "_Never Auto-Show"
 msgstr ""
 
-#: src/debug/client/debugio.py:906
+#: src/debug/client/debugio.py:946
 msgid "Al_ways Auto-Show on Output"
 msgstr ""
 
-#: src/debug/client/debugio.py:907
+#: src/debug/client/debugio.py:947
 msgid "Auto-Show on _First Output"
 msgstr ""
 
-#: src/debug/client/debugio.py:911
+#: src/debug/client/debugio.py:951
 msgid "Retain _History"
 msgstr ""
 
-#: src/debug/client/debugio.py:912
+#: src/debug/client/debugio.py:952
 msgid "Show _Child Processes"
 msgstr ""
 
-#: src/debug/client/debugio.py:916
+#: src/debug/client/debugio.py:957
 msgid "Configure _External Console..."
 msgstr ""
 
-#: src/debug/client/debugio.py:917
+#: src/debug/client/debugio.py:958
 #, fuzzy
 msgid "Configure Enco_ding..."
 msgstr "C_onfigurar..."
 
-#: src/debug/client/excpanel.py:65
-msgid " in file {}"
+#: src/debug/client/debugio.py:963
+msgid "Show Debug I/O Documentation"
 msgstr ""
 
 #: src/debug/client/excpanel.py:68
+msgid " in file {}"
+msgstr ""
+
+#: src/debug/client/excpanel.py:71
 msgid " line {}"
 msgstr ""
 
-#: src/debug/client/excpanel.py:293
+#: src/debug/client/excpanel.py:296
 msgid "%s, prompt %i, line %s"
 msgstr ""
 
-#: src/debug/client/excpanel.py:295
+#: src/debug/client/excpanel.py:298
 msgid "<strong>\"{}\"</strong>"
 msgstr ""
 
-#: src/debug/client/excpanel.py:297
+#: src/debug/client/excpanel.py:300
 msgid "File<html>&nbsp;</html>"
 msgstr ""
 
-#: src/debug/client/excpanel.py:305
+#: src/debug/client/excpanel.py:308
 msgid "%s, line %s, in <literal>%s</literal>"
 msgstr ""
 
-#: src/debug/client/excpanel.py:324 src/debug/client/interactive.py:1565
+#: src/debug/client/excpanel.py:327 src/debug/client/interactive.py:1584
 msgid "The above exception was the direct cause of the following exception:"
 msgstr ""
 
-#: src/debug/client/excpanel.py:326 src/debug/client/interactive.py:1567
+#: src/debug/client/excpanel.py:329 src/debug/client/interactive.py:1586
 msgid "During handling of the above exception, another exception occurred:"
 msgstr ""
 
-#: src/debug/client/excpanel.py:328 src/debug/client/interactive.py:1569
+#: src/debug/client/excpanel.py:331 src/debug/client/interactive.py:1588
 msgid "During handling of the above exception, another exception was raised:"
 msgstr ""
 
-#: src/debug/client/excpanel.py:387 src/debug/client/excpanel.py:1001
+#: src/debug/client/excpanel.py:392 src/debug/client/excpanel.py:1012
 msgid "Exceptions"
 msgstr "Excepciones"
 
-#: src/debug/client/excpanel.py:392
+#: src/debug/client/excpanel.py:397
 msgid "Debug Process Exceptions"
 msgstr ""
 
-#: src/debug/client/excpanel.py:435
+#: src/debug/client/excpanel.py:440
 msgid "Move up the exception stack"
 msgstr ""
 
-#: src/debug/client/excpanel.py:438
+#: src/debug/client/excpanel.py:443
 msgid "Show innermost frame of the exception stack"
 msgstr ""
 
-#: src/debug/client/excpanel.py:441
+#: src/debug/client/excpanel.py:446
 msgid "Move down the exception stack"
 msgstr ""
 
-#: src/debug/client/excpanel.py:444
+#: src/debug/client/excpanel.py:449
 msgid "Frame Up"
 msgstr ""
 
-#: src/debug/client/excpanel.py:445
+#: src/debug/client/excpanel.py:450
 msgid "Show Position"
 msgstr ""
 
-#: src/debug/client/excpanel.py:446
+#: src/debug/client/excpanel.py:451
 msgid "Frame Down"
 msgstr ""
 
-#: src/debug/client/excpanel.py:475
+#: src/debug/client/excpanel.py:480
 msgid "_Ignore this exception location"
 msgstr ""
 
-#: src/debug/client/excpanel.py:479
+#: src/debug/client/excpanel.py:484
 msgid ""
 "Wing reports exceptions that are likely to indicate a bug in code, including "
 "some that may be handled normally outside the debugger.  Use this check box "
@@ -2145,379 +2218,397 @@ msgid ""
 "ignored."
 msgstr ""
 
-#: src/debug/client/excpanel.py:560
+#: src/debug/client/excpanel.py:565
 msgid "Copy the exception and traceback to the clipboard"
 msgstr ""
 
-#: src/debug/client/excpanel.py:561
+#: src/debug/client/excpanel.py:566
 #, fuzzy
 msgid "Copy _Traceback"
 msgstr "Copiar la traza"
 
-#: src/debug/client/excpanel.py:562
+#: src/debug/client/excpanel.py:567
 msgid ""
 "Clear this exception display to blank and remove any remaining debugger run "
 "markers from source code."
 msgstr ""
 
-#: src/debug/client/excpanel.py:576
+#: src/debug/client/excpanel.py:581
 msgid ""
 "Truncate the exception message to at most 10 lines, each with at most 1024 "
 "characters."
 msgstr ""
 
-#: src/debug/client/excpanel.py:578
+#: src/debug/client/excpanel.py:583
 msgid "_Truncate Long Summaries"
 msgstr ""
 
-#: src/debug/client/excpanel.py:586
+#: src/debug/client/excpanel.py:591
 msgid "Indicate files that are in the project in the Exception traceback"
 msgstr ""
 
-#: src/debug/client/excpanel.py:587
+#: src/debug/client/excpanel.py:592
 msgid "Indicate _Project Files"
 msgstr ""
 
-#: src/debug/client/excpanel.py:598
+#: src/debug/client/excpanel.py:603
 msgid "Clear the list of all previously ignored exceptions"
 msgstr ""
 
-#: src/debug/client/excpanel.py:599
+#: src/debug/client/excpanel.py:604
 msgid "Clear _Ignored Exceptions"
 msgstr ""
 
-#: src/debug/client/excpanel.py:604
+#: src/debug/client/excpanel.py:609
 msgid ""
 "Change between exception reporting modes and add/remove exceptions that are "
 "always reported or always ignored."
 msgstr ""
 
-#: src/debug/client/excpanel.py:606
+#: src/debug/client/excpanel.py:611
 msgid "C_onfigure..."
 msgstr "C_onfigurar..."
 
-#: src/debug/client/excpanel.py:993
+#: src/debug/client/excpanel.py:616
+msgid "Show Exceptions Documentation"
+msgstr ""
+
+#: src/debug/client/excpanel.py:1004
 msgid "Copy"
 msgstr "Copiar"
 
-#: src/debug/client/excpanel.py:994
+#: src/debug/client/excpanel.py:1005
 msgid "Clear"
 msgstr "Limpiar"
 
-#: src/debug/client/excpanel.py:1075
+#: src/debug/client/excpanel.py:1086
 msgid "Could not find file for {}, line {}"
 msgstr ""
 
-#: src/debug/client/interactive.py:181
+#: src/debug/client/interactive.py:180
 msgid "Could not start shell process"
 msgstr ""
 
-#: src/debug/client/interactive.py:181
+#: src/debug/client/interactive.py:180
 msgid "Python Shell Could Not Start"
 msgstr ""
 
-#: src/debug/client/interactive.py:193
+#: src/debug/client/interactive.py:192
 msgid "Could not create process launcher"
 msgstr ""
 
-#: src/debug/client/interactive.py:209
+#: src/debug/client/interactive.py:208
 msgid "Aborted remote inspect"
 msgstr ""
 
-#: src/debug/client/interactive.py:379
+#: src/debug/client/interactive.py:389
 msgid "(unavailable; shell was cleared)"
 msgstr ""
 
-#: src/debug/client/interactive.py:479 src/debug/client/interactive.py:1828
-#: src/debug/client/runstate.py:3247
+#: src/debug/client/interactive.py:489 src/debug/client/interactive.py:1847
+#: src/debug/client/runstate.py:3485
 msgid "Python Shell"
 msgstr ""
 
-#: src/debug/client/interactive.py:1252
+#: src/debug/client/interactive.py:1276
 msgid "Internal Wing Error -- please submit a bug report"
 msgstr "Error interno en Wing -- por favor, envíe un reporte de error"
 
-#: src/debug/client/interactive.py:1287
+#: src/debug/client/interactive.py:1306
 msgid "Restarting shell process...\n"
 msgstr ""
 
-#: src/debug/client/interactive.py:1331
+#: src/debug/client/interactive.py:1350
 msgid "Cannot execute: program is exiting"
 msgstr ""
 
-#: src/debug/client/interactive.py:1341 src/debug/client/interactive.py:1357
+#: src/debug/client/interactive.py:1360 src/debug/client/interactive.py:1376
 msgid "Executing command.  Please wait for result"
 msgstr ""
 
-#: src/debug/client/interactive.py:1347
+#: src/debug/client/interactive.py:1366
 msgid "Commands will be debugged.  Use arrow keys for history."
 msgstr ""
 
-#: src/debug/client/interactive.py:1349
+#: src/debug/client/interactive.py:1368
 msgid "Commands execute without debug.  Use arrow keys for history."
 msgstr ""
 
-#: src/debug/client/interactive.py:1366
+#: src/debug/client/interactive.py:1385
 msgid "Needs restart for Python env"
 msgstr ""
 
-#: src/debug/client/interactive.py:1401
+#: src/debug/client/interactive.py:1420
 msgid "<fragment>"
 msgstr ""
 
-#: src/debug/client/interactive.py:1571
+#: src/debug/client/interactive.py:1590
 msgid "Traceback (most recent call last):\n"
 msgstr ""
 
-#: src/debug/client/interactive.py:1578 src/debug/client/interactive.py:1587
+#: src/debug/client/interactive.py:1597 src/debug/client/interactive.py:1606
 msgid "  File \"%s\", line %s, in %s\n"
 msgstr ""
 
-#: src/debug/client/interactive.py:1582
+#: src/debug/client/interactive.py:1601
 #, fuzzy
 msgid "cleared"
 msgstr "Limpiar"
 
-#: src/debug/client/interactive.py:1583
+#: src/debug/client/interactive.py:1602
 msgid "unavailable"
 msgstr ""
 
-#: src/debug/client/interactive.py:1584
+#: src/debug/client/interactive.py:1603
 msgid "  %s, prompt %i, line %s"
 msgstr ""
 
-#: src/debug/client/interactive.py:1621
+#: src/debug/client/interactive.py:1640
 msgid "Stale Python Shell Environment"
 msgstr ""
 
-#: src/debug/client/interactive.py:1622
+#: src/debug/client/interactive.py:1641
 msgid ""
 "Warning:  The configured Python environment has changed since the Python "
 "Shell was started.  Do you want to restart it now?"
 msgstr ""
 
-#: src/debug/client/interactive.py:1631 src/debug/client/runstate.py:2918
+#: src/debug/client/interactive.py:1650 src/debug/client/runstate.py:3154
 msgid "_Restart"
 msgstr "_Reiniciar"
 
-#: src/debug/client/interactive.py:1730
+#: src/debug/client/interactive.py:1749
 msgid "aborted (disconnected)\n"
 msgstr ""
 
-#: src/debug/client/interactive.py:1833
+#: src/debug/client/interactive.py:1852
 msgid "Interactive Python Shell"
 msgstr ""
 
-#: src/debug/client/interactive.py:1845
+#: src/debug/client/interactive.py:1864
 msgid "Set active range of code in the editor"
 msgstr ""
 
-#: src/debug/client/interactive.py:1846
+#: src/debug/client/interactive.py:1865
 msgid "Clear active range"
 msgstr ""
 
-#: src/debug/client/interactive.py:2049
+#: src/debug/client/interactive.py:2085
 msgid "Click to enable debugging Python Shell commands"
 msgstr ""
 
-#: src/debug/client/interactive.py:2057
+#: src/debug/client/interactive.py:2093
 msgid "Click to disable debugging Python Shell commands"
 msgstr ""
 
-#: src/debug/client/interactive.py:2073
+#: src/debug/client/interactive.py:2109
 msgid "Show the active range in the editor"
 msgstr ""
 
-#: src/debug/client/interactive.py:2184
+#: src/debug/client/interactive.py:2220
 #, fuzzy
 msgid "Debug the active range"
 msgstr "Administrador de puntos de ruptura del depurador"
 
-#: src/debug/client/interactive.py:2186
+#: src/debug/client/interactive.py:2222
 msgid "Execute the active range"
 msgstr ""
 
-#: src/debug/client/interactive.py:2324
+#: src/debug/client/interactive.py:2360
 msgid ""
 "No Active Editor::Could not set an active range because there is no current "
 "editor with a Python file."
 msgstr ""
 
-#: src/debug/client/interactive.py:2408
+#: src/debug/client/interactive.py:2476
 msgid "Copy _With Prompts"
 msgstr ""
 
-#: src/debug/client/interactive.py:2414
+#: src/debug/client/interactive.py:2482
 msgid "_Goto Definition"
 msgstr "_Ir a la definición"
 
-#: src/debug/client/interactive.py:2418
+#: src/debug/client/interactive.py:2486
 msgid "Move Cursor Up (Ctrl-Up)"
 msgstr ""
 
-#: src/debug/client/interactive.py:2419
+#: src/debug/client/interactive.py:2487
 msgid "Move Cursor Down (Ctrl-Down)"
 msgstr ""
 
-#: src/debug/client/interactive.py:2420
+#: src/debug/client/interactive.py:2488
 msgid "Insert Line Break (Ctrl-Return)"
 msgstr ""
 
-#: src/debug/client/interactive.py:2472
+#: src/debug/client/interactive.py:2542
 msgid "Error: could not create process launcher"
 msgstr ""
 
-#: src/debug/client/interactive.py:2478
+#: src/debug/client/interactive.py:2548
 msgid "Error: cannot evaluate local file %s on remote host %s"
 msgstr ""
 
-#: src/debug/client/interactive.py:2480
+#: src/debug/client/interactive.py:2550
 msgid "Error: cannot evaluate remote file %s on host %s (host mismatch)"
 msgstr ""
 
-#: src/debug/client/interactive.py:2482
+#: src/debug/client/interactive.py:2552
 msgid "Error: cannot evaluate remote file %s on localhost"
 msgstr ""
 
-#: src/debug/client/interactive.py:2492
+#: src/debug/client/interactive.py:2562
 msgid "[Failed to inspect remote file; could not evaluate]\n"
 msgstr ""
 
-#: src/debug/client/interactive.py:2497
+#: src/debug/client/interactive.py:2567
 msgid "evaluate %s"
 msgstr ""
 
-#: src/debug/client/interactive.py:2619
+#: src/debug/client/interactive.py:2689
 msgid "evaluate lines %i-%i from %s"
 msgstr ""
 
-#: src/debug/client/interactive.py:2621
+#: src/debug/client/interactive.py:2691
 msgid "evaluate selection on lines %i-%i from %s"
 msgstr ""
 
-#: src/debug/client/interactive.py:2762
+#: src/debug/client/interactive.py:2838
 msgid "Set Current Directory from Active Editor"
 msgstr ""
 
-#: src/debug/client/interactive.py:2772
+#: src/debug/client/interactive.py:2848
 msgid "_Auto-restart when Switch Projects"
 msgstr ""
 
-#: src/debug/client/interactive.py:2774
+#: src/debug/client/interactive.py:2850
 msgid "Pr_ompt to Confirm Restart"
 msgstr ""
 
-#: src/debug/client/interactive.py:2783
+#: src/debug/client/interactive.py:2855
+msgid "_Use Environment"
+msgstr ""
+
+#: src/debug/client/interactive.py:2856
+msgid "Edit Environ_ment..."
+msgstr ""
+
+#: src/debug/client/interactive.py:2860
 msgid "Show Python Shell Doc_umentation"
 msgstr ""
 
-#: src/debug/client/interactive.py:2795
-msgid "Use Project Properties"
+#: src/debug/client/interactive.py:2872
+msgid "Project Properties"
 msgstr ""
 
-#: src/debug/client/interactive.py:2807
+#: src/debug/client/interactive.py:2884
 msgid "Manage Launch Configurations..."
 msgstr ""
 
-#: src/debug/client/manager.py:603
+#: src/debug/client/manager.py:650
 msgid "Disabling debug listen (too many connections)"
 msgstr ""
 
-#: src/debug/client/manager.py:769
+#: src/debug/client/manager.py:816
 msgid "Not listening (too many connections)"
 msgstr ""
 
-#: src/debug/client/manager.py:771
+#: src/debug/client/manager.py:818
 msgid "Not listening"
 msgstr ""
 
-#: src/debug/client/manager.py:778
+#: src/debug/client/manager.py:825
+msgid "All"
+msgstr ""
+
+#: src/debug/client/manager.py:826
 msgid "Allowed hosts:  "
 msgstr "Servidores permitidos:  "
 
-#: src/debug/client/manager.py:794
-msgid "(port %s)"
-msgstr ""
-
-#: src/debug/client/manager.py:800
-msgid "Listening on TCP/IP port %s"
-msgstr ""
-
-#: src/debug/client/manager.py:802
-msgid "(for child processes)"
-msgstr ""
-
-#: src/debug/client/manager.py:804
+#: src/debug/client/manager.py:852
 msgid "Listening for connections"
 msgstr ""
 
-#: src/debug/client/manager.py:807
+#: src/debug/client/manager.py:854
+msgid "(for child processes)"
+msgstr ""
+
+#: src/debug/client/manager.py:858
 msgid "Listen failed"
 msgstr ""
 
-#: src/debug/client/manager.py:811
-msgid "Initiating listen on TCP/IP port %s"
+#: src/debug/client/manager.py:860
+msgid "Initiating listen"
 msgstr ""
 
-#: src/debug/client/manager.py:813
-msgid "Listening"
+#: src/debug/client/manager.py:879
+msgid "Unauthenticated Debug Connection"
 msgstr ""
 
-#: src/debug/client/manager.py:1012
+#: src/debug/client/manager.py:880
+msgid ""
+"The debugger rejected a connection from host %s with unknown security token "
+"%s. Do you want to accept this security token in the future?"
+msgstr ""
+
+#: src/debug/client/manager.py:892
+msgid "_Accept"
+msgstr ""
+
+#: src/debug/client/manager.py:893
+msgid "_Deny"
+msgstr ""
+
+#: src/debug/client/manager.py:1114
 msgid "Could not watch value::%s"
 msgstr ""
 
-#: src/debug/client/manager.py:1072
+#: src/debug/client/manager.py:1174
 msgid "Ignored Exceptions Cleared"
 msgstr ""
 
-#: src/debug/client/manager.py:1073
+#: src/debug/client/manager.py:1175
 msgid ""
 "Previously ignored exceptions have been cleared:  %i exception(s) were "
 "removed."
 msgstr ""
 
-#: src/debug/client/manager.py:1160
+#: src/debug/client/manager.py:1262
 msgid "This process has already terminated"
 msgstr ""
 
-#: src/debug/client/manager.py:1160
+#: src/debug/client/manager.py:1262
 msgid "Unknown process (terminated)"
 msgstr ""
 
-#: src/debug/client/manager.py:1345
+#: src/debug/client/manager.py:1429
 msgid "Kill Also Associated Processes?"
 msgstr ""
 
-#: src/debug/client/manager.py:1346
+#: src/debug/client/manager.py:1430
 msgid "Select the process group members to kill "
 msgstr ""
 
-#: src/debug/client/manager.py:1353
+#: src/debug/client/manager.py:1443
 msgid "%s%s (process id %i)"
 msgstr ""
 
-#: src/debug/client/manager.py:1364
+#: src/debug/client/manager.py:1454
 msgid "_Leave Other Processes Running"
 msgstr ""
 
-#: src/debug/client/manager.py:1365
+#: src/debug/client/manager.py:1455
 msgid "Kill _Selected Processes Only"
 msgstr ""
 
-#: src/debug/client/manager.py:1366
-msgid "Kill All _Child Processes"
-msgstr ""
-
-#: src/debug/client/manager.py:1367
+#: src/debug/client/manager.py:1456
 msgid "Kill Entire Process _Group"
 msgstr ""
 
-#: src/debug/client/manager.py:1374
+#: src/debug/client/manager.py:1463
 msgid "_Always Do This Without Prompting"
 msgstr ""
 
-#: src/debug/client/manager.py:1456 src/debug/client/manager.py:1630
+#: src/debug/client/manager.py:1769
 msgid ""
 "Invalid debug.location-map preference\n"
 ":Could not match %s\n"
@@ -2525,57 +2616,57 @@ msgid ""
 "Using %s"
 msgstr ""
 
-#: src/debug/client/manager.py:1733
+#: src/debug/client/manager.py:1872
 msgid "Invalid debug.location-map preferences key: %s\n"
 msgstr ""
 
-#: src/debug/client/manager.py:1734
+#: src/debug/client/manager.py:1873
 msgid "Should be a non-empty string host name or IP address\n"
 msgstr ""
 
-#: src/debug/client/manager.py:1760
+#: src/debug/client/manager.py:1899
 msgid "Skipping invalid debug.location-map preference value: %s\n"
 msgstr ""
 
-#: src/debug/client/manager.py:1761 src/debug/client/manager.py:1787
+#: src/debug/client/manager.py:1900 src/debug/client/manager.py:1926
 msgid "Found under host name %s\n"
 msgstr ""
 
-#: src/debug/client/manager.py:1762
+#: src/debug/client/manager.py:1901
 msgid "Tuple items must be strings\n"
 msgstr ""
 
-#: src/debug/client/manager.py:1786
+#: src/debug/client/manager.py:1925
 msgid ""
 "Skipping invalid debug.location-map preference entry:\n"
 "%s\n"
 msgstr ""
 
-#: src/debug/client/manager.py:1788
+#: src/debug/client/manager.py:1927
 msgid "Should be a tuple of (remote, local) tuples"
 msgstr ""
 
-#: src/debug/client/manager.py:1905
+#: src/debug/client/manager.py:2044
 msgid ""
 "Unable to create support file for debugger.  Please check to see if your "
 "Wing settings directory exists"
 msgstr ""
 
-#: src/debug/client/manager.py:1909
+#: src/debug/client/manager.py:2048
 msgid ""
 "Unable to create %s because the disk is read-only or a directory called  %s "
 "could not be created.  You will not be able to use the debugger."
 msgstr ""
 
-#: src/debug/client/manager.py:2045
+#: src/debug/client/manager.py:2184
 msgid "Show Value _Detail"
 msgstr ""
 
-#: src/debug/client/manager.py:2066
+#: src/debug/client/manager.py:2205
 msgid "Are You Sure?"
 msgstr ""
 
-#: src/debug/client/manager.py:2067
+#: src/debug/client/manager.py:2206
 msgid ""
 "Resolving properties in Wing's debugger executes user code that may make "
 "unexpected changes to runtime state, hang on lengthy computations, trigger "
@@ -2583,57 +2674,57 @@ msgid ""
 "this change?"
 msgstr ""
 
-#: src/debug/client/manager.py:2084
+#: src/debug/client/manager.py:2223
 msgid "Show Detail to Side"
 msgstr ""
 
-#: src/debug/client/manager.py:2089
+#: src/debug/client/manager.py:2228
 msgid "Show _name Protected Variables"
 msgstr ""
 
-#: src/debug/client/manager.py:2092
+#: src/debug/client/manager.py:2231
 msgid "Show __name Private Variables"
 msgstr ""
 
-#: src/debug/client/manager.py:2095
+#: src/debug/client/manager.py:2234
 msgid "Show __name__ Special Variables"
 msgstr ""
 
-#: src/debug/client/manager.py:2106
+#: src/debug/client/manager.py:2245
 msgid "Show Integers as _Decimal"
 msgstr ""
 
-#: src/debug/client/manager.py:2110
+#: src/debug/client/manager.py:2249
 msgid "Show Integers as _Hex"
 msgstr ""
 
-#: src/debug/client/manager.py:2114
+#: src/debug/client/manager.py:2253
 msgid "Show Integers as _Octal"
 msgstr ""
 
-#: src/debug/client/manager.py:2121
+#: src/debug/client/manager.py:2260
 msgid "Show _Memory Addresses"
 msgstr ""
 
-#: src/debug/client/manager.py:2124
+#: src/debug/client/manager.py:2263
 msgid "Resolve _Properties"
 msgstr ""
 
-#: src/debug/client/prefs.py:28
+#: src/debug/client/prefs.py:31
 msgid ""
 "Controls whether the debugger raises source files to indicate exception "
 "locations encountered when working in the Debug Console, and other debugger "
 "tools."
 msgstr ""
 
-#: src/debug/client/prefs.py:35
+#: src/debug/client/prefs.py:38
 msgid ""
 "Controls whether or not the debugger listens for connections from an "
 "externally launched program. This should be enabled when the debug program "
 "is not launched by the IDE."
 msgstr ""
 
-#: src/debug/client/prefs.py:44
+#: src/debug/client/prefs.py:47
 msgid ""
 "Sets which hosts are allowed to connect to the debugger when it is listening "
 "for externally launched programs. Host names, specific IP numbers, or IP "
@@ -2642,7 +2733,7 @@ msgid ""
 "when debug is controlled by a remote host configuration."
 msgstr ""
 
-#: src/debug/client/prefs.py:59
+#: src/debug/client/prefs.py:62
 msgid ""
 "Defines a mapping between the remote and local locations of files for host-"
 "to-host debugging.  This is used only for manual remote debug configuration "
@@ -2654,27 +2745,35 @@ msgid ""
 "in use and does not itself transfer the files."
 msgstr ""
 
-#: src/debug/client/prefs.py:72
+#: src/debug/client/prefs.py:75
 msgid "File Mappings"
 msgstr ""
 
-#: src/debug/client/prefs.py:72
+#: src/debug/client/prefs.py:75
 msgid "Remote IP Address"
 msgstr "Dirección IP remota"
 
-#: src/debug/client/prefs.py:73
+#: src/debug/client/prefs.py:76
 msgid "Same as localhost"
 msgstr ""
 
-#: src/debug/client/prefs.py:73
+#: src/debug/client/prefs.py:76
 msgid "Specify mapping"
 msgstr ""
 
-#: src/debug/client/prefs.py:74
+#: src/debug/client/prefs.py:77
 msgid "Local"
 msgstr "Local"
 
-#: src/debug/client/prefs.py:85
+#: src/debug/client/prefs.py:82
+msgid ""
+"Controls whether to build an inferred location map from file digest matches "
+"that are found locally when debugging files on a remote host.  This allows "
+"the debugger to find files that are not in the project and were not found to "
+"be imported by static analysis, or that are still waiting to be scanned."
+msgstr ""
+
+#: src/debug/client/prefs.py:95
 msgid ""
 "Controls how Wing reports exceptions that are raised by your debug process.  "
 "By default, Wing shows exceptions at the time that the exception traceback "
@@ -2689,25 +2788,25 @@ msgid ""
 "that case, we recommend using When Printed exception reporting mode."
 msgstr ""
 
-#: src/debug/client/prefs.py:102
+#: src/debug/client/prefs.py:112
 msgid "When Printed (Default)"
 msgstr ""
 
-#: src/debug/client/prefs.py:103
+#: src/debug/client/prefs.py:113
 msgid "At Process Termination"
 msgstr ""
 
-#: src/debug/client/prefs.py:104
+#: src/debug/client/prefs.py:114
 msgid "Always Immediately"
 msgstr ""
 
-#: src/debug/client/prefs.py:110
+#: src/debug/client/prefs.py:120
 msgid ""
 "Controls whether to stop on exceptions logged with logging.exception if the "
 "exception mode is set to 'When Printed'"
 msgstr ""
 
-#: src/debug/client/prefs.py:117
+#: src/debug/client/prefs.py:127
 msgid ""
 "Determines the network interface on which the debugger listens for "
 "connections.  This can be a symbolic name, an IP address, or left "
@@ -2717,15 +2816,15 @@ msgid ""
 "interface (127.0.0.1)"
 msgstr ""
 
-#: src/debug/client/prefs.py:124
+#: src/debug/client/prefs.py:134
 msgid "All valid interfaces"
 msgstr ""
 
-#: src/debug/client/prefs.py:125
+#: src/debug/client/prefs.py:135
 msgid "This interface"
 msgstr ""
 
-#: src/debug/client/prefs.py:131
+#: src/debug/client/prefs.py:141
 msgid ""
 "Determines the TCP/IP port on which the IDE will listen for the connection "
 "from the debug process.  This needs to be unique for each developer working "
@@ -2735,7 +2834,7 @@ msgid ""
 "wingdbstub in the debug process."
 msgstr ""
 
-#: src/debug/client/prefs.py:144
+#: src/debug/client/prefs.py:154
 msgid ""
 "List of host/port combinations that should be included by default in the "
 "attach request list shown with Attach to Process in the Debug menu, in "
@@ -2746,18 +2845,18 @@ msgid ""
 "variable before importing wingdbstub in the debug process."
 msgstr ""
 
-#: src/debug/client/prefs.py:154
+#: src/debug/client/prefs.py:164
 msgid "IP Address"
 msgstr "Dirección IP"
 
-#: src/debug/client/prefs.py:159
+#: src/debug/client/prefs.py:169
 msgid ""
 "Enable or disable terminating debug processes that were launched from "
 "outside of the IDE.  When disabled, Wing just detaches from the process, "
 "leaving it running."
 msgstr ""
 
-#: src/debug/client/prefs.py:168
+#: src/debug/client/prefs.py:178
 msgid ""
 "Controls the amount of time that the IDE will wait for the debug process to "
 "respond before it gives up.  This protects the IDE from freezing up if your "
@@ -2767,46 +2866,50 @@ msgid ""
 "Threshold preferences)."
 msgstr ""
 
-#: src/debug/client/prefs.py:181
+#: src/debug/client/prefs.py:191
 msgid ""
-"Defines types for which values should never be probed for contents. These "
-"are types that are known to crash when the debugger probes them because they "
+"Lists types for which values should never be probed for contents. These are "
+"types that are known to crash when the debugger probes them because they "
 "contain buggy data value extraction code.  These values are instead shown as "
 "an opaque value with hex object instance id and are never accessed for "
-"runtime introspection."
+"runtime introspection.  The strings here are compared with type(value)."
+"__name__ and a value is not probed if a match is found."
 msgstr ""
 
-#: src/debug/client/prefs.py:192
-msgid "Defines types for which values are never shown by the debugger."
+#: src/debug/client/prefs.py:204
+msgid ""
+"Lists types for which values are never shown by the debugger.  The strings "
+"here are compared with type(value).__name__ and the value is omitted if a "
+"match is found."
 msgstr ""
 
-#: src/debug/client/prefs.py:203
+#: src/debug/client/prefs.py:218
 msgid ""
 "Defines variable/key names for which values are never shown by the debugger."
 msgstr ""
 
-#: src/debug/client/prefs.py:211
+#: src/debug/client/prefs.py:226
 msgid ""
 "Defines the character length threshold under which a value will always be "
 "shown on a single line, even if the value is a complex type like a list or "
 "dict."
 msgstr ""
 
-#: src/debug/client/prefs.py:220
+#: src/debug/client/prefs.py:235
 msgid ""
 "Defines the length threshold over which a list, dict, or other complex type "
 "will be considered too large to show in the debugger.  If this is set too "
 "large, the debugger will time out (see the Network Timeout preference)"
 msgstr ""
 
-#: src/debug/client/prefs.py:230
+#: src/debug/client/prefs.py:245
 msgid ""
 "Defines the length over which a string is considered too large to fetch for "
 "display in the debugger.  If this is set too large, the debugger will time "
 "out (see the Network Timeout preference)."
 msgstr ""
 
-#: src/debug/client/prefs.py:240
+#: src/debug/client/prefs.py:255
 msgid ""
 "Set this to true to have the debug server use the __members__ attribute to "
 "try to interpret otherwise opaque data values.  This is a preference because "
@@ -2815,99 +2918,99 @@ msgid ""
 "Python version 2.2."
 msgstr ""
 
-#: src/debug/client/prefs.py:252
+#: src/debug/client/prefs.py:267
 msgid ""
 "Number of seconds to wait before the debugger will stop in its own code "
 "after a pause request is received and no other Python code is reached."
 msgstr ""
 
-#: src/debug/client/prefs.py:261
+#: src/debug/client/prefs.py:276
 msgid ""
 "Sets the tracking style used when a value is double clicked in order to "
 "watch it.  Values may be tracked by symbolic name, by object reference and "
 "attribute by name, and by direct object reference."
 msgstr ""
 
-#: src/debug/client/prefs.py:267
+#: src/debug/client/prefs.py:282
 msgid "Symbolic name"
 msgstr "Nombre simbólico"
 
-#: src/debug/client/prefs.py:268
+#: src/debug/client/prefs.py:283
 msgid "Parent reference + name"
 msgstr ""
 
-#: src/debug/client/prefs.py:269
+#: src/debug/client/prefs.py:284
 msgid "Direct object reference"
 msgstr ""
 
-#: src/debug/client/prefs.py:275
+#: src/debug/client/prefs.py:290
 msgid "Search Registry for Python"
 msgstr ""
 
-#: src/debug/client/prefs.py:277
+#: src/debug/client/prefs.py:292
 msgid "Search PATH for 'python'"
 msgstr ""
 
-#: src/debug/client/prefs.py:281
+#: src/debug/client/prefs.py:296
 msgid ""
 "Sets the default Python Executable to use for debugging and source code "
 "analysis.  This can be overridden on a project by project basis in Project "
 "Properties."
 msgstr ""
 
-#: src/debug/client/prefs.py:286
+#: src/debug/client/prefs.py:301
 msgid "Specify:"
 msgstr ""
 
-#: src/debug/client/prefs.py:292
+#: src/debug/client/prefs.py:307
 msgid "Select the display style for integer values."
 msgstr ""
 
-#: src/debug/client/prefs.py:295
+#: src/debug/client/prefs.py:310
 msgid "Decimal"
 msgstr "Decimal"
 
-#: src/debug/client/prefs.py:295
+#: src/debug/client/prefs.py:310
 msgid "Hex"
 msgstr "Hexadecimal"
 
-#: src/debug/client/prefs.py:295
+#: src/debug/client/prefs.py:310
 msgid "Octal"
 msgstr "Octal"
 
-#: src/debug/client/prefs.py:300
+#: src/debug/client/prefs.py:315
 msgid ""
 "Controls whether or not time out, huge value, and error handling value "
 "errors are displayed by the debugger the first time they are encountered in "
 "each run of Wing."
 msgstr ""
 
-#: src/debug/client/prefs.py:311
+#: src/debug/client/prefs.py:326
 msgid ""
 "The color of the text highlight used for the run position during debugging"
 msgstr ""
 
-#: src/debug/client/prefs.py:319
+#: src/debug/client/prefs.py:334
 msgid ""
 "Select transparency (0-160) of the text highlight used for the run position "
 "during debugging"
 msgstr ""
 
-#: src/debug/client/prefs.py:322
+#: src/debug/client/prefs.py:337
 msgid "Opaque"
 msgstr ""
 
-#: src/debug/client/prefs.py:323
+#: src/debug/client/prefs.py:338
 msgid "Alpha:"
 msgstr "Alfa:"
 
-#: src/debug/client/prefs.py:328
+#: src/debug/client/prefs.py:343
 msgid ""
 "The color of the active range of code used for quick evaluation in the "
 "Python Shell or Debug Console."
 msgstr ""
 
-#: src/debug/client/prefs.py:334
+#: src/debug/client/prefs.py:349
 msgid ""
 "Controls where Wing ignores code inside of Python's importlib machinery when "
 "stepping through code.  When enabled, Step Into on an import statement "
@@ -2916,7 +3019,7 @@ msgid ""
 "imported), and Step Out will skip over frames in importlib."
 msgstr ""
 
-#: src/debug/client/prefs.py:344
+#: src/debug/client/prefs.py:359
 msgid ""
 "Whether sys.stdin should be set a wrapper object for user input in the "
 "program being debugged.  The wrapper allows debug commands, such as pause, "
@@ -2930,7 +3033,7 @@ msgid ""
 "still appear in the Debug Console as always)."
 msgstr ""
 
-#: src/debug/client/prefs.py:358
+#: src/debug/client/prefs.py:373
 msgid ""
 "This is used to obtain verbose information about debugger internals in cases "
 "where you are having problems getting debugging working. The resulting log "
@@ -2939,30 +3042,30 @@ msgid ""
 "file. When enabled, the debugger will run more slowly."
 msgstr ""
 
-#: src/debug/client/prefs.py:367 src/debug/client/prefs.py:392
+#: src/debug/client/prefs.py:382 src/debug/client/prefs.py:407
 msgid "No logging"
 msgstr "Sin registro"
 
-#: src/debug/client/prefs.py:368 src/debug/client/prefs.py:393
+#: src/debug/client/prefs.py:383 src/debug/client/prefs.py:408
 msgid "Log to sys.stderr"
 msgstr "Registrar en sys.stderr"
 
-#: src/debug/client/prefs.py:369 src/debug/client/prefs.py:394
+#: src/debug/client/prefs.py:384 src/debug/client/prefs.py:409
 msgid "Log to sys.stdout"
 msgstr ""
 
-#: src/debug/client/prefs.py:370 src/debug/client/prefs.py:395
+#: src/debug/client/prefs.py:385 src/debug/client/prefs.py:410
 msgid "Log to file:"
 msgstr ""
 
-#: src/debug/client/prefs.py:374
+#: src/debug/client/prefs.py:389
 msgid ""
 "This is used to turn on very verbose and detailed logging from the "
 "debugger.  This should only be enabled at the request of Wingware Technical "
 "Support and will drastically slow down the debugger."
 msgstr ""
 
-#: src/debug/client/prefs.py:383
+#: src/debug/client/prefs.py:398
 msgid ""
 "This is used to obtain verbose information about the Python Shell internals "
 "in cases where you are having problems getting it working.  The resulting "
@@ -2971,14 +3074,14 @@ msgid ""
 "file.  When enabled, the Python Shell will run more slowly."
 msgstr ""
 
-#: src/debug/client/prefs.py:400
+#: src/debug/client/prefs.py:415
 msgid ""
 "This is used to turn on very verbose and detailed logging from the Python "
 "Shell internals.  This should only be enabled at the request of Wingware "
 "Technical Support and will drastically slow down the Python Shell."
 msgstr ""
 
-#: src/debug/client/prefs.py:410
+#: src/debug/client/prefs.py:425
 msgid ""
 "Selects whether to use the integrated Debug I/O tool for debug process input/"
 "output or an external DOS Command prompt window when running. on Windows.  "
@@ -2986,7 +3089,7 @@ msgid ""
 "command prompt environment for cursor movement, color text, etc."
 msgstr ""
 
-#: src/debug/client/prefs.py:418
+#: src/debug/client/prefs.py:433
 msgid ""
 "Selects whether to use the integrated Debug I/O tool for debug process input/"
 "output or an external terminal window.  Use an external window if your debug "
@@ -2994,14 +3097,14 @@ msgid ""
 "movement, color text, etc."
 msgstr ""
 
-#: src/debug/client/prefs.py:424
+#: src/debug/client/prefs.py:439
 msgid ""
 "External consoles only work for locally run code.  Remote debugging always "
 "uses the Debug I/O tool.  To debug code running remotely in an external "
 "console, use wingdbstub to initiate debug."
 msgstr ""
 
-#: src/debug/client/prefs.py:436
+#: src/debug/client/prefs.py:451
 msgid ""
 "Determines whether to leave up the console after normal program exit, or to "
 "close the console right away in all cases.  This is only relevant when "
@@ -3009,7 +3112,7 @@ msgid ""
 "Debug I/O tool."
 msgstr ""
 
-#: src/debug/client/prefs.py:455
+#: src/debug/client/prefs.py:470
 msgid ""
 "A list of the terminal programs that are used with debug processes when "
 "running with an external console.  Each is tried in turn until one is found "
@@ -3023,97 +3126,97 @@ msgid ""
 "file before starting the debugger."
 msgstr ""
 
-#: src/debug/client/prefs.py:472
+#: src/debug/client/prefs.py:487
 msgid "Enables line wrapping in the integrated Debug I/O tool."
 msgstr ""
 
-#: src/debug/client/prefs.py:479
+#: src/debug/client/prefs.py:494
 msgid "Enables line wrapping in the Python Shell."
 msgstr ""
 
-#: src/debug/client/prefs.py:486
+#: src/debug/client/prefs.py:501
 msgid "Enables line wrapping in the Debug Console."
 msgstr ""
 
-#: src/debug/client/prefs.py:493
+#: src/debug/client/prefs.py:508
 msgid ""
 "Enable to filter shell history traversal when something is entered prior to "
 "starting traversal.  When enabled, Wing will only show history items "
 "starting with the text between the start of the current item and the caret."
 msgstr ""
 
-#: src/debug/client/prefs.py:501
+#: src/debug/client/prefs.py:516
 msgid ""
 "Auto-restart the Python Shell before a file is evaluated within it.  When "
 "this is disabled, be aware that previously defined symbols will linger in "
 "the Python Shell environment."
 msgstr ""
 
-#: src/debug/client/prefs.py:508
+#: src/debug/client/prefs.py:523
 msgid ""
 "Auto-restart the Python Shell when changing projects.  When this is "
 "disabled, the Python Shell will continue to use environment from the "
 "previously opened project."
 msgstr ""
 
-#: src/debug/client/prefs.py:520
+#: src/debug/client/prefs.py:535
 msgid ""
 "Evaluate whole lines from editor rather than the exact selection, when a "
 "selection from the editor is sent to the Python Shell tool."
 msgstr ""
 
-#: src/debug/client/prefs.py:526
+#: src/debug/client/prefs.py:541
 msgid ""
 "Set to False so that shells will act modal in the same way as editors when "
 "working with a modal key bindings such as that for VI.  When True, the "
 "shells always act as if in Insert mode."
 msgstr ""
 
-#: src/debug/client/prefs.py:533
+#: src/debug/client/prefs.py:548
 msgid ""
 "The number of lines after which the Python Shell will just print a summary "
 "rather than the actual lines of code pasted, dragged, or other transferred "
 "to the shell."
 msgstr ""
 
-#: src/debug/client/prefs.py:540
+#: src/debug/client/prefs.py:555
 msgid ""
 "Whether to always execute immediately after text is pasted into a shell. "
 "Note that if the number of lines exceed the pasted line threshold, the lines "
 "are immediately executed."
 msgstr ""
 
-#: src/debug/client/prefs.py:547
+#: src/debug/client/prefs.py:562
 msgid ""
 "Used internally to show information about exception handling to new users.  "
 "Once turned off, it is never turned on again"
 msgstr ""
 
-#: src/debug/client/prefs.py:553
+#: src/debug/client/prefs.py:568
 msgid ""
 "Enable to automatically clear the Debug I/O tool each time a new debug "
 "session is started"
 msgstr ""
 
-#: src/debug/client/prefs.py:559
+#: src/debug/client/prefs.py:574
 msgid "Never Auto-Show"
 msgstr ""
 
-#: src/debug/client/prefs.py:560
+#: src/debug/client/prefs.py:575
 msgid "Auto-Show on First Output"
 msgstr ""
 
-#: src/debug/client/prefs.py:561
+#: src/debug/client/prefs.py:576
 msgid "Always Auto-Show on Output"
 msgstr ""
 
-#: src/debug/client/prefs.py:565
+#: src/debug/client/prefs.py:580
 msgid ""
 "Controls whether and when to automatically show the Debug I/O tool when it "
 "receives output."
 msgstr ""
 
-#: src/debug/client/prefs.py:570
+#: src/debug/client/prefs.py:585
 msgid ""
 "Names of builtin exceptions to never report, even if the exception is not "
 "handled.  This list takes precedence over the Always Report preference and "
@@ -3121,26 +3224,26 @@ msgid ""
 "Immediately."
 msgstr ""
 
-#: src/debug/client/prefs.py:577
+#: src/debug/client/prefs.py:592
 msgid ""
 "Names of builtin exceptions to (nearly) always report.  These exceptions are "
 "not reported only if they are explicitly caught by the specific subclass in "
 "the same frame in which they are raised.  "
 msgstr ""
 
-#: src/debug/client/prefs.py:585 src/debug/client/prefs.py:603
+#: src/debug/client/prefs.py:600 src/debug/client/prefs.py:618
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: src/debug/client/prefs.py:586
+#: src/debug/client/prefs.py:601
 msgid "Symbols Only"
 msgstr ""
 
-#: src/debug/client/prefs.py:587
+#: src/debug/client/prefs.py:602
 msgid "All (Use with Caution!)"
 msgstr ""
 
-#: src/debug/client/prefs.py:591
+#: src/debug/client/prefs.py:606
 msgid ""
 "Controls whether debug values are shown when the mouse hovers over a "
 "selection in the editor.  This may be disabled, enabled for symbols (like x."
@@ -3150,13 +3253,13 @@ msgid ""
 "state or even making unintended database or disk accesses!"
 msgstr ""
 
-#: src/debug/client/prefs.py:608
+#: src/debug/client/prefs.py:623
 msgid ""
 "Enable to display debug data values for any symbol on the editor when the "
 "mouse cursor hovers over it."
 msgstr ""
 
-#: src/debug/client/prefs.py:614
+#: src/debug/client/prefs.py:629
 msgid ""
 "Set to introspect live Python runtimes for information displayed in "
 "autocompletion, the Source Assistant, and debug data value tooltips.  "
@@ -3164,7 +3267,7 @@ msgid ""
 "stopped at an exception or breakpoint."
 msgstr ""
 
-#: src/debug/client/prefs.py:623
+#: src/debug/client/prefs.py:638
 msgid ""
 "Set to show property values in the debug data views.  This should be used "
 "with caution.  It enables invocation of the fget() method on the property, "
@@ -3173,7 +3276,7 @@ msgid ""
 "or  crash on buggy user code while debug data is being displayed in the IDE."
 msgstr ""
 
-#: src/debug/client/prefs.py:633
+#: src/debug/client/prefs.py:648
 msgid ""
 "Enable to allow Python code and other dynamic calls to be invoked while "
 "inspecting data in the debugger, for display in any part of the IDE's user "
@@ -3182,196 +3285,148 @@ msgid ""
 "hang on lengthy computations, deadlock threads, or crash in buggy code."
 msgstr ""
 
-#: src/debug/client/prefs.py:644
+#: src/debug/client/prefs.py:659
 msgid ""
 "Allow __repr__ methods implemented in Python to be invoked. Disable this if "
 "the __repr__ methods take too long to complete or fail due to other bugs."
 msgstr ""
 
-#: src/debug/client/prefs.py:651
+#: src/debug/client/prefs.py:666
 msgid ""
 "Whether to inspect base classes for class attributes.  Disable this to work "
 "around crashing in packages such as openerp and odoo."
 msgstr ""
 
-#: src/debug/client/prefs.py:658
+#: src/debug/client/prefs.py:673
 msgid ""
 "Enable to maintain a history of Debug I/O, up to the number configured in "
 "the Files > Max Recent Items preference."
 msgstr ""
 
-#: src/debug/client/prefs.py:667
+#: src/debug/client/prefs.py:682
 msgid "Enable to include child processes in the process selector popup."
 msgstr ""
 
-#: src/debug/client/prefs.py:682
+#: src/debug/client/prefs.py:697
 msgid "Console default (%s)"
 msgstr ""
 
-#: src/debug/client/prefs.py:687
+#: src/debug/client/prefs.py:702
 msgid "Encoding of input/output in the Debug I/O panel"
 msgstr ""
 
-#: src/debug/client/prefs.py:694
+#: src/debug/client/prefs.py:709
 msgid "Always"
 msgstr ""
 
-#: src/debug/client/prefs.py:695
+#: src/debug/client/prefs.py:710
 msgid "Only if Single-Threaded"
 msgstr ""
 
-#: src/debug/client/prefs.py:696 src/debug/client/prefs.py:766
+#: src/debug/client/prefs.py:711 src/debug/client/prefs.py:781
 msgid "Never"
 msgstr ""
 
-#: src/debug/client/prefs.py:700
+#: src/debug/client/prefs.py:715
 msgid ""
 "Controls when the debugger periodically flushes I/O sent to sys.stdout and "
 "sys.stderr.  Doing so may deadlock in some code. Not doing so may not "
 "display text that has been output without newline."
 msgstr ""
 
-#: src/debug/client/prefs.py:710
+#: src/debug/client/prefs.py:725
 msgid "Use default stdin / stdout encoding"
 msgstr ""
 
-#: src/debug/client/prefs.py:714
+#: src/debug/client/prefs.py:729
 msgid ""
 "Encoding of input/output in the integrated Python Shell and Debug Console"
 msgstr ""
 
-#: src/debug/client/prefs.py:716
+#: src/debug/client/prefs.py:731
 msgid "Encoding of input/output in the integrated Python Shell"
 msgstr ""
 
-#: src/debug/client/prefs.py:730
+#: src/debug/client/prefs.py:745
 msgid ""
 "Enable to display a dialog when the Python Shell state no longer matches the "
 "configured Python Executable and/or Python Path."
 msgstr ""
 
-#: src/debug/client/prefs.py:736
+#: src/debug/client/prefs.py:751
 msgid ""
 "Enable to use pprint.pprint to display values in the Python Shell and Debug "
 "Console."
 msgstr ""
 
-#: src/debug/client/prefs.py:743
+#: src/debug/client/prefs.py:758
 msgid ""
 "Enable to set current directory in the Python Shell to the directory of the "
 "active editor."
 msgstr ""
 
-#: src/debug/client/prefs.py:749
+#: src/debug/client/prefs.py:764
 msgid ""
 "Selects the file to use for storing and retrieving shared launch "
 "configurations. By default the file 'launch' in the user settings directory "
 "is used."
 msgstr ""
 
-#: src/debug/client/prefs.py:754
+#: src/debug/client/prefs.py:769
 msgid "Default"
 msgstr ""
 
-#: src/debug/client/prefs.py:755
+#: src/debug/client/prefs.py:770
 msgid "File:"
 msgstr ""
 
-#: src/debug/client/prefs.py:760
+#: src/debug/client/prefs.py:775
 msgid ""
 "Enable to indicate projects files in the the debug stack, in the stack "
 "selector, Stack Data, and Exception tools."
 msgstr ""
 
-#: src/debug/client/prefs.py:767
+#: src/debug/client/prefs.py:782
 msgid "According to File Properties"
 msgstr ""
 
-#: src/debug/client/prefs.py:771
+#: src/debug/client/prefs.py:786
 msgid ""
 "Controls whether the Debug Args dialog is shown before each debug run:  "
 "Either never show the dialog or show it only if 'Show this dialog before "
 "each run' is checked in the file's properties (this is the default)."
 msgstr ""
 
-#: src/debug/client/prefs.py:780
+#: src/debug/client/prefs.py:795
 msgid "Prompt for Action"
 msgstr ""
 
-#: src/debug/client/prefs.py:781
+#: src/debug/client/prefs.py:796
 #, fuzzy
 msgid "Cancel Debug"
 msgstr "Cancelar"
 
-#: src/debug/client/prefs.py:782
+#: src/debug/client/prefs.py:797
 msgid "Debug Anyway"
 msgstr ""
 
-#: src/debug/client/prefs.py:785
+#: src/debug/client/prefs.py:800
 msgid "Controls whether to start debugging if the defined build process fails"
 msgstr ""
 
-#: src/debug/client/prefs.py:792
-msgid ""
-"Enable multi-process debugging.  When disabled, Wing will only accept one "
-"debug connection at a time."
-msgstr ""
-
-#: src/debug/client/prefs.py:797
-msgid ""
-"Maximum number of debug processes that can connect to Wing at once.  After "
-"the limit is reached, Wing accepts no additional connections until some "
-"processes detach or exit."
-msgstr ""
-
-#: src/debug/client/prefs.py:803
-msgid ""
-"Enable debugging sub-processes.  When disabled, Wing will only debug the "
-"initially launched parent process."
-msgstr ""
-
-#: src/debug/client/prefs.py:808
-msgid ""
-"Enable replacement of sys.executable so that processes launched using that "
-"value will be debugged.  This must be enabled on Windows in order to debug "
-"child processes created with the multiprocessing module."
-msgstr ""
-
-#: src/debug/client/prefs.py:814
-msgid "Switch Only if No Active Debug Process"
-msgstr ""
-
-#: src/debug/client/prefs.py:815
-msgid "Switch to Most Recently Launched Process Group"
-msgstr ""
-
-#: src/debug/client/prefs.py:816
-msgid "Always Switch"
-msgstr ""
-
-#: src/debug/client/prefs.py:819
-msgid ""
-"When to automatically switch the currently active debug process to a process "
-"that reaches a breakpoint or exception."
-msgstr ""
-
-#: src/debug/client/prefs.py:825
+#: src/debug/client/prefs.py:806
 msgid "Leave Other Processes Running"
 msgstr ""
 
-#: src/debug/client/prefs.py:826
-msgid "Kill Child Processes with Parent"
-msgstr ""
-
-#: src/debug/client/prefs.py:827
+#: src/debug/client/prefs.py:808
 msgid "Kill Entire Process Group"
 msgstr ""
 
-#: src/debug/client/prefs.py:828
+#: src/debug/client/prefs.py:809
 msgid "Prompt For Action When a Process is Killed"
 msgstr ""
 
-#: src/debug/client/prefs.py:831
+#: src/debug/client/prefs.py:812
 msgid ""
 "How to terminate debug when a parent process or child process is "
 "terminated.  A process group includes any all parent and child processes, up "
@@ -3379,44 +3434,95 @@ msgid ""
 "other descendent process."
 msgstr ""
 
-#: src/debug/client/prefs.py:839
+#: src/debug/client/prefs.py:822
+msgid ""
+"Enable multi-process debugging.  When disabled, Wing will only accept one "
+"debug connection at a time."
+msgstr ""
+
+#: src/debug/client/prefs.py:827
+msgid ""
+"Maximum number of debug processes that can connect to Wing at once.  After "
+"the limit is reached, Wing accepts no additional connections until some "
+"processes detach or exit."
+msgstr ""
+
+#: src/debug/client/prefs.py:833
+msgid ""
+"Enable debugging sub-processes.  When disabled, Wing will only debug the "
+"initially launched parent process."
+msgstr ""
+
+#: src/debug/client/prefs.py:838
+msgid ""
+"Enable replacement of sys.executable so that processes launched using that "
+"value will be debugged.  This must be enabled on Windows in order to debug "
+"child processes created with the multiprocessing module."
+msgstr ""
+
+#: src/debug/client/prefs.py:844
+msgid "Switch Only if No Active Debug Process"
+msgstr ""
+
+#: src/debug/client/prefs.py:845
+msgid "Switch to Most Recently Launched Process Group"
+msgstr ""
+
+#: src/debug/client/prefs.py:846
+msgid "Always Switch"
+msgstr ""
+
+#: src/debug/client/prefs.py:849
+msgid ""
+"When to automatically switch the currently active debug process to a process "
+"that reaches a breakpoint or exception."
+msgstr ""
+
+#: src/debug/client/prefs.py:855
 msgid ""
 "Enable debugging more than one unit test at once.  When enabled, the Debug/"
 "Abort button in the Testing tool alters according to which test is selected."
 msgstr ""
 
-#: src/debug/client/prefs.py:845
+#: src/debug/client/prefs.py:861
 msgid ""
 "Enable debugging more than one instance of a named entry point.  When "
 "disabled, any existing debug process for a named entry point will be "
 "terminated when it is debugged."
 msgstr ""
 
-#: src/debug/client/prefs.py:853
+#: src/debug/client/prefs.py:869
 msgid ""
 "Whether to prompt when restarting the Python Shell as a result of restarting "
 "debugging."
 msgstr ""
 
-#: src/debug/client/prefs.py:859
+#: src/debug/client/prefs.py:875
 msgid "Enables debugging code executed in the Python Shell or Debug Console."
 msgstr ""
 
-#: src/debug/client/prefs.py:868
+#: src/debug/client/prefs.py:884
 msgid "Enables recursive debugging in the Python Shell and Debug Console."
 msgstr ""
 
-#: src/debug/client/prefs.py:876
+#: src/debug/client/prefs.py:891
+msgid ""
+"Whether to automatically move breakpoints to a valid position when they are "
+"placed on a line that will not be reached by the Python interpreter, such as "
+"within certain types of multi-line expressions."
+msgstr ""
+
+#: src/debug/client/prefs.py:898
 msgid ""
 "Whether to show a dialog when a breakpoint is set on a different line than "
 "the selected on."
 msgstr ""
 
-#: src/debug/client/prefs.py:884
+#: src/debug/client/prefs.py:906
 msgid "Whether to animate debug data tips shown when Shift-Space is pressed."
 msgstr ""
 
-#: src/debug/client/prefs.py:892
+#: src/debug/client/prefs.py:914
 msgid ""
 "Controls whether the debugger will close the connection after any data "
 "handling timeout.  This reduces the potential for hanging on data handling "
@@ -3425,198 +3531,228 @@ msgid ""
 "complete."
 msgstr ""
 
-#: src/debug/client/prefs.py:903
+#: src/debug/client/prefs.py:925
 msgid ""
 "Controls whether the debugger shows protected variables (with one "
 "leadingunderscore) in the Stack Data view."
 msgstr ""
 
-#: src/debug/client/prefs.py:911
+#: src/debug/client/prefs.py:933
 msgid ""
 "Controls whether the debugger shows private variables (with two "
 "leadingunderscores) in the Stack Data view."
 msgstr ""
 
-#: src/debug/client/prefs.py:919
+#: src/debug/client/prefs.py:941
 msgid ""
 "Controls whether the debugger shows special variables (with two leadingand "
 "two trailing underscores) in the Stack Data view."
 msgstr ""
 
-#: src/debug/client/prefs.py:927
+#: src/debug/client/prefs.py:949
 msgid ""
 "Controls whether the debugger shows memory addresses as part of the display "
 "of object instances."
 msgstr ""
 
-#: src/debug/client/prefs.py:935
+#: src/debug/client/prefs.py:957
 msgid "Controls whether the debugger shows value details in data views."
 msgstr ""
 
-#: src/debug/client/prefs.py:942
+#: src/debug/client/prefs.py:964
 msgid ""
 "Controls whether the debugger shows value details in data views verticallyor "
 "horizontally."
 msgstr ""
 
-#: src/debug/client/prefs.py:950
+#: src/debug/client/prefs.py:972
 msgid ""
 "Selects the type of search to perform in the array view of debug data: text, "
 "wildcard, or regex"
 msgstr ""
 
-#: src/debug/client/prefs.py:958
+#: src/debug/client/prefs.py:980
 msgid "Selects whether search in the array view is case sensitive"
 msgstr ""
 
-#: src/debug/client/prefs.py:965
+#: src/debug/client/prefs.py:987
 msgid ""
 "Controls whether searching in the debug array view searchs all columns or "
 "just the visible columns"
 msgstr ""
 
-#: src/debug/client/runstate.py:94
+#: src/debug/client/prefs.py:1003
+msgid ""
+"Controls whether to show a dialog when the debugger detects a remote file "
+"that matches more than one local file."
+msgstr ""
+
+#: src/debug/client/runstate.py:88
 msgid "Server not responding"
 msgstr ""
 
-#: src/debug/client/runstate.py:95
+#: src/debug/client/runstate.py:89
 msgid ""
 "The debug server has stopped responding: Network connection has been closed"
 msgstr ""
 
-#: src/debug/client/runstate.py:583
+#: src/debug/client/runstate.py:607 src/debug/client/runstate.py:636
 msgid "Could not find a file to debug"
 msgstr ""
 
-#: src/debug/client/runstate.py:583 src/debug/client/runstate.py:591
+#: src/debug/client/runstate.py:607 src/debug/client/runstate.py:658
 msgid "Nothing to debug"
 msgstr ""
 
-#: src/debug/client/runstate.py:591
+#: src/debug/client/runstate.py:616
+msgid "Could not debug remote file"
+msgstr ""
+
+#: src/debug/client/runstate.py:617
+msgid "Could not find information about remote file needed to launch it"
+msgstr ""
+
+#: src/debug/client/runstate.py:643 src/debug/client/runstate.py:870
+msgid "Could not debug unsaved file"
+msgstr ""
+
+#: src/debug/client/runstate.py:645 src/debug/client/runstate.py:647
 msgid "File does not exist: %s"
 msgstr ""
 
-#: src/debug/client/runstate.py:611 src/debug/client/runstate.py:632
+#: src/debug/client/runstate.py:653
+msgid "Name of module to run is not a valid module name"
+msgstr ""
+
+#: src/debug/client/runstate.py:688 src/debug/client/runstate.py:709
 msgid "Debugger launch cancelled"
 msgstr ""
 
-#: src/debug/client/runstate.py:624
+#: src/debug/client/runstate.py:701
 msgid "Failed to open remote file"
 msgstr ""
 
-#: src/debug/client/runstate.py:698
+#: src/debug/client/runstate.py:776
 msgid "Build Command Not Found"
 msgstr ""
 
-#: src/debug/client/runstate.py:699
+#: src/debug/client/runstate.py:777
 msgid ""
 "The build command set in file or project properties could not be found "
 "because it was removed from the OS Commands tool.  Please edit your file or "
 "project properties to correct this error.  Starting debug without build."
 msgstr ""
 
-#: src/debug/client/runstate.py:722
+#: src/debug/client/runstate.py:800
 msgid "Build Command Failed"
 msgstr ""
 
-#: src/debug/client/runstate.py:723
+#: src/debug/client/runstate.py:801
 msgid "The build command failed.  Start debugging anyway?"
 msgstr ""
 
-#: src/debug/client/runstate.py:727
+#: src/debug/client/runstate.py:805
 #, fuzzy
 msgid "_Don't ask me again"
 msgstr "No mostrar este mensaje de nuevo"
 
-#: src/debug/client/runstate.py:735
+#: src/debug/client/runstate.py:813
 msgid "_Yes"
 msgstr "_Sí"
 
-#: src/debug/client/runstate.py:736
+#: src/debug/client/runstate.py:814
 msgid "_No"
 msgstr "_No"
 
-#: src/debug/client/runstate.py:788
-msgid "Could not debug unsaved file"
-msgstr ""
-
-#: src/debug/client/runstate.py:791
+#: src/debug/client/runstate.py:873
 msgid "Could not debug %s because it does not exist."
 msgstr ""
 
-#: src/debug/client/runstate.py:792 src/debug/client/runstate.py:819
+#: src/debug/client/runstate.py:874 src/debug/client/runstate.py:905
 msgid "Could not start debug process"
 msgstr ""
 
-#: src/debug/client/runstate.py:806
+#: src/debug/client/runstate.py:888
 msgid "Could not start TCP/IP listen"
 msgstr ""
 
-#: src/debug/client/runstate.py:905
+#: src/debug/client/runstate.py:903
+msgid "Could not start Python Shell"
+msgstr ""
+
+#: src/debug/client/runstate.py:993
 msgid "Could not debug \"%s\" -- the file does not exist"
 msgstr ""
 
-#: src/debug/client/runstate.py:908
+#: src/debug/client/runstate.py:996
 msgid "Could not debug directory  \"%s\""
 msgstr ""
 
-#: src/debug/client/runstate.py:911
+#: src/debug/client/runstate.py:999
 msgid "Cannot debug main file located within a zip or egg  \"%s\""
 msgstr ""
 
-#: src/debug/client/runstate.py:970
+#: src/debug/client/runstate.py:1069
 msgid "Unexpected local launch of remote file: %s"
 msgstr ""
 
-#: src/debug/client/runstate.py:975 src/debug/client/runstate.py:1261
+#: src/debug/client/runstate.py:1074 src/debug/client/runstate.py:1408
 msgid "Configured run directory does not exist: %s"
 msgstr ""
 
-#: src/debug/client/runstate.py:1072
+#: src/debug/client/runstate.py:1121
+msgid "Could not launch Python Shell.  No python interpreter found."
+msgstr ""
+
+#: src/debug/client/runstate.py:1123
+msgid "Could not launch debugger for \"{}\".  No python interpreter found."
+msgstr ""
+
+#: src/debug/client/runstate.py:1208
 msgid ""
 "Could not launch debugger for \"%s\".  The python interpreter \"%s\" may not "
 "exist."
 msgstr ""
 
-#: src/debug/client/runstate.py:1077
+#: src/debug/client/runstate.py:1213
 msgid "Could not launch debugger for \"%s\"."
 msgstr ""
 
-#: src/debug/client/runstate.py:1124
+#: src/debug/client/runstate.py:1266
 msgid "Debug Failed - Could not establish SSH tunnel"
 msgstr ""
 
-#: src/debug/client/runstate.py:1126
+#: src/debug/client/runstate.py:1268
 msgid "Output seen:"
 msgstr ""
 
-#: src/debug/client/runstate.py:1128
+#: src/debug/client/runstate.py:1270
 msgid "No output was seen"
 msgstr ""
 
-#: src/debug/client/runstate.py:1162
+#: src/debug/client/runstate.py:1308
 msgid ""
 "Remote hosts mismatch:  Cannot use Python on host %s to run file %s - The "
 "file must be on the same host as Python."
 msgstr ""
 
-#: src/debug/client/runstate.py:1213
+#: src/debug/client/runstate.py:1360
 msgid "Remote launch failed::Failed to start Python '%s' on host %s"
 msgstr ""
 
-#: src/debug/client/runstate.py:1215
+#: src/debug/client/runstate.py:1362
 msgid "Remote launch failed::Failed to start Python on host %s"
 msgstr ""
 
-#: src/debug/client/runstate.py:1217
+#: src/debug/client/runstate.py:1364
 msgid "Received output:"
 msgstr ""
 
-#: src/debug/client/runstate.py:1240
+#: src/debug/client/runstate.py:1387
 msgid "Remote launch failed::Failed to start remote agent on host %s"
 msgstr ""
 
-#: src/debug/client/runstate.py:1278
+#: src/debug/client/runstate.py:1425
 msgid ""
 "You have specified that Wing should display a separate console for this "
 "debug process but Wing cannot find any of the configured consoles:\n"
@@ -3628,85 +3764,113 @@ msgid ""
 "External Console preference.\n"
 msgstr ""
 
-#: src/debug/client/runstate.py:1337
+#: src/debug/client/runstate.py:1484
 msgid ""
 "Could not start debugger because the filename %s cannot be encoded in the "
 "current file system encoding (%s)"
 msgstr ""
 
-#: src/debug/client/runstate.py:1699 src/debug/client/runstate.py:2895
+#: src/debug/client/runstate.py:1855 src/debug/client/runstate.py:3131
 msgid "Step Over"
 msgstr "Pasar sobre"
 
-#: src/debug/client/runstate.py:1701 src/debug/client/runstate.py:2896
+#: src/debug/client/runstate.py:1857 src/debug/client/runstate.py:3132
 #, fuzzy
 msgid "Step Over Line"
 msgstr "Pasar sobre"
 
-#: src/debug/client/runstate.py:1712 src/debug/client/runstate.py:2898
+#: src/debug/client/runstate.py:1868 src/debug/client/runstate.py:3134
 msgid "Step Into"
 msgstr "Pasar dentro"
 
-#: src/debug/client/runstate.py:1795 src/debug/client/runstate.py:1800
-#: src/debug/client/runstate.py:2899
+#: src/debug/client/runstate.py:1953 src/debug/client/runstate.py:1958
+#: src/debug/client/runstate.py:3135
 msgid "Step Out"
 msgstr "Pasar fuera"
 
-#: src/debug/client/runstate.py:1855 src/debug/client/runstate.py:2897
+#: src/debug/client/runstate.py:2013 src/debug/client/runstate.py:3133
 #, fuzzy
 msgid "Step Out To Frame"
 msgstr "Pasar fuera"
 
-#: src/debug/client/runstate.py:1933 src/debug/client/runstate.py:2900
-#: src/debug/client/runstate.py:2905
+#: src/debug/client/runstate.py:2091 src/debug/client/runstate.py:3136
+#: src/debug/client/runstate.py:3141
 msgid "Continue"
 msgstr "Continuar"
 
-#: src/debug/client/runstate.py:1940 src/debug/client/runstate.py:2902
+#: src/debug/client/runstate.py:2098 src/debug/client/runstate.py:3138
 msgid "Debug to Cursor"
 msgstr "Ejecutar hasta el cursor"
 
-#: src/debug/client/runstate.py:1947
+#: src/debug/client/runstate.py:2105
 msgid "Cannot Run To Location"
 msgstr ""
 
-#: src/debug/client/runstate.py:1948
+#: src/debug/client/runstate.py:2106
 msgid ""
 "Wing cannot run to this location because the file is not available on the "
 "remote host."
 msgstr ""
 
-#: src/debug/client/runstate.py:2323
+#: src/debug/client/runstate.py:2508
 msgid "Process %i raised an exception"
 msgstr ""
 
-#: src/debug/client/runstate.py:2324
+#: src/debug/client/runstate.py:2509
 msgid "Number of exception stacks: %i"
 msgstr ""
 
-#: src/debug/client/runstate.py:2326
+#: src/debug/client/runstate.py:2511
 msgid "Process %i reached a breakpoint or paused"
 msgstr ""
 
-#: src/debug/client/runstate.py:2468
+#: src/debug/client/runstate.py:2573
+msgid "Ambiguous Debug File"
+msgstr ""
+
+#: src/debug/client/runstate.py:2574
+msgid ""
+"Remote file %s matches multiple local files:\n"
+"\n"
+"%s\n"
+"\n"
+"The first one is being displayed.  If this the wrong file, try removing "
+"redundant copies of source from your project or define a Location Map "
+"preference for Host %s to make the mapping explicit."
+msgstr ""
+
+#: src/debug/client/runstate.py:2583
+msgid "Configure Location Map"
+msgstr ""
+
+#: src/debug/client/runstate.py:2584
+msgid "OK"
+msgstr "Aceptar"
+
+#: src/debug/client/runstate.py:2591
+#, fuzzy
+msgid "Show this warning"
+msgstr "No mostrar este mensaje de nuevo"
+
+#: src/debug/client/runstate.py:2701
 msgid " [%ld of %ld files changed since module load]"
 msgstr ""
 
-#: src/debug/client/runstate.py:2472
+#: src/debug/client/runstate.py:2705
 msgid " [%ld modules loaded]"
 msgstr ""
 
-#: src/debug/client/runstate.py:2655
+#: src/debug/client/runstate.py:2891
 msgid ""
 "You may need to configure anti-virus or security software to allow Wing to "
 "listen on TCP/IP ports."
 msgstr ""
 
-#: src/debug/client/runstate.py:2656
+#: src/debug/client/runstate.py:2892
 msgid "Debug Listen Failed"
 msgstr ""
 
-#: src/debug/client/runstate.py:2659
+#: src/debug/client/runstate.py:2895
 msgid ""
 "Debugger could not listen for connections:  Another copy of the IDE or other "
 "software may be running on the same network port (TCP/IP port %s).  This can "
@@ -3714,97 +3878,97 @@ msgid ""
 "Project Properties > Debug/Execute > Server Port."
 msgstr ""
 
-#: src/debug/client/runstate.py:2661
+#: src/debug/client/runstate.py:2897
 msgid ""
 "Listening on a random port also failed so debugging sub-processes will not "
 "work."
 msgstr ""
 
-#: src/debug/client/runstate.py:2663
+#: src/debug/client/runstate.py:2899
 msgid ""
 "Debugger could not listen for TCP/IP connections for debugging sub-processes."
 msgstr ""
 
-#: src/debug/client/runstate.py:2685
+#: src/debug/client/runstate.py:2921
 msgid "; pid=%s"
 msgstr ""
 
-#: src/debug/client/runstate.py:2687
+#: src/debug/client/runstate.py:2923
 msgid "; host=%s, pid=%s"
 msgstr ""
 
-#: src/debug/client/runstate.py:2696
+#: src/debug/client/runstate.py:2932
 #, fuzzy
 msgid "Debug process exited"
 msgstr "Pausar/Continuar el proceso de depuración"
 
-#: src/debug/client/runstate.py:2698
+#: src/debug/client/runstate.py:2934
 msgid "Debug process running"
 msgstr ""
 
-#: src/debug/client/runstate.py:2701
+#: src/debug/client/runstate.py:2937
 msgid "Debug process paused"
 msgstr ""
 
-#: src/debug/client/runstate.py:2709
+#: src/debug/client/runstate.py:2945
 msgid "Program exception"
 msgstr ""
 
-#: src/debug/client/runstate.py:2712
+#: src/debug/client/runstate.py:2948
 msgid "Connected to debug process"
 msgstr ""
 
-#: src/debug/client/runstate.py:2715
+#: src/debug/client/runstate.py:2951
 msgid "Unknown or invalid debug mode"
 msgstr ""
 
-#: src/debug/client/runstate.py:2722
+#: src/debug/client/runstate.py:2958
 msgid "terminated"
 msgstr ""
 
-#: src/debug/client/runstate.py:2725
+#: src/debug/client/runstate.py:2961
 msgid "no process"
 msgstr ""
 
-#: src/debug/client/runstate.py:2727
+#: src/debug/client/runstate.py:2963
 msgid "running"
 msgstr ""
 
-#: src/debug/client/runstate.py:2729
+#: src/debug/client/runstate.py:2965
 msgid "paused"
 msgstr ""
 
-#: src/debug/client/runstate.py:2731 src/debug/client/runstate.py:2733
+#: src/debug/client/runstate.py:2967 src/debug/client/runstate.py:2969
 msgid "listening"
 msgstr ""
 
-#: src/debug/client/runstate.py:2735
+#: src/debug/client/runstate.py:2971
 #, fuzzy
 msgid "exception"
 msgstr "Excepciones"
 
-#: src/debug/client/runstate.py:2737
+#: src/debug/client/runstate.py:2973
 #, fuzzy
 msgid "connected"
 msgstr "Conexión fallida"
 
-#: src/debug/client/runstate.py:2739
+#: src/debug/client/runstate.py:2975
 msgid "unknown mode"
 msgstr ""
 
-#: src/debug/client/runstate.py:2801
+#: src/debug/client/runstate.py:3037
 msgid " (changed on disk only)"
 msgstr ""
 
-#: src/debug/client/runstate.py:2803 src/debug/client/runstate.py:2818
+#: src/debug/client/runstate.py:3039 src/debug/client/runstate.py:3054
 msgid " (unsaved changes)"
 msgstr ""
 
-#: src/debug/client/runstate.py:2806
+#: src/debug/client/runstate.py:3042
 msgid " (open and changed on disk)"
 msgstr ""
 
-#: src/debug/client/runstate.py:2887
+#: src/debug/client/runstate.py:3123
 msgid ""
 "The following files are unsaved or do not match the code running in the "
 "debug process because they have changed in the IDE and/or on disk since they "
@@ -3813,114 +3977,114 @@ msgid ""
 "reload altered modules, you may wish to restart your debug process now."
 msgstr ""
 
-#: src/debug/client/runstate.py:2893
+#: src/debug/client/runstate.py:3129
 msgid "Files Modified"
 msgstr "Archivos odificados"
 
-#: src/debug/client/runstate.py:2895
+#: src/debug/client/runstate.py:3131
 msgid "_Step Over"
 msgstr "Pasar _Sobre"
 
-#: src/debug/client/runstate.py:2896
+#: src/debug/client/runstate.py:3132
 #, fuzzy
 msgid "_Step Over Line"
 msgstr "Pasar _Sobre"
 
-#: src/debug/client/runstate.py:2897
+#: src/debug/client/runstate.py:3133
 #, fuzzy
 msgid "_Step Out To Frame"
 msgstr "Pasar _Fuera"
 
-#: src/debug/client/runstate.py:2898
+#: src/debug/client/runstate.py:3134
 msgid "_Step Into"
 msgstr "Pasar _Dentro"
 
-#: src/debug/client/runstate.py:2899
+#: src/debug/client/runstate.py:3135
 msgid "_Step Out"
 msgstr "Pasar _Fuera"
 
-#: src/debug/client/runstate.py:2900
+#: src/debug/client/runstate.py:3136
 #, fuzzy
 msgid "Con_tinue Debug"
 msgstr "_Continuar la depuración"
 
-#: src/debug/client/runstate.py:2902
+#: src/debug/client/runstate.py:3138
 #, fuzzy
 msgid "_Debug to Cursor"
 msgstr "Ejecutar hasta el cursor"
 
-#: src/debug/client/runstate.py:2903
+#: src/debug/client/runstate.py:3139
 #, fuzzy
 msgid "Debug to Clicked"
 msgstr "Ejecutar hasta el cursor"
 
-#: src/debug/client/runstate.py:2903
+#: src/debug/client/runstate.py:3139
 #, fuzzy
 msgid "_Debug to Clicked"
 msgstr "Ejecutar hasta el cursor"
 
-#: src/debug/client/runstate.py:2906
+#: src/debug/client/runstate.py:3142
 msgid "Con_tinue Without Restart"
 msgstr ""
 
-#: src/debug/client/runstate.py:2911
+#: src/debug/client/runstate.py:3147
 msgid "Save & _Restart"
 msgstr "Guardar y _Reiniciar"
 
-#: src/debug/client/runstate.py:2913
+#: src/debug/client/runstate.py:3149
 msgid "Save & Sto_p Debugging"
 msgstr "Guardar y _Parar el depurado"
 
-#: src/debug/client/runstate.py:2914
+#: src/debug/client/runstate.py:3150
 msgid "Sa_ve & "
 msgstr ""
 
-#: src/debug/client/runstate.py:2915
+#: src/debug/client/runstate.py:3151
 msgid " Without Saving"
 msgstr "Sin guardar"
 
-#: src/debug/client/runstate.py:2920
+#: src/debug/client/runstate.py:3156
 msgid "Sto_p Debugging"
 msgstr "_Parar la depuración"
 
-#: src/debug/client/runstate.py:2923
+#: src/debug/client/runstate.py:3159
 msgid "Always _ignore module changes"
 msgstr ""
 
-#: src/debug/client/runstate.py:2926
+#: src/debug/client/runstate.py:3162
 msgid "_Auto-save before debugging"
 msgstr ""
 
-#: src/debug/client/runstate.py:3063 src/debug/client/runstate.py:3066
+#: src/debug/client/runstate.py:3299 src/debug/client/runstate.py:3302
 msgid "Failed to Start"
 msgstr "Falló al iniciar"
 
-#: src/debug/client/runstate.py:3064
+#: src/debug/client/runstate.py:3300
 msgid ""
 "Failed to start the debug the program:  Could not listen on TCP/IP port %s."
 msgstr ""
 
-#: src/debug/client/runstate.py:3067
+#: src/debug/client/runstate.py:3303
 msgid ""
 "Failed to start the debug the program:  Could not listen on TCP/IP host %s, "
 "port %s."
 msgstr ""
 
-#: src/debug/client/runstate.py:3152
+#: src/debug/client/runstate.py:3388
 msgid ""
 "The debug process never connected back to Wing:  Aborting debug session.  "
 "See Trouble-shooting Failure to Debug in the product manual."
 msgstr ""
 
-#: src/debug/client/runstate.py:3153
+#: src/debug/client/runstate.py:3389
 msgid "Connection Failed"
 msgstr "Conexión fallida"
 
-#: src/debug/client/runstate.py:3216
+#: src/debug/client/runstate.py:3458
 msgid "Protocol Mismatch"
 msgstr "Desajuste de protocolo."
 
-#: src/debug/client/runstate.py:3217
+#: src/debug/client/runstate.py:3459
 msgid ""
 "The debug server protocol version (%i) does not match IDE protocol version "
 "(%i).  Please make sure your wingdbstub.py file and debug server "
@@ -3929,36 +4093,23 @@ msgid ""
 "wingdbstub.py and set the Debugger > Listening > Server Port preference."
 msgstr ""
 
-#: src/debug/client/runstate.py:3232
-#, fuzzy
-msgid "Connection Refused"
-msgstr "Conexión fallida"
-
-#: src/debug/client/runstate.py:3233
-msgid ""
-"The debug process could not connect because it was not launched by the IDE "
-"and did not send a valid authentication token.  You may need to place a copy "
-"of %s into Wing's User Settings directory for the user running the debug "
-"process or into the same directory as wingdbstub.py"
-msgstr ""
-
-#: src/debug/client/runstate.py:3293
+#: src/debug/client/runstate.py:3532
 msgid "Couldn't initialize debug process"
 msgstr ""
 
-#: src/debug/client/runstate.py:3294
+#: src/debug/client/runstate.py:3533
 msgid "Couldn't get information from the debug process or initialize it"
 msgstr ""
 
-#: src/debug/client/runstate.py:3490
+#: src/debug/client/runstate.py:3729
 msgid "Open failed: %s is probably a binary file"
 msgstr ""
 
-#: src/debug/client/runstate.py:3834
+#: src/debug/client/runstate.py:4078
 msgid "Debug Process Exception"
 msgstr ""
 
-#: src/debug/client/runstate.py:3835
+#: src/debug/client/runstate.py:4079
 msgid ""
 "Your debug process has raised an exception.  Use the <literal>Stack Data</"
 "literal> and other debugger tools to inspect the program state.\n"
@@ -3972,212 +4123,221 @@ msgid ""
 "is a good idea to read <literal>Managing Exceptions</literal> in the manual."
 msgstr ""
 
-#: src/debug/client/runstate.py:3860
+#: src/debug/client/runstate.py:4104
 msgid "Don't show this notice again"
 msgstr "No mostrar este mensaje de nuevo"
 
-#: src/debug/client/shell.py:183
+#: src/debug/client/shell.py:184
 msgid "[omitting some output]"
 msgstr ""
 
-#: src/debug/client/shell.py:213
+#: src/debug/client/shell.py:214
 msgid "truncated"
 msgstr ""
 
-#: src/debug/client/shell.py:942
+#: src/debug/client/shell.py:943
 msgid "Save Session"
 msgstr "Guardar sesión"
 
-#: src/debug/client/shell.py:943
+#: src/debug/client/shell.py:944
 msgid "Choose file to which to save the session:"
 msgstr ""
 
-#: src/debug/client/shell.py:1243
+#: src/debug/client/shell.py:1244
 #, fuzzy
 msgid "Select _All"
 msgstr "Guardar &Todo"
 
-#: src/debug/client/shell.py:1245
+#: src/debug/client/shell.py:1246
 msgid "C_opy"
 msgstr "C_opiar"
 
-#: src/debug/client/shell.py:1246
+#: src/debug/client/shell.py:1247
 msgid "_Paste"
 msgstr "_Pegar"
 
-#: src/debug/client/shell.py:1251
+#: src/debug/client/shell.py:1252
 msgid "Print..."
 msgstr ""
 
-#: src/debug/client/shell.py:1255
+#: src/debug/client/shell.py:1256
 msgid "Send _NUL (0x00)"
 msgstr ""
 
-#: src/debug/client/shell.py:1257
+#: src/debug/client/shell.py:1258
 msgid "Send _EOF (Close Pipe)"
 msgstr ""
 
-#: src/debug/client/shell.py:1789 src/debug/client/shell.py:1806
+#: src/debug/client/shell.py:1790 src/debug/client/shell.py:1807
 msgid "Shell state for %s"
 msgstr ""
 
-#: src/debug/client/shell.py:1858
+#: src/debug/client/shell.py:1859
 msgid "Save Selection?"
 msgstr "¿Guardar la selección?"
 
-#: src/debug/client/shell.py:1859
+#: src/debug/client/shell.py:1860
 msgid "Would you like to save only the current selection?"
 msgstr ""
 
-#: src/debug/client/shell.py:1861
+#: src/debug/client/shell.py:1862
 msgid "Save _Selection"
 msgstr "Guardar selección"
 
-#: src/debug/client/shell.py:1862
+#: src/debug/client/shell.py:1863
 msgid "Save _All"
 msgstr "Guardar &Todo"
 
-#: src/debug/client/stackpanel.py:61
+#: src/debug/client/stackpanel.py:64
 msgid "Stack Data"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:66
+#: src/debug/client/stackpanel.py:69
 msgid "Debug Process Stack Data"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:163 src/debug/client/stackpanel.py:166
+#: src/debug/client/stackpanel.py:166 src/debug/client/stackpanel.py:169
 msgid "_Continue Debugging"
 msgstr "_Continuar la depuración"
 
-#: src/debug/client/stackpanel.py:164 src/debug/client/stackpanel.py:167
-#: src/debug/client/stackpanel.py:170
+#: src/debug/client/stackpanel.py:167 src/debug/client/stackpanel.py:170
+#: src/debug/client/stackpanel.py:173
 msgid "_Stop Debugging"
 msgstr "Interrumpir/detener la depuración"
 
-#: src/debug/client/stackpanel.py:169
+#: src/debug/client/stackpanel.py:172
 msgid "_Pause Debug Process"
 msgstr "Pausar/Continuar el proceso de depuración"
 
-#: src/debug/client/stackpanel.py:172
+#: src/debug/client/stackpanel.py:175
 msgid "_Start Debugging"
 msgstr "Iniciar la depuración"
 
-#: src/debug/client/stackpanel.py:174
+#: src/debug/client/stackpanel.py:177
 msgid "Attach to Process..."
 msgstr ""
 
-#: src/debug/client/stackpanel.py:177
+#: src/debug/client/stackpanel.py:180
 msgid "_Accept Debug Connections"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:398
+#: src/debug/client/stackpanel.py:404
 msgid "No Active Process"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:398 src/debug/client/stackpanel.py:614
-#: src/debug/client/stackpanel.py:900
+#: src/debug/client/stackpanel.py:404 src/debug/client/stackpanel.py:627
+#: src/debug/client/stackpanel.py:913
 msgid "No debug process is running"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:403
+#: src/debug/client/stackpanel.py:411
 msgid "(terminated)"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:614 src/debug/client/stackpanel.py:621
+#: src/debug/client/stackpanel.py:413
+#, fuzzy
+msgid "(no process)"
+msgstr "Pausar/Continuar el proceso de depuración"
+
+#: src/debug/client/stackpanel.py:627 src/debug/client/stackpanel.py:634
 msgid "Thread #0"
 msgstr "Hilo #0"
 
-#: src/debug/client/stackpanel.py:621
+#: src/debug/client/stackpanel.py:634
 msgid "Debug process is running"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:634
+#: src/debug/client/stackpanel.py:647
 msgid " (first to stop)"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:637
+#: src/debug/client/stackpanel.py:650
 msgid " (running)"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:638
+#: src/debug/client/stackpanel.py:651
 msgid "Debug process threads"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:900
+#: src/debug/client/stackpanel.py:913
 msgid "<no debug process stack>"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:915
+#: src/debug/client/stackpanel.py:928
 msgid "Thread is running"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:944
+#: src/debug/client/stackpanel.py:957
 msgid "Chained Exception Cause %i:"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:946
+#: src/debug/client/stackpanel.py:959
 msgid "Chained Exception Context %i:"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:973
+#: src/debug/client/stackpanel.py:986
 msgid "pos %s-%s"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:976
+#: src/debug/client/stackpanel.py:989
 msgid ", line "
 msgstr ""
 
-#: src/debug/client/stackpanel.py:988
+#: src/debug/client/stackpanel.py:1001
 msgid "Selected thread's primary stack"
 msgstr ""
 
-#: src/debug/client/stackpanel.py:990
+#: src/debug/client/stackpanel.py:1003
 msgid "Selected thread's chained exception stack number %i"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:498
+#: src/debug/client/stackpanel.py:1169
+msgid "Show Stack Data Documentation"
+msgstr ""
+
+#: src/debug/client/tnetproxy.py:518
 msgid "Note: Debug connection closed while polling for server messages"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:502
+#: src/debug/client/tnetproxy.py:522
 msgid ""
 "Error: The debug connection closed unexpectedly while polling for server "
 "messages:"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:598 src/debug/client/tnetproxy.py:621
+#: src/debug/client/tnetproxy.py:618 src/debug/client/tnetproxy.py:641
 msgid "<no valid stack frame>"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:627 src/debug/client/tnetproxy.py:965
-#: src/debug/client/tnetproxy.py:1065 src/debug/client/tnetproxy.py:1093
-#: src/debug/client/tnetproxy.py:1200 src/debug/client/tnetproxy.py:1231
+#: src/debug/client/tnetproxy.py:647 src/debug/client/tnetproxy.py:1063
+#: src/debug/client/tnetproxy.py:1163 src/debug/client/tnetproxy.py:1191
+#: src/debug/client/tnetproxy.py:1298 src/debug/client/tnetproxy.py:1329
 msgid "<network timeout during evaluate>"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:1112
+#: src/debug/client/tnetproxy.py:1210
 msgid "<network timeout during inspect array>"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:1655
+#: src/debug/client/tnetproxy.py:1791
 msgid ""
 "Error: The debug connection closed unexpectedly while sending message\n"
 "with type %s to server:"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:1703
+#: src/debug/client/tnetproxy.py:1839
 msgid ""
 "Error: The debug connection closed unexpectedly while waiting for\n"
 "reply type %s after message type %s:\n"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:1706
+#: src/debug/client/tnetproxy.py:1842
 msgid ""
 "Error: The debug connection was closed after failing to unpack \n"
 "reply type %s after message type %s:\n"
 msgstr ""
 
-#: src/debug/client/tnetproxy.py:1724
+#: src/debug/client/tnetproxy.py:1860
 msgid ""
 "Error: The debug connection timed out after %s seconds while waiting\n"
 "for reply type %s after message type %s.\n"
@@ -4185,7 +4345,7 @@ msgid ""
 "You may need to increase the value of debug.network-timeout preference."
 msgstr ""
 
-#: src/debug/client/varframe.py:53
+#: src/debug/client/varframe.py:55
 msgid ""
 "Enter text to filter the display.  To apply a filter to just one column use "
 "col:filter, for example 3:test or Title:test to filter just column 3 or the "
@@ -4194,82 +4354,82 @@ msgid ""
 "options and scope."
 msgstr ""
 
-#: src/debug/client/varframe.py:62
+#: src/debug/client/varframe.py:64
 msgid "Filter:"
 msgstr ""
 
-#: src/debug/client/varframe.py:123
+#: src/debug/client/varframe.py:125
 msgid "Nothing selected"
 msgstr ""
 
-#: src/debug/client/varframe.py:128
+#: src/debug/client/varframe.py:130
 msgid "Could not obtain data"
 msgstr ""
 
-#: src/debug/client/varframe.py:145
+#: src/debug/client/varframe.py:147
 msgid "Attribute"
 msgstr ""
 
-#: src/debug/client/varframe.py:155
+#: src/debug/client/varframe.py:157
 msgid "Could not expand value"
 msgstr ""
 
-#: src/debug/client/varframe.py:189
+#: src/debug/client/varframe.py:191
 #, fuzzy
 msgid "Loading..."
 msgstr "Conexión fallida"
 
-#: src/debug/client/varframe.py:318
+#: src/debug/client/varframe.py:322
 msgid "No Matching Rows"
 msgstr ""
 
-#: src/debug/client/varframe.py:320
+#: src/debug/client/varframe.py:324
 msgid "No Matches in Visible Columns"
 msgstr ""
 
-#: src/debug/client/varframe.py:349
+#: src/debug/client/varframe.py:353
 msgid "Case Sensitive"
 msgstr ""
 
-#: src/debug/client/varframe.py:355
+#: src/debug/client/varframe.py:359
 msgid "Text Search"
 msgstr ""
 
-#: src/debug/client/varframe.py:356
+#: src/debug/client/varframe.py:360
 msgid "Wildcard Search"
 msgstr ""
 
-#: src/debug/client/varframe.py:357
+#: src/debug/client/varframe.py:361
 msgid "Regex Search"
 msgstr ""
 
-#: src/debug/client/varframe.py:363
+#: src/debug/client/varframe.py:367
 msgid "Search All Columns"
 msgstr ""
 
-#: src/debug/client/varframe.py:364
+#: src/debug/client/varframe.py:368
 msgid "Search Visible Columns"
 msgstr ""
 
-#: src/debug/client/varframe.py:384
+#: src/debug/client/varframe.py:388
 msgid "No Data"
 msgstr ""
 
-#: src/debug/client/varmanager.py:257
+#: src/debug/client/varmanager.py:260
 msgid ""
 "Stored debug data value errors have been cleared.  Values will be refetched\n"
 "as needed for display after stepping or restarting your debug session.\n"
 msgstr ""
 
-#: src/debug/client/varmanager.py:257
+#: src/debug/client/varmanager.py:260
 msgid "Value Errors Cleared"
 msgstr ""
 
-#: src/debug/client/varmanager.py:366
+#: src/debug/client/varmanager.py:369
 msgid "Error Probing Debug Data"
 msgstr ""
 
-#: src/debug/client/varmanager.py:367
+#: src/debug/client/varmanager.py:370
 msgid ""
 "Warning:  The debugger encountered an error while inspecting local or global "
 "data.  This is caused by unexpected exceptions raised in a property, custom "
@@ -4277,156 +4437,157 @@ msgid ""
 "Values that failed to load are flagged with <error handling value>."
 msgstr ""
 
-#: src/debug/client/varmanager.py:378
+#: src/debug/client/varmanager.py:381
 msgid "Warning: Timeout During Evaluation"
 msgstr ""
 
-#: src/debug/client/varmanager.py:379
+#: src/debug/client/varmanager.py:382
 msgid ""
 "Warning:  Evaluation time for some local or global data values in your debug "
 "process exceeded the configured timeout. Values that failed to load are "
 "flagged with <timeout>."
 msgstr ""
 
-#: src/debug/client/varmanager.py:389
+#: src/debug/client/varmanager.py:392
 msgid "Warning: Huge Value Encountered"
 msgstr ""
 
-#: src/debug/client/varmanager.py:390
+#: src/debug/client/varmanager.py:393
 msgid ""
 "Warning:  The size of some local or global data values in your debug process "
 "exceeded the configured size thresholds.  Values that failed to load are "
 "flagged with <huge>."
 msgstr ""
 
-#: src/debug/client/varmanager.py:408
+#: src/debug/client/varmanager.py:411
 msgid "Show Debug Data Value Warnings"
 msgstr ""
 
-#: src/debug/client/varmanager.py:561
+#: src/debug/client/varmanager.py:564
 msgid "Cannot access data"
 msgstr ""
 
-#: src/debug/client/vartree.py:322
+#: src/debug/client/vartree.py:325
 msgid "Array viewer for debug data"
 msgstr ""
 
-#: src/debug/client/vartree.py:322
+#: src/debug/client/vartree.py:325
 msgid "_Array"
 msgstr ""
 
-#: src/debug/client/vartree.py:323
+#: src/debug/client/vartree.py:326
 msgid "Textual display of debug data"
 msgstr ""
 
-#: src/debug/client/vartree.py:323
+#: src/debug/client/vartree.py:326
 msgid "_Text"
 msgstr ""
 
-#: src/debug/client/vartree.py:453
+#: src/debug/client/vartree.py:456
 msgid "Show Value as _Array"
 msgstr ""
 
-#: src/debug/client/vartree.py:454
+#: src/debug/client/vartree.py:457
 msgid "Show Value as _Text"
 msgstr ""
 
-#: src/debug/client/vartree.py:458
+#: src/debug/client/vartree.py:461
 msgid "Hide Value _Detail"
 msgstr ""
 
-#: src/debug/client/vartree.py:464
+#: src/debug/client/vartree.py:467
 msgid "_Expand More"
 msgstr ""
 
-#: src/debug/client/vartree.py:465
+#: src/debug/client/vartree.py:468
 msgid "_Collapse More"
 msgstr ""
 
-#: src/debug/client/vartree.py:476
+#: src/debug/client/vartree.py:479
 msgid "Sort Alphabetically"
 msgstr ""
 
-#: src/debug/client/vartree.py:484
+#: src/debug/client/vartree.py:487
 msgid "Watch by _Symbolic Path"
 msgstr ""
 
-#: src/debug/client/vartree.py:485
+#: src/debug/client/vartree.py:488
 msgid "Watch by Direct _Reference"
 msgstr ""
 
-#: src/debug/client/vartree.py:486
+#: src/debug/client/vartree.py:489
 msgid "Watch by _Parent Slot"
 msgstr ""
 
-#: src/debug/client/vartree.py:487
+#: src/debug/client/vartree.py:490
 msgid "Watch by _Module Slot"
 msgstr ""
 
-#: src/debug/client/vartree.py:491
+#: src/debug/client/vartree.py:494
 msgid "_Force Reload"
 msgstr ""
 
-#: src/debug/client/vartree.py:510
+#: src/debug/client/vartree.py:513
 msgid "%s(): %s, line %i"
 msgstr ""
 
-#: src/debug/client/varutils.py:210
+#: src/debug/client/varutils.py:212
 msgid "%s(): %s, line %s"
 msgstr ""
 
-#: src/debug/client/varutils.py:212
+#: src/debug/client/varutils.py:214
 msgid "%s, line %s"
 msgstr ""
 
-#: src/debug/client/varutils.py:259
+#: src/debug/client/varutils.py:261
 msgid "No symbolic path available"
 msgstr ""
 
-#: src/debug/client/varutils.py:386
+#: src/debug/client/varutils.py:388
 #, fuzzy
 msgid "<no debug process>"
 msgstr "Pausar/Continuar el proceso de depuración"
 
-#: src/debug/client/varutils.py:396 src/debug/client/varutils.py:397
-#: src/debug/client/varutils.py:874
+#: src/debug/client/varutils.py:393
+msgid "<no value>"
+msgstr ""
+
+#: src/debug/client/varutils.py:401 src/debug/client/varutils.py:402
+#: src/debug/client/varutils.py:879
 msgid "<error evaluating>"
 msgstr ""
 
-#: src/debug/client/varutils.py:398 src/debug/client/varutils.py:399
+#: src/debug/client/varutils.py:403 src/debug/client/varutils.py:404
 msgid "<error handling value>"
 msgstr ""
 
-#: src/debug/client/varutils.py:400
+#: src/debug/client/varutils.py:405
 msgid "network timeout"
 msgstr ""
 
-#: src/debug/client/varutils.py:401
+#: src/debug/client/varutils.py:406
 msgid "<timeout>"
 msgstr ""
 
-#: src/debug/client/varutils.py:567
+#: src/debug/client/varutils.py:572
 msgid "<locals dict; len=%i>"
 msgstr ""
 
-#: src/debug/client/varutils.py:630
+#: src/debug/client/varutils.py:635
 msgid "<globals dict; len=%i>"
 msgstr ""
 
-#: src/debug/client/varutils.py:866
+#: src/debug/client/varutils.py:871
 msgid "<undefined>"
 msgstr ""
 
-#: src/debug/client/varutils.py:1033
+#: src/debug/client/varutils.py:1038
 msgid "Could not obtain symbolic path, err=%s"
 msgstr ""
 
-#~ msgid "OK"
-#~ msgstr "Aceptar"
-
 #, fuzzy
-#~ msgid "Don't show this again"
-#~ msgstr "No mostrar este mensaje de nuevo"
+#~ msgid "Connection Refused"
+#~ msgstr "Conexión fallida"
 
 #, fuzzy
 #~ msgid "Failed to create {}"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.1\n"
-"POT-Creation-Date: 2018-08-23 14:16+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2011-03-30 22:09 EDT\n"
 "Last-Translator: alexandr\n"
 "Language-Team: None\n"
@@ -14,22 +14,22 @@ msgstr ""
 "Content-Transfer-Encoding: text/plain\n"
 "Generated-By: pygettext.py 1.5\n"
 
-#: src/testing/commands.py:38
+#: src/testing/commands.py:47
 msgid ""
 "Globally available commands defined for the unit testing manager.  These\n"
 "  commands are available regardless of whether a testing manager is visible\n"
 "  or has keyboard focus."
 msgstr ""
 
-#: src/testing/commands.py:51
+#: src/testing/commands.py:60
 msgid " Returns gtk widget; can return None, particularly when show is false "
 msgstr ""
 
-#: src/testing/commands.py:91
+#: src/testing/commands.py:100
 msgid "Scan or re-scan the current editor file for unittests"
 msgstr ""
 
-#: src/testing/commands.py:99
+#: src/testing/commands.py:108
 msgid ""
 "Run or debug the tests in the current editor. Uses the given\n"
 "    file or files instead if locs is not None.  The locations list may be\n"
@@ -37,7 +37,7 @@ msgid ""
 "    The tests are debugged if debug=True."
 msgstr ""
 
-#: src/testing/commands.py:118
+#: src/testing/commands.py:127
 msgid ""
 "Debug the tests in the current editor. Uses the given file or files if locs "
 "is not None. The\n"
@@ -45,85 +45,85 @@ msgid ""
 "or location."
 msgstr ""
 
-#: src/testing/commands.py:132
+#: src/testing/commands.py:141
 msgid " Abort any running tests. "
 msgstr ""
 
-#: src/testing/commands.py:142
+#: src/testing/commands.py:151
 msgid " Runs all the tests in testing panel. "
 msgstr ""
 
-#: src/testing/commands.py:160
+#: src/testing/commands.py:169
 msgid " Debug all the tests in testing panel. "
 msgstr ""
 
-#: src/testing/commands.py:168
+#: src/testing/commands.py:177
 msgid ""
 " Run the tests currently selected in the testing panel.  The tests are\n"
 "    debugged when debug is True."
 msgstr ""
 
-#: src/testing/commands.py:186
+#: src/testing/commands.py:195
 msgid " Debug the tests currently selected in the testing panel. "
 msgstr ""
 
-#: src/testing/commands.py:194
+#: src/testing/commands.py:203
 msgid ""
 " Run again the last group of tests that were run.  The tests are\n"
 "    debugged when debug is True."
 msgstr ""
 
-#: src/testing/commands.py:212
+#: src/testing/commands.py:221
 msgid " Debug the last group of tests that were run. "
 msgstr ""
 
-#: src/testing/commands.py:235
+#: src/testing/commands.py:244
 msgid ""
 "Re-run all the previously failed tests.  The tests are debugged when\n"
 "    debug is True."
 msgstr ""
 
-#: src/testing/commands.py:251
+#: src/testing/commands.py:260
 msgid "Re-run all the previously failed tests in the debugger."
 msgstr ""
 
-#: src/testing/commands.py:259
+#: src/testing/commands.py:268
 msgid ""
 " Runs the current test or tests, if possible.  The current tests are\n"
 "    determined by the current position in the active view.  The tests are\n"
 "    debugged when debug is True."
 msgstr ""
 
-#: src/testing/commands.py:275
+#: src/testing/commands.py:284
 msgid ""
 " Runs the current test or tests, if possible.  The current tests are\n"
 "    determined by the current position in the active view. "
 msgstr ""
 
-#: src/testing/commands.py:284
+#: src/testing/commands.py:293
 msgid ""
 " Runs the clicked test or tests, if possible.  The tests are\n"
 "    determined by the last clicked position in the active view.  The\n"
 "    tests are debugged when debug is True."
 msgstr ""
 
-#: src/testing/commands.py:300
+#: src/testing/commands.py:309
 msgid ""
 " Runs the clicked test or tests, if possible.  The tests are\n"
 "    determined by the last clicked position in the active view. "
 msgstr ""
 
-#: src/testing/commands.py:309
+#: src/testing/commands.py:318
 msgid ""
 "Add a file to the set of unit tests.  Adds the current editor\n"
 "    file if add_current=True.  Otherwise, asks the user to select a file."
 msgstr ""
 
-#: src/testing/commands.py:322
+#: src/testing/commands.py:331
 msgid "Select files to add"
 msgstr ""
 
-#: src/testing/commands.py:348
+#: src/testing/commands.py:357
 msgid ""
 "Add a file or files to the set of unit tests. locs can be a list of\n"
 "    filenames or locations or a single filename or location. Adds the "
@@ -131,34 +131,34 @@ msgid ""
 "    editor file if locs is None."
 msgstr ""
 
-#: src/testing/commands.py:357
+#: src/testing/commands.py:366
 msgid " Save all test results to a file. "
 msgstr ""
 
-#: src/testing/commands.py:369
+#: src/testing/commands.py:378
 msgid "The file to save"
 msgstr ""
 
-#: src/testing/commands.py:375
+#: src/testing/commands.py:384
 msgid "File to save:"
 msgstr ""
 
-#: src/testing/commands.py:383
+#: src/testing/commands.py:392
 msgid " Load all test results from a file. "
 msgstr ""
 
-#: src/testing/commands.py:395
+#: src/testing/commands.py:404
 msgid "The file to load"
 msgstr ""
 
-#: src/testing/commands.py:401
+#: src/testing/commands.py:410
 msgid "File to load:"
 msgstr ""
 
-#: src/testing/commands.py:414
+#: src/testing/commands.py:423
 msgid " Start verbose logging of test results "
 msgstr ""
 
-#: src/testing/commands.py:419
+#: src/testing/commands.py:428
 msgid " Stop verbose logging of test results "
 msgstr ""

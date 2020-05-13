@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_wingutils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2018-03-18 16:28+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,51 +17,51 @@ msgstr ""
 "X-Loco-Project-Id: 44354\n"
 "X-Loco-Api-Version: 1.0.19 20180317-1\n"
 
-#: src/wingutils/datatype.py:146
+#: src/wingutils/datatype.py:149
 msgid "Value should be None"
 msgstr "Значение должно быть не None"
 
-#: src/wingutils/datatype.py:164
+#: src/wingutils/datatype.py:167
 msgid "Boolean value must be 0 or 1"
 msgstr "Логическое значение должно быть 0 или 1"
 
-#: src/wingutils/datatype.py:169
+#: src/wingutils/datatype.py:172
 msgid "<boolean: 0 or 1>"
 msgstr ""
 
-#: src/wingutils/datatype.py:189
+#: src/wingutils/datatype.py:192
 msgid "Value has type %s, should be one of:\n"
 msgstr "Значение имеет тип %s, должно быть одним из:"
 
-#: src/wingutils/datatype.py:220
+#: src/wingutils/datatype.py:223
 msgid "Value is type %s, should be "
 msgstr "Значение типа %s, должно быть "
 
-#: src/wingutils/datatype.py:228
+#: src/wingutils/datatype.py:231
 msgid "[one of: "
 msgstr "[один из: "
 
-#: src/wingutils/datatype.py:265
+#: src/wingutils/datatype.py:268
 msgid "Value out of range, should be one of:\n"
 msgstr "Значение вне диапазона, должно быть одним из:"
 
-#: src/wingutils/datatype.py:302
+#: src/wingutils/datatype.py:305
 msgid "Value is type %s, should be %s"
 msgstr "Значение типа %s, должно быть %s"
 
-#: src/wingutils/datatype.py:305
+#: src/wingutils/datatype.py:308
 msgid "Value out of valid range %s -> %s"
 msgstr "Значение из допустимого диапазона %s - > %s"
 
-#: src/wingutils/datatype.py:308
+#: src/wingutils/datatype.py:311
 msgid "[from %s to %s]"
 msgstr "[от %s до %s]"
 
-#: src/wingutils/datatype.py:327 src/wingutils/datatype.py:383
+#: src/wingutils/datatype.py:330 src/wingutils/datatype.py:386
 msgid "Value is type %s, should be tuple"
 msgstr "Значение типа %s, должно быть кортежем"
 
-#: src/wingutils/datatype.py:332
+#: src/wingutils/datatype.py:335
 msgid ""
 "Bad tuple item %i:\n"
 "%s"
@@ -69,27 +69,27 @@ msgstr ""
 "Плохой элемент кортежа %i:\n"
 "%s"
 
-#: src/wingutils/datatype.py:337
+#: src/wingutils/datatype.py:340
 msgid "[tuple of: "
 msgstr "[кортеж из: "
 
-#: src/wingutils/datatype.py:356
+#: src/wingutils/datatype.py:359
 msgid "Value is type %s, should be set"
 msgstr "Значение типа %s, должно быть множеством"
 
-#: src/wingutils/datatype.py:360
+#: src/wingutils/datatype.py:363
 msgid "Bad set item %s (should be %s)"
 msgstr "Неверный элемент набора %s (должен быть %s)"
 
-#: src/wingutils/datatype.py:365
+#: src/wingutils/datatype.py:368
 msgid "[set of: "
 msgstr "[множество  из: "
 
-#: src/wingutils/datatype.py:385
+#: src/wingutils/datatype.py:388
 msgid "Value has length %i, should be %i"
 msgstr "Значение имеет длину %i, должно быть %i"
 
-#: src/wingutils/datatype.py:389
+#: src/wingutils/datatype.py:392
 msgid ""
 "Bad tuple slot %i:\n"
 "%s"
@@ -97,15 +97,15 @@ msgstr ""
 "Плохой слот кортежа %i:\n"
 "%s"
 
-#: src/wingutils/datatype.py:398
+#: src/wingutils/datatype.py:401
 msgid "[tuple length %i of: %s]"
 msgstr "[длина кортежа %i из: %s]"
 
-#: src/wingutils/datatype.py:422
+#: src/wingutils/datatype.py:425
 msgid "Value is type %s, should be list"
 msgstr "Значение типа %s, должно быть list"
 
-#: src/wingutils/datatype.py:426
+#: src/wingutils/datatype.py:429
 msgid ""
 "Bad list item %s:\n"
 "%s"
@@ -113,15 +113,15 @@ msgstr ""
 "Плохой элемент списка %s:\n"
 "%s"
 
-#: src/wingutils/datatype.py:430
+#: src/wingutils/datatype.py:433
 msgid "[list of: "
 msgstr "[список из: "
 
-#: src/wingutils/datatype.py:455
+#: src/wingutils/datatype.py:458
 msgid "Value is %s, should be dict"
 msgstr "Значение %s, должно быть dict"
 
-#: src/wingutils/datatype.py:459 src/wingutils/datatype.py:574
+#: src/wingutils/datatype.py:462 src/wingutils/datatype.py:577
 msgid ""
 "Bad dictionary key %s:\n"
 "%s"
@@ -129,7 +129,7 @@ msgstr ""
 "Плохой ключ словаря %s:\n"
 "%s"
 
-#: src/wingutils/datatype.py:462 src/wingutils/datatype.py:577
+#: src/wingutils/datatype.py:465 src/wingutils/datatype.py:580
 msgid ""
 "Bad dictionary value %s:\n"
 "%s"
@@ -137,82 +137,82 @@ msgstr ""
 "Плохое значение словаря %s:\n"
 "%s"
 
-#: src/wingutils/datatype.py:466
+#: src/wingutils/datatype.py:469
 msgid ", values: "
 msgstr ", значения: "
 
-#: src/wingutils/datatype.py:466
+#: src/wingutils/datatype.py:469
 msgid "[dict; keys: "
 msgstr ""
 
-#: src/wingutils/datatype.py:486
+#: src/wingutils/datatype.py:489
 msgid "[None or "
 msgstr "[None или "
 
-#: src/wingutils/datatype.py:501
+#: src/wingutils/datatype.py:504
 msgid "[any value]"
 msgstr "[любое значение]"
 
-#: src/wingutils/datatype.py:517
+#: src/wingutils/datatype.py:520
 msgid "Value is a %s, should be a CResourceLocation"
 msgstr "Значение %s, должно быть CResourceLocation"
 
-#: src/wingutils/datatype.py:520
+#: src/wingutils/datatype.py:523
 msgid "[Any resource location]"
 msgstr "[Любое расположение ресурса]"
 
-#: src/wingutils/datatype.py:537
+#: src/wingutils/datatype.py:540
 msgid "Value is a %s, should be a list of strings"
 msgstr "Значение %s, должен быть список строк"
 
-#: src/wingutils/datatype.py:540
+#: src/wingutils/datatype.py:543
 msgid "Value contains non-string item in position %i"
 msgstr "Значение содержит нестрочный элемент в позиции %i"
 
-#: src/wingutils/datatype.py:544
+#: src/wingutils/datatype.py:547
 msgid "[list of str]"
 msgstr "[список из строк]"
 
-#: src/wingutils/datatype.py:570
+#: src/wingutils/datatype.py:573
 #, fuzzy
 msgid "Value is %s, should be CFileFilters"
 msgstr "Значение %s, должно быть dict"
 
-#: src/wingutils/datatype.py:581
+#: src/wingutils/datatype.py:584
 msgid "[file filters]"
 msgstr "[фильтр файлов]"
 
-#: src/wingutils/datatype.py:596
+#: src/wingutils/datatype.py:599
 msgid "Value has type %s, should be string containing a #.#.#.# IP4 address\n"
 msgstr "Значение типа %s, должно быть строкой, содержащей #.#.#.# IP4 address"
 
-#: src/wingutils/datatype.py:600
+#: src/wingutils/datatype.py:603
 msgid "Value should be a #.#.#.# IP4 address"
 msgstr "Значение должно быть #.#.#.# IP4 address"
 
-#: src/wingutils/datatype.py:606
+#: src/wingutils/datatype.py:609
 msgid "Value should be a #.#.#.# IP4 address but contains non-numeric parts"
 msgstr "Значение должно быть #.#.#.# IP4 address, но содержит нечисловые части"
 
-#: src/wingutils/datatype.py:627
+#: src/wingutils/datatype.py:630
 msgid "Icon should be IconReference but has type %s"
 msgstr "Значок должен быть IconReference но типа %s"
 
-#: src/wingutils/datatype.py:632
+#: src/wingutils/datatype.py:635
 msgid "Icon file does not exist"
 msgstr "Файл значка не существует"
 
-#: src/wingutils/datatype.py:634
+#: src/wingutils/datatype.py:637
 msgid "Icon file is a directory"
 msgstr "Файл значка является каталогом"
 
-#: src/wingutils/datatype.py:638
+#: src/wingutils/datatype.py:641
 msgid "Icon spec has type %s, should be string, unicode, or location"
 msgstr ""
 "Спецификация значка имеет Тип %s, должна быть строкой, юникодом или "
 "расположением"
 
-#: src/wingutils/datatype.py:641
+#: src/wingutils/datatype.py:644
 msgid ""
 "Icon spec string must start with wingide- for Wing icon or SP_ for Qt stock "
 "icon"
@@ -220,173 +220,173 @@ msgstr ""
 "Icon spec string должен начинаться с wingide - для значка Wing или SP_ для "
 "значка акции Qt"
 
-#: src/wingutils/datatype.py:697
+#: src/wingutils/datatype.py:700
 msgid "Value is not a CResourceLocation: %s"
 msgstr "Значение не является CResourceLocation: %s"
 
-#: src/wingutils/datatype.py:717
+#: src/wingutils/datatype.py:720
 msgid "Cannot convert text into a CResourceLocation: %s"
 msgstr "Не удается преобразовать текст в CResourceLocation: %s"
 
-#: src/wingutils/encoding_utils.py:62
+#: src/wingutils/encoding_utils.py:65
 msgid "English"
 msgstr "Английский"
 
-#: src/wingutils/encoding_utils.py:63
+#: src/wingutils/encoding_utils.py:66
 msgid "US, Canada, and Others"
 msgstr "США, Канада и другие"
 
-#: src/wingutils/encoding_utils.py:64 src/wingutils/encoding_utils.py:72
-#: src/wingutils/encoding_utils.py:76 src/wingutils/encoding_utils.py:91
-#: src/wingutils/encoding_utils.py:102
+#: src/wingutils/encoding_utils.py:67 src/wingutils/encoding_utils.py:75
+#: src/wingutils/encoding_utils.py:79 src/wingutils/encoding_utils.py:94
+#: src/wingutils/encoding_utils.py:105
 msgid "Hebrew"
 msgstr "Иврит"
 
-#: src/wingutils/encoding_utils.py:65
+#: src/wingutils/encoding_utils.py:68
 msgid "US, Australia, New Zealand, S. Africa"
 msgstr "США, Австралия, Новая Зеландия, ЮАР"
 
-#: src/wingutils/encoding_utils.py:66 src/wingutils/encoding_utils.py:69
-#: src/wingutils/encoding_utils.py:85 src/wingutils/encoding_utils.py:88
-#: src/wingutils/encoding_utils.py:95 src/wingutils/encoding_utils.py:107
-#: src/wingutils/encoding_utils.py:114
+#: src/wingutils/encoding_utils.py:69 src/wingutils/encoding_utils.py:72
+#: src/wingutils/encoding_utils.py:88 src/wingutils/encoding_utils.py:91
+#: src/wingutils/encoding_utils.py:98 src/wingutils/encoding_utils.py:110
+#: src/wingutils/encoding_utils.py:117
 msgid "Western European"
 msgstr "Западно-Европейский"
 
-#: src/wingutils/encoding_utils.py:67 src/wingutils/encoding_utils.py:80
-#: src/wingutils/encoding_utils.py:82 src/wingutils/encoding_utils.py:89
-#: src/wingutils/encoding_utils.py:101 src/wingutils/encoding_utils.py:111
+#: src/wingutils/encoding_utils.py:70 src/wingutils/encoding_utils.py:83
+#: src/wingutils/encoding_utils.py:85 src/wingutils/encoding_utils.py:92
+#: src/wingutils/encoding_utils.py:104 src/wingutils/encoding_utils.py:114
 msgid "Greek"
 msgstr "Греческий"
 
-#: src/wingutils/encoding_utils.py:68 src/wingutils/encoding_utils.py:93
-#: src/wingutils/encoding_utils.py:98 src/wingutils/encoding_utils.py:105
+#: src/wingutils/encoding_utils.py:71 src/wingutils/encoding_utils.py:96
+#: src/wingutils/encoding_utils.py:101 src/wingutils/encoding_utils.py:108
 msgid "Baltic Languages"
 msgstr "Балтийский язык"
 
-#: src/wingutils/encoding_utils.py:70 src/wingutils/encoding_utils.py:86
-#: src/wingutils/encoding_utils.py:96 src/wingutils/encoding_utils.py:113
+#: src/wingutils/encoding_utils.py:73 src/wingutils/encoding_utils.py:89
+#: src/wingutils/encoding_utils.py:99 src/wingutils/encoding_utils.py:116
 msgid "Central and Eastern European"
 msgstr "Центральная и Восточная Европа"
 
-#: src/wingutils/encoding_utils.py:71 src/wingutils/encoding_utils.py:87
-#: src/wingutils/encoding_utils.py:99 src/wingutils/encoding_utils.py:110
+#: src/wingutils/encoding_utils.py:74 src/wingutils/encoding_utils.py:90
+#: src/wingutils/encoding_utils.py:102 src/wingutils/encoding_utils.py:113
 msgid "Cyrillic Languages"
 msgstr "Кириллические Языки"
 
-#: src/wingutils/encoding_utils.py:73 src/wingutils/encoding_utils.py:84
-#: src/wingutils/encoding_utils.py:90 src/wingutils/encoding_utils.py:103
-#: src/wingutils/encoding_utils.py:115
+#: src/wingutils/encoding_utils.py:76 src/wingutils/encoding_utils.py:87
+#: src/wingutils/encoding_utils.py:93 src/wingutils/encoding_utils.py:106
+#: src/wingutils/encoding_utils.py:118
 msgid "Turkish"
 msgstr "Турецкий"
 
-#: src/wingutils/encoding_utils.py:74
+#: src/wingutils/encoding_utils.py:77
 msgid "Portuguese"
 msgstr "Португальский"
 
-#: src/wingutils/encoding_utils.py:75
+#: src/wingutils/encoding_utils.py:78
 msgid "Icelandic"
 msgstr "Исландский"
 
-#: src/wingutils/encoding_utils.py:77
+#: src/wingutils/encoding_utils.py:80
 msgid "Canadian English/French"
 msgstr "Канадский Английский/Французский"
 
-#: src/wingutils/encoding_utils.py:78 src/wingutils/encoding_utils.py:92
-#: src/wingutils/encoding_utils.py:100
+#: src/wingutils/encoding_utils.py:81 src/wingutils/encoding_utils.py:95
+#: src/wingutils/encoding_utils.py:103
 msgid "Arabic"
 msgstr "Арабский"
 
-#: src/wingutils/encoding_utils.py:79
+#: src/wingutils/encoding_utils.py:82
 msgid "Danish, Norwegian"
 msgstr "Датский, Норвежский"
 
-#: src/wingutils/encoding_utils.py:81
+#: src/wingutils/encoding_utils.py:84
 msgid "Thai"
 msgstr "Тайский"
 
-#: src/wingutils/encoding_utils.py:83
+#: src/wingutils/encoding_utils.py:86
 msgid "Urdu"
 msgstr "Урду"
 
-#: src/wingutils/encoding_utils.py:94
+#: src/wingutils/encoding_utils.py:97
 msgid "Vietnamese"
 msgstr "Вьетнамский"
 
-#: src/wingutils/encoding_utils.py:97
+#: src/wingutils/encoding_utils.py:100
 msgid "Esperanto and Maltese"
 msgstr "Эсперанто и мальтийский"
 
-#: src/wingutils/encoding_utils.py:104
+#: src/wingutils/encoding_utils.py:107
 msgid "Nordic Languages"
 msgstr "Северные языки"
 
-#: src/wingutils/encoding_utils.py:106
+#: src/wingutils/encoding_utils.py:109
 msgid "Celtic Languages"
 msgstr "Кельтские языки"
 
-#: src/wingutils/encoding_utils.py:108
+#: src/wingutils/encoding_utils.py:111
 msgid "Russian"
 msgstr "Русский"
 
-#: src/wingutils/encoding_utils.py:109
+#: src/wingutils/encoding_utils.py:112
 msgid "Ukrainian"
 msgstr "Украинский"
 
-#: src/wingutils/encoding_utils.py:116
+#: src/wingutils/encoding_utils.py:119
 msgid "Unicode (UTF-16)"
 msgstr "Юникод (UTF-16)"
 
-#: src/wingutils/encoding_utils.py:117
+#: src/wingutils/encoding_utils.py:120
 msgid "Unicode (UTF-16, big endian)"
 msgstr "Юникод (UTF-16, big endian)"
 
-#: src/wingutils/encoding_utils.py:118
+#: src/wingutils/encoding_utils.py:121
 msgid "Unicode (UTF-16, little endian)"
 msgstr "Юникод (UTF-16, little endian)"
 
-#: src/wingutils/encoding_utils.py:119
+#: src/wingutils/encoding_utils.py:122
 msgid "Unicode (UTF-7)"
 msgstr "Юникод (UTF-7)"
 
-#: src/wingutils/encoding_utils.py:120
+#: src/wingutils/encoding_utils.py:123
 msgid "Unicode (UTF-8)"
 msgstr "Юникод (UTF-8)"
 
-#: src/wingutils/encoding_utils.py:123 src/wingutils/encoding_utils.py:124
-#: src/wingutils/encoding_utils.py:125 src/wingutils/encoding_utils.py:126
-#: src/wingutils/encoding_utils.py:127
+#: src/wingutils/encoding_utils.py:126 src/wingutils/encoding_utils.py:127
+#: src/wingutils/encoding_utils.py:128 src/wingutils/encoding_utils.py:129
+#: src/wingutils/encoding_utils.py:130
 msgid "Chinese (PRC)"
 msgstr "Китайский (PRC)"
 
-#: src/wingutils/encoding_utils.py:128 src/wingutils/encoding_utils.py:129
+#: src/wingutils/encoding_utils.py:131 src/wingutils/encoding_utils.py:132
 msgid "Chinese (ROC)"
 msgstr "Китайский (ROC)"
 
-#: src/wingutils/encoding_utils.py:130 src/wingutils/encoding_utils.py:131
-#: src/wingutils/encoding_utils.py:132 src/wingutils/encoding_utils.py:133
-#: src/wingutils/encoding_utils.py:134 src/wingutils/encoding_utils.py:135
-#: src/wingutils/encoding_utils.py:136 src/wingutils/encoding_utils.py:137
-#: src/wingutils/encoding_utils.py:138 src/wingutils/encoding_utils.py:139
-#: src/wingutils/encoding_utils.py:140 src/wingutils/encoding_utils.py:141
-#: src/wingutils/encoding_utils.py:142
+#: src/wingutils/encoding_utils.py:133 src/wingutils/encoding_utils.py:134
+#: src/wingutils/encoding_utils.py:135 src/wingutils/encoding_utils.py:136
+#: src/wingutils/encoding_utils.py:137 src/wingutils/encoding_utils.py:138
+#: src/wingutils/encoding_utils.py:139 src/wingutils/encoding_utils.py:140
+#: src/wingutils/encoding_utils.py:141 src/wingutils/encoding_utils.py:142
+#: src/wingutils/encoding_utils.py:143 src/wingutils/encoding_utils.py:144
+#: src/wingutils/encoding_utils.py:145
 msgid "Japanese"
 msgstr "Японский"
 
-#: src/wingutils/encoding_utils.py:143 src/wingutils/encoding_utils.py:144
-#: src/wingutils/encoding_utils.py:145
+#: src/wingutils/encoding_utils.py:146 src/wingutils/encoding_utils.py:147
+#: src/wingutils/encoding_utils.py:148
 msgid "Korean"
 msgstr "Корейский"
 
-#: src/wingutils/encoding_utils.py:148
+#: src/wingutils/encoding_utils.py:151
 msgid "Current code page (ansi/mbcs)"
 msgstr "Текущая кодовая страница (ansi/mbcs)"
 
-#: src/wingutils/encoding_utils.py:187
+#: src/wingutils/encoding_utils.py:190
 msgid "Also known as: "
 msgstr "Также известный как: "
 
-#: src/wingutils/fileattribmgr.py:32
+#: src/wingutils/fileattribmgr.py:35
 msgid ""
 "The mime type set for a file, when the user has overridden the default value "
 "for the file type."
@@ -394,7 +394,7 @@ msgstr ""
 "mime-тип, установленный для файла, когда пользователь переопределил значение "
 "по умолчанию для типа файла."
 
-#: src/wingutils/fileattribmgr.py:42
+#: src/wingutils/fileattribmgr.py:45
 msgid ""
 "The encoding to use for this file, overriding the file system and default "
 "encoding.  The encoding cannot be changed if there is an encoding comment "
@@ -406,39 +406,35 @@ msgstr ""
 "присутствует комментарий кодировки; в этом случае этот атрибут игнорируется, "
 "и вместо него следует изменить комментарий кодировки."
 
-#: src/wingutils/savable.py:771
+#: src/wingutils/savable.py:811
 msgid "Unknown"
 msgstr "Неизвестный"
 
-#: src/wingutils/textio.py:254 src/wingutils/textio.py:257
+#: src/wingutils/textio.py:257 src/wingutils/textio.py:260
 msgid "Invalid line %d"
 msgstr "Недопустимая строка %d"
 
-#: src/wingutils/textio.py:261
+#: src/wingutils/textio.py:264
 msgid "Invalid name on line %d"
 msgstr "Недопустимое имя в строке %d"
 
-#: src/wingutils/textio.py:277
+#: src/wingutils/textio.py:280
 msgid "Invalid value on line %d"
 msgstr "Недопустимое значение в строке %d"
 
-#: src/wingutils/textio.py:534
-msgid "Could not write to read-only file %s"
-msgstr "Не удалось выполнить запись в файл только для чтения %s"
-
-#: src/wingutils/textio.py:988
+#: src/wingutils/textio.py:989
 msgid "Unknown value name %s"
 msgstr "Неизвестное значение %s"
 
-#: src/wingutils/textio.py:1504
+#: src/wingutils/textio.py:1505
 msgid "Error in %s, line %d"
 msgstr "Ошибка в % s, строка %d"
 
-#: src/wingutils/textio.py:1507
+#: src/wingutils/textio.py:1508
 msgid "Internal data error:"
 msgstr "Внутренняя ошибка данных:"
 
-#: src/wingutils/textio.py:1509
+#: src/wingutils/textio.py:1510
 msgid "  Bad value is:"
 msgstr "  Плохое значение:"
 
@@ -465,3 +461,6 @@ msgstr "ОШИБКА"
 #: src/wingutils/usererror.py:176
 msgid "FATAL"
 msgstr "ФАТАЛЬНО"
+
+#~ msgid "Could not write to read-only file %s"
+#~ msgstr "Не удалось выполнить запись в файл только для чтения %s"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_wingide_topcommands\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 11:45+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:04+EDT\n"
 "PO-Revision-Date: 2018-08-25 22:20+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: support@ingeniweb.com\n"
@@ -36,61 +36,61 @@ msgstr ""
 "\n"
 "Écrit par Stephan R.A. Deibel et John P. Ehresman\n"
 
-#: src/wingide/topcommands.py:74
+#: src/wingide/topcommands.py:77
 msgid " Implements model ctrl-tab document switching. "
 msgstr " Implémente le modèle de permutation de document ctrl-tab. "
 
-#: src/wingide/topcommands.py:77
+#: src/wingide/topcommands.py:80
 msgid ""
 " Create, set up signal handlers, but don't move forward or back.  multi\n"
 "    is the multi editor to cycle through. "
 msgstr ""
 
-#: src/wingide/topcommands.py:101
+#: src/wingide/topcommands.py:104
 msgid " Key press handler; must run before command map lookup "
 msgstr ""
 
-#: src/wingide/topcommands.py:130
+#: src/wingide/topcommands.py:133
 msgid " Move to different location. "
 msgstr " Déplacer à un endroit différent. "
 
-#: src/wingide/topcommands.py:168
+#: src/wingide/topcommands.py:171
 msgid "These are the high level application control commands."
 msgstr "Voici les commandes de contrôle de haut niveau de l'application."
 
-#: src/wingide/topcommands.py:175 src/wingide/topcommands.py:2870
+#: src/wingide/topcommands.py:178 src/wingide/topcommands.py:2895
 msgid " Constructor; fGuiMgr is invariant. "
 msgstr " Constructeur ; fGuiMgr est invariant. "
 
-#: src/wingide/topcommands.py:191
+#: src/wingide/topcommands.py:194
 msgid " Quit the application. "
 msgstr " Quitter l'application. "
 
-#: src/wingide/topcommands.py:196
+#: src/wingide/topcommands.py:199
 msgid " Restart the application "
 msgstr " Redémarrer l'application "
 
-#: src/wingide/topcommands.py:203
+#: src/wingide/topcommands.py:206
 msgid " Show the application-wide about box "
 msgstr " Afficher la boîte «Au sujet de» de l'application "
 
-#: src/wingide/topcommands.py:215
+#: src/wingide/topcommands.py:218
 msgid " Open a file from disk "
 msgstr " Ouvrir un fichier depuis le disque "
 
-#: src/wingide/topcommands.py:223 src/wingide/topcommands.py:229
+#: src/wingide/topcommands.py:226 src/wingide/topcommands.py:232
 msgid "File open failed"
 msgstr "L'ouverture du fichier a échoué"
 
-#: src/wingide/topcommands.py:224
+#: src/wingide/topcommands.py:227
 msgid "Remote file %s could not be inspected."
 msgstr "Le fichier distant %s n’a pas pu être inspecté."
 
-#: src/wingide/topcommands.py:230
+#: src/wingide/topcommands.py:233
 msgid "%s is a directory and cannot be opened."
 msgstr "%s est un répertoire et ne peut pas être ouvert."
 
-#: src/wingide/topcommands.py:254
+#: src/wingide/topcommands.py:257
 msgid ""
 " Open a file from local disk or a remote host, prompting with file\n"
 "    selection dialog if necessary.  The dialog shown depends on the default\n"
@@ -101,48 +101,48 @@ msgstr ""
 "    La boite de dialogue affichée dépend du répertoire de départ par\n"
 "    défaut, et peut être pour les fichiers locaux ou distants."
 
-#: src/wingide/topcommands.py:268 src/wingide/topcommands.py:293
+#: src/wingide/topcommands.py:271 src/wingide/topcommands.py:296
 msgid "Open File"
 msgstr "Ouvrir un fichier"
 
-#: src/wingide/topcommands.py:269 src/wingide/topcommands.py:294
-#: src/wingide/topcommands.py:317
+#: src/wingide/topcommands.py:272 src/wingide/topcommands.py:297
+#: src/wingide/topcommands.py:320
 msgid "Select file to open"
 msgstr "Sélectionner le fichier à ouvrir"
 
-#: src/wingide/topcommands.py:281
+#: src/wingide/topcommands.py:284
 msgid "Prompt user to open a file from local disk"
 msgstr "Demander à l’utilisateur d’ouvrir un fichier depuis un disque local"
 
-#: src/wingide/topcommands.py:305
+#: src/wingide/topcommands.py:308
 msgid "Prompt user to open a file from a remote host"
 msgstr "Demander à l’utilisateur d’ouvrir un fichier depuis un hôte distant"
 
-#: src/wingide/topcommands.py:316
+#: src/wingide/topcommands.py:319
 msgid "Open Remote File"
 msgstr "Ouvrir un fichier distant"
 
-#: src/wingide/topcommands.py:328
+#: src/wingide/topcommands.py:331
 msgid ""
 "Get start dir for remote file open/save browsing.  Prompts the user\n"
 "    to set up remote hosts and returns None if no remote host is configured."
 msgstr ""
 
-#: src/wingide/topcommands.py:353
+#: src/wingide/topcommands.py:356
 msgid "The file to select"
 msgstr "Le fichier à sélectionner"
 
-#: src/wingide/topcommands.py:358
+#: src/wingide/topcommands.py:361
 msgid "Select file to open:"
 msgstr "Sélectionner le fichier à ouvrir :"
 
-#: src/wingide/topcommands.py:363 src/wingide/topcommands.py:372
+#: src/wingide/topcommands.py:366 src/wingide/topcommands.py:375
 msgid " Open a file from disk using keyboard-driven selection of the file"
 msgstr ""
 " Ouvrir un fichier depuis le disque en utilisant la sélection du fichier par "
 "contrôle du clavier"
 
-#: src/wingide/topcommands.py:378
+#: src/wingide/topcommands.py:381
 #, fuzzy
 msgid ""
 "Show the given file in the editor.  Selects the code starting and\n"
@@ -151,11 +151,11 @@ msgstr ""
 "Afficher le fichier donné dans l’éditeur. Sélectionne le code\n"
 "    commençant…"
 
-#: src/wingide/topcommands.py:395
+#: src/wingide/topcommands.py:398
 msgid " Create a new file "
 msgstr " Créer un nouveau fichier "
 
-#: src/wingide/topcommands.py:401
+#: src/wingide/topcommands.py:404
 msgid ""
 " Create a new scratch buffer with given title and mime type.\n"
 "    The buffer is never marked as changed but can be saved w/ save-as."
@@ -164,7 +164,7 @@ msgstr ""
 "    Le tampon n'est pas marqué comme modifié mais peut être enregistré avec "
 "«Enregistrer sous»."
 
-#: src/wingide/topcommands.py:408
+#: src/wingide/topcommands.py:411
 msgid ""
 "Create a new document window with same documents and panels as in\n"
 "    the current document window (if any; otherwise empty with default panels)"
@@ -173,33 +173,33 @@ msgstr ""
 "    panneaux que dans la fenêtre de documents actuelle (s'il y en a une; "
 "dand l'autre cas une fenêtre vide avec les panneaux par défaut)"
 
-#: src/wingide/topcommands.py:426
+#: src/wingide/topcommands.py:429
 msgid "Create a new panel window of given type"
 msgstr "Créer une nouvelle fenêtre de panneaux du type donné"
 
-#: src/wingide/topcommands.py:431
+#: src/wingide/topcommands.py:434
 msgid ""
 "Move the current editor out of the main document window and into its\n"
 "    own editor-only window"
 msgstr ""
 
-#: src/wingide/topcommands.py:451
+#: src/wingide/topcommands.py:454
 msgid ""
 "Move all the editors in the current editor-only window back into the main\n"
 "    document window and close the editor-only window.  A new main document\n"
 "    window is created if none currently exists."
 msgstr ""
 
-#: src/wingide/topcommands.py:481
+#: src/wingide/topcommands.py:484
 msgid "Hide/remove all tools and restore to original default state"
 msgstr "Masque/enlève tous les outils et restaure l'état par défaut originel"
 
-#: src/wingide/topcommands.py:486
+#: src/wingide/topcommands.py:489
 msgid "Close the current window and all documents and panels in it"
 msgstr ""
 "Ferme la fenêtre actuelle et tous les documents et panneaux qu'elle contient"
 
-#: src/wingide/topcommands.py:502
+#: src/wingide/topcommands.py:505
 msgid ""
 " Save all unsaved items, prompting for names for any new items that don't \n"
 "    have a filename already."
@@ -207,11 +207,11 @@ msgstr ""
 " Enregistrer tous les éléments non sauvegardés, demandant des noms\n"
 "   pour tous les nouveaux éléments qui n'ont pas déjà de noms de fichier."
 
-#: src/wingide/topcommands.py:510
+#: src/wingide/topcommands.py:513
 msgid " Check whether anything needs saving "
 msgstr " Vérifie si quelque chose a besoin d'être sauvegardé "
 
-#: src/wingide/topcommands.py:522
+#: src/wingide/topcommands.py:525
 msgid ""
 "Close active document.  Abandon any changes when ignore_changes is\n"
 "    True.  Close empty windows when close_window is true and quit if all\n"
@@ -223,16 +223,19 @@ msgstr ""
 "toutes les fenêtres\n"
 "    de documents sont fermées quand can_quit est Vrai."
 
-#: src/wingide/topcommands.py:541
+#: src/wingide/topcommands.py:545
+#, fuzzy
 msgid ""
 "Close all documents in the current window, or in all windows if in\n"
-"    one-window-per-editor windowing policy.  Leave currently visible\n"
-"    documents (or active window in one-window-per-editor-mode) if "
-"omit_current \n"
-"    is True.  Abandons changes rather than saving them when ignore_changes "
-"is True.\n"
-"    Close empty window and quit if all document windows closed when "
-"close_window is True."
+"    one-window-per-editor windowing policy. Leave currently visible "
+"documents (or active\n"
+"    window in one-window-per-editor-mode) if omit_current is True. Abandons "
+"changes rather\n"
+"    than saving them when ignore_changes is True. Close empty window and "
+"quit if all\n"
+"    document windows closed when close_window is True. Also closes "
+"documentation views,\n"
+"    unless include_help is set to False."
 msgstr ""
 "Ferme tous les documents dans la fenêtre actuelle, ou dans\n"
 "    toutes les fenêtres s'il y a la politique mode-une-fenêtre-par-éditeur.\n"
@@ -243,40 +246,40 @@ msgstr ""
 "    Fermez toute fenêtre vide et quittez si tous les fenêtres à documents \n"
 "    sont fermées quand fermer_fenêtres est sélectionné."
 
-#: src/wingide/topcommands.py:596
+#: src/wingide/topcommands.py:601
 msgid "Save active document.  Also close it if close is True."
 msgstr "Enregistre le document actif. Le ferme aussi si close est Vrai."
 
-#: src/wingide/topcommands.py:616
+#: src/wingide/topcommands.py:621
 msgid "Save active document to a new file"
 msgstr "Enregistrer le document actif dans un nouveau fichier"
 
-#: src/wingide/topcommands.py:628
+#: src/wingide/topcommands.py:633
 msgid "Save active document to a new file on a remote host"
 msgstr ""
 "Enregistrer le document actif dans un nouveau fichier sur un hôte distant"
 
-#: src/wingide/topcommands.py:648
+#: src/wingide/topcommands.py:653
 msgid "The location to write the file"
 msgstr "L'emplacement où écrire le fichier"
 
-#: src/wingide/topcommands.py:653
+#: src/wingide/topcommands.py:658
 msgid "Write file:"
 msgstr "Écrire le fichier :"
 
-#: src/wingide/topcommands.py:654
+#: src/wingide/topcommands.py:659
 msgid "First line to write or None for all"
 msgstr "Première ligne à écrire ou None pour toutes"
 
-#: src/wingide/topcommands.py:658
+#: src/wingide/topcommands.py:663
 msgid "Last line to write or None for all"
 msgstr "Dernière ligne à écrire ou None pour toutes"
 
-#: src/wingide/topcommands.py:662
+#: src/wingide/topcommands.py:667
 msgid "Set to False to keep the editor pointed at the old file"
 msgstr "Fixer à Faux pour garder l'éditeur pointé sur le vieux fichier"
 
-#: src/wingide/topcommands.py:671
+#: src/wingide/topcommands.py:676
 msgid ""
 "Write current file to a new location, optionally omitting all but the\n"
 "    lines in the given range. The editor is changed to point to the new\n"
@@ -287,11 +290,11 @@ msgid ""
 "    truncated to the given start/end lines when follow is True."
 msgstr ""
 
-#: src/wingide/topcommands.py:684 src/wingide/topcommands.py:823
+#: src/wingide/topcommands.py:689 src/wingide/topcommands.py:829
 msgid "Conflicting Filenames"
 msgstr "Noms de fichier en conflit"
 
-#: src/wingide/topcommands.py:685
+#: src/wingide/topcommands.py:690
 msgid ""
 "The file %s is open in another editor.  Please specify another file name to "
 "save to."
@@ -299,13 +302,13 @@ msgstr ""
 "Le fichier %s est ouvert dans un autre éditeur. Veuillez spécifier un "
 "nouveau nom de fichier pour les enregistrer."
 
-#: src/wingide/topcommands.py:687 src/wingide/topcommands.py:826
-#: src/wingide/topcommands.py:2248 src/wingide/topcommands.py:2261
-#: src/wingide/topcommands.py:2291 src/wingide/topcommands.py:2298
+#: src/wingide/topcommands.py:692 src/wingide/topcommands.py:832
+#: src/wingide/topcommands.py:2257 src/wingide/topcommands.py:2270
+#: src/wingide/topcommands.py:2300 src/wingide/topcommands.py:2307
 msgid "_OK"
 msgstr "_OK"
 
-#: src/wingide/topcommands.py:734
+#: src/wingide/topcommands.py:739
 msgid ""
 "Write current document to given location and close it.  Saves to current\n"
 "    file name if the given filename is None."
@@ -313,7 +316,7 @@ msgstr ""
 "Écrire le document actuel à l'emplacement donné et le fermer. Enregistre\n"
 "     le nom de fichier actuel si le nom de fichier donné est None."
 
-#: src/wingide/topcommands.py:748
+#: src/wingide/topcommands.py:754
 msgid ""
 "Write current document to given location only if it contains any changes and "
 "close it.\n"
@@ -324,28 +327,28 @@ msgstr ""
 "     modifications et le fermer. Écrit le nom de fichier actuel si le nom de "
 "fichier donné est None."
 
-#: src/wingide/topcommands.py:767
+#: src/wingide/topcommands.py:773
 msgid "The new filename for the file"
 msgstr "Le nouveau nom de fichier du fichier"
 
-#: src/wingide/topcommands.py:772
+#: src/wingide/topcommands.py:778
 msgid "Rename file:"
 msgstr "Renommer le fichier :"
 
-#: src/wingide/topcommands.py:777
+#: src/wingide/topcommands.py:783
 msgid " Rename current file, moving the file on disk if it exists. "
 msgstr ""
 " Renommer le fichier actuel, déplacer le fichier sur le disque si il existe. "
 
-#: src/wingide/topcommands.py:797
+#: src/wingide/topcommands.py:803
 msgid "Name of the new file"
 msgstr "Nom du nouveau fichier"
 
-#: src/wingide/topcommands.py:803
+#: src/wingide/topcommands.py:809
 msgid "New file:"
 msgstr "Nouveau fichier :"
 
-#: src/wingide/topcommands.py:811
+#: src/wingide/topcommands.py:817
 msgid ""
 "Create a new blank file on disk, open it in an editor, and add it \n"
 "    to the current project."
@@ -353,35 +356,35 @@ msgstr ""
 "Créer un nouveau fichier vierge sur le disque, l'ouvrir dans un éditeur,\n"
 "     et l'ajouter au projet en cours."
 
-#: src/wingide/topcommands.py:824
+#: src/wingide/topcommands.py:830
 msgid ""
 "The file %s is open in another editor.  Please choose another file name."
 msgstr ""
 "Le fichier %s est ouvert dans un autre éditeur. Veuillez choisir un autre "
 "nom de fichier."
 
-#: src/wingide/topcommands.py:852
+#: src/wingide/topcommands.py:858
 msgid "Name of the new directory"
 msgstr "Nom du nouveau répertoire"
 
-#: src/wingide/topcommands.py:859
+#: src/wingide/topcommands.py:865
 msgid "New directory:"
 msgstr "Nouveau répertoire :"
 
-#: src/wingide/topcommands.py:867
+#: src/wingide/topcommands.py:873
 msgid "Create a new directory on disk and add it to the current project."
 msgstr ""
 "Créer un nouveau répertoire sur le disque et l'ajouter au projet actuel."
 
-#: src/wingide/topcommands.py:907
+#: src/wingide/topcommands.py:913
 msgid "Name of the new package"
 msgstr "Nom du nouveau package"
 
-#: src/wingide/topcommands.py:913
+#: src/wingide/topcommands.py:919
 msgid "New package:"
 msgstr "Nouveau package :"
 
-#: src/wingide/topcommands.py:921
+#: src/wingide/topcommands.py:927
 msgid ""
 "Create a new Python package directory on disk, add it to the current "
 "project,\n"
@@ -390,7 +393,7 @@ msgstr ""
 "Créer un nouveau répertoire de package Python sur le disque, l'ajouter\n"
 "    au projet actuel et ouvrir le nouveau __init__.py dans l’éditeur."
 
-#: src/wingide/topcommands.py:931
+#: src/wingide/topcommands.py:937
 msgid ""
 "Abandon any changes in the current document and reload it from disk.\n"
 "    Prompts for user to confirm the operation unless either there are no\n"
@@ -402,38 +405,44 @@ msgstr ""
 "    qu'il n'y ait pas de modifications locales en cours d'abandon ou que \n"
 "    confirm soit affecté à Faux."
 
-#: src/wingide/topcommands.py:941
+#: src/wingide/topcommands.py:947
 msgid "Abandon Changes?"
 msgstr "Abandonner les changements ?"
 
-#: src/wingide/topcommands.py:942
+#: src/wingide/topcommands.py:949
+msgid ""
+"This file no longer exists on disk.  Are you sure you want to abandon "
+"changes?"
+msgstr ""
+
+#: src/wingide/topcommands.py:951
 msgid ""
 "Do you really want to abandon your changes and reread this file from disk?"
 msgstr ""
 "Voulez vous vraiment abandonner vos modifications et relire ce fichier "
 "depuis le disque ?"
 
-#: src/wingide/topcommands.py:944
+#: src/wingide/topcommands.py:953
 msgid "_Abandon Changes"
 msgstr "_Abandonner les modifications"
 
-#: src/wingide/topcommands.py:945
+#: src/wingide/topcommands.py:954
 msgid "_Cancel"
 msgstr "Annuler"
 
-#: src/wingide/topcommands.py:954
+#: src/wingide/topcommands.py:963
 msgid " Return arg info sequence for switch-document command. "
 msgstr " Retourne la séquence arg info pour la commande échanger-document. "
 
-#: src/wingide/topcommands.py:968
+#: src/wingide/topcommands.py:977
 msgid "Document to switch to"
 msgstr "Document à échanger vers"
 
-#: src/wingide/topcommands.py:974
+#: src/wingide/topcommands.py:983
 msgid "Switch to document:"
 msgstr "Échanger le document :"
 
-#: src/wingide/topcommands.py:979
+#: src/wingide/topcommands.py:988
 msgid ""
 " Switches to named document.  Name may either be the complete name\n"
 "    or the last path component of a path name. "
@@ -441,7 +450,7 @@ msgstr ""
 "  Bascule au document nommé. Le nom peut être soit un nom complet\n"
 "    ou le dernier composant d'un chemin. "
 
-#: src/wingide/topcommands.py:1009
+#: src/wingide/topcommands.py:1018
 msgid ""
 "Open document from the project via the Open From Project dialog.\n"
 "    The given fragment is used as the initial fragment filter and if it\n"
@@ -450,7 +459,7 @@ msgid ""
 "    displayed if only one filename matches the fragment. "
 msgstr ""
 
-#: src/wingide/topcommands.py:1024
+#: src/wingide/topcommands.py:1033
 msgid ""
 " Start moving between documents in the order they were visited.  Starts\n"
 "    modal key interaction that ends when a key other than tab is seen or "
@@ -461,7 +470,7 @@ msgstr ""
 "    visités. Démarre une interaction de touche modale qui termine quand \n"
 "    une touche autre que la tabulation est vue ou que ctrl est relâché. "
 
-#: src/wingide/topcommands.py:1078
+#: src/wingide/topcommands.py:1087
 msgid ""
 "Move to the next document alphabetically in the list of documents\n"
 "    open in the current window"
@@ -469,7 +478,7 @@ msgstr ""
 "Se déplacer au document suivant dans l'ordre alphabétique dans la\n"
 "    liste des documents ouverts dans la fenêtre actuelle"
 
-#: src/wingide/topcommands.py:1126
+#: src/wingide/topcommands.py:1135
 msgid ""
 "Move to the previous document alphabetically in the list of documents\n"
 "    open in the current window"
@@ -477,7 +486,7 @@ msgstr ""
 "Se déplacer au document précédent dans l'ordre alphabétique dans la\n"
 "    liste des documents ouverts dans la fenêtre actuelle"
 
-#: src/wingide/topcommands.py:1161
+#: src/wingide/topcommands.py:1170
 msgid ""
 "Move to the nth document alphabetically in the list of documents\n"
 "    open in the current window"
@@ -485,7 +494,7 @@ msgstr ""
 "Se déplacer au n ème document alphabétiquement dans la liste de documents\n"
 "    ouvrir dans la fenêtre actuelle"
 
-#: src/wingide/topcommands.py:1182
+#: src/wingide/topcommands.py:1191
 msgid ""
 "Switches to previous document most recently visited in the current window\n"
 "    or window set if in one-window-per-editor windowing mode."
@@ -493,15 +502,15 @@ msgstr ""
 "Passer au document précédent le plus récemment ouvert dans la fenêtre\n"
 "    actuelle ou groupement de fenêtre en mode une-fenêtre-par-éditeur."
 
-#: src/wingide/topcommands.py:1194
+#: src/wingide/topcommands.py:1203
 msgid "Switch to the next window alphabetically by title"
 msgstr "Passer à la fenêtre suivante dans l'ordre alphabétique des titres"
 
-#: src/wingide/topcommands.py:1211
+#: src/wingide/topcommands.py:1220
 msgid "Switch to the previous window alphabetically by title"
 msgstr "Passer à la fenêtre précédente dans l'ordre alphabétique des titres"
 
-#: src/wingide/topcommands.py:1226
+#: src/wingide/topcommands.py:1235
 msgid ""
 "Get list of (title, window) sorted alphabetically by title and\n"
 "    current window"
@@ -509,7 +518,7 @@ msgstr ""
 "Récupérer la liste des (titre, fenêtre) triée alphabétiquement\n"
 "    par titre et fenêtre actuelle"
 
-#: src/wingide/topcommands.py:1238
+#: src/wingide/topcommands.py:1247
 msgid ""
 "Get the active multieditor in the given window (most recent window if\n"
 "    wnd==None)."
@@ -517,7 +526,7 @@ msgstr ""
 "Récupérer le multi-éditeur actif dans la fenêtre donnée (La fenêtre la\n"
 "    plus récente si wnd==None)."
 
-#: src/wingide/topcommands.py:1258
+#: src/wingide/topcommands.py:1267
 msgid ""
 "Get the list of (wnd, multi, loc, panel_instance) for all editors in\n"
 "    the given windows (None is current window / window set). The returned "
@@ -531,29 +540,29 @@ msgstr ""
 "    visite avec n'importe quel document non encore visité qui est \n"
 "    ajouté à la fin."
 
-#: src/wingide/topcommands.py:1352
+#: src/wingide/topcommands.py:1361
 msgid "Name of the command to execute"
 msgstr "Nom de la commande à exécuter"
 
-#: src/wingide/topcommands.py:1355
+#: src/wingide/topcommands.py:1364
 msgid "Command"
 msgstr "Commande"
 
-#: src/wingide/topcommands.py:1360
+#: src/wingide/topcommands.py:1369
 msgid " Execute given command by name, collecting any args as needed "
 msgstr ""
 " Exécute la commande donnée par son nom en collectant tous les arguments "
 "nécessaires "
 
-#: src/wingide/topcommands.py:1365
+#: src/wingide/topcommands.py:1374
 msgid "Cannot parse command name: %s"
 msgstr "Impossible d’analyser le nom de la commande : %s"
 
-#: src/wingide/topcommands.py:1372
+#: src/wingide/topcommands.py:1381
 msgid "Command not found: %s"
 msgstr "Commande non trouvée : %s"
 
-#: src/wingide/topcommands.py:1388
+#: src/wingide/topcommands.py:1397
 msgid ""
 "Force reload of all scripts, from all configured script directories.\n"
 "    This is usually only needed when adding a new script file.  Existing\n"
@@ -564,15 +573,15 @@ msgstr ""
 "    de l'ajout d'un nouveau fichier de script. Les scripts existant sont \n"
 "    automatiquement rechargé lorsqu'il sont modifiés sur le disque."
 
-#: src/wingide/topcommands.py:1397
+#: src/wingide/topcommands.py:1406
 msgid " Display interactive tip manager "
 msgstr " Afficher la gestion des conseils interactifs "
 
-#: src/wingide/topcommands.py:1403
+#: src/wingide/topcommands.py:1412
 msgid " Show the HTML version of the Wing users manual "
 msgstr " Afficher la version HTML du manuel de l'utilisateur de Wing "
 
-#: src/wingide/topcommands.py:1408
+#: src/wingide/topcommands.py:1417
 msgid ""
 " Show the PDF version of the Wing users manual for either\n"
 "    US Letter or A4, depending on user's print locale "
@@ -581,52 +590,52 @@ msgstr ""
 "    aussi bien US Letter que A4, en fonction de la locale \n"
 "    d'impression de l'utilisateur "
 
-#: src/wingide/topcommands.py:1414
+#: src/wingide/topcommands.py:1423
 msgid " Show the Python users manual "
 msgstr " Afficher le manuel utilisateur de Python "
 
-#: src/wingide/topcommands.py:1420
+#: src/wingide/topcommands.py:1429
 msgid " Show the Wingware home page "
 msgstr " Afficher la page d'accueil de Wingware "
 
-#: src/wingide/topcommands.py:1423
+#: src/wingide/topcommands.py:1432
 msgid " Show the Wingware store for purchasing a license "
 msgstr " Afficher le magasin Wingware pour acheter une licence "
 
-#: src/wingide/topcommands.py:1426
+#: src/wingide/topcommands.py:1435
 #, fuzzy
 msgid " Show the contributed materials area "
 msgstr " Afficher la page d'accueil du site python.org"
 
-#: src/wingide/topcommands.py:1429
+#: src/wingide/topcommands.py:1438
 msgid " Show the Wing Q&A site "
 msgstr " Afficher le site de Questions/Réponses de Wing "
 
-#: src/wingide/topcommands.py:1432
+#: src/wingide/topcommands.py:1441
 msgid " Show the Wing support site home page "
 msgstr " Afficher la page d'accueil du site de support de Wing "
 
-#: src/wingide/topcommands.py:1435
+#: src/wingide/topcommands.py:1444
 msgid " Show the Python Success Stories page"
 msgstr " Afficher la page d'histoires à succès de Python"
 
-#: src/wingide/topcommands.py:1438
+#: src/wingide/topcommands.py:1447
 msgid " Show the python.org site home page "
 msgstr " Afficher la page d'accueil du site python.org "
 
-#: src/wingide/topcommands.py:1441
+#: src/wingide/topcommands.py:1450
 msgid " Show the python.org site search page "
 msgstr " Afficher la page de recherche du site python.org "
 
-#: src/wingide/topcommands.py:1444
+#: src/wingide/topcommands.py:1453
 msgid " Show the Python for Beginners web page "
 msgstr " Afficher la page internet de Python pour les débutants "
 
-#: src/wingide/topcommands.py:1447
+#: src/wingide/topcommands.py:1456
 msgid " Show the Python donations web page "
 msgstr " Afficher la page internet des donations Python "
 
-#: src/wingide/topcommands.py:1452
+#: src/wingide/topcommands.py:1461
 #, fuzzy
 msgid ""
 "Show most recently visited panel instance of given type. If no such\n"
@@ -716,11 +725,11 @@ msgstr ""
 "    \n"
 "    "
 
-#: src/wingide/topcommands.py:1508
+#: src/wingide/topcommands.py:1517
 msgid "Panel Type"
 msgstr "Type de panneau"
 
-#: src/wingide/topcommands.py:1647
+#: src/wingide/topcommands.py:1656
 msgid ""
 " Edit the preferences file using the preferences GUI, optionally\n"
 "    opening to the section that contains the given preference by name "
@@ -729,22 +738,22 @@ msgstr ""
 "     utilisateur graphique, optionellement en ouvrant à la section qui \n"
 "     contient la préférence donnée par nom "
 
-#: src/wingide/topcommands.py:1654
+#: src/wingide/topcommands.py:1663
 msgid " Show the plugins GUI for enabling and disabling plugins "
 msgstr ""
 " Afficher les plugins d'interface graphique utilisateur pour activer et "
 "désactiver les plugins "
 
-#: src/wingide/topcommands.py:1660
+#: src/wingide/topcommands.py:1669
 msgid " Edit the preferences as a text file "
 msgstr " Éditer les préférences comme un fichier texte "
 
-#: src/wingide/topcommands.py:1670 src/wingide/topcommands.py:1676
-#: src/wingide/topcommands.py:1682 src/wingide/topcommands.py:1688
-#: src/wingide/topcommands.py:1694 src/wingide/topcommands.py:1700
-#: src/wingide/topcommands.py:1706 src/wingide/topcommands.py:1712
-#: src/wingide/topcommands.py:1718 src/wingide/topcommands.py:1724
-#: src/wingide/topcommands.py:1730
+#: src/wingide/topcommands.py:1679 src/wingide/topcommands.py:1685
+#: src/wingide/topcommands.py:1691 src/wingide/topcommands.py:1697
+#: src/wingide/topcommands.py:1703 src/wingide/topcommands.py:1709
+#: src/wingide/topcommands.py:1715 src/wingide/topcommands.py:1721
+#: src/wingide/topcommands.py:1727 src/wingide/topcommands.py:1733
+#: src/wingide/topcommands.py:1739
 msgid ""
 " Enter a sequence of digits indicating number of times to repeat\n"
 "    the subsequent command or keystroke. "
@@ -752,24 +761,24 @@ msgstr ""
 " Entrer une séquence de chiffres indiquant le nombre de fois à \n"
 "     répéter la commande à venir ou la frappe du clavier. "
 
-#: src/wingide/topcommands.py:1737
+#: src/wingide/topcommands.py:1746
 msgid "VI style repeat/numeric modifier for following command"
 msgstr "Style VI du modifieur répéter/numérique pour la commande suivante"
 
-#: src/wingide/topcommands.py:1743
+#: src/wingide/topcommands.py:1752
 msgid "Show the line numbers in editors"
 msgstr "Afficher les numéros de lignes dans les éditeurs"
 
-#: src/wingide/topcommands.py:1755
+#: src/wingide/topcommands.py:1764
 msgid "Hide line numbers in editors"
 msgstr "Masquer les numéros de lignes dans les éditeurs"
 
-#: src/wingide/topcommands.py:1761
+#: src/wingide/topcommands.py:1770
 #, fuzzy
 msgid "Toggle whether or not line numbers are shown in editors"
 msgstr "Afficher les numéros de lignes dans les éditeurs"
 
-#: src/wingide/topcommands.py:1766
+#: src/wingide/topcommands.py:1775
 msgid ""
 " Execute the file at the given location or use the active view\n"
 "    if loc is None. "
@@ -777,7 +786,7 @@ msgstr ""
 " Exécuter le fichier à l'emplacement donné ou utiliser la vue \n"
 "     active si loc est None. "
 
-#: src/wingide/topcommands.py:1792
+#: src/wingide/topcommands.py:1801
 msgid ""
 "Execute the given command line in the OS Commands tool using default run \n"
 "    directory and environment as defined in project properties, or the "
@@ -792,7 +801,7 @@ msgstr ""
 "    commande existante avec la même ligne de commande dans l'outil \n"
 "    Commandes de l’OS."
 
-#: src/wingide/topcommands.py:1812
+#: src/wingide/topcommands.py:1821
 msgid ""
 "Execute one of the stored commands in the OS Commands tool, selecting it by "
 "its\n"
@@ -801,19 +810,19 @@ msgstr ""
 "Exécute une des commandes stockées dans l'outil Commandes de l’OS, la \n"
 "    sélectionnant par son titre"
 
-#: src/wingide/topcommands.py:1841 src/wingide/topcommands.py:1884
+#: src/wingide/topcommands.py:1850 src/wingide/topcommands.py:1893
 msgid "Title"
 msgstr "Titre"
 
-#: src/wingide/topcommands.py:1843 src/wingide/topcommands.py:1886
+#: src/wingide/topcommands.py:1852 src/wingide/topcommands.py:1895
 msgid "Title:"
 msgstr "Titre :"
 
-#: src/wingide/topcommands.py:1844 src/wingide/topcommands.py:1846
+#: src/wingide/topcommands.py:1853 src/wingide/topcommands.py:1855
 msgid "Show console"
 msgstr "Afficher la console"
 
-#: src/wingide/topcommands.py:1850
+#: src/wingide/topcommands.py:1859
 msgid ""
 " Terminate one of the stored commands in the OS Commands tool,\n"
 "    selecting it by its title"
@@ -821,14 +830,14 @@ msgstr ""
 " Exécute une des commandes stockées dans l'outil Commandes de l’OS, la \n"
 "    sélectionnant par son titre"
 
-#: src/wingide/topcommands.py:1889
+#: src/wingide/topcommands.py:1898
 msgid ""
 " Find cmd and a view given a title or cmd_id.  Only creates a\n"
 "    view if create_view is true so creation can be avoided when testing\n"
 "    for things that must have an existing view. "
 msgstr ""
 
-#: src/wingide/topcommands.py:1917
+#: src/wingide/topcommands.py:1926
 msgid ""
 "Execute one of the stored commands in the OS Commands tool, selecting it by "
 "its\n"
@@ -837,11 +846,11 @@ msgstr ""
 "Exécute une des commandes stockées dans l'outil Commandes de l’OS, la \n"
 "    sélectionnant par son ID interne"
 
-#: src/wingide/topcommands.py:1928
+#: src/wingide/topcommands.py:1937
 msgid "Start a terminal in the OS Commands tool"
 msgstr ""
 
-#: src/wingide/topcommands.py:1941
+#: src/wingide/topcommands.py:1950
 msgid ""
 "Show the selected file in the Explorer, Finder, or other OS-provided\n"
 "    file manager.  Shows the given file, if any, or the current file "
@@ -853,31 +862,31 @@ msgstr ""
 "existant,\n"
 "    ou le fichier courant sélectionné dans l'Interface utilisateur."
 
-#: src/wingide/topcommands.py:1965
+#: src/wingide/topcommands.py:1974
 msgid "Show the given documentation section"
 msgstr "Afficher la section de la documentation concernée"
 
-#: src/wingide/topcommands.py:1970
+#: src/wingide/topcommands.py:1979
 msgid "Show the tutorial"
 msgstr "Afficher le tutoriel"
 
-#: src/wingide/topcommands.py:1974
+#: src/wingide/topcommands.py:1983
 msgid "Show the quick start guide"
 msgstr "Afficher le guide de démarrage rapide"
 
-#: src/wingide/topcommands.py:1978
+#: src/wingide/topcommands.py:1987
 msgid "Show the How-Tos index"
 msgstr "Afficher l'index des guides pratiques"
 
-#: src/wingide/topcommands.py:1982
+#: src/wingide/topcommands.py:1991
 msgid "Show the Wing Tips window"
 msgstr "Afficher la fenêtre des conseils Wing"
 
-#: src/wingide/topcommands.py:2004
+#: src/wingide/topcommands.py:2013
 msgid "Show the given document section in HTML format."
 msgstr "Afficher la section de la documentation concernée en format HTML."
 
-#: src/wingide/topcommands.py:2026
+#: src/wingide/topcommands.py:2035
 msgid ""
 "Search using given text and the toolbar search area.  The search\n"
 "    is always forward from the current cursor or selection position"
@@ -886,44 +895,44 @@ msgstr ""
 "     barre d'outil. La recherche est toujours en avant depuis l'emplacement\n"
 "     actuel du curseur ou de la position de la sélection"
 
-#: src/wingide/topcommands.py:2088
+#: src/wingide/topcommands.py:2097
 msgid "Search successful (wrapped)"
 msgstr "Recherche réussie (passage à la ligne)"
 
-#: src/wingide/topcommands.py:2093
+#: src/wingide/topcommands.py:2102
 msgid "No search match"
 msgstr "Aucune recherche ne correspond"
 
-#: src/wingide/topcommands.py:2100
+#: src/wingide/topcommands.py:2109
 msgid "Search successful"
 msgstr "Recherche réussie"
 
-#: src/wingide/topcommands.py:2115
+#: src/wingide/topcommands.py:2124
 msgid "Move to next match of text already entered in the toolbar search area"
 msgstr ""
 "Se déplacer vers la correspondance suivante du texte déjà rentré dans la "
 "zone de recherche de la barre d'outil"
 
-#: src/wingide/topcommands.py:2124
+#: src/wingide/topcommands.py:2133
 msgid ""
 "Move to previous match of text already entered in the toolbar search area"
 msgstr ""
 "Se déplacer vers la correspondance précédente du texte déjà entré dans la "
 "zone de recherche de la barre d'outil"
 
-#: src/wingide/topcommands.py:2133
+#: src/wingide/topcommands.py:2142
 msgid " Move focus to toolbar search entry. "
 msgstr " Déplacer le focus vers l'entrée de la barre de recherche. "
 
-#: src/wingide/topcommands.py:2152
+#: src/wingide/topcommands.py:2161
 msgid "Show the feedback submission dialog"
 msgstr "Afficher la boite de dialogue d'envoi de retour d'expériences"
 
-#: src/wingide/topcommands.py:2157
+#: src/wingide/topcommands.py:2166
 msgid "Show the bug reporting dialog"
 msgstr "Afficher la boite de dialogue de rapport de bug"
 
-#: src/wingide/topcommands.py:2162
+#: src/wingide/topcommands.py:2171
 msgid ""
 "Check for updates to Wing and offer to install any that are\n"
 "    available"
@@ -931,52 +940,52 @@ msgstr ""
 "Vérifier les mises a jour Wing et propose de les installer\n"
 "    si il y en a de disponibles"
 
-#: src/wingide/topcommands.py:2168
+#: src/wingide/topcommands.py:2177
 msgid "Apply a manually downloaded update"
 msgstr "Appliquer une mise-à-jour téléchargée manuellement"
 
-#: src/wingide/topcommands.py:2173
+#: src/wingide/topcommands.py:2182
 msgid ""
 "Validate the Wing installation, checking that all files are present\n"
 "    and have the expected contents"
 msgstr ""
 
-#: src/wingide/topcommands.py:2184
+#: src/wingide/topcommands.py:2193
 msgid "Checking Installation"
 msgstr "Vérification de l’installation"
 
-#: src/wingide/topcommands.py:2185 src/wingide/topcommands.py:2188
+#: src/wingide/topcommands.py:2194 src/wingide/topcommands.py:2197
 msgid "Reading Catalog"
 msgstr "Lecture du catalogue"
 
-#: src/wingide/topcommands.py:2193
+#: src/wingide/topcommands.py:2202
 msgid "Scanned %i of %i files"
 msgstr "%i fichiers scannés sur %i"
 
-#: src/wingide/topcommands.py:2207
+#: src/wingide/topcommands.py:2216
 msgid "Installation is Valid"
 msgstr "L'installation est valide"
 
-#: src/wingide/topcommands.py:2208
+#: src/wingide/topcommands.py:2217
 msgid "No problems were found with your installation of Wing %s version %s"
 msgstr ""
 "Aucun problème n'a été trouvé avec votre installation de Wing %s version %s"
 
-#: src/wingide/topcommands.py:2211
+#: src/wingide/topcommands.py:2220
 msgid "Installation Problems Found"
 msgstr "Problèmes d'installation trouvés"
 
-#: src/wingide/topcommands.py:2212
+#: src/wingide/topcommands.py:2221
 msgid ""
 "The following errors where found with your installation of Wing %s version "
 "%s:"
 msgstr ""
 
-#: src/wingide/topcommands.py:2217
+#: src/wingide/topcommands.py:2226
 msgid "OK"
 msgstr "OK"
 
-#: src/wingide/topcommands.py:2222
+#: src/wingide/topcommands.py:2231
 msgid ""
 "Prompt user and copy the tutorial directory from the Wing \n"
 "    installation to the directory selected by the user"
@@ -985,20 +994,20 @@ msgstr ""
 "      l'installation de Wing vers le répertoire sélectionné par \n"
 "      l'utilisateur"
 
-#: src/wingide/topcommands.py:2231 src/wingide/topcommands.py:2245
-#: src/wingide/topcommands.py:2259 src/wingide/topcommands.py:2289
+#: src/wingide/topcommands.py:2240 src/wingide/topcommands.py:2254
+#: src/wingide/topcommands.py:2268 src/wingide/topcommands.py:2298
 msgid "Could not copy tutorial"
 msgstr "N'a pas pu copié le tutoriel"
 
-#: src/wingide/topcommands.py:2232
+#: src/wingide/topcommands.py:2241
 msgid "No valid directory was selected."
 msgstr "Aucun répertoire valide n'a été sélectionné."
 
-#: src/wingide/topcommands.py:2243
+#: src/wingide/topcommands.py:2252
 msgid "tutorial"
 msgstr "tutoriel"
 
-#: src/wingide/topcommands.py:2246
+#: src/wingide/topcommands.py:2255
 msgid ""
 "A non-empty directory %s already exists.  Please remove it  or select "
 "another location."
@@ -1006,13 +1015,13 @@ msgstr ""
 "Un répertoire non vide %s existe déjà. Veuillez le retirer ou sélectionner "
 "un autre emplacement."
 
-#: src/wingide/topcommands.py:2260
+#: src/wingide/topcommands.py:2269
 msgid "Unable to create directory %s.  Please check disk permissions."
 msgstr ""
 "Incapable de créer le répertoire %s. Veuillez vérifier les permissions du "
 "disque."
 
-#: src/wingide/topcommands.py:2290
+#: src/wingide/topcommands.py:2299
 msgid ""
 "Unable to copy all of directory %s.  Please check disk permissions and free "
 "space."
@@ -1020,34 +1029,34 @@ msgstr ""
 "N’a pas réussi à copier tout le répertoire %s. Veuillez vérifier les "
 "permissions du disque et l’espace libre."
 
-#: src/wingide/topcommands.py:2296
+#: src/wingide/topcommands.py:2305
 msgid "Tutorial copied"
 msgstr "Tutoriel copié"
 
-#: src/wingide/topcommands.py:2297
+#: src/wingide/topcommands.py:2306
 msgid "Tutorial was copied to %s"
 msgstr "Le tutoriel a été copié vers %s"
 
-#: src/wingide/topcommands.py:2303
+#: src/wingide/topcommands.py:2312
 msgid "Choose Target Folder"
 msgstr "Choisissez le répertoire cible"
 
-#: src/wingide/topcommands.py:2304
+#: src/wingide/topcommands.py:2313
 msgid "Please select a target folder to which to copy the tutorial files"
 msgstr ""
 "Veuillez sélectionner le répertoire cible où copier les fichiers du tutoriel"
 
-#: src/wingide/topcommands.py:2313
+#: src/wingide/topcommands.py:2322
 msgid "Show the contents of all non-empty text registers in a temporary editor"
 msgstr ""
 "Afficher les contenus de tous les registres non-vides de texte dans un "
 "éditeur temporaire"
 
-#: src/wingide/topcommands.py:2320
+#: src/wingide/topcommands.py:2329
 msgid "Utility to get current editor"
 msgstr "Utilitaire pour obtenir l'éditeur actuel"
 
-#: src/wingide/topcommands.py:2329
+#: src/wingide/topcommands.py:2338
 #, fuzzy
 msgid ""
 "Set a bookmark at current location on the editor. Mark is the project-wide "
@@ -1057,19 +1066,19 @@ msgid ""
 "    are left blank."
 msgstr "Établir un signet à l'emplacement actuel dans l'éditeur. ???"
 
-#: src/wingide/topcommands.py:2334
+#: src/wingide/topcommands.py:2343
 msgid "Set Named Bookmark"
 msgstr "Affecter un signet nommé"
 
-#: src/wingide/topcommands.py:2352
+#: src/wingide/topcommands.py:2361
 msgid "The project-wide name of the bookmark to set or replace."
 msgstr "Le nom de l'ensemble du projet du signet à établir ou remplacer."
 
-#: src/wingide/topcommands.py:2354
+#: src/wingide/topcommands.py:2363
 msgid "Name:"
 msgstr "Nom :"
 
-#: src/wingide/topcommands.py:2359
+#: src/wingide/topcommands.py:2368
 msgid ""
 "Set a bookmark at the current location on the editor using a dialog to set "
 "the\n"
@@ -1078,7 +1087,7 @@ msgid ""
 "    location, and default category is set to the current bookmark category."
 msgstr ""
 
-#: src/wingide/topcommands.py:2368
+#: src/wingide/topcommands.py:2377
 msgid ""
 "Set a bookmark at the clicked location on the editor using a dialog to set "
 "the\n"
@@ -1087,7 +1096,7 @@ msgid ""
 "    location, and default category is set to the current bookmark category."
 msgstr ""
 
-#: src/wingide/topcommands.py:2382
+#: src/wingide/topcommands.py:2391
 #, fuzzy
 msgid ""
 "Set or remove a bookmark at current location on the editor. When set, the "
@@ -1101,7 +1110,7 @@ msgstr ""
 "Établir ou retirer un signet à l'emplacement actuel dans l'éditeur. \n"
 "    Lorsqu'établi, le nom du signet est auto-généré par défaut."
 
-#: src/wingide/topcommands.py:2395
+#: src/wingide/topcommands.py:2404
 #, fuzzy
 msgid ""
 "Set or remove a bookmark at the position in the editor where the most recent "
@@ -1118,13 +1127,13 @@ msgstr ""
 "automatiquement\n"
 "   par défaut."
 
-#: src/wingide/topcommands.py:2405
+#: src/wingide/topcommands.py:2414
 msgid ""
 "Remove the given named bookmark, optionally confirming the removal with the "
 "user."
 msgstr ""
 
-#: src/wingide/topcommands.py:2414
+#: src/wingide/topcommands.py:2423
 #, fuzzy
 msgid ""
 "Set a bookmark at current line, using a default bookmark name for that "
@@ -1140,7 +1149,7 @@ msgstr ""
 "    Cette commande est seulement disponible si il n'y a pas déjà de signet "
 "sur la ligne."
 
-#: src/wingide/topcommands.py:2430
+#: src/wingide/topcommands.py:2439
 msgid ""
 "Remove bookmark at current line, if any. This command is only available if "
 "there is a\n"
@@ -1150,23 +1159,23 @@ msgstr ""
 "seulement\n"
 "    disponible si il y a un signet sur la ligne."
 
-#: src/wingide/topcommands.py:2444
+#: src/wingide/topcommands.py:2453
 msgid "Edit the defined bookmark categories"
 msgstr ""
 
-#: src/wingide/topcommands.py:2449
+#: src/wingide/topcommands.py:2458
 msgid "Goto named bookmark"
 msgstr "Aller au signet nommé"
 
-#: src/wingide/topcommands.py:2463
+#: src/wingide/topcommands.py:2472
 msgid "Bookmark"
 msgstr "Signet"
 
-#: src/wingide/topcommands.py:2465
+#: src/wingide/topcommands.py:2474
 msgid "Bookmark:"
 msgstr "Signet :"
 
-#: src/wingide/topcommands.py:2470
+#: src/wingide/topcommands.py:2479
 #, fuzzy
 msgid ""
 "Go to the next bookmark, or the first one if no bookmark is selected. Stays "
@@ -1179,7 +1188,7 @@ msgstr ""
 "    Reste dans le fichier de l'éditeur actuel quand current_file_only est "
 "Vrai."
 
-#: src/wingide/topcommands.py:2480
+#: src/wingide/topcommands.py:2489
 #, fuzzy
 msgid ""
 "Go to the previous bookmark in the bookmark list, or the last one if no "
@@ -1194,59 +1203,59 @@ msgstr ""
 "    si aucun signet n'est sélectionné. Reste dans le fichier de \n"
 "    l'éditeur actuel quand current_file_only est Vrai."
 
-#: src/wingide/topcommands.py:2491
+#: src/wingide/topcommands.py:2500
 msgid "Show a list of all currently defined bookmarks"
 msgstr "Afficher une liste de tous les signets actuellement définis"
 
-#: src/wingide/topcommands.py:2497
+#: src/wingide/topcommands.py:2506
 msgid "Export all bookmark categories"
 msgstr ""
 
-#: src/wingide/topcommands.py:2506
+#: src/wingide/topcommands.py:2515
 #, fuzzy
 msgid "The location to export the bookmark categories"
 msgstr "L'emplacement où écrire le fichier"
 
-#: src/wingide/topcommands.py:2511
+#: src/wingide/topcommands.py:2520
 msgid "Export File:"
 msgstr "Exporter le fichier :"
 
-#: src/wingide/topcommands.py:2519
+#: src/wingide/topcommands.py:2528
 #, fuzzy
 msgid "Import bookmark categories"
 msgstr "Pas de signet défini"
 
-#: src/wingide/topcommands.py:2528
+#: src/wingide/topcommands.py:2537
 msgid "The exported bookmark categories to read"
 msgstr ""
 
-#: src/wingide/topcommands.py:2533
+#: src/wingide/topcommands.py:2542
 msgid "Import File:"
 msgstr "Importer le fichier :"
 
-#: src/wingide/topcommands.py:2540
+#: src/wingide/topcommands.py:2549
 msgid " Returns list of menu items for selecting among defined bookmarks "
 msgstr ""
 " Retourne une liste d'éléments du menu pour sélectionner parmi les signets "
 "définis"
 
-#: src/wingide/topcommands.py:2552
+#: src/wingide/topcommands.py:2561
 #, fuzzy
 msgid "No matching bookmarks defined"
 msgstr "Pas de signet défini"
 
-#: src/wingide/topcommands.py:2562
+#: src/wingide/topcommands.py:2571
 #, fuzzy
 msgid " Returns list of menu items for selecting bookmark category "
 msgstr ""
 " Retourne une liste d'éléments du menu pour sélectionner la personnalité du "
 "clavier"
 
-#: src/wingide/topcommands.py:2573
+#: src/wingide/topcommands.py:2582
 msgid "Current Bookmark Category"
 msgstr ""
 
-#: src/wingide/topcommands.py:2584
+#: src/wingide/topcommands.py:2593
 msgid ""
 "Set a bookmark at current location on the editor using the next\n"
 "    key press as the name of the bookmark."
@@ -1255,7 +1264,7 @@ msgstr ""
 "      en utilisant la prochaine pression de touche comme\n"
 "      le nom du signet."
 
-#: src/wingide/topcommands.py:2593
+#: src/wingide/topcommands.py:2602
 msgid ""
 "Goto bookmark using single character name defined by\n"
 "    the next pressed key"
@@ -1263,13 +1272,13 @@ msgstr ""
 "Aller au signet en utilisant un seul nom de caractère\n"
 "    défini par la prochaine touche pressée"
 
-#: src/wingide/topcommands.py:2606
+#: src/wingide/topcommands.py:2615
 msgid ""
 "Remove one or more bookmarks without confirmation (pass in space separated "
 "list of names)"
 msgstr ""
 
-#: src/wingide/topcommands.py:2611
+#: src/wingide/topcommands.py:2620
 msgid ""
 "Go to the definition of the given symbol, working from the given scope. If "
 "symbol\n"
@@ -1298,11 +1307,11 @@ msgid ""
 "    be used is determined by the Split Reuse Policy preference value.."
 msgstr ""
 
-#: src/wingide/topcommands.py:2667
+#: src/wingide/topcommands.py:2676
 msgid "Could not find definition for %s"
 msgstr ""
 
-#: src/wingide/topcommands.py:2670
+#: src/wingide/topcommands.py:2679
 msgid ""
 " Start internal profiling.  Profile information is collected for Wing's\n"
 "    internals until internal_profile_stop is executed.  If the print_freq "
@@ -1311,7 +1320,7 @@ msgid ""
 "    print_top_n arg specifies the number of top functions to print. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2730
+#: src/wingide/topcommands.py:2739
 msgid ""
 " Stop internal profiling after earlier internal_profile_start command.\n"
 "    The profile can be found in the ide.log file or submitted to Wingware "
@@ -1319,119 +1328,127 @@ msgid ""
 "    part of the error log included with a bug report from the Help menu. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2744
+#: src/wingide/topcommands.py:2753
 msgid " Start logging information about keystroke processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2749
+#: src/wingide/topcommands.py:2758
 msgid " Stop logging information about keystroke processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2754
+#: src/wingide/topcommands.py:2763
 msgid " Start logging information about tooltip processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2759
+#: src/wingide/topcommands.py:2768
 msgid " Stop logging information about tooltip processing to ide.log "
 msgstr ""
 
-#: src/wingide/topcommands.py:2764
+#: src/wingide/topcommands.py:2773
+msgid " Start logging information about the internal subsystem to ide.log "
+msgstr ""
+
+#: src/wingide/topcommands.py:2781
+msgid " Stop logging information about the internal subsystem to ide.log "
+msgstr ""
+
+#: src/wingide/topcommands.py:2789
 msgid "Restore the given named perspective."
 msgstr "Restaurer la perspective nommée donnée."
 
-#: src/wingide/topcommands.py:2767 src/wingide/topcommands.py:2782
+#: src/wingide/topcommands.py:2792 src/wingide/topcommands.py:2807
 msgid "Invalid Perspective::The perspective '%s' does not exist"
 msgstr "Perspective invalide::La perspective '%s' n'existe pas"
 
-#: src/wingide/topcommands.py:2774
+#: src/wingide/topcommands.py:2799
 msgid ""
 " Update the perspective with the current state.  If no name is given,\n"
 "    the active perspective is used. "
 msgstr ""
 
-#: src/wingide/topcommands.py:2791
+#: src/wingide/topcommands.py:2816
 msgid "Display the perspectives manager dialog"
 msgstr "Afficher la boîte de dialogue du gestionnaire de perspectives"
 
-#: src/wingide/topcommands.py:2798
+#: src/wingide/topcommands.py:2823
 msgid "Enable auto-perspectives"
 msgstr "Activer les auto-perspectives"
 
-#: src/wingide/topcommands.py:2810
+#: src/wingide/topcommands.py:2835
 msgid "Disable auto-perspectives"
 msgstr "Désactiver les auto-perspectives"
 
-#: src/wingide/topcommands.py:2822
+#: src/wingide/topcommands.py:2847
 msgid "Load the given named file set"
 msgstr "Charge l’ensemble de fichiers nommé donné"
 
-#: src/wingide/topcommands.py:2825
+#: src/wingide/topcommands.py:2850
 msgid "Invalid File Set::The named file set '%s' does not exist"
 msgstr ""
 "Ensemble de fichier invalide::L’ensemble de fichier nommé '%s' n'existe pas"
 
-#: src/wingide/topcommands.py:2832
+#: src/wingide/topcommands.py:2857
 msgid "Display the file set manager dialog"
 msgstr "Afficher la boîte de dialogue du gestionnaire d’ensemble de fichiers"
 
-#: src/wingide/topcommands.py:2838
+#: src/wingide/topcommands.py:2863
 msgid "Create a new named file set with the currently open files"
 msgstr ""
 "Crée un nouvel ensemble de fichiers nommés avec les fichiers ouverts "
 "actuellement"
 
-#: src/wingide/topcommands.py:2848
+#: src/wingide/topcommands.py:2873
 msgid "Create a new named file set with the currently selected files"
 msgstr ""
 "Crée un nouvel ensemble de fichiers nommés avec les fichiers sélectionnés "
 "actuellement"
 
-#: src/wingide/topcommands.py:2857
+#: src/wingide/topcommands.py:2882
 msgid "Enter a new license code, replacing any existing license activation"
 msgstr ""
 "Entrer un nouveau code de licence, remplacant toute activation de licence "
 "existante"
 
-#: src/wingide/topcommands.py:2863
+#: src/wingide/topcommands.py:2888
 msgid "Commands to dynamically generate menu items for the top level menus."
 msgstr ""
 "Commandes pour générer dynamiquement les éléments du menu pour les menus de "
 "haut niveau."
 
-#: src/wingide/topcommands.py:2880
+#: src/wingide/topcommands.py:2905
 msgid " Returns list of menu item definitions for all windows. "
 msgstr ""
 " Retourne la liste des définitions des éléments des menus pour toutes les "
 "fenêtres. "
 
-#: src/wingide/topcommands.py:2887
+#: src/wingide/topcommands.py:2912
 msgid "Untitled"
 msgstr "Sans titre"
 
-#: src/wingide/topcommands.py:2939
+#: src/wingide/topcommands.py:2964
 msgid ""
 "Return extra Help menu items to include if running on a trial license\n"
 "    or no license"
 msgstr ""
 
-#: src/wingide/topcommands.py:2945 src/wingide/topcommands.py:2971
+#: src/wingide/topcommands.py:2970 src/wingide/topcommands.py:2996
 msgid "Buy Now"
 msgstr "Acheter maintenant"
 
-#: src/wingide/topcommands.py:2950
+#: src/wingide/topcommands.py:2975
 msgid "Upgrade to Commercial Use Now"
 msgstr "Mettre à niveau vers une utilisation commerciale maintenant"
 
-#: src/wingide/topcommands.py:2958
+#: src/wingide/topcommands.py:2983
 #, fuzzy
 msgid "Try Full-Featured Wing Pro"
 msgstr "Acheter Wing Pro toutes-Options"
 
-#: src/wingide/topcommands.py:2972
+#: src/wingide/topcommands.py:2997
 msgid "Enter License..."
 msgstr "Entrer la Licence..."
 
-#: src/wingide/topcommands.py:2984
+#: src/wingide/topcommands.py:3009
 msgid ""
 " Returns list of menu item definitions for all documents in active\n"
 "    window. "
@@ -1439,31 +1456,31 @@ msgstr ""
 " Retourne une liste des définitions des éléments du menu pour\n"
 "   tous les documents de la fenêtre active. "
 
-#: src/wingide/topcommands.py:3010
+#: src/wingide/topcommands.py:3035
 msgid "Wing Help"
 msgstr "Aide Wing"
 
-#: src/wingide/topcommands.py:3037 src/wingide/topcommands.py:3049
-#: src/wingide/topcommands.py:3063
+#: src/wingide/topcommands.py:3062 src/wingide/topcommands.py:3074
+#: src/wingide/topcommands.py:3088
 msgid " Debug loc; used to implement recent menu. "
 msgstr " Debug loc ; utilisé pour implémenter le menu récent. "
 
-#: src/wingide/topcommands.py:3042
+#: src/wingide/topcommands.py:3067
 msgid " Generates list of menu items for recent files menu. "
 msgstr ""
 " Génère une liste des éléments du menu pour le menu des fichiers récents. "
 
-#: src/wingide/topcommands.py:3056
+#: src/wingide/topcommands.py:3081
 msgid " Generates list of menu items for recent projects menu. "
 msgstr ""
 " Génère une liste des éléments du menu pour le menu de projets récent. "
 
-#: src/wingide/topcommands.py:3085 src/wingide/topcommands.py:3162
+#: src/wingide/topcommands.py:3110 src/wingide/topcommands.py:3187
 msgid " Generates list of menu items for recent debug menu. "
 msgstr ""
 " Génère une liste des éléments du menu pour le menu de débogage récent. "
 
-#: src/wingide/topcommands.py:3095
+#: src/wingide/topcommands.py:3120
 msgid ""
 "Generates a list of menu items for creating a new debug process,\n"
 "      if multi-process debugging is enabled"
@@ -1471,71 +1488,71 @@ msgstr ""
 "Génère une liste d'éléments du menu pour créer un nouveau process\n"
 "    de débogage si le débogage multi-process est activé"
 
-#: src/wingide/topcommands.py:3102
+#: src/wingide/topcommands.py:3127
 msgid "Start _New Process"
 msgstr "Démarrer un nouveau process"
 
-#: src/wingide/topcommands.py:3103
+#: src/wingide/topcommands.py:3128
 msgid "Step _Into New Process"
 msgstr "Un pas dans un nouveau process"
 
-#: src/wingide/topcommands.py:3104
+#: src/wingide/topcommands.py:3129
 msgid "Run to C_ursor in New Process"
 msgstr "Exécuter jusqu’au curseur dans un nouveau process"
 
-#: src/wingide/topcommands.py:3106
+#: src/wingide/topcommands.py:3131
 msgid "_Continue All Processes"
 msgstr "Continuer tous les process"
 
-#: src/wingide/topcommands.py:3107
+#: src/wingide/topcommands.py:3132
 msgid "_Pause All Processes"
 msgstr "Mettre en pause tous les process"
 
-#: src/wingide/topcommands.py:3108
+#: src/wingide/topcommands.py:3133
 msgid "_Restart All Processes"
 msgstr "Redémarrer tous les process"
 
-#: src/wingide/topcommands.py:3109
+#: src/wingide/topcommands.py:3134
 msgid "_Kill All Processes"
 msgstr "Tuer tous les process"
 
-#: src/wingide/topcommands.py:3115
+#: src/wingide/topcommands.py:3140
 msgid "_Attach to Process..."
 msgstr "Attacher au process…"
 
-#: src/wingide/topcommands.py:3116
+#: src/wingide/topcommands.py:3141
 msgid "_Detach from Process"
 msgstr "Détacher du process"
 
-#: src/wingide/topcommands.py:3117
+#: src/wingide/topcommands.py:3142
 msgid "Detach from A_ll Processes"
 msgstr "Détacher de tous les process"
 
-#: src/wingide/topcommands.py:3120
+#: src/wingide/topcommands.py:3145
 msgid "Pro_cesses"
 msgstr "Process"
 
-#: src/wingide/topcommands.py:3133
+#: src/wingide/topcommands.py:3158
 msgid " Generates list of menu items for named debug entry points. "
 msgstr ""
 " Génère une liste d'éléments du menu pour les points d'entrée nommés de "
 "débogage. "
 
-#: src/wingide/topcommands.py:3145 src/wingide/topcommands.py:3184
+#: src/wingide/topcommands.py:3170 src/wingide/topcommands.py:3209
 msgid "Manage Named Entry Points..."
 msgstr "Gestion des points d'entrée..."
 
-#: src/wingide/topcommands.py:3150
+#: src/wingide/topcommands.py:3175
 msgid " Execute loc; used to implement recent menu. "
 msgstr " Execute loc ; utilisé pour implémenter le menu récent. "
 
-#: src/wingide/topcommands.py:3174
+#: src/wingide/topcommands.py:3199
 msgid " Generates list of menu items to execute named entry points. "
 msgstr ""
 " Génère une liste des éléments du menu pour exécuter les points d'entrée "
 "nommés. "
 
-#: src/wingide/topcommands.py:3190
+#: src/wingide/topcommands.py:3215
 msgid ""
 " Create list of tool menu items.  If new_window is True, commands attached\n"
 "    to items will create new tool window. "
@@ -1543,57 +1560,57 @@ msgstr ""
 " Créer une liste des éléments du menu d'outils. Si new_window est Vrai, les\n"
 "     commandes attachées aux éléments créeront une nouvelle fenêtre d'outil. "
 
-#: src/wingide/topcommands.py:3238 src/wingide/topcommands.py:3243
+#: src/wingide/topcommands.py:3263 src/wingide/topcommands.py:3268
 msgid " Returns list of menu items for the tools menu. "
 msgstr " Retourne la liste des éléments pour le menu d'outils "
 
-#: src/wingide/topcommands.py:3248
+#: src/wingide/topcommands.py:3273
 msgid ""
 " Create the dock-specific tools menu items or empty list if not in single\n"
 "    window mode"
 msgstr ""
 
-#: src/wingide/topcommands.py:3255
+#: src/wingide/topcommands.py:3280
 msgid "Show _Horizontal Tool Area"
 msgstr "Afficher la zone d'outils _horizontale"
 
-#: src/wingide/topcommands.py:3256
+#: src/wingide/topcommands.py:3281
 msgid "Hide _Horizontal Tool Area"
 msgstr "Masquer la zone d'outils _horizontale"
 
-#: src/wingide/topcommands.py:3257
+#: src/wingide/topcommands.py:3282
 msgid "Show _Vertical Tool Area"
 msgstr "Afficher la zone d'outils _verticale"
 
-#: src/wingide/topcommands.py:3258
+#: src/wingide/topcommands.py:3283
 msgid "Hide _Vertical Tool Area"
 msgstr "Masquer la zone d'outils _verticale"
 
-#: src/wingide/topcommands.py:3259
+#: src/wingide/topcommands.py:3284
 msgid "_Move Vertical Tool Area to Right"
 msgstr "Déplacer la zone d’outils verticale à droite"
 
-#: src/wingide/topcommands.py:3260
+#: src/wingide/topcommands.py:3285
 msgid "_Move Vertical Tool Area to Left"
 msgstr "Déplacer la zone d’outils verticale à gauche"
 
-#: src/wingide/topcommands.py:3261
+#: src/wingide/topcommands.py:3286
 msgid "Ma_ximize Editor Area"
 msgstr "Ma_ximiser la zone d'édition"
 
-#: src/wingide/topcommands.py:3262
+#: src/wingide/topcommands.py:3287
 msgid "Un-ma_ximize Editor Area"
 msgstr "Dé-ma_ximiser la zone d'édition"
 
-#: src/wingide/topcommands.py:3263
+#: src/wingide/topcommands.py:3288
 msgid "Show Toolbar"
 msgstr "Afficher la barre d'outils"
 
-#: src/wingide/topcommands.py:3264
+#: src/wingide/topcommands.py:3289
 msgid "Hide Toolbar"
 msgstr "Masquer la barre d'outils"
 
-#: src/wingide/topcommands.py:3269
+#: src/wingide/topcommands.py:3294
 msgid ""
 " Create list of perspective menu items that call the given action with \n"
 "    the perspective name"
@@ -1601,51 +1618,51 @@ msgstr ""
 " Créer un liste des éléments du menu perspective qui appelent l'action \n"
 "    donnée avec le nom de perspective"
 
-#: src/wingide/topcommands.py:3306
+#: src/wingide/topcommands.py:3331
 msgid " Returns list of menu items for setting current perspective "
 msgstr ""
 " Retourne une liste d'éléments du menu pour configurer la perspective "
 "actuelle "
 
-#: src/wingide/topcommands.py:3312
+#: src/wingide/topcommands.py:3337
 msgid " Returns list of menu items for deleting perspectives "
 msgstr ""
 " Retourne la liste des éléments du menu pour supprimer des perspectives "
 
-#: src/wingide/topcommands.py:3321
+#: src/wingide/topcommands.py:3346
 msgid " Returns list of menu items for selecting keyboard personality "
 msgstr ""
 " Retourne une liste d'éléments du menu pour sélectionner la personnalité du "
 "clavier "
 
-#: src/wingide/topcommands.py:3345
+#: src/wingide/topcommands.py:3370
 msgid " Generates list of menu items for all named file sets. "
 msgstr ""
 " Génère une liste des éléments du menu pour tous les ensembles de fichiers "
 "nommés. "
 
-#: src/wingide/topcommands.py:3351
+#: src/wingide/topcommands.py:3376
 #, fuzzy
 msgid "Generates menu items for remote file open commands"
 msgstr "Génère des éléments du menu pour le menu des fichiers récents"
 
-#: src/wingide/topcommands.py:3360
+#: src/wingide/topcommands.py:3385
 #, fuzzy
 msgid "Generates menu items for remote project open commands"
 msgstr " Génère une liste des éléments du menu pour le menu de projets récent."
 
-#: src/wingide/topcommands.py:3369
+#: src/wingide/topcommands.py:3394
 #, fuzzy
 msgid "Generates menu items for remote project save commands"
 msgstr " Génère une liste des éléments du menu pour le menu de projets récent."
 
-#: src/wingide/topcommands.py:3378
+#: src/wingide/topcommands.py:3403
 #, fuzzy
 msgid "Generates menu items for remote file save commands"
 msgstr ""
 " Génère une liste des éléments du menu pour le menu des fichiers récents."
 
-#: src/wingide/topcommands.py:3387
+#: src/wingide/topcommands.py:3412
 msgid "Beep once"
 msgstr "Beeper une fois"
 

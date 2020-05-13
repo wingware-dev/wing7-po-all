@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_command\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:04+EDT\n"
 "PO-Revision-Date: 2016-11-01 21:40+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
 "Language-Team: French <gnomefr@traduc.org>\n"
@@ -20,145 +20,145 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: src/command/argentry.py:150
+#: src/command/argentry.py:152
 msgid "Cannot execute %s: incorrect value for %s"
 msgstr "Impossible d'exécuter %s : valeur incorrecte pour %s"
 
-#: src/command/commandmgr.py:150
+#: src/command/commandmgr.py:154
 msgid "%sarginfo[%s].doc not valid.  Using None."
 msgstr "%sarginfo[%s].doc n'est pas valide. None est utilisé."
 
-#: src/command/commandmgr.py:157
+#: src/command/commandmgr.py:161
 msgid "%sarginfo[%s].type not valid.  Treating arg as small string."
 msgstr ""
 "%sarginfo[%s].type n'est pas valide. Les arguments sont traités commes des "
 "chaînes courtes."
 
-#: src/command/commandmgr.py:164
+#: src/command/commandmgr.py:168
 msgid "%sarginfo[%s].formlet not valid.  Treating arg as small string."
 msgstr ""
 "%sarginfo[%s].formlet n'est pas valide. Les arguments sont traités commes "
 "des chaînes courtes."
 
-#: src/command/commandmgr.py:197
+#: src/command/commandmgr.py:201
 msgid "Callable %s.arginfo[%s].%s failed.  Using default."
 msgstr ""
 "L'appelable %s.arginfo[%s].%s a échoué. Utilisation de la configuration par "
 "défaut."
 
-#: src/command/commandmgr.py:406
+#: src/command/commandmgr.py:413
 msgid "Command name is not a string"
 msgstr "Le nom de la commande n'est pas une chaîne"
 
-#: src/command/commandmgr.py:409
+#: src/command/commandmgr.py:416
 msgid "Command doc is not a None, string, or callable"
 msgstr "Le doc de la commande n'est ni None, ni une chaîne, ni appelable"
 
-#: src/command/commandmgr.py:413
+#: src/command/commandmgr.py:420
 msgid "Command label is not a string or callable"
 msgstr "Le label de la commande n'est ni une chaîne, ni appelable"
 
-#: src/command/commandmgr.py:489
+#: src/command/commandmgr.py:496
 msgid "%sarginfo not dict or callable.  Using short string args."
 msgstr ""
 "%arginfo n'est ni un dictionnaire, ni appelable. Utilisation des arguments "
 "en chaîne courte."
 
-#: src/command/commandmgr.py:501
+#: src/command/commandmgr.py:508
 msgid "%sarginfo[%s]: %s not an arg name."
 msgstr "%sarginfo[%s] : %s n'est pas un nom d'argument."
 
-#: src/command/commandmgr.py:510
+#: src/command/commandmgr.py:517
 msgid "%sarginfo[%s] not CArgInfo or callable"
 msgstr "%sarginfo[%s] n'est ni un CArgInfo, ni appelable"
 
-#: src/command/commandmgr.py:519
+#: src/command/commandmgr.py:526
 msgid "%sarginfo[%s]: exception inspecting value"
 msgstr "%sarginfo[%s] : exception durant l'inspection de la valeur"
 
-#: src/command/commandmgr.py:531
+#: src/command/commandmgr.py:538
 msgid "%sarginfo for %s not found.  Using short string."
 msgstr "%sarginfo pour %s non trouvé. Utilisation d'une chaîne courte."
 
-#: src/command/commandmgr.py:769
+#: src/command/commandmgr.py:776
 msgid "Error executing %s.available()"
 msgstr "Erreur à l'exécution de %s.available()"
 
-#: src/command/commandmgr.py:795 src/command/commandmgr.py:810
+#: src/command/commandmgr.py:802 src/command/commandmgr.py:817
 msgid "Tried to execute unavailable command %s"
 msgstr "Tentative d'exécution de la commande non disponible %s"
 
-#: src/command/commandmgr.py:827
+#: src/command/commandmgr.py:834
 msgid "Error obtaining args for script %s"
 msgstr "Erreur en obtenant les arguments pour le script %s"
 
-#: src/command/commandmgr.py:830
+#: src/command/commandmgr.py:837
 msgid "Error obtaining args for command %s"
 msgstr "Erreur en obtenant les arguments pour la commande %s"
 
-#: src/command/commandmgr.py:867
+#: src/command/commandmgr.py:874
 msgid "Error executing script %s"
 msgstr "Erreur durant l'exécution du script %s"
 
-#: src/command/commandmgr.py:870
+#: src/command/commandmgr.py:877
 msgid "Error executing command %s"
 msgstr "Erreur durant l'exécution de la commande %s"
 
-#: src/command/commandmgr.py:944
+#: src/command/commandmgr.py:951
 msgid "Callable %s.arginfo raised an exception"
 msgstr "L'appel %s.arginfo a levé une exception"
 
-#: src/command/commandmgr.py:951
+#: src/command/commandmgr.py:958
 msgid ""
 "Callable %s.arginfo returned invalid arginfo; treating args as short string"
 msgstr ""
 "L'appel %s.arginfo a retourné des arginfo invalides ; traitant des arguments "
 "commes des chaînes courtes"
 
-#: src/command/commandmgr.py:972
+#: src/command/commandmgr.py:979
 msgid "Default "
 msgstr "Défaut "
 
-#: src/command/commandmgr.py:975
+#: src/command/commandmgr.py:982
 msgid "%s: Callable default arginfo failed"
 msgstr "%s : L'appel à l'arginfo par défaut a échoué"
 
-#: src/command/commandmgr.py:993
+#: src/command/commandmgr.py:1000
 msgid "Callable %s.arginfo[%s] failed; treating arg as short string"
 msgstr ""
 "L'appel %s.arginfo[%s] a échoué ; traitement des arguments commes des "
 "chaînes courtes"
 
-#: src/command/commandmgr.py:1027
+#: src/command/commandmgr.py:1034
 msgid "Callable %s.label failed; using label derived from command name"
 msgstr ""
 "L'appel à %s.label a échoué ; utilisant un label dérivé du nom de commande"
 
-#: src/command/commandmgr.py:1032
+#: src/command/commandmgr.py:1039
 msgid ""
 "Callable %s.label returned non-string; using label derived from command name"
 msgstr ""
 "L'appel à %s.label a retourné autre chose qu'une chaîne ; utilisant un label "
 "dérivé du nom de commande"
 
-#: src/command/commandmgr.py:1066
+#: src/command/commandmgr.py:1073
 msgid "Callable %s.doc failed; using ''"
 msgstr "L'appel à %s.doc a échoué ; utilisant ''"
 
-#: src/command/commandmgr.py:1071
+#: src/command/commandmgr.py:1078
 msgid "Callable %s.doc returned non-string; using ''"
 msgstr "L'appel à %s.doc a retourné autre chose qu'une chaîne ; utilisant ''"
 
-#: src/command/commandmgr.py:1102
+#: src/command/commandmgr.py:1109
 msgid "Callable %s.flags returned non-dict; using {}"
 msgstr ""
 "L'appel au drapeaux %s n'a pas retourné un dictionnaire; utilisation de {}."
 
-#: src/command/commandmgr.py:1424
+#: src/command/commandmgr.py:1431
 msgid "* Error(s) loading %s.%s.%s:"
 msgstr "* Erreur(s) en chargeant %s.%s.%s :"
 
-#: src/command/commandmgr.py:1433
+#: src/command/commandmgr.py:1440
 msgid "Exception while loading %s.%s.%s"
 msgstr "Déclenchement d'une exception durant le chargement de %s.%s.%s"
 

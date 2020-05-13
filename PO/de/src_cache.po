@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_cache\n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2016-12-14 18:53+0100\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
@@ -19,40 +19,40 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: src/cache/manager.py:54
+#: src/cache/manager.py:53
 msgid "Some files failed to read from disk:"
 msgstr ""
 
-#: src/cache/manager.py:57
+#: src/cache/manager.py:56
 msgid "Error"
 msgstr ""
 
-#: src/cache/manager.py:57
+#: src/cache/manager.py:56
 msgid "File"
 msgstr ""
 
-#: src/cache/manager.py:65
+#: src/cache/manager.py:64
 msgid "_OK"
 msgstr ""
 
-#: src/cache/manager.py:68
+#: src/cache/manager.py:67
 msgid "Read Failure"
 msgstr ""
 
-#: src/cache/textcache.py:385
+#: src/cache/textcache.py:414
 msgid "Failed to read %s:  %s"
 msgstr ""
 
-#: src/cache/textcache.py:451
+#: src/cache/textcache.py:486
 msgid "Could not read file due to remote agent abort"
 msgstr ""
 "Datei konnte nicht gelesen werden durch einen Abbruch des Remote-Agenten"
 
-#: src/cache/textcache.py:562
+#: src/cache/textcache.py:584
 msgid "Codec not found"
 msgstr "Codec nicht gefunden"
 
-#: src/cache/textcache.py:563
+#: src/cache/textcache.py:585
 msgid ""
 "Could not convert file %s when reading it -- the codec for the '%s' text "
 "encoding could not be found.  Trying default encoding '%s' instead."
@@ -60,11 +60,11 @@ msgstr ""
 "Konnte Datei %s nicht umwandeln - der Codec für Text Kodierung '%s' wurde "
 "nicht gefunden.  Standardkodierung '%s' wird statt dessen versucht."
 
-#: src/cache/textcache.py:586
+#: src/cache/textcache.py:608
 msgid "Could not convert from encoding"
 msgstr "Konnte nicht von der Kodierung umwandeln"
 
-#: src/cache/textcache.py:587
+#: src/cache/textcache.py:609
 msgid ""
 "Could not convert all characters in %s when reading it as a %s encoded "
 "file.  Replacing unmappable characters with ?'s so saving the file may "
@@ -80,11 +80,11 @@ msgstr ""
 "Einstellung Dateien / Standard-Kodierung anzupassen und dann die Datei "
 "erneut zu öffnen."
 
-#: src/cache/textcache.py:602
+#: src/cache/textcache.py:624
 msgid "Could not convert any characters in file"
 msgstr "Es konnten keine Zeichen in der Datei umgewandelt werden"
 
-#: src/cache/textcache.py:603
+#: src/cache/textcache.py:625
 msgid ""
 "Failed to convert any characters in %s when reading it as a %s encoded "
 "file.  Reading it as a latin-1 encoded file instead which will probably "
@@ -100,11 +100,11 @@ msgstr ""
 "Einstellung Dateien / Standard-Kodierung anzupassen und dann die Datei "
 "erneut zu öffnen."
 
-#: src/cache/textcache.py:613
+#: src/cache/textcache.py:635
 msgid "Could not read file"
 msgstr "Datei konnte nicht gelesen werden"
 
-#: src/cache/textcache.py:614
+#: src/cache/textcache.py:636
 msgid ""
 "Read failed because characters could not be read in %s when reading it as a "
 "%s encoded file."
@@ -112,7 +112,7 @@ msgstr ""
 "Das Lesen ist fehlgeschlagen, da die Zeichen in %s beim Einlesen als %s "
 "kodierte Datei nicht gelesen werden konnten."
 
-#: src/cache/textcache.py:773
+#: src/cache/textcache.py:797
 msgid ""
 "Unsupported encoding '%s' found in encoding comment -- Wing cannot write "
 "this file until the comment is changed"
@@ -120,19 +120,19 @@ msgstr ""
 "Nicht unterstützte Kodierung '%s' wurde im Kommentar gefunden -- Wing kann "
 "die Datei nicht speichern, bis die Kodierung im Kommentar geändert wurde"
 
-#: src/cache/textcache.py:824
+#: src/cache/textcache.py:848
 msgid "Could not convert text \"%s\" on line %d to the %s encoding"
 msgstr "Konnte den Text \"%s\" in Zeile %d nicht in die Kodierung %s umwandeln"
 
-#: src/cache/textcache.py:827
+#: src/cache/textcache.py:851
 msgid "Could not convert file contents to the %s encoding"
 msgstr "Konnte die Dateiinhalte nicht in die Kodierung %s umwandeln"
 
-#: src/cache/textcache.py:909
+#: src/cache/textcache.py:938
 msgid "General write error"
 msgstr "Allgemeiner Schreibfehler"
 
-#: src/cache/textcache.py:1074
+#: src/cache/textcache.py:1105
 msgid "Encoding of %s changed to %s"
 msgstr "Die Kodierung von %s wurde in %s geändert"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.0\n"
-"POT-Creation-Date: 2019-04-29 15:43+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:04+EDT\n"
 "PO-Revision-Date: 2016-11-11 21:34+0100\n"
 "Last-Translator: Jean Sanchez <jean.sanchez.fr@gmail.com>\n"
 "Language-Team: None\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: src/diff/commands.py:35
+#: src/diff/commands.py:39
 msgid ""
 "These commands act on the diff/merge manager or on the current project,\n"
 "  regardless of keyboard focus."
@@ -24,7 +24,7 @@ msgstr ""
 "Ces commandes agissent sur le gestionnaire de diff/fusion ou sur le projet\n"
 "    actuel, sans tenir compte du focus du clavier."
 
-#: src/diff/commands.py:68
+#: src/diff/commands.py:72
 msgid ""
 "Start a diff/merge session with the given two files.  Orientation should be "
 "'h' or 'v'\n"
@@ -38,27 +38,27 @@ msgstr ""
 "utiliser la préférence\n"
 "   d'orientation de l'éditeur / Diff/fusion"
 
-#: src/diff/commands.py:84
+#: src/diff/commands.py:88
 msgid "File A"
 msgstr "Fichier A"
 
-#: src/diff/commands.py:90
+#: src/diff/commands.py:94
 msgid "File A:"
 msgstr "Fichier A :"
 
-#: src/diff/commands.py:91
+#: src/diff/commands.py:95
 msgid "File B"
 msgstr "Fichier B"
 
-#: src/diff/commands.py:97
+#: src/diff/commands.py:101
 msgid "File B:"
 msgstr "Fichier B :"
 
-#: src/diff/commands.py:104
+#: src/diff/commands.py:108
 msgid "Compare Files"
 msgstr "Comparer les fichiers"
 
-#: src/diff/commands.py:108
+#: src/diff/commands.py:112
 msgid ""
 "Start a diff/merge session with the given two directories.  Orientation "
 "should be 'h' or 'v'\n"
@@ -72,11 +72,11 @@ msgstr ""
 "utiliser la préférence\n"
 "   d'orientation de l'éditeur / Diff/fusion"
 
-#: src/diff/commands.py:113
+#: src/diff/commands.py:117
 msgid "Cannot compare remote directories"
 msgstr "Ne peut pas comparer les répertoires distants"
 
-#: src/diff/commands.py:114
+#: src/diff/commands.py:118
 msgid ""
 "Comparing remote directories is not yet supported.  Please email "
 "support@wingware.com if you need this feature."
@@ -84,31 +84,31 @@ msgstr ""
 "Comparer les répertoires distants n'est pas encore supporté. Merci d'envoyer "
 "un email à support@wingware.com si vous avez besoin de cette fonctionnalité."
 
-#: src/diff/commands.py:117
+#: src/diff/commands.py:121
 msgid "OK"
 msgstr "OK"
 
-#: src/diff/commands.py:135
+#: src/diff/commands.py:139
 msgid "Directory A"
 msgstr "Répertoire A"
 
-#: src/diff/commands.py:141
+#: src/diff/commands.py:145
 msgid "Directory A:"
 msgstr "Répertoire A :"
 
-#: src/diff/commands.py:142
+#: src/diff/commands.py:146
 msgid "Directory B"
 msgstr "Répertoire B"
 
-#: src/diff/commands.py:148
+#: src/diff/commands.py:152
 msgid "Directory B:"
 msgstr "Répertoire B :"
 
-#: src/diff/commands.py:154
+#: src/diff/commands.py:158
 msgid "Compare Directories"
 msgstr "Comparer des répertoires"
 
-#: src/diff/commands.py:158
+#: src/diff/commands.py:162
 msgid ""
 "Start a diff/merge session between the current editor's unsaved\n"
 "    contents and the contents of its file on disk. Orientation should be "
@@ -125,17 +125,17 @@ msgstr ""
 "  ou None pour utiliser la préférence d'orientation de l'éditeur / Diff/"
 "Fusion"
 
-#: src/diff/commands.py:178
+#: src/diff/commands.py:182
 msgid "Compare Buffer to Disk"
 msgstr "Comparer la mémoire tampon avec le disque"
 
-#: src/diff/commands.py:182
+#: src/diff/commands.py:186
 msgid "Start a diff/merge session with the first/top-most two visible files."
 msgstr ""
 "Démarrer une session diff/fusion avec les deux premiers/plus visibles "
 "fichiers."
 
-#: src/diff/commands.py:191
+#: src/diff/commands.py:195
 msgid ""
 "Start a diff/merge session between the file or directory currently\n"
 "    selected in the GUI and the corresponding revision in version control.\n"
@@ -154,34 +154,34 @@ msgstr ""
 "préférence\n"
 "   d'orientation de l'éditeur / Diff/fusion"
 
-#: src/diff/commands.py:215
+#: src/diff/commands.py:219
 msgid "Compare to Repository"
 msgstr "Comparer au dépôt"
 
-#: src/diff/commands.py:219
+#: src/diff/commands.py:223
 msgid "Move to next difference in current diff/merge session"
 msgstr ""
 "Se déplacer vers la différence suivante dans la session diff/fusion actuelle"
 
-#: src/diff/commands.py:227
+#: src/diff/commands.py:231
 msgid "Move to previous difference in current diff/merge session"
 msgstr ""
 "Se déplacer vers la différence précédente dans la session diff/fusion "
 "actuelle"
 
-#: src/diff/commands.py:234
+#: src/diff/commands.py:238
 msgid "Cancel the current diff/merge session"
 msgstr "Annuler la session actuelle de diff/fusion"
 
-#: src/diff/commands.py:241
+#: src/diff/commands.py:245
 msgid "Merge the current change from file A to file B"
 msgstr "Fusionner la modification actuelle du fichier A au fichier B"
 
-#: src/diff/commands.py:252
+#: src/diff/commands.py:256
 msgid "Merge the current change from file B to file A"
 msgstr "Fusionner la modification actuelle du fichier B au fichier A"
 
-#: src/diff/commands.py:263
+#: src/diff/commands.py:267
 msgid ""
 "Lock or unlock scrolling when diff/merge is active.  Toggles the\n"
 "    state by default or set lock=True or lock=False to set a particular\n"
@@ -191,7 +191,7 @@ msgstr ""
 "Bascule l'état par défaut ou affecte lock=True ou lock=False pour\n"
 "   affecter un état particulier."
 
-#: src/diff/commands.py:272
+#: src/diff/commands.py:276
 msgid ""
 "Determine whether to ignore white space in differences.  Toggles the\n"
 "    state by default or set ignore=True or ignore=False to set a particular\n"
@@ -201,13 +201,13 @@ msgstr ""
 "   Bascule l'état par défaut ou affecter ignore=True ou ignore=False pour\n"
 "   affecter une état particulier."
 
-#: src/diff/commands.py:283
+#: src/diff/commands.py:287
 msgid " Returns list of menu items for selecting recent diff/merge sessions "
 msgstr ""
 " Retourne la liste des éléments du menu pour sélectionner les sessions de "
 "diff/fusion récentes"
 
-#: src/diff/commands.py:315
+#: src/diff/commands.py:318
 msgid ""
 " Returns list of menu items for selecting among active diff/merge sessions "
 msgstr ""

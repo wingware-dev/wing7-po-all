@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 6.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:44+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:04+EDT\n"
 "PO-Revision-Date: 2019-05-06 22:21+0200\n"
 "Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
 "Language-Team: None\n"
@@ -55,127 +55,127 @@ msgstr "Interface Python"
 msgid "%s File"
 msgstr "Fichier %s"
 
-#: src/wingbase/remoteclient.py:822
+#: src/wingbase/remoteclient.py:836
 msgid "Missing remote host configuration for %s"
 msgstr "Il manque la configuration de l’hôte à distance pour %s"
 
-#: src/wingbase/remoteclient.py:1038
+#: src/wingbase/remoteclient.py:1074
 msgid ""
 "Remote server %s failed to connect (hostname=%s, winghome=%s, pyexec=%s)"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:1048
+#: src/wingbase/remoteclient.py:1084
 msgid "Remote server to %s is unused -- closing connection"
 msgstr ""
 "Le serveur à distance vers %s est inutilisé — connection en cours de "
 "fermeture"
 
-#: src/wingbase/remoteclient.py:1370
+#: src/wingbase/remoteclient.py:1406
 #, fuzzy
 msgid "Reverse SSH tunnel startup timed out -- no output seen in >10 seconds"
 msgstr "Délai expiré — pas de sorties vues en >3 secondes"
 
-#: src/wingbase/remoteclient.py:1559
+#: src/wingbase/remoteclient.py:1595
 msgid "Reverse tunnel to %s (%i<->%i) failed after %i retries"
 msgstr ""
 
-#: src/wingbase/remoteclient.py:1564
+#: src/wingbase/remoteclient.py:1600
 msgid "Reverse tunnel to %s (%i<->%i) is unused -- closing connection"
 msgstr ""
 
-#: src/wingbase/textutils.py:1057
+#: src/wingbase/textutils.py:1051
 msgid "Unable to convert to unicode.  Tried encodings: %s."
 msgstr "Impossible de convertir en unicode. Encodages essayés : %s."
 
-#: src/wingbase/updateutils.py:145
+#: src/wingbase/updateutils.py:162
 msgid "Corrupt catalog: Missing | in line: "
 msgstr ""
 
-#: src/wingbase/updateutils.py:157
+#: src/wingbase/updateutils.py:174
 msgid "Corrupt catalog: Invalid line type: "
 msgstr ""
 
-#: src/wingbase/updateutils.py:298
+#: src/wingbase/updateutils.py:311
 msgid "Version spec on line %i is too short"
 msgstr ""
 
-#: src/wingbase/updateutils.py:302
+#: src/wingbase/updateutils.py:315
 msgid "Bad version %s on line %i"
 msgstr ""
 
-#: src/wingbase/updateutils.py:314
+#: src/wingbase/updateutils.py:327
 msgid "Bad release type %s on line %i"
 msgstr ""
 
-#: src/wingbase/updateutils.py:318
+#: src/wingbase/updateutils.py:331
 msgid "Bad release flag %s on line %i"
 msgstr ""
 
-#: src/wingbase/updateutils.py:323
+#: src/wingbase/updateutils.py:336
 msgid "Line %i lists summary before version"
 msgstr ""
 
-#: src/wingbase/updateutils.py:326
+#: src/wingbase/updateutils.py:339
 msgid "Bad change summary on line %i"
 msgstr ""
 
-#: src/wingbase/updateutils.py:329
+#: src/wingbase/updateutils.py:342
 msgid "Bad product type on line %i"
 msgstr ""
 
-#: src/wingbase/updateutils.py:332
+#: src/wingbase/updateutils.py:345
 msgid "Bad change type on line %i"
 msgstr ""
 
-#: src/wingbase/updateutils.py:444
+#: src/wingbase/updateutils.py:472
 msgid "Some unpatchable files changed:"
 msgstr ""
 
-#: src/wingbase/updateutils.py:448
+#: src/wingbase/updateutils.py:476
 msgid "No changes for the update"
 msgstr "Pas de modifications pour la mise-à-jour"
 
-#: src/wingbase/updateutils.py:480
+#: src/wingbase/updateutils.py:508
 msgid "Could not create update tarfile:"
 msgstr ""
 
-#: src/wingbase/updateutils.py:571
+#: src/wingbase/updateutils.py:599
 msgid "Updates are corrupt and need to be removed and reinstalled"
 msgstr ""
 
-#: src/wingbase/updateutils.py:620
+#: src/wingbase/updateutils.py:648
 msgid "Failed to delete old busy update: %s"
 msgstr ""
 
-#: src/wingbase/updateutils.py:623
+#: src/wingbase/updateutils.py:651
 msgid "Possibly concurrent update/merge on %s"
 msgstr ""
 
-#: src/wingbase/updateutils.py:631
+#: src/wingbase/updateutils.py:659
 msgid "Renaming %s failed; skipping update merge"
 msgstr ""
 
-#: src/wingbase/updateutils.py:665
+#: src/wingbase/updateutils.py:693
 msgid "Failed to merge update directories: %s -> %s; aborting merge"
 msgstr ""
 
-#: src/wingbase/updateutils.py:835
+#: src/wingbase/updateutils.py:863
 msgid "Missing file: %s"
 msgstr "Fichier manquant : %s"
 
-#: src/wingbase/updateutils.py:839
+#: src/wingbase/updateutils.py:867
 msgid "Invalid Type: %s (expected file but found non-file)"
 msgstr ""
 
-#: src/wingbase/updateutils.py:841
+#: src/wingbase/updateutils.py:869
 msgid "Invalid Type: %s (expected directory but found non-directory)"
 msgstr ""
 
-#: src/wingbase/updateutils.py:846
+#: src/wingbase/updateutils.py:874
 msgid "Read failed:  %s"
 msgstr "Lecture échouée : %s"
 
-#: src/wingbase/updateutils.py:849
+#: src/wingbase/updateutils.py:877
 msgid "Changed file: %s"
 msgstr "Fichier modifié : %s"
 

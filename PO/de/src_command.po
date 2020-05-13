@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: src_command\n"
-"POT-Creation-Date: 2018-03-21 10:16+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2016-05-27 14:53+0200\n"
 "Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
 "Language-Team: German\n"
@@ -20,140 +20,140 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
-#: src/command/argentry.py:150
+#: src/command/argentry.py:152
 msgid "Cannot execute %s: incorrect value for %s"
 msgstr "%s kann nicht ausgeführt werden: Fehlerhafter Wert für %s"
 
-#: src/command/commandmgr.py:150
+#: src/command/commandmgr.py:154
 msgid "%sarginfo[%s].doc not valid.  Using None."
 msgstr "%sarginfo[%s].doc ungültig. None wird verwendet."
 
-#: src/command/commandmgr.py:157
+#: src/command/commandmgr.py:161
 msgid "%sarginfo[%s].type not valid.  Treating arg as small string."
 msgstr "%sarginfo[%s].type ungültig. Behandelt Argument als kleinen String."
 
-#: src/command/commandmgr.py:164
+#: src/command/commandmgr.py:168
 msgid "%sarginfo[%s].formlet not valid.  Treating arg as small string."
 msgstr "%sarginfo[%s].formlet ungültig. Behandelt Argument als kleinen String."
 
-#: src/command/commandmgr.py:197
+#: src/command/commandmgr.py:201
 msgid "Callable %s.arginfo[%s].%s failed.  Using default."
 msgstr ""
 "Ausführbares Objekt %s.arginfo[%s].%s gescheitert. Voreinstellung wird "
 "verwendet."
 
-#: src/command/commandmgr.py:406
+#: src/command/commandmgr.py:413
 msgid "Command name is not a string"
 msgstr "Befehlsname ist kein String."
 
-#: src/command/commandmgr.py:409
+#: src/command/commandmgr.py:416
 msgid "Command doc is not a None, string, or callable"
 msgstr "Befehl doc ist kein None, String oder ausführbares Objekt (Callable)"
 
-#: src/command/commandmgr.py:413
+#: src/command/commandmgr.py:420
 msgid "Command label is not a string or callable"
 msgstr "Befehlskennzeichen ist kein String oder ausführbares Objekt (Callable)"
 
-#: src/command/commandmgr.py:489
+#: src/command/commandmgr.py:496
 msgid "%sarginfo not dict or callable.  Using short string args."
 msgstr ""
 "%sarginfo weder dict noch ausführbar. Short-String-Argumente werden "
 "verwendet."
 
-#: src/command/commandmgr.py:501
+#: src/command/commandmgr.py:508
 msgid "%sarginfo[%s]: %s not an arg name."
 msgstr "%sarginfo[%s]: %s kein Argumentname."
 
-#: src/command/commandmgr.py:510
+#: src/command/commandmgr.py:517
 msgid "%sarginfo[%s] not CArgInfo or callable"
 msgstr "%sarginfo[%s] kein CArgInfo oder ausführbar"
 
-#: src/command/commandmgr.py:519
+#: src/command/commandmgr.py:526
 msgid "%sarginfo[%s]: exception inspecting value"
 msgstr "%sarginfo[%s]: Exception kontrollierender Wert"
 
-#: src/command/commandmgr.py:531
+#: src/command/commandmgr.py:538
 msgid "%sarginfo for %s not found.  Using short string."
 msgstr "%sarginfo für %s nicht gefunden. Short-String wird verwendet."
 
-#: src/command/commandmgr.py:769
+#: src/command/commandmgr.py:776
 msgid "Error executing %s.available()"
 msgstr "Fehler beim Ausführen von %s.available()"
 
-#: src/command/commandmgr.py:795 src/command/commandmgr.py:810
+#: src/command/commandmgr.py:802 src/command/commandmgr.py:817
 msgid "Tried to execute unavailable command %s"
 msgstr "Es wurde versucht, einen nicht verfügbaren Befehl auszuführen %s"
 
-#: src/command/commandmgr.py:827
+#: src/command/commandmgr.py:834
 msgid "Error obtaining args for script %s"
 msgstr "Argumente nicht gefunden für Skript %s"
 
-#: src/command/commandmgr.py:830
+#: src/command/commandmgr.py:837
 msgid "Error obtaining args for command %s"
 msgstr "Argumentfehler beim Ausführen des Befehls %s"
 
-#: src/command/commandmgr.py:867
+#: src/command/commandmgr.py:874
 msgid "Error executing script %s"
 msgstr "Fehler beim Ausführen von Skript %s"
 
-#: src/command/commandmgr.py:870
+#: src/command/commandmgr.py:877
 msgid "Error executing command %s"
 msgstr "Fehler beim Ausführen des Befehls %s"
 
-#: src/command/commandmgr.py:944
+#: src/command/commandmgr.py:951
 msgid "Callable %s.arginfo raised an exception"
 msgstr "Ausführbares Objekt %s.arginfo hatt eine Exception aufgeschlagen"
 
-#: src/command/commandmgr.py:951
+#: src/command/commandmgr.py:958
 msgid ""
 "Callable %s.arginfo returned invalid arginfo; treating args as short string"
 msgstr ""
 "Ausführbares Objekt %s.arginfo hatt ungültige Info-Sequenz des Arguments "
 "gegeben; behandelt Argumente als Short-String"
 
-#: src/command/commandmgr.py:972
+#: src/command/commandmgr.py:979
 msgid "Default "
 msgstr "Voreinstellung "
 
-#: src/command/commandmgr.py:975
+#: src/command/commandmgr.py:982
 msgid "%s: Callable default arginfo failed"
 msgstr "%s: Ausführung der Voreinstellung arginfo fehlgeschlagen"
 
-#: src/command/commandmgr.py:993
+#: src/command/commandmgr.py:1000
 msgid "Callable %s.arginfo[%s] failed; treating arg as short string"
 msgstr ""
 "Ausführbares Objekt %s.arginfo[%s] fehlgeschlagen; behandele Argument als "
 "Short-String"
 
-#: src/command/commandmgr.py:1027
+#: src/command/commandmgr.py:1034
 msgid "Callable %s.label failed; using label derived from command name"
 msgstr ""
 "Ausführbares Objekt %s.label fehlgeschlagen; vom Befehlsnamen abgeleitetes "
 "Kennzeichen wird verwendet."
 
-#: src/command/commandmgr.py:1032
+#: src/command/commandmgr.py:1039
 msgid ""
 "Callable %s.label returned non-string; using label derived from command name"
 msgstr ""
 "Ausführung von %s.label gab non-string zurück; vom Befehlsnamen abgeleitetes "
 "Kennzeichen wird verwendet."
 
-#: src/command/commandmgr.py:1066
+#: src/command/commandmgr.py:1073
 msgid "Callable %s.doc failed; using ''"
 msgstr "Ausführung von %s.doc gescheitert; '' wird verwendet"
 
-#: src/command/commandmgr.py:1071
+#: src/command/commandmgr.py:1078
 msgid "Callable %s.doc returned non-string; using ''"
 msgstr "Ausführung von %s.doc gab non-string zurück, '' wird verwendet"
 
-#: src/command/commandmgr.py:1102
+#: src/command/commandmgr.py:1109
 msgid "Callable %s.flags returned non-dict; using {}"
 msgstr "Ausführung von %s.flags gab non-dict zurück, {} wird verwendet"
 
-#: src/command/commandmgr.py:1424
+#: src/command/commandmgr.py:1431
 msgid "* Error(s) loading %s.%s.%s:"
 msgstr "* Fehler beim Laden %s.%s.%s:"
 
-#: src/command/commandmgr.py:1433
+#: src/command/commandmgr.py:1440
 msgid "Exception while loading %s.%s.%s"
 msgstr "Exception beim Laden %s.%s.%s"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2012-01-04 18:25-0600\n"
 "Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
 "Language-Team:  <C@li.org>\n"
@@ -16,369 +16,369 @@ msgstr ""
 "Generated-By: pygettext.py 1.4\n"
 "X-Generator: KBabel 0.9.5\n"
 
-#: src/wingutils/datatype.py:146
+#: src/wingutils/datatype.py:149
 msgid "Value should be None"
 msgstr "El valor debería ser None"
 
-#: src/wingutils/datatype.py:164
+#: src/wingutils/datatype.py:167
 msgid "Boolean value must be 0 or 1"
 msgstr "El valor booleano debe ser 0 ó 1"
 
-#: src/wingutils/datatype.py:169
+#: src/wingutils/datatype.py:172
 msgid "<boolean: 0 or 1>"
 msgstr "<boolean: 0 ó 1>"
 
-#: src/wingutils/datatype.py:189
+#: src/wingutils/datatype.py:192
 msgid "Value has type %s, should be one of:\n"
 msgstr ""
 
-#: src/wingutils/datatype.py:220
+#: src/wingutils/datatype.py:223
 msgid "Value is type %s, should be "
 msgstr ""
 
-#: src/wingutils/datatype.py:228
+#: src/wingutils/datatype.py:231
 msgid "[one of: "
 msgstr ""
 
-#: src/wingutils/datatype.py:265
+#: src/wingutils/datatype.py:268
 msgid "Value out of range, should be one of:\n"
 msgstr ""
 
-#: src/wingutils/datatype.py:302
+#: src/wingutils/datatype.py:305
 msgid "Value is type %s, should be %s"
 msgstr ""
 
-#: src/wingutils/datatype.py:305
+#: src/wingutils/datatype.py:308
 msgid "Value out of valid range %s -> %s"
 msgstr ""
 
-#: src/wingutils/datatype.py:308
+#: src/wingutils/datatype.py:311
 msgid "[from %s to %s]"
 msgstr ""
 
-#: src/wingutils/datatype.py:327 src/wingutils/datatype.py:383
+#: src/wingutils/datatype.py:330 src/wingutils/datatype.py:386
 msgid "Value is type %s, should be tuple"
 msgstr ""
 
-#: src/wingutils/datatype.py:332
+#: src/wingutils/datatype.py:335
 msgid ""
 "Bad tuple item %i:\n"
 "%s"
 msgstr ""
 
-#: src/wingutils/datatype.py:337
+#: src/wingutils/datatype.py:340
 msgid "[tuple of: "
 msgstr ""
 
-#: src/wingutils/datatype.py:356
+#: src/wingutils/datatype.py:359
 #, fuzzy
 msgid "Value is type %s, should be set"
 msgstr "El valor debería ser None"
 
-#: src/wingutils/datatype.py:360
+#: src/wingutils/datatype.py:363
 msgid "Bad set item %s (should be %s)"
 msgstr ""
 
-#: src/wingutils/datatype.py:365
+#: src/wingutils/datatype.py:368
 msgid "[set of: "
 msgstr ""
 
-#: src/wingutils/datatype.py:385
+#: src/wingutils/datatype.py:388
 msgid "Value has length %i, should be %i"
 msgstr ""
 
-#: src/wingutils/datatype.py:389
+#: src/wingutils/datatype.py:392
 msgid ""
 "Bad tuple slot %i:\n"
 "%s"
 msgstr ""
 
-#: src/wingutils/datatype.py:398
+#: src/wingutils/datatype.py:401
 msgid "[tuple length %i of: %s]"
 msgstr ""
 
-#: src/wingutils/datatype.py:422
+#: src/wingutils/datatype.py:425
 msgid "Value is type %s, should be list"
 msgstr ""
 
-#: src/wingutils/datatype.py:426
+#: src/wingutils/datatype.py:429
 msgid ""
 "Bad list item %s:\n"
 "%s"
 msgstr ""
 
-#: src/wingutils/datatype.py:430
+#: src/wingutils/datatype.py:433
 msgid "[list of: "
 msgstr ""
 
-#: src/wingutils/datatype.py:455
+#: src/wingutils/datatype.py:458
 msgid "Value is %s, should be dict"
 msgstr ""
 
-#: src/wingutils/datatype.py:459 src/wingutils/datatype.py:574
+#: src/wingutils/datatype.py:462 src/wingutils/datatype.py:577
 msgid ""
 "Bad dictionary key %s:\n"
 "%s"
 msgstr ""
 
-#: src/wingutils/datatype.py:462 src/wingutils/datatype.py:577
+#: src/wingutils/datatype.py:465 src/wingutils/datatype.py:580
 msgid ""
 "Bad dictionary value %s:\n"
 "%s"
 msgstr ""
 
-#: src/wingutils/datatype.py:466
+#: src/wingutils/datatype.py:469
 msgid ", values: "
 msgstr ""
 
-#: src/wingutils/datatype.py:466
+#: src/wingutils/datatype.py:469
 msgid "[dict; keys: "
 msgstr ""
 
-#: src/wingutils/datatype.py:486
+#: src/wingutils/datatype.py:489
 msgid "[None or "
 msgstr ""
 
-#: src/wingutils/datatype.py:501
+#: src/wingutils/datatype.py:504
 msgid "[any value]"
 msgstr ""
 
-#: src/wingutils/datatype.py:517
+#: src/wingutils/datatype.py:520
 msgid "Value is a %s, should be a CResourceLocation"
 msgstr ""
 
-#: src/wingutils/datatype.py:520
+#: src/wingutils/datatype.py:523
 msgid "[Any resource location]"
 msgstr ""
 
-#: src/wingutils/datatype.py:537
+#: src/wingutils/datatype.py:540
 msgid "Value is a %s, should be a list of strings"
 msgstr ""
 
-#: src/wingutils/datatype.py:540
+#: src/wingutils/datatype.py:543
 msgid "Value contains non-string item in position %i"
 msgstr ""
 
-#: src/wingutils/datatype.py:544
+#: src/wingutils/datatype.py:547
 msgid "[list of str]"
 msgstr ""
 
-#: src/wingutils/datatype.py:570
+#: src/wingutils/datatype.py:573
 #, fuzzy
 msgid "Value is %s, should be CFileFilters"
 msgstr "El valor debería ser None"
 
-#: src/wingutils/datatype.py:581
+#: src/wingutils/datatype.py:584
 msgid "[file filters]"
 msgstr ""
 
-#: src/wingutils/datatype.py:596
+#: src/wingutils/datatype.py:599
 msgid "Value has type %s, should be string containing a #.#.#.# IP4 address\n"
 msgstr ""
 
-#: src/wingutils/datatype.py:600
+#: src/wingutils/datatype.py:603
 msgid "Value should be a #.#.#.# IP4 address"
 msgstr ""
 
-#: src/wingutils/datatype.py:606
+#: src/wingutils/datatype.py:609
 msgid "Value should be a #.#.#.# IP4 address but contains non-numeric parts"
 msgstr ""
 
-#: src/wingutils/datatype.py:627
+#: src/wingutils/datatype.py:630
 msgid "Icon should be IconReference but has type %s"
 msgstr ""
 
-#: src/wingutils/datatype.py:632
+#: src/wingutils/datatype.py:635
 msgid "Icon file does not exist"
 msgstr ""
 
-#: src/wingutils/datatype.py:634
+#: src/wingutils/datatype.py:637
 msgid "Icon file is a directory"
 msgstr ""
 
-#: src/wingutils/datatype.py:638
+#: src/wingutils/datatype.py:641
 msgid "Icon spec has type %s, should be string, unicode, or location"
 msgstr ""
 
-#: src/wingutils/datatype.py:641
+#: src/wingutils/datatype.py:644
 msgid ""
 "Icon spec string must start with wingide- for Wing icon or SP_ for Qt stock "
 "icon"
 msgstr ""
 
-#: src/wingutils/datatype.py:697
+#: src/wingutils/datatype.py:700
 msgid "Value is not a CResourceLocation: %s"
 msgstr ""
 
-#: src/wingutils/datatype.py:717
+#: src/wingutils/datatype.py:720
 msgid "Cannot convert text into a CResourceLocation: %s"
 msgstr ""
 
-#: src/wingutils/encoding_utils.py:62
+#: src/wingutils/encoding_utils.py:65
 msgid "English"
 msgstr "Inglés"
 
-#: src/wingutils/encoding_utils.py:63
+#: src/wingutils/encoding_utils.py:66
 msgid "US, Canada, and Others"
 msgstr "Estados Unidos, Canadá y otros"
 
-#: src/wingutils/encoding_utils.py:64 src/wingutils/encoding_utils.py:72
-#: src/wingutils/encoding_utils.py:76 src/wingutils/encoding_utils.py:91
-#: src/wingutils/encoding_utils.py:102
+#: src/wingutils/encoding_utils.py:67 src/wingutils/encoding_utils.py:75
+#: src/wingutils/encoding_utils.py:79 src/wingutils/encoding_utils.py:94
+#: src/wingutils/encoding_utils.py:105
 msgid "Hebrew"
 msgstr "Hebreo"
 
-#: src/wingutils/encoding_utils.py:65
+#: src/wingutils/encoding_utils.py:68
 msgid "US, Australia, New Zealand, S. Africa"
 msgstr "Estados Unidos, Australia, Nueva Zelanda, Sudáfrica"
 
-#: src/wingutils/encoding_utils.py:66 src/wingutils/encoding_utils.py:69
-#: src/wingutils/encoding_utils.py:85 src/wingutils/encoding_utils.py:88
-#: src/wingutils/encoding_utils.py:95 src/wingutils/encoding_utils.py:107
-#: src/wingutils/encoding_utils.py:114
+#: src/wingutils/encoding_utils.py:69 src/wingutils/encoding_utils.py:72
+#: src/wingutils/encoding_utils.py:88 src/wingutils/encoding_utils.py:91
+#: src/wingutils/encoding_utils.py:98 src/wingutils/encoding_utils.py:110
+#: src/wingutils/encoding_utils.py:117
 msgid "Western European"
 msgstr "Europeo occidental"
 
-#: src/wingutils/encoding_utils.py:67 src/wingutils/encoding_utils.py:80
-#: src/wingutils/encoding_utils.py:82 src/wingutils/encoding_utils.py:89
-#: src/wingutils/encoding_utils.py:101 src/wingutils/encoding_utils.py:111
+#: src/wingutils/encoding_utils.py:70 src/wingutils/encoding_utils.py:83
+#: src/wingutils/encoding_utils.py:85 src/wingutils/encoding_utils.py:92
+#: src/wingutils/encoding_utils.py:104 src/wingutils/encoding_utils.py:114
 msgid "Greek"
 msgstr "Griego"
 
-#: src/wingutils/encoding_utils.py:68 src/wingutils/encoding_utils.py:93
-#: src/wingutils/encoding_utils.py:98 src/wingutils/encoding_utils.py:105
+#: src/wingutils/encoding_utils.py:71 src/wingutils/encoding_utils.py:96
+#: src/wingutils/encoding_utils.py:101 src/wingutils/encoding_utils.py:108
 msgid "Baltic Languages"
 msgstr "Lenguas Bálticas"
 
-#: src/wingutils/encoding_utils.py:70 src/wingutils/encoding_utils.py:86
-#: src/wingutils/encoding_utils.py:96 src/wingutils/encoding_utils.py:113
+#: src/wingutils/encoding_utils.py:73 src/wingutils/encoding_utils.py:89
+#: src/wingutils/encoding_utils.py:99 src/wingutils/encoding_utils.py:116
 msgid "Central and Eastern European"
 msgstr "Macedonia oriental y Tracia"
 
-#: src/wingutils/encoding_utils.py:71 src/wingutils/encoding_utils.py:87
-#: src/wingutils/encoding_utils.py:99 src/wingutils/encoding_utils.py:110
+#: src/wingutils/encoding_utils.py:74 src/wingutils/encoding_utils.py:90
+#: src/wingutils/encoding_utils.py:102 src/wingutils/encoding_utils.py:113
 msgid "Cyrillic Languages"
 msgstr ""
 
-#: src/wingutils/encoding_utils.py:73 src/wingutils/encoding_utils.py:84
-#: src/wingutils/encoding_utils.py:90 src/wingutils/encoding_utils.py:103
-#: src/wingutils/encoding_utils.py:115
+#: src/wingutils/encoding_utils.py:76 src/wingutils/encoding_utils.py:87
+#: src/wingutils/encoding_utils.py:93 src/wingutils/encoding_utils.py:106
+#: src/wingutils/encoding_utils.py:118
 msgid "Turkish"
 msgstr "Turco"
 
-#: src/wingutils/encoding_utils.py:74
+#: src/wingutils/encoding_utils.py:77
 msgid "Portuguese"
 msgstr "Portugués"
 
-#: src/wingutils/encoding_utils.py:75
+#: src/wingutils/encoding_utils.py:78
 msgid "Icelandic"
 msgstr "Islandés"
 
-#: src/wingutils/encoding_utils.py:77
+#: src/wingutils/encoding_utils.py:80
 msgid "Canadian English/French"
 msgstr "Francés Canadiense/Francés"
 
-#: src/wingutils/encoding_utils.py:78 src/wingutils/encoding_utils.py:92
-#: src/wingutils/encoding_utils.py:100
+#: src/wingutils/encoding_utils.py:81 src/wingutils/encoding_utils.py:95
+#: src/wingutils/encoding_utils.py:103
 msgid "Arabic"
 msgstr "Árabe"
 
-#: src/wingutils/encoding_utils.py:79
+#: src/wingutils/encoding_utils.py:82
 msgid "Danish, Norwegian"
 msgstr "Danés, Noruego"
 
-#: src/wingutils/encoding_utils.py:81
+#: src/wingutils/encoding_utils.py:84
 msgid "Thai"
 msgstr "Tailandés"
 
-#: src/wingutils/encoding_utils.py:83
+#: src/wingutils/encoding_utils.py:86
 msgid "Urdu"
 msgstr "Urdu"
 
-#: src/wingutils/encoding_utils.py:94
+#: src/wingutils/encoding_utils.py:97
 msgid "Vietnamese"
 msgstr "Vietnamita"
 
-#: src/wingutils/encoding_utils.py:97
+#: src/wingutils/encoding_utils.py:100
 msgid "Esperanto and Maltese"
 msgstr "Esperanto y Maltés"
 
-#: src/wingutils/encoding_utils.py:104
+#: src/wingutils/encoding_utils.py:107
 msgid "Nordic Languages"
 msgstr "Lenguas Nórdicas"
 
-#: src/wingutils/encoding_utils.py:106
+#: src/wingutils/encoding_utils.py:109
 msgid "Celtic Languages"
 msgstr "Lenguas Celtas"
 
-#: src/wingutils/encoding_utils.py:108
+#: src/wingutils/encoding_utils.py:111
 msgid "Russian"
 msgstr "Ruso"
 
-#: src/wingutils/encoding_utils.py:109
+#: src/wingutils/encoding_utils.py:112
 msgid "Ukrainian"
 msgstr "Ucraniano"
 
-#: src/wingutils/encoding_utils.py:116
+#: src/wingutils/encoding_utils.py:119
 msgid "Unicode (UTF-16)"
 msgstr "UTF-16 Unicode"
 
-#: src/wingutils/encoding_utils.py:117
+#: src/wingutils/encoding_utils.py:120
 msgid "Unicode (UTF-16, big endian)"
 msgstr "Unicode 16 bits Endian Grande (UTF-16BE)"
 
-#: src/wingutils/encoding_utils.py:118
+#: src/wingutils/encoding_utils.py:121
 msgid "Unicode (UTF-16, little endian)"
 msgstr "Unicode 16 bits Endian Pequeña (UTF-16LE)"
 
-#: src/wingutils/encoding_utils.py:119
+#: src/wingutils/encoding_utils.py:122
 msgid "Unicode (UTF-7)"
 msgstr "Unicode (UTF-7)"
 
-#: src/wingutils/encoding_utils.py:120
+#: src/wingutils/encoding_utils.py:123
 msgid "Unicode (UTF-8)"
 msgstr "Unicode (UTF-8)"
 
-#: src/wingutils/encoding_utils.py:123 src/wingutils/encoding_utils.py:124
-#: src/wingutils/encoding_utils.py:125 src/wingutils/encoding_utils.py:126
-#: src/wingutils/encoding_utils.py:127
+#: src/wingutils/encoding_utils.py:126 src/wingutils/encoding_utils.py:127
+#: src/wingutils/encoding_utils.py:128 src/wingutils/encoding_utils.py:129
+#: src/wingutils/encoding_utils.py:130
 msgid "Chinese (PRC)"
 msgstr "Chino (PRC)"
 
-#: src/wingutils/encoding_utils.py:128 src/wingutils/encoding_utils.py:129
+#: src/wingutils/encoding_utils.py:131 src/wingutils/encoding_utils.py:132
 msgid "Chinese (ROC)"
 msgstr "Chino (ROC)"
 
-#: src/wingutils/encoding_utils.py:130 src/wingutils/encoding_utils.py:131
-#: src/wingutils/encoding_utils.py:132 src/wingutils/encoding_utils.py:133
-#: src/wingutils/encoding_utils.py:134 src/wingutils/encoding_utils.py:135
-#: src/wingutils/encoding_utils.py:136 src/wingutils/encoding_utils.py:137
-#: src/wingutils/encoding_utils.py:138 src/wingutils/encoding_utils.py:139
-#: src/wingutils/encoding_utils.py:140 src/wingutils/encoding_utils.py:141
-#: src/wingutils/encoding_utils.py:142
+#: src/wingutils/encoding_utils.py:133 src/wingutils/encoding_utils.py:134
+#: src/wingutils/encoding_utils.py:135 src/wingutils/encoding_utils.py:136
+#: src/wingutils/encoding_utils.py:137 src/wingutils/encoding_utils.py:138
+#: src/wingutils/encoding_utils.py:139 src/wingutils/encoding_utils.py:140
+#: src/wingutils/encoding_utils.py:141 src/wingutils/encoding_utils.py:142
+#: src/wingutils/encoding_utils.py:143 src/wingutils/encoding_utils.py:144
+#: src/wingutils/encoding_utils.py:145
 msgid "Japanese"
 msgstr "Japonés"
 
-#: src/wingutils/encoding_utils.py:143 src/wingutils/encoding_utils.py:144
-#: src/wingutils/encoding_utils.py:145
+#: src/wingutils/encoding_utils.py:146 src/wingutils/encoding_utils.py:147
+#: src/wingutils/encoding_utils.py:148
 msgid "Korean"
 msgstr "Coreano"
 
-#: src/wingutils/encoding_utils.py:148
+#: src/wingutils/encoding_utils.py:151
 msgid "Current code page (ansi/mbcs)"
 msgstr ""
 
-#: src/wingutils/encoding_utils.py:187
+#: src/wingutils/encoding_utils.py:190
 msgid "Also known as: "
 msgstr "También conocido como:"
 
-#: src/wingutils/fileattribmgr.py:32
+#: src/wingutils/fileattribmgr.py:35
 msgid ""
 "The mime type set for a file, when the user has overridden the default value "
 "for the file type."
 msgstr ""
 
-#: src/wingutils/fileattribmgr.py:42
+#: src/wingutils/fileattribmgr.py:45
 msgid ""
 "The encoding to use for this file, overriding the file system and default "
 "encoding.  The encoding cannot be changed if there is an encoding comment "
@@ -386,39 +386,35 @@ msgid ""
 "comment should be changed instead."
 msgstr ""
 
-#: src/wingutils/savable.py:771
+#: src/wingutils/savable.py:811
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: src/wingutils/textio.py:254 src/wingutils/textio.py:257
+#: src/wingutils/textio.py:257 src/wingutils/textio.py:260
 msgid "Invalid line %d"
 msgstr "línea inválida %d"
 
-#: src/wingutils/textio.py:261
+#: src/wingutils/textio.py:264
 msgid "Invalid name on line %d"
 msgstr "Nombre inválido en la línea %d"
 
-#: src/wingutils/textio.py:277
+#: src/wingutils/textio.py:280
 msgid "Invalid value on line %d"
 msgstr "Valor inválido en la línea %d"
 
-#: src/wingutils/textio.py:534
-msgid "Could not write to read-only file %s"
-msgstr "No se puede escribir en el fichero de solo lectura %s"
-
-#: src/wingutils/textio.py:988
+#: src/wingutils/textio.py:989
 msgid "Unknown value name %s"
 msgstr "Valor desconocido %s"
 
-#: src/wingutils/textio.py:1504
+#: src/wingutils/textio.py:1505
 msgid "Error in %s, line %d"
 msgstr "Error en %s, línea %d"
 
-#: src/wingutils/textio.py:1507
+#: src/wingutils/textio.py:1508
 msgid "Internal data error:"
 msgstr "Error interno de datos:"
 
-#: src/wingutils/textio.py:1509
+#: src/wingutils/textio.py:1510
 msgid "  Bad value is:"
 msgstr "El valor erróneo es:"
 
@@ -445,6 +441,9 @@ msgstr "ERROR"
 #: src/wingutils/usererror.py:176
 msgid "FATAL"
 msgstr "FATAL"
+
+#~ msgid "Could not write to read-only file %s"
+#~ msgstr "No se puede escribir en el fichero de solo lectura %s"
 
 #~ msgid "Mime Type"
 #~ msgstr "Tipo MIME"

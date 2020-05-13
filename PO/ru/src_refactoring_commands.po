@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_refactoring_commands\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 10:01+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2018-03-14 21:01+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Written by Stephan R.A. Deibel and John P. Ehresman\n"
 "\n"
 
-#: src/refactoring/commands.py:47
+#: src/refactoring/commands.py:55
 msgid ""
 " Rename currently selected symbol.  The new_name argument is used as the\n"
 "    default for the name field if specified.  Aternatively, the transform "
@@ -51,14 +51,14 @@ msgstr ""
 "     under-lower для under_scored_name, или under-upper для "
 "UNDER_SCORED_NAME."
 
-#: src/refactoring/commands.py:103
+#: src/refactoring/commands.py:122
 msgid ""
 " Rename last symbol clicked.  See rename_symbol for details on arguments."
 msgstr ""
 "Переименовать последний символ. Подробнее о аргументах см. В файле "
 "rename_symbol."
 
-#: src/refactoring/commands.py:111
+#: src/refactoring/commands.py:130
 msgid ""
 " Move the currently selected symbol to another module, class, \n"
 "    or function.  The new_filename and new_scope_name arguments are used\n"
@@ -69,12 +69,12 @@ msgstr ""
 "    значений по умолчанию в полях Имя файла и имя области, \n"
 "    если они указаны. "
 
-#: src/refactoring/commands.py:132
+#: src/refactoring/commands.py:151
 msgid " Move last symbol clicked to another module, class, or function. "
 msgstr ""
 " Переместить последнее обозначение в другой модуль, класс или функцию. "
 
-#: src/refactoring/commands.py:140
+#: src/refactoring/commands.py:159
 msgid ""
 " Returns the active editor and line range selected.  Returns \n"
 "    None, (-1, -1) if nothing is selected. "
@@ -82,7 +82,7 @@ msgstr ""
 "Возвращает активный редактор и диапазон строк. Возвращает\n"
 "    None, (-1, -1), если ничего не выбрано."
 
-#: src/refactoring/commands.py:157
+#: src/refactoring/commands.py:176
 msgid ""
 " Extract selected lines to a new function or method.  The new_name\n"
 "    argument is used as the default for the name field if specified. "
@@ -91,7 +91,7 @@ msgstr ""
 "     Аргумент new_name используется как значение по умолчанию \n"
 "     для поля имени, если оно указано."
 
-#: src/refactoring/commands.py:171
+#: src/refactoring/commands.py:190
 msgid ""
 " Only check for a non-blank lines; more expensive tests are done\n"
 "    later. "
@@ -99,7 +99,7 @@ msgstr ""
 " Проверять только непустые строки; более ресурсоемкие тесты выполняются "
 "позже. "
 
-#: src/refactoring/commands.py:186
+#: src/refactoring/commands.py:205
 msgid ""
 " Introduce named variable set to the current selected expression or\n"
 "    to the range in the active editor specified by pos_range.  The new_name\n"

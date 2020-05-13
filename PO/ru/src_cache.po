@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: src_cache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 11:46+EDT\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
 "PO-Revision-Date: 2018-03-14 21:23+0300\n"
 "Last-Translator: alexandr\n"
 "Language-Team: Russian\n"
@@ -17,39 +17,39 @@ msgstr ""
 "X-Loco-Project-Id: 44100\n"
 "X-Loco-Api-Version: 1.0.18 20180307-1\n"
 
-#: src/cache/manager.py:54
+#: src/cache/manager.py:53
 msgid "Some files failed to read from disk:"
 msgstr ""
 
-#: src/cache/manager.py:57
+#: src/cache/manager.py:56
 msgid "Error"
 msgstr ""
 
-#: src/cache/manager.py:57
+#: src/cache/manager.py:56
 msgid "File"
 msgstr ""
 
-#: src/cache/manager.py:65
+#: src/cache/manager.py:64
 msgid "_OK"
 msgstr ""
 
-#: src/cache/manager.py:68
+#: src/cache/manager.py:67
 msgid "Read Failure"
 msgstr ""
 
-#: src/cache/textcache.py:385
+#: src/cache/textcache.py:414
 msgid "Failed to read %s:  %s"
 msgstr "Не удалось прочитать %s: %s"
 
-#: src/cache/textcache.py:451
+#: src/cache/textcache.py:486
 msgid "Could not read file due to remote agent abort"
 msgstr "Не удалось прочитать файл из-за прерывания удаленного агента"
 
-#: src/cache/textcache.py:562
+#: src/cache/textcache.py:584
 msgid "Codec not found"
 msgstr "Кодек не найден"
 
-#: src/cache/textcache.py:563
+#: src/cache/textcache.py:585
 msgid ""
 "Could not convert file %s when reading it -- the codec for the '%s' text "
 "encoding could not be found.  Trying default encoding '%s' instead."
@@ -58,11 +58,11 @@ msgstr ""
 "кодировки '%s' не найден.  Вместо этого используется Кодировка по умолчанию "
 "'%s'."
 
-#: src/cache/textcache.py:586
+#: src/cache/textcache.py:608
 msgid "Could not convert from encoding"
 msgstr "Не удалось преобразовать из кодировки"
 
-#: src/cache/textcache.py:587
+#: src/cache/textcache.py:609
 msgid ""
 "Could not convert all characters in %s when reading it as a %s encoded "
 "file.  Replacing unmappable characters with ?'s so saving the file may "
@@ -76,11 +76,11 @@ msgstr ""
 "файле и установить кодировку в свойствах файла, или открыть его после "
 "изменения исправив в предпочтениях Файлы/Кодировка по умолчанию."
 
-#: src/cache/textcache.py:602
+#: src/cache/textcache.py:624
 msgid "Could not convert any characters in file"
 msgstr "Не удалось преобразовать символы в файле"
 
-#: src/cache/textcache.py:603
+#: src/cache/textcache.py:625
 msgid ""
 "Failed to convert any characters in %s when reading it as a %s encoded "
 "file.  Reading it as a latin-1 encoded file instead which will probably "
@@ -94,11 +94,11 @@ msgstr ""
 "файле и установить кодировку в свойствах файла или снова открыть его после "
 "изменения предпочтения Файлы/Кодировка  по умолчанию."
 
-#: src/cache/textcache.py:613
+#: src/cache/textcache.py:635
 msgid "Could not read file"
 msgstr "Не удалось прочитать файл"
 
-#: src/cache/textcache.py:614
+#: src/cache/textcache.py:636
 msgid ""
 "Read failed because characters could not be read in %s when reading it as a "
 "%s encoded file."
@@ -106,7 +106,7 @@ msgstr ""
 "Ошибка чтения из-за невозможности чтения символов в %s при чтении файла в "
 "кодировке %s."
 
-#: src/cache/textcache.py:773
+#: src/cache/textcache.py:797
 msgid ""
 "Unsupported encoding '%s' found in encoding comment -- Wing cannot write "
 "this file until the comment is changed"
@@ -114,19 +114,19 @@ msgstr ""
 "Неподдерживаемая Кодировка '%s' найдена в encoding comment -- Wing не может "
 "записать этот файл, пока комментарий не будет изменен"
 
-#: src/cache/textcache.py:824
+#: src/cache/textcache.py:848
 msgid "Could not convert text \"%s\" on line %d to the %s encoding"
 msgstr "Не удалось преобразовать текст '%s' в строке %d в кодировку %s"
 
-#: src/cache/textcache.py:827
+#: src/cache/textcache.py:851
 msgid "Could not convert file contents to the %s encoding"
 msgstr "Не удалось преобразовать содержимое файла в кодировку %s"
 
-#: src/cache/textcache.py:909
+#: src/cache/textcache.py:938
 msgid "General write error"
 msgstr "Общая ошибка записи"
 
-#: src/cache/textcache.py:1074
+#: src/cache/textcache.py:1105
 msgid "Encoding of %s changed to %s"
 msgstr "Кодировка %s изменена на %s"
 
